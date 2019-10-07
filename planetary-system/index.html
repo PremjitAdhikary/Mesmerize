@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" href="../favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="../appstyle.css">
+  <script src="../components/app-header.js"></script>
+  <script src="../components/sketch-text.js" type="module"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.js"></script>
+  <script src="./sketch.js"></script>
+  <script src="../common/utilities.js"></script>
+  <script src="../common/sketch-colors.js"></script>
+  <script src="./celestial.js"></script>
+  <script src="./ringed-celestial.js"></script>
+  <title>Planetary System - 2D</title>
+</head>
+<body>
+  <div class="toplevel">
+    <app-header class="heading"></app-header>
+    <div class="topbody">
+      <div class="container-no-control">
+          <div class="sketch">
+            <div id="sketch-holder" class="sketch-holder clickable">
+            </div>
+          </div>
+          <sketch-text class="description-no-control" pageid="10003">
+            <div slot="content">
+              <p>
+                Of course I wanted to simulate Solar System.
+              </p>
+              <p>
+                Unlike our System though, this just has 5 planets revolving around its "Sun".
+              </p>
+              <p>
+                Each planet has anything from 1 to it's-own-position-in-the-system number of 
+                moon(s). The moons are those little white dots!
+              </p>
+              <p>
+                There's a 50% chance that you get to see a Saturn like sizth planet at the edge of 
+                the system.
+              </p>
+            </div>
+            <div slot="source">
+              <p>
+                Another great <a href="https://www.youtube.com/watch?v=l8SiJ-RmeHU" target="_blank">
+                video</a> by Daniel Shiffman.
+              </p>
+            </div>
+          </sketch-text>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

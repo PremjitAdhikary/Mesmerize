@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" href="../favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="../appstyle.css">
+  <link rel="stylesheet" href="./compstyle.css">
+  <script src="../components/app-header.js"></script>
+  <script src="../components/sketch-text.js" type="module"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.js"></script>
+  <script src="./sketch.js"></script>
+  <script src="../common/sketch-colors.js"></script>
+  <script src="../components/range-input.js"></script>
+  <script src="./control.js" type="module"></script>
+  <title>Lissajous Curve</title>
+</head>
+<body>
+  <div class="toplevel">
+    <app-header class="heading"></app-header>
+    <div class="topbody">
+      <div class="container">
+          <div class="sketch">
+            <div id="sketch-holder" class="sketch-holder">
+            </div>
+          </div>
+          <div class="control">
+            <div class="control-container">
+              <p class="const_a">
+                <label for="const_a">a: </label>
+                <range-input min="1" max="10" id="const_a"></range-input>
+              </p>
+              <p class="const_b">
+                <label for="const_b">b: </label>
+                <range-input min="1" max="10" id="const_b"></range-input>
+              </p>
+              <p class="size_A">
+                <label for="size_A">A: </label>
+                <range-input min="1" max="200" id="size_A"></range-input>
+              </p>
+              <p class="size_B">
+                <label for="size_B">B: </label>
+                <range-input min="1" max="200" id="size_B"></range-input>
+              </p>
+            </div>
+          </div>
+          <sketch-text class="description" pageid="10001">
+            <div slot="content">
+              <p>
+                <a href="https://en.wikipedia.org/wiki/Lissajous_curve" target="_blank">Wikipedia</a> 
+                Definition: In mathematics, a Lissajous curve, also known as Lissajous figure or 
+                Bowditch curve, is the graph of a system of parametric equations.
+              </p>
+              <p>
+                x = A sin(at+d), y = B sin(bt)
+              </p>
+              <ul>
+                <li>A and B are amplitudes in the x and y directions</li>
+                <li>a and b are constants</li>
+                <li>d is a phase angle</li>
+              </ul>
+              <p>
+                In this graph, d is constantly changing (for the animation effect) while the other 
+                parameters can be changed to see how the graph is affected.
+              </p>
+            </div>
+            <div slot="source">
+              <p>
+                While searching for material on Lissajous Curve I came across this on <a 
+                href="https://academo.org/demos/lissajous-curves/" target="_blank">Academo</a>. It has 
+                a far detailed explanation on the curve than what we have here.
+              </p>
+            </div>
+          </sketch-text>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

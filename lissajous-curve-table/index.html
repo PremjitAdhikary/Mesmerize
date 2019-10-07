@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" href="../favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="../appstyle.css">
+  <script src="../components/app-header.js"></script>
+  <script src="../components/sketch-text.js" type="module"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.js"></script>
+  <script src="./sketch.js"></script>
+  <script src="./curve.js"></script>
+  <script src="./guide.js"></script>
+  <script src="../common/sketch-colors.js"></script>
+  <script src="../common/utilities.js"></script>
+  <script src="../components/range-input.js"></script>
+  <script src="./control.js" type="module"></script>
+  <title>Lissajous Curve Table</title>
+</head>
+<body>
+  <div class="toplevel">
+    <app-header class="heading"></app-header>
+    <div class="topbody">
+      <div class="container">
+          <div class="sketch">
+            <div id="sketch-holder" class="sketch-holder">
+            </div>
+          </div>
+          <div class="control">
+            <p>
+              <label for="tableSize">Curves: </label>
+              <range-input min="5" max="12" id="tableSize"></range-input>
+            </p>
+            <p>
+              <label for="angleSpeed">Speed: </label>
+              <range-input min="2" max="10" id="angleSpeed"></range-input>
+            </p>
+          </div>
+          <sketch-text class="description" pageid="10002">
+            <div slot="content">
+              <p>
+                While the previous example we had a curve which is manipulated by a shifting phase, 
+                here we compare multiple curves with the same phase (of PI/2) but varying constants.
+              </p>
+              <p>So what's the idea here?</p>
+              <p>
+                We will start with a row of circles on the top and a column of circles at the side.
+              </p>
+              <p>
+                Each of these circles is a path of a point which runs on it at various speed of 
+                a particular ratio. For example if the first point travels at speed s, the next at 
+                2s, then 3s and so on.
+              </p>
+              <p>The different speed represents the constants in the equation.</p>
+              <p>
+                Now, as the point travels on the circular path, if we draw lines (vertical for the 
+                points on the top row circular paths and horizontal for points on the leftmost column 
+                paths), they will look line oscillating lines at different speed.
+              </p>
+              <p>
+                Next we take the point of intersection of each pair of vertical and horizontal lines 
+                and trace the path it takes.
+              </p>
+              <p>
+                This traced path gives us the famed Lissajous Curve.
+              </p>
+            </div>
+            <div slot="source">
+              <p>
+                This awesome <a href="https://www.youtube.com/watch?v=--6eyLO78CY" target="_blank">
+                video</a> by Daniel Shiffman
+              </p>
+            </div>
+          </sketch-text>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

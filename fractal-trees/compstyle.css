@@ -1,0 +1,19 @@
+.control-container {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas:
+    "choice choice_control";
+}
+.choice {
+  grid-area: choice;
+}
+.choice_control {
+  grid-area: choice_control;
+}
+.lsystem_control {
+  height: 75%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}

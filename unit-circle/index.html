@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" href="../favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="../appstyle.css">
+  <script src="../components/app-header.js"></script>
+  <script src="../components/sketch-text.js" type="module"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.js"></script>
+  <script src="./sketch.js"></script>
+  <script src="../common/sketch-colors.js"></script>
+  <script src="../common/utilities.js"></script>
+  <script src="../components/radio-input-group.js"></script>
+  <script src="control.js" type="module"></script>
+  <title>Unit Circle</title>
+</head>
+<body>
+  <div class="toplevel">
+    <app-header class="heading"></app-header>
+    <div class="topbody">
+      <div class="container">
+          <div class="sketch">
+            <div id="sketch-holder" class="sketch-holder">
+            </div>
+          </div>
+          <div class="control">
+            <radio-group id="choice">
+              <radio-button value="1" aria-checked="true">Sin</radio-button>
+              <radio-button value="2">Cos</radio-button>
+              <radio-button value="3">Both</radio-button>
+            </radio-group>
+          </div>
+          <sketch-text class="description" pageid="10005">
+            <div slot="content">
+              <p>
+                From <a href="https://en.wikipedia.org/wiki/Unit_circle" target="_blank">
+                Wikipedia:</a> In mathematics, a unit circle is a circle with unit radius.
+              </p>
+              <p>
+                Trigonometric functions sine and cosine of an angle θ can be defined on a Unit Circle.
+              </p>
+              <p>Let (x,y) be a point on the Unit Circle.</p>
+              <p>Let θ be the angle the ray from (0,0) to (x,y) makes with +ve x-axis.</p>
+              <p>Then we have:</p>
+              <ul>
+                <li>cos θ = x</li>
+                <li>sin θ = y</li>
+              </ul>
+              <p>
+                As a lot of the animations on this site will be based on sin and cosine functions, it 
+                was elementary that I did a Unit Circle animation with those curves.
+              </p>
+            </div>
+            <div slot="source">
+              <p>
+                <a href="https://www.mathsisfun.com/algebra/trig-interactive-unit-circle.html" 
+                  target="_blank">Maths is fun</a>.
+              </p>
+            </div>
+          </sketch-text>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

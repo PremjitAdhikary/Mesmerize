@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" href="../favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="../appstyle.css">
+  <link rel="stylesheet" href="./compstyle.css">
+  <script src="../components/app-header.js"></script>
+  <script src="../components/sketch-text.js" type="module"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.js"></script>
+  <script src="./sketch.js"></script>
+  <script src="../common/sketch-colors.js"></script>
+  <script src="../common/utilities.js"></script>
+  <script src="../components/range-input.js"></script>
+  <script src="../components/radio-input-group.js"></script>
+  <script src="control.js" type="module"></script>
+  <title>Change This</title>
+</head>
+<body>
+  <div class="toplevel">
+    <app-header class="heading"></app-header>
+    <div class="topbody">
+      <div class="container">
+          <div class="sketch">
+            <div id="sketch-holder" class="sketch-holder">
+            </div>
+          </div>
+
+          <div class="control">
+            <div class="control-container">
+              <div class="choices">
+                <p>
+                  <radio-group id="choice_radio">
+                    <radio-button value="1" aria-checked="true">Enable Radios</radio-button>
+                    <radio-button value="2">Disable Radios</radio-button>
+                  </radio-group>
+                </p>
+                <p>
+                  <radio-group id="choice_slider">
+                    <radio-button value="1" id="radio_enable" aria-checked="true">Enable Sliders</radio-button>
+                    <radio-button value="2" id="radio_disable">Disable Sliders</radio-button>
+                  </radio-group>
+                </p>
+              </div>
+              <div class="sliders">
+                <p>
+                  <label for="onclick_slider">onclick: </label>
+                  <range-input min="0" max="10" id="onclick_slider"></range-input>
+                </p>
+                <p>
+                  <label for="onchange_slider">onchange: </label>
+                  <range-input min="0" max="10" id="onchange_slider"></range-input>
+                </p>
+                <p>
+                  <label for="onchange_step_slider">onchangestep: </label>
+                  <range-input min="0" max="20" step="2" id="onchange_step_slider"></range-input>
+                </p>
+              </div>
+              <div class="variable_slider">
+                <p>
+                  <label for="variable_slider">variable: </label>
+                  <range-input id="variable_slider">
+                </p>
+                <p>
+                  <span class="btn" id="min_minus">min-10</span>
+                  <span class="btn" id="min_plus">min+10</span>
+                  <span class="btn" id="max_minus">max-10</span>
+                  <span class="btn" id="max_plus">max+10</span>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <sketch-text class="description" pageid="????">
+            <div slot="content">
+              <p>
+                Add Content here.
+              </p>
+              <p>
+                The control has demo of different controls available and how it interacts with 
+                sketch canvas.
+              </p>
+            </div>
+            <div slot="source">
+              <p>
+                Add Sources here.
+              </p>
+            </div>
+          </sketch-text>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

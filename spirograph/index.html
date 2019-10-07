@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" href="../favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="../appstyle.css">
+  <script src="../components/app-header.js"></script>
+  <script src="../components/sketch-text.js" type="module"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.js"></script>
+  <script src="./sketch.js"></script>
+  <script src="../common/utilities.js"></script>
+  <script src="./circle.js"></script>
+  <script src="../common/sketch-colors.js"></script>
+  <script src="../components/range-input.js"></script>
+  <script src="./control.js" type="module"></script>
+  <title>Spirograph</title>
+</head>
+<body>
+  <div class="toplevel">
+    <app-header class="heading"></app-header>
+    <div class="topbody">
+      <div class="container">
+          <div class="sketch">
+            <div id="sketch-holder" class="sketch-holder clickable">
+            </div>
+          </div>
+          <div class="control">
+            <label for="number_of_circles">Levels: </label>
+            <range-input min="1" max="20" id="number_of_circles"></range-input>
+          </div>
+          <sketch-text class="description" pageid="10004">
+            <div slot="content">
+              <p>
+                There's something pleasing about circles circling other circles.
+              </p>
+            </div>
+            <div slot="source">
+              <p>
+                Straight from a p5js example <a 
+                href="https://p5js.org/examples/simulate-spirograph.html" target="_blank">example</a>.
+              </p>
+            </div>
+          </sketch-text>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

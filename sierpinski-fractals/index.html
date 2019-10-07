@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" href="../favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="../appstyle.css">
+  <script src="../components/app-header.js"></script>
+  <script src="../components/sketch-text.js" type="module"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.js"></script>
+  <script src="./sketch.js"></script>
+  <script src="../common/sketch-colors.js"></script>
+  <script src="../common/utilities.js"></script>
+  <script src="../components/radio-input-group.js"></script>
+  <script src="./triangle-unit.js"></script>
+  <script src="./square-unit.js"></script>
+  <script src="./sierpinski-triangle.js"></script>
+  <script src="./sierpinski-carpet.js"></script>
+  <script src="./sierpinski-gasket.js"></script>
+  <script src="control.js" type="module"></script>
+  <title>Sierpinski Fractals</title>
+</head>
+<body>
+  <div class="toplevel">
+    <app-header class="heading"></app-header>
+    <div class="topbody">
+      <div class="container">
+          <div class="sketch">
+            <div id="sketch-holder" class="sketch-holder clickable">
+            </div>
+          </div>
+          <div class="control">
+            <radio-group id="choice">
+              <radio-button value="1" aria-checked="true">Sierpinski Triangle</radio-button>
+              <radio-button value="2">Sierpinski Triangle - With Squares</radio-button>
+              <radio-button value="3">Sierpinski Carpet</radio-button>
+              <radio-button value="4">Sierpinski Gasket</radio-button>
+              <radio-button value="5">Sierpinski Gasket - With Guide</radio-button>
+            </radio-group>
+          </div>
+          <sketch-text class="description" pageid="10009">
+            <div slot="content">
+              <p>
+                <strong>Sierpinski Fractals</strong> are decorative patterns which can be achieved 
+                by repeating the base pattern at different size.
+              </p>
+              <p>
+                <strong>Sierpinski Triangle:</strong><br>
+                Most Basic example where start with a triangle. Then have 3 shrunk triangles half 
+                it's side take it's place and so on.
+              </p>
+              <p>
+                <strong>Sierpinski Triangle - With Squares:</strong><br>
+                Instead of triangle, we start with a Square. Then replace it with 3 smaller squares 
+                of half it's sides, two beside each other and 1 on top of them bang in the middle.
+              </p>
+              <p>
+                <strong>Sierpinski Carpet:</strong><br>
+                Again, we start with a Square. But instead of 3, we replace it with 8 smaller squares, 
+                one third of its length. The middle is kept hollow.
+              </p>
+              <p>
+                <strong>Sierpinski Gasket:</strong><br>
+                Instead of shapes, here we use curve to create the shape. It is formed by a process 
+                of repeated modification of simpler curves, analogous to the construction of the 
+                Koch snowflake.
+              </p>
+            </div>
+            <div slot="source">
+              <p>
+                Found them while reading up fractals on <a target="_blank" 
+                href="https://en.wikipedia.org/wiki/Sierpi%C5%84ski_triangle">Wikipedia</a>.
+              </p>
+            </div>
+          </sketch-text>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

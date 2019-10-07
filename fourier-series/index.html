@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" href="../favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="../appstyle.css">
+  <link rel="stylesheet" href="./compstyle.css">
+  <script src="../components/app-header.js"></script>
+  <script src="../components/sketch-text.js" type="module"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.js"></script>
+  <script src="./sketch.js"></script>
+  <script src="../common/sketch-colors.js"></script>
+  <script src="../common/utilities.js"></script>
+  <script src="../components/range-input.js"></script>
+  <script src="../components/radio-input-group.js"></script>
+  <script src="control.js" type="module"></script>
+  <title>Fourier Series</title>
+</head>
+<body>
+  <div class="toplevel">
+    <app-header class="heading"></app-header>
+    <div class="topbody">
+      <div class="container">
+          <div class="sketch">
+            <div id="sketch-holder" class="sketch-holder">
+            </div>
+          </div>
+          <div class="control">
+            <div class="control-container">
+              <div class="choice">
+                <radio-group id="choice">
+                  <radio-button value="1" aria-checked="true">Square Wave</radio-button>
+                  <radio-button value="2">Sawtooth</radio-button>
+                  <radio-button value="3">Pulse</radio-button>
+                  <radio-button value="4">Triangle</radio-button>
+                </radio-group>
+              </div>
+              <div class="number">
+                <label for="number">Levels: </label>
+                <range-input min="2" max="20" id="number"></range-input>
+              </div>
+            </div>
+          </div>
+          <sketch-text class="description" pageid="10006">
+            <div slot="content">
+              <p>
+                A Fourier series is a periodic function composed of harmonically related sinusoids, 
+                combined by a weighted summation. That's <a target="_blank" 
+                href="https://en.wikipedia.org/wiki/Fourier_series">Wikipedia</a> by the way.
+              </p>
+              <p>
+                Essentially, it is a sum of multiple sin (or cosine) waves of various amplitudes 
+                and/or frequencies.
+              </p>
+              <p>Few series depicted here.</p>
+              <p>
+                <strong>Square Wave Series:</strong><br>
+                &nbsp;C<em>sin</em>(x) + C<em>sin</em>(3x)/3 +C<em>sin</em>(5x)/5 + ...
+              </br>
+              <p>
+                <strong>Sawtooth Series:</strong><br>
+                &nbsp;C<em>sin</em>(x) + C<em>sin</em>(2x)/2 +C<em>sin</em>(3x)/3 + ...
+              </p>
+              <p>
+                <strong>Pulse Series:</strong><br>
+                &nbsp;C<em>sin</em>(x) + C<em>sin</em>(2x) +C<em>sin</em>(3x) + ...
+              </p>
+              <p>
+                <strong>Triangle Series:</strong><br>
+                &nbsp;C<em>sin</em>(x) - C<em>sin</em>(3x)/9 +C<em>sin</em>(5x)/25 + ...
+              </p>
+            </div>
+            <div slot="source">
+              <p>
+                All started with this <a href="https://www.youtube.com/watch?v=Mm2eYfj0SgA" 
+                target="_blank">video</a> by Daniel Shiffman.
+              </p>
+              <p>
+                <a href="https://www.mathsisfun.com/calculus/fourier-series.html" 
+                target="_blank">Maths is Fun</a> is another place where I got inspired for 
+                the other Waves.
+              </p>
+            </div>
+          </sketch-text>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

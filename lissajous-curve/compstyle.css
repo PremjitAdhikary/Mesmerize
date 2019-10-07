@@ -1,0 +1,21 @@
+.control-container {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+    "const_a size_A"
+    "const_b size_B";
+}
+.const_a {
+  grid-area: const_a;
+}
+.const_b {
+  grid-area: const_b;
+}
+.size_A {
+  grid-area: size_A;
+}
+.size_B {
+  grid-area: size_B;
+}

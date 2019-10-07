@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" href="../favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="../appstyle.css">
+  <script src="../components/app-header.js"></script>
+  <script src="../components/sketch-text.js" type="module"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.js"></script>
+  <script src="./sketch.js"></script>
+  <script src="control.js" type="module"></script>
+  <script src="../components/radio-input-group.js"></script>
+  <script src="../common/sketch-colors.js"></script>
+  <script src="../common/utilities.js"></script>
+  <script src="./base-cantor.js"></script>
+  <script src="./cantor-set.js"></script>
+  <script src="./cantor-set-lines.js"></script>
+  <script src="./vicsek-snowflake.js"></script>
+  <script src="./koch-line.js"></script>
+  <script src="./minkowski-line.js"></script>
+  <script src="./base-koch-curve.js"></script>
+  <script src="./koch-curve.js"></script>
+  <script src="./koch-snowflake.js"></script>
+  <script src="./koch-anti-snowflake.js"></script>
+  <script src="./cesaro-anti-snowflake.js"></script>
+  <script src="./base-minkowski-curve.js"></script>
+  <script src="./minkowski-curve.js"></script>
+  <script src="./minkowski-snowflake.js"></script>
+  <title>More Fractals</title>
+</head>
+<body>
+  <div class="toplevel">
+    <app-header class="heading"></app-header>
+    <div class="topbody">
+      <div class="container">
+          <div class="sketch">
+            <div id="sketch-holder" class="sketch-holder clickable">
+            </div>
+          </div>
+          <div class="control">
+              <radio-group id="choice">
+                <radio-button value="1" aria-checked="true">Cantor Set - Basic</radio-button>
+                <radio-button value="2">Cantor Set - Perpendicular Lines</radio-button>
+                <radio-button value="3">Vicsek Snowflake - Cantor Set with Crosses</radio-button>
+                <radio-button value="4">Koch Curve</radio-button>
+                <radio-button value="5">Koch Snowflake - closed Koch Curve</radio-button>
+                <radio-button value="6">Koch Anti Snowflake - inverted Koch Curve</radio-button>
+                <radio-button value="7">Cesaro Anti Snowflake - another inverted Koch Curve</radio-button>
+                <radio-button value="8">Minkowski Curve</radio-button>
+                <radio-button value="9">Minkowski Snowflake</radio-button>
+              </radio-group>
+          </div>
+          <sketch-text class="description" pageid="10008">
+            <div slot="content">
+              <p>A noteworthy bunch of fractals.</p>
+              <p>
+                <strong>Cantor Set:</strong><br>
+                From <a href="https://en.wikipedia.org/wiki/Cantor_set" target="_blank">
+                Wikipedia</a>, The Cantor set is a set of points lying on a single line segment that 
+                has a number of remarkable and deep properties. The most common modern construction 
+                is the Cantor ternary set, built by removing the middle third of a line segment and 
+                then repeating the process with the remaining shorter segments.
+              </p>
+              <p>
+                <strong>Cantor Set Variation with Perpendicular Lines:</strong><br>
+                The idea is to attach the smaller segments to the 2 ends at right angles.
+              </p>
+              <p>
+                <strong>Vicsek Snowflake:</strong><br>
+                Start with a big cross and have 5 smaller crosses on it at North, South, East, West 
+                and Center. Next have 5 on each of those smaller crosses and so on.
+              </p>
+              <p>
+                <strong>Koch Curve:</strong><br>
+                Start with a single line. Divide into 3 segments. Draw an equilateral triangle with 
+                the middle segment as base. Remove the base. Now repeat the step for each of the 
+                four segments. Keep repeating.
+              </p>
+              <p>
+                <strong>Koch Snowflake:</strong><br>
+                Start with an equilateral triangle. Draw Koch curve for each of the sides.
+              </p>
+              <p>
+                <strong>Koch Anti Snowflake:</strong><br>
+                Instead of sawtooth outwards, here it's inwards.
+              </p>
+              <p>
+                <strong>Cesaro Anti Snowflake:</strong><br>
+                Another variant of the Koch curve starting with 4 sides.
+              </p>
+              <p>
+                <strong>Minkowski Curve:</strong><br>
+                Minkowski Curve <em>aka</em> Minkowski Sausage, has the lines broken into 7 segments. 
+                The segments are perpendicular to each other.
+              </p>
+              <p>
+                <strong>Minkowski Snowflake:</strong><br>
+                Minkowski Snowflake <em>aka</em> Minkowski Island, starts with 4 sides.
+              </p>
+            </div>
+            <div slot="source">
+              <p>
+                <a href="https://natureofcode.com/book/chapter-8-fractals/" target="_blank">Nature 
+                of Code</a> series has a couple of these.
+              </p>
+              <p>
+                <a href="https://en.wikipedia.org/wiki/Koch_snowflake" target="_blank">
+                Wikipedia</a> as usual.
+              </p>
+            </div>
+          </sketch-text>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

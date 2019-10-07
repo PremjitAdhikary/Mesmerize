@@ -1,0 +1,14 @@
+.control-container {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas:
+    "choice number";
+}
+.choice {
+  grid-area: choice;
+}
+.number {
+  grid-area: number;
+}

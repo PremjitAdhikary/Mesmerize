@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" href="../favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="../appstyle.css">
+  <link rel="stylesheet" href="./compstyle.css">
+  <script src="../components/app-header.js"></script>
+  <script src="../components/sketch-text.js" type="module"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.js"></script>
+  <script src="./sketch.js"></script>
+  <script src="../common/sketch-colors.js"></script>
+  <script src="../common/utilities.js"></script>
+  <script src="../components/radio-input-group.js"></script>
+  <script src="../components/range-input.js"></script>
+  <script src="./branch.js"></script>
+  <script src="./random-branch.js"></script>
+  <script src="./lsystem.js"></script>
+  <script src="./all-systems.js"></script>
+  <script src="control.js" type="module"></script>
+  <title>Fractal Trees</title>
+</head>
+<body>
+  <div class="toplevel">
+    <app-header class="heading"></app-header>
+    <div class="topbody">
+      <div class="container">
+          <div class="sketch">
+            <div id="sketch-holder" class="sketch-holder">
+            </div>
+          </div>
+
+          <div class="control">
+            <div class="control-container">
+              <radio-group id="choice">
+                <radio-button value="1" aria-checked="true">Binary Tree</radio-button>
+                <radio-button value="2">Random Tree</radio-button>
+                <radio-button value="3">L System</radio-button>
+              </radio-group>
+              <div id="bin_control" class="choice_control">
+                <p>
+                  <label for="bin_angle">Angle: </label>
+                  <range-input min="0" max="180" id="bin_angle"></range-input>
+                </p>
+                <p>
+                  <label for="bin_level">Level: </label>
+                  <range-input min="2" max="10" id="bin_level"></range-input>
+                </p>
+              </div>
+              <div id="random_control" class="choice_control">
+                <p>
+                  <label for="random_angle">Angle: </label>
+                  <range-input min="0" max="180" id="random_angle"></range-input>
+                </p>
+                <p>
+                  <label for="random_branches">Branches: </label>
+                  <range-input min="2" max="5" id="random_branches"></range-input>
+                </p>
+                <p>
+                  <span class="btn" id="drawBtn">Draw Another</span>
+                </p>
+              </div>
+              <div id="lsystem_control" class="choice_control">
+                <radio-group id="lsystem_choice" class="lsystem_control">
+                  <radio-button value="1" aria-checked="true">One</radio-button>
+                  <radio-button value="2">Two</radio-button>
+                  <radio-button value="3">Three</radio-button>
+                  <radio-button value="4">Four</radio-button>
+                  <radio-button value="5">Five</radio-button>
+                  <radio-button value="6">Six</radio-button>
+                </radio-group>
+                <p>
+                  <label for="lsystem_generations">Generations: </label>
+                  <range-input id="lsystem_generations"></range-input>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <sketch-text class="description" pageid="10010">
+            <div slot="content">
+              <p>
+                Using the same idea from the previous examples, here we will draw trees.
+              </p>
+              <p><strong>Binary Tree</strong></p>
+              <p>
+                The most basic and easiest of them all. A branching tree. Steps are as follows.
+                <ul>
+                  <li>Draw a line</li>
+                  <li>
+                    At the end, rotate to left and draw a shorter line and rotate to right 
+                    and draw a shorter line. Play with the Angle for really wierd ones.
+                  </li>
+                  <li>
+                    Repeat previous step again and again for new lines. Play with the level for 
+                    how long you want the tree to grow.
+                  </li>
+                </ul>
+              </p>
+              <p><strong>Random Tree</strong></p>
+              <p>
+                The Fractals demonstrated in previous examples are deterministic in nature. Which 
+                basically means that they will always produce the same tree. Or in other words, 
+                too precise to be natural. This will be a non-deterministic (or stochastic in 
+                Mathematical terms) fractal.
+              </p>
+              <p>
+                Instead of just two branches, it can be anything from 2 to 5. The branches slider 
+                sets up a max though.
+              </p>
+              <p>Next is that the length of each branch is a random factor of it's parent.</p>
+              <p><strong>L-Systems</strong></p>
+              <p>
+                Aristid Lindenmayer developed a grammar-based system to model the growth patterns of 
+                plants. Coined as L-System, it has the following compoenents:
+                <ul>
+                  <li><em>Alphabet:</em> The valid characters that can be included.</li>
+                  <li>
+                    <em>Axiom:</em> A sentence made up with characters from the alphabet describing 
+                    the initial state of the system.
+                  </li>
+                  <li>
+                    <em>Rules:</em> These are applied to the axiom and then recursively applied to 
+                    generate new sentences over and over.
+                  </li>
+                </ul>
+              </p>
+              <p><strong>Cantor Set with L-System</strong></p>
+              <p>
+                <em>Alphabet:</em> A B<br>
+                <em>Axiom:</em> A<br>
+                <em>Rules:</em> (A → ABA) (B → BBB)
+              </p>
+              <p>
+                Here A translates to 'Draw a line forward' and B to 'Move forward without drawing'.
+              </p>
+              <p>
+                By Generations:<br>
+                <ul>
+                  <li>Generation 0: A</li>
+                  <li>Generation 1: ABA</li>
+                  <li>Generation 2: ABABBBABA</li>
+                  <li>Generation 3: ABABBBABABBBBBBBBBABABBBABA</li>
+                </ul>
+              </p>
+              <p><strong>Turtle Grapics Engine</strong></p>
+              <p>
+                Here we define the graphics engine for <em>Alphabet</em> 'F X + - [ ]'.
+                <ul>
+                  <li>F: Draw a line and move forward</li>
+                  <li>X: Dummy</li>
+                  <li>+: Rotate anticlockwise</li>
+                  <li>-: Rotate clockwise</li>
+                  <li>[: Save current location</li>
+                  <li>]: Restore previous location</li>
+                </ul>
+                With the graphics defined, below are few L-Systems to render trees.
+              </p>
+              <p><strong>L-System One</strong></p>
+              <p>
+                <em>Axiom:</em> X<br>
+                <em>Rules:</em> (F → FF) (X → -F[+F][---X]+F-F[++++X]-X) <br>
+                <em>Angle:</em> 8
+              </p>
+              <p><strong>L-System Two</strong></p>
+              <p>
+                <em>Axiom:</em> X<br>
+                <em>Rules:</em> (F → FF) (X → F-[[X]+X]+F[+FX]-X) <br>
+                <em>Angle:</em> 22.5
+              </p>
+              <p><strong>L-System Three</strong></p>
+              <p>
+                <em>Axiom:</em> X<br>
+                <em>Rules:</em> (F → FF) (X → F[+X]F[-X]+X) <br>
+                <em>Angle:</em> 20
+              </p>
+              <p><strong>L-System Four</strong></p>
+              <p>
+                <em>Axiom:</em> X<br>
+                <em>Rules:</em> (F → FF) (X → F+[[X]-X]-F[-FX]+X) <br>
+                <em>Angle:</em> 25
+              </p>
+              <p><strong>L-System Five</strong></p>
+              <p>
+                <em>Axiom:</em> F<br>
+                <em>Rules:</em> (F → FF+[+F-F-F]-[-F+F+F]) <br>
+                <em>Angle:</em> 25
+              </p>
+              <p><strong>L-System Six</strong></p>
+              <p>
+                <em>Axiom:</em> X<br>
+                <em>Rules:</em> (F → FF) (X → F+[-F-XF-X][+FF][--XF[+X]][++F-X]) <br>
+                <em>Angle:</em> 20
+              </p>
+              <p>Play with generations slider to see the changes in complexity of the trees.</p>
+            </div>
+            <div slot="source">
+              <p>
+                From <a href="https://natureofcode.com/book/chapter-8-fractals/" target="_blank">
+                Nature of code</a>.
+              </p>
+              <p><a href="https://en.wikipedia.org/wiki/L-system" target="_blank">L-Systems on 
+              Wikipedia</a>.</p>
+              <p>
+                Got a lot of L-Systems Rules from <a href="http://paulbourke.net/fractals/lsys/" 
+                target="_blank">L-System User Notes</a> and this <a target="_blank" 
+                href="https://www.vexlio.com/blog/drawing-simple-organics-with-l-systems/">blog</a>.
+              </p>
+              <p>
+                More at <a href="http://algorithmicbotany.org/" target="_blank">Algorithmic Botany</a>.
+              </p>
+            </div>
+          </sketch-text>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
