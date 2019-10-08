@@ -48,3 +48,5 @@ function setCardsVisibility(cards, visible) {
     pid => document.getElementById(pid).style.display = visible ? 'block' : 'none'
   );
 }
+
+document.addEventListener("DOMContentLoaded", initPage);
