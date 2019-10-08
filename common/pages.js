@@ -5,8 +5,8 @@ class Pages {
       {
         id: 10000,
         name: 'Clock',
-        url: '/clock',
-        img: '/clock/img/preview.jpg',
+        url: 'clock',
+        img: 'clock/img/preview.jpg',
         detail: 'Animating a clock.',
         tag: [
           'clock'
@@ -15,8 +15,8 @@ class Pages {
       {
         id: 10001,
         name: 'Lissajous Curve',
-        url: '/lissajous-curve',
-        img: '/lissajous-curve/img/preview.jpg',
+        url: 'lissajous-curve',
+        img: 'lissajous-curve/img/preview.jpg',
         detail: 'Animation showing Lissajous curve adaptation!',
         tag: [
           'lissajous',
@@ -26,8 +26,8 @@ class Pages {
       {
         id: 10002,
         name: 'Lissajous Curve Table',
-        url: '/lissajous-curve-table',
-        img: '/lissajous-curve-table/img/preview.jpg',
+        url: 'lissajous-curve-table',
+        img: 'lissajous-curve-table/img/preview.jpg',
         detail: 'Table of curves animating around based on Lissajous equation!',
         tag: [
           'lissajous',
@@ -37,8 +37,8 @@ class Pages {
       {
         id: 10003,
         name: 'Planetary System - 2D',
-        url: '/planetary-system',
-        img: '/planetary-system/img/preview.jpg',
+        url: 'planetary-system',
+        img: 'planetary-system/img/preview.jpg',
         detail: 'A simulation of a Planetary System in 2D.',
         tag: [
           'space',
@@ -48,8 +48,8 @@ class Pages {
       {
         id: 10004,
         name: 'Spirograph',
-        url: '/spirograph',
-        img: '/spirograph/img/preview.jpg',
+        url: 'spirograph',
+        img: 'spirograph/img/preview.jpg',
         detail: 'A spiral with lot of circles!',
         tag: [
           'spiral',
@@ -60,8 +60,8 @@ class Pages {
       {
         id: 10005,
         name: 'Unit Circle',
-        url: '/unit-circle',
-        img: '/unit-circle/img/preview.jpg',
+        url: 'unit-circle',
+        img: 'unit-circle/img/preview.jpg',
         detail: 'Trigonometry - Sine wave, Cosine wave and the Unit Circle.',
         tag: [
           'circle',
@@ -73,8 +73,8 @@ class Pages {
       {
         id: 10006,
         name: 'Fourier Series',
-        url: '/fourier-series',
-        img: '/fourier-series/img/preview.jpg',
+        url: 'fourier-series',
+        img: 'fourier-series/img/preview.jpg',
         detail: 'Fourier Series - Square Waves, Sawtooth and others.',
         tag: [
           'fourier',
@@ -85,8 +85,8 @@ class Pages {
       {
         id: 10007,
         name: 'Fractal Circles',
-        url: '/fractal-circles',
-        img: '/fractal-circles/img/preview.jpg',
+        url: 'fractal-circles',
+        img: 'fractal-circles/img/preview.jpg',
         detail: 'Fractal Circles - Recursion in Effect.',
         tag: [
           'fractal',
@@ -96,8 +96,8 @@ class Pages {
       {
         id: 10008,
         name: 'More Fractals',
-        url: '/more-fractals',
-        img: '/more-fractals/img/preview.jpg',
+        url: 'more-fractals',
+        img: 'more-fractals/img/preview.jpg',
         detail: 'More Fractal Shapes - Cantor Set, Vicsek Snowflake, Koch Curves and variations.',
         tag: [
           'cantor',
@@ -115,8 +115,8 @@ class Pages {
       {
         id: 10009,
         name: 'Sierpinski Fractals',
-        url: '/sierpinski-fractals',
-        img: '/sierpinski-fractals/img/preview.jpg',
+        url: 'sierpinski-fractals',
+        img: 'sierpinski-fractals/img/preview.jpg',
         detail: 'Sierpinski Triangle, Sierpinski Gasket, Sierpinski Carpet.',
         tag: [
           'sierpinski triangle',
@@ -130,8 +130,8 @@ class Pages {
       {
         id: 10010,
         name: 'Fractal Trees',
-        url: '/fractal-trees',
-        img: '/fractal-trees/img/preview.jpg',
+        url: 'fractal-trees',
+        img: 'fractal-trees/img/preview.jpg',
         detail: 'Fractal Trees. L-Systems.',
         tag: [
           'fractal tree',
@@ -142,8 +142,8 @@ class Pages {
       {
         id: 10011,
         name: 'The Matrix',
-        url: '/the-matrix',
-        img: '/the-matrix/img/preview.jpg',
+        url: 'the-matrix',
+        img: 'the-matrix/img/preview.jpg',
         detail: 'The Matrix Rainfall!!',
         tag: [
           'matrix',
