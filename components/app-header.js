@@ -1,7 +1,13 @@
+import { pages } from '../common/pages.js';
+
 (function() {
   class AppHeaderElement extends HTMLElement {
     constructor() {
       super();
+    }
+
+    connectedCallback() {
+      const home = pages.getBase()+'/';
   
       var shadow = this.attachShadow({ mode: 'open' });
       shadow.innerHTML = `
@@ -31,7 +37,7 @@
       </style>
   
       <div>
-        <a href="/">Mesmerize</a>
+        <a href=${home}>Mesmerize</a>
       </div>
   
       `;
