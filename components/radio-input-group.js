@@ -1,6 +1,8 @@
+import { pages } from '../common/pages.js';
+
 (function() {
   const radioButtonTemplate = `
-    <link rel="stylesheet" href="../appstyle.css">
+    <link rel="stylesheet" href="${pages.getBase()}/appstyle.css">
 
     <style>
       :host {

@@ -14,7 +14,7 @@ import { pages } from '../common/pages.js';
   
       var shadow = this.attachShadow({ mode: 'open' });
       shadow.innerHTML = `
-      <link rel="stylesheet" href="../appstyle.css">
+      <link rel="stylesheet" href="${pages.getBase()}/appstyle.css">
   
       <style>
         .container {

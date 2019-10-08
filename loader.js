@@ -1,3 +1,3 @@
-import { pages } from '../common/pages.js';
+import { pages } from './common/pages.js';
 
 pagesRefer(pages);

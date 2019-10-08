@@ -1,3 +1,5 @@
+import { pages } from '../common/pages.js';
+
 (function() {
   class RangeInputElement extends HTMLElement {
     static get observedAttributes() {
@@ -70,7 +72,7 @@
 
       this.shadow = this.shadowRoot;
       this.shadow.innerHTML = `
-      <link rel="stylesheet" href="../appstyle.css">
+      <link rel="stylesheet" href="${pages.getBase()}/appstyle.css">
 
       <style>
       div {

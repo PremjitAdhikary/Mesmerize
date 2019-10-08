@@ -8,13 +8,12 @@ import { pages } from '../common/pages.js';
     }
 
     connectedCallback() {
-      // const text = this.getAttribute('sketchtitle');
       const pageid = this.getAttribute('pageid');
       const pageName = !pages.getPageById(pageid) ? 'Add Valid PageId' : pages.getPageById(pageid).name;
   
       var shadow = this.attachShadow({ mode: 'open' });
       shadow.innerHTML = `
-      <link rel="stylesheet" href="../appstyle.css">
+      <link rel="stylesheet" href="${pages.getBase()}/appstyle.css">
   
       <style>
         .header {

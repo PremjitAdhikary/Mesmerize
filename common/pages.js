@@ -175,8 +175,6 @@ class Pages {
 
   getBase() {
     let hostname = window.location.hostname;
-    console.log(window.location);
-    console.log(hostname+': '+hostname.includes('github'));
     return hostname.includes('github') ? '/Mesmerize' : '';
   }
 
