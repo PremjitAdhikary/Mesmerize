@@ -2,7 +2,9 @@ class DigitalClock {
 
   constructor() {
     this._numWidth = width/12;
+    this._barWidth = 10;
 
+    // flags for bars to be visible for digits
     this._midBar = [false, false, true, true, true, true, true, false, true, true];
     this._topBar = [true, false, true, true, false, true, true, true, true, true];
     this._bottomBar = [true, false, true, true, false, true, true, false, true, true];
@@ -45,65 +47,38 @@ class DigitalClock {
   }
 
   drawNumber(num, x, color) {
-    let barWidth = 10;
     stroke(color);
     fill(color);
 
-    // mid bar
-    if (this._midBar[num]) {
-      quad(x-this._numWidth/2, height/2-barWidth/2, 
-          x+this._numWidth/2, height/2-barWidth/2, 
-          x+this._numWidth/2, height/2+barWidth/2, 
-          x-this._numWidth/2, height/2+barWidth/2);
-    }
-    
-    // top bar
-    if (this._topBar[num]) {
-      quad(x-this._numWidth/2, height/2-barWidth/2-this._numWidth, 
-          x+this._numWidth/2, height/2-barWidth/2-this._numWidth, 
-          x+this._numWidth/2, height/2-barWidth*3/2-this._numWidth, 
-          x-this._numWidth/2, height/2-barWidth*3/2-this._numWidth);
-    }
-    
-    // bottom bar
-    if (this._bottomBar[num]) {
-      quad(x-this._numWidth/2, height/2+barWidth/2+this._numWidth, 
-          x+this._numWidth/2, height/2+barWidth/2+this._numWidth, 
-          x+this._numWidth/2, height/2+barWidth*3/2+this._numWidth, 
-          x-this._numWidth/2, height/2+barWidth*3/2+this._numWidth);
-    }
-        
-    // top left
-    if (this._topLeft[num]) {
-      quad(x-this._numWidth/2-barWidth, height/2-barWidth/2, 
-        x-this._numWidth/2, height/2-barWidth/2, 
-        x-this._numWidth/2, height/2-barWidth/2-this._numWidth, 
-        x-this._numWidth/2-barWidth, height/2-barWidth/2-this._numWidth);
-    }
-    
-    // top right
-    if (this._topRight[num]) {
-      quad(x+this._numWidth/2+barWidth, height/2-barWidth/2, 
-        x+this._numWidth/2, height/2-barWidth/2, 
-        x+this._numWidth/2, height/2-barWidth/2-this._numWidth, 
-        x+this._numWidth/2+barWidth, height/2-barWidth/2-this._numWidth);
-    }
-        
-    // bottom left
-    if (this._bottomLeft[num]) {
-      quad(x-this._numWidth/2-barWidth, height/2+barWidth/2, 
-        x-this._numWidth/2, height/2+barWidth/2, 
-        x-this._numWidth/2, height/2+barWidth/2+this._numWidth, 
-        x-this._numWidth/2-barWidth, height/2+barWidth/2+this._numWidth);
-    }
-      
-    // bottom right
-    if (num!=2) {
-      quad(x+this._numWidth/2+barWidth, height/2+barWidth/2, 
-        x+this._numWidth/2, height/2+barWidth/2, 
-        x+this._numWidth/2, height/2+barWidth/2+this._numWidth, 
-        x+this._numWidth/2+barWidth, height/2+barWidth/2+this._numWidth);
-    }
+    if (this._midBar[num]) this.drawHorizontalLine(x,height/2);
+    if (this._topBar[num]) this.drawHorizontalLine(x,height/2-this._numWidth-this._barWidth);    
+    if (this._bottomBar[num]) this.drawHorizontalLine(x,height/2+this._numWidth+this._barWidth);
+    if (this._topLeft[num]) 
+      this.drawVerticalLine(x-this._numWidth/2-this._barWidth/2,
+        height/2-this._numWidth/2-this._barWidth/2);
+    if (this._topRight[num]) 
+      this.drawVerticalLine(x+this._numWidth/2+this._barWidth/2,
+        height/2-this._numWidth/2-this._barWidth/2);
+    if (this._bottomLeft[num]) 
+      this.drawVerticalLine(x-this._numWidth/2-this._barWidth/2,
+        height/2+this._numWidth/2+this._barWidth/2);
+    if (num!=2) 
+      this.drawVerticalLine(x+this._numWidth/2+this._barWidth/2,
+        height/2+this._numWidth/2+this._barWidth/2);
+  }
+
+  drawHorizontalLine(x,y) {
+    quad(x-this._numWidth/2, y-this._barWidth/2, 
+      x+this._numWidth/2, y-this._barWidth/2,
+      x+this._numWidth/2, y+this._barWidth/2,
+      x-this._numWidth/2, y+this._barWidth/2);
+  }
+
+  drawVerticalLine(x,y) {
+    quad(x-this._barWidth/2, y-this._numWidth/2, 
+      x+this._barWidth/2, y-this._numWidth/2,
+      x+this._barWidth/2, y+this._numWidth/2,
+      x-this._barWidth/2, y+this._numWidth/2);
   }
 
   drawColon(x, color) {
