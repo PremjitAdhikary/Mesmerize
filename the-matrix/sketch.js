@@ -48,7 +48,6 @@ function init() {
   codeSet = codeSetAssamese ? {start: 0x0980, len: 128} : {start: 0x30A0, len: 96};
   resetTo = codeSetAssamese ? -2000 : 0;
   streams = [];
-  console.log(width/Symbol.SIZE);
   for (let i=0; i < width/Symbol.SIZE; i++) {
     streams.push(new Stream(i*Symbol.SIZE, codeSet.start, codeSet.len, resetTo));
   }
