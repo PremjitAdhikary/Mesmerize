@@ -36,9 +36,9 @@ function draw() {
 
 function toggleSymbolPremjit() {
   for (let i=0; i<4; i++) {
-    if (streams[2+i].start() > symbolPremjit[i]._y)
+    if (streams[18+i].start() > symbolPremjit[i]._y)
       symbolPremjit[i].setVisibility(true);
-    if (streams[8+i].start() > symbolPremjit[4+i]._y)
+    if (streams[23+i].start() > symbolPremjit[4+i]._y)
       symbolPremjit[4+i].setVisibility(true);
   }
 }
@@ -48,21 +48,21 @@ function init() {
   codeSet = codeSetAssamese ? {start: 0x0980, len: 128} : {start: 0x30A0, len: 96};
   resetTo = codeSetAssamese ? -2000 : 0;
   streams = [];
-  let gutter = width - (floor(width/Symbol.SIZE)*Symbol.SIZE);
-  for (let i=0; i < 14; i++) {
-    streams.push(new Stream(gutter+(width/Symbol.SIZE*i), codeSet.start, codeSet.len, resetTo));
+  console.log(width/Symbol.SIZE);
+  for (let i=0; i < width/Symbol.SIZE; i++) {
+    streams.push(new Stream(i*Symbol.SIZE, codeSet.start, codeSet.len, resetTo));
   }
 
   if (codeSetAssamese) {
     symbolPremjit = [];
-    symbolPremjit.push(createAssameNameSymbol((gutter+(width/Symbol.SIZE*2))-5, charPre));
-    symbolPremjit.push(createAssameNameSymbol((gutter+(width/Symbol.SIZE*3)), charM));
-    symbolPremjit.push(createAssameNameSymbol((gutter+(width/Symbol.SIZE*4))-5, charJi));
-    symbolPremjit.push(createAssameNameSymbol((gutter+(width/Symbol.SIZE*5)+2), charT));
-    symbolPremjit.push(createAssameNameSymbol((gutter+(width/Symbol.SIZE*8)), charA));
-    symbolPremjit.push(createAssameNameSymbol((gutter+(width/Symbol.SIZE*9))-2, charDhi));
-    symbolPremjit.push(createAssameNameSymbol((gutter+(width/Symbol.SIZE*10)), charKa));
-    symbolPremjit.push(createAssameNameSymbol((gutter+(width/Symbol.SIZE*11)), charRy));
+    symbolPremjit.push(createAssameNameSymbol(18*Symbol.SIZE, charPre));
+    symbolPremjit.push(createAssameNameSymbol(19*Symbol.SIZE+4, charM));
+    symbolPremjit.push(createAssameNameSymbol(20*Symbol.SIZE, charJi));
+    symbolPremjit.push(createAssameNameSymbol(21*Symbol.SIZE+4, charT));
+    symbolPremjit.push(createAssameNameSymbol(23*Symbol.SIZE+1, charA));
+    symbolPremjit.push(createAssameNameSymbol(24*Symbol.SIZE+2, charDhi));
+    symbolPremjit.push(createAssameNameSymbol(25*Symbol.SIZE, charKa));
+    symbolPremjit.push(createAssameNameSymbol(26*Symbol.SIZE+2, charRy));
     symbolPremjit.forEach(s => s.setVisibility(false));
   } else {
     symbolPremjit = [];
