@@ -1,6 +1,6 @@
 class Stream {
 
-  constructor(x, codeStart, codeLength, resetTo) {
+  constructor(x, charCodes, resetTo) {
     this._symbols = new Array(floor(random(1,(height/Symbol.SIZE)-18)));
     let speed = random(2,4);
     let initY = random(-500, 0);
@@ -9,8 +9,7 @@ class Stream {
       this._symbols[i] = new Symbol(
         x,
         initY - (i * (Symbol.SIZE+15)),
-        codeStart,
-        codeLength,
+        charCodes,
         colorBright ? Symbol.COLOR_BRIGHT : Symbol.COLOR_DIM,
         speed,
         resetTo
@@ -25,4 +24,5 @@ class Stream {
   start() {
     return this._symbols[0]._y;
   }
+  
 }

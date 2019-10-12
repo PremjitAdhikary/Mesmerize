@@ -149,6 +149,27 @@ class Pages {
           'matrix',
           'rainfall'
         ]
+      },
+      {
+        id: 10012,
+        name: 'Prime Spirals',
+        url: '/prime-spirals',
+        img: '/prime-spirals/img/preview.jpg',
+        detail: 'The Spirals that Prime numbers make.',
+        tag: [
+          'spiral',
+          'prime'
+        ]
+      },
+      {
+        id: 10013,
+        name: 'Logo',
+        url: '/logo',
+        img: '/logo/img/preview.jpg',
+        detail: 'Animate the Logo.',
+        tag: [
+          'logo'
+        ]
       }
     ];
 

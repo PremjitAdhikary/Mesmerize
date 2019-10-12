@@ -1,9 +1,8 @@
 class Symbol {
-  constructor(x,y,codeStart,codeLength,color,speed,resetTo) {
+  constructor(x,y,charCodes,color,speed,resetTo) {
     this._x = x;
     this._y = y;
-    this._codeStart = codeStart;
-    this._codeLength = codeLength;
+    this._charCodes = charCodes;
     this.setCode();
     this._color = color;
     this._speed = speed;
@@ -22,7 +21,7 @@ class Symbol {
   }
 
   setCode() {
-    this._value = String.fromCharCode(this._codeStart + floor(random(0, this._codeLength+1)));
+    this._value = String.fromCharCode(this._charCodes[floor(random(0, this._charCodes.length+1))]);
   }
 }
 

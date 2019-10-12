@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" href="../favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="../appstyle.css">
+  <script src="../components/app-header.js" type="module"></script>
+  <script src="../components/sketch-text.js" type="module"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.js"></script>
+  <script src="./sketch.js"></script>
+  <script src="../common/sketch-colors.js"></script>
+  <script src="../common/utilities.js"></script>
+  <script src="../components/range-input.js" type="module"></script>
+  <script src="./control.js" type="module"></script>
+  <title>Prime Spirals</title>
+</head>
+<body>
+  <div class="toplevel">
+    <app-header class="heading"></app-header>
+    <div class="topbody">
+      <div class="container">
+          <div class="sketch">
+            <div id="sketch-holder" class="sketch-holder">
+            </div>
+          </div>
+
+          <div class="control">
+            <p>
+              <label for="zoom">Zoom Level: </label>
+              <range-input min="1" max="45" id="zoom"></range-input>
+            </p>
+          </div>
+
+          <sketch-text class="description" pageid="10012">
+            <div slot="content">
+              <p>
+                I came across a video by 3Blue1Brown where prime numbers were plotted to make spirals. 
+                But the quote that won me over was "How pretty but pointless patterns in polar plots 
+                of primes prompt pretty important ponderings on properties of those primes".
+              </p>
+              <p>
+                The idea is to plot prime numbers as polar co-ordinates. That is, for any prime number 
+                p, plot a polar point (p,p) where the angle is in radian.
+              </p>
+              <p>
+                Got me thinking, this looks easy but real cool. So there.
+              </p>
+              <p>
+                Coordinate Unit to Pixel scale:
+                <ul>
+                  <li>At zoom level 1, every unit is 30 pixels.</li>
+                  <li>At zoom level 5, every unit is 10 pixels.</li>
+                  <li>At zoom level 15, every unit is 1 pixel.</li>
+                  <li>At zoom level 25, for every 1 pixel we have 10 units.</li>
+                  <li>At zoom level 35, for every 1 pixel we have 100 units.</li>
+                  <li>At zoom level 45, for every 1 pixel we have 1000 units.</li>
+                </ul>
+              </p>
+            </div>
+            <div slot="source">
+              <p>
+                Original <a href="https://www.youtube.com/watch?v=EK32jo7i5LQ" 
+                target="_blank">video</a>.
+              </p>
+            </div>
+          </sketch-text>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

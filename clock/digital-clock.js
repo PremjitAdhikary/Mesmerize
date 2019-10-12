@@ -24,6 +24,7 @@ class DigitalClock {
 
   show() {
     background(0);
+    strokeWeight(1);
     let milli = floor(millis()%1000);
     let numberColor = SketchColor.greenyellow().stringify();
     let colonColor = (milli > 500 ? 

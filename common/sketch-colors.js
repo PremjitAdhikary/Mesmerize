@@ -46,6 +46,10 @@ class SketchColor {
     return new SketchColor(80, 80, 80);
   }
 
+  static gold() {
+    return new SketchColor(255, 215, 0);
+  }
+
   static blend() {
     let r = 0;
     let g = 0;
