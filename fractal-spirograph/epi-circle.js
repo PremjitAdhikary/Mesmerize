@@ -11,7 +11,6 @@ class EpiCircle {
     this._k = k;
     this._angleVelocity = radians((level%2==0?1:-1) * (Math.pow(k, this._level-1))) * 0.05;
     this._ratio = ratio;
-    console.log(ratio);
   }
 
   update() {
