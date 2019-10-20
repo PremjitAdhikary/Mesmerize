@@ -170,6 +170,48 @@ class Pages {
         tag: [
           'logo'
         ]
+      },
+      {
+        id: 10014,
+        name: 'Sort Visualization',
+        url: '/sort-visualization',
+        img: '/sort-visualization/img/preview.jpg',
+        detail: 'Visualize different sorting algorithms.',
+        tag: [
+          'sort'
+        ]
+      },
+      {
+        id: 10015,
+        name: 'Starfield',
+        url: '/starfield',
+        img: '/starfield/img/preview.jpg',
+        detail: 'Into the Space!',
+        tag: [
+          'starfield'
+        ]
+      },
+      {
+        id: 10016,
+        name: 'Fractal Spirograph',
+        url: '/fractal-spirograph',
+        img: '/fractal-spirograph/img/preview.jpg',
+        detail: 'Fractals and Spirals!',
+        tag: [
+          'spiral',
+          'fractal'
+        ]
+      },
+      {
+        id: 10017,
+        name: 'Barnsley Fern',
+        url: '/barnsley-fern',
+        img: '/barnsley-fern/img/preview.jpg',
+        detail: 'Barnsley fern is another fractal.',
+        tag: [
+          'barnsley fern',
+          'fractal'
+        ]
       }
     ];
 

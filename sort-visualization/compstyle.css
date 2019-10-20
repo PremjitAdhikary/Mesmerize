@@ -1,0 +1,20 @@
+.control {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+	grid-template-areas:
+		"algorithms choice_render";
+}
+
+.algorithms {
+  grid-area: algorithms;
+}
+
+.choice_sort {
+  grid-area: choice_sort;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.choice_render {
+  grid-area: choice_render;
+}

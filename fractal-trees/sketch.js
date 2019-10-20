@@ -8,6 +8,7 @@ let baseWidth = 6;
 let binaryBase = 125;
 let binaryLevel;
 let binaryAngle;
+let binarySeedAngle;
 let binaryColor;
 let binaryBranchColor;
 
@@ -46,7 +47,8 @@ function createTree() {
         createVector(width/2, height), 
         createVector(width/2, height - binaryBase),
         map(binaryAngle,0,180,0,PI), 
-        binaryColor, binaryBranchColor, baseWidth, binaryLevel);
+        binaryColor, binaryBranchColor, baseWidth, binaryLevel,
+        map(binarySeedAngle,-180,180,-PI,PI));
     case 2:
       return new RandomBranch(
         createVector(width/2, height), 
@@ -66,6 +68,12 @@ function setBus(bus) {
   bus.register("ControlLFTrba", e => {
     if (choice === 1) {
       binaryAngle = e.detail.bin_angle;
+      redraw();
+    }
+  });
+  bus.register("ControlLFTrbsa", e => {
+    if (choice === 1) {
+      binarySeedAngle = e.detail.bin_seed_angle;
       redraw();
     }
   });
@@ -107,6 +115,7 @@ function setBus(bus) {
 function setData(d) {
   choice = d.choice;
   binaryAngle = d.bin_angle;
+  binarySeedAngle = d.bin_seed_angle;
   binaryLevel = d.bin_level;
   randomAngle = d.random_angle;
   randomMaxBranches = d.random_branches;

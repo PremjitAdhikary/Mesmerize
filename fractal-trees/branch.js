@@ -1,9 +1,10 @@
 class Branch {
 
-  constructor(start, end, angle, color, branchColor, weight, level) {
+  constructor(start, end, angle, color, branchColor, weight, level, seedAngle) {
     this._start = start;
     this._end = end;
     this._angle = angle;
+    this._seedAngle = seedAngle;
     this._color = color;
     this._weight = weight;
     this._level = level;
@@ -39,15 +40,18 @@ class Branch {
     let dir = p5.Vector.sub(this._end, this._start);
     dir.mult(0.75); // shorten branch
     
+    dir.rotate(this._seedAngle);
     dir.rotate(this._angle);
     let rightEnd = p5.Vector.add(this._end, dir);
     this._branches.push(new Branch(
-      this._end, rightEnd, this._angle, this._color, this._branchColor, max(1,this._weight-1), this._level-1));
+      this._end, rightEnd, this._angle, this._color, this._branchColor, max(1,this._weight-1), 
+      this._level-1, this._seedAngle));
     
     dir.rotate(-(2*this._angle));
     let leftEnd = p5.Vector.add(this._end, dir);
     this._branches.push(new Branch(
-      this._end, leftEnd, this._angle, this._color, this._branchColor, max(1,this._weight-1), this._level-1));
+      this._end, leftEnd, this._angle, this._color, this._branchColor, max(1,this._weight-1), 
+      this._level-1, this._seedAngle));
   }
 
 }

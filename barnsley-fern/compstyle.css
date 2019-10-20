@@ -1,0 +1,27 @@
+.formula-holder {
+  font-family: Consolas, monaco, monospace; 
+  height: 35px; 
+  text-align: center; 
+  vertical-align: middle;
+}
+
+.formula-text {
+  display: inline-block; 
+  vertical-align:middle;
+}
+
+.formula-bracket {
+  display: inline-block; 
+  border: 1px solid var(--secondary-color); 
+  vertical-align:middle; 
+  height: 100%; 
+  width: 5px;
+}
+
+.formula-bracket.left {
+  border-right: 0; 
+}
+
+.formula-bracket.right {
+  border-left: 0; 
+}

@@ -16,7 +16,10 @@ document.getElementById('choice').onclick = e => {
 
 document.getElementById('number').value = initData.number;
 
-document.getElementById('number').onclick = e => {
+let numberUpdated = e =>  {
   let val = Number(e.target.value);
   bus.dispatch("ControlFSN", { number: val });
 };
+
+document.getElementById('number').onclick = numberUpdated;
+document.getElementById('number').ontouchend = numberUpdated;

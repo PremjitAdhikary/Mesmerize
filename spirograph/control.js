@@ -9,7 +9,9 @@ setData(initData);
 
 document.getElementById('number_of_circles').value = initData.number_of_circles;
 
-document.getElementById('number_of_circles').onclick = e => {
+let number_of_circles_updated = e => {
   let val = Number(e.target.value);
   bus.dispatch("ControlSG", { number_of_circles: val });
 };
+document.getElementById('number_of_circles').onclick = number_of_circles_updated;
+document.getElementById('number_of_circles').ontouchend = number_of_circles_updated;

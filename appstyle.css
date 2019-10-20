@@ -21,21 +21,14 @@ a:hover, a:active {
   color: var(--secondary-color);
   opacity: 1;
 }
-
 .toplevel {
-  height: 97vh;
+  /* height: 97vh; */
   display: grid;
 	grid-template-columns: 1fr;
-	grid-template-rows: 1fr 9fr;
+	grid-template-rows: max-content auto;
 	grid-template-areas:
 		"header"
 		"main";
-}
-
-.cardholder {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-gap: 2%;
 }
 
 .heading {
@@ -51,21 +44,98 @@ a:hover, a:active {
 .container {
   height: 100%;
   display: grid;
-	grid-template-columns: 3fr 2fr;
-  grid-template-rows: 1fr 4fr;
+	grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr 2fr;
   grid-row-gap: 10px;
 	grid-template-areas:
-		"sketch description"
-		"sketch control";
+		"sketch"
+    "control"
+    "description";
 }
 
 .container-no-control {
   height: 100%;
   display: grid;
-	grid-template-columns: 3fr 2fr;
-	grid-template-rows: 1fr;
+	grid-template-columns: 1fr;
+	grid-template-rows: auto 2fr;
 	grid-template-areas:
-		"sketch description";
+    "sketch"
+    "description";
+}
+
+.description {
+  grid-area: description;
+  height: 95vh;
+  overflow-y: auto;
+}
+
+.description-no-control {
+  grid-area: description;
+  height: 95vh;
+  overflow-y: auto;
+}
+
+.cardholder {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2%;
+  justify-items: center;
+}
+
+@media only screen and (min-width: 1024px) and (orientation: landscape) {
+  .toplevel {
+    height: 97vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 9fr;
+    grid-template-areas:
+      "header"
+      "main";
+  }
+  
+  .topbody {
+    grid-area: main;
+    height: 100%;
+    overflow-y: auto;
+  }
+  
+  .container {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    grid-template-rows: 1fr 4fr;
+    grid-row-gap: 10px;
+    grid-template-areas:
+      "sketch description"
+      "sketch control";
+  }
+  
+  .container-no-control {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+      "sketch description";
+  }
+
+  .description {
+    grid-area: description;
+    height: 60vh;
+    overflow-y: auto;
+  }
+
+  .description-no-control {
+    grid-area: description;
+    height: 85vh;
+    overflow-y: auto;
+  }
+
+  .cardholder {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 2%;
+  }
 }
 
 .sketch {
@@ -76,9 +146,6 @@ a:hover, a:active {
 .sketch-holder {
   width: 640px; 
   height: 480px;
-  /* mobile??
-  width: 300px; 
-  height: 225px;  */
   background-color: var(--bg-color);
   border: 5px solid var(--primary-muted-color);
   border-radius: 5px;
@@ -86,18 +153,6 @@ a:hover, a:active {
 
 .sketch-holder.clickable {
   cursor: pointer;
-}
-
-.description {
-  grid-area: description;
-  height: 60vh;
-  overflow-y: auto;
-}
-
-.description-no-control {
-  grid-area: description;
-  height: 85vh;
-  overflow-y: auto;
 }
 
 .control {

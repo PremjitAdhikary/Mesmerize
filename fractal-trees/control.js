@@ -5,6 +5,7 @@ setBus(bus);
 let initData = {
   choice: 1,
   bin_angle: 20,
+  bin_seed_angle: 0,
   bin_level: 6,
   random_angle: 90,
   random_branches: 4,
@@ -38,10 +39,16 @@ document.getElementById('bin_angle').onchange = e => {
   let val = Number(e.target.value);
   bus.dispatch("ControlLFTrba", { bin_angle: val });
 };
+document.getElementById('bin_seed_angle').value = initData.bin_seed_angle;
+
+document.getElementById('bin_seed_angle').onchange = e => {
+  let val = Number(e.target.value);
+  bus.dispatch("ControlLFTrbsa", { bin_seed_angle: val });
+};
 
 document.getElementById('bin_level').value = initData.bin_level;
 
-document.getElementById('bin_level').onclick = e => {
+document.getElementById('bin_level').onchange = e => {
   let val = Number(e.target.value);
   bus.dispatch("ControlLFTrbl", { bin_level: val });
 };
@@ -50,17 +57,21 @@ document.getElementById('random_control').style.display = initData.choice === 2 
 
 document.getElementById('random_angle').value = initData.random_angle;
 
-document.getElementById('random_angle').onclick = e => {
+let random_angle_updated = e => {
   let val = Number(e.target.value);
   bus.dispatch("ControlLFTrra", { random_angle: val });
 };
+document.getElementById('random_angle').onclick = random_angle_updated;
+document.getElementById('random_angle').ontouchend = random_angle_updated;
 
 document.getElementById('random_branches').value = initData.random_branches;
 
-document.getElementById('random_branches').onclick = e => {
+let random_branches_updated = e => {
   let val = Number(e.target.value);
   bus.dispatch("ControlLFTrrb", { random_branches: val });
 };
+document.getElementById('random_branches').onclick = random_branches_updated;
+document.getElementById('random_branches').ontouchend = random_branches_updated;
 
 document.getElementById('drawBtn').onclick = e => {
   bus.dispatch("ControlLFTrrd", {  });
