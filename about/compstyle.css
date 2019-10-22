@@ -1,0 +1,16 @@
+.para-heading {
+  font-size: 1.5em;
+  font-weight: bold;
+  font-style: italic;
+  font-variant: small-caps;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: var(--primary-muted-color);
+}
+
+.img-style {
+  width: 10%;
+  float: right;
+  border: 1px solid darkgrey;
+  border-radius: 4px;
+  margin: 5px;
+}

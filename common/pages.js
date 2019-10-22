@@ -117,14 +117,17 @@ class Pages {
         name: 'Sierpinski Fractals',
         url: '/sierpinski-fractals',
         img: '/sierpinski-fractals/img/preview.jpg',
-        detail: 'Sierpinski Triangle, Sierpinski Gasket, Sierpinski Carpet.',
+        detail: 'Sierpinski Triangle, Gasket, Carpet, n-gons and n-flakes.',
         tag: [
           'sierpinski triangle',
           'sierpinski gasket',
           'sierpinski carpet',
+          'sierpinski ngon',
+          'sierpinski nflake',
           'sierpinski',
           'fractal',
-          'curve'
+          'curve',
+          'ngon'
         ]
       },
       {
@@ -132,11 +135,12 @@ class Pages {
         name: 'Fractal Trees',
         url: '/fractal-trees',
         img: '/fractal-trees/img/preview.jpg',
-        detail: 'Fractal Trees. L-Systems.',
+        detail: 'Fractal Trees. L-Systems. Pythagoras Tree.',
         tag: [
           'fractal tree',
           'fractal',
-          'l system'
+          'l system',
+          'pythagoras tree'
         ]
       },
       {
@@ -199,6 +203,7 @@ class Pages {
         detail: 'Fractals and Spirals!',
         tag: [
           'spiral',
+          'circle',
           'fractal'
         ]
       },

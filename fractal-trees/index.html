@@ -18,6 +18,7 @@
   <script src="./branch.js"></script>
   <script src="./random-branch.js"></script>
   <script src="./lsystem.js"></script>
+  <script src="./pythagoran-base.js"></script>
   <script src="./all-systems.js"></script>
   <script src="./control.js" type="module"></script>
   <title>Fractal Trees</title>
@@ -38,6 +39,7 @@
                 <radio-button value="1" aria-checked="true">Binary Tree</radio-button>
                 <radio-button value="2">Random Tree</radio-button>
                 <radio-button value="3">L System</radio-button>
+                <radio-button value="4">Pythagoras Tree</radio-button>
               </radio-group>
               <div id="bin_control" class="choice_control">
                 <p>
@@ -78,6 +80,19 @@
                 <p>
                   <label for="lsystem_generations">Generations: </label>
                   <range-input id="lsystem_generations"></range-input>
+                </p>
+              </div>
+              <div id="pythagoran_control" class="pythagoran_control">
+                <p>
+                  <label for="pythagoran_angle">Angle: </label>
+                  <range-input min="30" max="60" id="pythagoran_angle"></range-input>
+                </p>
+                <p>
+                  <label for="pythagoran_level">Level: </label>
+                  <range-input min="3" max="10" id="pythagoran_level"></range-input>
+                </p>
+                <p>
+                  <span class="btn" id="pythagoran_line_art">Toggle Line Art</span>
                 </p>
               </div>
             </div>
@@ -199,6 +214,18 @@
                 <em>Angle:</em> 20
               </p>
               <p>Play with generations slider to see the changes in complexity of the trees.</p>
+              <p><strong>Pythagoran Tree</strong></p>
+              <p>
+                Named so as each triple of touching squares encloses a right triangle.
+                <ul>
+                  <li>Start with a square</li>
+                  <li>
+                    On this 2 more squares are constructed. Each such that the 3 squares form a 
+                    right triangle between them
+                  </li>
+                  <li>Repeat for the 2 smaller squares</li>
+                </ul>
+              </p>
             </div>
             <div slot="source">
               <p>
@@ -214,6 +241,10 @@
               </p>
               <p>
                 More at <a href="http://algorithmicbotany.org/" target="_blank">Algorithmic Botany</a>.
+              </p>
+              <p>
+                Pythagoran Tree in <a href="https://en.wikipedia.org/wiki/Pythagoras_tree_(fractal)" 
+                target="_blank">Wikipedia</a>.
               </p>
             </div>
           </sketch-text>

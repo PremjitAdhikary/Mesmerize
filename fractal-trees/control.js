@@ -10,11 +10,14 @@ let initData = {
   random_angle: 90,
   random_branches: 4,
   lsystem_choice: 1,
-  lsystem_generations: 2
+  lsystem_generations: 2,
+  pythagoran_angle: 45,
+  pythagoran_level: 5,
+  pythagoran_line_art: true
 };
 setData(initData);
 
-const choiceIds = ['bin_control', 'random_control', 'lsystem_control'];
+const choiceIds = ['bin_control', 'random_control', 'lsystem_control', 'pythagoran_control'];
 
 document.getElementById('choice').onclick = e => {
   let val = Number(e.target.value);
@@ -99,4 +102,23 @@ document.getElementById('lsystem_generations').value = initData.lsystem_generati
 document.getElementById('lsystem_generations').onchange = e => {
   let val = Number(e.target.value);
   bus.dispatch("ControlLFTlsg", { lsystem_generations: val });
+};
+
+document.getElementById('pythagoran_control').style.display = initData.choice === 2 ? 'block' : 'none';
+
+document.getElementById('pythagoran_angle').value = initData.pythagoran_angle;
+
+document.getElementById('pythagoran_angle').onchange = e => {
+  let val = Number(e.target.value);
+  bus.dispatch("ControlLFTpta", { pythagoran_angle: val });
+};
+document.getElementById('pythagoran_level').value = initData.pythagoran_level;
+
+document.getElementById('pythagoran_level').onchange = e => {
+  let val = Number(e.target.value);
+  bus.dispatch("ControlLFTptl", { pythagoran_level: val });
+};
+
+document.getElementById('pythagoran_line_art').onclick = e => {
+  bus.dispatch("ControlLFTptta", {  });
 };

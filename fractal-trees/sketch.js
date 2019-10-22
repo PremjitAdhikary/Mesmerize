@@ -22,6 +22,10 @@ let randomBranchColor;
 let lsystem_choice;
 let lsystem_generations;
 
+let pythagoran_angle;
+let pythagoran_level;
+let pythagoran_line_art;
+
 function setup() {
   canvas = createCanvas(640, 480);
   canvas.parent('sketch-holder');
@@ -57,6 +61,9 @@ function createTree() {
         randomColor, randomBranchColor, baseWidth, randomLevel, randomMaxBranches);
     case 3:
       return new AllSystems(lsystem_generations, lsystem_choice);
+    case 4:
+      return new PythagoranBase((width/2)-(width*0.058), height-50, (width/2)+(width*0.058), 
+        height-50, radians(pythagoran_angle), pythagoran_level, pythagoran_line_art);
   }
 }
 
@@ -110,6 +117,22 @@ function setBus(bus) {
   bus.register("ControlLFTrrd", e => {
     redraw();
   });
+  bus.register("ControlLFTpta", e => {
+    if (choice === 4) {
+      pythagoran_angle = e.detail.pythagoran_angle;
+      redraw();
+    }
+  });
+  bus.register("ControlLFTptl", e => {
+    if (choice === 4) {
+      pythagoran_level = e.detail.pythagoran_level;
+      redraw();
+    }
+  });
+  bus.register("ControlLFTptta", e => {
+    pythagoran_line_art = !pythagoran_line_art;
+    redraw();
+  });
 }
 
 function setData(d) {
@@ -121,6 +144,9 @@ function setData(d) {
   randomMaxBranches = d.random_branches;
   lsystem_choice = d.lsystem_choice;
   lsystem_generations = d.lsystem_generations;
+  pythagoran_angle = d.pythagoran_angle;
+  pythagoran_level = d.pythagoran_level;
+  pythagoran_line_art = d.pythagoran_line_art;
 }
 
 function keyTyped() {

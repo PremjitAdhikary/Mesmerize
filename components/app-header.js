@@ -8,6 +8,7 @@ import { pages } from '../common/pages.js';
 
     connectedCallback() {
       const home = pages.getBase()+'/';
+      const about = pages.getBase()+'/about';
   
       var shadow = this.attachShadow({ mode: 'open' });
       shadow.innerHTML = `
@@ -34,10 +35,18 @@ import { pages } from '../common/pages.js';
           color: var(--primary-color);
           text-decoration: none;
         }
+
+        .aboutClass {
+          font-size: .75em;
+          float: right;
+          padding-right: 1%;
+          padding-top: 10px;
+        }
       </style>
   
       <div>
-        <a href=${home}>Mesmerize</a>
+        <span><a href=${home}>Mesmerize</a></span>
+        <span class="aboutClass"><a href=${about}>About</a></span>
       </div>
   
       `;

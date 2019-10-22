@@ -15,9 +15,11 @@
   <script src="../components/radio-input-group.js" type="module"></script>
   <script src="./triangle-unit.js"></script>
   <script src="./square-unit.js"></script>
+  <script src="./n-gon-unit.js"></script>
   <script src="./sierpinski-triangle.js"></script>
   <script src="./sierpinski-carpet.js"></script>
   <script src="./sierpinski-gasket.js"></script>
+  <script src="./sierpinski-n-gon.js"></script>
   <script src="./control.js" type="module"></script>
   <title>Sierpinski Fractals</title>
 </head>
@@ -37,6 +39,10 @@
               <radio-button value="3">Sierpinski Carpet</radio-button>
               <radio-button value="4">Sierpinski Gasket</radio-button>
               <radio-button value="5">Sierpinski Gasket - With Guide</radio-button>
+              <radio-button value="6">Sierpinski Pentagon</radio-button>
+              <radio-button value="7">Sierpinski Pentaflake</radio-button>
+              <radio-button value="8">Sierpinski Hexagon</radio-button>
+              <radio-button value="9">Sierpinski Hexaflake</radio-button>
             </radio-group>
           </div>
           <sketch-text class="description" pageid="10009">
@@ -66,11 +72,21 @@
                 of repeated modification of simpler curves, analogous to the construction of the 
                 Koch snowflake.
               </p>
+              <p>
+                <strong>Sierpinski N-gons and N-flakes:</strong><br>
+                Recursive regular polygons here. Every n-gons replaced here by n n-gons at it's n 
+                vertices. The n-flake is where instead of the edges, we connect the vertices with 
+                the center of the n-gon by lines.
+              </p>
             </div>
             <div slot="source">
               <p>
                 Found them while reading up fractals on <a target="_blank" 
                 href="https://en.wikipedia.org/wiki/Sierpi%C5%84ski_triangle">Wikipedia</a>.
+              </p>
+              <p>
+                For the n-gons and n-flakes, got the formula <a target="_target"
+                href="https://wikivisually.com/wiki/n-flake">here</a>.
               </p>
             </div>
           </sketch-text>
