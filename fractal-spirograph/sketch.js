@@ -53,6 +53,7 @@ function aCircleSpirograph(htMultiplier, direction) {
 
 function draw() {
   background(0);
+  drawCurve();
   let currentCircle = firstCircle;
   for (let i=0; i<resolution; i++) {
     while(currentCircle != null) {
@@ -63,7 +64,6 @@ function draw() {
     if (!firstCircle._child._oneRevolution)
       curve.push(createVector(lastCircle._x, lastCircle._y));
   }
-  drawCurve();
 }
 
 function drawCurve() {
@@ -74,7 +74,11 @@ function drawCurve() {
   for (let v of curve) {
     vertex(v.x, v.y);
   }
-  endShape();
+  if (firstCircle._child._oneRevolution) {
+    endShape(CLOSE);
+  } else {
+    endShape();
+  }
 }
 
 function setBus(bus) {

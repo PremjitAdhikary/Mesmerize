@@ -51,7 +51,7 @@ class NGonUnit {
       endShape();
     } else {
       stroke(this._color);
-      strokeWeight(2);
+      strokeWeight(1);
       for (let i=0; i<this._n; i++) {
         let v = this._points[i];
         line(this._x,this._y,v.x, v.y);

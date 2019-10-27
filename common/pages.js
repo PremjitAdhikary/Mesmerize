@@ -217,6 +217,28 @@ class Pages {
           'barnsley fern',
           'fractal'
         ]
+      },
+      {
+        id: 10018,
+        name: 'Rose',
+        url: '/rose',
+        img: '/rose/img/preview.jpg',
+        detail: 'Mathematical Roses. Maurer Roses.',
+        tag: [
+          'rose',
+          'curve'
+        ]
+      },
+      {
+        id: 10019,
+        name: 'Fractal Hands',
+        url: '/fractal-hands',
+        img: '/fractal-hands/img/preview.jpg',
+        detail: 'Remember Doctor Strange?',
+        tag: [
+          'fractal',
+          'hand'
+        ]
       }
     ];
 
