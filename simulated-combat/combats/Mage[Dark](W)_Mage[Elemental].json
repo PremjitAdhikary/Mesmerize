@@ -1,0 +1,4959 @@
+{
+  "Champion": "Mage[Dark]",
+  "Challenger": "Mage[Elemental]",
+  "Arena": "Backyard",
+  "Winner": "Champion",
+  "Beats": 48,
+  "SourceEvent": [
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "80.0",
+        "Mana": "120.0",
+        "Current Mana": "25.0"
+      },
+      "Event": {
+        "Name": "Paralyze",
+        "Switch": "Cooldown",
+        "State": "true"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "80.0",
+        "Mana": "120.0",
+        "Current Mana": "25.0"
+      },
+      "Event": {
+        "Name": "Life Steal",
+        "Switch": "Cooldown",
+        "State": "true"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "80.0",
+        "Mana": "120.0",
+        "Current Mana": "25.0"
+      },
+      "Event": {
+        "Name": "Bleed",
+        "Switch": "Cooldown",
+        "State": "true"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "80.0",
+        "Mana": "120.0",
+        "Current Mana": "25.0"
+      },
+      "Event": {
+        "Name": "Thorns Curse",
+        "Switch": "Cooldown",
+        "State": "false"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "80.0",
+        "Mana": "120.0",
+        "Current Mana": "25.0"
+      },
+      "Event": {
+        "Name": "Thorns Curse",
+        "Switch": "Active",
+        "State": "false"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "100.0",
+        "Mana": "90.0",
+        "Current Mana": "20.0"
+      },
+      "Event": {
+        "Name": "Flame Breath",
+        "Switch": "Cooldown",
+        "State": "true"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "100.0",
+        "Mana": "90.0",
+        "Current Mana": "20.0"
+      },
+      "Event": {
+        "Name": "Ice Blast",
+        "Switch": "Cooldown",
+        "State": "true"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "100.0",
+        "Mana": "90.0",
+        "Current Mana": "20.0"
+      },
+      "Event": {
+        "Name": "Fire Shield",
+        "Switch": "Cooldown",
+        "State": "false"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "100.0",
+        "Mana": "90.0",
+        "Current Mana": "20.0"
+      },
+      "Event": {
+        "Name": "Fire Shield",
+        "Switch": "Active",
+        "State": "false"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "100.0",
+        "Mana": "90.0",
+        "Current Mana": "20.0"
+      },
+      "Event": {
+        "Name": "Frozen Wall",
+        "Switch": "Cooldown",
+        "State": "false"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "100.0",
+        "Mana": "90.0",
+        "Current Mana": "20.0"
+      },
+      "Event": {
+        "Name": "Frozen Wall",
+        "Switch": "Active",
+        "State": "false"
+      }
+    },
+    {
+      "Type": "INFO",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "80.0",
+        "Mana": "120.0",
+        "Current Mana": "25.0"
+      },
+      "Event": {
+        "Name": "Fighter Added",
+        "As": "Champion"
+      }
+    },
+    {
+      "Type": "INFO",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "100.0",
+        "Mana": "90.0",
+        "Current Mana": "20.0"
+      },
+      "Event": {
+        "Name": "Fighter Added",
+        "As": "Challenger"
+      }
+    },
+    {
+      "Type": "INFO",
+      "Source": {
+        "Name": "Backyard"
+      },
+      "Event": {
+        "Name": "Fight Start"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "0"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "80.0",
+        "Mana": "120.0",
+        "Current Mana": "28.6"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "0"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "100.0",
+        "Mana": "90.0",
+        "Current Mana": "24.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "1"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "80.0",
+        "Mana": "120.0",
+        "Current Mana": "32.2"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "1"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "100.0",
+        "Mana": "90.0",
+        "Current Mana": "28.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "2"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "80.0",
+        "Mana": "120.0",
+        "Current Mana": "35.800000000000004"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "2"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "100.0",
+        "Mana": "90.0",
+        "Current Mana": "32.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "3"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "80.0",
+        "Mana": "120.0",
+        "Current Mana": "39.400000000000006"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "3"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "100.0",
+        "Mana": "90.0",
+        "Current Mana": "36.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "4"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "80.0",
+        "Mana": "120.0",
+        "Current Mana": "43.00000000000001"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "4"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "100.0",
+        "Mana": "90.0",
+        "Current Mana": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "5"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "80.0",
+        "Mana": "120.0",
+        "Current Mana": "46.60000000000001"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "5"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "100.0",
+        "Mana": "90.0",
+        "Current Mana": "44.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "6"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "80.0",
+        "Mana": "120.0",
+        "Current Mana": "50.20000000000001"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "6"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "100.0",
+        "Mana": "90.0",
+        "Current Mana": "48.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "7"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "80.0",
+        "Mana": "120.0",
+        "Current Mana": "53.80000000000001"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "7"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "100.0",
+        "Mana": "90.0",
+        "Current Mana": "52.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "8"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "80.0",
+        "Mana": "120.0",
+        "Current Mana": "57.40000000000001"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "8"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "100.0",
+        "Mana": "90.0",
+        "Current Mana": "56.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "9"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "80.0",
+        "Mana": "120.0",
+        "Current Mana": "61.000000000000014"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "9"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "100.0",
+        "Mana": "90.0",
+        "Current Mana": "60.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "10"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "80.0",
+        "Mana": "120.0",
+        "Current Mana": "64.60000000000001"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "10"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "100.0",
+        "Mana": "90.0",
+        "Current Mana": "64.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "11"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "80.0",
+        "Mana": "120.0",
+        "Current Mana": "68.2"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "11"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "100.0",
+        "Mana": "90.0",
+        "Current Mana": "68.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "12"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "80.0",
+        "Mana": "120.0",
+        "Current Mana": "71.8"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "12"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "100.0",
+        "Mana": "90.0",
+        "Current Mana": "72.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "13"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "80.0",
+        "Mana": "120.0",
+        "Current Mana": "75.39999999999999"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "13"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "100.0",
+        "Mana": "90.0",
+        "Current Mana": "76.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "14"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "80.0",
+        "Mana": "120.0",
+        "Current Mana": "78.99999999999999"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "14"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "100.0",
+        "Mana": "90.0",
+        "Current Mana": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "15"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "80.0",
+        "Mana": "120.0",
+        "Current Mana": "82.59999999999998"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "15"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "100.0",
+        "Mana": "90.0",
+        "Current Mana": "84.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "100.0",
+        "Mana": "90.0",
+        "Current Mana": "84.0"
+      },
+      "Event": {
+        "Name": "Flame Breath",
+        "Switch": "Cooldown",
+        "State": "false"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "16"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "80.0",
+        "Mana": "120.0",
+        "Current Mana": "86.19999999999997"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "16"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "100.0",
+        "Mana": "90.0",
+        "Current Mana": "88.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "100.0",
+        "Mana": "90.0",
+        "Current Mana": "53.0"
+      },
+      "Event": {
+        "Name": "Flame Breath",
+        "Switch": "Cooldown",
+        "State": "true"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "100.0",
+        "Mana": "90.0",
+        "Current Mana": "53.0"
+      },
+      "Event": {
+        "Name": "Flame Breath",
+        "Damage Type": "Fire",
+        "Damage Amount": "84.08846280592732",
+        "Duration": "5",
+        "Burn Damage": "15.0"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "80.0",
+        "Mana": "120.0",
+        "Current Mana": "71.19999999999997"
+      },
+      "Event": {
+        "Name": "Thorns Curse",
+        "Switch": "Active",
+        "State": "true"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "80.0",
+        "Mana": "120.0",
+        "Current Mana": "71.19999999999997"
+      },
+      "Event": {
+        "Name": "Thorns Curse",
+        "Switch": "Cooldown",
+        "State": "true"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "54.77346115822181",
+        "Mana": "120.0",
+        "Current Mana": "71.19999999999997"
+      },
+      "Event": {
+        "Name": "Thorns Curse",
+        "Damage Type": "Fire",
+        "Damage Amount": "25.226538841778194",
+        "Duration": "5",
+        "Burn Damage": "4.5"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "54.77346115822181",
+        "Mana": "120.0",
+        "Current Mana": "71.19999999999997"
+      },
+      "Event": {
+        "Name": "Curse",
+        "Damage Type": "Dark",
+        "Damage Amount": "29.430961982074564",
+        "Deterioration Percentage": "4.0"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "100.0",
+        "Mana": "90.0",
+        "Current Mana": "43.0"
+      },
+      "Event": {
+        "Name": "Fire Shield",
+        "Switch": "Active",
+        "State": "true"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "100.0",
+        "Mana": "90.0",
+        "Current Mana": "43.0"
+      },
+      "Event": {
+        "Name": "Fire Shield",
+        "Switch": "Cooldown",
+        "State": "true"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "70.56903801792544",
+        "Mana": "86.39999999999999",
+        "Current Mana": "39.4"
+      },
+      "Event": {
+        "Name": "Fire Shield",
+        "Damage Type": "Dark",
+        "Damage Amount": "29.430961982074564",
+        "Deterioration Percentage": "4.0"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "17"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "55.493461158221805",
+        "Mana": "120.0",
+        "Current Mana": "71.19999999999997"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "55.493461158221805",
+        "Mana": "120.0",
+        "Current Mana": "74.79999999999997"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "54.59346115822181",
+        "Mana": "120.0",
+        "Current Mana": "74.79999999999997"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "17"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "70.66903801792543",
+        "Mana": "86.39999999999999",
+        "Current Mana": "39.4"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "70.66903801792543",
+        "Mana": "86.39999999999999",
+        "Current Mana": "43.4"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "18"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "55.313461158221806",
+        "Mana": "120.0",
+        "Current Mana": "74.79999999999997"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "55.313461158221806",
+        "Mana": "120.0",
+        "Current Mana": "78.39999999999996"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "54.41346115822181",
+        "Mana": "120.0",
+        "Current Mana": "78.39999999999996"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "18"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "70.76903801792542",
+        "Mana": "86.39999999999999",
+        "Current Mana": "43.4"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "70.76903801792542",
+        "Mana": "86.39999999999999",
+        "Current Mana": "47.4"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "19"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "55.133461158221806",
+        "Mana": "120.0",
+        "Current Mana": "78.39999999999996"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "55.133461158221806",
+        "Mana": "120.0",
+        "Current Mana": "81.99999999999996"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "54.23346115822181",
+        "Mana": "120.0",
+        "Current Mana": "81.99999999999996"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "19"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "70.86903801792542",
+        "Mana": "86.39999999999999",
+        "Current Mana": "47.4"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "70.86903801792542",
+        "Mana": "86.39999999999999",
+        "Current Mana": "51.4"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "20"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "54.953461158221806",
+        "Mana": "120.0",
+        "Current Mana": "81.99999999999996"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "54.953461158221806",
+        "Mana": "120.0",
+        "Current Mana": "85.59999999999995"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "54.05346115822181",
+        "Mana": "120.0",
+        "Current Mana": "85.59999999999995"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "20"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "70.96903801792541",
+        "Mana": "86.39999999999999",
+        "Current Mana": "51.4"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "70.96903801792541",
+        "Mana": "86.39999999999999",
+        "Current Mana": "55.4"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "70.96903801792541",
+        "Mana": "86.39999999999999",
+        "Current Mana": "55.4"
+      },
+      "Event": {
+        "Name": "Ice Blast",
+        "Switch": "Cooldown",
+        "State": "false"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "21"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "54.77346115822181",
+        "Mana": "120.0",
+        "Current Mana": "85.59999999999995"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "54.77346115822181",
+        "Mana": "120.0",
+        "Current Mana": "89.19999999999995"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "53.87346115822181",
+        "Mana": "120.0",
+        "Current Mana": "89.19999999999995"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "21"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "71.06903801792541",
+        "Mana": "86.39999999999999",
+        "Current Mana": "55.4"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "71.06903801792541",
+        "Mana": "86.39999999999999",
+        "Current Mana": "59.4"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "71.06903801792541",
+        "Mana": "86.39999999999999",
+        "Current Mana": "14.399999999999999"
+      },
+      "Event": {
+        "Name": "Ice Blast",
+        "Switch": "Cooldown",
+        "State": "true"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "71.06903801792541",
+        "Mana": "86.39999999999999",
+        "Current Mana": "14.399999999999999"
+      },
+      "Event": {
+        "Name": "Ice Blast",
+        "Damage Type": "Cold",
+        "Damage Amount": "31.1553776155738",
+        "Duration": "40",
+        "Deterioration Percentage": "30.0"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "41.411310111992286",
+        "Mana": "102.0",
+        "Current Mana": "71.19999999999995"
+      },
+      "Event": {
+        "Name": "Thorns Curse",
+        "Damage Type": "Cold",
+        "Damage Amount": "12.462151046229522",
+        "Duration": "40",
+        "Deterioration Percentage": "12.0"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "41.411310111992286",
+        "Mana": "102.0",
+        "Current Mana": "71.19999999999995"
+      },
+      "Event": {
+        "Name": "Curse",
+        "Damage Type": "Dark",
+        "Damage Amount": "9.34661328467214",
+        "Deterioration Percentage": "4.0"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "61.72242473325327",
+        "Mana": "82.8",
+        "Current Mana": "10.799999999999999"
+      },
+      "Event": {
+        "Name": "Fire Shield",
+        "Damage Type": "Dark",
+        "Damage Amount": "9.34661328467214",
+        "Deterioration Percentage": "4.0"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "22"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "42.131310111992285",
+        "Mana": "102.0",
+        "Current Mana": "71.19999999999995"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "42.131310111992285",
+        "Mana": "102.0",
+        "Current Mana": "74.79999999999994"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "22"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "61.82242473325327",
+        "Mana": "82.8",
+        "Current Mana": "10.799999999999999"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "61.82242473325327",
+        "Mana": "82.8",
+        "Current Mana": "14.799999999999999"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "23"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "42.851310111992284",
+        "Mana": "102.0",
+        "Current Mana": "74.79999999999994"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "42.851310111992284",
+        "Mana": "102.0",
+        "Current Mana": "78.39999999999993"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "23"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "61.92242473325327",
+        "Mana": "82.8",
+        "Current Mana": "14.799999999999999"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "61.92242473325327",
+        "Mana": "82.8",
+        "Current Mana": "18.799999999999997"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "24"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "43.57131011199228",
+        "Mana": "102.0",
+        "Current Mana": "78.39999999999993"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "43.57131011199228",
+        "Mana": "102.0",
+        "Current Mana": "81.99999999999993"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "24"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "62.022424733253274",
+        "Mana": "82.8",
+        "Current Mana": "18.799999999999997"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "62.022424733253274",
+        "Mana": "82.8",
+        "Current Mana": "22.799999999999997"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "25"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "44.29131011199228",
+        "Mana": "102.0",
+        "Current Mana": "81.99999999999993"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "44.29131011199228",
+        "Mana": "102.0",
+        "Current Mana": "85.59999999999992"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "25"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "62.122424733253276",
+        "Mana": "82.8",
+        "Current Mana": "22.799999999999997"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "62.122424733253276",
+        "Mana": "82.8",
+        "Current Mana": "26.799999999999997"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "26"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "45.01131011199228",
+        "Mana": "102.0",
+        "Current Mana": "85.59999999999992"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "45.01131011199228",
+        "Mana": "102.0",
+        "Current Mana": "89.19999999999992"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "26"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "62.22242473325328",
+        "Mana": "82.8",
+        "Current Mana": "26.799999999999997"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "62.22242473325328",
+        "Mana": "82.8",
+        "Current Mana": "30.799999999999997"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "27"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "45.73131011199228",
+        "Mana": "102.0",
+        "Current Mana": "89.19999999999992"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "45.73131011199228",
+        "Mana": "102.0",
+        "Current Mana": "92.79999999999991"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "27"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "62.32242473325328",
+        "Mana": "82.8",
+        "Current Mana": "30.799999999999997"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "62.32242473325328",
+        "Mana": "82.8",
+        "Current Mana": "34.8"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "28"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "46.45131011199228",
+        "Mana": "102.0",
+        "Current Mana": "92.79999999999991"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "46.45131011199228",
+        "Mana": "102.0",
+        "Current Mana": "96.3999999999999"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "28"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "62.42242473325328",
+        "Mana": "82.8",
+        "Current Mana": "34.8"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "62.42242473325328",
+        "Mana": "82.8",
+        "Current Mana": "38.8"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "29"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "47.17131011199228",
+        "Mana": "102.0",
+        "Current Mana": "96.3999999999999"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "47.17131011199228",
+        "Mana": "102.0",
+        "Current Mana": "99.9999999999999"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "29"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "62.52242473325328",
+        "Mana": "82.8",
+        "Current Mana": "38.8"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "62.52242473325328",
+        "Mana": "82.8",
+        "Current Mana": "42.8"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "30"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "47.891310111992276",
+        "Mana": "102.0",
+        "Current Mana": "99.9999999999999"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "47.891310111992276",
+        "Mana": "102.0",
+        "Current Mana": "102.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "47.891310111992276",
+        "Mana": "102.0",
+        "Current Mana": "102.0"
+      },
+      "Event": {
+        "Name": "Bleed",
+        "Switch": "Cooldown",
+        "State": "false"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "30"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "62.62242473325328",
+        "Mana": "82.8",
+        "Current Mana": "42.8"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "62.62242473325328",
+        "Mana": "82.8",
+        "Current Mana": "46.8"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "31"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "48.611310111992275",
+        "Mana": "102.0",
+        "Current Mana": "102.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "48.611310111992275",
+        "Mana": "102.0",
+        "Current Mana": "27.0"
+      },
+      "Event": {
+        "Name": "Bleed",
+        "Switch": "Cooldown",
+        "State": "true"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "48.611310111992275",
+        "Mana": "102.0",
+        "Current Mana": "27.0"
+      },
+      "Event": {
+        "Name": "Bleed",
+        "Buff Type": "Affect Variable Attribute Over Time",
+        "Attribute": "LIFE",
+        "Affect": "TEMPORARY",
+        "Duration": "30",
+        "Percentage Per Beat": "-1.5"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "62.62242473325328",
+        "Mana": "82.8",
+        "Current Mana": "46.8"
+      },
+      "Event": {
+        "Name": "Fire Shield",
+        "Buff Type": "Affect Variable Attribute Over Time",
+        "Attribute": "LIFE",
+        "Affect": "TEMPORARY",
+        "Duration": "30",
+        "Percentage Per Beat": "-1.5"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "31"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "62.722424733253284",
+        "Mana": "82.8",
+        "Current Mana": "46.8"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "62.722424733253284",
+        "Mana": "82.8",
+        "Current Mana": "50.8"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "61.222424733253284",
+        "Mana": "82.8",
+        "Current Mana": "50.8"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "32"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "49.33131011199227",
+        "Mana": "102.0",
+        "Current Mana": "27.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "49.33131011199227",
+        "Mana": "102.0",
+        "Current Mana": "30.6"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "32"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "61.322424733253285",
+        "Mana": "82.8",
+        "Current Mana": "50.8"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "61.322424733253285",
+        "Mana": "82.8",
+        "Current Mana": "54.8"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "61.322424733253285",
+        "Mana": "82.8",
+        "Current Mana": "54.8"
+      },
+      "Event": {
+        "Name": "Flame Breath",
+        "Switch": "Cooldown",
+        "State": "false"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "59.822424733253285",
+        "Mana": "82.8",
+        "Current Mana": "54.8"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "33"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "50.05131011199227",
+        "Mana": "102.0",
+        "Current Mana": "30.6"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "50.05131011199227",
+        "Mana": "102.0",
+        "Current Mana": "34.2"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "33"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "59.92242473325329",
+        "Mana": "82.8",
+        "Current Mana": "54.8"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "59.92242473325329",
+        "Mana": "82.8",
+        "Current Mana": "58.8"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "59.92242473325329",
+        "Mana": "82.8",
+        "Current Mana": "23.799999999999997"
+      },
+      "Event": {
+        "Name": "Flame Breath",
+        "Switch": "Cooldown",
+        "State": "true"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "59.92242473325329",
+        "Mana": "82.8",
+        "Current Mana": "23.799999999999997"
+      },
+      "Event": {
+        "Name": "Flame Breath",
+        "Damage Type": "Fire",
+        "Damage Amount": "83.25240232444459",
+        "Duration": "5",
+        "Burn Damage": "15.0"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "25.075589414658893",
+        "Mana": "102.0",
+        "Current Mana": "34.2"
+      },
+      "Event": {
+        "Name": "Thorns Curse",
+        "Damage Type": "Fire",
+        "Damage Amount": "24.97572069733338",
+        "Duration": "5",
+        "Burn Damage": "4.5"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "25.075589414658893",
+        "Mana": "102.0",
+        "Current Mana": "34.2"
+      },
+      "Event": {
+        "Name": "Curse",
+        "Damage Type": "Dark",
+        "Damage Amount": "29.138340813555605",
+        "Deterioration Percentage": "4.0"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "30.784083919697682",
+        "Mana": "79.19999999999999",
+        "Current Mana": "20.199999999999996"
+      },
+      "Event": {
+        "Name": "Fire Shield",
+        "Damage Type": "Dark",
+        "Damage Amount": "29.138340813555605",
+        "Deterioration Percentage": "4.0"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "29.284083919697682",
+        "Mana": "79.19999999999999",
+        "Current Mana": "20.199999999999996"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "34"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "25.79558941465889",
+        "Mana": "102.0",
+        "Current Mana": "34.2"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "25.79558941465889",
+        "Mana": "102.0",
+        "Current Mana": "37.800000000000004"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "24.895589414658893",
+        "Mana": "102.0",
+        "Current Mana": "37.800000000000004"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "34"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "29.384083919697684",
+        "Mana": "79.19999999999999",
+        "Current Mana": "20.199999999999996"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "29.384083919697684",
+        "Mana": "79.19999999999999",
+        "Current Mana": "24.199999999999996"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "27.884083919697684",
+        "Mana": "79.19999999999999",
+        "Current Mana": "24.199999999999996"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "35"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "25.615589414658892",
+        "Mana": "102.0",
+        "Current Mana": "37.800000000000004"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "25.615589414658892",
+        "Mana": "102.0",
+        "Current Mana": "41.400000000000006"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "24.715589414658893",
+        "Mana": "102.0",
+        "Current Mana": "41.400000000000006"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "35"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "27.984083919697685",
+        "Mana": "79.19999999999999",
+        "Current Mana": "24.199999999999996"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "27.984083919697685",
+        "Mana": "79.19999999999999",
+        "Current Mana": "28.199999999999996"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "26.484083919697685",
+        "Mana": "79.19999999999999",
+        "Current Mana": "28.199999999999996"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "36"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "25.435589414658892",
+        "Mana": "102.0",
+        "Current Mana": "41.400000000000006"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "25.435589414658892",
+        "Mana": "102.0",
+        "Current Mana": "45.00000000000001"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "24.535589414658894",
+        "Mana": "102.0",
+        "Current Mana": "45.00000000000001"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "36"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "26.584083919697687",
+        "Mana": "79.19999999999999",
+        "Current Mana": "28.199999999999996"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "26.584083919697687",
+        "Mana": "79.19999999999999",
+        "Current Mana": "32.199999999999996"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "25.084083919697687",
+        "Mana": "79.19999999999999",
+        "Current Mana": "32.199999999999996"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "37"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "25.255589414658893",
+        "Mana": "102.0",
+        "Current Mana": "45.00000000000001"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "25.255589414658893",
+        "Mana": "102.0",
+        "Current Mana": "48.60000000000001"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "24.355589414658894",
+        "Mana": "102.0",
+        "Current Mana": "48.60000000000001"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "37"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "25.184083919697688",
+        "Mana": "79.19999999999999",
+        "Current Mana": "32.199999999999996"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "25.184083919697688",
+        "Mana": "79.19999999999999",
+        "Current Mana": "36.199999999999996"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "23.684083919697688",
+        "Mana": "79.19999999999999",
+        "Current Mana": "36.199999999999996"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "38"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "25.075589414658893",
+        "Mana": "102.0",
+        "Current Mana": "48.60000000000001"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "25.075589414658893",
+        "Mana": "102.0",
+        "Current Mana": "52.20000000000001"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "24.175589414658894",
+        "Mana": "102.0",
+        "Current Mana": "52.20000000000001"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "38"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "23.78408391969769",
+        "Mana": "79.19999999999999",
+        "Current Mana": "36.199999999999996"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "23.78408391969769",
+        "Mana": "79.19999999999999",
+        "Current Mana": "40.199999999999996"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "22.28408391969769",
+        "Mana": "79.19999999999999",
+        "Current Mana": "40.199999999999996"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "39"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "24.895589414658893",
+        "Mana": "102.0",
+        "Current Mana": "52.20000000000001"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "24.895589414658893",
+        "Mana": "102.0",
+        "Current Mana": "55.80000000000001"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "39"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "22.38408391969769",
+        "Mana": "79.19999999999999",
+        "Current Mana": "40.199999999999996"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "22.38408391969769",
+        "Mana": "79.19999999999999",
+        "Current Mana": "44.199999999999996"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "20.88408391969769",
+        "Mana": "79.19999999999999",
+        "Current Mana": "44.199999999999996"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "40"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "25.615589414658892",
+        "Mana": "102.0",
+        "Current Mana": "55.80000000000001"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "25.615589414658892",
+        "Mana": "102.0",
+        "Current Mana": "59.40000000000001"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "25.615589414658892",
+        "Mana": "102.0",
+        "Current Mana": "59.40000000000001"
+      },
+      "Event": {
+        "Name": "Life Steal",
+        "Switch": "Cooldown",
+        "State": "false"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "40"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "20.984083919697692",
+        "Mana": "79.19999999999999",
+        "Current Mana": "44.199999999999996"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "20.984083919697692",
+        "Mana": "79.19999999999999",
+        "Current Mana": "48.199999999999996"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "19.484083919697692",
+        "Mana": "79.19999999999999",
+        "Current Mana": "48.199999999999996"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "41"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "26.33558941465889",
+        "Mana": "102.0",
+        "Current Mana": "59.40000000000001"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "26.33558941465889",
+        "Mana": "102.0",
+        "Current Mana": "63.000000000000014"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "41"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "19.584083919697694",
+        "Mana": "79.19999999999999",
+        "Current Mana": "48.199999999999996"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "19.584083919697694",
+        "Mana": "79.19999999999999",
+        "Current Mana": "52.199999999999996"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "18.084083919697694",
+        "Mana": "79.19999999999999",
+        "Current Mana": "52.199999999999996"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "42"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "27.05558941465889",
+        "Mana": "102.0",
+        "Current Mana": "63.000000000000014"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "27.05558941465889",
+        "Mana": "102.0",
+        "Current Mana": "66.60000000000001"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "42"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "18.184083919697695",
+        "Mana": "79.19999999999999",
+        "Current Mana": "52.199999999999996"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "18.184083919697695",
+        "Mana": "79.19999999999999",
+        "Current Mana": "56.199999999999996"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "18.184083919697695",
+        "Mana": "79.19999999999999",
+        "Current Mana": "56.199999999999996"
+      },
+      "Event": {
+        "Name": "Ice Blast",
+        "Switch": "Cooldown",
+        "State": "false"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "16.684083919697695",
+        "Mana": "79.19999999999999",
+        "Current Mana": "56.199999999999996"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "43"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "27.77558941465889",
+        "Mana": "102.0",
+        "Current Mana": "66.60000000000001"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "27.77558941465889",
+        "Mana": "102.0",
+        "Current Mana": "70.2"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "43"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "16.784083919697697",
+        "Mana": "79.19999999999999",
+        "Current Mana": "56.199999999999996"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "16.784083919697697",
+        "Mana": "79.19999999999999",
+        "Current Mana": "60.199999999999996"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "16.784083919697697",
+        "Mana": "79.19999999999999",
+        "Current Mana": "15.199999999999996"
+      },
+      "Event": {
+        "Name": "Ice Blast",
+        "Switch": "Cooldown",
+        "State": "true"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "16.784083919697697",
+        "Mana": "79.19999999999999",
+        "Current Mana": "15.199999999999996"
+      },
+      "Event": {
+        "Name": "Ice Blast",
+        "Damage Type": "Cold",
+        "Damage Amount": "31.699814901677506",
+        "Duration": "40",
+        "Deterioration Percentage": "30.0"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "15.095663453987886",
+        "Mana": "84.0",
+        "Current Mana": "52.2"
+      },
+      "Event": {
+        "Name": "Thorns Curse",
+        "Damage Type": "Cold",
+        "Damage Amount": "12.679925960671003",
+        "Duration": "40",
+        "Deterioration Percentage": "12.0"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "15.095663453987886",
+        "Mana": "84.0",
+        "Current Mana": "52.2"
+      },
+      "Event": {
+        "Name": "Curse",
+        "Damage Type": "Dark",
+        "Damage Amount": "9.509944470503251",
+        "Deterioration Percentage": "4.0"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "7.274139449194445",
+        "Mana": "75.6",
+        "Current Mana": "11.599999999999996"
+      },
+      "Event": {
+        "Name": "Fire Shield",
+        "Damage Type": "Dark",
+        "Damage Amount": "9.509944470503251",
+        "Deterioration Percentage": "4.0"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "5.774139449194445",
+        "Mana": "75.6",
+        "Current Mana": "11.599999999999996"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "44"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "15.815663453987886",
+        "Mana": "84.0",
+        "Current Mana": "52.2"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "15.815663453987886",
+        "Mana": "84.0",
+        "Current Mana": "55.800000000000004"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "44"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "5.874139449194445",
+        "Mana": "75.6",
+        "Current Mana": "11.599999999999996"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "5.874139449194445",
+        "Mana": "75.6",
+        "Current Mana": "15.599999999999996"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "4.374139449194445",
+        "Mana": "75.6",
+        "Current Mana": "15.599999999999996"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "45"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "16.535663453987887",
+        "Mana": "84.0",
+        "Current Mana": "55.800000000000004"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "16.535663453987887",
+        "Mana": "84.0",
+        "Current Mana": "59.400000000000006"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "45"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "4.474139449194444",
+        "Mana": "75.6",
+        "Current Mana": "15.599999999999996"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "4.474139449194444",
+        "Mana": "75.6",
+        "Current Mana": "19.599999999999994"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "2.9741394491944444",
+        "Mana": "75.6",
+        "Current Mana": "19.599999999999994"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "46"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "17.255663453987886",
+        "Mana": "84.0",
+        "Current Mana": "59.400000000000006"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "17.255663453987886",
+        "Mana": "84.0",
+        "Current Mana": "63.00000000000001"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "46"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "3.0741394491944445",
+        "Mana": "75.6",
+        "Current Mana": "19.599999999999994"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "3.0741394491944445",
+        "Mana": "75.6",
+        "Current Mana": "23.599999999999994"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "1.5741394491944445",
+        "Mana": "75.6",
+        "Current Mana": "23.599999999999994"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "47"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "17.975663453987885",
+        "Mana": "84.0",
+        "Current Mana": "63.00000000000001"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "17.975663453987885",
+        "Mana": "84.0",
+        "Current Mana": "66.60000000000001"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "17.975663453987885",
+        "Mana": "84.0",
+        "Current Mana": "66.60000000000001"
+      },
+      "Event": {
+        "Name": "Thorns Curse",
+        "Switch": "Cooldown",
+        "State": "false"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "47"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "1.6741394491944446",
+        "Mana": "75.6",
+        "Current Mana": "23.599999999999994"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "1.6741394491944446",
+        "Mana": "75.6",
+        "Current Mana": "27.599999999999994"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "1.6741394491944446",
+        "Mana": "75.6",
+        "Current Mana": "27.599999999999994"
+      },
+      "Event": {
+        "Name": "Fire Shield",
+        "Switch": "Cooldown",
+        "State": "false"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "0.17413944919444457",
+        "Mana": "75.6",
+        "Current Mana": "27.599999999999994"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "48"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "18.695663453987883",
+        "Mana": "84.0",
+        "Current Mana": "66.60000000000001"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "18.695663453987883",
+        "Mana": "84.0",
+        "Current Mana": "70.2"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "48"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "0.27413944919444455",
+        "Mana": "75.6",
+        "Current Mana": "27.599999999999994"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "0.27413944919444455",
+        "Mana": "75.6",
+        "Current Mana": "31.599999999999994"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "0.0",
+        "Mana": "75.6",
+        "Current Mana": "31.599999999999994"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "INFO",
+      "Source": {
+        "Name": "Backyard"
+      },
+      "Event": {
+        "Name": "Fight End",
+        "Result": "Win",
+        "Result By": "Knock Out"
+      }
+    },
+    {
+      "Type": "INFO",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "18.695663453987883",
+        "Mana": "84.0",
+        "Current Mana": "70.2"
+      },
+      "Event": {
+        "Name": "Won",
+        "As": "Champion"
+      }
+    },
+    {
+      "Type": "INFO",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "0.0",
+        "Mana": "75.6",
+        "Current Mana": "31.599999999999994"
+      },
+      "Event": {
+        "Name": "Lost",
+        "As": "Challenger"
+      }
+    }
+  ]
+}

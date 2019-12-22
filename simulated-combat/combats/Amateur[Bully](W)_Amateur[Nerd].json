@@ -1,0 +1,4278 @@
+{
+  "Champion": "Amateur[Bully]",
+  "Challenger": "Amateur[Nerd]",
+  "Arena": "Backyard",
+  "Winner": "Champion",
+  "Beats": 199,
+  "SourceEvent": [
+    {
+      "Type": "INFO",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Bully",
+        "Fighter Type": "Amateur",
+        "Fighter Subtype": "Bully",
+        "Life": "60.0",
+        "Current Life": "60.0",
+        "Strength": "35.0",
+        "Dexterity": "10.0"
+      },
+      "Event": {
+        "Name": "Fighter Added",
+        "As": "Champion"
+      }
+    },
+    {
+      "Type": "INFO",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Nerd",
+        "Fighter Type": "Amateur",
+        "Fighter Subtype": "Nerd",
+        "Life": "20.0",
+        "Current Life": "20.0",
+        "Strength": "10.0",
+        "Dexterity": "20.0"
+      },
+      "Event": {
+        "Name": "Fighter Added",
+        "As": "Challenger"
+      }
+    },
+    {
+      "Type": "INFO",
+      "Source": {
+        "Name": "Backyard"
+      },
+      "Event": {
+        "Name": "Fight Start"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "0"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "0"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "1"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "1"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "2"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "2"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "3"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "3"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "4"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "4"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "5"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "5"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "6"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "6"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "7"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "7"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "8"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "8"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "9"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "9"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "10"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "10"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "11"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "11"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "12"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "12"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "13"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "13"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "14"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "14"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "15"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "15"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "16"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "16"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "17"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "17"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "18"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "18"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "19"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "19"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "20"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "20"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "21"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "21"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "22"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "22"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "23"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "23"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "24"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "24"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "25"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "25"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "26"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "26"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "27"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "27"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "28"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "28"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "29"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "29"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "30"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "30"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "31"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "31"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "32"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "32"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "33"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "33"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "34"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "34"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "35"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "35"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "36"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "36"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "37"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "37"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "38"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "38"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "39"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "39"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "40"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "40"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "41"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "41"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "42"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "42"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "43"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "43"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "44"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "44"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "45"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "45"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "46"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "46"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "47"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "47"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "48"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "48"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "49"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "49"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Nerd",
+        "Fighter Type": "Amateur",
+        "Fighter Subtype": "Nerd",
+        "Life": "20.0",
+        "Current Life": "20.0",
+        "Strength": "10.0",
+        "Dexterity": "20.0"
+      },
+      "Event": {
+        "Name": "Kick",
+        "Damage Type": "Physical",
+        "Damage Amount": "26.344341675518876"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Bully",
+        "Fighter Type": "Amateur",
+        "Fighter Subtype": "Bully",
+        "Life": "60.0",
+        "Current Life": "41.622875408257066",
+        "Strength": "35.0",
+        "Dexterity": "10.0"
+      },
+      "Event": {
+        "Name": "Block",
+        "Damage Type": "Physical",
+        "Damage Amount": "18.377124591742934"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "50"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "50"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "51"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "51"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "52"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "52"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "53"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "53"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "54"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "54"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "55"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "55"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "56"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "56"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "57"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "57"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "58"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "58"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "59"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "59"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "60"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "60"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "61"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "61"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "62"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "62"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "63"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "63"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "64"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "64"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "65"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "65"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "66"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "66"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "67"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "67"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "68"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "68"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "69"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "69"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "70"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "70"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "71"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "71"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "72"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "72"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "73"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "73"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "74"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "74"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "75"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "75"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "76"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "76"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "77"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "77"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "78"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "78"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "79"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "79"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "80"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "80"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "81"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "81"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "82"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "82"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "83"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "83"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "84"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "84"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "85"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "85"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "86"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "86"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "87"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "87"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "88"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "88"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "89"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "89"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "90"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "90"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "91"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "91"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "92"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "92"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "93"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "93"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "94"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "94"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "95"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "95"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "96"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "96"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "97"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "97"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "98"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "98"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "99"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Bully",
+        "Fighter Type": "Amateur",
+        "Fighter Subtype": "Bully",
+        "Life": "60.0",
+        "Current Life": "41.622875408257066",
+        "Strength": "35.0",
+        "Dexterity": "10.0"
+      },
+      "Event": {
+        "Name": "Punch",
+        "Damage Type": "Physical",
+        "Damage Amount": "20.751886156070388"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Nerd",
+        "Fighter Type": "Amateur",
+        "Fighter Subtype": "Nerd",
+        "Life": "20.0",
+        "Current Life": "20.0",
+        "Strength": "10.0",
+        "Dexterity": "20.0"
+      },
+      "Event": {
+        "Name": "Evade",
+        "Damage Type": "Physical",
+        "Damage Amount": "0.0"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "99"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Nerd",
+        "Fighter Type": "Amateur",
+        "Fighter Subtype": "Nerd",
+        "Life": "20.0",
+        "Current Life": "20.0",
+        "Strength": "10.0",
+        "Dexterity": "20.0"
+      },
+      "Event": {
+        "Name": "Kick",
+        "Damage Type": "Physical",
+        "Damage Amount": "15.812659175248333"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Bully",
+        "Fighter Type": "Amateur",
+        "Fighter Subtype": "Bully",
+        "Life": "60.0",
+        "Current Life": "33.25084919177115",
+        "Strength": "35.0",
+        "Dexterity": "10.0"
+      },
+      "Event": {
+        "Name": "Block",
+        "Damage Type": "Physical",
+        "Damage Amount": "8.372026216485917"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "100"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "100"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "101"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "101"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "102"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "102"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "103"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "103"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "104"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "104"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "105"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "105"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "106"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "106"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "107"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "107"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "108"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "108"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "109"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "109"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "110"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "110"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "111"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "111"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "112"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "112"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "113"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "113"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "114"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "114"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "115"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "115"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "116"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "116"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "117"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "117"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "118"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "118"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "119"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "119"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "120"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "120"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "121"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "121"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "122"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "122"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "123"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "123"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "124"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "124"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "125"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "125"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "126"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "126"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "127"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "127"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "128"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "128"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "129"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "129"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "130"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "130"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "131"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "131"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "132"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "132"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "133"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "133"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "134"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "134"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "135"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "135"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "136"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "136"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "137"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "137"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "138"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "138"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "139"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "139"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "140"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "140"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "141"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "141"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "142"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "142"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "143"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "143"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "144"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "144"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "145"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "145"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "146"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "146"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "147"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "147"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "148"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "148"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "149"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "149"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Nerd",
+        "Fighter Type": "Amateur",
+        "Fighter Subtype": "Nerd",
+        "Life": "20.0",
+        "Current Life": "20.0",
+        "Strength": "10.0",
+        "Dexterity": "20.0"
+      },
+      "Event": {
+        "Name": "Kick",
+        "Damage Type": "Physical",
+        "Damage Amount": "24.92200792357474"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Bully",
+        "Fighter Type": "Amateur",
+        "Fighter Subtype": "Bully",
+        "Life": "60.0",
+        "Current Life": "8.328841268196413",
+        "Strength": "35.0",
+        "Dexterity": "10.0"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "150"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "150"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "151"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "151"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "152"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "152"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "153"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "153"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "154"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "154"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "155"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "155"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "156"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "156"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "157"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "157"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "158"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "158"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "159"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "159"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "160"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "160"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "161"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "161"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "162"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "162"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "163"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "163"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "164"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "164"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "165"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "165"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "166"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "166"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "167"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "167"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "168"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "168"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "169"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "169"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "170"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "170"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "171"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "171"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "172"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "172"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "173"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "173"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "174"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "174"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "175"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "175"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "176"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "176"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "177"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "177"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "178"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "178"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "179"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "179"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "180"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "180"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "181"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "181"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "182"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "182"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "183"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "183"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "184"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "184"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "185"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "185"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "186"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "186"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "187"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "187"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "188"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "188"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "189"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "189"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "190"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "190"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "191"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "191"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "192"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "192"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "193"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "193"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "194"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "194"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "195"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "195"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "196"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "196"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "197"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "197"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "198"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "198"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "199"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Bully",
+        "Fighter Type": "Amateur",
+        "Fighter Subtype": "Bully",
+        "Life": "60.0",
+        "Current Life": "8.328841268196413",
+        "Strength": "35.0",
+        "Dexterity": "10.0"
+      },
+      "Event": {
+        "Name": "Punch",
+        "Damage Type": "Physical",
+        "Damage Amount": "20.200422185688222"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Nerd",
+        "Fighter Type": "Amateur",
+        "Fighter Subtype": "Nerd",
+        "Life": "20.0",
+        "Current Life": "0.0",
+        "Strength": "10.0",
+        "Dexterity": "20.0"
+      },
+      "Event": {
+        "Name": "Evade",
+        "Damage Type": "Physical",
+        "Damage Amount": "20.200422185688222"
+      }
+    },
+    {
+      "Type": "INFO",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Nerd",
+        "Fighter Type": "Amateur",
+        "Fighter Subtype": "Nerd",
+        "Life": "20.0",
+        "Current Life": "0.0",
+        "Strength": "10.0",
+        "Dexterity": "20.0"
+      },
+      "Event": {
+        "Name": "Knock Out"
+      }
+    },
+    {
+      "Type": "INFO",
+      "Source": {
+        "Name": "Backyard"
+      },
+      "Event": {
+        "Name": "Fight End",
+        "Result": "Win",
+        "Result By": "Knock Out"
+      }
+    },
+    {
+      "Type": "INFO",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Bully",
+        "Fighter Type": "Amateur",
+        "Fighter Subtype": "Bully",
+        "Life": "60.0",
+        "Current Life": "8.328841268196413",
+        "Strength": "35.0",
+        "Dexterity": "10.0"
+      },
+      "Event": {
+        "Name": "Won",
+        "As": "Champion"
+      }
+    },
+    {
+      "Type": "INFO",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Nerd",
+        "Fighter Type": "Amateur",
+        "Fighter Subtype": "Nerd",
+        "Life": "20.0",
+        "Current Life": "0.0",
+        "Strength": "10.0",
+        "Dexterity": "20.0"
+      },
+      "Event": {
+        "Name": "Lost",
+        "As": "Challenger"
+      }
+    }
+  ]
+}

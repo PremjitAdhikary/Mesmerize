@@ -1,0 +1,3930 @@
+{
+  "Champion": "Ninja[Shuriken Jutsu]",
+  "Challenger": "Samurai[Sword and Armor]",
+  "Arena": "Backyard",
+  "Winner": "Challenger",
+  "Beats": 49,
+  "SourceEvent": [
+    {
+      "Type": "INFO",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "25.0",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Fighter Added",
+        "As": "Champion"
+      }
+    },
+    {
+      "Type": "INFO",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "25.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Fighter Added",
+        "As": "Challenger"
+      }
+    },
+    {
+      "Type": "INFO",
+      "Source": {
+        "Name": "Backyard"
+      },
+      "Event": {
+        "Name": "Fight Start"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "0"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "26.6",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "0"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "27.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "1"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "28.200000000000003",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "1"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "29.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "2"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "29.800000000000004",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "2"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "31.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "3"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "31.400000000000006",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "3"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "33.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "4"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "33.00000000000001",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "4"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "35.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "5"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "34.60000000000001",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "5"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "37.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "6"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "36.20000000000001",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "6"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "39.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "7"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "37.80000000000001",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "7"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "41.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "8"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "39.40000000000001",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "8"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "43.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "9"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "41.000000000000014",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "9"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "45.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "10"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "42.600000000000016",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "10"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "47.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "11"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "44.20000000000002",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "44.20000000000002",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Shuriken",
+        "Count": "9",
+        "Damage Type": "Physical",
+        "Damage Amount": "57.75691816552907"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "47.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Armor",
+        "Damage Reduced": "17.32707544965872",
+        "Armor Base": "30.0",
+        "Armor Current": "21.33646227517064"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "96.21314155571669",
+        "Stamina": "120.0",
+        "Current Stamina": "47.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Block",
+        "Damage Type": "Physical",
+        "Damage Amount": "23.786858444283315"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "11"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "96.3331415557167",
+        "Stamina": "120.0",
+        "Current Stamina": "47.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "96.3331415557167",
+        "Stamina": "120.0",
+        "Current Stamina": "49.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "12"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "45.80000000000002",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "12"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "96.4531415557167",
+        "Stamina": "120.0",
+        "Current Stamina": "49.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "96.4531415557167",
+        "Stamina": "120.0",
+        "Current Stamina": "51.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "13"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "47.40000000000002",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "13"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "96.5731415557167",
+        "Stamina": "120.0",
+        "Current Stamina": "51.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "96.5731415557167",
+        "Stamina": "120.0",
+        "Current Stamina": "53.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "14"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "49.00000000000002",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "14"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "96.6931415557167",
+        "Stamina": "120.0",
+        "Current Stamina": "53.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "96.6931415557167",
+        "Stamina": "120.0",
+        "Current Stamina": "55.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "15"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "50.60000000000002",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "15"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "96.81314155571671",
+        "Stamina": "120.0",
+        "Current Stamina": "55.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "96.81314155571671",
+        "Stamina": "120.0",
+        "Current Stamina": "57.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "16"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "52.200000000000024",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "16"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "96.93314155571672",
+        "Stamina": "120.0",
+        "Current Stamina": "57.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "96.93314155571672",
+        "Stamina": "120.0",
+        "Current Stamina": "59.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "17"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "53.800000000000026",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "17"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "97.05314155571672",
+        "Stamina": "120.0",
+        "Current Stamina": "59.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "97.05314155571672",
+        "Stamina": "120.0",
+        "Current Stamina": "61.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "18"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "55.40000000000003",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "18"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "97.17314155571673",
+        "Stamina": "120.0",
+        "Current Stamina": "61.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "97.17314155571673",
+        "Stamina": "120.0",
+        "Current Stamina": "63.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "19"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "57.00000000000003",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "19"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "97.29314155571673",
+        "Stamina": "120.0",
+        "Current Stamina": "63.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "97.29314155571673",
+        "Stamina": "120.0",
+        "Current Stamina": "65.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "20"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "58.60000000000003",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "20"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "97.41314155571673",
+        "Stamina": "120.0",
+        "Current Stamina": "65.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "97.41314155571673",
+        "Stamina": "120.0",
+        "Current Stamina": "67.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "21"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "60.20000000000003",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "21"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "97.53314155571674",
+        "Stamina": "120.0",
+        "Current Stamina": "67.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "97.53314155571674",
+        "Stamina": "120.0",
+        "Current Stamina": "69.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "22"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "61.80000000000003",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "22"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "97.65314155571674",
+        "Stamina": "120.0",
+        "Current Stamina": "69.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "97.65314155571674",
+        "Stamina": "120.0",
+        "Current Stamina": "71.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "23"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "63.400000000000034",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "63.400000000000034",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Nunchuck Swing",
+        "Weapon": "Nunchucks",
+        "Damage Type": "Physical",
+        "Damage Amount": "63.122089195026284"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "97.65314155571674",
+        "Stamina": "120.0",
+        "Current Stamina": "71.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Armor",
+        "Damage Reduced": "18.936626758507884",
+        "Armor Base": "30.0",
+        "Armor Current": "11.868148895916697"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "53.467679119198344",
+        "Stamina": "120.0",
+        "Current Stamina": "71.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "23"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "53.58767911919834",
+        "Stamina": "120.0",
+        "Current Stamina": "71.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "53.58767911919834",
+        "Stamina": "120.0",
+        "Current Stamina": "73.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "24"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "65.00000000000003",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "24"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "53.70767911919834",
+        "Stamina": "120.0",
+        "Current Stamina": "73.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "53.70767911919834",
+        "Stamina": "120.0",
+        "Current Stamina": "75.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "53.70767911919834",
+        "Stamina": "120.0",
+        "Current Stamina": "45.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Sword Cut",
+        "Weapon": "Sword",
+        "Damage Type": "Physical",
+        "Damage Amount": "116.70882063456408"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "65.00000000000003",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Evade",
+        "Damage Type": "Physical",
+        "Damage Amount": "0.0"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "25"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "66.60000000000002",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "25"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "53.827679119198336",
+        "Stamina": "120.0",
+        "Current Stamina": "45.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "53.827679119198336",
+        "Stamina": "120.0",
+        "Current Stamina": "47.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "26"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "68.20000000000002",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "26"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "53.947679119198334",
+        "Stamina": "120.0",
+        "Current Stamina": "47.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "53.947679119198334",
+        "Stamina": "120.0",
+        "Current Stamina": "49.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "27"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "69.80000000000001",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "27"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "54.06767911919833",
+        "Stamina": "120.0",
+        "Current Stamina": "49.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "54.06767911919833",
+        "Stamina": "120.0",
+        "Current Stamina": "51.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "28"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "71.4",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "28"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "54.18767911919833",
+        "Stamina": "120.0",
+        "Current Stamina": "51.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "54.18767911919833",
+        "Stamina": "120.0",
+        "Current Stamina": "53.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "29"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "73.0",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "29"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "54.307679119198326",
+        "Stamina": "120.0",
+        "Current Stamina": "53.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "54.307679119198326",
+        "Stamina": "120.0",
+        "Current Stamina": "55.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "30"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "74.6",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "30"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "54.427679119198324",
+        "Stamina": "120.0",
+        "Current Stamina": "55.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "54.427679119198324",
+        "Stamina": "120.0",
+        "Current Stamina": "57.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "31"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "76.19999999999999",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "31"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "54.54767911919832",
+        "Stamina": "120.0",
+        "Current Stamina": "57.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "54.54767911919832",
+        "Stamina": "120.0",
+        "Current Stamina": "59.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "32"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "77.79999999999998",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "32"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "54.66767911919832",
+        "Stamina": "120.0",
+        "Current Stamina": "59.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "54.66767911919832",
+        "Stamina": "120.0",
+        "Current Stamina": "61.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "33"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "79.39999999999998",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "33"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "54.787679119198316",
+        "Stamina": "120.0",
+        "Current Stamina": "61.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "54.787679119198316",
+        "Stamina": "120.0",
+        "Current Stamina": "63.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "34"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "34"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "54.90767911919831",
+        "Stamina": "120.0",
+        "Current Stamina": "63.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "54.90767911919831",
+        "Stamina": "120.0",
+        "Current Stamina": "65.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "35"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "16.0",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Flying Kick",
+        "Damage Type": "Physical",
+        "Damage Amount": "70.08987493730788"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "54.90767911919831",
+        "Stamina": "120.0",
+        "Current Stamina": "65.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Armor",
+        "Damage Reduced": "21.026962481192363",
+        "Armor Base": "30.0",
+        "Armor Current": "1.3546676553205153"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "23.351057908694347",
+        "Stamina": "120.0",
+        "Current Stamina": "65.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Block",
+        "Damage Type": "Physical",
+        "Damage Amount": "31.556621210503966"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "35"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "23.47105790869435",
+        "Stamina": "120.0",
+        "Current Stamina": "65.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "23.47105790869435",
+        "Stamina": "120.0",
+        "Current Stamina": "67.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "36"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "17.6",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "36"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "23.59105790869435",
+        "Stamina": "120.0",
+        "Current Stamina": "67.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "23.59105790869435",
+        "Stamina": "120.0",
+        "Current Stamina": "69.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "37"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "19.200000000000003",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "37"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "23.71105790869435",
+        "Stamina": "120.0",
+        "Current Stamina": "69.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "23.71105790869435",
+        "Stamina": "120.0",
+        "Current Stamina": "71.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "38"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "20.800000000000004",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "38"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "23.83105790869435",
+        "Stamina": "120.0",
+        "Current Stamina": "71.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "23.83105790869435",
+        "Stamina": "120.0",
+        "Current Stamina": "73.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "39"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "22.400000000000006",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "39"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "23.951057908694352",
+        "Stamina": "120.0",
+        "Current Stamina": "73.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "23.951057908694352",
+        "Stamina": "120.0",
+        "Current Stamina": "75.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "40"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "24.000000000000007",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "40"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "24.071057908694353",
+        "Stamina": "120.0",
+        "Current Stamina": "75.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "24.071057908694353",
+        "Stamina": "120.0",
+        "Current Stamina": "77.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "41"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "25.60000000000001",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "41"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "24.191057908694354",
+        "Stamina": "120.0",
+        "Current Stamina": "77.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "24.191057908694354",
+        "Stamina": "120.0",
+        "Current Stamina": "79.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "42"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "27.20000000000001",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "42"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "24.311057908694355",
+        "Stamina": "120.0",
+        "Current Stamina": "79.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "24.311057908694355",
+        "Stamina": "120.0",
+        "Current Stamina": "81.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "43"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "28.80000000000001",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "43"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "24.431057908694356",
+        "Stamina": "120.0",
+        "Current Stamina": "81.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "24.431057908694356",
+        "Stamina": "120.0",
+        "Current Stamina": "83.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "44"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "30.400000000000013",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "44"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "24.551057908694357",
+        "Stamina": "120.0",
+        "Current Stamina": "83.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "24.551057908694357",
+        "Stamina": "120.0",
+        "Current Stamina": "85.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "45"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "32.000000000000014",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "45"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "24.671057908694358",
+        "Stamina": "120.0",
+        "Current Stamina": "85.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "24.671057908694358",
+        "Stamina": "120.0",
+        "Current Stamina": "87.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "46"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "33.600000000000016",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "46"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "24.79105790869436",
+        "Stamina": "120.0",
+        "Current Stamina": "87.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "24.79105790869436",
+        "Stamina": "120.0",
+        "Current Stamina": "89.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "47"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "35.20000000000002",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "35.20000000000002",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Kick",
+        "Damage Type": "Physical",
+        "Damage Amount": "17.826673205767815"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "24.79105790869436",
+        "Stamina": "120.0",
+        "Current Stamina": "89.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Armor",
+        "Damage Reduced": "5.348001961730344",
+        "Armor Base": "30.0",
+        "Armor Current": "0.0"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "24.79105790869436",
+        "Stamina": "120.0",
+        "Current Stamina": "89.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Block",
+        "Damage Type": "Physical",
+        "Damage Amount": "0.0"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "47"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "24.91105790869436",
+        "Stamina": "120.0",
+        "Current Stamina": "89.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "24.91105790869436",
+        "Stamina": "120.0",
+        "Current Stamina": "91.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "48"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "36.80000000000002",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "48"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "25.03105790869436",
+        "Stamina": "120.0",
+        "Current Stamina": "91.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "25.03105790869436",
+        "Stamina": "120.0",
+        "Current Stamina": "93.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "49"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "38.40000000000002",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "49"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "25.151057908694362",
+        "Stamina": "120.0",
+        "Current Stamina": "93.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "25.151057908694362",
+        "Stamina": "120.0",
+        "Current Stamina": "95.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "25.151057908694362",
+        "Stamina": "120.0",
+        "Current Stamina": "65.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Sword Slash",
+        "Weapon": "Sword",
+        "Damage Type": "Physical",
+        "Damage Amount": "94.34905288872783"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "0.0",
+        "Stamina": "80.0",
+        "Current Stamina": "38.40000000000002",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Evade",
+        "Damage Type": "Physical",
+        "Damage Amount": "94.34905288872783"
+      }
+    },
+    {
+      "Type": "INFO",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "0.0",
+        "Stamina": "80.0",
+        "Current Stamina": "38.40000000000002",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Knock Out"
+      }
+    },
+    {
+      "Type": "INFO",
+      "Source": {
+        "Name": "Backyard"
+      },
+      "Event": {
+        "Name": "Fight End",
+        "Result": "Win",
+        "Result By": "Knock Out"
+      }
+    },
+    {
+      "Type": "INFO",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "0.0",
+        "Stamina": "80.0",
+        "Current Stamina": "38.40000000000002",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Lost",
+        "As": "Champion"
+      }
+    },
+    {
+      "Type": "INFO",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "25.151057908694362",
+        "Stamina": "120.0",
+        "Current Stamina": "65.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Won",
+        "As": "Challenger"
+      }
+    }
+  ]
+}

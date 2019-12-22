@@ -1,0 +1,3818 @@
+{
+  "Champion": "Hero[Superman]",
+  "Challenger": "Hero[Flash]",
+  "Arena": "Backyard",
+  "Winner": "Champion",
+  "Beats": 48,
+  "SourceEvent": [
+    {
+      "Type": "INFO",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "450.0",
+        "Mojo": "180.0",
+        "Current Mojo": "40.0",
+        "Strength": "400.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Fighter Added",
+        "As": "Champion"
+      }
+    },
+    {
+      "Type": "INFO",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Mojo": "100.0",
+        "Current Mojo": "20.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Fighter Added",
+        "As": "Challenger"
+      }
+    },
+    {
+      "Type": "INFO",
+      "Source": {
+        "Name": "Backyard"
+      },
+      "Event": {
+        "Name": "Fight Start"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "0"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "450.0",
+        "Mojo": "180.0",
+        "Current Mojo": "43.0",
+        "Strength": "400.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "0"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Mojo": "100.0",
+        "Current Mojo": "22.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "1"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "450.0",
+        "Mojo": "180.0",
+        "Current Mojo": "46.0",
+        "Strength": "400.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "1"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Mojo": "100.0",
+        "Current Mojo": "24.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "2"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "450.0",
+        "Mojo": "180.0",
+        "Current Mojo": "49.0",
+        "Strength": "400.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "2"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Mojo": "100.0",
+        "Current Mojo": "26.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "3"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "450.0",
+        "Mojo": "180.0",
+        "Current Mojo": "52.0",
+        "Strength": "400.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "3"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Mojo": "100.0",
+        "Current Mojo": "28.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "4"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "450.0",
+        "Mojo": "180.0",
+        "Current Mojo": "55.0",
+        "Strength": "400.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "4"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Mojo": "100.0",
+        "Current Mojo": "30.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "5"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "450.0",
+        "Mojo": "180.0",
+        "Current Mojo": "58.0",
+        "Strength": "400.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "5"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Mojo": "100.0",
+        "Current Mojo": "32.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "6"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "450.0",
+        "Mojo": "180.0",
+        "Current Mojo": "61.0",
+        "Strength": "400.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "6"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Mojo": "100.0",
+        "Current Mojo": "34.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "7"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "450.0",
+        "Mojo": "180.0",
+        "Current Mojo": "64.0",
+        "Strength": "400.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "7"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Mojo": "100.0",
+        "Current Mojo": "36.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Mojo": "100.0",
+        "Current Mojo": "36.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Kick",
+        "Damage Type": "Physical",
+        "Damage Amount": "51.41818651200612"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "450.0",
+        "Mojo": "180.0",
+        "Current Mojo": "64.0",
+        "Strength": "400.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Block",
+        "Damage Type": "Physical",
+        "Damage Amount": "0.0"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "8"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "450.0",
+        "Mojo": "180.0",
+        "Current Mojo": "67.0",
+        "Strength": "400.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "8"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Mojo": "100.0",
+        "Current Mojo": "38.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "9"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "450.0",
+        "Mojo": "180.0",
+        "Current Mojo": "70.0",
+        "Strength": "400.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "9"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Mojo": "100.0",
+        "Current Mojo": "40.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "10"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "450.0",
+        "Mojo": "180.0",
+        "Current Mojo": "73.0",
+        "Strength": "400.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "10"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Mojo": "100.0",
+        "Current Mojo": "42.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "11"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "450.0",
+        "Mojo": "180.0",
+        "Current Mojo": "76.0",
+        "Strength": "400.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "450.0",
+        "Mojo": "180.0",
+        "Current Mojo": "76.0",
+        "Strength": "400.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Punch",
+        "Damage Type": "Physical",
+        "Damage Amount": "110.87173034999024"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "89.12826965000976",
+        "Mojo": "100.0",
+        "Current Mojo": "42.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Evade",
+        "Damage Type": "Physical",
+        "Damage Amount": "110.87173034999024"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "11"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "89.62826965000976",
+        "Mojo": "100.0",
+        "Current Mojo": "42.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "89.62826965000976",
+        "Mojo": "100.0",
+        "Current Mojo": "44.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "12"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "450.0",
+        "Mojo": "180.0",
+        "Current Mojo": "79.0",
+        "Strength": "400.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "12"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "90.12826965000976",
+        "Mojo": "100.0",
+        "Current Mojo": "44.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "90.12826965000976",
+        "Mojo": "100.0",
+        "Current Mojo": "46.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "13"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "450.0",
+        "Mojo": "180.0",
+        "Current Mojo": "82.0",
+        "Strength": "400.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "13"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "90.62826965000976",
+        "Mojo": "100.0",
+        "Current Mojo": "46.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "90.62826965000976",
+        "Mojo": "100.0",
+        "Current Mojo": "48.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "14"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "450.0",
+        "Mojo": "180.0",
+        "Current Mojo": "85.0",
+        "Strength": "400.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "14"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "91.12826965000976",
+        "Mojo": "100.0",
+        "Current Mojo": "48.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "91.12826965000976",
+        "Mojo": "100.0",
+        "Current Mojo": "50.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "15"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "450.0",
+        "Mojo": "180.0",
+        "Current Mojo": "88.0",
+        "Strength": "400.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "15"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "91.62826965000976",
+        "Mojo": "100.0",
+        "Current Mojo": "50.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "91.62826965000976",
+        "Mojo": "100.0",
+        "Current Mojo": "52.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "91.62826965000976",
+        "Mojo": "100.0",
+        "Current Mojo": "52.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Kick",
+        "Damage Type": "Physical",
+        "Damage Amount": "68.96240731085928"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "450.0",
+        "Mojo": "180.0",
+        "Current Mojo": "88.0",
+        "Strength": "400.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Block",
+        "Damage Type": "Physical",
+        "Damage Amount": "0.0"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "16"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "450.0",
+        "Mojo": "180.0",
+        "Current Mojo": "91.0",
+        "Strength": "400.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "16"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "92.12826965000976",
+        "Mojo": "100.0",
+        "Current Mojo": "52.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "92.12826965000976",
+        "Mojo": "100.0",
+        "Current Mojo": "54.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "17"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "450.0",
+        "Mojo": "180.0",
+        "Current Mojo": "94.0",
+        "Strength": "400.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "17"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "92.62826965000976",
+        "Mojo": "100.0",
+        "Current Mojo": "54.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "92.62826965000976",
+        "Mojo": "100.0",
+        "Current Mojo": "56.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "18"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "450.0",
+        "Mojo": "180.0",
+        "Current Mojo": "97.0",
+        "Strength": "400.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "18"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "93.12826965000976",
+        "Mojo": "100.0",
+        "Current Mojo": "56.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "93.12826965000976",
+        "Mojo": "100.0",
+        "Current Mojo": "58.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "19"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "450.0",
+        "Mojo": "180.0",
+        "Current Mojo": "100.0",
+        "Strength": "400.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "19"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "93.62826965000976",
+        "Mojo": "100.0",
+        "Current Mojo": "58.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "93.62826965000976",
+        "Mojo": "100.0",
+        "Current Mojo": "60.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "20"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "450.0",
+        "Mojo": "180.0",
+        "Current Mojo": "103.0",
+        "Strength": "400.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "20"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "94.12826965000976",
+        "Mojo": "100.0",
+        "Current Mojo": "60.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "94.12826965000976",
+        "Mojo": "100.0",
+        "Current Mojo": "62.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "21"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "450.0",
+        "Mojo": "180.0",
+        "Current Mojo": "106.0",
+        "Strength": "400.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "21"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "94.62826965000976",
+        "Mojo": "100.0",
+        "Current Mojo": "62.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "94.62826965000976",
+        "Mojo": "100.0",
+        "Current Mojo": "64.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "22"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "450.0",
+        "Mojo": "180.0",
+        "Current Mojo": "109.0",
+        "Strength": "400.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "22"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "95.12826965000976",
+        "Mojo": "100.0",
+        "Current Mojo": "64.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "95.12826965000976",
+        "Mojo": "100.0",
+        "Current Mojo": "66.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "23"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "450.0",
+        "Mojo": "180.0",
+        "Current Mojo": "112.0",
+        "Strength": "400.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "450.0",
+        "Mojo": "180.0",
+        "Current Mojo": "112.0",
+        "Strength": "400.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Punch",
+        "Damage Type": "Physical",
+        "Damage Amount": "113.75331003917715"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "95.12826965000976",
+        "Mojo": "100.0",
+        "Current Mojo": "66.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Evade",
+        "Damage Type": "Physical",
+        "Damage Amount": "0.0"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "23"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "95.62826965000976",
+        "Mojo": "100.0",
+        "Current Mojo": "66.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "95.62826965000976",
+        "Mojo": "100.0",
+        "Current Mojo": "68.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "95.62826965000976",
+        "Mojo": "100.0",
+        "Current Mojo": "68.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Kick",
+        "Damage Type": "Physical",
+        "Damage Amount": "19.86714361719989"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "450.0",
+        "Mojo": "180.0",
+        "Current Mojo": "112.0",
+        "Strength": "400.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Block",
+        "Damage Type": "Physical",
+        "Damage Amount": "0.0"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "24"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "450.0",
+        "Mojo": "180.0",
+        "Current Mojo": "115.0",
+        "Strength": "400.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "24"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "96.12826965000976",
+        "Mojo": "100.0",
+        "Current Mojo": "68.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "96.12826965000976",
+        "Mojo": "100.0",
+        "Current Mojo": "70.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "25"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "450.0",
+        "Mojo": "180.0",
+        "Current Mojo": "118.0",
+        "Strength": "400.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "25"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "96.62826965000976",
+        "Mojo": "100.0",
+        "Current Mojo": "70.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "96.62826965000976",
+        "Mojo": "100.0",
+        "Current Mojo": "72.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "26"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "450.0",
+        "Mojo": "180.0",
+        "Current Mojo": "121.0",
+        "Strength": "400.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "26"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "97.12826965000976",
+        "Mojo": "100.0",
+        "Current Mojo": "72.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "97.12826965000976",
+        "Mojo": "100.0",
+        "Current Mojo": "74.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "27"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "450.0",
+        "Mojo": "180.0",
+        "Current Mojo": "124.0",
+        "Strength": "400.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "27"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "97.62826965000976",
+        "Mojo": "100.0",
+        "Current Mojo": "74.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "97.62826965000976",
+        "Mojo": "100.0",
+        "Current Mojo": "76.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "28"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "450.0",
+        "Mojo": "180.0",
+        "Current Mojo": "127.0",
+        "Strength": "400.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "28"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "98.12826965000976",
+        "Mojo": "100.0",
+        "Current Mojo": "76.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "98.12826965000976",
+        "Mojo": "100.0",
+        "Current Mojo": "78.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "29"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "450.0",
+        "Mojo": "180.0",
+        "Current Mojo": "130.0",
+        "Strength": "400.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "29"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "98.62826965000976",
+        "Mojo": "100.0",
+        "Current Mojo": "78.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "98.62826965000976",
+        "Mojo": "100.0",
+        "Current Mojo": "80.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "30"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "450.0",
+        "Mojo": "180.0",
+        "Current Mojo": "133.0",
+        "Strength": "400.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "30"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "99.12826965000976",
+        "Mojo": "100.0",
+        "Current Mojo": "80.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "99.12826965000976",
+        "Mojo": "100.0",
+        "Current Mojo": "82.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "31"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "450.0",
+        "Mojo": "180.0",
+        "Current Mojo": "136.0",
+        "Strength": "400.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "31"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "99.62826965000976",
+        "Mojo": "100.0",
+        "Current Mojo": "82.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "99.62826965000976",
+        "Mojo": "100.0",
+        "Current Mojo": "84.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "99.62826965000976",
+        "Mojo": "100.0",
+        "Current Mojo": "84.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Kick",
+        "Damage Type": "Physical",
+        "Damage Amount": "58.61114891940758"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "450.0",
+        "Mojo": "180.0",
+        "Current Mojo": "136.0",
+        "Strength": "400.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Block",
+        "Damage Type": "Physical",
+        "Damage Amount": "0.0"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "32"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "450.0",
+        "Mojo": "180.0",
+        "Current Mojo": "139.0",
+        "Strength": "400.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "32"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "100.12826965000976",
+        "Mojo": "100.0",
+        "Current Mojo": "84.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "100.12826965000976",
+        "Mojo": "100.0",
+        "Current Mojo": "86.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "33"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "450.0",
+        "Mojo": "180.0",
+        "Current Mojo": "142.0",
+        "Strength": "400.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "33"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "100.62826965000976",
+        "Mojo": "100.0",
+        "Current Mojo": "86.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "100.62826965000976",
+        "Mojo": "100.0",
+        "Current Mojo": "88.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "34"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "450.0",
+        "Mojo": "180.0",
+        "Current Mojo": "145.0",
+        "Strength": "400.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "34"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "101.12826965000976",
+        "Mojo": "100.0",
+        "Current Mojo": "88.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "101.12826965000976",
+        "Mojo": "100.0",
+        "Current Mojo": "90.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "35"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "450.0",
+        "Mojo": "180.0",
+        "Current Mojo": "148.0",
+        "Strength": "400.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "450.0",
+        "Mojo": "180.0",
+        "Current Mojo": "148.0",
+        "Strength": "400.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Punch",
+        "Damage Type": "Physical",
+        "Damage Amount": "112.64700088425347"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "101.12826965000976",
+        "Mojo": "100.0",
+        "Current Mojo": "90.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Evade",
+        "Damage Type": "Physical",
+        "Damage Amount": "0.0"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "35"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "101.62826965000976",
+        "Mojo": "100.0",
+        "Current Mojo": "90.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "101.62826965000976",
+        "Mojo": "100.0",
+        "Current Mojo": "92.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "36"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "450.0",
+        "Mojo": "180.0",
+        "Current Mojo": "151.0",
+        "Strength": "400.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "36"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "102.12826965000976",
+        "Mojo": "100.0",
+        "Current Mojo": "92.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "102.12826965000976",
+        "Mojo": "100.0",
+        "Current Mojo": "94.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "37"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "450.0",
+        "Mojo": "180.0",
+        "Current Mojo": "154.0",
+        "Strength": "400.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "37"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "102.62826965000976",
+        "Mojo": "100.0",
+        "Current Mojo": "94.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "102.62826965000976",
+        "Mojo": "100.0",
+        "Current Mojo": "96.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "38"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "450.0",
+        "Mojo": "180.0",
+        "Current Mojo": "157.0",
+        "Strength": "400.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "38"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "103.12826965000976",
+        "Mojo": "100.0",
+        "Current Mojo": "96.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "103.12826965000976",
+        "Mojo": "100.0",
+        "Current Mojo": "98.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "39"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "450.0",
+        "Mojo": "180.0",
+        "Current Mojo": "160.0",
+        "Strength": "400.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "39"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "103.62826965000976",
+        "Mojo": "100.0",
+        "Current Mojo": "98.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "103.62826965000976",
+        "Mojo": "100.0",
+        "Current Mojo": "100.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "103.62826965000976",
+        "Mojo": "100.0",
+        "Current Mojo": "100.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Kick",
+        "Damage Type": "Physical",
+        "Damage Amount": "69.47137178614332"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "450.0",
+        "Mojo": "180.0",
+        "Current Mojo": "160.0",
+        "Strength": "400.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Block",
+        "Damage Type": "Physical",
+        "Damage Amount": "0.0"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "40"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "450.0",
+        "Mojo": "180.0",
+        "Current Mojo": "163.0",
+        "Strength": "400.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "40"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "104.12826965000976",
+        "Mojo": "100.0",
+        "Current Mojo": "100.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "41"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "450.0",
+        "Mojo": "180.0",
+        "Current Mojo": "166.0",
+        "Strength": "400.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "41"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "104.62826965000976",
+        "Mojo": "100.0",
+        "Current Mojo": "100.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "42"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "450.0",
+        "Mojo": "180.0",
+        "Current Mojo": "169.0",
+        "Strength": "400.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "42"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "105.12826965000976",
+        "Mojo": "100.0",
+        "Current Mojo": "100.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "43"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "450.0",
+        "Mojo": "180.0",
+        "Current Mojo": "172.0",
+        "Strength": "400.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "43"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "105.62826965000976",
+        "Mojo": "100.0",
+        "Current Mojo": "100.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "44"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "450.0",
+        "Mojo": "180.0",
+        "Current Mojo": "175.0",
+        "Strength": "400.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "44"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "106.12826965000976",
+        "Mojo": "100.0",
+        "Current Mojo": "100.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "45"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "450.0",
+        "Mojo": "180.0",
+        "Current Mojo": "178.0",
+        "Strength": "400.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "45"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "106.62826965000976",
+        "Mojo": "100.0",
+        "Current Mojo": "100.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "46"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "450.0",
+        "Mojo": "180.0",
+        "Current Mojo": "180.0",
+        "Strength": "400.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "46"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "107.12826965000976",
+        "Mojo": "100.0",
+        "Current Mojo": "100.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "47"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "450.0",
+        "Mojo": "180.0",
+        "Current Mojo": "20.0",
+        "Strength": "400.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Heat Vision",
+        "Damage Type": "Fire",
+        "Damage Amount": "100.0",
+        "Duration": "4",
+        "Burn Damage": "20.0"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "7.128269650009756",
+        "Mojo": "100.0",
+        "Current Mojo": "100.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "47"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "7.628269650009756",
+        "Mojo": "100.0",
+        "Current Mojo": "100.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "7.628269650009756",
+        "Mojo": "100.0",
+        "Current Mojo": "10.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Arc Lightning",
+        "Damage Type": "Shock",
+        "Damage Amount": "22.166961551944883",
+        "Duration": "25"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "427.8330384480551",
+        "Mojo": "180.0",
+        "Current Mojo": "20.0",
+        "Strength": "400.0",
+        "Dexterity": "80.0"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "2.6282696500097558",
+        "Mojo": "100.0",
+        "Current Mojo": "10.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "48"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "428.8330384480551",
+        "Mojo": "180.0",
+        "Current Mojo": "20.0",
+        "Strength": "400.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "428.8330384480551",
+        "Mojo": "180.0",
+        "Current Mojo": "23.0",
+        "Strength": "400.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "48"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "3.1282696500097558",
+        "Mojo": "100.0",
+        "Current Mojo": "10.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "3.1282696500097558",
+        "Mojo": "100.0",
+        "Current Mojo": "12.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "0.0",
+        "Mojo": "100.0",
+        "Current Mojo": "12.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "INFO",
+      "Source": {
+        "Name": "Backyard"
+      },
+      "Event": {
+        "Name": "Fight End",
+        "Result": "Win",
+        "Result By": "Knock Out"
+      }
+    },
+    {
+      "Type": "INFO",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "428.8330384480551",
+        "Mojo": "180.0",
+        "Current Mojo": "23.0",
+        "Strength": "400.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Won",
+        "As": "Champion"
+      }
+    },
+    {
+      "Type": "INFO",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "0.0",
+        "Mojo": "100.0",
+        "Current Mojo": "12.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Lost",
+        "As": "Challenger"
+      }
+    }
+  ]
+}

@@ -1,0 +1,3496 @@
+{
+  "Champion": "Mage[Elemental]",
+  "Challenger": "Hero[Flash]",
+  "Arena": "Backyard",
+  "Winner": "Champion",
+  "Beats": 33,
+  "SourceEvent": [
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "100.0",
+        "Mana": "90.0",
+        "Current Mana": "20.0"
+      },
+      "Event": {
+        "Name": "Flame Breath",
+        "Switch": "Cooldown",
+        "State": "true"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "100.0",
+        "Mana": "90.0",
+        "Current Mana": "20.0"
+      },
+      "Event": {
+        "Name": "Ice Blast",
+        "Switch": "Cooldown",
+        "State": "true"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "100.0",
+        "Mana": "90.0",
+        "Current Mana": "20.0"
+      },
+      "Event": {
+        "Name": "Fire Shield",
+        "Switch": "Cooldown",
+        "State": "false"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "100.0",
+        "Mana": "90.0",
+        "Current Mana": "20.0"
+      },
+      "Event": {
+        "Name": "Fire Shield",
+        "Switch": "Active",
+        "State": "false"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "100.0",
+        "Mana": "90.0",
+        "Current Mana": "20.0"
+      },
+      "Event": {
+        "Name": "Frozen Wall",
+        "Switch": "Cooldown",
+        "State": "false"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "100.0",
+        "Mana": "90.0",
+        "Current Mana": "20.0"
+      },
+      "Event": {
+        "Name": "Frozen Wall",
+        "Switch": "Active",
+        "State": "false"
+      }
+    },
+    {
+      "Type": "INFO",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "100.0",
+        "Mana": "90.0",
+        "Current Mana": "20.0"
+      },
+      "Event": {
+        "Name": "Fighter Added",
+        "As": "Champion"
+      }
+    },
+    {
+      "Type": "INFO",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Mojo": "100.0",
+        "Current Mojo": "20.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Fighter Added",
+        "As": "Challenger"
+      }
+    },
+    {
+      "Type": "INFO",
+      "Source": {
+        "Name": "Backyard"
+      },
+      "Event": {
+        "Name": "Fight Start"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "0"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "100.0",
+        "Mana": "90.0",
+        "Current Mana": "24.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "0"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Mojo": "100.0",
+        "Current Mojo": "22.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "1"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "100.0",
+        "Mana": "90.0",
+        "Current Mana": "28.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "1"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Mojo": "100.0",
+        "Current Mojo": "24.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "2"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "100.0",
+        "Mana": "90.0",
+        "Current Mana": "32.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "2"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Mojo": "100.0",
+        "Current Mojo": "26.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "3"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "100.0",
+        "Mana": "90.0",
+        "Current Mana": "36.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "3"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Mojo": "100.0",
+        "Current Mojo": "28.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "4"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "100.0",
+        "Mana": "90.0",
+        "Current Mana": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "4"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Mojo": "100.0",
+        "Current Mojo": "30.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "5"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "100.0",
+        "Mana": "90.0",
+        "Current Mana": "44.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "5"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Mojo": "100.0",
+        "Current Mojo": "32.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "6"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "100.0",
+        "Mana": "90.0",
+        "Current Mana": "48.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "6"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Mojo": "100.0",
+        "Current Mojo": "34.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "7"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "100.0",
+        "Mana": "90.0",
+        "Current Mana": "52.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "7"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Mojo": "100.0",
+        "Current Mojo": "36.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Mojo": "100.0",
+        "Current Mojo": "36.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Kick",
+        "Damage Type": "Physical",
+        "Damage Amount": "63.74351507102921"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "100.0",
+        "Mana": "90.0",
+        "Current Mana": "42.0"
+      },
+      "Event": {
+        "Name": "Fire Shield",
+        "Switch": "Active",
+        "State": "true"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "100.0",
+        "Mana": "90.0",
+        "Current Mana": "42.0"
+      },
+      "Event": {
+        "Name": "Fire Shield",
+        "Switch": "Cooldown",
+        "State": "true"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "65.0",
+        "Mana": "90.0",
+        "Current Mana": "42.0"
+      },
+      "Event": {
+        "Name": "Fire Shield",
+        "Damage Type": "Physical",
+        "Damage Amount": "35.0"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "65.0",
+        "Mana": "90.0",
+        "Current Mana": "42.0"
+      },
+      "Event": {
+        "Name": "Burn",
+        "Damage Type": "Fire",
+        "Damage Amount": "20.0",
+        "Duration": "2",
+        "Burn Damage": "5.0"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "180.0",
+        "Mojo": "100.0",
+        "Current Mojo": "36.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "8"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "65.1",
+        "Mana": "90.0",
+        "Current Mana": "42.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "65.1",
+        "Mana": "90.0",
+        "Current Mana": "46.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "8"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "180.5",
+        "Mojo": "100.0",
+        "Current Mojo": "36.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "180.5",
+        "Mojo": "100.0",
+        "Current Mojo": "38.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "178.0",
+        "Mojo": "100.0",
+        "Current Mojo": "38.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "9"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "65.19999999999999",
+        "Mana": "90.0",
+        "Current Mana": "46.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "65.19999999999999",
+        "Mana": "90.0",
+        "Current Mana": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "9"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "178.5",
+        "Mojo": "100.0",
+        "Current Mojo": "38.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "178.5",
+        "Mojo": "100.0",
+        "Current Mojo": "40.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "176.0",
+        "Mojo": "100.0",
+        "Current Mojo": "40.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "10"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "65.29999999999998",
+        "Mana": "90.0",
+        "Current Mana": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "65.29999999999998",
+        "Mana": "90.0",
+        "Current Mana": "54.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "10"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "176.5",
+        "Mojo": "100.0",
+        "Current Mojo": "40.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "176.5",
+        "Mojo": "100.0",
+        "Current Mojo": "42.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "11"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "65.39999999999998",
+        "Mana": "90.0",
+        "Current Mana": "54.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "65.39999999999998",
+        "Mana": "90.0",
+        "Current Mana": "58.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "11"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "177.0",
+        "Mojo": "100.0",
+        "Current Mojo": "42.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "177.0",
+        "Mojo": "100.0",
+        "Current Mojo": "44.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "12"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "65.49999999999997",
+        "Mana": "90.0",
+        "Current Mana": "58.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "65.49999999999997",
+        "Mana": "90.0",
+        "Current Mana": "62.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "12"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "177.5",
+        "Mojo": "100.0",
+        "Current Mojo": "44.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "177.5",
+        "Mojo": "100.0",
+        "Current Mojo": "46.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "13"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "65.59999999999997",
+        "Mana": "90.0",
+        "Current Mana": "62.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "65.59999999999997",
+        "Mana": "90.0",
+        "Current Mana": "66.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "13"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "178.0",
+        "Mojo": "100.0",
+        "Current Mojo": "46.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "178.0",
+        "Mojo": "100.0",
+        "Current Mojo": "48.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "14"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "65.69999999999996",
+        "Mana": "90.0",
+        "Current Mana": "66.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "65.69999999999996",
+        "Mana": "90.0",
+        "Current Mana": "70.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "14"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "178.5",
+        "Mojo": "100.0",
+        "Current Mojo": "48.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "178.5",
+        "Mojo": "100.0",
+        "Current Mojo": "50.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "15"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "65.79999999999995",
+        "Mana": "90.0",
+        "Current Mana": "70.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "65.79999999999995",
+        "Mana": "90.0",
+        "Current Mana": "74.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "65.79999999999995",
+        "Mana": "90.0",
+        "Current Mana": "74.0"
+      },
+      "Event": {
+        "Name": "Flame Breath",
+        "Switch": "Cooldown",
+        "State": "false"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "15"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "179.0",
+        "Mojo": "100.0",
+        "Current Mojo": "50.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "179.0",
+        "Mojo": "100.0",
+        "Current Mojo": "52.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "179.0",
+        "Mojo": "100.0",
+        "Current Mojo": "52.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Kick",
+        "Damage Type": "Physical",
+        "Damage Amount": "67.67772650982268"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "30.799999999999955",
+        "Mana": "90.0",
+        "Current Mana": "74.0"
+      },
+      "Event": {
+        "Name": "Fire Shield",
+        "Damage Type": "Physical",
+        "Damage Amount": "35.0"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "30.799999999999955",
+        "Mana": "90.0",
+        "Current Mana": "74.0"
+      },
+      "Event": {
+        "Name": "Burn",
+        "Damage Type": "Fire",
+        "Damage Amount": "20.0",
+        "Duration": "2",
+        "Burn Damage": "5.0"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "159.0",
+        "Mojo": "100.0",
+        "Current Mojo": "52.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "16"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "30.899999999999956",
+        "Mana": "90.0",
+        "Current Mana": "74.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "30.899999999999956",
+        "Mana": "90.0",
+        "Current Mana": "78.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "30.899999999999956",
+        "Mana": "90.0",
+        "Current Mana": "43.0"
+      },
+      "Event": {
+        "Name": "Flame Breath",
+        "Switch": "Cooldown",
+        "State": "true"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "30.899999999999956",
+        "Mana": "90.0",
+        "Current Mana": "43.0"
+      },
+      "Event": {
+        "Name": "Flame Breath",
+        "Damage Type": "Fire",
+        "Damage Amount": "79.72428787996034",
+        "Duration": "5",
+        "Burn Damage": "15.0"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "79.27571212003966",
+        "Mojo": "100.0",
+        "Current Mojo": "52.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "16"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "79.77571212003966",
+        "Mojo": "100.0",
+        "Current Mojo": "52.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "79.77571212003966",
+        "Mojo": "100.0",
+        "Current Mojo": "54.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "77.27571212003966",
+        "Mojo": "100.0",
+        "Current Mojo": "54.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "74.27571212003966",
+        "Mojo": "100.0",
+        "Current Mojo": "54.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "17"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "30.999999999999957",
+        "Mana": "90.0",
+        "Current Mana": "43.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "30.999999999999957",
+        "Mana": "90.0",
+        "Current Mana": "47.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "17"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "74.77571212003966",
+        "Mojo": "100.0",
+        "Current Mojo": "54.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "74.77571212003966",
+        "Mojo": "100.0",
+        "Current Mojo": "56.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "72.27571212003966",
+        "Mojo": "100.0",
+        "Current Mojo": "56.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "69.27571212003966",
+        "Mojo": "100.0",
+        "Current Mojo": "56.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "18"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "31.09999999999996",
+        "Mana": "90.0",
+        "Current Mana": "47.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "31.09999999999996",
+        "Mana": "90.0",
+        "Current Mana": "51.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "18"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "69.77571212003966",
+        "Mojo": "100.0",
+        "Current Mojo": "56.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "69.77571212003966",
+        "Mojo": "100.0",
+        "Current Mojo": "58.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "66.77571212003966",
+        "Mojo": "100.0",
+        "Current Mojo": "58.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "19"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "31.19999999999996",
+        "Mana": "90.0",
+        "Current Mana": "51.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "31.19999999999996",
+        "Mana": "90.0",
+        "Current Mana": "55.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "19"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "67.27571212003966",
+        "Mojo": "100.0",
+        "Current Mojo": "58.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "67.27571212003966",
+        "Mojo": "100.0",
+        "Current Mojo": "60.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "64.27571212003966",
+        "Mojo": "100.0",
+        "Current Mojo": "60.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "20"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "31.29999999999996",
+        "Mana": "90.0",
+        "Current Mana": "55.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "31.29999999999996",
+        "Mana": "90.0",
+        "Current Mana": "59.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "31.29999999999996",
+        "Mana": "90.0",
+        "Current Mana": "59.0"
+      },
+      "Event": {
+        "Name": "Ice Blast",
+        "Switch": "Cooldown",
+        "State": "false"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "20"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "64.77571212003966",
+        "Mojo": "100.0",
+        "Current Mojo": "60.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "64.77571212003966",
+        "Mojo": "100.0",
+        "Current Mojo": "62.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "61.77571212003966",
+        "Mojo": "100.0",
+        "Current Mojo": "62.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "21"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "31.399999999999963",
+        "Mana": "90.0",
+        "Current Mana": "59.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "31.399999999999963",
+        "Mana": "90.0",
+        "Current Mana": "63.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "31.399999999999963",
+        "Mana": "90.0",
+        "Current Mana": "18.0"
+      },
+      "Event": {
+        "Name": "Ice Blast",
+        "Switch": "Cooldown",
+        "State": "true"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "31.399999999999963",
+        "Mana": "90.0",
+        "Current Mana": "18.0"
+      },
+      "Event": {
+        "Name": "Ice Blast",
+        "Damage Type": "Cold",
+        "Damage Amount": "31.849821563069987",
+        "Duration": "40",
+        "Deterioration Percentage": "30.0"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "29.92589055696967",
+        "Mojo": "100.0",
+        "Current Mojo": "62.0",
+        "Strength": "120.0",
+        "Dexterity": "105.0"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "21"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "30.42589055696967",
+        "Mojo": "100.0",
+        "Current Mojo": "62.0",
+        "Strength": "120.0",
+        "Dexterity": "105.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "30.42589055696967",
+        "Mojo": "100.0",
+        "Current Mojo": "64.0",
+        "Strength": "120.0",
+        "Dexterity": "105.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "22"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "31.499999999999964",
+        "Mana": "90.0",
+        "Current Mana": "18.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "31.499999999999964",
+        "Mana": "90.0",
+        "Current Mana": "22.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "22"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "30.92589055696967",
+        "Mojo": "100.0",
+        "Current Mojo": "64.0",
+        "Strength": "120.0",
+        "Dexterity": "105.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "30.92589055696967",
+        "Mojo": "100.0",
+        "Current Mojo": "66.0",
+        "Strength": "120.0",
+        "Dexterity": "105.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "23"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "31.599999999999966",
+        "Mana": "90.0",
+        "Current Mana": "22.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "31.599999999999966",
+        "Mana": "90.0",
+        "Current Mana": "26.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "23"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "31.42589055696967",
+        "Mojo": "100.0",
+        "Current Mojo": "66.0",
+        "Strength": "120.0",
+        "Dexterity": "105.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "31.42589055696967",
+        "Mojo": "100.0",
+        "Current Mojo": "68.0",
+        "Strength": "120.0",
+        "Dexterity": "105.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "24"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "31.699999999999967",
+        "Mana": "90.0",
+        "Current Mana": "26.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "31.699999999999967",
+        "Mana": "90.0",
+        "Current Mana": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "24"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "31.92589055696967",
+        "Mojo": "100.0",
+        "Current Mojo": "68.0",
+        "Strength": "120.0",
+        "Dexterity": "105.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "31.92589055696967",
+        "Mojo": "100.0",
+        "Current Mojo": "70.0",
+        "Strength": "120.0",
+        "Dexterity": "105.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "25"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "31.79999999999997",
+        "Mana": "90.0",
+        "Current Mana": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "31.79999999999997",
+        "Mana": "90.0",
+        "Current Mana": "34.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "25"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "32.42589055696967",
+        "Mojo": "100.0",
+        "Current Mojo": "70.0",
+        "Strength": "120.0",
+        "Dexterity": "105.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "32.42589055696967",
+        "Mojo": "100.0",
+        "Current Mojo": "72.0",
+        "Strength": "120.0",
+        "Dexterity": "105.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "32.42589055696967",
+        "Mojo": "100.0",
+        "Current Mojo": "72.0",
+        "Strength": "120.0",
+        "Dexterity": "105.0"
+      },
+      "Event": {
+        "Name": "Kick",
+        "Damage Type": "Physical",
+        "Damage Amount": "17.57275756999007"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "21.256345458005928",
+        "Mana": "90.0",
+        "Current Mana": "34.0"
+      },
+      "Event": {
+        "Name": "Fire Shield",
+        "Damage Type": "Physical",
+        "Damage Amount": "10.54365454199404"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "26"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "21.35634545800593",
+        "Mana": "90.0",
+        "Current Mana": "34.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "21.35634545800593",
+        "Mana": "90.0",
+        "Current Mana": "38.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "26"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "32.92589055696967",
+        "Mojo": "100.0",
+        "Current Mojo": "72.0",
+        "Strength": "120.0",
+        "Dexterity": "105.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "32.92589055696967",
+        "Mojo": "100.0",
+        "Current Mojo": "74.0",
+        "Strength": "120.0",
+        "Dexterity": "105.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "27"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "21.45634545800593",
+        "Mana": "90.0",
+        "Current Mana": "38.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "21.45634545800593",
+        "Mana": "90.0",
+        "Current Mana": "42.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "27"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "33.42589055696967",
+        "Mojo": "100.0",
+        "Current Mojo": "74.0",
+        "Strength": "120.0",
+        "Dexterity": "105.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "33.42589055696967",
+        "Mojo": "100.0",
+        "Current Mojo": "76.0",
+        "Strength": "120.0",
+        "Dexterity": "105.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "28"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "21.556345458005932",
+        "Mana": "90.0",
+        "Current Mana": "42.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "21.556345458005932",
+        "Mana": "90.0",
+        "Current Mana": "46.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "28"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "33.92589055696967",
+        "Mojo": "100.0",
+        "Current Mojo": "76.0",
+        "Strength": "120.0",
+        "Dexterity": "105.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "33.92589055696967",
+        "Mojo": "100.0",
+        "Current Mojo": "78.0",
+        "Strength": "120.0",
+        "Dexterity": "105.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "29"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "21.656345458005934",
+        "Mana": "90.0",
+        "Current Mana": "46.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "21.656345458005934",
+        "Mana": "90.0",
+        "Current Mana": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "29"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "34.42589055696967",
+        "Mojo": "100.0",
+        "Current Mojo": "78.0",
+        "Strength": "120.0",
+        "Dexterity": "105.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "34.42589055696967",
+        "Mojo": "100.0",
+        "Current Mojo": "80.0",
+        "Strength": "120.0",
+        "Dexterity": "105.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "30"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "21.756345458005935",
+        "Mana": "90.0",
+        "Current Mana": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "21.756345458005935",
+        "Mana": "90.0",
+        "Current Mana": "54.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "30"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "34.92589055696967",
+        "Mojo": "100.0",
+        "Current Mojo": "80.0",
+        "Strength": "120.0",
+        "Dexterity": "105.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "34.92589055696967",
+        "Mojo": "100.0",
+        "Current Mojo": "82.0",
+        "Strength": "120.0",
+        "Dexterity": "105.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "31"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "21.856345458005936",
+        "Mana": "90.0",
+        "Current Mana": "54.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "21.856345458005936",
+        "Mana": "90.0",
+        "Current Mana": "58.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "31"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "35.42589055696967",
+        "Mojo": "100.0",
+        "Current Mojo": "82.0",
+        "Strength": "120.0",
+        "Dexterity": "105.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "35.42589055696967",
+        "Mojo": "100.0",
+        "Current Mojo": "84.0",
+        "Strength": "120.0",
+        "Dexterity": "105.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "32"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "21.956345458005938",
+        "Mana": "90.0",
+        "Current Mana": "58.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "21.956345458005938",
+        "Mana": "90.0",
+        "Current Mana": "62.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "21.956345458005938",
+        "Mana": "90.0",
+        "Current Mana": "62.0"
+      },
+      "Event": {
+        "Name": "Flame Breath",
+        "Switch": "Cooldown",
+        "State": "false"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "32"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "35.92589055696967",
+        "Mojo": "100.0",
+        "Current Mojo": "84.0",
+        "Strength": "120.0",
+        "Dexterity": "105.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "35.92589055696967",
+        "Mojo": "100.0",
+        "Current Mojo": "86.0",
+        "Strength": "120.0",
+        "Dexterity": "105.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "33"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "22.05634545800594",
+        "Mana": "90.0",
+        "Current Mana": "62.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "22.05634545800594",
+        "Mana": "90.0",
+        "Current Mana": "66.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "22.05634545800594",
+        "Mana": "90.0",
+        "Current Mana": "31.0"
+      },
+      "Event": {
+        "Name": "Flame Breath",
+        "Switch": "Cooldown",
+        "State": "true"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "22.05634545800594",
+        "Mana": "90.0",
+        "Current Mana": "31.0"
+      },
+      "Event": {
+        "Name": "Flame Breath",
+        "Damage Type": "Fire",
+        "Damage Amount": "84.78419164880825",
+        "Duration": "5",
+        "Burn Damage": "15.0"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "0.0",
+        "Mojo": "100.0",
+        "Current Mojo": "86.0",
+        "Strength": "120.0",
+        "Dexterity": "105.0"
+      }
+    },
+    {
+      "Type": "INFO",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "0.0",
+        "Mojo": "100.0",
+        "Current Mojo": "86.0",
+        "Strength": "120.0",
+        "Dexterity": "105.0"
+      },
+      "Event": {
+        "Name": "Knock Out"
+      }
+    },
+    {
+      "Type": "INFO",
+      "Source": {
+        "Name": "Backyard"
+      },
+      "Event": {
+        "Name": "Fight End",
+        "Result": "Win",
+        "Result By": "Knock Out"
+      }
+    },
+    {
+      "Type": "INFO",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "22.05634545800594",
+        "Mana": "90.0",
+        "Current Mana": "31.0"
+      },
+      "Event": {
+        "Name": "Won",
+        "As": "Champion"
+      }
+    },
+    {
+      "Type": "INFO",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "0.0",
+        "Mojo": "100.0",
+        "Current Mojo": "86.0",
+        "Strength": "120.0",
+        "Dexterity": "105.0"
+      },
+      "Event": {
+        "Name": "Lost",
+        "As": "Challenger"
+      }
+    }
+  ]
+}

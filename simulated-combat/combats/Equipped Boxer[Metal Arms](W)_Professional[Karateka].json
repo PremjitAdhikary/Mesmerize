@@ -1,0 +1,7247 @@
+{
+  "Champion": "Equipped Boxer[Metal Arms]",
+  "Challenger": "Professional[Karateka]",
+  "Arena": "Backyard",
+  "Winner": "Champion",
+  "Beats": 98,
+  "SourceEvent": [
+    {
+      "Type": "INFO",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Stamina": "80.0",
+        "Current Stamina": "25.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Fighter Added",
+        "As": "Champion"
+      }
+    },
+    {
+      "Type": "INFO",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "25.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Fighter Added",
+        "As": "Challenger"
+      }
+    },
+    {
+      "Type": "INFO",
+      "Source": {
+        "Name": "Backyard"
+      },
+      "Event": {
+        "Name": "Fight Start"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "0"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Stamina": "80.0",
+        "Current Stamina": "26.6",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "0"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "27.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "1"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Stamina": "80.0",
+        "Current Stamina": "28.200000000000003",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "1"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "29.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "2"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Stamina": "80.0",
+        "Current Stamina": "29.800000000000004",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "2"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "31.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "3"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Stamina": "80.0",
+        "Current Stamina": "31.400000000000006",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "3"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "33.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "4"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Stamina": "80.0",
+        "Current Stamina": "33.00000000000001",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "4"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "35.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "5"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Stamina": "80.0",
+        "Current Stamina": "34.60000000000001",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "5"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "37.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "6"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Stamina": "80.0",
+        "Current Stamina": "36.20000000000001",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "6"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "39.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "7"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Stamina": "80.0",
+        "Current Stamina": "37.80000000000001",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "7"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "41.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "8"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Stamina": "80.0",
+        "Current Stamina": "39.40000000000001",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "8"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "43.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "9"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Stamina": "80.0",
+        "Current Stamina": "41.000000000000014",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "9"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "45.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "10"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Stamina": "80.0",
+        "Current Stamina": "42.600000000000016",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "10"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "47.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "11"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Stamina": "80.0",
+        "Current Stamina": "44.20000000000002",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "11"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "49.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "12"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Stamina": "80.0",
+        "Current Stamina": "45.80000000000002",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "12"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "51.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "13"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Stamina": "80.0",
+        "Current Stamina": "47.40000000000002",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "13"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "53.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "14"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Stamina": "80.0",
+        "Current Stamina": "49.00000000000002",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "14"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "55.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "15"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Stamina": "80.0",
+        "Current Stamina": "50.60000000000002",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "15"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "57.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "16"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Stamina": "80.0",
+        "Current Stamina": "52.200000000000024",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "16"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "59.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "17"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Stamina": "80.0",
+        "Current Stamina": "53.800000000000026",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "17"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "61.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "18"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Stamina": "80.0",
+        "Current Stamina": "55.40000000000003",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "18"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "63.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "19"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Stamina": "80.0",
+        "Current Stamina": "57.00000000000003",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "19"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "65.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "20"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Stamina": "80.0",
+        "Current Stamina": "58.60000000000003",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "20"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "67.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "21"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Stamina": "80.0",
+        "Current Stamina": "60.20000000000003",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "21"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "69.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "22"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Stamina": "80.0",
+        "Current Stamina": "61.80000000000003",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "22"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "71.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "23"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Stamina": "80.0",
+        "Current Stamina": "63.400000000000034",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "23"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "73.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "24"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Stamina": "80.0",
+        "Current Stamina": "65.00000000000003",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "24"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "75.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "3.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Chop",
+        "Damage Type": "Physical",
+        "Damage Amount": "76.97089606732116"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "181.1203727528752",
+        "Stamina": "80.0",
+        "Current Stamina": "65.00000000000003",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Block",
+        "Damage Type": "Physical",
+        "Damage Amount": "18.879627247124816"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "25"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "181.2803727528752",
+        "Stamina": "80.0",
+        "Current Stamina": "65.00000000000003",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "181.2803727528752",
+        "Stamina": "80.0",
+        "Current Stamina": "66.60000000000002",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "25"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "5.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "26"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "181.4403727528752",
+        "Stamina": "80.0",
+        "Current Stamina": "66.60000000000002",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "181.4403727528752",
+        "Stamina": "80.0",
+        "Current Stamina": "68.20000000000002",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "26"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "7.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "27"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "181.6003727528752",
+        "Stamina": "80.0",
+        "Current Stamina": "68.20000000000002",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "181.6003727528752",
+        "Stamina": "80.0",
+        "Current Stamina": "69.80000000000001",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "27"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "9.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "28"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "181.76037275287518",
+        "Stamina": "80.0",
+        "Current Stamina": "69.80000000000001",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "181.76037275287518",
+        "Stamina": "80.0",
+        "Current Stamina": "71.4",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "28"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "11.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "29"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "181.92037275287518",
+        "Stamina": "80.0",
+        "Current Stamina": "71.4",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "181.92037275287518",
+        "Stamina": "80.0",
+        "Current Stamina": "73.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "29"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "13.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "30"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "182.08037275287518",
+        "Stamina": "80.0",
+        "Current Stamina": "73.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "182.08037275287518",
+        "Stamina": "80.0",
+        "Current Stamina": "74.6",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "30"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "15.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "31"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "182.24037275287517",
+        "Stamina": "80.0",
+        "Current Stamina": "74.6",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "182.24037275287517",
+        "Stamina": "80.0",
+        "Current Stamina": "76.19999999999999",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "31"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "17.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "32"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "182.40037275287517",
+        "Stamina": "80.0",
+        "Current Stamina": "76.19999999999999",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "182.40037275287517",
+        "Stamina": "80.0",
+        "Current Stamina": "77.79999999999998",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "182.40037275287517",
+        "Stamina": "80.0",
+        "Current Stamina": "77.79999999999998",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Punch",
+        "Damage Type": "Physical",
+        "Damage Amount": "73.52348877045914"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "66.42886010658677",
+        "Stamina": "120.0",
+        "Current Stamina": "17.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Block",
+        "Damage Type": "Physical",
+        "Damage Amount": "53.571139893413225"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "32"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "66.54886010658677",
+        "Stamina": "120.0",
+        "Current Stamina": "17.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "66.54886010658677",
+        "Stamina": "120.0",
+        "Current Stamina": "19.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "33"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "182.56037275287517",
+        "Stamina": "80.0",
+        "Current Stamina": "77.79999999999998",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "182.56037275287517",
+        "Stamina": "80.0",
+        "Current Stamina": "79.39999999999998",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "33"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "66.66886010658678",
+        "Stamina": "120.0",
+        "Current Stamina": "19.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "66.66886010658678",
+        "Stamina": "120.0",
+        "Current Stamina": "21.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "34"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "182.72037275287516",
+        "Stamina": "80.0",
+        "Current Stamina": "79.39999999999998",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "182.72037275287516",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "34"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "66.78886010658678",
+        "Stamina": "120.0",
+        "Current Stamina": "21.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "66.78886010658678",
+        "Stamina": "120.0",
+        "Current Stamina": "23.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "35"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "182.88037275287516",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "35"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "66.90886010658679",
+        "Stamina": "120.0",
+        "Current Stamina": "23.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "66.90886010658679",
+        "Stamina": "120.0",
+        "Current Stamina": "25.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "36"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "183.04037275287516",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "36"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "67.02886010658679",
+        "Stamina": "120.0",
+        "Current Stamina": "25.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "67.02886010658679",
+        "Stamina": "120.0",
+        "Current Stamina": "27.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "37"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "183.20037275287515",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "37"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "67.1488601065868",
+        "Stamina": "120.0",
+        "Current Stamina": "27.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "67.1488601065868",
+        "Stamina": "120.0",
+        "Current Stamina": "29.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "38"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "183.36037275287515",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "38"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "67.2688601065868",
+        "Stamina": "120.0",
+        "Current Stamina": "29.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "67.2688601065868",
+        "Stamina": "120.0",
+        "Current Stamina": "31.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "39"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "183.52037275287515",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "39"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "67.3888601065868",
+        "Stamina": "120.0",
+        "Current Stamina": "31.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "67.3888601065868",
+        "Stamina": "120.0",
+        "Current Stamina": "33.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "40"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "183.68037275287514",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "40"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "67.50886010658681",
+        "Stamina": "120.0",
+        "Current Stamina": "33.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "67.50886010658681",
+        "Stamina": "120.0",
+        "Current Stamina": "35.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "41"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "183.84037275287514",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "41"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "67.62886010658681",
+        "Stamina": "120.0",
+        "Current Stamina": "35.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "67.62886010658681",
+        "Stamina": "120.0",
+        "Current Stamina": "37.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "42"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "184.00037275287514",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "42"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "67.74886010658682",
+        "Stamina": "120.0",
+        "Current Stamina": "37.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "67.74886010658682",
+        "Stamina": "120.0",
+        "Current Stamina": "39.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "43"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "184.16037275287513",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "43"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "67.86886010658682",
+        "Stamina": "120.0",
+        "Current Stamina": "39.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "67.86886010658682",
+        "Stamina": "120.0",
+        "Current Stamina": "41.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "44"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "184.32037275287513",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "44"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "67.98886010658683",
+        "Stamina": "120.0",
+        "Current Stamina": "41.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "67.98886010658683",
+        "Stamina": "120.0",
+        "Current Stamina": "43.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "45"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "184.48037275287513",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "45"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "68.10886010658683",
+        "Stamina": "120.0",
+        "Current Stamina": "43.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "68.10886010658683",
+        "Stamina": "120.0",
+        "Current Stamina": "45.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "46"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "184.64037275287512",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "46"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "68.22886010658684",
+        "Stamina": "120.0",
+        "Current Stamina": "45.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "68.22886010658684",
+        "Stamina": "120.0",
+        "Current Stamina": "47.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "47"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "184.80037275287512",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "47"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "68.34886010658684",
+        "Stamina": "120.0",
+        "Current Stamina": "47.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "68.34886010658684",
+        "Stamina": "120.0",
+        "Current Stamina": "49.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "48"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "184.96037275287512",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "48"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "68.46886010658685",
+        "Stamina": "120.0",
+        "Current Stamina": "49.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "68.46886010658685",
+        "Stamina": "120.0",
+        "Current Stamina": "51.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "49"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "185.1203727528751",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "49"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "68.58886010658685",
+        "Stamina": "120.0",
+        "Current Stamina": "51.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "68.58886010658685",
+        "Stamina": "120.0",
+        "Current Stamina": "53.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "68.58886010658685",
+        "Stamina": "120.0",
+        "Current Stamina": "5.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Chop",
+        "Damage Type": "Physical",
+        "Damage Amount": "51.87943114121791"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "183.8047709540226",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Block",
+        "Damage Type": "Physical",
+        "Damage Amount": "1.3156017988525335"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "50"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "183.96477095402258",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "50"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "68.70886010658685",
+        "Stamina": "120.0",
+        "Current Stamina": "5.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "68.70886010658685",
+        "Stamina": "120.0",
+        "Current Stamina": "7.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "51"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "184.12477095402258",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "51"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "68.82886010658686",
+        "Stamina": "120.0",
+        "Current Stamina": "7.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "68.82886010658686",
+        "Stamina": "120.0",
+        "Current Stamina": "9.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "52"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "184.28477095402258",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "52"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "68.94886010658686",
+        "Stamina": "120.0",
+        "Current Stamina": "9.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "68.94886010658686",
+        "Stamina": "120.0",
+        "Current Stamina": "11.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "53"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "184.44477095402257",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "53"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "69.06886010658687",
+        "Stamina": "120.0",
+        "Current Stamina": "11.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "69.06886010658687",
+        "Stamina": "120.0",
+        "Current Stamina": "13.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "54"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "184.60477095402257",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "54"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "69.18886010658687",
+        "Stamina": "120.0",
+        "Current Stamina": "13.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "69.18886010658687",
+        "Stamina": "120.0",
+        "Current Stamina": "15.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "55"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "184.76477095402257",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "55"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "69.30886010658688",
+        "Stamina": "120.0",
+        "Current Stamina": "15.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "69.30886010658688",
+        "Stamina": "120.0",
+        "Current Stamina": "17.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "56"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "184.92477095402256",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "56"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "69.42886010658688",
+        "Stamina": "120.0",
+        "Current Stamina": "17.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "69.42886010658688",
+        "Stamina": "120.0",
+        "Current Stamina": "19.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "57"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "185.08477095402256",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "57"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "69.54886010658689",
+        "Stamina": "120.0",
+        "Current Stamina": "19.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "69.54886010658689",
+        "Stamina": "120.0",
+        "Current Stamina": "21.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "58"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "185.24477095402256",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "58"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "69.66886010658689",
+        "Stamina": "120.0",
+        "Current Stamina": "21.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "69.66886010658689",
+        "Stamina": "120.0",
+        "Current Stamina": "23.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "59"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "185.40477095402255",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "59"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "69.7888601065869",
+        "Stamina": "120.0",
+        "Current Stamina": "23.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "69.7888601065869",
+        "Stamina": "120.0",
+        "Current Stamina": "25.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "60"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "185.56477095402255",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "60"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "69.9088601065869",
+        "Stamina": "120.0",
+        "Current Stamina": "25.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "69.9088601065869",
+        "Stamina": "120.0",
+        "Current Stamina": "27.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "61"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "185.72477095402255",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "61"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "70.0288601065869",
+        "Stamina": "120.0",
+        "Current Stamina": "27.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "70.0288601065869",
+        "Stamina": "120.0",
+        "Current Stamina": "29.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "62"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "185.88477095402254",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "62"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "70.14886010658691",
+        "Stamina": "120.0",
+        "Current Stamina": "29.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "70.14886010658691",
+        "Stamina": "120.0",
+        "Current Stamina": "31.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "63"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "186.04477095402254",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "63"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "70.26886010658691",
+        "Stamina": "120.0",
+        "Current Stamina": "31.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "70.26886010658691",
+        "Stamina": "120.0",
+        "Current Stamina": "33.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "64"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "186.20477095402254",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "64"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "70.38886010658692",
+        "Stamina": "120.0",
+        "Current Stamina": "33.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "70.38886010658692",
+        "Stamina": "120.0",
+        "Current Stamina": "35.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "65"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "186.36477095402253",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "186.36477095402253",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Punch",
+        "Damage Type": "Physical",
+        "Damage Amount": "74.79782615582023"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "15.670816566348705",
+        "Stamina": "120.0",
+        "Current Stamina": "35.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Block",
+        "Damage Type": "Physical",
+        "Damage Amount": "54.71804354023821"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "65"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "15.790816566348704",
+        "Stamina": "120.0",
+        "Current Stamina": "35.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "15.790816566348704",
+        "Stamina": "120.0",
+        "Current Stamina": "37.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "66"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "186.52477095402253",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "66"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "15.910816566348704",
+        "Stamina": "120.0",
+        "Current Stamina": "37.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "15.910816566348704",
+        "Stamina": "120.0",
+        "Current Stamina": "39.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "67"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "186.68477095402253",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "67"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "16.030816566348705",
+        "Stamina": "120.0",
+        "Current Stamina": "39.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "16.030816566348705",
+        "Stamina": "120.0",
+        "Current Stamina": "41.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "68"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "186.84477095402252",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "68"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "16.150816566348706",
+        "Stamina": "120.0",
+        "Current Stamina": "41.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "16.150816566348706",
+        "Stamina": "120.0",
+        "Current Stamina": "43.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "69"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "187.00477095402252",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "69"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "16.270816566348707",
+        "Stamina": "120.0",
+        "Current Stamina": "43.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "16.270816566348707",
+        "Stamina": "120.0",
+        "Current Stamina": "45.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "70"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "187.16477095402252",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "70"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "16.390816566348708",
+        "Stamina": "120.0",
+        "Current Stamina": "45.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "16.390816566348708",
+        "Stamina": "120.0",
+        "Current Stamina": "47.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "71"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "187.3247709540225",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "71"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "16.51081656634871",
+        "Stamina": "120.0",
+        "Current Stamina": "47.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "16.51081656634871",
+        "Stamina": "120.0",
+        "Current Stamina": "49.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "72"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "187.4847709540225",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "72"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "16.63081656634871",
+        "Stamina": "120.0",
+        "Current Stamina": "49.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "16.63081656634871",
+        "Stamina": "120.0",
+        "Current Stamina": "51.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "73"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "187.6447709540225",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "73"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "16.75081656634871",
+        "Stamina": "120.0",
+        "Current Stamina": "51.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "16.75081656634871",
+        "Stamina": "120.0",
+        "Current Stamina": "53.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "74"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "187.8047709540225",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "74"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "16.87081656634871",
+        "Stamina": "120.0",
+        "Current Stamina": "53.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "16.87081656634871",
+        "Stamina": "120.0",
+        "Current Stamina": "55.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "16.87081656634871",
+        "Stamina": "120.0",
+        "Current Stamina": "7.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Chop",
+        "Damage Type": "Physical",
+        "Damage Amount": "57.89709618610408"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "182.27680362374963",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Block",
+        "Damage Type": "Physical",
+        "Damage Amount": "5.527967330272858"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "75"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "182.43680362374963",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "75"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "16.990816566348713",
+        "Stamina": "120.0",
+        "Current Stamina": "7.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "16.990816566348713",
+        "Stamina": "120.0",
+        "Current Stamina": "9.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "76"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "182.59680362374962",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "76"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "17.110816566348714",
+        "Stamina": "120.0",
+        "Current Stamina": "9.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "17.110816566348714",
+        "Stamina": "120.0",
+        "Current Stamina": "11.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "77"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "182.75680362374962",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "77"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "17.230816566348715",
+        "Stamina": "120.0",
+        "Current Stamina": "11.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "17.230816566348715",
+        "Stamina": "120.0",
+        "Current Stamina": "13.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "78"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "182.91680362374962",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "78"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "17.350816566348715",
+        "Stamina": "120.0",
+        "Current Stamina": "13.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "17.350816566348715",
+        "Stamina": "120.0",
+        "Current Stamina": "15.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "79"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "183.0768036237496",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "79"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "17.470816566348716",
+        "Stamina": "120.0",
+        "Current Stamina": "15.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "17.470816566348716",
+        "Stamina": "120.0",
+        "Current Stamina": "17.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "80"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "183.2368036237496",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "80"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "17.590816566348717",
+        "Stamina": "120.0",
+        "Current Stamina": "17.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "17.590816566348717",
+        "Stamina": "120.0",
+        "Current Stamina": "19.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "81"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "183.3968036237496",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "81"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "17.71081656634872",
+        "Stamina": "120.0",
+        "Current Stamina": "19.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "17.71081656634872",
+        "Stamina": "120.0",
+        "Current Stamina": "21.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "82"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "183.5568036237496",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "82"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "17.83081656634872",
+        "Stamina": "120.0",
+        "Current Stamina": "21.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "17.83081656634872",
+        "Stamina": "120.0",
+        "Current Stamina": "23.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "83"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "183.7168036237496",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "83"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "17.95081656634872",
+        "Stamina": "120.0",
+        "Current Stamina": "23.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "17.95081656634872",
+        "Stamina": "120.0",
+        "Current Stamina": "25.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "84"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "183.8768036237496",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "84"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "18.07081656634872",
+        "Stamina": "120.0",
+        "Current Stamina": "25.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "18.07081656634872",
+        "Stamina": "120.0",
+        "Current Stamina": "27.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "85"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "184.0368036237496",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "85"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "18.190816566348722",
+        "Stamina": "120.0",
+        "Current Stamina": "27.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "18.190816566348722",
+        "Stamina": "120.0",
+        "Current Stamina": "29.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "86"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "184.1968036237496",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "86"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "18.310816566348723",
+        "Stamina": "120.0",
+        "Current Stamina": "29.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "18.310816566348723",
+        "Stamina": "120.0",
+        "Current Stamina": "31.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "87"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "184.35680362374958",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "87"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "18.430816566348724",
+        "Stamina": "120.0",
+        "Current Stamina": "31.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "18.430816566348724",
+        "Stamina": "120.0",
+        "Current Stamina": "33.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "88"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "184.51680362374958",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "88"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "18.550816566348725",
+        "Stamina": "120.0",
+        "Current Stamina": "33.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "18.550816566348725",
+        "Stamina": "120.0",
+        "Current Stamina": "35.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "89"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "184.67680362374958",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "89"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "18.670816566348726",
+        "Stamina": "120.0",
+        "Current Stamina": "35.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "18.670816566348726",
+        "Stamina": "120.0",
+        "Current Stamina": "37.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "90"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "184.83680362374957",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "90"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "18.790816566348727",
+        "Stamina": "120.0",
+        "Current Stamina": "37.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "18.790816566348727",
+        "Stamina": "120.0",
+        "Current Stamina": "39.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "91"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "184.99680362374957",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "91"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "18.91081656634873",
+        "Stamina": "120.0",
+        "Current Stamina": "39.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "18.91081656634873",
+        "Stamina": "120.0",
+        "Current Stamina": "41.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "92"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "185.15680362374957",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "92"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "19.03081656634873",
+        "Stamina": "120.0",
+        "Current Stamina": "41.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "19.03081656634873",
+        "Stamina": "120.0",
+        "Current Stamina": "43.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "93"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "185.31680362374956",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "93"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "19.15081656634873",
+        "Stamina": "120.0",
+        "Current Stamina": "43.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "19.15081656634873",
+        "Stamina": "120.0",
+        "Current Stamina": "45.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "94"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "185.47680362374956",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "94"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "19.27081656634873",
+        "Stamina": "120.0",
+        "Current Stamina": "45.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "19.27081656634873",
+        "Stamina": "120.0",
+        "Current Stamina": "47.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "95"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "185.63680362374956",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "95"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "19.390816566348732",
+        "Stamina": "120.0",
+        "Current Stamina": "47.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "19.390816566348732",
+        "Stamina": "120.0",
+        "Current Stamina": "49.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "96"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "185.79680362374955",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "96"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "19.510816566348733",
+        "Stamina": "120.0",
+        "Current Stamina": "49.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "19.510816566348733",
+        "Stamina": "120.0",
+        "Current Stamina": "51.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "97"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "185.95680362374955",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "97"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "19.630816566348734",
+        "Stamina": "120.0",
+        "Current Stamina": "51.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "19.630816566348734",
+        "Stamina": "120.0",
+        "Current Stamina": "53.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "98"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "186.11680362374955",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "186.11680362374955",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Punch",
+        "Damage Type": "Physical",
+        "Damage Amount": "73.42395698200765"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "0.0",
+        "Stamina": "120.0",
+        "Current Stamina": "53.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Block",
+        "Damage Type": "Physical",
+        "Damage Amount": "53.48156128380688"
+      }
+    },
+    {
+      "Type": "INFO",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "0.0",
+        "Stamina": "120.0",
+        "Current Stamina": "53.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Knock Out"
+      }
+    },
+    {
+      "Type": "INFO",
+      "Source": {
+        "Name": "Backyard"
+      },
+      "Event": {
+        "Name": "Fight End",
+        "Result": "Win",
+        "Result By": "Knock Out"
+      }
+    },
+    {
+      "Type": "INFO",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "186.11680362374955",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Won",
+        "As": "Champion"
+      }
+    },
+    {
+      "Type": "INFO",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Karateka",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "0.0",
+        "Stamina": "120.0",
+        "Current Stamina": "53.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Lost",
+        "As": "Challenger"
+      }
+    }
+  ]
+}

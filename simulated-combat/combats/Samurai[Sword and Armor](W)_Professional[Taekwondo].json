@@ -1,0 +1,3639 @@
+{
+  "Champion": "Samurai[Sword and Armor]",
+  "Challenger": "Professional[Taekwondo]",
+  "Arena": "Backyard",
+  "Winner": "Champion",
+  "Beats": 49,
+  "SourceEvent": [
+    {
+      "Type": "INFO",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "25.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Fighter Added",
+        "As": "Champion"
+      }
+    },
+    {
+      "Type": "INFO",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "25.0",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Fighter Added",
+        "As": "Challenger"
+      }
+    },
+    {
+      "Type": "INFO",
+      "Source": {
+        "Name": "Backyard"
+      },
+      "Event": {
+        "Name": "Fight Start"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "0"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "27.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "0"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "26.6",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "1"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "29.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "1"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "28.200000000000003",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "2"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "31.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "2"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "29.800000000000004",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "3"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "33.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "3"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "31.400000000000006",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "4"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "35.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "4"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "33.00000000000001",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "5"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "37.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "5"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "34.60000000000001",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "6"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "39.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "6"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "36.20000000000001",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "7"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "41.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "7"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "37.80000000000001",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "8"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "43.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "8"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "39.40000000000001",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "9"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "45.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "9"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "41.000000000000014",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "10"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "47.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "10"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "42.600000000000016",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "11"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "49.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "11"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "44.20000000000002",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "12"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "51.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "12"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "45.80000000000002",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "13"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "53.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "13"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "47.40000000000002",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "14"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "55.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "14"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "49.00000000000002",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "15"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "57.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "15"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "50.60000000000002",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "16"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "59.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "16"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "52.200000000000024",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "17"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "61.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "17"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "53.800000000000026",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "18"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "63.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "18"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "55.40000000000003",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "19"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "65.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "19"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "57.00000000000003",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "9.000000000000028",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Flying Kick",
+        "Damage Type": "Physical",
+        "Damage Amount": "52.25161146398358"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "65.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Armor",
+        "Damage Reduced": "15.675483439195073",
+        "Armor Base": "30.0",
+        "Armor Current": "22.16225828040246"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "99.68148477769034",
+        "Stamina": "120.0",
+        "Current Stamina": "65.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Block",
+        "Damage Type": "Physical",
+        "Damage Amount": "20.318515222309653"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "20"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "99.80148477769035",
+        "Stamina": "120.0",
+        "Current Stamina": "65.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "99.80148477769035",
+        "Stamina": "120.0",
+        "Current Stamina": "67.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "20"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "10.600000000000028",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "21"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "99.92148477769035",
+        "Stamina": "120.0",
+        "Current Stamina": "67.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "99.92148477769035",
+        "Stamina": "120.0",
+        "Current Stamina": "69.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "21"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "12.200000000000028",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "22"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "100.04148477769036",
+        "Stamina": "120.0",
+        "Current Stamina": "69.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "100.04148477769036",
+        "Stamina": "120.0",
+        "Current Stamina": "71.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "22"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "13.800000000000027",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "23"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "100.16148477769036",
+        "Stamina": "120.0",
+        "Current Stamina": "71.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "100.16148477769036",
+        "Stamina": "120.0",
+        "Current Stamina": "73.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "23"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "15.400000000000027",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "24"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "100.28148477769037",
+        "Stamina": "120.0",
+        "Current Stamina": "73.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "100.28148477769037",
+        "Stamina": "120.0",
+        "Current Stamina": "75.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "100.28148477769037",
+        "Stamina": "120.0",
+        "Current Stamina": "45.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Sword Slash",
+        "Weapon": "Sword",
+        "Damage Type": "Physical",
+        "Damage Amount": "93.45453752434614"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "15.400000000000027",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Evade",
+        "Damage Type": "Physical",
+        "Damage Amount": "0.0"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "24"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "17.00000000000003",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "25"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "100.40148477769037",
+        "Stamina": "120.0",
+        "Current Stamina": "45.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "100.40148477769037",
+        "Stamina": "120.0",
+        "Current Stamina": "47.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "25"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "18.60000000000003",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "26"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "100.52148477769038",
+        "Stamina": "120.0",
+        "Current Stamina": "47.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "100.52148477769038",
+        "Stamina": "120.0",
+        "Current Stamina": "49.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "26"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "20.20000000000003",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "27"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "100.64148477769038",
+        "Stamina": "120.0",
+        "Current Stamina": "49.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "100.64148477769038",
+        "Stamina": "120.0",
+        "Current Stamina": "51.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "27"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "21.800000000000033",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "28"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "100.76148477769038",
+        "Stamina": "120.0",
+        "Current Stamina": "51.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "100.76148477769038",
+        "Stamina": "120.0",
+        "Current Stamina": "53.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "28"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "23.400000000000034",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "29"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "100.88148477769039",
+        "Stamina": "120.0",
+        "Current Stamina": "53.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "100.88148477769039",
+        "Stamina": "120.0",
+        "Current Stamina": "55.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "29"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "25.000000000000036",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "30"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "101.0014847776904",
+        "Stamina": "120.0",
+        "Current Stamina": "55.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "101.0014847776904",
+        "Stamina": "120.0",
+        "Current Stamina": "57.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "30"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "26.600000000000037",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "31"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "101.1214847776904",
+        "Stamina": "120.0",
+        "Current Stamina": "57.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "101.1214847776904",
+        "Stamina": "120.0",
+        "Current Stamina": "59.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "31"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "28.20000000000004",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "32"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "101.2414847776904",
+        "Stamina": "120.0",
+        "Current Stamina": "59.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "101.2414847776904",
+        "Stamina": "120.0",
+        "Current Stamina": "61.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "32"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "29.80000000000004",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "33"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "101.3614847776904",
+        "Stamina": "120.0",
+        "Current Stamina": "61.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "101.3614847776904",
+        "Stamina": "120.0",
+        "Current Stamina": "63.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "33"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "31.40000000000004",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "34"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "101.48148477769041",
+        "Stamina": "120.0",
+        "Current Stamina": "63.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "101.48148477769041",
+        "Stamina": "120.0",
+        "Current Stamina": "65.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "34"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "33.00000000000004",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "35"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "101.60148477769042",
+        "Stamina": "120.0",
+        "Current Stamina": "65.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "101.60148477769042",
+        "Stamina": "120.0",
+        "Current Stamina": "67.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "35"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "34.600000000000044",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "36"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "101.72148477769042",
+        "Stamina": "120.0",
+        "Current Stamina": "67.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "101.72148477769042",
+        "Stamina": "120.0",
+        "Current Stamina": "69.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "36"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "36.200000000000045",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "37"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "101.84148477769043",
+        "Stamina": "120.0",
+        "Current Stamina": "69.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "101.84148477769043",
+        "Stamina": "120.0",
+        "Current Stamina": "71.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "37"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "37.80000000000005",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "38"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "101.96148477769043",
+        "Stamina": "120.0",
+        "Current Stamina": "71.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "101.96148477769043",
+        "Stamina": "120.0",
+        "Current Stamina": "73.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "38"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "39.40000000000005",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "39"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "102.08148477769043",
+        "Stamina": "120.0",
+        "Current Stamina": "73.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "102.08148477769043",
+        "Stamina": "120.0",
+        "Current Stamina": "75.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "39"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "41.00000000000005",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "41.00000000000005",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Kick",
+        "Damage Type": "Physical",
+        "Damage Amount": "15.665646858692332"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "102.08148477769043",
+        "Stamina": "120.0",
+        "Current Stamina": "75.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Armor",
+        "Damage Reduced": "4.699694057607699",
+        "Armor Base": "30.0",
+        "Armor Current": "19.81241125159861"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "102.08148477769043",
+        "Stamina": "120.0",
+        "Current Stamina": "75.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Block",
+        "Damage Type": "Physical",
+        "Damage Amount": "0.0"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "40"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "102.20148477769044",
+        "Stamina": "120.0",
+        "Current Stamina": "75.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "102.20148477769044",
+        "Stamina": "120.0",
+        "Current Stamina": "77.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "40"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "42.60000000000005",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "41"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "102.32148477769044",
+        "Stamina": "120.0",
+        "Current Stamina": "77.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "102.32148477769044",
+        "Stamina": "120.0",
+        "Current Stamina": "79.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "41"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "44.20000000000005",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "42"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "102.44148477769045",
+        "Stamina": "120.0",
+        "Current Stamina": "79.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "102.44148477769045",
+        "Stamina": "120.0",
+        "Current Stamina": "81.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "42"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "45.800000000000054",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "43"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "102.56148477769045",
+        "Stamina": "120.0",
+        "Current Stamina": "81.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "102.56148477769045",
+        "Stamina": "120.0",
+        "Current Stamina": "83.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "43"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "47.400000000000055",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "44"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "102.68148477769046",
+        "Stamina": "120.0",
+        "Current Stamina": "83.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "102.68148477769046",
+        "Stamina": "120.0",
+        "Current Stamina": "85.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "44"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "49.00000000000006",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "45"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "102.80148477769046",
+        "Stamina": "120.0",
+        "Current Stamina": "85.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "102.80148477769046",
+        "Stamina": "120.0",
+        "Current Stamina": "87.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "45"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "50.60000000000006",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "46"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "102.92148477769047",
+        "Stamina": "120.0",
+        "Current Stamina": "87.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "102.92148477769047",
+        "Stamina": "120.0",
+        "Current Stamina": "89.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "46"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "52.20000000000006",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "47"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "103.04148477769047",
+        "Stamina": "120.0",
+        "Current Stamina": "89.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "103.04148477769047",
+        "Stamina": "120.0",
+        "Current Stamina": "91.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "47"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "53.80000000000006",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "48"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "103.16148477769048",
+        "Stamina": "120.0",
+        "Current Stamina": "91.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "103.16148477769048",
+        "Stamina": "120.0",
+        "Current Stamina": "93.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "48"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "55.40000000000006",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "49"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "103.28148477769048",
+        "Stamina": "120.0",
+        "Current Stamina": "93.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "103.28148477769048",
+        "Stamina": "120.0",
+        "Current Stamina": "95.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "103.28148477769048",
+        "Stamina": "120.0",
+        "Current Stamina": "65.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Sword Slash",
+        "Weapon": "Sword",
+        "Damage Type": "Physical",
+        "Damage Amount": "92.99987944832088"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "0.0",
+        "Stamina": "80.0",
+        "Current Stamina": "55.40000000000006",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Evade",
+        "Damage Type": "Physical",
+        "Damage Amount": "92.99987944832088"
+      }
+    },
+    {
+      "Type": "INFO",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "0.0",
+        "Stamina": "80.0",
+        "Current Stamina": "55.40000000000006",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Knock Out"
+      }
+    },
+    {
+      "Type": "INFO",
+      "Source": {
+        "Name": "Backyard"
+      },
+      "Event": {
+        "Name": "Fight End",
+        "Result": "Win",
+        "Result By": "Knock Out"
+      }
+    },
+    {
+      "Type": "INFO",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "103.28148477769048",
+        "Stamina": "120.0",
+        "Current Stamina": "65.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Won",
+        "As": "Champion"
+      }
+    },
+    {
+      "Type": "INFO",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "0.0",
+        "Stamina": "80.0",
+        "Current Stamina": "55.40000000000006",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Lost",
+        "As": "Challenger"
+      }
+    }
+  ]
+}

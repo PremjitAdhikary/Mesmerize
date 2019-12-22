@@ -1,0 +1,6105 @@
+{
+  "Champion": "Hero[Equipped Batman]",
+  "Challenger": "Mage[Elemental]",
+  "Arena": "Backyard",
+  "Winner": "Challenger",
+  "Beats": 67,
+  "SourceEvent": [
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "100.0",
+        "Mana": "90.0",
+        "Current Mana": "20.0"
+      },
+      "Event": {
+        "Name": "Flame Breath",
+        "Switch": "Cooldown",
+        "State": "true"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "100.0",
+        "Mana": "90.0",
+        "Current Mana": "20.0"
+      },
+      "Event": {
+        "Name": "Ice Blast",
+        "Switch": "Cooldown",
+        "State": "true"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "100.0",
+        "Mana": "90.0",
+        "Current Mana": "20.0"
+      },
+      "Event": {
+        "Name": "Fire Shield",
+        "Switch": "Cooldown",
+        "State": "false"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "100.0",
+        "Mana": "90.0",
+        "Current Mana": "20.0"
+      },
+      "Event": {
+        "Name": "Fire Shield",
+        "Switch": "Active",
+        "State": "false"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "100.0",
+        "Mana": "90.0",
+        "Current Mana": "20.0"
+      },
+      "Event": {
+        "Name": "Frozen Wall",
+        "Switch": "Cooldown",
+        "State": "false"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "100.0",
+        "Mana": "90.0",
+        "Current Mana": "20.0"
+      },
+      "Event": {
+        "Name": "Frozen Wall",
+        "Switch": "Active",
+        "State": "false"
+      }
+    },
+    {
+      "Type": "INFO",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "140.0",
+        "Mojo": "120.0",
+        "Current Mojo": "40.0",
+        "Strength": "135.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Fighter Added",
+        "As": "Champion"
+      }
+    },
+    {
+      "Type": "INFO",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "100.0",
+        "Mana": "90.0",
+        "Current Mana": "20.0"
+      },
+      "Event": {
+        "Name": "Fighter Added",
+        "As": "Challenger"
+      }
+    },
+    {
+      "Type": "INFO",
+      "Source": {
+        "Name": "Backyard"
+      },
+      "Event": {
+        "Name": "Fight Start"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "0"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "140.0",
+        "Mojo": "120.0",
+        "Current Mojo": "45.0",
+        "Strength": "135.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "0"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "100.0",
+        "Mana": "90.0",
+        "Current Mana": "24.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "1"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "140.0",
+        "Mojo": "120.0",
+        "Current Mojo": "50.0",
+        "Strength": "135.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "1"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "100.0",
+        "Mana": "90.0",
+        "Current Mana": "28.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "2"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "140.0",
+        "Mojo": "120.0",
+        "Current Mojo": "55.0",
+        "Strength": "135.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "2"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "100.0",
+        "Mana": "90.0",
+        "Current Mana": "32.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "3"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "140.0",
+        "Mojo": "120.0",
+        "Current Mojo": "60.0",
+        "Strength": "135.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "3"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "100.0",
+        "Mana": "90.0",
+        "Current Mana": "36.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "4"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "140.0",
+        "Mojo": "120.0",
+        "Current Mojo": "65.0",
+        "Strength": "135.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "4"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "100.0",
+        "Mana": "90.0",
+        "Current Mana": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "5"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "140.0",
+        "Mojo": "120.0",
+        "Current Mojo": "70.0",
+        "Strength": "135.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "5"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "100.0",
+        "Mana": "90.0",
+        "Current Mana": "44.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "6"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "140.0",
+        "Mojo": "120.0",
+        "Current Mojo": "75.0",
+        "Strength": "135.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "6"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "100.0",
+        "Mana": "90.0",
+        "Current Mana": "48.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "7"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "140.0",
+        "Mojo": "120.0",
+        "Current Mojo": "80.0",
+        "Strength": "135.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "7"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "100.0",
+        "Mana": "90.0",
+        "Current Mana": "52.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "8"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "140.0",
+        "Mojo": "120.0",
+        "Current Mojo": "85.0",
+        "Strength": "135.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "8"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "100.0",
+        "Mana": "90.0",
+        "Current Mana": "56.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "9"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "140.0",
+        "Mojo": "120.0",
+        "Current Mojo": "90.0",
+        "Strength": "135.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "9"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "100.0",
+        "Mana": "90.0",
+        "Current Mana": "60.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "10"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "140.0",
+        "Mojo": "120.0",
+        "Current Mojo": "95.0",
+        "Strength": "135.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "10"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "100.0",
+        "Mana": "90.0",
+        "Current Mana": "64.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "11"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "140.0",
+        "Mojo": "120.0",
+        "Current Mojo": "100.0",
+        "Strength": "135.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "100.0",
+        "Mana": "90.0",
+        "Current Mana": "49.0"
+      },
+      "Event": {
+        "Name": "Frozen Wall",
+        "Switch": "Active",
+        "State": "true"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "100.0",
+        "Mana": "90.0",
+        "Current Mana": "49.0"
+      },
+      "Event": {
+        "Name": "Frozen Wall",
+        "Switch": "Cooldown",
+        "State": "true"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "100.0",
+        "Mana": "90.0",
+        "Current Mana": "49.0"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "140.0",
+        "Mojo": "120.0",
+        "Current Mojo": "100.0",
+        "Strength": "135.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Mana Burners",
+        "Count": "4",
+        "Buff Type": "Affect Variable Attribute Over Time",
+        "Attribute": "MANA",
+        "Affect": "TEMPORARY",
+        "Duration": "20",
+        "Percentage Per Beat": "-4.0"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "100.0",
+        "Mana": "90.0",
+        "Current Mana": "49.0"
+      },
+      "Event": {
+        "Name": "Frozen Wall",
+        "Buff Type": "Affect Variable Attribute Over Time",
+        "Attribute": "MANA",
+        "Affect": "TEMPORARY",
+        "Duration": "20",
+        "Percentage Per Beat": "-4.0"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "11"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "100.0",
+        "Mana": "90.0",
+        "Current Mana": "53.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "100.0",
+        "Mana": "90.0",
+        "Current Mana": "49.4"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "12"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "140.0",
+        "Mojo": "120.0",
+        "Current Mojo": "105.0",
+        "Strength": "135.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "12"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "100.0",
+        "Mana": "90.0",
+        "Current Mana": "53.4"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "100.0",
+        "Mana": "90.0",
+        "Current Mana": "49.8"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "13"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "140.0",
+        "Mojo": "120.0",
+        "Current Mojo": "110.0",
+        "Strength": "135.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "13"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "100.0",
+        "Mana": "90.0",
+        "Current Mana": "53.8"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "100.0",
+        "Mana": "90.0",
+        "Current Mana": "50.199999999999996"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "14"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "140.0",
+        "Mojo": "120.0",
+        "Current Mojo": "115.0",
+        "Strength": "135.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "14"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "100.0",
+        "Mana": "90.0",
+        "Current Mana": "54.199999999999996"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "100.0",
+        "Mana": "90.0",
+        "Current Mana": "50.599999999999994"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "15"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "140.0",
+        "Mojo": "120.0",
+        "Current Mojo": "120.0",
+        "Strength": "135.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "15"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "100.0",
+        "Mana": "90.0",
+        "Current Mana": "54.599999999999994"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "100.0",
+        "Mana": "90.0",
+        "Current Mana": "54.599999999999994"
+      },
+      "Event": {
+        "Name": "Flame Breath",
+        "Switch": "Cooldown",
+        "State": "false"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "100.0",
+        "Mana": "90.0",
+        "Current Mana": "50.99999999999999"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "16"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "16"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "100.0",
+        "Mana": "90.0",
+        "Current Mana": "54.99999999999999"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "100.0",
+        "Mana": "90.0",
+        "Current Mana": "19.999999999999993"
+      },
+      "Event": {
+        "Name": "Flame Breath",
+        "Switch": "Cooldown",
+        "State": "true"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "100.0",
+        "Mana": "90.0",
+        "Current Mana": "19.999999999999993"
+      },
+      "Event": {
+        "Name": "Flame Breath",
+        "Damage Type": "Fire",
+        "Damage Amount": "82.5033257988227",
+        "Duration": "5",
+        "Burn Damage": "15.0"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "140.0",
+        "Mojo": "120.0",
+        "Current Mojo": "120.0",
+        "Strength": "135.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Armor",
+        "Damage Reduced": "49.50199547929362",
+        "Armor Base": "200.0",
+        "Armor Current": "175.2490022603532"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "106.99866968047093",
+        "Mojo": "120.0",
+        "Current Mojo": "120.0",
+        "Strength": "135.0",
+        "Dexterity": "80.0"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "100.0",
+        "Mana": "90.0",
+        "Current Mana": "16.39999999999999"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "17"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "107.39866968047093",
+        "Mojo": "120.0",
+        "Current Mojo": "120.0",
+        "Strength": "135.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "104.39866968047093",
+        "Mojo": "120.0",
+        "Current Mojo": "120.0",
+        "Strength": "135.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "17"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "100.0",
+        "Mana": "90.0",
+        "Current Mana": "20.39999999999999"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "100.0",
+        "Mana": "90.0",
+        "Current Mana": "16.79999999999999"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "18"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "104.79866968047094",
+        "Mojo": "120.0",
+        "Current Mojo": "120.0",
+        "Strength": "135.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "101.79866968047094",
+        "Mojo": "120.0",
+        "Current Mojo": "120.0",
+        "Strength": "135.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "18"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "100.0",
+        "Mana": "90.0",
+        "Current Mana": "20.79999999999999"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "100.0",
+        "Mana": "90.0",
+        "Current Mana": "17.19999999999999"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "19"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "102.19866968047094",
+        "Mojo": "120.0",
+        "Current Mojo": "120.0",
+        "Strength": "135.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "99.19866968047094",
+        "Mojo": "120.0",
+        "Current Mojo": "120.0",
+        "Strength": "135.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "19"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "100.0",
+        "Mana": "90.0",
+        "Current Mana": "21.19999999999999"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "100.0",
+        "Mana": "90.0",
+        "Current Mana": "17.599999999999987"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "20"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "99.59866968047095",
+        "Mojo": "120.0",
+        "Current Mojo": "120.0",
+        "Strength": "135.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "96.59866968047095",
+        "Mojo": "120.0",
+        "Current Mojo": "120.0",
+        "Strength": "135.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "20"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "100.0",
+        "Mana": "90.0",
+        "Current Mana": "21.599999999999987"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "100.0",
+        "Mana": "90.0",
+        "Current Mana": "21.599999999999987"
+      },
+      "Event": {
+        "Name": "Ice Blast",
+        "Switch": "Cooldown",
+        "State": "false"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "100.0",
+        "Mana": "90.0",
+        "Current Mana": "17.999999999999986"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "21"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "96.99866968047095",
+        "Mojo": "120.0",
+        "Current Mojo": "120.0",
+        "Strength": "135.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "93.99866968047095",
+        "Mojo": "120.0",
+        "Current Mojo": "120.0",
+        "Strength": "135.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "21"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "100.0",
+        "Mana": "90.0",
+        "Current Mana": "21.999999999999986"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "100.0",
+        "Mana": "90.0",
+        "Current Mana": "18.399999999999984"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "22"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "94.39866968047096",
+        "Mojo": "120.0",
+        "Current Mojo": "120.0",
+        "Strength": "135.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "22"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "100.0",
+        "Mana": "90.0",
+        "Current Mana": "22.399999999999984"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "100.0",
+        "Mana": "90.0",
+        "Current Mana": "18.799999999999983"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "23"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "94.79866968047097",
+        "Mojo": "120.0",
+        "Current Mojo": "120.0",
+        "Strength": "135.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "94.79866968047097",
+        "Mojo": "120.0",
+        "Current Mojo": "120.0",
+        "Strength": "135.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Punch",
+        "Damage Type": "Physical",
+        "Damage Amount": "47.01279103096511"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "71.79232538142094",
+        "Mana": "90.0",
+        "Current Mana": "18.799999999999983"
+      },
+      "Event": {
+        "Name": "Frozen Wall",
+        "Damage Type": "Physical",
+        "Damage Amount": "28.207674618579066"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "23"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "71.89232538142093",
+        "Mana": "90.0",
+        "Current Mana": "18.799999999999983"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "71.89232538142093",
+        "Mana": "90.0",
+        "Current Mana": "22.799999999999983"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "71.89232538142093",
+        "Mana": "90.0",
+        "Current Mana": "19.19999999999998"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "24"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "95.19866968047097",
+        "Mojo": "120.0",
+        "Current Mojo": "120.0",
+        "Strength": "135.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "24"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "71.99232538142093",
+        "Mana": "90.0",
+        "Current Mana": "19.19999999999998"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "71.99232538142093",
+        "Mana": "90.0",
+        "Current Mana": "23.19999999999998"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "71.99232538142093",
+        "Mana": "90.0",
+        "Current Mana": "19.59999999999998"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "25"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "95.59866968047098",
+        "Mojo": "120.0",
+        "Current Mojo": "120.0",
+        "Strength": "135.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "25"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "72.09232538142092",
+        "Mana": "90.0",
+        "Current Mana": "19.59999999999998"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "72.09232538142092",
+        "Mana": "90.0",
+        "Current Mana": "23.59999999999998"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "72.09232538142092",
+        "Mana": "90.0",
+        "Current Mana": "19.99999999999998"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "26"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "95.99866968047098",
+        "Mojo": "120.0",
+        "Current Mojo": "120.0",
+        "Strength": "135.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "26"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "72.19232538142091",
+        "Mana": "90.0",
+        "Current Mana": "19.99999999999998"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "72.19232538142091",
+        "Mana": "90.0",
+        "Current Mana": "23.99999999999998"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "72.19232538142091",
+        "Mana": "90.0",
+        "Current Mana": "20.399999999999977"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "27"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "96.39866968047099",
+        "Mojo": "120.0",
+        "Current Mojo": "120.0",
+        "Strength": "135.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "27"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "72.29232538142091",
+        "Mana": "90.0",
+        "Current Mana": "20.399999999999977"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "72.29232538142091",
+        "Mana": "90.0",
+        "Current Mana": "24.399999999999977"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "72.29232538142091",
+        "Mana": "90.0",
+        "Current Mana": "20.799999999999976"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "28"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "96.798669680471",
+        "Mojo": "120.0",
+        "Current Mojo": "120.0",
+        "Strength": "135.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "28"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "72.3923253814209",
+        "Mana": "90.0",
+        "Current Mana": "20.799999999999976"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "72.3923253814209",
+        "Mana": "90.0",
+        "Current Mana": "24.799999999999976"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "72.3923253814209",
+        "Mana": "90.0",
+        "Current Mana": "21.199999999999974"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "29"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "97.198669680471",
+        "Mojo": "120.0",
+        "Current Mojo": "120.0",
+        "Strength": "135.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "29"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "72.4923253814209",
+        "Mana": "90.0",
+        "Current Mana": "21.199999999999974"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "72.4923253814209",
+        "Mana": "90.0",
+        "Current Mana": "25.199999999999974"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "72.4923253814209",
+        "Mana": "90.0",
+        "Current Mana": "21.599999999999973"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "30"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "97.598669680471",
+        "Mojo": "120.0",
+        "Current Mojo": "120.0",
+        "Strength": "135.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "30"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "72.59232538142089",
+        "Mana": "90.0",
+        "Current Mana": "21.599999999999973"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "72.59232538142089",
+        "Mana": "90.0",
+        "Current Mana": "25.599999999999973"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "72.59232538142089",
+        "Mana": "90.0",
+        "Current Mana": "21.99999999999997"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "31"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "97.99866968047101",
+        "Mojo": "120.0",
+        "Current Mojo": "120.0",
+        "Strength": "135.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "31"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "72.69232538142089",
+        "Mana": "90.0",
+        "Current Mana": "21.99999999999997"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "72.69232538142089",
+        "Mana": "90.0",
+        "Current Mana": "25.99999999999997"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "32"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "98.39866968047102",
+        "Mojo": "120.0",
+        "Current Mojo": "120.0",
+        "Strength": "135.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "32"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "72.79232538142088",
+        "Mana": "90.0",
+        "Current Mana": "25.99999999999997"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "72.79232538142088",
+        "Mana": "90.0",
+        "Current Mana": "29.99999999999997"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "72.79232538142088",
+        "Mana": "90.0",
+        "Current Mana": "29.99999999999997"
+      },
+      "Event": {
+        "Name": "Flame Breath",
+        "Switch": "Cooldown",
+        "State": "false"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "33"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "98.79866968047102",
+        "Mojo": "120.0",
+        "Current Mojo": "120.0",
+        "Strength": "135.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "33"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "72.89232538142087",
+        "Mana": "90.0",
+        "Current Mana": "29.99999999999997"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "72.89232538142087",
+        "Mana": "90.0",
+        "Current Mana": "33.99999999999997"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "34"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "99.19866968047103",
+        "Mojo": "120.0",
+        "Current Mojo": "120.0",
+        "Strength": "135.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "34"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "72.99232538142087",
+        "Mana": "90.0",
+        "Current Mana": "33.99999999999997"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "72.99232538142087",
+        "Mana": "90.0",
+        "Current Mana": "37.99999999999997"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "72.99232538142087",
+        "Mana": "90.0",
+        "Current Mana": "2.9999999999999716"
+      },
+      "Event": {
+        "Name": "Flame Breath",
+        "Switch": "Cooldown",
+        "State": "true"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "72.99232538142087",
+        "Mana": "90.0",
+        "Current Mana": "2.9999999999999716"
+      },
+      "Event": {
+        "Name": "Flame Breath",
+        "Damage Type": "Fire",
+        "Damage Amount": "79.10206812141992",
+        "Duration": "5",
+        "Burn Damage": "15.0"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "99.19866968047103",
+        "Mojo": "120.0",
+        "Current Mojo": "120.0",
+        "Strength": "135.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Armor",
+        "Damage Reduced": "47.46124087285195",
+        "Armor Base": "200.0",
+        "Armor Current": "151.51838182392723"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "67.55784243190305",
+        "Mojo": "120.0",
+        "Current Mojo": "120.0",
+        "Strength": "135.0",
+        "Dexterity": "80.0"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "35"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "67.95784243190306",
+        "Mojo": "120.0",
+        "Current Mojo": "120.0",
+        "Strength": "135.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "67.95784243190306",
+        "Mojo": "120.0",
+        "Current Mojo": "120.0",
+        "Strength": "135.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Punch",
+        "Damage Type": "Physical",
+        "Damage Amount": "46.70737959762033"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "44.96789762284867",
+        "Mana": "90.0",
+        "Current Mana": "2.9999999999999716"
+      },
+      "Event": {
+        "Name": "Frozen Wall",
+        "Damage Type": "Physical",
+        "Damage Amount": "28.024427758572198"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "64.95784243190306",
+        "Mojo": "120.0",
+        "Current Mojo": "120.0",
+        "Strength": "135.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "35"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "45.06789762284867",
+        "Mana": "90.0",
+        "Current Mana": "2.9999999999999716"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "45.06789762284867",
+        "Mana": "90.0",
+        "Current Mana": "6.999999999999972"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "36"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "65.35784243190307",
+        "Mojo": "120.0",
+        "Current Mojo": "120.0",
+        "Strength": "135.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "62.357842431903066",
+        "Mojo": "120.0",
+        "Current Mojo": "120.0",
+        "Strength": "135.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "36"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "45.16789762284867",
+        "Mana": "90.0",
+        "Current Mana": "6.999999999999972"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "45.16789762284867",
+        "Mana": "90.0",
+        "Current Mana": "10.999999999999972"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "37"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "62.757842431903065",
+        "Mojo": "120.0",
+        "Current Mojo": "120.0",
+        "Strength": "135.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "59.757842431903065",
+        "Mojo": "120.0",
+        "Current Mojo": "120.0",
+        "Strength": "135.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "37"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "45.26789762284867",
+        "Mana": "90.0",
+        "Current Mana": "10.999999999999972"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "45.26789762284867",
+        "Mana": "90.0",
+        "Current Mana": "14.999999999999972"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "38"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "60.15784243190306",
+        "Mojo": "120.0",
+        "Current Mojo": "120.0",
+        "Strength": "135.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "57.15784243190306",
+        "Mojo": "120.0",
+        "Current Mojo": "120.0",
+        "Strength": "135.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "38"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "45.36789762284867",
+        "Mana": "90.0",
+        "Current Mana": "14.999999999999972"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "45.36789762284867",
+        "Mana": "90.0",
+        "Current Mana": "18.99999999999997"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "39"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "57.55784243190306",
+        "Mojo": "120.0",
+        "Current Mojo": "120.0",
+        "Strength": "135.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "54.55784243190306",
+        "Mojo": "120.0",
+        "Current Mojo": "120.0",
+        "Strength": "135.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "39"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "45.467897622848675",
+        "Mana": "90.0",
+        "Current Mana": "18.99999999999997"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "45.467897622848675",
+        "Mana": "90.0",
+        "Current Mana": "22.99999999999997"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "40"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "54.95784243190306",
+        "Mojo": "120.0",
+        "Current Mojo": "120.0",
+        "Strength": "135.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "40"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "45.567897622848676",
+        "Mana": "90.0",
+        "Current Mana": "22.99999999999997"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "45.567897622848676",
+        "Mana": "90.0",
+        "Current Mana": "26.99999999999997"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "41"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "55.35784243190306",
+        "Mojo": "120.0",
+        "Current Mojo": "120.0",
+        "Strength": "135.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "41"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "45.66789762284868",
+        "Mana": "90.0",
+        "Current Mana": "26.99999999999997"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "45.66789762284868",
+        "Mana": "90.0",
+        "Current Mana": "30.99999999999997"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "42"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "55.75784243190306",
+        "Mojo": "120.0",
+        "Current Mojo": "120.0",
+        "Strength": "135.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "42"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "45.76789762284868",
+        "Mana": "90.0",
+        "Current Mana": "30.99999999999997"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "45.76789762284868",
+        "Mana": "90.0",
+        "Current Mana": "34.99999999999997"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "43"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "56.157842431903056",
+        "Mojo": "120.0",
+        "Current Mojo": "120.0",
+        "Strength": "135.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "43"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "45.86789762284868",
+        "Mana": "90.0",
+        "Current Mana": "34.99999999999997"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "45.86789762284868",
+        "Mana": "90.0",
+        "Current Mana": "38.99999999999997"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "44"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "56.557842431903055",
+        "Mojo": "120.0",
+        "Current Mojo": "120.0",
+        "Strength": "135.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "44"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "45.96789762284868",
+        "Mana": "90.0",
+        "Current Mana": "38.99999999999997"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "45.96789762284868",
+        "Mana": "90.0",
+        "Current Mana": "42.99999999999997"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "45"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "56.95784243190305",
+        "Mojo": "120.0",
+        "Current Mojo": "120.0",
+        "Strength": "135.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "45"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "46.06789762284868",
+        "Mana": "90.0",
+        "Current Mana": "42.99999999999997"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "46.06789762284868",
+        "Mana": "90.0",
+        "Current Mana": "46.99999999999997"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "46.06789762284868",
+        "Mana": "90.0",
+        "Current Mana": "1.9999999999999716"
+      },
+      "Event": {
+        "Name": "Ice Blast",
+        "Switch": "Cooldown",
+        "State": "true"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "46.06789762284868",
+        "Mana": "90.0",
+        "Current Mana": "1.9999999999999716"
+      },
+      "Event": {
+        "Name": "Ice Blast",
+        "Damage Type": "Cold",
+        "Damage Amount": "32.00128852119548",
+        "Duration": "40",
+        "Deterioration Percentage": "30.0"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "56.95784243190305",
+        "Mojo": "120.0",
+        "Current Mojo": "120.0",
+        "Strength": "135.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Armor",
+        "Damage Reduced": "19.200773112717286",
+        "Armor Base": "200.0",
+        "Armor Current": "141.91799526756859"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "44.15732702342486",
+        "Mojo": "120.0",
+        "Current Mojo": "120.0",
+        "Strength": "135.0",
+        "Dexterity": "59.0"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "46"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "44.55732702342486",
+        "Mojo": "120.0",
+        "Current Mojo": "120.0",
+        "Strength": "135.0",
+        "Dexterity": "59.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "46"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "46.167897622848685",
+        "Mana": "90.0",
+        "Current Mana": "1.9999999999999716"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "46.167897622848685",
+        "Mana": "90.0",
+        "Current Mana": "5.999999999999972"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "46.167897622848685",
+        "Mana": "90.0",
+        "Current Mana": "5.999999999999972"
+      },
+      "Event": {
+        "Name": "Frozen Wall",
+        "Switch": "Cooldown",
+        "State": "false"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "47"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "44.95732702342486",
+        "Mojo": "120.0",
+        "Current Mojo": "120.0",
+        "Strength": "135.0",
+        "Dexterity": "59.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "47"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "46.267897622848686",
+        "Mana": "90.0",
+        "Current Mana": "5.999999999999972"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "46.267897622848686",
+        "Mana": "90.0",
+        "Current Mana": "9.999999999999972"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "48"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "45.35732702342486",
+        "Mojo": "120.0",
+        "Current Mojo": "120.0",
+        "Strength": "135.0",
+        "Dexterity": "59.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "48"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "46.36789762284869",
+        "Mana": "90.0",
+        "Current Mana": "9.999999999999972"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "46.36789762284869",
+        "Mana": "90.0",
+        "Current Mana": "13.999999999999972"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "49"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "45.75732702342486",
+        "Mojo": "120.0",
+        "Current Mojo": "120.0",
+        "Strength": "135.0",
+        "Dexterity": "59.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "49"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "46.46789762284869",
+        "Mana": "90.0",
+        "Current Mana": "13.999999999999972"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "46.46789762284869",
+        "Mana": "90.0",
+        "Current Mana": "17.99999999999997"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "50"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "46.157327023424855",
+        "Mojo": "120.0",
+        "Current Mojo": "120.0",
+        "Strength": "135.0",
+        "Dexterity": "59.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "50"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "46.56789762284869",
+        "Mana": "90.0",
+        "Current Mana": "17.99999999999997"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "46.56789762284869",
+        "Mana": "90.0",
+        "Current Mana": "21.99999999999997"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "46.56789762284869",
+        "Mana": "90.0",
+        "Current Mana": "21.99999999999997"
+      },
+      "Event": {
+        "Name": "Flame Breath",
+        "Switch": "Cooldown",
+        "State": "false"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "51"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "46.557327023424854",
+        "Mojo": "120.0",
+        "Current Mojo": "120.0",
+        "Strength": "135.0",
+        "Dexterity": "59.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "51"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "46.66789762284869",
+        "Mana": "90.0",
+        "Current Mana": "21.99999999999997"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "46.66789762284869",
+        "Mana": "90.0",
+        "Current Mana": "25.99999999999997"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "52"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "46.95732702342485",
+        "Mojo": "120.0",
+        "Current Mojo": "120.0",
+        "Strength": "135.0",
+        "Dexterity": "59.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "52"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "46.76789762284869",
+        "Mana": "90.0",
+        "Current Mana": "25.99999999999997"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "46.76789762284869",
+        "Mana": "90.0",
+        "Current Mana": "29.99999999999997"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "53"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "47.35732702342485",
+        "Mojo": "120.0",
+        "Current Mojo": "120.0",
+        "Strength": "135.0",
+        "Dexterity": "59.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "53"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "46.867897622848695",
+        "Mana": "90.0",
+        "Current Mana": "29.99999999999997"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "46.867897622848695",
+        "Mana": "90.0",
+        "Current Mana": "33.99999999999997"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "54"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "47.75732702342485",
+        "Mojo": "120.0",
+        "Current Mojo": "120.0",
+        "Strength": "135.0",
+        "Dexterity": "59.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "54"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "46.967897622848696",
+        "Mana": "90.0",
+        "Current Mana": "33.99999999999997"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "46.967897622848696",
+        "Mana": "90.0",
+        "Current Mana": "37.99999999999997"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "46.967897622848696",
+        "Mana": "90.0",
+        "Current Mana": "2.9999999999999716"
+      },
+      "Event": {
+        "Name": "Flame Breath",
+        "Switch": "Cooldown",
+        "State": "true"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "46.967897622848696",
+        "Mana": "90.0",
+        "Current Mana": "2.9999999999999716"
+      },
+      "Event": {
+        "Name": "Flame Breath",
+        "Damage Type": "Fire",
+        "Damage Amount": "83.54230906753821",
+        "Duration": "5",
+        "Burn Damage": "15.0"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "47.75732702342485",
+        "Mojo": "120.0",
+        "Current Mojo": "120.0",
+        "Strength": "135.0",
+        "Dexterity": "59.0"
+      },
+      "Event": {
+        "Name": "Armor",
+        "Damage Reduced": "50.125385440522926",
+        "Armor Base": "200.0",
+        "Armor Current": "116.85530254730712"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "14.340403396409563",
+        "Mojo": "120.0",
+        "Current Mojo": "120.0",
+        "Strength": "135.0",
+        "Dexterity": "59.0"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "55"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "14.740403396409564",
+        "Mojo": "120.0",
+        "Current Mojo": "120.0",
+        "Strength": "135.0",
+        "Dexterity": "59.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "46.967897622848696",
+        "Mana": "90.0",
+        "Current Mana": "2.9999999999999716"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "14.740403396409564",
+        "Mojo": "120.0",
+        "Current Mojo": "120.0",
+        "Strength": "135.0",
+        "Dexterity": "59.0"
+      },
+      "Event": {
+        "Name": "Gas Pellets",
+        "Count": "4",
+        "Buff Type": "Affect Variable Attribute Over Time",
+        "Attribute": "LIFE",
+        "Affect": "TEMPORARY",
+        "Duration": "25",
+        "Percentage Per Beat": "-3.0"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "46.967897622848696",
+        "Mana": "90.0",
+        "Current Mana": "2.9999999999999716"
+      },
+      "Event": {
+        "Name": "Frozen Wall",
+        "Buff Type": "Affect Variable Attribute Over Time",
+        "Attribute": "LIFE",
+        "Affect": "TEMPORARY",
+        "Duration": "25",
+        "Percentage Per Beat": "-3.0"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "11.740403396409564",
+        "Mojo": "120.0",
+        "Current Mojo": "120.0",
+        "Strength": "135.0",
+        "Dexterity": "59.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "55"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "47.0678976228487",
+        "Mana": "90.0",
+        "Current Mana": "2.9999999999999716"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "47.0678976228487",
+        "Mana": "90.0",
+        "Current Mana": "6.999999999999972"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "44.0678976228487",
+        "Mana": "90.0",
+        "Current Mana": "6.999999999999972"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "56"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "12.140403396409564",
+        "Mojo": "120.0",
+        "Current Mojo": "120.0",
+        "Strength": "135.0",
+        "Dexterity": "59.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "9.140403396409564",
+        "Mojo": "120.0",
+        "Current Mojo": "120.0",
+        "Strength": "135.0",
+        "Dexterity": "59.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "56"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "44.1678976228487",
+        "Mana": "90.0",
+        "Current Mana": "6.999999999999972"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "44.1678976228487",
+        "Mana": "90.0",
+        "Current Mana": "10.999999999999972"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "41.1678976228487",
+        "Mana": "90.0",
+        "Current Mana": "10.999999999999972"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "57"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "9.540403396409564",
+        "Mojo": "120.0",
+        "Current Mojo": "120.0",
+        "Strength": "135.0",
+        "Dexterity": "59.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "6.540403396409564",
+        "Mojo": "120.0",
+        "Current Mojo": "120.0",
+        "Strength": "135.0",
+        "Dexterity": "59.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "57"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "41.2678976228487",
+        "Mana": "90.0",
+        "Current Mana": "10.999999999999972"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "41.2678976228487",
+        "Mana": "90.0",
+        "Current Mana": "14.999999999999972"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "38.2678976228487",
+        "Mana": "90.0",
+        "Current Mana": "14.999999999999972"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "58"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "6.940403396409565",
+        "Mojo": "120.0",
+        "Current Mojo": "120.0",
+        "Strength": "135.0",
+        "Dexterity": "59.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "3.9404033964095646",
+        "Mojo": "120.0",
+        "Current Mojo": "120.0",
+        "Strength": "135.0",
+        "Dexterity": "59.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "58"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "38.3678976228487",
+        "Mana": "90.0",
+        "Current Mana": "14.999999999999972"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "38.3678976228487",
+        "Mana": "90.0",
+        "Current Mana": "18.99999999999997"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "35.3678976228487",
+        "Mana": "90.0",
+        "Current Mana": "18.99999999999997"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "59"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "4.340403396409565",
+        "Mojo": "120.0",
+        "Current Mojo": "120.0",
+        "Strength": "135.0",
+        "Dexterity": "59.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "1.340403396409565",
+        "Mojo": "120.0",
+        "Current Mojo": "120.0",
+        "Strength": "135.0",
+        "Dexterity": "59.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "59"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "35.4678976228487",
+        "Mana": "90.0",
+        "Current Mana": "18.99999999999997"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "35.4678976228487",
+        "Mana": "90.0",
+        "Current Mana": "22.99999999999997"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "32.4678976228487",
+        "Mana": "90.0",
+        "Current Mana": "22.99999999999997"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "60"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "1.7404033964095649",
+        "Mojo": "120.0",
+        "Current Mojo": "120.0",
+        "Strength": "135.0",
+        "Dexterity": "59.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "60"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "32.567897622848704",
+        "Mana": "90.0",
+        "Current Mana": "22.99999999999997"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "32.567897622848704",
+        "Mana": "90.0",
+        "Current Mana": "26.99999999999997"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "29.567897622848704",
+        "Mana": "90.0",
+        "Current Mana": "26.99999999999997"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "61"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "2.140403396409565",
+        "Mojo": "120.0",
+        "Current Mojo": "120.0",
+        "Strength": "135.0",
+        "Dexterity": "59.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "61"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "29.667897622848706",
+        "Mana": "90.0",
+        "Current Mana": "26.99999999999997"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "29.667897622848706",
+        "Mana": "90.0",
+        "Current Mana": "30.99999999999997"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "26.667897622848706",
+        "Mana": "90.0",
+        "Current Mana": "30.99999999999997"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "62"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "2.5404033964095647",
+        "Mojo": "120.0",
+        "Current Mojo": "120.0",
+        "Strength": "135.0",
+        "Dexterity": "59.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "62"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "26.767897622848707",
+        "Mana": "90.0",
+        "Current Mana": "30.99999999999997"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "26.767897622848707",
+        "Mana": "90.0",
+        "Current Mana": "34.99999999999997"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "23.767897622848707",
+        "Mana": "90.0",
+        "Current Mana": "34.99999999999997"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "63"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "2.9404033964095646",
+        "Mojo": "120.0",
+        "Current Mojo": "120.0",
+        "Strength": "135.0",
+        "Dexterity": "59.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "63"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "23.86789762284871",
+        "Mana": "90.0",
+        "Current Mana": "34.99999999999997"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "23.86789762284871",
+        "Mana": "90.0",
+        "Current Mana": "38.99999999999997"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "20.86789762284871",
+        "Mana": "90.0",
+        "Current Mana": "38.99999999999997"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "64"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "3.3404033964095645",
+        "Mojo": "120.0",
+        "Current Mojo": "120.0",
+        "Strength": "135.0",
+        "Dexterity": "59.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "64"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "20.96789762284871",
+        "Mana": "90.0",
+        "Current Mana": "38.99999999999997"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "20.96789762284871",
+        "Mana": "90.0",
+        "Current Mana": "42.99999999999997"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "17.96789762284871",
+        "Mana": "90.0",
+        "Current Mana": "42.99999999999997"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "65"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "3.7404033964095644",
+        "Mojo": "120.0",
+        "Current Mojo": "120.0",
+        "Strength": "135.0",
+        "Dexterity": "59.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "65"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "18.06789762284871",
+        "Mana": "90.0",
+        "Current Mana": "42.99999999999997"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "18.06789762284871",
+        "Mana": "90.0",
+        "Current Mana": "46.99999999999997"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "15.067897622848712",
+        "Mana": "90.0",
+        "Current Mana": "46.99999999999997"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "66"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "4.140403396409565",
+        "Mojo": "120.0",
+        "Current Mojo": "120.0",
+        "Strength": "135.0",
+        "Dexterity": "59.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "66"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "15.167897622848711",
+        "Mana": "90.0",
+        "Current Mana": "46.99999999999997"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "15.167897622848711",
+        "Mana": "90.0",
+        "Current Mana": "50.99999999999997"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "15.167897622848711",
+        "Mana": "90.0",
+        "Current Mana": "50.99999999999997"
+      },
+      "Event": {
+        "Name": "Ice Blast",
+        "Switch": "Cooldown",
+        "State": "false"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "12.167897622848711",
+        "Mana": "90.0",
+        "Current Mana": "50.99999999999997"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "67"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "4.540403396409565",
+        "Mojo": "120.0",
+        "Current Mojo": "120.0",
+        "Strength": "135.0",
+        "Dexterity": "59.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "67"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "12.26789762284871",
+        "Mana": "90.0",
+        "Current Mana": "50.99999999999997"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "12.26789762284871",
+        "Mana": "90.0",
+        "Current Mana": "54.99999999999997"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "12.26789762284871",
+        "Mana": "90.0",
+        "Current Mana": "9.999999999999972"
+      },
+      "Event": {
+        "Name": "Ice Blast",
+        "Switch": "Cooldown",
+        "State": "true"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "12.26789762284871",
+        "Mana": "90.0",
+        "Current Mana": "9.999999999999972"
+      },
+      "Event": {
+        "Name": "Ice Blast",
+        "Damage Type": "Cold",
+        "Damage Amount": "33.836181296282824",
+        "Duration": "40",
+        "Deterioration Percentage": "30.0"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "4.540403396409565",
+        "Mojo": "120.0",
+        "Current Mojo": "120.0",
+        "Strength": "135.0",
+        "Dexterity": "59.0"
+      },
+      "Event": {
+        "Name": "Armor",
+        "Damage Reduced": "20.301708777769694",
+        "Armor Base": "200.0",
+        "Armor Current": "106.70444815842227"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "0.0",
+        "Mojo": "120.0",
+        "Current Mojo": "120.0",
+        "Strength": "135.0",
+        "Dexterity": "38.0"
+      }
+    },
+    {
+      "Type": "INFO",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "0.0",
+        "Mojo": "120.0",
+        "Current Mojo": "120.0",
+        "Strength": "135.0",
+        "Dexterity": "38.0"
+      },
+      "Event": {
+        "Name": "Knock Out"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "9.26789762284871",
+        "Mana": "90.0",
+        "Current Mana": "9.999999999999972"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "INFO",
+      "Source": {
+        "Name": "Backyard"
+      },
+      "Event": {
+        "Name": "Fight End",
+        "Result": "Win",
+        "Result By": "Knock Out"
+      }
+    },
+    {
+      "Type": "INFO",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "0.0",
+        "Mojo": "120.0",
+        "Current Mojo": "120.0",
+        "Strength": "135.0",
+        "Dexterity": "38.0"
+      },
+      "Event": {
+        "Name": "Lost",
+        "As": "Champion"
+      }
+    },
+    {
+      "Type": "INFO",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "9.26789762284871",
+        "Mana": "90.0",
+        "Current Mana": "9.999999999999972"
+      },
+      "Event": {
+        "Name": "Won",
+        "As": "Challenger"
+      }
+    }
+  ]
+}

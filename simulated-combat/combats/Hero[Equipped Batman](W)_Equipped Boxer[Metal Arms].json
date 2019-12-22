@@ -1,0 +1,5488 @@
+{
+  "Champion": "Hero[Equipped Batman]",
+  "Challenger": "Equipped Boxer[Metal Arms]",
+  "Arena": "Backyard",
+  "Winner": "Champion",
+  "Beats": 95,
+  "SourceEvent": [
+    {
+      "Type": "INFO",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "140.0",
+        "Mojo": "120.0",
+        "Current Mojo": "40.0",
+        "Strength": "135.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Fighter Added",
+        "As": "Champion"
+      }
+    },
+    {
+      "Type": "INFO",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Stamina": "80.0",
+        "Current Stamina": "25.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Fighter Added",
+        "As": "Challenger"
+      }
+    },
+    {
+      "Type": "INFO",
+      "Source": {
+        "Name": "Backyard"
+      },
+      "Event": {
+        "Name": "Fight Start"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "0"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "140.0",
+        "Mojo": "120.0",
+        "Current Mojo": "45.0",
+        "Strength": "135.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "0"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Stamina": "80.0",
+        "Current Stamina": "26.6",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "1"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "140.0",
+        "Mojo": "120.0",
+        "Current Mojo": "50.0",
+        "Strength": "135.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "1"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Stamina": "80.0",
+        "Current Stamina": "28.200000000000003",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "2"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "140.0",
+        "Mojo": "120.0",
+        "Current Mojo": "55.0",
+        "Strength": "135.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "2"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Stamina": "80.0",
+        "Current Stamina": "29.800000000000004",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "3"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "140.0",
+        "Mojo": "120.0",
+        "Current Mojo": "60.0",
+        "Strength": "135.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "3"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Stamina": "80.0",
+        "Current Stamina": "31.400000000000006",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "4"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "140.0",
+        "Mojo": "120.0",
+        "Current Mojo": "65.0",
+        "Strength": "135.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "4"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Stamina": "80.0",
+        "Current Stamina": "33.00000000000001",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "5"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "140.0",
+        "Mojo": "120.0",
+        "Current Mojo": "70.0",
+        "Strength": "135.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "5"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Stamina": "80.0",
+        "Current Stamina": "34.60000000000001",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "6"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "140.0",
+        "Mojo": "120.0",
+        "Current Mojo": "75.0",
+        "Strength": "135.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "6"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Stamina": "80.0",
+        "Current Stamina": "36.20000000000001",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "7"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "140.0",
+        "Mojo": "120.0",
+        "Current Mojo": "80.0",
+        "Strength": "135.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "7"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Stamina": "80.0",
+        "Current Stamina": "37.80000000000001",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "8"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "140.0",
+        "Mojo": "120.0",
+        "Current Mojo": "85.0",
+        "Strength": "135.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "8"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Stamina": "80.0",
+        "Current Stamina": "39.40000000000001",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "9"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "140.0",
+        "Mojo": "120.0",
+        "Current Mojo": "90.0",
+        "Strength": "135.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "9"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Stamina": "80.0",
+        "Current Stamina": "41.000000000000014",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "10"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "140.0",
+        "Mojo": "120.0",
+        "Current Mojo": "95.0",
+        "Strength": "135.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "10"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Stamina": "80.0",
+        "Current Stamina": "42.600000000000016",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "11"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "140.0",
+        "Mojo": "120.0",
+        "Current Mojo": "100.0",
+        "Strength": "135.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Stamina": "80.0",
+        "Current Stamina": "42.600000000000016",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "140.0",
+        "Mojo": "120.0",
+        "Current Mojo": "100.0",
+        "Strength": "135.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Batarang",
+        "Count": "4",
+        "Damage Type": "Physical",
+        "Damage Amount": "48.5826968927273"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Stamina": "80.0",
+        "Current Stamina": "42.600000000000016",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Block",
+        "Damage Type": "Physical",
+        "Damage Amount": "0.0"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "11"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Stamina": "80.0",
+        "Current Stamina": "44.20000000000002",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "12"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "140.0",
+        "Mojo": "120.0",
+        "Current Mojo": "105.0",
+        "Strength": "135.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "12"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Stamina": "80.0",
+        "Current Stamina": "45.80000000000002",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "13"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "140.0",
+        "Mojo": "120.0",
+        "Current Mojo": "110.0",
+        "Strength": "135.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "13"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Stamina": "80.0",
+        "Current Stamina": "47.40000000000002",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "14"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "140.0",
+        "Mojo": "120.0",
+        "Current Mojo": "115.0",
+        "Strength": "135.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "14"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Stamina": "80.0",
+        "Current Stamina": "49.00000000000002",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "15"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "140.0",
+        "Mojo": "120.0",
+        "Current Mojo": "120.0",
+        "Strength": "135.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "15"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Stamina": "80.0",
+        "Current Stamina": "50.60000000000002",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "16"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "16"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Stamina": "80.0",
+        "Current Stamina": "52.200000000000024",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "17"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "17"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Stamina": "80.0",
+        "Current Stamina": "53.800000000000026",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "18"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "18"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Stamina": "80.0",
+        "Current Stamina": "55.40000000000003",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "19"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "19"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Stamina": "80.0",
+        "Current Stamina": "57.00000000000003",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "20"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "20"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Stamina": "80.0",
+        "Current Stamina": "58.60000000000003",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "21"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "21"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Stamina": "80.0",
+        "Current Stamina": "60.20000000000003",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "22"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "22"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Stamina": "80.0",
+        "Current Stamina": "61.80000000000003",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "23"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "140.0",
+        "Mojo": "120.0",
+        "Current Mojo": "120.0",
+        "Strength": "135.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Punch",
+        "Damage Type": "Physical",
+        "Damage Amount": "48.035350059418235"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "151.96464994058175",
+        "Stamina": "80.0",
+        "Current Stamina": "61.80000000000003",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "23"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "152.12464994058175",
+        "Stamina": "80.0",
+        "Current Stamina": "61.80000000000003",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "152.12464994058175",
+        "Stamina": "80.0",
+        "Current Stamina": "63.400000000000034",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "24"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "24"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "152.28464994058174",
+        "Stamina": "80.0",
+        "Current Stamina": "63.400000000000034",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "152.28464994058174",
+        "Stamina": "80.0",
+        "Current Stamina": "65.00000000000003",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "25"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "25"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "152.44464994058174",
+        "Stamina": "80.0",
+        "Current Stamina": "65.00000000000003",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "152.44464994058174",
+        "Stamina": "80.0",
+        "Current Stamina": "66.60000000000002",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "26"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "26"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "152.60464994058174",
+        "Stamina": "80.0",
+        "Current Stamina": "66.60000000000002",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "152.60464994058174",
+        "Stamina": "80.0",
+        "Current Stamina": "68.20000000000002",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "27"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "27"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "152.76464994058173",
+        "Stamina": "80.0",
+        "Current Stamina": "68.20000000000002",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "152.76464994058173",
+        "Stamina": "80.0",
+        "Current Stamina": "69.80000000000001",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "28"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "28"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "152.92464994058173",
+        "Stamina": "80.0",
+        "Current Stamina": "69.80000000000001",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "152.92464994058173",
+        "Stamina": "80.0",
+        "Current Stamina": "71.4",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "29"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "29"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "153.08464994058173",
+        "Stamina": "80.0",
+        "Current Stamina": "71.4",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "153.08464994058173",
+        "Stamina": "80.0",
+        "Current Stamina": "73.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "30"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "30"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "153.24464994058172",
+        "Stamina": "80.0",
+        "Current Stamina": "73.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "153.24464994058172",
+        "Stamina": "80.0",
+        "Current Stamina": "74.6",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "31"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "31"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "153.40464994058172",
+        "Stamina": "80.0",
+        "Current Stamina": "74.6",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "153.40464994058172",
+        "Stamina": "80.0",
+        "Current Stamina": "76.19999999999999",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "32"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "32"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "153.56464994058172",
+        "Stamina": "80.0",
+        "Current Stamina": "76.19999999999999",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "153.56464994058172",
+        "Stamina": "80.0",
+        "Current Stamina": "77.79999999999998",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "153.56464994058172",
+        "Stamina": "80.0",
+        "Current Stamina": "77.79999999999998",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Punch",
+        "Damage Type": "Physical",
+        "Damage Amount": "73.95154278081579"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "140.0",
+        "Mojo": "120.0",
+        "Current Mojo": "120.0",
+        "Strength": "135.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Armor",
+        "Damage Reduced": "44.37092566848947",
+        "Armor Base": "200.0",
+        "Armor Current": "177.81453716575527"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "137.93550631013895",
+        "Mojo": "120.0",
+        "Current Mojo": "120.0",
+        "Strength": "135.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Block and Endure",
+        "Damage Type": "Physical",
+        "Damage Amount": "2.0644936898610524"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "33"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "138.33550631013895",
+        "Mojo": "120.0",
+        "Current Mojo": "120.0",
+        "Strength": "135.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "33"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "153.7246499405817",
+        "Stamina": "80.0",
+        "Current Stamina": "77.79999999999998",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "153.7246499405817",
+        "Stamina": "80.0",
+        "Current Stamina": "79.39999999999998",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "34"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "138.73550631013896",
+        "Mojo": "120.0",
+        "Current Mojo": "120.0",
+        "Strength": "135.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "34"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "153.8846499405817",
+        "Stamina": "80.0",
+        "Current Stamina": "79.39999999999998",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "153.8846499405817",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "35"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "139.13550631013896",
+        "Mojo": "120.0",
+        "Current Mojo": "120.0",
+        "Strength": "135.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "139.13550631013896",
+        "Mojo": "120.0",
+        "Current Mojo": "120.0",
+        "Strength": "135.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Punch",
+        "Damage Type": "Physical",
+        "Damage Amount": "45.90396210551018"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "153.8846499405817",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Block",
+        "Damage Type": "Physical",
+        "Damage Amount": "0.0"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "35"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "154.0446499405817",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "36"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "139.53550631013897",
+        "Mojo": "120.0",
+        "Current Mojo": "120.0",
+        "Strength": "135.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "36"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "154.2046499405817",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "37"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "139.93550631013898",
+        "Mojo": "120.0",
+        "Current Mojo": "120.0",
+        "Strength": "135.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "37"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "154.3646499405817",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "38"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "140.0",
+        "Mojo": "120.0",
+        "Current Mojo": "120.0",
+        "Strength": "135.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "38"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "154.5246499405817",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "39"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "39"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "154.6846499405817",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "40"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "40"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "154.8446499405817",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "41"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "41"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "155.0046499405817",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "42"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "42"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "155.16464994058168",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "43"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "43"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "155.32464994058168",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "44"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "44"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "155.48464994058168",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "45"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "45"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "155.64464994058167",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "46"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "46"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "155.80464994058167",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "47"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "155.80464994058167",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "140.0",
+        "Mojo": "120.0",
+        "Current Mojo": "120.0",
+        "Strength": "135.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Thermite Pellets",
+        "Count": "4",
+        "Damage Type": "Fire",
+        "Damage Amount": "32.56207912568216",
+        "Duration": "5",
+        "Burn Damage": "15.0"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "123.24257081489951",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "47"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "123.4025708148995",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "120.4025708148995",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "48"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "48"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "120.5625708148995",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "117.5625708148995",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "49"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "49"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "117.7225708148995",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "114.7225708148995",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "50"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "50"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "114.8825708148995",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "111.8825708148995",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "51"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "51"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "112.04257081489949",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "109.04257081489949",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "52"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "52"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "109.20257081489949",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "53"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "53"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "109.36257081489948",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "54"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "54"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "109.52257081489948",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "55"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "55"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "109.68257081489948",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "56"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "56"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "109.84257081489947",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "57"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "57"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "110.00257081489947",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "58"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "58"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "110.16257081489947",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "59"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "140.0",
+        "Mojo": "120.0",
+        "Current Mojo": "120.0",
+        "Strength": "135.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Punch",
+        "Damage Type": "Physical",
+        "Damage Amount": "48.71799157867134"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "61.44457923622813",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "59"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "61.604579236228126",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "60"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "60"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "61.76457923622812",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "61"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "61"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "61.92457923622812",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "62"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "62"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "62.084579236228116",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "63"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "63"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "62.24457923622811",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "64"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "64"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "62.40457923622811",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "65"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "65"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "62.564579236228106",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "62.564579236228106",
+        "Stamina": "80.0",
+        "Current Stamina": "16.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Cross",
+        "Damage Type": "Physical",
+        "Damage Amount": "70.28872345194985"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "140.0",
+        "Mojo": "120.0",
+        "Current Mojo": "120.0",
+        "Strength": "135.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Armor",
+        "Damage Reduced": "42.17323407116991",
+        "Armor Base": "200.0",
+        "Armor Current": "156.7279201301703"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "139.10760849537604",
+        "Mojo": "120.0",
+        "Current Mojo": "120.0",
+        "Strength": "135.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Block and Endure",
+        "Damage Type": "Physical",
+        "Damage Amount": "0.8923915046239514"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "66"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "139.50760849537605",
+        "Mojo": "120.0",
+        "Current Mojo": "120.0",
+        "Strength": "135.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "66"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "62.7245792362281",
+        "Stamina": "80.0",
+        "Current Stamina": "16.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "62.7245792362281",
+        "Stamina": "80.0",
+        "Current Stamina": "17.6",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "67"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "139.90760849537605",
+        "Mojo": "120.0",
+        "Current Mojo": "120.0",
+        "Strength": "135.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "67"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "62.8845792362281",
+        "Stamina": "80.0",
+        "Current Stamina": "17.6",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "62.8845792362281",
+        "Stamina": "80.0",
+        "Current Stamina": "19.200000000000003",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "68"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "140.0",
+        "Mojo": "120.0",
+        "Current Mojo": "120.0",
+        "Strength": "135.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "68"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "63.044579236228095",
+        "Stamina": "80.0",
+        "Current Stamina": "19.200000000000003",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "63.044579236228095",
+        "Stamina": "80.0",
+        "Current Stamina": "20.800000000000004",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "69"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "69"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "63.20457923622809",
+        "Stamina": "80.0",
+        "Current Stamina": "20.800000000000004",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "63.20457923622809",
+        "Stamina": "80.0",
+        "Current Stamina": "22.400000000000006",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "70"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "70"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "63.36457923622809",
+        "Stamina": "80.0",
+        "Current Stamina": "22.400000000000006",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "63.36457923622809",
+        "Stamina": "80.0",
+        "Current Stamina": "24.000000000000007",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "71"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "140.0",
+        "Mojo": "120.0",
+        "Current Mojo": "120.0",
+        "Strength": "135.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Punch",
+        "Damage Type": "Physical",
+        "Damage Amount": "44.87926489122532"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "63.36457923622809",
+        "Stamina": "80.0",
+        "Current Stamina": "24.000000000000007",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Block",
+        "Damage Type": "Physical",
+        "Damage Amount": "0.0"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "71"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "63.524579236228085",
+        "Stamina": "80.0",
+        "Current Stamina": "24.000000000000007",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "63.524579236228085",
+        "Stamina": "80.0",
+        "Current Stamina": "25.60000000000001",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "72"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "72"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "63.68457923622808",
+        "Stamina": "80.0",
+        "Current Stamina": "25.60000000000001",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "63.68457923622808",
+        "Stamina": "80.0",
+        "Current Stamina": "27.20000000000001",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "73"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "73"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "63.84457923622808",
+        "Stamina": "80.0",
+        "Current Stamina": "27.20000000000001",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "63.84457923622808",
+        "Stamina": "80.0",
+        "Current Stamina": "28.80000000000001",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "74"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "74"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "64.00457923622808",
+        "Stamina": "80.0",
+        "Current Stamina": "28.80000000000001",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "64.00457923622808",
+        "Stamina": "80.0",
+        "Current Stamina": "30.400000000000013",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "75"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "75"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "64.16457923622808",
+        "Stamina": "80.0",
+        "Current Stamina": "30.400000000000013",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "64.16457923622808",
+        "Stamina": "80.0",
+        "Current Stamina": "32.000000000000014",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "76"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "76"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "64.32457923622808",
+        "Stamina": "80.0",
+        "Current Stamina": "32.000000000000014",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "64.32457923622808",
+        "Stamina": "80.0",
+        "Current Stamina": "33.600000000000016",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "77"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "77"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "64.48457923622807",
+        "Stamina": "80.0",
+        "Current Stamina": "33.600000000000016",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "64.48457923622807",
+        "Stamina": "80.0",
+        "Current Stamina": "35.20000000000002",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "78"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "78"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "64.64457923622807",
+        "Stamina": "80.0",
+        "Current Stamina": "35.20000000000002",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "64.64457923622807",
+        "Stamina": "80.0",
+        "Current Stamina": "36.80000000000002",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "79"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "79"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "64.80457923622807",
+        "Stamina": "80.0",
+        "Current Stamina": "36.80000000000002",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "64.80457923622807",
+        "Stamina": "80.0",
+        "Current Stamina": "38.40000000000002",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "80"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "80"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "64.96457923622806",
+        "Stamina": "80.0",
+        "Current Stamina": "38.40000000000002",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "64.96457923622806",
+        "Stamina": "80.0",
+        "Current Stamina": "40.00000000000002",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "81"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "81"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "65.12457923622806",
+        "Stamina": "80.0",
+        "Current Stamina": "40.00000000000002",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "65.12457923622806",
+        "Stamina": "80.0",
+        "Current Stamina": "41.60000000000002",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "82"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "82"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "65.28457923622805",
+        "Stamina": "80.0",
+        "Current Stamina": "41.60000000000002",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "65.28457923622805",
+        "Stamina": "80.0",
+        "Current Stamina": "43.200000000000024",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "83"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "65.28457923622805",
+        "Stamina": "80.0",
+        "Current Stamina": "43.200000000000024",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "140.0",
+        "Mojo": "120.0",
+        "Current Mojo": "120.0",
+        "Strength": "135.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Batarang",
+        "Count": "3",
+        "Damage Type": "Physical",
+        "Damage Amount": "56.00706747311063"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "9.277511763117424",
+        "Stamina": "80.0",
+        "Current Stamina": "43.200000000000024",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "83"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "9.437511763117424",
+        "Stamina": "80.0",
+        "Current Stamina": "43.200000000000024",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "9.437511763117424",
+        "Stamina": "80.0",
+        "Current Stamina": "44.800000000000026",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "84"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "84"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "9.597511763117424",
+        "Stamina": "80.0",
+        "Current Stamina": "44.800000000000026",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "9.597511763117424",
+        "Stamina": "80.0",
+        "Current Stamina": "46.40000000000003",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "85"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "85"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "9.757511763117424",
+        "Stamina": "80.0",
+        "Current Stamina": "46.40000000000003",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "9.757511763117424",
+        "Stamina": "80.0",
+        "Current Stamina": "48.00000000000003",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "86"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "86"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "9.917511763117425",
+        "Stamina": "80.0",
+        "Current Stamina": "48.00000000000003",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "9.917511763117425",
+        "Stamina": "80.0",
+        "Current Stamina": "49.60000000000003",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "87"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "87"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "10.077511763117425",
+        "Stamina": "80.0",
+        "Current Stamina": "49.60000000000003",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "10.077511763117425",
+        "Stamina": "80.0",
+        "Current Stamina": "51.20000000000003",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "88"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "88"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "10.237511763117425",
+        "Stamina": "80.0",
+        "Current Stamina": "51.20000000000003",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "10.237511763117425",
+        "Stamina": "80.0",
+        "Current Stamina": "52.80000000000003",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "89"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "89"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "10.397511763117425",
+        "Stamina": "80.0",
+        "Current Stamina": "52.80000000000003",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "10.397511763117425",
+        "Stamina": "80.0",
+        "Current Stamina": "54.400000000000034",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "90"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "90"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "10.557511763117425",
+        "Stamina": "80.0",
+        "Current Stamina": "54.400000000000034",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "10.557511763117425",
+        "Stamina": "80.0",
+        "Current Stamina": "56.000000000000036",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "91"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "91"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "10.717511763117425",
+        "Stamina": "80.0",
+        "Current Stamina": "56.000000000000036",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "10.717511763117425",
+        "Stamina": "80.0",
+        "Current Stamina": "57.60000000000004",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "92"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "92"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "10.877511763117425",
+        "Stamina": "80.0",
+        "Current Stamina": "57.60000000000004",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "10.877511763117425",
+        "Stamina": "80.0",
+        "Current Stamina": "59.20000000000004",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "93"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "93"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "11.037511763117426",
+        "Stamina": "80.0",
+        "Current Stamina": "59.20000000000004",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "11.037511763117426",
+        "Stamina": "80.0",
+        "Current Stamina": "60.80000000000004",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "94"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "94"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "11.197511763117426",
+        "Stamina": "80.0",
+        "Current Stamina": "60.80000000000004",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "11.197511763117426",
+        "Stamina": "80.0",
+        "Current Stamina": "62.40000000000004",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "95"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "140.0",
+        "Mojo": "120.0",
+        "Current Mojo": "120.0",
+        "Strength": "135.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Punch",
+        "Damage Type": "Physical",
+        "Damage Amount": "47.74874287252293"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "0.0",
+        "Stamina": "80.0",
+        "Current Stamina": "62.40000000000004",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      }
+    },
+    {
+      "Type": "INFO",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "0.0",
+        "Stamina": "80.0",
+        "Current Stamina": "62.40000000000004",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Knock Out"
+      }
+    },
+    {
+      "Type": "INFO",
+      "Source": {
+        "Name": "Backyard"
+      },
+      "Event": {
+        "Name": "Fight End",
+        "Result": "Win",
+        "Result By": "Knock Out"
+      }
+    },
+    {
+      "Type": "INFO",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Batman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Equipped Batman",
+        "Life": "140.0",
+        "Current Life": "140.0",
+        "Mojo": "120.0",
+        "Current Mojo": "120.0",
+        "Strength": "135.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Won",
+        "As": "Champion"
+      }
+    },
+    {
+      "Type": "INFO",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "0.0",
+        "Stamina": "80.0",
+        "Current Stamina": "62.40000000000004",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Lost",
+        "As": "Challenger"
+      }
+    }
+  ]
+}

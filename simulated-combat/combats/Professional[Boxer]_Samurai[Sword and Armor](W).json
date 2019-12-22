@@ -1,0 +1,5522 @@
+{
+  "Champion": "Professional[Boxer]",
+  "Challenger": "Samurai[Sword and Armor]",
+  "Arena": "Backyard",
+  "Winner": "Challenger",
+  "Beats": 74,
+  "SourceEvent": [
+    {
+      "Type": "INFO",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "160.0",
+        "Stamina": "80.0",
+        "Current Stamina": "25.0",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Fighter Added",
+        "As": "Champion"
+      }
+    },
+    {
+      "Type": "INFO",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "25.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Fighter Added",
+        "As": "Challenger"
+      }
+    },
+    {
+      "Type": "INFO",
+      "Source": {
+        "Name": "Backyard"
+      },
+      "Event": {
+        "Name": "Fight Start"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "0"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "160.0",
+        "Stamina": "80.0",
+        "Current Stamina": "26.6",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "0"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "27.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "1"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "160.0",
+        "Stamina": "80.0",
+        "Current Stamina": "28.200000000000003",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "1"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "29.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "2"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "160.0",
+        "Stamina": "80.0",
+        "Current Stamina": "29.800000000000004",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "2"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "31.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "3"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "160.0",
+        "Stamina": "80.0",
+        "Current Stamina": "31.400000000000006",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "3"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "33.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "4"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "160.0",
+        "Stamina": "80.0",
+        "Current Stamina": "33.00000000000001",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "4"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "35.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "5"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "160.0",
+        "Stamina": "80.0",
+        "Current Stamina": "34.60000000000001",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "5"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "37.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "6"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "160.0",
+        "Stamina": "80.0",
+        "Current Stamina": "36.20000000000001",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "6"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "39.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "7"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "160.0",
+        "Stamina": "80.0",
+        "Current Stamina": "37.80000000000001",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "7"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "41.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "8"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "160.0",
+        "Stamina": "80.0",
+        "Current Stamina": "39.40000000000001",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "8"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "43.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "9"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "160.0",
+        "Stamina": "80.0",
+        "Current Stamina": "41.000000000000014",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "9"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "45.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "10"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "160.0",
+        "Stamina": "80.0",
+        "Current Stamina": "42.600000000000016",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "10"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "47.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "11"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "160.0",
+        "Stamina": "80.0",
+        "Current Stamina": "44.20000000000002",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "11"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "49.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "12"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "160.0",
+        "Stamina": "80.0",
+        "Current Stamina": "45.80000000000002",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "12"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "51.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "13"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "160.0",
+        "Stamina": "80.0",
+        "Current Stamina": "47.40000000000002",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "13"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "53.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "14"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "160.0",
+        "Stamina": "80.0",
+        "Current Stamina": "49.00000000000002",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "14"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "55.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "15"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "160.0",
+        "Stamina": "80.0",
+        "Current Stamina": "50.60000000000002",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "15"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "57.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "16"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "160.0",
+        "Stamina": "80.0",
+        "Current Stamina": "52.200000000000024",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "16"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "59.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "17"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "160.0",
+        "Stamina": "80.0",
+        "Current Stamina": "53.800000000000026",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "17"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "61.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "18"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "160.0",
+        "Stamina": "80.0",
+        "Current Stamina": "55.40000000000003",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "18"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "63.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "19"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "160.0",
+        "Stamina": "80.0",
+        "Current Stamina": "57.00000000000003",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "19"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "65.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "20"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "160.0",
+        "Stamina": "80.0",
+        "Current Stamina": "58.60000000000003",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "20"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "67.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "21"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "160.0",
+        "Stamina": "80.0",
+        "Current Stamina": "60.20000000000003",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "21"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "69.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "22"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "160.0",
+        "Stamina": "80.0",
+        "Current Stamina": "61.80000000000003",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "22"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "71.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "23"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "160.0",
+        "Stamina": "80.0",
+        "Current Stamina": "63.400000000000034",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "23"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "73.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "24"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "160.0",
+        "Stamina": "80.0",
+        "Current Stamina": "65.00000000000003",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "24"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "75.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "45.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Sword Slash",
+        "Weapon": "Sword",
+        "Damage Type": "Physical",
+        "Damage Amount": "111.22868500852218"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "87.01705199318226",
+        "Stamina": "80.0",
+        "Current Stamina": "65.00000000000003",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Block",
+        "Damage Type": "Physical",
+        "Damage Amount": "72.98294800681774"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "25"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "87.17705199318226",
+        "Stamina": "80.0",
+        "Current Stamina": "65.00000000000003",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "87.17705199318226",
+        "Stamina": "80.0",
+        "Current Stamina": "66.60000000000002",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "25"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "47.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "26"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "87.33705199318226",
+        "Stamina": "80.0",
+        "Current Stamina": "66.60000000000002",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "87.33705199318226",
+        "Stamina": "80.0",
+        "Current Stamina": "68.20000000000002",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "26"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "49.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "27"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "87.49705199318225",
+        "Stamina": "80.0",
+        "Current Stamina": "68.20000000000002",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "87.49705199318225",
+        "Stamina": "80.0",
+        "Current Stamina": "69.80000000000001",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "27"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "51.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "28"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "87.65705199318225",
+        "Stamina": "80.0",
+        "Current Stamina": "69.80000000000001",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "87.65705199318225",
+        "Stamina": "80.0",
+        "Current Stamina": "71.4",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "28"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "53.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "29"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "87.81705199318225",
+        "Stamina": "80.0",
+        "Current Stamina": "71.4",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "87.81705199318225",
+        "Stamina": "80.0",
+        "Current Stamina": "73.0",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "29"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "55.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "30"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "87.97705199318224",
+        "Stamina": "80.0",
+        "Current Stamina": "73.0",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "87.97705199318224",
+        "Stamina": "80.0",
+        "Current Stamina": "74.6",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "30"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "57.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "31"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "88.13705199318224",
+        "Stamina": "80.0",
+        "Current Stamina": "74.6",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "88.13705199318224",
+        "Stamina": "80.0",
+        "Current Stamina": "76.19999999999999",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "31"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "59.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "32"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "88.29705199318224",
+        "Stamina": "80.0",
+        "Current Stamina": "76.19999999999999",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "88.29705199318224",
+        "Stamina": "80.0",
+        "Current Stamina": "77.79999999999998",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "88.29705199318224",
+        "Stamina": "80.0",
+        "Current Stamina": "77.79999999999998",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Punch",
+        "Damage Type": "Physical",
+        "Damage Amount": "38.027656433743374"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "59.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Armor",
+        "Damage Reduced": "11.408296930123011",
+        "Armor Base": "30.0",
+        "Armor Current": "24.295851534938492"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "108.64257644674167",
+        "Stamina": "120.0",
+        "Current Stamina": "59.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Block",
+        "Damage Type": "Physical",
+        "Damage Amount": "11.357423553258327"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "32"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "108.76257644674168",
+        "Stamina": "120.0",
+        "Current Stamina": "59.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "108.76257644674168",
+        "Stamina": "120.0",
+        "Current Stamina": "61.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "33"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "88.45705199318223",
+        "Stamina": "80.0",
+        "Current Stamina": "77.79999999999998",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "88.45705199318223",
+        "Stamina": "80.0",
+        "Current Stamina": "79.39999999999998",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "33"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "108.88257644674168",
+        "Stamina": "120.0",
+        "Current Stamina": "61.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "108.88257644674168",
+        "Stamina": "120.0",
+        "Current Stamina": "63.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "34"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "88.61705199318223",
+        "Stamina": "80.0",
+        "Current Stamina": "79.39999999999998",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "88.61705199318223",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "34"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "109.00257644674168",
+        "Stamina": "120.0",
+        "Current Stamina": "63.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "109.00257644674168",
+        "Stamina": "120.0",
+        "Current Stamina": "65.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "35"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "88.77705199318223",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "35"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "109.12257644674169",
+        "Stamina": "120.0",
+        "Current Stamina": "65.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "109.12257644674169",
+        "Stamina": "120.0",
+        "Current Stamina": "67.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "36"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "88.93705199318222",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "36"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "109.2425764467417",
+        "Stamina": "120.0",
+        "Current Stamina": "67.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "109.2425764467417",
+        "Stamina": "120.0",
+        "Current Stamina": "69.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "37"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "89.09705199318222",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "37"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "109.3625764467417",
+        "Stamina": "120.0",
+        "Current Stamina": "69.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "109.3625764467417",
+        "Stamina": "120.0",
+        "Current Stamina": "71.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "38"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "89.25705199318222",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "38"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "109.4825764467417",
+        "Stamina": "120.0",
+        "Current Stamina": "71.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "109.4825764467417",
+        "Stamina": "120.0",
+        "Current Stamina": "73.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "39"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "89.41705199318221",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "39"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "109.60257644674171",
+        "Stamina": "120.0",
+        "Current Stamina": "73.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "109.60257644674171",
+        "Stamina": "120.0",
+        "Current Stamina": "75.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "40"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "89.57705199318221",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "40"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "109.72257644674171",
+        "Stamina": "120.0",
+        "Current Stamina": "75.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "109.72257644674171",
+        "Stamina": "120.0",
+        "Current Stamina": "77.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "41"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "89.7370519931822",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "41"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "109.84257644674172",
+        "Stamina": "120.0",
+        "Current Stamina": "77.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "109.84257644674172",
+        "Stamina": "120.0",
+        "Current Stamina": "79.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "42"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "89.8970519931822",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "42"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "109.96257644674172",
+        "Stamina": "120.0",
+        "Current Stamina": "79.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "109.96257644674172",
+        "Stamina": "120.0",
+        "Current Stamina": "81.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "43"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "90.0570519931822",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "43"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "110.08257644674173",
+        "Stamina": "120.0",
+        "Current Stamina": "81.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "110.08257644674173",
+        "Stamina": "120.0",
+        "Current Stamina": "83.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "44"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "90.2170519931822",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "44"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "110.20257644674173",
+        "Stamina": "120.0",
+        "Current Stamina": "83.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "110.20257644674173",
+        "Stamina": "120.0",
+        "Current Stamina": "85.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "45"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "90.37705199318219",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "45"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "110.32257644674173",
+        "Stamina": "120.0",
+        "Current Stamina": "85.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "110.32257644674173",
+        "Stamina": "120.0",
+        "Current Stamina": "87.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "46"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "90.53705199318219",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "46"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "110.44257644674174",
+        "Stamina": "120.0",
+        "Current Stamina": "87.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "110.44257644674174",
+        "Stamina": "120.0",
+        "Current Stamina": "89.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "47"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "90.69705199318219",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "47"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "110.56257644674174",
+        "Stamina": "120.0",
+        "Current Stamina": "89.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "110.56257644674174",
+        "Stamina": "120.0",
+        "Current Stamina": "91.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "48"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "90.85705199318218",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "48"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "110.68257644674175",
+        "Stamina": "120.0",
+        "Current Stamina": "91.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "110.68257644674175",
+        "Stamina": "120.0",
+        "Current Stamina": "93.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "49"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "91.01705199318218",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "49"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "110.80257644674175",
+        "Stamina": "120.0",
+        "Current Stamina": "93.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "110.80257644674175",
+        "Stamina": "120.0",
+        "Current Stamina": "95.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "110.80257644674175",
+        "Stamina": "120.0",
+        "Current Stamina": "65.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Sword Cut",
+        "Weapon": "Sword",
+        "Damage Type": "Physical",
+        "Damage Amount": "102.24901347438373"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "25.2178412136752",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Block",
+        "Damage Type": "Physical",
+        "Damage Amount": "65.79921077950698"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "50"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "25.3778412136752",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "50"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "110.92257644674176",
+        "Stamina": "120.0",
+        "Current Stamina": "65.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "110.92257644674176",
+        "Stamina": "120.0",
+        "Current Stamina": "67.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "51"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "25.5378412136752",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "51"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "111.04257644674176",
+        "Stamina": "120.0",
+        "Current Stamina": "67.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "111.04257644674176",
+        "Stamina": "120.0",
+        "Current Stamina": "69.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "52"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "25.6978412136752",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "52"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "111.16257644674177",
+        "Stamina": "120.0",
+        "Current Stamina": "69.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "111.16257644674177",
+        "Stamina": "120.0",
+        "Current Stamina": "71.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "53"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "25.8578412136752",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "53"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "111.28257644674177",
+        "Stamina": "120.0",
+        "Current Stamina": "71.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "111.28257644674177",
+        "Stamina": "120.0",
+        "Current Stamina": "73.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "54"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "26.0178412136752",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "54"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "111.40257644674178",
+        "Stamina": "120.0",
+        "Current Stamina": "73.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "111.40257644674178",
+        "Stamina": "120.0",
+        "Current Stamina": "75.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "55"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "26.1778412136752",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "55"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "111.52257644674178",
+        "Stamina": "120.0",
+        "Current Stamina": "75.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "111.52257644674178",
+        "Stamina": "120.0",
+        "Current Stamina": "77.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "56"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "26.3378412136752",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "56"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "111.64257644674178",
+        "Stamina": "120.0",
+        "Current Stamina": "77.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "111.64257644674178",
+        "Stamina": "120.0",
+        "Current Stamina": "79.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "57"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "26.4978412136752",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "57"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "111.76257644674179",
+        "Stamina": "120.0",
+        "Current Stamina": "79.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "111.76257644674179",
+        "Stamina": "120.0",
+        "Current Stamina": "81.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "58"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "26.6578412136752",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "58"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "111.8825764467418",
+        "Stamina": "120.0",
+        "Current Stamina": "81.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "111.8825764467418",
+        "Stamina": "120.0",
+        "Current Stamina": "83.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "59"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "26.8178412136752",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "59"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "112.0025764467418",
+        "Stamina": "120.0",
+        "Current Stamina": "83.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "112.0025764467418",
+        "Stamina": "120.0",
+        "Current Stamina": "85.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "60"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "26.9778412136752",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "60"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "112.1225764467418",
+        "Stamina": "120.0",
+        "Current Stamina": "85.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "112.1225764467418",
+        "Stamina": "120.0",
+        "Current Stamina": "87.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "61"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "27.137841213675202",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "61"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "112.24257644674181",
+        "Stamina": "120.0",
+        "Current Stamina": "87.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "112.24257644674181",
+        "Stamina": "120.0",
+        "Current Stamina": "89.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "62"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "27.297841213675202",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "62"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "112.36257644674181",
+        "Stamina": "120.0",
+        "Current Stamina": "89.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "112.36257644674181",
+        "Stamina": "120.0",
+        "Current Stamina": "91.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "63"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "27.457841213675202",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "63"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "112.48257644674182",
+        "Stamina": "120.0",
+        "Current Stamina": "91.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "112.48257644674182",
+        "Stamina": "120.0",
+        "Current Stamina": "93.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "64"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "27.617841213675202",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "64"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "112.60257644674182",
+        "Stamina": "120.0",
+        "Current Stamina": "93.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "112.60257644674182",
+        "Stamina": "120.0",
+        "Current Stamina": "95.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "65"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "27.777841213675202",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "27.777841213675202",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Punch",
+        "Damage Type": "Physical",
+        "Damage Amount": "38.57961732268349"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "112.60257644674182",
+        "Stamina": "120.0",
+        "Current Stamina": "95.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Armor",
+        "Damage Reduced": "11.573885196805046",
+        "Armor Base": "30.0",
+        "Armor Current": "18.50890893653597"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "100.89741753345122",
+        "Stamina": "120.0",
+        "Current Stamina": "95.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Block",
+        "Damage Type": "Physical",
+        "Damage Amount": "11.705158913290601"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "65"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "101.01741753345122",
+        "Stamina": "120.0",
+        "Current Stamina": "95.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "101.01741753345122",
+        "Stamina": "120.0",
+        "Current Stamina": "97.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "66"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "27.937841213675203",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "66"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "101.13741753345123",
+        "Stamina": "120.0",
+        "Current Stamina": "97.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "101.13741753345123",
+        "Stamina": "120.0",
+        "Current Stamina": "99.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "67"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "28.097841213675203",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "67"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "101.25741753345123",
+        "Stamina": "120.0",
+        "Current Stamina": "99.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "101.25741753345123",
+        "Stamina": "120.0",
+        "Current Stamina": "101.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "68"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "28.257841213675203",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "68"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "101.37741753345124",
+        "Stamina": "120.0",
+        "Current Stamina": "101.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "101.37741753345124",
+        "Stamina": "120.0",
+        "Current Stamina": "103.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "69"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "28.417841213675203",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "69"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "101.49741753345124",
+        "Stamina": "120.0",
+        "Current Stamina": "103.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "101.49741753345124",
+        "Stamina": "120.0",
+        "Current Stamina": "105.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "70"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "28.577841213675203",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "70"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "101.61741753345125",
+        "Stamina": "120.0",
+        "Current Stamina": "105.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "101.61741753345125",
+        "Stamina": "120.0",
+        "Current Stamina": "107.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "71"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "28.737841213675203",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "71"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "101.73741753345125",
+        "Stamina": "120.0",
+        "Current Stamina": "107.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "101.73741753345125",
+        "Stamina": "120.0",
+        "Current Stamina": "109.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "72"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "28.897841213675203",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "72"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "101.85741753345125",
+        "Stamina": "120.0",
+        "Current Stamina": "109.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "101.85741753345125",
+        "Stamina": "120.0",
+        "Current Stamina": "111.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "73"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "29.057841213675204",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "73"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "101.97741753345126",
+        "Stamina": "120.0",
+        "Current Stamina": "111.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "101.97741753345126",
+        "Stamina": "120.0",
+        "Current Stamina": "113.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "74"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "29.217841213675204",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "74"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "102.09741753345126",
+        "Stamina": "120.0",
+        "Current Stamina": "113.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "102.09741753345126",
+        "Stamina": "120.0",
+        "Current Stamina": "115.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "102.09741753345126",
+        "Stamina": "120.0",
+        "Current Stamina": "85.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Sword Cut",
+        "Weapon": "Sword",
+        "Damage Type": "Physical",
+        "Damage Amount": "109.35284525593507"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "0.0",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Block",
+        "Damage Type": "Physical",
+        "Damage Amount": "71.48227620474805"
+      }
+    },
+    {
+      "Type": "INFO",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "0.0",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Knock Out"
+      }
+    },
+    {
+      "Type": "INFO",
+      "Source": {
+        "Name": "Backyard"
+      },
+      "Event": {
+        "Name": "Fight End",
+        "Result": "Win",
+        "Result By": "Knock Out"
+      }
+    },
+    {
+      "Type": "INFO",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "0.0",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Lost",
+        "As": "Champion"
+      }
+    },
+    {
+      "Type": "INFO",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Samurai",
+        "Fighter Type": "Samurai",
+        "Fighter Subtype": "Sword and Armor",
+        "Life": "120.0",
+        "Current Life": "102.09741753345126",
+        "Stamina": "120.0",
+        "Current Stamina": "85.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Won",
+        "As": "Challenger"
+      }
+    }
+  ]
+}

@@ -1,0 +1,8229 @@
+{
+  "Champion": "Professional[Karateka]",
+  "Challenger": "Professional[Taekwondo]",
+  "Arena": "Ring",
+  "Winner": "Champion",
+  "Beats": 99,
+  "SourceEvent": [
+    {
+      "Type": "INFO",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "25.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Fighter Added",
+        "As": "Champion"
+      }
+    },
+    {
+      "Type": "INFO",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "25.0",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Fighter Added",
+        "As": "Challenger"
+      }
+    },
+    {
+      "Type": "INFO",
+      "Source": {
+        "Name": "Ring"
+      },
+      "Event": {
+        "Name": "Fight Start"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "0"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "27.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "0"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "26.6",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "1"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "29.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "1"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "28.200000000000003",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "2"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "31.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "2"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "29.800000000000004",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "3"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "33.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "3"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "31.400000000000006",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "4"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "35.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "4"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "33.00000000000001",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "5"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "37.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "5"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "34.60000000000001",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "6"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "39.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "6"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "36.20000000000001",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "7"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "41.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "7"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "37.80000000000001",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "8"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "43.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "8"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "39.40000000000001",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "9"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "45.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "9"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "41.000000000000014",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "10"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "47.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "10"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "42.600000000000016",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "11"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "49.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "11"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "44.20000000000002",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "12"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "51.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "12"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "45.80000000000002",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "13"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "53.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "13"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "47.40000000000002",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "14"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "55.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "14"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "49.00000000000002",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "15"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "57.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "15"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "50.60000000000002",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "16"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "59.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "16"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "52.200000000000024",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "17"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "61.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "17"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "53.800000000000026",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "18"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "63.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "18"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "55.40000000000003",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "19"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "120.0",
+        "Stamina": "120.0",
+        "Current Stamina": "65.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "19"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "57.00000000000003",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "57.00000000000003",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Kick",
+        "Damage Type": "Physical",
+        "Damage Amount": "38.596390076987575"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "97.86324893071118",
+        "Stamina": "120.0",
+        "Current Stamina": "65.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Block",
+        "Damage Type": "Physical",
+        "Damage Amount": "22.136751069288817"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "20"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "97.98324893071118",
+        "Stamina": "120.0",
+        "Current Stamina": "65.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "97.98324893071118",
+        "Stamina": "120.0",
+        "Current Stamina": "67.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "20"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "58.60000000000003",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "21"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "98.10324893071119",
+        "Stamina": "120.0",
+        "Current Stamina": "67.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "98.10324893071119",
+        "Stamina": "120.0",
+        "Current Stamina": "69.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "21"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "60.20000000000003",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "22"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "98.2232489307112",
+        "Stamina": "120.0",
+        "Current Stamina": "69.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "98.2232489307112",
+        "Stamina": "120.0",
+        "Current Stamina": "71.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "22"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "61.80000000000003",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "23"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "98.3432489307112",
+        "Stamina": "120.0",
+        "Current Stamina": "71.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "98.3432489307112",
+        "Stamina": "120.0",
+        "Current Stamina": "73.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "23"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "63.400000000000034",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "24"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "98.4632489307112",
+        "Stamina": "120.0",
+        "Current Stamina": "73.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "98.4632489307112",
+        "Stamina": "120.0",
+        "Current Stamina": "75.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "98.4632489307112",
+        "Stamina": "120.0",
+        "Current Stamina": "75.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Kick",
+        "Damage Type": "Physical",
+        "Damage Amount": "36.54014536784027"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "53.45985463215973",
+        "Stamina": "80.0",
+        "Current Stamina": "63.400000000000034",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Evade",
+        "Damage Type": "Physical",
+        "Damage Amount": "36.54014536784027"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "24"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "53.559854632159734",
+        "Stamina": "80.0",
+        "Current Stamina": "63.400000000000034",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "53.559854632159734",
+        "Stamina": "80.0",
+        "Current Stamina": "65.00000000000003",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "25"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "98.5832489307112",
+        "Stamina": "120.0",
+        "Current Stamina": "75.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "98.5832489307112",
+        "Stamina": "120.0",
+        "Current Stamina": "77.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "25"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "53.659854632159735",
+        "Stamina": "80.0",
+        "Current Stamina": "65.00000000000003",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "53.659854632159735",
+        "Stamina": "80.0",
+        "Current Stamina": "66.60000000000002",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "26"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "98.70324893071121",
+        "Stamina": "120.0",
+        "Current Stamina": "77.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "98.70324893071121",
+        "Stamina": "120.0",
+        "Current Stamina": "79.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "26"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "53.75985463215974",
+        "Stamina": "80.0",
+        "Current Stamina": "66.60000000000002",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "53.75985463215974",
+        "Stamina": "80.0",
+        "Current Stamina": "68.20000000000002",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "27"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "98.82324893071122",
+        "Stamina": "120.0",
+        "Current Stamina": "79.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "98.82324893071122",
+        "Stamina": "120.0",
+        "Current Stamina": "81.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "27"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "53.85985463215974",
+        "Stamina": "80.0",
+        "Current Stamina": "68.20000000000002",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "53.85985463215974",
+        "Stamina": "80.0",
+        "Current Stamina": "69.80000000000001",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "28"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "98.94324893071122",
+        "Stamina": "120.0",
+        "Current Stamina": "81.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "98.94324893071122",
+        "Stamina": "120.0",
+        "Current Stamina": "83.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "28"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "53.95985463215974",
+        "Stamina": "80.0",
+        "Current Stamina": "69.80000000000001",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "53.95985463215974",
+        "Stamina": "80.0",
+        "Current Stamina": "71.4",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "29"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "99.06324893071123",
+        "Stamina": "120.0",
+        "Current Stamina": "83.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "99.06324893071123",
+        "Stamina": "120.0",
+        "Current Stamina": "85.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "29"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "54.05985463215974",
+        "Stamina": "80.0",
+        "Current Stamina": "71.4",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "54.05985463215974",
+        "Stamina": "80.0",
+        "Current Stamina": "73.0",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "30"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "99.18324893071123",
+        "Stamina": "120.0",
+        "Current Stamina": "85.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "99.18324893071123",
+        "Stamina": "120.0",
+        "Current Stamina": "87.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "30"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "54.15985463215974",
+        "Stamina": "80.0",
+        "Current Stamina": "73.0",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "54.15985463215974",
+        "Stamina": "80.0",
+        "Current Stamina": "74.6",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "31"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "99.30324893071123",
+        "Stamina": "120.0",
+        "Current Stamina": "87.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "99.30324893071123",
+        "Stamina": "120.0",
+        "Current Stamina": "89.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "31"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "54.259854632159744",
+        "Stamina": "80.0",
+        "Current Stamina": "74.6",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "54.259854632159744",
+        "Stamina": "80.0",
+        "Current Stamina": "76.19999999999999",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "32"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "99.42324893071124",
+        "Stamina": "120.0",
+        "Current Stamina": "89.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "99.42324893071124",
+        "Stamina": "120.0",
+        "Current Stamina": "91.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "32"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "54.359854632159745",
+        "Stamina": "80.0",
+        "Current Stamina": "76.19999999999999",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "54.359854632159745",
+        "Stamina": "80.0",
+        "Current Stamina": "77.79999999999998",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "33"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "99.54324893071124",
+        "Stamina": "120.0",
+        "Current Stamina": "91.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "99.54324893071124",
+        "Stamina": "120.0",
+        "Current Stamina": "93.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "33"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "54.45985463215975",
+        "Stamina": "80.0",
+        "Current Stamina": "77.79999999999998",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "54.45985463215975",
+        "Stamina": "80.0",
+        "Current Stamina": "79.39999999999998",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "34"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "99.66324893071125",
+        "Stamina": "120.0",
+        "Current Stamina": "93.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "99.66324893071125",
+        "Stamina": "120.0",
+        "Current Stamina": "95.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "34"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "54.55985463215975",
+        "Stamina": "80.0",
+        "Current Stamina": "79.39999999999998",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "54.55985463215975",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "35"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "99.78324893071125",
+        "Stamina": "120.0",
+        "Current Stamina": "95.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "99.78324893071125",
+        "Stamina": "120.0",
+        "Current Stamina": "97.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "35"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "54.65985463215975",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "36"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "99.90324893071126",
+        "Stamina": "120.0",
+        "Current Stamina": "97.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "99.90324893071126",
+        "Stamina": "120.0",
+        "Current Stamina": "99.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "36"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "54.75985463215975",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "37"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "100.02324893071126",
+        "Stamina": "120.0",
+        "Current Stamina": "99.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "100.02324893071126",
+        "Stamina": "120.0",
+        "Current Stamina": "101.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "37"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "54.85985463215975",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "38"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "100.14324893071127",
+        "Stamina": "120.0",
+        "Current Stamina": "101.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "100.14324893071127",
+        "Stamina": "120.0",
+        "Current Stamina": "103.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "38"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "54.959854632159754",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "39"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "100.26324893071127",
+        "Stamina": "120.0",
+        "Current Stamina": "103.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "100.26324893071127",
+        "Stamina": "120.0",
+        "Current Stamina": "105.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "39"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "55.059854632159755",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "55.059854632159755",
+        "Stamina": "80.0",
+        "Current Stamina": "16.0",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Flying Kick",
+        "Damage Type": "Physical",
+        "Damage Amount": "64.06536660674111"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "55.20441898464428",
+        "Stamina": "120.0",
+        "Current Stamina": "105.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Block",
+        "Damage Type": "Physical",
+        "Damage Amount": "45.05882994606699"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "40"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "55.324418984644275",
+        "Stamina": "120.0",
+        "Current Stamina": "105.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "55.324418984644275",
+        "Stamina": "120.0",
+        "Current Stamina": "107.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "40"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "55.15985463215976",
+        "Stamina": "80.0",
+        "Current Stamina": "16.0",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "55.15985463215976",
+        "Stamina": "80.0",
+        "Current Stamina": "17.6",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "41"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "55.44441898464427",
+        "Stamina": "120.0",
+        "Current Stamina": "107.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "55.44441898464427",
+        "Stamina": "120.0",
+        "Current Stamina": "109.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "41"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "55.25985463215976",
+        "Stamina": "80.0",
+        "Current Stamina": "17.6",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "55.25985463215976",
+        "Stamina": "80.0",
+        "Current Stamina": "19.200000000000003",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "42"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "55.56441898464427",
+        "Stamina": "120.0",
+        "Current Stamina": "109.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "55.56441898464427",
+        "Stamina": "120.0",
+        "Current Stamina": "111.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "42"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "55.35985463215976",
+        "Stamina": "80.0",
+        "Current Stamina": "19.200000000000003",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "55.35985463215976",
+        "Stamina": "80.0",
+        "Current Stamina": "20.800000000000004",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "43"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "55.68441898464427",
+        "Stamina": "120.0",
+        "Current Stamina": "111.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "55.68441898464427",
+        "Stamina": "120.0",
+        "Current Stamina": "113.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "43"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "55.45985463215976",
+        "Stamina": "80.0",
+        "Current Stamina": "20.800000000000004",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "55.45985463215976",
+        "Stamina": "80.0",
+        "Current Stamina": "22.400000000000006",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "44"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "55.804418984644265",
+        "Stamina": "120.0",
+        "Current Stamina": "113.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "55.804418984644265",
+        "Stamina": "120.0",
+        "Current Stamina": "115.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "44"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "55.55985463215976",
+        "Stamina": "80.0",
+        "Current Stamina": "22.400000000000006",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "55.55985463215976",
+        "Stamina": "80.0",
+        "Current Stamina": "24.000000000000007",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "45"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "55.92441898464426",
+        "Stamina": "120.0",
+        "Current Stamina": "115.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "55.92441898464426",
+        "Stamina": "120.0",
+        "Current Stamina": "117.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "45"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "55.659854632159764",
+        "Stamina": "80.0",
+        "Current Stamina": "24.000000000000007",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "55.659854632159764",
+        "Stamina": "80.0",
+        "Current Stamina": "25.60000000000001",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "46"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "56.04441898464426",
+        "Stamina": "120.0",
+        "Current Stamina": "117.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "56.04441898464426",
+        "Stamina": "120.0",
+        "Current Stamina": "119.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "46"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "55.759854632159765",
+        "Stamina": "80.0",
+        "Current Stamina": "25.60000000000001",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "55.759854632159765",
+        "Stamina": "80.0",
+        "Current Stamina": "27.20000000000001",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "47"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "56.16441898464426",
+        "Stamina": "120.0",
+        "Current Stamina": "119.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "56.16441898464426",
+        "Stamina": "120.0",
+        "Current Stamina": "120.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "47"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "55.85985463215977",
+        "Stamina": "80.0",
+        "Current Stamina": "27.20000000000001",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "55.85985463215977",
+        "Stamina": "80.0",
+        "Current Stamina": "28.80000000000001",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "48"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "56.284418984644255",
+        "Stamina": "120.0",
+        "Current Stamina": "120.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "48"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "55.95985463215977",
+        "Stamina": "80.0",
+        "Current Stamina": "28.80000000000001",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "55.95985463215977",
+        "Stamina": "80.0",
+        "Current Stamina": "30.400000000000013",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "49"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "56.40441898464425",
+        "Stamina": "120.0",
+        "Current Stamina": "120.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "56.40441898464425",
+        "Stamina": "120.0",
+        "Current Stamina": "120.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Kick",
+        "Damage Type": "Physical",
+        "Damage Amount": "18.37287308345149"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "37.58698154870828",
+        "Stamina": "80.0",
+        "Current Stamina": "30.400000000000013",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Evade",
+        "Damage Type": "Physical",
+        "Damage Amount": "18.37287308345149"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "49"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "37.68698154870828",
+        "Stamina": "80.0",
+        "Current Stamina": "30.400000000000013",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "37.68698154870828",
+        "Stamina": "80.0",
+        "Current Stamina": "32.000000000000014",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "50"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "56.52441898464425",
+        "Stamina": "120.0",
+        "Current Stamina": "120.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "50"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "37.78698154870828",
+        "Stamina": "80.0",
+        "Current Stamina": "32.000000000000014",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "37.78698154870828",
+        "Stamina": "80.0",
+        "Current Stamina": "33.600000000000016",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "51"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "56.64441898464425",
+        "Stamina": "120.0",
+        "Current Stamina": "120.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "51"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "37.886981548708285",
+        "Stamina": "80.0",
+        "Current Stamina": "33.600000000000016",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "37.886981548708285",
+        "Stamina": "80.0",
+        "Current Stamina": "35.20000000000002",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "52"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "56.764418984644244",
+        "Stamina": "120.0",
+        "Current Stamina": "120.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "52"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "37.986981548708286",
+        "Stamina": "80.0",
+        "Current Stamina": "35.20000000000002",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "37.986981548708286",
+        "Stamina": "80.0",
+        "Current Stamina": "36.80000000000002",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "53"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "56.88441898464424",
+        "Stamina": "120.0",
+        "Current Stamina": "120.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "53"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "38.08698154870829",
+        "Stamina": "80.0",
+        "Current Stamina": "36.80000000000002",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "38.08698154870829",
+        "Stamina": "80.0",
+        "Current Stamina": "38.40000000000002",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "54"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "57.00441898464424",
+        "Stamina": "120.0",
+        "Current Stamina": "120.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "54"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "38.18698154870829",
+        "Stamina": "80.0",
+        "Current Stamina": "38.40000000000002",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "38.18698154870829",
+        "Stamina": "80.0",
+        "Current Stamina": "40.00000000000002",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "55"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "57.12441898464424",
+        "Stamina": "120.0",
+        "Current Stamina": "120.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "55"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "38.28698154870829",
+        "Stamina": "80.0",
+        "Current Stamina": "40.00000000000002",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "38.28698154870829",
+        "Stamina": "80.0",
+        "Current Stamina": "41.60000000000002",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "56"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "57.244418984644234",
+        "Stamina": "120.0",
+        "Current Stamina": "120.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "56"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "38.38698154870829",
+        "Stamina": "80.0",
+        "Current Stamina": "41.60000000000002",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "38.38698154870829",
+        "Stamina": "80.0",
+        "Current Stamina": "43.200000000000024",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "57"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "57.36441898464423",
+        "Stamina": "120.0",
+        "Current Stamina": "120.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "57"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "38.48698154870829",
+        "Stamina": "80.0",
+        "Current Stamina": "43.200000000000024",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "38.48698154870829",
+        "Stamina": "80.0",
+        "Current Stamina": "44.800000000000026",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "58"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "57.48441898464423",
+        "Stamina": "120.0",
+        "Current Stamina": "120.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "58"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "38.586981548708295",
+        "Stamina": "80.0",
+        "Current Stamina": "44.800000000000026",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "38.586981548708295",
+        "Stamina": "80.0",
+        "Current Stamina": "46.40000000000003",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "59"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "57.60441898464423",
+        "Stamina": "120.0",
+        "Current Stamina": "120.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "59"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "38.686981548708296",
+        "Stamina": "80.0",
+        "Current Stamina": "46.40000000000003",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "38.686981548708296",
+        "Stamina": "80.0",
+        "Current Stamina": "48.00000000000003",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "38.686981548708296",
+        "Stamina": "80.0",
+        "Current Stamina": "2.8421709430404007E-14",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Flying Kick",
+        "Damage Type": "Physical",
+        "Damage Amount": "55.49622837315376"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "20.25781344880584",
+        "Stamina": "120.0",
+        "Current Stamina": "120.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Block",
+        "Damage Type": "Physical",
+        "Damage Amount": "37.346605535838385"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "60"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "20.377813448805842",
+        "Stamina": "120.0",
+        "Current Stamina": "120.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "60"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "38.7869815487083",
+        "Stamina": "80.0",
+        "Current Stamina": "2.8421709430404007E-14",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "38.7869815487083",
+        "Stamina": "80.0",
+        "Current Stamina": "1.6000000000000285",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "61"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "20.497813448805843",
+        "Stamina": "120.0",
+        "Current Stamina": "120.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "61"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "38.8869815487083",
+        "Stamina": "80.0",
+        "Current Stamina": "1.6000000000000285",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "38.8869815487083",
+        "Stamina": "80.0",
+        "Current Stamina": "3.2000000000000286",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "62"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "20.617813448805844",
+        "Stamina": "120.0",
+        "Current Stamina": "120.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "62"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "38.9869815487083",
+        "Stamina": "80.0",
+        "Current Stamina": "3.2000000000000286",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "38.9869815487083",
+        "Stamina": "80.0",
+        "Current Stamina": "4.800000000000029",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "63"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "20.737813448805845",
+        "Stamina": "120.0",
+        "Current Stamina": "120.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "63"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "39.0869815487083",
+        "Stamina": "80.0",
+        "Current Stamina": "4.800000000000029",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "39.0869815487083",
+        "Stamina": "80.0",
+        "Current Stamina": "6.400000000000029",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "64"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "20.857813448805846",
+        "Stamina": "120.0",
+        "Current Stamina": "120.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "64"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "39.1869815487083",
+        "Stamina": "80.0",
+        "Current Stamina": "6.400000000000029",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "39.1869815487083",
+        "Stamina": "80.0",
+        "Current Stamina": "8.000000000000028",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "65"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "20.977813448805847",
+        "Stamina": "120.0",
+        "Current Stamina": "120.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "65"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "39.286981548708305",
+        "Stamina": "80.0",
+        "Current Stamina": "8.000000000000028",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "39.286981548708305",
+        "Stamina": "80.0",
+        "Current Stamina": "9.600000000000028",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "66"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "21.097813448805848",
+        "Stamina": "120.0",
+        "Current Stamina": "120.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "66"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "39.386981548708306",
+        "Stamina": "80.0",
+        "Current Stamina": "9.600000000000028",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "39.386981548708306",
+        "Stamina": "80.0",
+        "Current Stamina": "11.200000000000028",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "67"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "21.21781344880585",
+        "Stamina": "120.0",
+        "Current Stamina": "120.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "67"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "39.48698154870831",
+        "Stamina": "80.0",
+        "Current Stamina": "11.200000000000028",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "39.48698154870831",
+        "Stamina": "80.0",
+        "Current Stamina": "12.800000000000027",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "68"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "21.33781344880585",
+        "Stamina": "120.0",
+        "Current Stamina": "120.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "68"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "39.58698154870831",
+        "Stamina": "80.0",
+        "Current Stamina": "12.800000000000027",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "39.58698154870831",
+        "Stamina": "80.0",
+        "Current Stamina": "14.400000000000027",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "69"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "21.45781344880585",
+        "Stamina": "120.0",
+        "Current Stamina": "120.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "69"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "39.68698154870831",
+        "Stamina": "80.0",
+        "Current Stamina": "14.400000000000027",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "39.68698154870831",
+        "Stamina": "80.0",
+        "Current Stamina": "16.00000000000003",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "70"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "21.577813448805852",
+        "Stamina": "120.0",
+        "Current Stamina": "120.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "70"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "39.78698154870831",
+        "Stamina": "80.0",
+        "Current Stamina": "16.00000000000003",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "39.78698154870831",
+        "Stamina": "80.0",
+        "Current Stamina": "17.60000000000003",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "71"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "21.697813448805853",
+        "Stamina": "120.0",
+        "Current Stamina": "120.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "71"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "39.88698154870831",
+        "Stamina": "80.0",
+        "Current Stamina": "17.60000000000003",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "39.88698154870831",
+        "Stamina": "80.0",
+        "Current Stamina": "19.20000000000003",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "72"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "21.817813448805854",
+        "Stamina": "120.0",
+        "Current Stamina": "120.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "72"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "39.986981548708314",
+        "Stamina": "80.0",
+        "Current Stamina": "19.20000000000003",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "39.986981548708314",
+        "Stamina": "80.0",
+        "Current Stamina": "20.800000000000033",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "73"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "21.937813448805855",
+        "Stamina": "120.0",
+        "Current Stamina": "120.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "73"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "40.086981548708316",
+        "Stamina": "80.0",
+        "Current Stamina": "20.800000000000033",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "40.086981548708316",
+        "Stamina": "80.0",
+        "Current Stamina": "22.400000000000034",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "74"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "22.057813448805856",
+        "Stamina": "120.0",
+        "Current Stamina": "120.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "22.057813448805856",
+        "Stamina": "120.0",
+        "Current Stamina": "24.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Chop",
+        "Damage Type": "Physical",
+        "Damage Amount": "102.14248407484176"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "40.086981548708316",
+        "Stamina": "80.0",
+        "Current Stamina": "22.400000000000034",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Evade",
+        "Damage Type": "Physical",
+        "Damage Amount": "0.0"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "74"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "40.18698154870832",
+        "Stamina": "80.0",
+        "Current Stamina": "22.400000000000034",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "40.18698154870832",
+        "Stamina": "80.0",
+        "Current Stamina": "24.000000000000036",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "75"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "22.177813448805857",
+        "Stamina": "120.0",
+        "Current Stamina": "24.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "22.177813448805857",
+        "Stamina": "120.0",
+        "Current Stamina": "26.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "75"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "40.28698154870832",
+        "Stamina": "80.0",
+        "Current Stamina": "24.000000000000036",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "40.28698154870832",
+        "Stamina": "80.0",
+        "Current Stamina": "25.600000000000037",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "76"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "22.297813448805858",
+        "Stamina": "120.0",
+        "Current Stamina": "26.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "22.297813448805858",
+        "Stamina": "120.0",
+        "Current Stamina": "28.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "76"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "40.38698154870832",
+        "Stamina": "80.0",
+        "Current Stamina": "25.600000000000037",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "40.38698154870832",
+        "Stamina": "80.0",
+        "Current Stamina": "27.20000000000004",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "77"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "22.41781344880586",
+        "Stamina": "120.0",
+        "Current Stamina": "28.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "22.41781344880586",
+        "Stamina": "120.0",
+        "Current Stamina": "30.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "77"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "40.48698154870832",
+        "Stamina": "80.0",
+        "Current Stamina": "27.20000000000004",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "40.48698154870832",
+        "Stamina": "80.0",
+        "Current Stamina": "28.80000000000004",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "78"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "22.53781344880586",
+        "Stamina": "120.0",
+        "Current Stamina": "30.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "22.53781344880586",
+        "Stamina": "120.0",
+        "Current Stamina": "32.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "78"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "40.58698154870832",
+        "Stamina": "80.0",
+        "Current Stamina": "28.80000000000004",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "40.58698154870832",
+        "Stamina": "80.0",
+        "Current Stamina": "30.40000000000004",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "79"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "22.65781344880586",
+        "Stamina": "120.0",
+        "Current Stamina": "32.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "22.65781344880586",
+        "Stamina": "120.0",
+        "Current Stamina": "34.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "79"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "40.686981548708324",
+        "Stamina": "80.0",
+        "Current Stamina": "30.40000000000004",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "40.686981548708324",
+        "Stamina": "80.0",
+        "Current Stamina": "32.00000000000004",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "40.686981548708324",
+        "Stamina": "80.0",
+        "Current Stamina": "32.00000000000004",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Kick",
+        "Damage Type": "Physical",
+        "Damage Amount": "26.32437956083354"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "11.565871844055676",
+        "Stamina": "120.0",
+        "Current Stamina": "34.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Block",
+        "Damage Type": "Physical",
+        "Damage Amount": "11.091941604750184"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "80"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "11.685871844055676",
+        "Stamina": "120.0",
+        "Current Stamina": "34.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "11.685871844055676",
+        "Stamina": "120.0",
+        "Current Stamina": "36.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "80"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "40.786981548708326",
+        "Stamina": "80.0",
+        "Current Stamina": "32.00000000000004",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "40.786981548708326",
+        "Stamina": "80.0",
+        "Current Stamina": "33.600000000000044",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "81"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "11.805871844055675",
+        "Stamina": "120.0",
+        "Current Stamina": "36.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "11.805871844055675",
+        "Stamina": "120.0",
+        "Current Stamina": "38.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "81"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "40.88698154870833",
+        "Stamina": "80.0",
+        "Current Stamina": "33.600000000000044",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "40.88698154870833",
+        "Stamina": "80.0",
+        "Current Stamina": "35.200000000000045",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "82"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "11.925871844055674",
+        "Stamina": "120.0",
+        "Current Stamina": "38.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "11.925871844055674",
+        "Stamina": "120.0",
+        "Current Stamina": "40.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "82"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "40.98698154870833",
+        "Stamina": "80.0",
+        "Current Stamina": "35.200000000000045",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "40.98698154870833",
+        "Stamina": "80.0",
+        "Current Stamina": "36.80000000000005",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "83"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "12.045871844055673",
+        "Stamina": "120.0",
+        "Current Stamina": "40.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "12.045871844055673",
+        "Stamina": "120.0",
+        "Current Stamina": "42.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "83"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "41.08698154870833",
+        "Stamina": "80.0",
+        "Current Stamina": "36.80000000000005",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "41.08698154870833",
+        "Stamina": "80.0",
+        "Current Stamina": "38.40000000000005",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "84"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "12.165871844055673",
+        "Stamina": "120.0",
+        "Current Stamina": "42.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "12.165871844055673",
+        "Stamina": "120.0",
+        "Current Stamina": "44.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "84"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "41.18698154870833",
+        "Stamina": "80.0",
+        "Current Stamina": "38.40000000000005",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "41.18698154870833",
+        "Stamina": "80.0",
+        "Current Stamina": "40.00000000000005",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "85"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "12.285871844055672",
+        "Stamina": "120.0",
+        "Current Stamina": "44.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "12.285871844055672",
+        "Stamina": "120.0",
+        "Current Stamina": "46.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "85"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "41.28698154870833",
+        "Stamina": "80.0",
+        "Current Stamina": "40.00000000000005",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "41.28698154870833",
+        "Stamina": "80.0",
+        "Current Stamina": "41.60000000000005",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "86"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "12.405871844055671",
+        "Stamina": "120.0",
+        "Current Stamina": "46.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "12.405871844055671",
+        "Stamina": "120.0",
+        "Current Stamina": "48.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "86"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "41.386981548708334",
+        "Stamina": "80.0",
+        "Current Stamina": "41.60000000000005",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "41.386981548708334",
+        "Stamina": "80.0",
+        "Current Stamina": "43.20000000000005",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "87"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "12.52587184405567",
+        "Stamina": "120.0",
+        "Current Stamina": "48.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "12.52587184405567",
+        "Stamina": "120.0",
+        "Current Stamina": "50.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "87"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "41.486981548708336",
+        "Stamina": "80.0",
+        "Current Stamina": "43.20000000000005",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "41.486981548708336",
+        "Stamina": "80.0",
+        "Current Stamina": "44.800000000000054",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "88"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "12.64587184405567",
+        "Stamina": "120.0",
+        "Current Stamina": "50.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "12.64587184405567",
+        "Stamina": "120.0",
+        "Current Stamina": "52.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "88"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "41.58698154870834",
+        "Stamina": "80.0",
+        "Current Stamina": "44.800000000000054",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "41.58698154870834",
+        "Stamina": "80.0",
+        "Current Stamina": "46.400000000000055",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "89"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "12.765871844055669",
+        "Stamina": "120.0",
+        "Current Stamina": "52.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "12.765871844055669",
+        "Stamina": "120.0",
+        "Current Stamina": "54.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "89"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "41.68698154870834",
+        "Stamina": "80.0",
+        "Current Stamina": "46.400000000000055",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "41.68698154870834",
+        "Stamina": "80.0",
+        "Current Stamina": "48.00000000000006",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "90"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "12.885871844055668",
+        "Stamina": "120.0",
+        "Current Stamina": "54.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "12.885871844055668",
+        "Stamina": "120.0",
+        "Current Stamina": "56.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "90"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "41.78698154870834",
+        "Stamina": "80.0",
+        "Current Stamina": "48.00000000000006",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "41.78698154870834",
+        "Stamina": "80.0",
+        "Current Stamina": "49.60000000000006",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "91"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "13.005871844055667",
+        "Stamina": "120.0",
+        "Current Stamina": "56.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "13.005871844055667",
+        "Stamina": "120.0",
+        "Current Stamina": "58.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "91"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "41.88698154870834",
+        "Stamina": "80.0",
+        "Current Stamina": "49.60000000000006",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "41.88698154870834",
+        "Stamina": "80.0",
+        "Current Stamina": "51.20000000000006",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "92"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "13.125871844055666",
+        "Stamina": "120.0",
+        "Current Stamina": "58.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "13.125871844055666",
+        "Stamina": "120.0",
+        "Current Stamina": "60.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "92"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "41.98698154870834",
+        "Stamina": "80.0",
+        "Current Stamina": "51.20000000000006",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "41.98698154870834",
+        "Stamina": "80.0",
+        "Current Stamina": "52.80000000000006",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "93"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "13.245871844055666",
+        "Stamina": "120.0",
+        "Current Stamina": "60.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "13.245871844055666",
+        "Stamina": "120.0",
+        "Current Stamina": "62.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "93"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "42.086981548708344",
+        "Stamina": "80.0",
+        "Current Stamina": "52.80000000000006",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "42.086981548708344",
+        "Stamina": "80.0",
+        "Current Stamina": "54.40000000000006",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "94"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "13.365871844055665",
+        "Stamina": "120.0",
+        "Current Stamina": "62.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "13.365871844055665",
+        "Stamina": "120.0",
+        "Current Stamina": "64.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "94"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "42.186981548708346",
+        "Stamina": "80.0",
+        "Current Stamina": "54.40000000000006",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "42.186981548708346",
+        "Stamina": "80.0",
+        "Current Stamina": "56.000000000000064",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "95"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "13.485871844055664",
+        "Stamina": "120.0",
+        "Current Stamina": "64.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "13.485871844055664",
+        "Stamina": "120.0",
+        "Current Stamina": "66.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "95"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "42.28698154870835",
+        "Stamina": "80.0",
+        "Current Stamina": "56.000000000000064",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "42.28698154870835",
+        "Stamina": "80.0",
+        "Current Stamina": "57.600000000000065",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "96"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "13.605871844055663",
+        "Stamina": "120.0",
+        "Current Stamina": "66.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "13.605871844055663",
+        "Stamina": "120.0",
+        "Current Stamina": "68.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "96"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "42.38698154870835",
+        "Stamina": "80.0",
+        "Current Stamina": "57.600000000000065",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "42.38698154870835",
+        "Stamina": "80.0",
+        "Current Stamina": "59.20000000000007",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "97"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "13.725871844055662",
+        "Stamina": "120.0",
+        "Current Stamina": "68.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "13.725871844055662",
+        "Stamina": "120.0",
+        "Current Stamina": "70.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "97"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "42.48698154870835",
+        "Stamina": "80.0",
+        "Current Stamina": "59.20000000000007",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "42.48698154870835",
+        "Stamina": "80.0",
+        "Current Stamina": "60.80000000000007",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "98"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "13.845871844055662",
+        "Stamina": "120.0",
+        "Current Stamina": "70.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "13.845871844055662",
+        "Stamina": "120.0",
+        "Current Stamina": "72.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "98"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "42.58698154870835",
+        "Stamina": "80.0",
+        "Current Stamina": "60.80000000000007",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "42.58698154870835",
+        "Stamina": "80.0",
+        "Current Stamina": "62.40000000000007",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "99"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "13.96587184405566",
+        "Stamina": "120.0",
+        "Current Stamina": "72.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "13.96587184405566",
+        "Stamina": "120.0",
+        "Current Stamina": "74.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "13.96587184405566",
+        "Stamina": "120.0",
+        "Current Stamina": "2.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Chop",
+        "Damage Type": "Physical",
+        "Damage Amount": "81.54674245790154"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "0.0",
+        "Stamina": "80.0",
+        "Current Stamina": "62.40000000000007",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Evade",
+        "Damage Type": "Physical",
+        "Damage Amount": "81.54674245790154"
+      }
+    },
+    {
+      "Type": "INFO",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "0.0",
+        "Stamina": "80.0",
+        "Current Stamina": "62.40000000000007",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Knock Out"
+      }
+    },
+    {
+      "Type": "INFO",
+      "Source": {
+        "Name": "Ring"
+      },
+      "Event": {
+        "Name": "Fight End",
+        "Result": "Win",
+        "Result By": "Knock Out"
+      }
+    },
+    {
+      "Type": "INFO",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kenichi",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Karateka",
+        "Life": "120.0",
+        "Current Life": "13.96587184405566",
+        "Stamina": "120.0",
+        "Current Stamina": "2.0",
+        "Strength": "70.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Won",
+        "As": "Champion"
+      }
+    },
+    {
+      "Type": "INFO",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Kurt",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "0.0",
+        "Stamina": "80.0",
+        "Current Stamina": "62.40000000000007",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Lost",
+        "As": "Challenger"
+      }
+    }
+  ]
+}

@@ -1,0 +1,6797 @@
+{
+  "Champion": "Equipped Boxer[Metal Arms]",
+  "Challenger": "Ninja[Shuriken Jutsu]",
+  "Arena": "Backyard",
+  "Winner": "Challenger",
+  "Beats": 83,
+  "SourceEvent": [
+    {
+      "Type": "INFO",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Stamina": "80.0",
+        "Current Stamina": "25.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Fighter Added",
+        "As": "Champion"
+      }
+    },
+    {
+      "Type": "INFO",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "25.0",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Fighter Added",
+        "As": "Challenger"
+      }
+    },
+    {
+      "Type": "INFO",
+      "Source": {
+        "Name": "Backyard"
+      },
+      "Event": {
+        "Name": "Fight Start"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "0"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Stamina": "80.0",
+        "Current Stamina": "26.6",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "0"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "26.6",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "1"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Stamina": "80.0",
+        "Current Stamina": "28.200000000000003",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "1"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "28.200000000000003",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "2"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Stamina": "80.0",
+        "Current Stamina": "29.800000000000004",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "2"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "29.800000000000004",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "3"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Stamina": "80.0",
+        "Current Stamina": "31.400000000000006",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "3"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "31.400000000000006",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "4"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Stamina": "80.0",
+        "Current Stamina": "33.00000000000001",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "4"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "33.00000000000001",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "5"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Stamina": "80.0",
+        "Current Stamina": "34.60000000000001",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "5"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "34.60000000000001",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "6"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Stamina": "80.0",
+        "Current Stamina": "36.20000000000001",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "6"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "36.20000000000001",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "7"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Stamina": "80.0",
+        "Current Stamina": "37.80000000000001",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "7"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "37.80000000000001",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "8"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Stamina": "80.0",
+        "Current Stamina": "39.40000000000001",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "8"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "39.40000000000001",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "9"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Stamina": "80.0",
+        "Current Stamina": "41.000000000000014",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "9"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "41.000000000000014",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "10"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Stamina": "80.0",
+        "Current Stamina": "42.600000000000016",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "10"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "42.600000000000016",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "11"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Stamina": "80.0",
+        "Current Stamina": "44.20000000000002",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "11"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "44.20000000000002",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "44.20000000000002",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Kick",
+        "Damage Type": "Physical",
+        "Damage Amount": "32.834594302945646"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Stamina": "80.0",
+        "Current Stamina": "44.20000000000002",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Block",
+        "Damage Type": "Physical",
+        "Damage Amount": "0.0"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "12"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Stamina": "80.0",
+        "Current Stamina": "45.80000000000002",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "12"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "45.80000000000002",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "13"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Stamina": "80.0",
+        "Current Stamina": "47.40000000000002",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "13"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "47.40000000000002",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "14"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Stamina": "80.0",
+        "Current Stamina": "49.00000000000002",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "14"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "49.00000000000002",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "15"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Stamina": "80.0",
+        "Current Stamina": "50.60000000000002",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "15"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "50.60000000000002",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "16"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Stamina": "80.0",
+        "Current Stamina": "52.200000000000024",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "16"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "52.200000000000024",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "17"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Stamina": "80.0",
+        "Current Stamina": "53.800000000000026",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "17"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "53.800000000000026",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "18"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Stamina": "80.0",
+        "Current Stamina": "55.40000000000003",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "18"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "55.40000000000003",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "19"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Stamina": "80.0",
+        "Current Stamina": "57.00000000000003",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "19"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "57.00000000000003",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "20"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Stamina": "80.0",
+        "Current Stamina": "58.60000000000003",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "20"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "58.60000000000003",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "21"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Stamina": "80.0",
+        "Current Stamina": "60.20000000000003",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "21"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "60.20000000000003",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "22"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Stamina": "80.0",
+        "Current Stamina": "61.80000000000003",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "22"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "61.80000000000003",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "23"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Stamina": "80.0",
+        "Current Stamina": "63.400000000000034",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "23"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "63.400000000000034",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "63.400000000000034",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Shuriken",
+        "Count": "9",
+        "Damage Type": "Physical",
+        "Damage Amount": "69.60773378821698"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "130.392266211783",
+        "Stamina": "80.0",
+        "Current Stamina": "63.400000000000034",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "24"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "130.552266211783",
+        "Stamina": "80.0",
+        "Current Stamina": "63.400000000000034",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "130.552266211783",
+        "Stamina": "80.0",
+        "Current Stamina": "65.00000000000003",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "24"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "65.00000000000003",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "25"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "130.712266211783",
+        "Stamina": "80.0",
+        "Current Stamina": "65.00000000000003",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "130.712266211783",
+        "Stamina": "80.0",
+        "Current Stamina": "66.60000000000002",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "25"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "66.60000000000002",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "26"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "130.872266211783",
+        "Stamina": "80.0",
+        "Current Stamina": "66.60000000000002",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "130.872266211783",
+        "Stamina": "80.0",
+        "Current Stamina": "68.20000000000002",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "26"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "68.20000000000002",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "27"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "131.032266211783",
+        "Stamina": "80.0",
+        "Current Stamina": "68.20000000000002",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "131.032266211783",
+        "Stamina": "80.0",
+        "Current Stamina": "69.80000000000001",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "27"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "69.80000000000001",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "28"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "131.192266211783",
+        "Stamina": "80.0",
+        "Current Stamina": "69.80000000000001",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "131.192266211783",
+        "Stamina": "80.0",
+        "Current Stamina": "71.4",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "28"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "71.4",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "29"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "131.352266211783",
+        "Stamina": "80.0",
+        "Current Stamina": "71.4",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "131.352266211783",
+        "Stamina": "80.0",
+        "Current Stamina": "73.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "29"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "73.0",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "30"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "131.512266211783",
+        "Stamina": "80.0",
+        "Current Stamina": "73.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "131.512266211783",
+        "Stamina": "80.0",
+        "Current Stamina": "74.6",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "30"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "74.6",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "31"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "131.67226621178298",
+        "Stamina": "80.0",
+        "Current Stamina": "74.6",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "131.67226621178298",
+        "Stamina": "80.0",
+        "Current Stamina": "76.19999999999999",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "31"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "76.19999999999999",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "32"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "131.83226621178298",
+        "Stamina": "80.0",
+        "Current Stamina": "76.19999999999999",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "131.83226621178298",
+        "Stamina": "80.0",
+        "Current Stamina": "77.79999999999998",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "131.83226621178298",
+        "Stamina": "80.0",
+        "Current Stamina": "13.799999999999983",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Cross",
+        "Damage Type": "Physical",
+        "Damage Amount": "71.30458191917789"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "18.695418080822108",
+        "Stamina": "80.0",
+        "Current Stamina": "76.19999999999999",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Evade",
+        "Damage Type": "Physical",
+        "Damage Amount": "71.30458191917789"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "32"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "18.79541808082211",
+        "Stamina": "80.0",
+        "Current Stamina": "76.19999999999999",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "18.79541808082211",
+        "Stamina": "80.0",
+        "Current Stamina": "77.79999999999998",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "33"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "131.99226621178298",
+        "Stamina": "80.0",
+        "Current Stamina": "13.799999999999983",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "131.99226621178298",
+        "Stamina": "80.0",
+        "Current Stamina": "15.399999999999983",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "33"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "18.89541808082211",
+        "Stamina": "80.0",
+        "Current Stamina": "77.79999999999998",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "18.89541808082211",
+        "Stamina": "80.0",
+        "Current Stamina": "79.39999999999998",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "34"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "132.15226621178297",
+        "Stamina": "80.0",
+        "Current Stamina": "15.399999999999983",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "132.15226621178297",
+        "Stamina": "80.0",
+        "Current Stamina": "16.999999999999982",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "34"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "18.995418080822112",
+        "Stamina": "80.0",
+        "Current Stamina": "79.39999999999998",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "18.995418080822112",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "35"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "132.31226621178297",
+        "Stamina": "80.0",
+        "Current Stamina": "16.999999999999982",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "132.31226621178297",
+        "Stamina": "80.0",
+        "Current Stamina": "18.599999999999984",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "35"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "19.095418080822114",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "19.095418080822114",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Nunchuck Swing",
+        "Weapon": "Nunchucks",
+        "Damage Type": "Physical",
+        "Damage Amount": "60.31678942476303"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "125.09051361444884",
+        "Stamina": "80.0",
+        "Current Stamina": "18.599999999999984",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Block",
+        "Damage Type": "Physical",
+        "Damage Amount": "7.221752597334124"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "36"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "125.25051361444883",
+        "Stamina": "80.0",
+        "Current Stamina": "18.599999999999984",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "125.25051361444883",
+        "Stamina": "80.0",
+        "Current Stamina": "20.199999999999985",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "36"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "19.195418080822115",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "37"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "125.41051361444883",
+        "Stamina": "80.0",
+        "Current Stamina": "20.199999999999985",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "125.41051361444883",
+        "Stamina": "80.0",
+        "Current Stamina": "21.799999999999986",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "37"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "19.295418080822117",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "38"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "125.57051361444883",
+        "Stamina": "80.0",
+        "Current Stamina": "21.799999999999986",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "125.57051361444883",
+        "Stamina": "80.0",
+        "Current Stamina": "23.399999999999988",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "38"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "19.395418080822118",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "39"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "125.73051361444882",
+        "Stamina": "80.0",
+        "Current Stamina": "23.399999999999988",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "125.73051361444882",
+        "Stamina": "80.0",
+        "Current Stamina": "24.99999999999999",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "39"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "19.49541808082212",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "40"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "125.89051361444882",
+        "Stamina": "80.0",
+        "Current Stamina": "24.99999999999999",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "125.89051361444882",
+        "Stamina": "80.0",
+        "Current Stamina": "26.59999999999999",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "40"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "19.59541808082212",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "41"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "126.05051361444882",
+        "Stamina": "80.0",
+        "Current Stamina": "26.59999999999999",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "126.05051361444882",
+        "Stamina": "80.0",
+        "Current Stamina": "28.199999999999992",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "41"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "19.695418080822122",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "42"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "126.21051361444881",
+        "Stamina": "80.0",
+        "Current Stamina": "28.199999999999992",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "126.21051361444881",
+        "Stamina": "80.0",
+        "Current Stamina": "29.799999999999994",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "42"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "19.795418080822124",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "43"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "126.37051361444881",
+        "Stamina": "80.0",
+        "Current Stamina": "29.799999999999994",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "126.37051361444881",
+        "Stamina": "80.0",
+        "Current Stamina": "31.399999999999995",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "43"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "19.895418080822125",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "44"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "126.53051361444881",
+        "Stamina": "80.0",
+        "Current Stamina": "31.399999999999995",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "126.53051361444881",
+        "Stamina": "80.0",
+        "Current Stamina": "32.99999999999999",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "44"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "19.995418080822127",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "45"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "126.6905136144488",
+        "Stamina": "80.0",
+        "Current Stamina": "32.99999999999999",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "126.6905136144488",
+        "Stamina": "80.0",
+        "Current Stamina": "34.599999999999994",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "45"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "20.095418080822128",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "46"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "126.8505136144488",
+        "Stamina": "80.0",
+        "Current Stamina": "34.599999999999994",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "126.8505136144488",
+        "Stamina": "80.0",
+        "Current Stamina": "36.199999999999996",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "46"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "20.19541808082213",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "47"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "127.0105136144488",
+        "Stamina": "80.0",
+        "Current Stamina": "36.199999999999996",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "127.0105136144488",
+        "Stamina": "80.0",
+        "Current Stamina": "37.8",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "47"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "20.29541808082213",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "20.29541808082213",
+        "Stamina": "80.0",
+        "Current Stamina": "16.0",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Flying Kick",
+        "Damage Type": "Physical",
+        "Damage Amount": "64.68258894993815"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "116.73270134949209",
+        "Stamina": "80.0",
+        "Current Stamina": "37.8",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Block",
+        "Damage Type": "Physical",
+        "Damage Amount": "10.277812264956708"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "48"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "116.89270134949209",
+        "Stamina": "80.0",
+        "Current Stamina": "37.8",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "116.89270134949209",
+        "Stamina": "80.0",
+        "Current Stamina": "39.4",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "48"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "20.395418080822132",
+        "Stamina": "80.0",
+        "Current Stamina": "16.0",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "20.395418080822132",
+        "Stamina": "80.0",
+        "Current Stamina": "17.6",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "49"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "117.05270134949208",
+        "Stamina": "80.0",
+        "Current Stamina": "39.4",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "117.05270134949208",
+        "Stamina": "80.0",
+        "Current Stamina": "41.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "49"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "20.495418080822134",
+        "Stamina": "80.0",
+        "Current Stamina": "17.6",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "20.495418080822134",
+        "Stamina": "80.0",
+        "Current Stamina": "19.200000000000003",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "50"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "117.21270134949208",
+        "Stamina": "80.0",
+        "Current Stamina": "41.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "117.21270134949208",
+        "Stamina": "80.0",
+        "Current Stamina": "42.6",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "50"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "20.595418080822135",
+        "Stamina": "80.0",
+        "Current Stamina": "19.200000000000003",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "20.595418080822135",
+        "Stamina": "80.0",
+        "Current Stamina": "20.800000000000004",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "51"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "117.37270134949208",
+        "Stamina": "80.0",
+        "Current Stamina": "42.6",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "117.37270134949208",
+        "Stamina": "80.0",
+        "Current Stamina": "44.2",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "51"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "20.695418080822137",
+        "Stamina": "80.0",
+        "Current Stamina": "20.800000000000004",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "20.695418080822137",
+        "Stamina": "80.0",
+        "Current Stamina": "22.400000000000006",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "52"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "117.53270134949207",
+        "Stamina": "80.0",
+        "Current Stamina": "44.2",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "117.53270134949207",
+        "Stamina": "80.0",
+        "Current Stamina": "45.800000000000004",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "52"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "20.795418080822138",
+        "Stamina": "80.0",
+        "Current Stamina": "22.400000000000006",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "20.795418080822138",
+        "Stamina": "80.0",
+        "Current Stamina": "24.000000000000007",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "53"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "117.69270134949207",
+        "Stamina": "80.0",
+        "Current Stamina": "45.800000000000004",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "117.69270134949207",
+        "Stamina": "80.0",
+        "Current Stamina": "47.400000000000006",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "53"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "20.89541808082214",
+        "Stamina": "80.0",
+        "Current Stamina": "24.000000000000007",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "20.89541808082214",
+        "Stamina": "80.0",
+        "Current Stamina": "25.60000000000001",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "54"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "117.85270134949207",
+        "Stamina": "80.0",
+        "Current Stamina": "47.400000000000006",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "117.85270134949207",
+        "Stamina": "80.0",
+        "Current Stamina": "49.00000000000001",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "54"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "20.99541808082214",
+        "Stamina": "80.0",
+        "Current Stamina": "25.60000000000001",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "20.99541808082214",
+        "Stamina": "80.0",
+        "Current Stamina": "27.20000000000001",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "55"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "118.01270134949206",
+        "Stamina": "80.0",
+        "Current Stamina": "49.00000000000001",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "118.01270134949206",
+        "Stamina": "80.0",
+        "Current Stamina": "50.60000000000001",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "55"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "21.095418080822142",
+        "Stamina": "80.0",
+        "Current Stamina": "27.20000000000001",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "21.095418080822142",
+        "Stamina": "80.0",
+        "Current Stamina": "28.80000000000001",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "56"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "118.17270134949206",
+        "Stamina": "80.0",
+        "Current Stamina": "50.60000000000001",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "118.17270134949206",
+        "Stamina": "80.0",
+        "Current Stamina": "52.20000000000001",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "56"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "21.195418080822144",
+        "Stamina": "80.0",
+        "Current Stamina": "28.80000000000001",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "21.195418080822144",
+        "Stamina": "80.0",
+        "Current Stamina": "30.400000000000013",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "57"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "118.33270134949205",
+        "Stamina": "80.0",
+        "Current Stamina": "52.20000000000001",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "118.33270134949205",
+        "Stamina": "80.0",
+        "Current Stamina": "53.80000000000001",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "57"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "21.295418080822145",
+        "Stamina": "80.0",
+        "Current Stamina": "30.400000000000013",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "21.295418080822145",
+        "Stamina": "80.0",
+        "Current Stamina": "32.000000000000014",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "58"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "118.49270134949205",
+        "Stamina": "80.0",
+        "Current Stamina": "53.80000000000001",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "118.49270134949205",
+        "Stamina": "80.0",
+        "Current Stamina": "55.40000000000001",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "58"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "21.395418080822147",
+        "Stamina": "80.0",
+        "Current Stamina": "32.000000000000014",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "21.395418080822147",
+        "Stamina": "80.0",
+        "Current Stamina": "33.600000000000016",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "59"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "118.65270134949205",
+        "Stamina": "80.0",
+        "Current Stamina": "55.40000000000001",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "118.65270134949205",
+        "Stamina": "80.0",
+        "Current Stamina": "57.000000000000014",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "59"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "21.495418080822148",
+        "Stamina": "80.0",
+        "Current Stamina": "33.600000000000016",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "21.495418080822148",
+        "Stamina": "80.0",
+        "Current Stamina": "35.20000000000002",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "21.495418080822148",
+        "Stamina": "80.0",
+        "Current Stamina": "35.20000000000002",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Nunchuck Swing",
+        "Weapon": "Nunchucks",
+        "Damage Type": "Physical",
+        "Damage Amount": "63.09059531442899"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "55.56210603506306",
+        "Stamina": "80.0",
+        "Current Stamina": "57.000000000000014",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "60"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "55.72210603506306",
+        "Stamina": "80.0",
+        "Current Stamina": "57.000000000000014",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "55.72210603506306",
+        "Stamina": "80.0",
+        "Current Stamina": "58.600000000000016",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "60"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "21.59541808082215",
+        "Stamina": "80.0",
+        "Current Stamina": "35.20000000000002",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "21.59541808082215",
+        "Stamina": "80.0",
+        "Current Stamina": "36.80000000000002",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "61"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "55.88210603506305",
+        "Stamina": "80.0",
+        "Current Stamina": "58.600000000000016",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "55.88210603506305",
+        "Stamina": "80.0",
+        "Current Stamina": "60.20000000000002",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "61"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "21.69541808082215",
+        "Stamina": "80.0",
+        "Current Stamina": "36.80000000000002",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "21.69541808082215",
+        "Stamina": "80.0",
+        "Current Stamina": "38.40000000000002",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "62"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "56.04210603506305",
+        "Stamina": "80.0",
+        "Current Stamina": "60.20000000000002",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "56.04210603506305",
+        "Stamina": "80.0",
+        "Current Stamina": "61.80000000000002",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "62"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "21.795418080822152",
+        "Stamina": "80.0",
+        "Current Stamina": "38.40000000000002",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "21.795418080822152",
+        "Stamina": "80.0",
+        "Current Stamina": "40.00000000000002",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "63"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "56.202106035063046",
+        "Stamina": "80.0",
+        "Current Stamina": "61.80000000000002",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "56.202106035063046",
+        "Stamina": "80.0",
+        "Current Stamina": "63.40000000000002",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "63"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "21.895418080822154",
+        "Stamina": "80.0",
+        "Current Stamina": "40.00000000000002",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "21.895418080822154",
+        "Stamina": "80.0",
+        "Current Stamina": "41.60000000000002",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "64"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "56.36210603506304",
+        "Stamina": "80.0",
+        "Current Stamina": "63.40000000000002",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "56.36210603506304",
+        "Stamina": "80.0",
+        "Current Stamina": "65.00000000000001",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "64"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "21.995418080822155",
+        "Stamina": "80.0",
+        "Current Stamina": "41.60000000000002",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "21.995418080822155",
+        "Stamina": "80.0",
+        "Current Stamina": "43.200000000000024",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "65"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "56.52210603506304",
+        "Stamina": "80.0",
+        "Current Stamina": "65.00000000000001",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "56.52210603506304",
+        "Stamina": "80.0",
+        "Current Stamina": "66.60000000000001",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "56.52210603506304",
+        "Stamina": "80.0",
+        "Current Stamina": "66.60000000000001",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Punch",
+        "Damage Type": "Physical",
+        "Damage Amount": "73.58126802253742"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "21.995418080822155",
+        "Stamina": "80.0",
+        "Current Stamina": "43.200000000000024",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Evade",
+        "Damage Type": "Physical",
+        "Damage Amount": "0.0"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "65"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "22.095418080822157",
+        "Stamina": "80.0",
+        "Current Stamina": "43.200000000000024",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "22.095418080822157",
+        "Stamina": "80.0",
+        "Current Stamina": "44.800000000000026",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "66"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "56.682106035063036",
+        "Stamina": "80.0",
+        "Current Stamina": "66.60000000000001",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "56.682106035063036",
+        "Stamina": "80.0",
+        "Current Stamina": "68.2",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "66"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "22.195418080822158",
+        "Stamina": "80.0",
+        "Current Stamina": "44.800000000000026",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "22.195418080822158",
+        "Stamina": "80.0",
+        "Current Stamina": "46.40000000000003",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "67"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "56.84210603506303",
+        "Stamina": "80.0",
+        "Current Stamina": "68.2",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "56.84210603506303",
+        "Stamina": "80.0",
+        "Current Stamina": "69.8",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "67"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "22.29541808082216",
+        "Stamina": "80.0",
+        "Current Stamina": "46.40000000000003",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "22.29541808082216",
+        "Stamina": "80.0",
+        "Current Stamina": "48.00000000000003",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "68"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "57.00210603506303",
+        "Stamina": "80.0",
+        "Current Stamina": "69.8",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "57.00210603506303",
+        "Stamina": "80.0",
+        "Current Stamina": "71.39999999999999",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "68"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "22.39541808082216",
+        "Stamina": "80.0",
+        "Current Stamina": "48.00000000000003",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "22.39541808082216",
+        "Stamina": "80.0",
+        "Current Stamina": "49.60000000000003",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "69"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "57.162106035063026",
+        "Stamina": "80.0",
+        "Current Stamina": "71.39999999999999",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "57.162106035063026",
+        "Stamina": "80.0",
+        "Current Stamina": "72.99999999999999",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "69"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "22.495418080822162",
+        "Stamina": "80.0",
+        "Current Stamina": "49.60000000000003",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "22.495418080822162",
+        "Stamina": "80.0",
+        "Current Stamina": "51.20000000000003",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "70"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "57.32210603506302",
+        "Stamina": "80.0",
+        "Current Stamina": "72.99999999999999",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "57.32210603506302",
+        "Stamina": "80.0",
+        "Current Stamina": "74.59999999999998",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "70"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "22.595418080822164",
+        "Stamina": "80.0",
+        "Current Stamina": "51.20000000000003",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "22.595418080822164",
+        "Stamina": "80.0",
+        "Current Stamina": "52.80000000000003",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "71"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "57.48210603506302",
+        "Stamina": "80.0",
+        "Current Stamina": "74.59999999999998",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "57.48210603506302",
+        "Stamina": "80.0",
+        "Current Stamina": "76.19999999999997",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "71"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "22.695418080822165",
+        "Stamina": "80.0",
+        "Current Stamina": "52.80000000000003",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "22.695418080822165",
+        "Stamina": "80.0",
+        "Current Stamina": "54.400000000000034",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "22.695418080822165",
+        "Stamina": "80.0",
+        "Current Stamina": "54.400000000000034",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Nunchuck Swing",
+        "Weapon": "Nunchucks",
+        "Damage Type": "Physical",
+        "Damage Amount": "74.17382739065255"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "40.56042686160624",
+        "Stamina": "80.0",
+        "Current Stamina": "76.19999999999997",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Block",
+        "Damage Type": "Physical",
+        "Damage Amount": "16.92167917345678"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "72"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "40.720426861606235",
+        "Stamina": "80.0",
+        "Current Stamina": "76.19999999999997",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "40.720426861606235",
+        "Stamina": "80.0",
+        "Current Stamina": "77.79999999999997",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "72"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "22.795418080822166",
+        "Stamina": "80.0",
+        "Current Stamina": "54.400000000000034",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "22.795418080822166",
+        "Stamina": "80.0",
+        "Current Stamina": "56.000000000000036",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "73"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "40.88042686160623",
+        "Stamina": "80.0",
+        "Current Stamina": "77.79999999999997",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "40.88042686160623",
+        "Stamina": "80.0",
+        "Current Stamina": "79.39999999999996",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "73"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "22.895418080822168",
+        "Stamina": "80.0",
+        "Current Stamina": "56.000000000000036",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "22.895418080822168",
+        "Stamina": "80.0",
+        "Current Stamina": "57.60000000000004",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "74"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "41.04042686160623",
+        "Stamina": "80.0",
+        "Current Stamina": "79.39999999999996",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "41.04042686160623",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "74"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "22.99541808082217",
+        "Stamina": "80.0",
+        "Current Stamina": "57.60000000000004",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "22.99541808082217",
+        "Stamina": "80.0",
+        "Current Stamina": "59.20000000000004",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "75"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "41.200426861606225",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "75"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "23.09541808082217",
+        "Stamina": "80.0",
+        "Current Stamina": "59.20000000000004",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "23.09541808082217",
+        "Stamina": "80.0",
+        "Current Stamina": "60.80000000000004",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "76"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "41.36042686160622",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "76"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "23.195418080822172",
+        "Stamina": "80.0",
+        "Current Stamina": "60.80000000000004",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "23.195418080822172",
+        "Stamina": "80.0",
+        "Current Stamina": "62.40000000000004",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "77"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "41.52042686160622",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "77"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "23.295418080822174",
+        "Stamina": "80.0",
+        "Current Stamina": "62.40000000000004",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "23.295418080822174",
+        "Stamina": "80.0",
+        "Current Stamina": "64.00000000000004",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "78"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "41.680426861606215",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "78"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "23.395418080822175",
+        "Stamina": "80.0",
+        "Current Stamina": "64.00000000000004",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "23.395418080822175",
+        "Stamina": "80.0",
+        "Current Stamina": "65.60000000000004",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "79"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "41.84042686160621",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "79"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "23.495418080822176",
+        "Stamina": "80.0",
+        "Current Stamina": "65.60000000000004",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "23.495418080822176",
+        "Stamina": "80.0",
+        "Current Stamina": "67.20000000000003",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "80"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "42.00042686160621",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "80"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "23.595418080822178",
+        "Stamina": "80.0",
+        "Current Stamina": "67.20000000000003",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "23.595418080822178",
+        "Stamina": "80.0",
+        "Current Stamina": "68.80000000000003",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "81"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "42.160426861606204",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "81"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "23.69541808082218",
+        "Stamina": "80.0",
+        "Current Stamina": "68.80000000000003",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "23.69541808082218",
+        "Stamina": "80.0",
+        "Current Stamina": "70.40000000000002",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "82"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "42.3204268616062",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "82"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "23.79541808082218",
+        "Stamina": "80.0",
+        "Current Stamina": "70.40000000000002",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "23.79541808082218",
+        "Stamina": "80.0",
+        "Current Stamina": "72.00000000000001",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "83"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "42.4804268616062",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "83"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "23.895418080822182",
+        "Stamina": "80.0",
+        "Current Stamina": "72.00000000000001",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "23.895418080822182",
+        "Stamina": "80.0",
+        "Current Stamina": "73.60000000000001",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "23.895418080822182",
+        "Stamina": "80.0",
+        "Current Stamina": "73.60000000000001",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Nunchuck Swing",
+        "Weapon": "Nunchucks",
+        "Damage Type": "Physical",
+        "Damage Amount": "72.00045232678853"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "0.0",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      }
+    },
+    {
+      "Type": "INFO",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "0.0",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Knock Out"
+      }
+    },
+    {
+      "Type": "INFO",
+      "Source": {
+        "Name": "Backyard"
+      },
+      "Event": {
+        "Name": "Fight End",
+        "Result": "Win",
+        "Result By": "Knock Out"
+      }
+    },
+    {
+      "Type": "INFO",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "0.0",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Lost",
+        "As": "Champion"
+      }
+    },
+    {
+      "Type": "INFO",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "23.895418080822182",
+        "Stamina": "80.0",
+        "Current Stamina": "73.60000000000001",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Won",
+        "As": "Challenger"
+      }
+    }
+  ]
+}

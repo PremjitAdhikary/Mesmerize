@@ -1,0 +1,1882 @@
+{
+  "Champion": "Hero[Flash]",
+  "Challenger": "Ninja[Shuriken Jutsu]",
+  "Arena": "Backyard",
+  "Winner": "Champion",
+  "Beats": 23,
+  "SourceEvent": [
+    {
+      "Type": "INFO",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Mojo": "100.0",
+        "Current Mojo": "20.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Fighter Added",
+        "As": "Champion"
+      }
+    },
+    {
+      "Type": "INFO",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "25.0",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Fighter Added",
+        "As": "Challenger"
+      }
+    },
+    {
+      "Type": "INFO",
+      "Source": {
+        "Name": "Backyard"
+      },
+      "Event": {
+        "Name": "Fight Start"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "0"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Mojo": "100.0",
+        "Current Mojo": "22.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "0"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "26.6",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "1"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Mojo": "100.0",
+        "Current Mojo": "24.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "1"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "28.200000000000003",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "2"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Mojo": "100.0",
+        "Current Mojo": "26.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "2"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "29.800000000000004",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "3"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Mojo": "100.0",
+        "Current Mojo": "28.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "3"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "31.400000000000006",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "4"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Mojo": "100.0",
+        "Current Mojo": "30.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "4"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "33.00000000000001",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "5"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Mojo": "100.0",
+        "Current Mojo": "32.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "5"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "34.60000000000001",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "6"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Mojo": "100.0",
+        "Current Mojo": "34.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "6"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "36.20000000000001",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "7"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Mojo": "100.0",
+        "Current Mojo": "36.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Mojo": "100.0",
+        "Current Mojo": "36.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Kick",
+        "Damage Type": "Physical",
+        "Damage Amount": "65.86423774603432"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "24.13576225396568",
+        "Stamina": "80.0",
+        "Current Stamina": "36.20000000000001",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Evade",
+        "Damage Type": "Physical",
+        "Damage Amount": "65.86423774603432"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "7"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "24.23576225396568",
+        "Stamina": "80.0",
+        "Current Stamina": "36.20000000000001",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "24.23576225396568",
+        "Stamina": "80.0",
+        "Current Stamina": "37.80000000000001",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "8"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Mojo": "100.0",
+        "Current Mojo": "38.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "8"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "24.335762253965683",
+        "Stamina": "80.0",
+        "Current Stamina": "37.80000000000001",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "24.335762253965683",
+        "Stamina": "80.0",
+        "Current Stamina": "39.40000000000001",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "9"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Mojo": "100.0",
+        "Current Mojo": "40.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "9"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "24.435762253965684",
+        "Stamina": "80.0",
+        "Current Stamina": "39.40000000000001",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "24.435762253965684",
+        "Stamina": "80.0",
+        "Current Stamina": "41.000000000000014",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "10"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Mojo": "100.0",
+        "Current Mojo": "42.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "10"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "24.535762253965686",
+        "Stamina": "80.0",
+        "Current Stamina": "41.000000000000014",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "24.535762253965686",
+        "Stamina": "80.0",
+        "Current Stamina": "42.600000000000016",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "11"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Mojo": "100.0",
+        "Current Mojo": "44.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "11"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "24.635762253965687",
+        "Stamina": "80.0",
+        "Current Stamina": "42.600000000000016",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "24.635762253965687",
+        "Stamina": "80.0",
+        "Current Stamina": "44.20000000000002",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "24.635762253965687",
+        "Stamina": "80.0",
+        "Current Stamina": "44.20000000000002",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Kick",
+        "Damage Type": "Physical",
+        "Damage Amount": "32.44833445374522"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Mojo": "100.0",
+        "Current Mojo": "44.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Evade",
+        "Damage Type": "Physical",
+        "Damage Amount": "0.0"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "12"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Mojo": "100.0",
+        "Current Mojo": "46.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "12"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "24.73576225396569",
+        "Stamina": "80.0",
+        "Current Stamina": "44.20000000000002",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "24.73576225396569",
+        "Stamina": "80.0",
+        "Current Stamina": "45.80000000000002",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "13"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Mojo": "100.0",
+        "Current Mojo": "48.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "13"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "24.83576225396569",
+        "Stamina": "80.0",
+        "Current Stamina": "45.80000000000002",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "24.83576225396569",
+        "Stamina": "80.0",
+        "Current Stamina": "47.40000000000002",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "14"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Mojo": "100.0",
+        "Current Mojo": "50.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "14"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "24.93576225396569",
+        "Stamina": "80.0",
+        "Current Stamina": "47.40000000000002",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "24.93576225396569",
+        "Stamina": "80.0",
+        "Current Stamina": "49.00000000000002",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "15"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Mojo": "100.0",
+        "Current Mojo": "52.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Mojo": "100.0",
+        "Current Mojo": "52.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Kick",
+        "Damage Type": "Physical",
+        "Damage Amount": "75.64935701172168"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "24.93576225396569",
+        "Stamina": "80.0",
+        "Current Stamina": "49.00000000000002",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Evade",
+        "Damage Type": "Physical",
+        "Damage Amount": "0.0"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "15"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "25.035762253965693",
+        "Stamina": "80.0",
+        "Current Stamina": "49.00000000000002",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "25.035762253965693",
+        "Stamina": "80.0",
+        "Current Stamina": "50.60000000000002",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "16"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Mojo": "100.0",
+        "Current Mojo": "54.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "16"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "25.135762253965694",
+        "Stamina": "80.0",
+        "Current Stamina": "50.60000000000002",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "25.135762253965694",
+        "Stamina": "80.0",
+        "Current Stamina": "52.200000000000024",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "17"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Mojo": "100.0",
+        "Current Mojo": "56.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "17"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "25.235762253965696",
+        "Stamina": "80.0",
+        "Current Stamina": "52.200000000000024",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "25.235762253965696",
+        "Stamina": "80.0",
+        "Current Stamina": "53.800000000000026",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "18"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Mojo": "100.0",
+        "Current Mojo": "58.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "18"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "25.335762253965697",
+        "Stamina": "80.0",
+        "Current Stamina": "53.800000000000026",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "25.335762253965697",
+        "Stamina": "80.0",
+        "Current Stamina": "55.40000000000003",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "19"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Mojo": "100.0",
+        "Current Mojo": "60.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "19"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "25.4357622539657",
+        "Stamina": "80.0",
+        "Current Stamina": "55.40000000000003",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "25.4357622539657",
+        "Stamina": "80.0",
+        "Current Stamina": "57.00000000000003",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "20"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Mojo": "100.0",
+        "Current Mojo": "62.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "20"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "25.5357622539657",
+        "Stamina": "80.0",
+        "Current Stamina": "57.00000000000003",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "25.5357622539657",
+        "Stamina": "80.0",
+        "Current Stamina": "58.60000000000003",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "21"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Mojo": "100.0",
+        "Current Mojo": "64.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "21"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "25.6357622539657",
+        "Stamina": "80.0",
+        "Current Stamina": "58.60000000000003",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "25.6357622539657",
+        "Stamina": "80.0",
+        "Current Stamina": "60.20000000000003",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "22"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Mojo": "100.0",
+        "Current Mojo": "66.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "22"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "25.735762253965703",
+        "Stamina": "80.0",
+        "Current Stamina": "60.20000000000003",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "25.735762253965703",
+        "Stamina": "80.0",
+        "Current Stamina": "61.80000000000003",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "23"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Mojo": "100.0",
+        "Current Mojo": "68.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Mojo": "100.0",
+        "Current Mojo": "68.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Kick",
+        "Damage Type": "Physical",
+        "Damage Amount": "51.49715008900366"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "0.0",
+        "Stamina": "80.0",
+        "Current Stamina": "61.80000000000003",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      }
+    },
+    {
+      "Type": "INFO",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "0.0",
+        "Stamina": "80.0",
+        "Current Stamina": "61.80000000000003",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Knock Out"
+      }
+    },
+    {
+      "Type": "INFO",
+      "Source": {
+        "Name": "Backyard"
+      },
+      "Event": {
+        "Name": "Fight End",
+        "Result": "Win",
+        "Result By": "Knock Out"
+      }
+    },
+    {
+      "Type": "INFO",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Mojo": "100.0",
+        "Current Mojo": "68.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Won",
+        "As": "Champion"
+      }
+    },
+    {
+      "Type": "INFO",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "0.0",
+        "Stamina": "80.0",
+        "Current Stamina": "61.80000000000003",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Lost",
+        "As": "Challenger"
+      }
+    }
+  ]
+}

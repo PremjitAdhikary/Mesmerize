@@ -1,0 +1,6017 @@
+{
+  "Champion": "Mage[Elemental]",
+  "Challenger": "Hero[Superman]",
+  "Arena": "Backyard",
+  "Winner": "Challenger",
+  "Beats": 63,
+  "SourceEvent": [
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "100.0",
+        "Mana": "90.0",
+        "Current Mana": "20.0"
+      },
+      "Event": {
+        "Name": "Flame Breath",
+        "Switch": "Cooldown",
+        "State": "true"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "100.0",
+        "Mana": "90.0",
+        "Current Mana": "20.0"
+      },
+      "Event": {
+        "Name": "Ice Blast",
+        "Switch": "Cooldown",
+        "State": "true"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "100.0",
+        "Mana": "90.0",
+        "Current Mana": "20.0"
+      },
+      "Event": {
+        "Name": "Fire Shield",
+        "Switch": "Cooldown",
+        "State": "false"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "100.0",
+        "Mana": "90.0",
+        "Current Mana": "20.0"
+      },
+      "Event": {
+        "Name": "Fire Shield",
+        "Switch": "Active",
+        "State": "false"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "100.0",
+        "Mana": "90.0",
+        "Current Mana": "20.0"
+      },
+      "Event": {
+        "Name": "Frozen Wall",
+        "Switch": "Cooldown",
+        "State": "false"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "100.0",
+        "Mana": "90.0",
+        "Current Mana": "20.0"
+      },
+      "Event": {
+        "Name": "Frozen Wall",
+        "Switch": "Active",
+        "State": "false"
+      }
+    },
+    {
+      "Type": "INFO",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "100.0",
+        "Mana": "90.0",
+        "Current Mana": "20.0"
+      },
+      "Event": {
+        "Name": "Fighter Added",
+        "As": "Champion"
+      }
+    },
+    {
+      "Type": "INFO",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "450.0",
+        "Mojo": "180.0",
+        "Current Mojo": "40.0",
+        "Strength": "400.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Fighter Added",
+        "As": "Challenger"
+      }
+    },
+    {
+      "Type": "INFO",
+      "Source": {
+        "Name": "Backyard"
+      },
+      "Event": {
+        "Name": "Fight Start"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "0"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "100.0",
+        "Mana": "90.0",
+        "Current Mana": "24.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "0"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "450.0",
+        "Mojo": "180.0",
+        "Current Mojo": "43.0",
+        "Strength": "400.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "1"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "100.0",
+        "Mana": "90.0",
+        "Current Mana": "28.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "1"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "450.0",
+        "Mojo": "180.0",
+        "Current Mojo": "46.0",
+        "Strength": "400.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "2"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "100.0",
+        "Mana": "90.0",
+        "Current Mana": "32.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "2"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "450.0",
+        "Mojo": "180.0",
+        "Current Mojo": "49.0",
+        "Strength": "400.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "3"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "100.0",
+        "Mana": "90.0",
+        "Current Mana": "36.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "3"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "450.0",
+        "Mojo": "180.0",
+        "Current Mojo": "52.0",
+        "Strength": "400.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "4"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "100.0",
+        "Mana": "90.0",
+        "Current Mana": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "4"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "450.0",
+        "Mojo": "180.0",
+        "Current Mojo": "55.0",
+        "Strength": "400.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "5"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "100.0",
+        "Mana": "90.0",
+        "Current Mana": "44.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "5"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "450.0",
+        "Mojo": "180.0",
+        "Current Mojo": "58.0",
+        "Strength": "400.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "6"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "100.0",
+        "Mana": "90.0",
+        "Current Mana": "48.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "6"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "450.0",
+        "Mojo": "180.0",
+        "Current Mojo": "61.0",
+        "Strength": "400.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "7"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "100.0",
+        "Mana": "90.0",
+        "Current Mana": "52.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "7"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "450.0",
+        "Mojo": "180.0",
+        "Current Mojo": "64.0",
+        "Strength": "400.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "8"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "100.0",
+        "Mana": "90.0",
+        "Current Mana": "56.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "8"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "450.0",
+        "Mojo": "180.0",
+        "Current Mojo": "67.0",
+        "Strength": "400.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "9"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "100.0",
+        "Mana": "90.0",
+        "Current Mana": "60.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "9"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "450.0",
+        "Mojo": "180.0",
+        "Current Mojo": "70.0",
+        "Strength": "400.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "10"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "100.0",
+        "Mana": "90.0",
+        "Current Mana": "64.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "10"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "450.0",
+        "Mojo": "180.0",
+        "Current Mojo": "73.0",
+        "Strength": "400.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "11"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "100.0",
+        "Mana": "90.0",
+        "Current Mana": "68.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "11"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "450.0",
+        "Mojo": "180.0",
+        "Current Mojo": "76.0",
+        "Strength": "400.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "450.0",
+        "Mojo": "180.0",
+        "Current Mojo": "76.0",
+        "Strength": "400.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Punch",
+        "Damage Type": "Physical",
+        "Damage Amount": "113.14104881633595"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "100.0",
+        "Mana": "90.0",
+        "Current Mana": "53.0"
+      },
+      "Event": {
+        "Name": "Frozen Wall",
+        "Switch": "Active",
+        "State": "true"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "100.0",
+        "Mana": "90.0",
+        "Current Mana": "53.0"
+      },
+      "Event": {
+        "Name": "Frozen Wall",
+        "Switch": "Cooldown",
+        "State": "true"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "65.0",
+        "Mana": "90.0",
+        "Current Mana": "53.0"
+      },
+      "Event": {
+        "Name": "Frozen Wall",
+        "Damage Type": "Physical",
+        "Damage Amount": "35.0"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "65.0",
+        "Mana": "90.0",
+        "Current Mana": "53.0"
+      },
+      "Event": {
+        "Name": "Chill",
+        "Damage Type": "Cold",
+        "Damage Amount": "5.738842949408591",
+        "Duration": "55",
+        "Deterioration Percentage": "10.0"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "444.2611570505914",
+        "Mojo": "180.0",
+        "Current Mojo": "76.0",
+        "Strength": "400.0",
+        "Dexterity": "72.0"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "12"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "65.1",
+        "Mana": "90.0",
+        "Current Mana": "53.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "65.1",
+        "Mana": "90.0",
+        "Current Mana": "57.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "12"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "445.2611570505914",
+        "Mojo": "180.0",
+        "Current Mojo": "76.0",
+        "Strength": "400.0",
+        "Dexterity": "72.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "445.2611570505914",
+        "Mojo": "180.0",
+        "Current Mojo": "79.0",
+        "Strength": "400.0",
+        "Dexterity": "72.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "13"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "65.19999999999999",
+        "Mana": "90.0",
+        "Current Mana": "57.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "65.19999999999999",
+        "Mana": "90.0",
+        "Current Mana": "61.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "13"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "446.2611570505914",
+        "Mojo": "180.0",
+        "Current Mojo": "79.0",
+        "Strength": "400.0",
+        "Dexterity": "72.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "446.2611570505914",
+        "Mojo": "180.0",
+        "Current Mojo": "82.0",
+        "Strength": "400.0",
+        "Dexterity": "72.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "14"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "65.29999999999998",
+        "Mana": "90.0",
+        "Current Mana": "61.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "65.29999999999998",
+        "Mana": "90.0",
+        "Current Mana": "65.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "14"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "447.2611570505914",
+        "Mojo": "180.0",
+        "Current Mojo": "82.0",
+        "Strength": "400.0",
+        "Dexterity": "72.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "447.2611570505914",
+        "Mojo": "180.0",
+        "Current Mojo": "85.0",
+        "Strength": "400.0",
+        "Dexterity": "72.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "15"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "65.39999999999998",
+        "Mana": "90.0",
+        "Current Mana": "65.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "65.39999999999998",
+        "Mana": "90.0",
+        "Current Mana": "69.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "65.39999999999998",
+        "Mana": "90.0",
+        "Current Mana": "69.0"
+      },
+      "Event": {
+        "Name": "Flame Breath",
+        "Switch": "Cooldown",
+        "State": "false"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "15"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "448.2611570505914",
+        "Mojo": "180.0",
+        "Current Mojo": "85.0",
+        "Strength": "400.0",
+        "Dexterity": "72.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "448.2611570505914",
+        "Mojo": "180.0",
+        "Current Mojo": "88.0",
+        "Strength": "400.0",
+        "Dexterity": "72.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "16"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "65.49999999999997",
+        "Mana": "90.0",
+        "Current Mana": "69.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "65.49999999999997",
+        "Mana": "90.0",
+        "Current Mana": "73.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "65.49999999999997",
+        "Mana": "90.0",
+        "Current Mana": "38.0"
+      },
+      "Event": {
+        "Name": "Flame Breath",
+        "Switch": "Cooldown",
+        "State": "true"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "65.49999999999997",
+        "Mana": "90.0",
+        "Current Mana": "38.0"
+      },
+      "Event": {
+        "Name": "Flame Breath",
+        "Damage Type": "Fire",
+        "Damage Amount": "82.32758854464166",
+        "Duration": "5",
+        "Burn Damage": "15.0"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "365.9335685059498",
+        "Mojo": "180.0",
+        "Current Mojo": "88.0",
+        "Strength": "400.0",
+        "Dexterity": "72.0"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "16"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "366.9335685059498",
+        "Mojo": "180.0",
+        "Current Mojo": "88.0",
+        "Strength": "400.0",
+        "Dexterity": "72.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "366.9335685059498",
+        "Mojo": "180.0",
+        "Current Mojo": "91.0",
+        "Strength": "400.0",
+        "Dexterity": "72.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "363.9335685059498",
+        "Mojo": "180.0",
+        "Current Mojo": "91.0",
+        "Strength": "400.0",
+        "Dexterity": "72.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "17"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "65.59999999999997",
+        "Mana": "90.0",
+        "Current Mana": "38.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "65.59999999999997",
+        "Mana": "90.0",
+        "Current Mana": "42.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "17"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "364.9335685059498",
+        "Mojo": "180.0",
+        "Current Mojo": "91.0",
+        "Strength": "400.0",
+        "Dexterity": "72.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "364.9335685059498",
+        "Mojo": "180.0",
+        "Current Mojo": "94.0",
+        "Strength": "400.0",
+        "Dexterity": "72.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "361.9335685059498",
+        "Mojo": "180.0",
+        "Current Mojo": "94.0",
+        "Strength": "400.0",
+        "Dexterity": "72.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "18"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "65.69999999999996",
+        "Mana": "90.0",
+        "Current Mana": "42.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "65.69999999999996",
+        "Mana": "90.0",
+        "Current Mana": "46.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "18"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "362.9335685059498",
+        "Mojo": "180.0",
+        "Current Mojo": "94.0",
+        "Strength": "400.0",
+        "Dexterity": "72.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "362.9335685059498",
+        "Mojo": "180.0",
+        "Current Mojo": "97.0",
+        "Strength": "400.0",
+        "Dexterity": "72.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "359.9335685059498",
+        "Mojo": "180.0",
+        "Current Mojo": "97.0",
+        "Strength": "400.0",
+        "Dexterity": "72.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "19"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "65.79999999999995",
+        "Mana": "90.0",
+        "Current Mana": "46.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "65.79999999999995",
+        "Mana": "90.0",
+        "Current Mana": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "19"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "360.9335685059498",
+        "Mojo": "180.0",
+        "Current Mojo": "97.0",
+        "Strength": "400.0",
+        "Dexterity": "72.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "360.9335685059498",
+        "Mojo": "180.0",
+        "Current Mojo": "100.0",
+        "Strength": "400.0",
+        "Dexterity": "72.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "357.9335685059498",
+        "Mojo": "180.0",
+        "Current Mojo": "100.0",
+        "Strength": "400.0",
+        "Dexterity": "72.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "20"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "65.89999999999995",
+        "Mana": "90.0",
+        "Current Mana": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "65.89999999999995",
+        "Mana": "90.0",
+        "Current Mana": "54.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "65.89999999999995",
+        "Mana": "90.0",
+        "Current Mana": "54.0"
+      },
+      "Event": {
+        "Name": "Ice Blast",
+        "Switch": "Cooldown",
+        "State": "false"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "20"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "358.9335685059498",
+        "Mojo": "180.0",
+        "Current Mojo": "100.0",
+        "Strength": "400.0",
+        "Dexterity": "72.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "358.9335685059498",
+        "Mojo": "180.0",
+        "Current Mojo": "103.0",
+        "Strength": "400.0",
+        "Dexterity": "72.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "355.9335685059498",
+        "Mojo": "180.0",
+        "Current Mojo": "103.0",
+        "Strength": "400.0",
+        "Dexterity": "72.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "21"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "65.99999999999994",
+        "Mana": "90.0",
+        "Current Mana": "54.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "65.99999999999994",
+        "Mana": "90.0",
+        "Current Mana": "58.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "65.99999999999994",
+        "Mana": "90.0",
+        "Current Mana": "13.0"
+      },
+      "Event": {
+        "Name": "Ice Blast",
+        "Switch": "Cooldown",
+        "State": "true"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "65.99999999999994",
+        "Mana": "90.0",
+        "Current Mana": "13.0"
+      },
+      "Event": {
+        "Name": "Ice Blast",
+        "Damage Type": "Cold",
+        "Damage Amount": "34.626415977810204",
+        "Duration": "40",
+        "Deterioration Percentage": "30.0"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "321.30715252813957",
+        "Mojo": "180.0",
+        "Current Mojo": "103.0",
+        "Strength": "400.0",
+        "Dexterity": "48.0"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "21"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "322.30715252813957",
+        "Mojo": "180.0",
+        "Current Mojo": "103.0",
+        "Strength": "400.0",
+        "Dexterity": "48.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "322.30715252813957",
+        "Mojo": "180.0",
+        "Current Mojo": "106.0",
+        "Strength": "400.0",
+        "Dexterity": "48.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "22"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "66.09999999999994",
+        "Mana": "90.0",
+        "Current Mana": "13.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "66.09999999999994",
+        "Mana": "90.0",
+        "Current Mana": "17.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "22"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "323.30715252813957",
+        "Mojo": "180.0",
+        "Current Mojo": "106.0",
+        "Strength": "400.0",
+        "Dexterity": "48.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "323.30715252813957",
+        "Mojo": "180.0",
+        "Current Mojo": "109.0",
+        "Strength": "400.0",
+        "Dexterity": "48.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "23"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "66.19999999999993",
+        "Mana": "90.0",
+        "Current Mana": "17.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "66.19999999999993",
+        "Mana": "90.0",
+        "Current Mana": "21.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "23"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "324.30715252813957",
+        "Mojo": "180.0",
+        "Current Mojo": "109.0",
+        "Strength": "400.0",
+        "Dexterity": "48.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "324.30715252813957",
+        "Mojo": "180.0",
+        "Current Mojo": "112.0",
+        "Strength": "400.0",
+        "Dexterity": "48.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "24"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "66.29999999999993",
+        "Mana": "90.0",
+        "Current Mana": "21.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "66.29999999999993",
+        "Mana": "90.0",
+        "Current Mana": "25.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "24"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "325.30715252813957",
+        "Mojo": "180.0",
+        "Current Mojo": "112.0",
+        "Strength": "400.0",
+        "Dexterity": "48.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "325.30715252813957",
+        "Mojo": "180.0",
+        "Current Mojo": "115.0",
+        "Strength": "400.0",
+        "Dexterity": "48.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "25"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "66.39999999999992",
+        "Mana": "90.0",
+        "Current Mana": "25.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "66.39999999999992",
+        "Mana": "90.0",
+        "Current Mana": "29.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "25"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "326.30715252813957",
+        "Mojo": "180.0",
+        "Current Mojo": "115.0",
+        "Strength": "400.0",
+        "Dexterity": "48.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "326.30715252813957",
+        "Mojo": "180.0",
+        "Current Mojo": "118.0",
+        "Strength": "400.0",
+        "Dexterity": "48.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "26"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "66.49999999999991",
+        "Mana": "90.0",
+        "Current Mana": "29.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "66.49999999999991",
+        "Mana": "90.0",
+        "Current Mana": "33.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "26"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "327.30715252813957",
+        "Mojo": "180.0",
+        "Current Mojo": "118.0",
+        "Strength": "400.0",
+        "Dexterity": "48.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "327.30715252813957",
+        "Mojo": "180.0",
+        "Current Mojo": "121.0",
+        "Strength": "400.0",
+        "Dexterity": "48.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "27"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "66.59999999999991",
+        "Mana": "90.0",
+        "Current Mana": "33.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "66.59999999999991",
+        "Mana": "90.0",
+        "Current Mana": "37.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "27"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "328.30715252813957",
+        "Mojo": "180.0",
+        "Current Mojo": "121.0",
+        "Strength": "400.0",
+        "Dexterity": "48.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "328.30715252813957",
+        "Mojo": "180.0",
+        "Current Mojo": "124.0",
+        "Strength": "400.0",
+        "Dexterity": "48.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "28"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "66.6999999999999",
+        "Mana": "90.0",
+        "Current Mana": "37.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "66.6999999999999",
+        "Mana": "90.0",
+        "Current Mana": "41.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "28"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "329.30715252813957",
+        "Mojo": "180.0",
+        "Current Mojo": "124.0",
+        "Strength": "400.0",
+        "Dexterity": "48.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "329.30715252813957",
+        "Mojo": "180.0",
+        "Current Mojo": "127.0",
+        "Strength": "400.0",
+        "Dexterity": "48.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "29"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "66.7999999999999",
+        "Mana": "90.0",
+        "Current Mana": "41.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "66.7999999999999",
+        "Mana": "90.0",
+        "Current Mana": "45.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "29"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "330.30715252813957",
+        "Mojo": "180.0",
+        "Current Mojo": "127.0",
+        "Strength": "400.0",
+        "Dexterity": "48.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "330.30715252813957",
+        "Mojo": "180.0",
+        "Current Mojo": "130.0",
+        "Strength": "400.0",
+        "Dexterity": "48.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "30"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "66.89999999999989",
+        "Mana": "90.0",
+        "Current Mana": "45.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "66.89999999999989",
+        "Mana": "90.0",
+        "Current Mana": "49.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "30"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "331.30715252813957",
+        "Mojo": "180.0",
+        "Current Mojo": "130.0",
+        "Strength": "400.0",
+        "Dexterity": "48.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "331.30715252813957",
+        "Mojo": "180.0",
+        "Current Mojo": "133.0",
+        "Strength": "400.0",
+        "Dexterity": "48.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "31"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "66.99999999999989",
+        "Mana": "90.0",
+        "Current Mana": "49.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "66.99999999999989",
+        "Mana": "90.0",
+        "Current Mana": "53.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "31"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "332.30715252813957",
+        "Mojo": "180.0",
+        "Current Mojo": "133.0",
+        "Strength": "400.0",
+        "Dexterity": "48.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "332.30715252813957",
+        "Mojo": "180.0",
+        "Current Mojo": "136.0",
+        "Strength": "400.0",
+        "Dexterity": "48.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "32"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "67.09999999999988",
+        "Mana": "90.0",
+        "Current Mana": "53.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "67.09999999999988",
+        "Mana": "90.0",
+        "Current Mana": "57.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "67.09999999999988",
+        "Mana": "90.0",
+        "Current Mana": "57.0"
+      },
+      "Event": {
+        "Name": "Flame Breath",
+        "Switch": "Cooldown",
+        "State": "false"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "32"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "333.30715252813957",
+        "Mojo": "180.0",
+        "Current Mojo": "136.0",
+        "Strength": "400.0",
+        "Dexterity": "48.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "333.30715252813957",
+        "Mojo": "180.0",
+        "Current Mojo": "139.0",
+        "Strength": "400.0",
+        "Dexterity": "48.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "33"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "67.19999999999987",
+        "Mana": "90.0",
+        "Current Mana": "57.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "67.19999999999987",
+        "Mana": "90.0",
+        "Current Mana": "61.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "67.19999999999987",
+        "Mana": "90.0",
+        "Current Mana": "26.0"
+      },
+      "Event": {
+        "Name": "Flame Breath",
+        "Switch": "Cooldown",
+        "State": "true"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "67.19999999999987",
+        "Mana": "90.0",
+        "Current Mana": "26.0"
+      },
+      "Event": {
+        "Name": "Flame Breath",
+        "Damage Type": "Fire",
+        "Damage Amount": "78.47831665249349",
+        "Duration": "5",
+        "Burn Damage": "15.0"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "254.82883587564606",
+        "Mojo": "180.0",
+        "Current Mojo": "139.0",
+        "Strength": "400.0",
+        "Dexterity": "48.0"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "33"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "255.82883587564606",
+        "Mojo": "180.0",
+        "Current Mojo": "139.0",
+        "Strength": "400.0",
+        "Dexterity": "48.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "255.82883587564606",
+        "Mojo": "180.0",
+        "Current Mojo": "142.0",
+        "Strength": "400.0",
+        "Dexterity": "48.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "252.82883587564606",
+        "Mojo": "180.0",
+        "Current Mojo": "142.0",
+        "Strength": "400.0",
+        "Dexterity": "48.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "34"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "67.29999999999987",
+        "Mana": "90.0",
+        "Current Mana": "26.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "67.29999999999987",
+        "Mana": "90.0",
+        "Current Mana": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "34"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "253.82883587564606",
+        "Mojo": "180.0",
+        "Current Mojo": "142.0",
+        "Strength": "400.0",
+        "Dexterity": "48.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "253.82883587564606",
+        "Mojo": "180.0",
+        "Current Mojo": "145.0",
+        "Strength": "400.0",
+        "Dexterity": "48.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "250.82883587564606",
+        "Mojo": "180.0",
+        "Current Mojo": "145.0",
+        "Strength": "400.0",
+        "Dexterity": "48.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "35"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "67.39999999999986",
+        "Mana": "90.0",
+        "Current Mana": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "67.39999999999986",
+        "Mana": "90.0",
+        "Current Mana": "34.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "35"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "251.82883587564606",
+        "Mojo": "180.0",
+        "Current Mojo": "145.0",
+        "Strength": "400.0",
+        "Dexterity": "48.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "251.82883587564606",
+        "Mojo": "180.0",
+        "Current Mojo": "148.0",
+        "Strength": "400.0",
+        "Dexterity": "48.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "248.82883587564606",
+        "Mojo": "180.0",
+        "Current Mojo": "148.0",
+        "Strength": "400.0",
+        "Dexterity": "48.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "36"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "67.49999999999986",
+        "Mana": "90.0",
+        "Current Mana": "34.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "67.49999999999986",
+        "Mana": "90.0",
+        "Current Mana": "38.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "36"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "249.82883587564606",
+        "Mojo": "180.0",
+        "Current Mojo": "148.0",
+        "Strength": "400.0",
+        "Dexterity": "48.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "249.82883587564606",
+        "Mojo": "180.0",
+        "Current Mojo": "151.0",
+        "Strength": "400.0",
+        "Dexterity": "48.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "249.82883587564606",
+        "Mojo": "180.0",
+        "Current Mojo": "151.0",
+        "Strength": "400.0",
+        "Dexterity": "48.0"
+      },
+      "Event": {
+        "Name": "Punch",
+        "Damage Type": "Physical",
+        "Damage Amount": "111.9253531370395"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "32.49999999999986",
+        "Mana": "90.0",
+        "Current Mana": "38.0"
+      },
+      "Event": {
+        "Name": "Frozen Wall",
+        "Damage Type": "Physical",
+        "Damage Amount": "35.0"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "32.49999999999986",
+        "Mana": "90.0",
+        "Current Mana": "38.0"
+      },
+      "Event": {
+        "Name": "Chill",
+        "Damage Type": "Cold",
+        "Damage Amount": "5.8503993626846515",
+        "Duration": "55",
+        "Deterioration Percentage": "10.0"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "243.97843651296142",
+        "Mojo": "180.0",
+        "Current Mojo": "151.0",
+        "Strength": "400.0",
+        "Dexterity": "40.0"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "240.97843651296142",
+        "Mojo": "180.0",
+        "Current Mojo": "151.0",
+        "Strength": "400.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "37"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "32.59999999999986",
+        "Mana": "90.0",
+        "Current Mana": "38.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "32.59999999999986",
+        "Mana": "90.0",
+        "Current Mana": "42.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "37"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "241.97843651296142",
+        "Mojo": "180.0",
+        "Current Mojo": "151.0",
+        "Strength": "400.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "241.97843651296142",
+        "Mojo": "180.0",
+        "Current Mojo": "154.0",
+        "Strength": "400.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "238.97843651296142",
+        "Mojo": "180.0",
+        "Current Mojo": "154.0",
+        "Strength": "400.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "38"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "32.69999999999986",
+        "Mana": "90.0",
+        "Current Mana": "42.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "32.69999999999986",
+        "Mana": "90.0",
+        "Current Mana": "46.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "38"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "239.97843651296142",
+        "Mojo": "180.0",
+        "Current Mojo": "154.0",
+        "Strength": "400.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "239.97843651296142",
+        "Mojo": "180.0",
+        "Current Mojo": "157.0",
+        "Strength": "400.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "39"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "32.79999999999986",
+        "Mana": "90.0",
+        "Current Mana": "46.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "32.79999999999986",
+        "Mana": "90.0",
+        "Current Mana": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "39"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "240.97843651296142",
+        "Mojo": "180.0",
+        "Current Mojo": "157.0",
+        "Strength": "400.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "240.97843651296142",
+        "Mojo": "180.0",
+        "Current Mojo": "160.0",
+        "Strength": "400.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "40"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "32.899999999999864",
+        "Mana": "90.0",
+        "Current Mana": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "32.899999999999864",
+        "Mana": "90.0",
+        "Current Mana": "54.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "40"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "241.97843651296142",
+        "Mojo": "180.0",
+        "Current Mojo": "160.0",
+        "Strength": "400.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "241.97843651296142",
+        "Mojo": "180.0",
+        "Current Mojo": "163.0",
+        "Strength": "400.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "41"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "32.999999999999865",
+        "Mana": "90.0",
+        "Current Mana": "54.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "32.999999999999865",
+        "Mana": "90.0",
+        "Current Mana": "58.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "41"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "242.97843651296142",
+        "Mojo": "180.0",
+        "Current Mojo": "163.0",
+        "Strength": "400.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "242.97843651296142",
+        "Mojo": "180.0",
+        "Current Mojo": "166.0",
+        "Strength": "400.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "42"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "33.099999999999866",
+        "Mana": "90.0",
+        "Current Mana": "58.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "33.099999999999866",
+        "Mana": "90.0",
+        "Current Mana": "62.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "33.099999999999866",
+        "Mana": "90.0",
+        "Current Mana": "62.0"
+      },
+      "Event": {
+        "Name": "Ice Blast",
+        "Switch": "Cooldown",
+        "State": "false"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "42"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "243.97843651296142",
+        "Mojo": "180.0",
+        "Current Mojo": "166.0",
+        "Strength": "400.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "243.97843651296142",
+        "Mojo": "180.0",
+        "Current Mojo": "169.0",
+        "Strength": "400.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "43"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "33.19999999999987",
+        "Mana": "90.0",
+        "Current Mana": "62.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "33.19999999999987",
+        "Mana": "90.0",
+        "Current Mana": "66.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "33.19999999999987",
+        "Mana": "90.0",
+        "Current Mana": "21.0"
+      },
+      "Event": {
+        "Name": "Ice Blast",
+        "Switch": "Cooldown",
+        "State": "true"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "33.19999999999987",
+        "Mana": "90.0",
+        "Current Mana": "21.0"
+      },
+      "Event": {
+        "Name": "Ice Blast",
+        "Damage Type": "Cold",
+        "Damage Amount": "31.22108276642145",
+        "Duration": "40",
+        "Deterioration Percentage": "30.0"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "212.75735374653996",
+        "Mojo": "180.0",
+        "Current Mojo": "169.0",
+        "Strength": "400.0",
+        "Dexterity": "16.0"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "43"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "213.75735374653996",
+        "Mojo": "180.0",
+        "Current Mojo": "169.0",
+        "Strength": "400.0",
+        "Dexterity": "16.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "213.75735374653996",
+        "Mojo": "180.0",
+        "Current Mojo": "172.0",
+        "Strength": "400.0",
+        "Dexterity": "16.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "44"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "33.29999999999987",
+        "Mana": "90.0",
+        "Current Mana": "21.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "33.29999999999987",
+        "Mana": "90.0",
+        "Current Mana": "25.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "44"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "214.75735374653996",
+        "Mojo": "180.0",
+        "Current Mojo": "172.0",
+        "Strength": "400.0",
+        "Dexterity": "16.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "214.75735374653996",
+        "Mojo": "180.0",
+        "Current Mojo": "175.0",
+        "Strength": "400.0",
+        "Dexterity": "16.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "45"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "33.39999999999987",
+        "Mana": "90.0",
+        "Current Mana": "25.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "33.39999999999987",
+        "Mana": "90.0",
+        "Current Mana": "29.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "45"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "215.75735374653996",
+        "Mojo": "180.0",
+        "Current Mojo": "175.0",
+        "Strength": "400.0",
+        "Dexterity": "16.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "215.75735374653996",
+        "Mojo": "180.0",
+        "Current Mojo": "178.0",
+        "Strength": "400.0",
+        "Dexterity": "16.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "46"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "33.49999999999987",
+        "Mana": "90.0",
+        "Current Mana": "29.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "33.49999999999987",
+        "Mana": "90.0",
+        "Current Mana": "33.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "46"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "216.75735374653996",
+        "Mojo": "180.0",
+        "Current Mojo": "178.0",
+        "Strength": "400.0",
+        "Dexterity": "16.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "216.75735374653996",
+        "Mojo": "180.0",
+        "Current Mojo": "180.0",
+        "Strength": "400.0",
+        "Dexterity": "16.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "47"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "33.59999999999987",
+        "Mana": "90.0",
+        "Current Mana": "33.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "33.59999999999987",
+        "Mana": "90.0",
+        "Current Mana": "37.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "33.59999999999987",
+        "Mana": "90.0",
+        "Current Mana": "37.0"
+      },
+      "Event": {
+        "Name": "Frozen Wall",
+        "Switch": "Cooldown",
+        "State": "false"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "47"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "217.75735374653996",
+        "Mojo": "180.0",
+        "Current Mojo": "180.0",
+        "Strength": "400.0",
+        "Dexterity": "16.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "48"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "33.699999999999875",
+        "Mana": "90.0",
+        "Current Mana": "37.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "33.699999999999875",
+        "Mana": "90.0",
+        "Current Mana": "41.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "48"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "218.75735374653996",
+        "Mojo": "180.0",
+        "Current Mojo": "180.0",
+        "Strength": "400.0",
+        "Dexterity": "16.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "49"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "33.799999999999876",
+        "Mana": "90.0",
+        "Current Mana": "41.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "33.799999999999876",
+        "Mana": "90.0",
+        "Current Mana": "45.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "33.799999999999876",
+        "Mana": "90.0",
+        "Current Mana": "45.0"
+      },
+      "Event": {
+        "Name": "Flame Breath",
+        "Switch": "Cooldown",
+        "State": "false"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "49"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "219.75735374653996",
+        "Mojo": "180.0",
+        "Current Mojo": "180.0",
+        "Strength": "400.0",
+        "Dexterity": "16.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "50"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "33.89999999999988",
+        "Mana": "90.0",
+        "Current Mana": "45.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "33.89999999999988",
+        "Mana": "90.0",
+        "Current Mana": "49.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "33.89999999999988",
+        "Mana": "90.0",
+        "Current Mana": "14.0"
+      },
+      "Event": {
+        "Name": "Flame Breath",
+        "Switch": "Cooldown",
+        "State": "true"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "33.89999999999988",
+        "Mana": "90.0",
+        "Current Mana": "14.0"
+      },
+      "Event": {
+        "Name": "Flame Breath",
+        "Damage Type": "Fire",
+        "Damage Amount": "75.05984808943676",
+        "Duration": "5",
+        "Burn Damage": "15.0"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "144.6975056571032",
+        "Mojo": "180.0",
+        "Current Mojo": "180.0",
+        "Strength": "400.0",
+        "Dexterity": "16.0"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "50"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "145.6975056571032",
+        "Mojo": "180.0",
+        "Current Mojo": "180.0",
+        "Strength": "400.0",
+        "Dexterity": "16.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "142.6975056571032",
+        "Mojo": "180.0",
+        "Current Mojo": "180.0",
+        "Strength": "400.0",
+        "Dexterity": "16.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "51"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "33.99999999999988",
+        "Mana": "90.0",
+        "Current Mana": "14.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "33.99999999999988",
+        "Mana": "90.0",
+        "Current Mana": "18.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "51"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "143.6975056571032",
+        "Mojo": "180.0",
+        "Current Mojo": "180.0",
+        "Strength": "400.0",
+        "Dexterity": "16.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "140.6975056571032",
+        "Mojo": "180.0",
+        "Current Mojo": "180.0",
+        "Strength": "400.0",
+        "Dexterity": "16.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "52"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "34.09999999999988",
+        "Mana": "90.0",
+        "Current Mana": "18.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "34.09999999999988",
+        "Mana": "90.0",
+        "Current Mana": "22.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "52"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "141.6975056571032",
+        "Mojo": "180.0",
+        "Current Mojo": "180.0",
+        "Strength": "400.0",
+        "Dexterity": "16.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "138.6975056571032",
+        "Mojo": "180.0",
+        "Current Mojo": "180.0",
+        "Strength": "400.0",
+        "Dexterity": "16.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "53"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "34.19999999999988",
+        "Mana": "90.0",
+        "Current Mana": "22.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "34.19999999999988",
+        "Mana": "90.0",
+        "Current Mana": "26.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "53"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "139.6975056571032",
+        "Mojo": "180.0",
+        "Current Mojo": "180.0",
+        "Strength": "400.0",
+        "Dexterity": "16.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "136.6975056571032",
+        "Mojo": "180.0",
+        "Current Mojo": "180.0",
+        "Strength": "400.0",
+        "Dexterity": "16.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "54"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "34.29999999999988",
+        "Mana": "90.0",
+        "Current Mana": "26.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "34.29999999999988",
+        "Mana": "90.0",
+        "Current Mana": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "54"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "137.6975056571032",
+        "Mojo": "180.0",
+        "Current Mojo": "180.0",
+        "Strength": "400.0",
+        "Dexterity": "16.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "134.6975056571032",
+        "Mojo": "180.0",
+        "Current Mojo": "180.0",
+        "Strength": "400.0",
+        "Dexterity": "16.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "55"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "34.399999999999885",
+        "Mana": "90.0",
+        "Current Mana": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "34.399999999999885",
+        "Mana": "90.0",
+        "Current Mana": "34.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "55"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "135.6975056571032",
+        "Mojo": "180.0",
+        "Current Mojo": "180.0",
+        "Strength": "400.0",
+        "Dexterity": "16.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "56"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "34.499999999999886",
+        "Mana": "90.0",
+        "Current Mana": "34.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "34.499999999999886",
+        "Mana": "90.0",
+        "Current Mana": "38.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "56"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "136.6975056571032",
+        "Mojo": "180.0",
+        "Current Mojo": "180.0",
+        "Strength": "400.0",
+        "Dexterity": "16.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "57"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "34.59999999999989",
+        "Mana": "90.0",
+        "Current Mana": "38.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "34.59999999999989",
+        "Mana": "90.0",
+        "Current Mana": "42.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "57"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "137.6975056571032",
+        "Mojo": "180.0",
+        "Current Mojo": "180.0",
+        "Strength": "400.0",
+        "Dexterity": "16.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "58"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "34.69999999999989",
+        "Mana": "90.0",
+        "Current Mana": "42.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "34.69999999999989",
+        "Mana": "90.0",
+        "Current Mana": "46.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "58"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "138.6975056571032",
+        "Mojo": "180.0",
+        "Current Mojo": "180.0",
+        "Strength": "400.0",
+        "Dexterity": "16.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "59"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "34.79999999999989",
+        "Mana": "90.0",
+        "Current Mana": "46.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "34.79999999999989",
+        "Mana": "90.0",
+        "Current Mana": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "59"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "139.6975056571032",
+        "Mojo": "180.0",
+        "Current Mojo": "180.0",
+        "Strength": "400.0",
+        "Dexterity": "16.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "60"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "34.89999999999989",
+        "Mana": "90.0",
+        "Current Mana": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "34.89999999999989",
+        "Mana": "90.0",
+        "Current Mana": "54.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "60"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "140.6975056571032",
+        "Mojo": "180.0",
+        "Current Mojo": "180.0",
+        "Strength": "400.0",
+        "Dexterity": "16.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "61"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "34.99999999999989",
+        "Mana": "90.0",
+        "Current Mana": "54.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "34.99999999999989",
+        "Mana": "90.0",
+        "Current Mana": "58.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "61"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "141.6975056571032",
+        "Mojo": "180.0",
+        "Current Mojo": "180.0",
+        "Strength": "400.0",
+        "Dexterity": "16.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "62"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "35.099999999999895",
+        "Mana": "90.0",
+        "Current Mana": "58.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "35.099999999999895",
+        "Mana": "90.0",
+        "Current Mana": "62.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "62"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "142.6975056571032",
+        "Mojo": "180.0",
+        "Current Mojo": "180.0",
+        "Strength": "400.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "142.6975056571032",
+        "Mojo": "180.0",
+        "Current Mojo": "20.0",
+        "Strength": "400.0",
+        "Dexterity": "40.0"
+      },
+      "Event": {
+        "Name": "Heat Vision",
+        "Damage Type": "Fire",
+        "Damage Amount": "100.0",
+        "Duration": "4",
+        "Burn Damage": "20.0"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "0.09999999999989484",
+        "Mana": "90.0",
+        "Current Mana": "62.0"
+      },
+      "Event": {
+        "Name": "Frozen Wall",
+        "Damage Type": "Fire",
+        "Damage Amount": "35.0",
+        "Duration": "4",
+        "Burn Damage": "14.0"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "0.09999999999989484",
+        "Mana": "90.0",
+        "Current Mana": "62.0"
+      },
+      "Event": {
+        "Name": "Chill",
+        "Damage Type": "Cold",
+        "Damage Amount": "5.625634644387737",
+        "Duration": "55",
+        "Deterioration Percentage": "10.0"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "137.07187101271546",
+        "Mojo": "180.0",
+        "Current Mojo": "20.0",
+        "Strength": "400.0",
+        "Dexterity": "32.0"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "63"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "0.19999999999989485",
+        "Mana": "90.0",
+        "Current Mana": "62.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "0.19999999999989485",
+        "Mana": "90.0",
+        "Current Mana": "66.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "0.0",
+        "Mana": "90.0",
+        "Current Mana": "66.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "INFO",
+      "Source": {
+        "Name": "Backyard"
+      },
+      "Event": {
+        "Name": "Fight End",
+        "Result": "Win",
+        "Result By": "Knock Out"
+      }
+    },
+    {
+      "Type": "INFO",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Elemental",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Elemental",
+        "Life": "100.0",
+        "Current Life": "0.0",
+        "Mana": "90.0",
+        "Current Mana": "66.0"
+      },
+      "Event": {
+        "Name": "Lost",
+        "As": "Champion"
+      }
+    },
+    {
+      "Type": "INFO",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Superman",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Superman",
+        "Life": "450.0",
+        "Current Life": "137.07187101271546",
+        "Mojo": "180.0",
+        "Current Mojo": "20.0",
+        "Strength": "400.0",
+        "Dexterity": "32.0"
+      },
+      "Event": {
+        "Name": "Won",
+        "As": "Challenger"
+      }
+    }
+  ]
+}

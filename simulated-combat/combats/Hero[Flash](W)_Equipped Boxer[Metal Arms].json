@@ -1,0 +1,3548 @@
+{
+  "Champion": "Hero[Flash]",
+  "Challenger": "Equipped Boxer[Metal Arms]",
+  "Arena": "Backyard",
+  "Winner": "Champion",
+  "Beats": 47,
+  "SourceEvent": [
+    {
+      "Type": "INFO",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Mojo": "100.0",
+        "Current Mojo": "20.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Fighter Added",
+        "As": "Champion"
+      }
+    },
+    {
+      "Type": "INFO",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Stamina": "80.0",
+        "Current Stamina": "25.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Fighter Added",
+        "As": "Challenger"
+      }
+    },
+    {
+      "Type": "INFO",
+      "Source": {
+        "Name": "Backyard"
+      },
+      "Event": {
+        "Name": "Fight Start"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "0"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Mojo": "100.0",
+        "Current Mojo": "22.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "0"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Stamina": "80.0",
+        "Current Stamina": "26.6",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "1"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Mojo": "100.0",
+        "Current Mojo": "24.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "1"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Stamina": "80.0",
+        "Current Stamina": "28.200000000000003",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "2"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Mojo": "100.0",
+        "Current Mojo": "26.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "2"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Stamina": "80.0",
+        "Current Stamina": "29.800000000000004",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "3"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Mojo": "100.0",
+        "Current Mojo": "28.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "3"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Stamina": "80.0",
+        "Current Stamina": "31.400000000000006",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "4"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Mojo": "100.0",
+        "Current Mojo": "30.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "4"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Stamina": "80.0",
+        "Current Stamina": "33.00000000000001",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "5"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Mojo": "100.0",
+        "Current Mojo": "32.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "5"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Stamina": "80.0",
+        "Current Stamina": "34.60000000000001",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "6"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Mojo": "100.0",
+        "Current Mojo": "34.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "6"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Stamina": "80.0",
+        "Current Stamina": "36.20000000000001",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "7"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Mojo": "100.0",
+        "Current Mojo": "36.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Mojo": "100.0",
+        "Current Mojo": "36.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Kick",
+        "Damage Type": "Physical",
+        "Damage Amount": "58.867538824859444"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "193.7927228225984",
+        "Stamina": "80.0",
+        "Current Stamina": "36.20000000000001",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Block",
+        "Damage Type": "Physical",
+        "Damage Amount": "6.207277177401615"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "7"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "193.9527228225984",
+        "Stamina": "80.0",
+        "Current Stamina": "36.20000000000001",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "193.9527228225984",
+        "Stamina": "80.0",
+        "Current Stamina": "37.80000000000001",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "8"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Mojo": "100.0",
+        "Current Mojo": "38.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "8"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "194.11272282259839",
+        "Stamina": "80.0",
+        "Current Stamina": "37.80000000000001",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "194.11272282259839",
+        "Stamina": "80.0",
+        "Current Stamina": "39.40000000000001",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "9"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Mojo": "100.0",
+        "Current Mojo": "40.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "9"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "194.27272282259838",
+        "Stamina": "80.0",
+        "Current Stamina": "39.40000000000001",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "194.27272282259838",
+        "Stamina": "80.0",
+        "Current Stamina": "41.000000000000014",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "10"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Mojo": "100.0",
+        "Current Mojo": "42.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "10"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "194.43272282259838",
+        "Stamina": "80.0",
+        "Current Stamina": "41.000000000000014",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "194.43272282259838",
+        "Stamina": "80.0",
+        "Current Stamina": "42.600000000000016",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "11"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Mojo": "100.0",
+        "Current Mojo": "44.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "11"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "194.59272282259838",
+        "Stamina": "80.0",
+        "Current Stamina": "42.600000000000016",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "194.59272282259838",
+        "Stamina": "80.0",
+        "Current Stamina": "44.20000000000002",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "12"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Mojo": "100.0",
+        "Current Mojo": "46.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "12"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "194.75272282259837",
+        "Stamina": "80.0",
+        "Current Stamina": "44.20000000000002",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "194.75272282259837",
+        "Stamina": "80.0",
+        "Current Stamina": "45.80000000000002",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "13"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Mojo": "100.0",
+        "Current Mojo": "48.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "13"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "194.91272282259837",
+        "Stamina": "80.0",
+        "Current Stamina": "45.80000000000002",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "194.91272282259837",
+        "Stamina": "80.0",
+        "Current Stamina": "47.40000000000002",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "14"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Mojo": "100.0",
+        "Current Mojo": "50.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "14"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "195.07272282259837",
+        "Stamina": "80.0",
+        "Current Stamina": "47.40000000000002",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "195.07272282259837",
+        "Stamina": "80.0",
+        "Current Stamina": "49.00000000000002",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "15"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Mojo": "100.0",
+        "Current Mojo": "52.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Mojo": "100.0",
+        "Current Mojo": "52.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Kick",
+        "Damage Type": "Physical",
+        "Damage Amount": "71.84986701130485"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "123.22285581129351",
+        "Stamina": "80.0",
+        "Current Stamina": "49.00000000000002",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "15"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "123.38285581129351",
+        "Stamina": "80.0",
+        "Current Stamina": "49.00000000000002",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "123.38285581129351",
+        "Stamina": "80.0",
+        "Current Stamina": "50.60000000000002",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "16"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Mojo": "100.0",
+        "Current Mojo": "54.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "16"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "123.5428558112935",
+        "Stamina": "80.0",
+        "Current Stamina": "50.60000000000002",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "123.5428558112935",
+        "Stamina": "80.0",
+        "Current Stamina": "52.200000000000024",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "17"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Mojo": "100.0",
+        "Current Mojo": "56.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "17"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "123.7028558112935",
+        "Stamina": "80.0",
+        "Current Stamina": "52.200000000000024",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "123.7028558112935",
+        "Stamina": "80.0",
+        "Current Stamina": "53.800000000000026",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "18"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Mojo": "100.0",
+        "Current Mojo": "58.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "18"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "123.8628558112935",
+        "Stamina": "80.0",
+        "Current Stamina": "53.800000000000026",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "123.8628558112935",
+        "Stamina": "80.0",
+        "Current Stamina": "55.40000000000003",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "19"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Mojo": "100.0",
+        "Current Mojo": "60.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "19"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "124.0228558112935",
+        "Stamina": "80.0",
+        "Current Stamina": "55.40000000000003",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "124.0228558112935",
+        "Stamina": "80.0",
+        "Current Stamina": "57.00000000000003",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "20"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Mojo": "100.0",
+        "Current Mojo": "62.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "20"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "124.18285581129349",
+        "Stamina": "80.0",
+        "Current Stamina": "57.00000000000003",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "124.18285581129349",
+        "Stamina": "80.0",
+        "Current Stamina": "58.60000000000003",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "21"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Mojo": "100.0",
+        "Current Mojo": "64.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "21"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "124.34285581129349",
+        "Stamina": "80.0",
+        "Current Stamina": "58.60000000000003",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "124.34285581129349",
+        "Stamina": "80.0",
+        "Current Stamina": "60.20000000000003",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "22"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Mojo": "100.0",
+        "Current Mojo": "66.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "22"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "124.50285581129349",
+        "Stamina": "80.0",
+        "Current Stamina": "60.20000000000003",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "124.50285581129349",
+        "Stamina": "80.0",
+        "Current Stamina": "61.80000000000003",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "23"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Mojo": "100.0",
+        "Current Mojo": "68.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Mojo": "100.0",
+        "Current Mojo": "68.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Kick",
+        "Damage Type": "Physical",
+        "Damage Amount": "64.723215727269"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "114.19660480220519",
+        "Stamina": "80.0",
+        "Current Stamina": "61.80000000000003",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Block",
+        "Damage Type": "Physical",
+        "Damage Amount": "10.3062510090883"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "23"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "114.35660480220518",
+        "Stamina": "80.0",
+        "Current Stamina": "61.80000000000003",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "114.35660480220518",
+        "Stamina": "80.0",
+        "Current Stamina": "63.400000000000034",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "24"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Mojo": "100.0",
+        "Current Mojo": "70.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "24"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "114.51660480220518",
+        "Stamina": "80.0",
+        "Current Stamina": "63.400000000000034",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "114.51660480220518",
+        "Stamina": "80.0",
+        "Current Stamina": "65.00000000000003",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "25"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Mojo": "100.0",
+        "Current Mojo": "72.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "25"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "114.67660480220518",
+        "Stamina": "80.0",
+        "Current Stamina": "65.00000000000003",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "114.67660480220518",
+        "Stamina": "80.0",
+        "Current Stamina": "66.60000000000002",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "26"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Mojo": "100.0",
+        "Current Mojo": "74.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "26"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "114.83660480220517",
+        "Stamina": "80.0",
+        "Current Stamina": "66.60000000000002",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "114.83660480220517",
+        "Stamina": "80.0",
+        "Current Stamina": "68.20000000000002",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "27"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Mojo": "100.0",
+        "Current Mojo": "76.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "27"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "114.99660480220517",
+        "Stamina": "80.0",
+        "Current Stamina": "68.20000000000002",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "114.99660480220517",
+        "Stamina": "80.0",
+        "Current Stamina": "69.80000000000001",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "28"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Mojo": "100.0",
+        "Current Mojo": "78.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "28"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "115.15660480220517",
+        "Stamina": "80.0",
+        "Current Stamina": "69.80000000000001",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "115.15660480220517",
+        "Stamina": "80.0",
+        "Current Stamina": "71.4",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "29"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Mojo": "100.0",
+        "Current Mojo": "80.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "29"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "115.31660480220516",
+        "Stamina": "80.0",
+        "Current Stamina": "71.4",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "115.31660480220516",
+        "Stamina": "80.0",
+        "Current Stamina": "73.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "30"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Mojo": "100.0",
+        "Current Mojo": "82.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "30"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "115.47660480220516",
+        "Stamina": "80.0",
+        "Current Stamina": "73.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "115.47660480220516",
+        "Stamina": "80.0",
+        "Current Stamina": "74.6",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "31"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Mojo": "100.0",
+        "Current Mojo": "84.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Mojo": "100.0",
+        "Current Mojo": "84.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Kick",
+        "Damage Type": "Physical",
+        "Damage Amount": "56.51382959356003"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "58.96277520864513",
+        "Stamina": "80.0",
+        "Current Stamina": "74.6",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "31"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "59.12277520864512",
+        "Stamina": "80.0",
+        "Current Stamina": "74.6",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "59.12277520864512",
+        "Stamina": "80.0",
+        "Current Stamina": "76.19999999999999",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "32"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Mojo": "100.0",
+        "Current Mojo": "86.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "32"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "59.28277520864512",
+        "Stamina": "80.0",
+        "Current Stamina": "76.19999999999999",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "59.28277520864512",
+        "Stamina": "80.0",
+        "Current Stamina": "77.79999999999998",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "59.28277520864512",
+        "Stamina": "80.0",
+        "Current Stamina": "77.79999999999998",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Punch",
+        "Damage Type": "Physical",
+        "Damage Amount": "76.25424600140505"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Mojo": "100.0",
+        "Current Mojo": "86.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Evade",
+        "Damage Type": "Physical",
+        "Damage Amount": "0.0"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "33"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Mojo": "100.0",
+        "Current Mojo": "88.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "33"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "59.442775208645116",
+        "Stamina": "80.0",
+        "Current Stamina": "77.79999999999998",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "59.442775208645116",
+        "Stamina": "80.0",
+        "Current Stamina": "79.39999999999998",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "34"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Mojo": "100.0",
+        "Current Mojo": "90.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "34"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "59.60277520864511",
+        "Stamina": "80.0",
+        "Current Stamina": "79.39999999999998",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "59.60277520864511",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "35"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Mojo": "100.0",
+        "Current Mojo": "92.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "35"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "59.76277520864511",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "36"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Mojo": "100.0",
+        "Current Mojo": "94.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "36"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "59.922775208645106",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "37"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Mojo": "100.0",
+        "Current Mojo": "96.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "37"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "60.0827752086451",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "38"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Mojo": "100.0",
+        "Current Mojo": "98.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "38"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "60.2427752086451",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "39"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Mojo": "100.0",
+        "Current Mojo": "100.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Mojo": "100.0",
+        "Current Mojo": "10.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Arc Lightning",
+        "Damage Type": "Shock",
+        "Damage Amount": "4.283570695633769",
+        "Duration": "25"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "55.95920451301133",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "39"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "56.119204513011326",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "40"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Mojo": "100.0",
+        "Current Mojo": "12.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "40"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "56.27920451301132",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "41"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Mojo": "100.0",
+        "Current Mojo": "14.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "41"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "56.43920451301132",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "42"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Mojo": "100.0",
+        "Current Mojo": "16.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "42"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "56.599204513011315",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "43"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Mojo": "100.0",
+        "Current Mojo": "18.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "43"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "56.75920451301131",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "44"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Mojo": "100.0",
+        "Current Mojo": "20.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "44"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "56.91920451301131",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "45"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Mojo": "100.0",
+        "Current Mojo": "22.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "45"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "57.079204513011305",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "46"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Mojo": "100.0",
+        "Current Mojo": "24.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "46"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "57.2392045130113",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "47"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Mojo": "100.0",
+        "Current Mojo": "26.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Mojo": "100.0",
+        "Current Mojo": "26.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Kick",
+        "Damage Type": "Physical",
+        "Damage Amount": "57.52726113761315"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "0.0",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      }
+    },
+    {
+      "Type": "INFO",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "0.0",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Knock Out"
+      }
+    },
+    {
+      "Type": "INFO",
+      "Source": {
+        "Name": "Backyard"
+      },
+      "Event": {
+        "Name": "Fight End",
+        "Result": "Win",
+        "Result By": "Knock Out"
+      }
+    },
+    {
+      "Type": "INFO",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Flash",
+        "Fighter Type": "Hero",
+        "Fighter Subtype": "Flash",
+        "Life": "200.0",
+        "Current Life": "200.0",
+        "Mojo": "100.0",
+        "Current Mojo": "26.0",
+        "Strength": "120.0",
+        "Dexterity": "150.0"
+      },
+      "Event": {
+        "Name": "Won",
+        "As": "Champion"
+      }
+    },
+    {
+      "Type": "INFO",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Equipped Boxer",
+        "Fighter Type": "Equipped Boxer",
+        "Fighter Subtype": "Metal Arms",
+        "Life": "200.0",
+        "Current Life": "0.0",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "250.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Lost",
+        "As": "Challenger"
+      }
+    }
+  ]
+}

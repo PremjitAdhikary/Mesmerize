@@ -239,6 +239,19 @@ class Pages {
           'fractal',
           'hand'
         ]
+      },
+      {
+        id: 10020,
+        name: 'Simulated Combat',
+        url: '/simulated-combat',
+        img: '/simulated-combat/img/preview.gif',
+        detail: 'MCU with DC characters',
+        tag: [
+          'mcu',
+          'combat',
+          'kombat',
+          'sim'
+        ]
       }
     ];
 

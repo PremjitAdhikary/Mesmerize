@@ -163,6 +163,14 @@ import { pages } from '../common/pages.js';
         return false;
       }
     }
+
+    getSelectedValue() {
+      const radioButtons = this.querySelectorAll('[role="radio"]');
+      for (let i = 0; i < radioButtons.length; i++) {
+        if (radioButtons[i].getAttribute('aria-checked') === 'true')
+          return radioButtons[i].value;
+      }
+    }
   }
 
   customElements.define('radio-group', RadioGroup);

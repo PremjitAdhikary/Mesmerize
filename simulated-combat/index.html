@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" href="../favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="../appstyle.css">
+  <link rel="stylesheet" href="./compstyle.css">
+  <script src="../components/app-header.js" type="module"></script>
+  <script src="../components/sketch-text.js" type="module"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.js"></script>
+  <script src="./sketch.js"></script>
+  <script src="../components/radio-input-group.js" type="module"></script>
+  <script src="./control.js" type="module"></script>
+  <script src="../common/pages.js" type="module"></script>
+  <script src="./fighter.js"></script>
+  <script src="./fight-info.js"></script>
+  <title>Simulated Combat</title>
+</head>
+<body>
+  <div class="toplevel">
+    <app-header class="heading"></app-header>
+    <div class="topbody">
+      <div class="container">
+          <div class="sketch">
+            <div id="sketch-holder" class="sketch-holder">
+            </div>
+          </div>
+
+          <div class="control">
+            <div class="control-panels">
+                <div>
+                  Fight
+                  <radio-group id="choice-fight">
+                    <radio-button value="1" aria-checked="true">Fair</radio-button>
+                    <radio-button value="2">Biased</radio-button>
+                  </radio-group>
+                </div>
+
+                <div id="choice-class-fair-holder">
+                  Fighter Class
+                  <radio-group id="choice-class-fair">
+                    <radio-button value="1" aria-checked="true">Amateur</radio-button>
+                    <radio-button value="2">Pro</radio-button>
+                    <radio-button value="3">Enhanced</radio-button>
+                    <radio-button value="4">Super</radio-button>
+                  </radio-group>
+                </div>
+
+                <div id="choice-fighter-fair-amateur-holder">
+                  Fighter
+                  <radio-group id="choice-fighter-fair-amateur">
+                    <radio-button value="1" aria-checked="true">Nerd</radio-button>
+                    <radio-button value="2">Bully</radio-button>
+                    <radio-button value="3">Captain</radio-button>
+                  </radio-group>
+                </div>
+                <div id="choice-vs-fair-amateur-holder">
+                  Vs
+                  <radio-group id="choice-vs-fair-amateur">
+                      <radio-button value="1" aria-checked="true">Nerd</radio-button>
+                      <radio-button value="2">Bully</radio-button>
+                      <radio-button value="3">Captain</radio-button>
+                  </radio-group>
+                </div>
+                
+                <div id="choice-fighter-fair-pro-holder">
+                  Fighter
+                  <radio-group id="choice-fighter-fair-pro">
+                    <radio-button value="1" aria-checked="true">Boxer</radio-button>
+                    <radio-button value="2">Karateka</radio-button>
+                    <radio-button value="3">Taekwondo</radio-button>
+                  </radio-group>
+                </div>
+                <div id="choice-vs-fair-pro-holder">
+                  Vs
+                  <radio-group id="choice-vs-fair-pro">
+                    <radio-button value="1" aria-checked="true">Boxer</radio-button>
+                    <radio-button value="2">Karateka</radio-button>
+                    <radio-button value="3">Taekwondo</radio-button>
+                  </radio-group>
+                </div>
+                
+                <div id="choice-fighter-fair-enhanced-holder">
+                  Fighter
+                  <radio-group id="choice-fighter-fair-enhanced">
+                    <radio-button value="1" aria-checked="true">E Boxer</radio-button>
+                    <radio-button value="2">Ninja</radio-button>
+                    <radio-button value="3">Samurai</radio-button>
+                  </radio-group>
+                </div>
+                <div id="choice-vs-fair-enhanced-holder">
+                  Vs
+                  <radio-group id="choice-vs-fair-enhanced">
+                    <radio-button value="1" aria-checked="true">E Boxer</radio-button>
+                    <radio-button value="2">Ninja</radio-button>
+                    <radio-button value="3">Samurai</radio-button>
+                  </radio-group>
+                </div>
+                
+                <div id="choice-fighter-fair-super-holder">
+                  Fighter
+                  <radio-group id="choice-fighter-fair-super">
+                    <radio-button value="1" aria-checked="true">Superman</radio-button>
+                    <radio-button value="2">Flash</radio-button>
+                    <radio-button value="3">Batman</radio-button>
+                    <radio-button value="4">Elemental</radio-button>
+                    <radio-button value="5">Dark</radio-button>
+                  </radio-group>
+                </div>
+                <div id="choice-vs-fair-super-holder">
+                  Vs
+                  <radio-group id="choice-vs-fair-super">
+                      <radio-button value="1" aria-checked="true">Superman</radio-button>
+                      <radio-button value="2">Flash</radio-button>
+                      <radio-button value="3">Batman</radio-button>
+                      <radio-button value="4">Elemental</radio-button>
+                      <radio-button value="5">Dark</radio-button>
+                  </radio-group>
+                </div>
+                
+                <div id="choice-class-biased-holder">
+                  Fighter Class
+                  <radio-group id="choice-class-biased">
+                    <radio-button value="1" aria-checked="true">Pro</radio-button>
+                    <radio-button value="2">Enhanced</radio-button>
+                    <radio-button value="3">Super</radio-button>
+                  </radio-group>
+                </div>
+                
+                <div id="choice-fighter-biased-pro-holder">
+                  Fighter
+                  <radio-group id="choice-fighter-biased-pro">
+                    <radio-button value="1" aria-checked="true">Boxer</radio-button>
+                    <radio-button value="2">Karateka</radio-button>
+                    <radio-button value="3">Taekwondo</radio-button>
+                  </radio-group>
+                </div>
+                <div id="choice-vs-biased-amateur-holder">
+                  Vs
+                  <radio-group id="choice-vs-biased-amateur">
+                      <radio-button value="1" aria-checked="true">Nerd</radio-button>
+                      <radio-button value="2">Bully</radio-button>
+                      <radio-button value="3">Captain</radio-button>
+                  </radio-group>
+                </div>
+                
+                <div id="choice-fighter-biased-enhanced-holder">
+                  Fighter
+                  <radio-group id="choice-fighter-biased-enhanced">
+                    <radio-button value="1" aria-checked="true">E Boxer</radio-button>
+                    <radio-button value="2">Ninja</radio-button>
+                    <radio-button value="3">Samurai</radio-button>
+                  </radio-group>
+                </div>
+                <div id="choice-vs-biased-pro-holder">
+                  Vs
+                  <radio-group id="choice-vs-biased-pro">
+                    <radio-button value="1" aria-checked="true">Boxer</radio-button>
+                    <radio-button value="2">Karateka</radio-button>
+                    <radio-button value="3">Taekwondo</radio-button>
+                  </radio-group>
+                </div>
+                
+                <div id="choice-fighter-biased-super-holder">
+                  Fighter
+                  <radio-group id="choice-fighter-biased-super">
+                    <radio-button value="1" aria-checked="true">Superman</radio-button>
+                    <radio-button value="2">Flash</radio-button>
+                    <radio-button value="3">Batman</radio-button>
+                    <radio-button value="4">Elemental</radio-button>
+                    <radio-button value="5">Dark</radio-button>
+                  </radio-group>
+                </div>
+                <div id="choice-vs-biased-enhanced-holder">
+                  Vs
+                  <radio-group id="choice-vs-biased-enhanced">
+                    <radio-button value="1" aria-checked="true">E Boxer</radio-button>
+                    <radio-button value="2">Ninja</radio-button>
+                    <radio-button value="3">Samurai</radio-button>
+                  </radio-group>
+                </div>
+
+                <div id="choice-fair-fight-holder">
+                  Select Fight
+                  <radio-group id="choice-fair-fight">
+                    <radio-button value="1" aria-checked="true">One</radio-button>
+                    <radio-button value="2">Two</radio-button>
+                  </radio-group>
+                </div>
+
+                <div id="choice-no-fight-holder">
+                  Select different fighters.
+                </div>
+
+                <div id="choice-biased-fight-holder">
+                  Select Fight
+                  <radio-group id="choice-biased-fight">
+                    <radio-button value="1" aria-checked="true">One</radio-button>
+                  </radio-group>
+                </div>
+            </div>
+            <p>
+              <span class="btn" id="loadBtn">Load Fight</span>
+              <span class="btn" id="playBtn">Play/Pause</span>
+            </p>
+          </div>
+
+          <sketch-text class="description" pageid="10020">
+            <div slot="content">
+              <p>
+                Consider this as an extension/spin-off of another of my project <a target="_blank" 
+                href="https://natureofcode.com/book/chapter-8-fractals/">KombatSim</a>.
+              </p>
+              <p>
+                In that project a number of different fighters are made to fight with each other. 
+                The idea being to touch upon all design patterns. The simulated fights were logged 
+                out into json files and the same is read here to animate them.
+              </p>
+              <p>
+                Consider this as My Coding Universe (MCU) where I aim to have cross overs among 
+                my projects.
+              </p>
+              <p>
+                <em>Now to explain the controls...</em>
+                <ul>
+                  <li>
+                    Fight: Select type of fight.
+                    <ul>
+                      <li>Fair: Where both fighters have equal opportunity to win.</li>
+                      <li>Biased: Where one of the fighter has huge advantage.</li>
+                    </ul>
+                  </li>
+                  <li>
+                    Fighter Class: Select class of fighter.
+                    <ul>
+                      <li>Amateur: The most basic of fighters.</li>
+                      <li>Pro: Much more stronger and efficient than the amateurs.</li>
+                      <li>Enhanced: Pro fighters enhanced with armor/weapon etc.</li>
+                      <li>Super: These are fighter with godly powers.</li>
+                    </ul>
+                  </li>
+                  <li>Fighter: Select a fighter from the class.</li>
+                  <li>Vs: Select a vs fighter from the class.</li>
+                  <li>Select Fight: Select among available fights.</li>
+                  <li>Load the selected fight.</li>
+                  <li>Play!!! You can also use the same button to pause/unpause a fight.</li>
+                </ul>
+              </p>
+            </div>
+            <div slot="source">
+              <p>
+                None.
+              </p>
+            </div>
+          </sketch-text>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

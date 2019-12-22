@@ -1,0 +1,5526 @@
+{
+  "Champion": "Mage[Dark]",
+  "Challenger": "Ninja[Shuriken Jutsu]",
+  "Arena": "Backyard",
+  "Winner": "Champion",
+  "Beats": 55,
+  "SourceEvent": [
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "80.0",
+        "Mana": "120.0",
+        "Current Mana": "25.0"
+      },
+      "Event": {
+        "Name": "Paralyze",
+        "Switch": "Cooldown",
+        "State": "true"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "80.0",
+        "Mana": "120.0",
+        "Current Mana": "25.0"
+      },
+      "Event": {
+        "Name": "Life Steal",
+        "Switch": "Cooldown",
+        "State": "true"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "80.0",
+        "Mana": "120.0",
+        "Current Mana": "25.0"
+      },
+      "Event": {
+        "Name": "Bleed",
+        "Switch": "Cooldown",
+        "State": "true"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "80.0",
+        "Mana": "120.0",
+        "Current Mana": "25.0"
+      },
+      "Event": {
+        "Name": "Thorns Curse",
+        "Switch": "Cooldown",
+        "State": "false"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "80.0",
+        "Mana": "120.0",
+        "Current Mana": "25.0"
+      },
+      "Event": {
+        "Name": "Thorns Curse",
+        "Switch": "Active",
+        "State": "false"
+      }
+    },
+    {
+      "Type": "INFO",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "80.0",
+        "Mana": "120.0",
+        "Current Mana": "25.0"
+      },
+      "Event": {
+        "Name": "Fighter Added",
+        "As": "Champion"
+      }
+    },
+    {
+      "Type": "INFO",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "25.0",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Fighter Added",
+        "As": "Challenger"
+      }
+    },
+    {
+      "Type": "INFO",
+      "Source": {
+        "Name": "Backyard"
+      },
+      "Event": {
+        "Name": "Fight Start"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "0"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "80.0",
+        "Mana": "120.0",
+        "Current Mana": "28.6"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "0"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "26.6",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "1"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "80.0",
+        "Mana": "120.0",
+        "Current Mana": "32.2"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "1"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "28.200000000000003",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "2"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "80.0",
+        "Mana": "120.0",
+        "Current Mana": "35.800000000000004"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "2"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "29.800000000000004",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "3"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "80.0",
+        "Mana": "120.0",
+        "Current Mana": "39.400000000000006"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "3"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "31.400000000000006",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "4"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "80.0",
+        "Mana": "120.0",
+        "Current Mana": "43.00000000000001"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "4"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "33.00000000000001",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "5"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "80.0",
+        "Mana": "120.0",
+        "Current Mana": "46.60000000000001"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "5"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "34.60000000000001",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "6"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "80.0",
+        "Mana": "120.0",
+        "Current Mana": "50.20000000000001"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "6"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "36.20000000000001",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "7"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "80.0",
+        "Mana": "120.0",
+        "Current Mana": "53.80000000000001"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "7"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "37.80000000000001",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "8"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "80.0",
+        "Mana": "120.0",
+        "Current Mana": "57.40000000000001"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "8"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "39.40000000000001",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "9"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "80.0",
+        "Mana": "120.0",
+        "Current Mana": "61.000000000000014"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "9"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "41.000000000000014",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "10"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "80.0",
+        "Mana": "120.0",
+        "Current Mana": "64.60000000000001"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "10"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "42.600000000000016",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "11"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "80.0",
+        "Mana": "120.0",
+        "Current Mana": "68.2"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "11"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "44.20000000000002",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "44.20000000000002",
+        "Strength": "30.0",
+        "Dexterity": "80.0"
+      },
+      "Event": {
+        "Name": "Nunchuck Swing",
+        "Weapon": "Nunchucks",
+        "Damage Type": "Physical",
+        "Damage Amount": "70.58092097245978"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "80.0",
+        "Mana": "120.0",
+        "Current Mana": "53.2"
+      },
+      "Event": {
+        "Name": "Thorns Curse",
+        "Switch": "Active",
+        "State": "true"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "80.0",
+        "Mana": "120.0",
+        "Current Mana": "53.2"
+      },
+      "Event": {
+        "Name": "Thorns Curse",
+        "Switch": "Cooldown",
+        "State": "true"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "58.82572370826207",
+        "Mana": "120.0",
+        "Current Mana": "53.2"
+      },
+      "Event": {
+        "Name": "Thorns Curse",
+        "Damage Type": "Physical",
+        "Damage Amount": "21.174276291737932"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "58.82572370826207",
+        "Mana": "120.0",
+        "Current Mana": "53.2"
+      },
+      "Event": {
+        "Name": "Curse",
+        "Damage Type": "Dark",
+        "Damage Amount": "24.703322340360923",
+        "Deterioration Percentage": "4.0"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "65.29667765963907",
+        "Stamina": "80.0",
+        "Current Stamina": "44.20000000000002",
+        "Strength": "30.0",
+        "Dexterity": "78.0"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "12"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "59.54572370826207",
+        "Mana": "120.0",
+        "Current Mana": "53.2"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "59.54572370826207",
+        "Mana": "120.0",
+        "Current Mana": "56.800000000000004"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "12"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "65.39667765963907",
+        "Stamina": "80.0",
+        "Current Stamina": "44.20000000000002",
+        "Strength": "30.0",
+        "Dexterity": "78.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "65.39667765963907",
+        "Stamina": "80.0",
+        "Current Stamina": "45.80000000000002",
+        "Strength": "30.0",
+        "Dexterity": "78.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "13"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "60.265723708262065",
+        "Mana": "120.0",
+        "Current Mana": "56.800000000000004"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "60.265723708262065",
+        "Mana": "120.0",
+        "Current Mana": "60.400000000000006"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "13"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "65.49667765963906",
+        "Stamina": "80.0",
+        "Current Stamina": "45.80000000000002",
+        "Strength": "30.0",
+        "Dexterity": "78.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "65.49667765963906",
+        "Stamina": "80.0",
+        "Current Stamina": "47.40000000000002",
+        "Strength": "30.0",
+        "Dexterity": "78.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "14"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "60.985723708262064",
+        "Mana": "120.0",
+        "Current Mana": "60.400000000000006"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "60.985723708262064",
+        "Mana": "120.0",
+        "Current Mana": "64.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "14"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "65.59667765963906",
+        "Stamina": "80.0",
+        "Current Stamina": "47.40000000000002",
+        "Strength": "30.0",
+        "Dexterity": "78.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "65.59667765963906",
+        "Stamina": "80.0",
+        "Current Stamina": "49.00000000000002",
+        "Strength": "30.0",
+        "Dexterity": "78.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "15"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "61.70572370826206",
+        "Mana": "120.0",
+        "Current Mana": "64.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "61.70572370826206",
+        "Mana": "120.0",
+        "Current Mana": "67.6"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "15"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "65.69667765963905",
+        "Stamina": "80.0",
+        "Current Stamina": "49.00000000000002",
+        "Strength": "30.0",
+        "Dexterity": "78.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "65.69667765963905",
+        "Stamina": "80.0",
+        "Current Stamina": "50.60000000000002",
+        "Strength": "30.0",
+        "Dexterity": "78.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "16"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "62.42572370826206",
+        "Mana": "120.0",
+        "Current Mana": "67.6"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "62.42572370826206",
+        "Mana": "120.0",
+        "Current Mana": "71.19999999999999"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "16"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "65.79667765963904",
+        "Stamina": "80.0",
+        "Current Stamina": "50.60000000000002",
+        "Strength": "30.0",
+        "Dexterity": "78.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "65.79667765963904",
+        "Stamina": "80.0",
+        "Current Stamina": "52.200000000000024",
+        "Strength": "30.0",
+        "Dexterity": "78.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "17"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "63.14572370826206",
+        "Mana": "120.0",
+        "Current Mana": "71.19999999999999"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "63.14572370826206",
+        "Mana": "120.0",
+        "Current Mana": "74.79999999999998"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "17"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "65.89667765963904",
+        "Stamina": "80.0",
+        "Current Stamina": "52.200000000000024",
+        "Strength": "30.0",
+        "Dexterity": "78.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "65.89667765963904",
+        "Stamina": "80.0",
+        "Current Stamina": "53.800000000000026",
+        "Strength": "30.0",
+        "Dexterity": "78.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "18"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "63.86572370826206",
+        "Mana": "120.0",
+        "Current Mana": "74.79999999999998"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "63.86572370826206",
+        "Mana": "120.0",
+        "Current Mana": "78.39999999999998"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "18"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "65.99667765963903",
+        "Stamina": "80.0",
+        "Current Stamina": "53.800000000000026",
+        "Strength": "30.0",
+        "Dexterity": "78.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "65.99667765963903",
+        "Stamina": "80.0",
+        "Current Stamina": "55.40000000000003",
+        "Strength": "30.0",
+        "Dexterity": "78.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "19"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "64.58572370826207",
+        "Mana": "120.0",
+        "Current Mana": "78.39999999999998"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "64.58572370826207",
+        "Mana": "120.0",
+        "Current Mana": "81.99999999999997"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "19"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "66.09667765963903",
+        "Stamina": "80.0",
+        "Current Stamina": "55.40000000000003",
+        "Strength": "30.0",
+        "Dexterity": "78.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "66.09667765963903",
+        "Stamina": "80.0",
+        "Current Stamina": "57.00000000000003",
+        "Strength": "30.0",
+        "Dexterity": "78.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "20"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "65.30572370826206",
+        "Mana": "120.0",
+        "Current Mana": "81.99999999999997"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "65.30572370826206",
+        "Mana": "120.0",
+        "Current Mana": "85.59999999999997"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "20"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "66.19667765963902",
+        "Stamina": "80.0",
+        "Current Stamina": "57.00000000000003",
+        "Strength": "30.0",
+        "Dexterity": "78.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "66.19667765963902",
+        "Stamina": "80.0",
+        "Current Stamina": "58.60000000000003",
+        "Strength": "30.0",
+        "Dexterity": "78.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "21"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "66.02572370826206",
+        "Mana": "120.0",
+        "Current Mana": "85.59999999999997"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "66.02572370826206",
+        "Mana": "120.0",
+        "Current Mana": "89.19999999999996"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "21"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "66.29667765963902",
+        "Stamina": "80.0",
+        "Current Stamina": "58.60000000000003",
+        "Strength": "30.0",
+        "Dexterity": "78.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "66.29667765963902",
+        "Stamina": "80.0",
+        "Current Stamina": "60.20000000000003",
+        "Strength": "30.0",
+        "Dexterity": "78.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "22"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "66.74572370826206",
+        "Mana": "120.0",
+        "Current Mana": "89.19999999999996"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "66.74572370826206",
+        "Mana": "120.0",
+        "Current Mana": "92.79999999999995"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "22"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "66.39667765963901",
+        "Stamina": "80.0",
+        "Current Stamina": "60.20000000000003",
+        "Strength": "30.0",
+        "Dexterity": "78.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "66.39667765963901",
+        "Stamina": "80.0",
+        "Current Stamina": "61.80000000000003",
+        "Strength": "30.0",
+        "Dexterity": "78.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "23"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "67.46572370826206",
+        "Mana": "120.0",
+        "Current Mana": "92.79999999999995"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "67.46572370826206",
+        "Mana": "120.0",
+        "Current Mana": "96.39999999999995"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "23"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "66.496677659639",
+        "Stamina": "80.0",
+        "Current Stamina": "61.80000000000003",
+        "Strength": "30.0",
+        "Dexterity": "78.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "66.496677659639",
+        "Stamina": "80.0",
+        "Current Stamina": "63.400000000000034",
+        "Strength": "30.0",
+        "Dexterity": "78.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "24"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "68.18572370826206",
+        "Mana": "120.0",
+        "Current Mana": "96.39999999999995"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "68.18572370826206",
+        "Mana": "120.0",
+        "Current Mana": "99.99999999999994"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "24"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "66.596677659639",
+        "Stamina": "80.0",
+        "Current Stamina": "63.400000000000034",
+        "Strength": "30.0",
+        "Dexterity": "78.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "66.596677659639",
+        "Stamina": "80.0",
+        "Current Stamina": "65.00000000000003",
+        "Strength": "30.0",
+        "Dexterity": "78.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "25"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "68.90572370826206",
+        "Mana": "120.0",
+        "Current Mana": "99.99999999999994"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "68.90572370826206",
+        "Mana": "120.0",
+        "Current Mana": "103.59999999999994"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "25"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "66.696677659639",
+        "Stamina": "80.0",
+        "Current Stamina": "65.00000000000003",
+        "Strength": "30.0",
+        "Dexterity": "78.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "66.696677659639",
+        "Stamina": "80.0",
+        "Current Stamina": "66.60000000000002",
+        "Strength": "30.0",
+        "Dexterity": "78.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "66.696677659639",
+        "Stamina": "80.0",
+        "Current Stamina": "2.6000000000000227",
+        "Strength": "30.0",
+        "Dexterity": "78.0"
+      },
+      "Event": {
+        "Name": "Flying Kick",
+        "Damage Type": "Physical",
+        "Damage Amount": "69.47280606514451"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "48.063881888718704",
+        "Mana": "120.0",
+        "Current Mana": "103.59999999999994"
+      },
+      "Event": {
+        "Name": "Thorns Curse",
+        "Damage Type": "Physical",
+        "Damage Amount": "20.841841819543355"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "48.063881888718704",
+        "Mana": "120.0",
+        "Current Mana": "103.59999999999994"
+      },
+      "Event": {
+        "Name": "Curse",
+        "Damage Type": "Dark",
+        "Damage Amount": "24.315482122800578",
+        "Deterioration Percentage": "4.0"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "42.38119553683842",
+        "Stamina": "80.0",
+        "Current Stamina": "2.6000000000000227",
+        "Strength": "30.0",
+        "Dexterity": "76.0"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "26"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "48.7838818887187",
+        "Mana": "120.0",
+        "Current Mana": "103.59999999999994"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "48.7838818887187",
+        "Mana": "120.0",
+        "Current Mana": "107.19999999999993"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "26"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "42.48119553683842",
+        "Stamina": "80.0",
+        "Current Stamina": "2.6000000000000227",
+        "Strength": "30.0",
+        "Dexterity": "76.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "42.48119553683842",
+        "Stamina": "80.0",
+        "Current Stamina": "4.200000000000022",
+        "Strength": "30.0",
+        "Dexterity": "76.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "27"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "49.5038818887187",
+        "Mana": "120.0",
+        "Current Mana": "107.19999999999993"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "49.5038818887187",
+        "Mana": "120.0",
+        "Current Mana": "110.79999999999993"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "27"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "42.58119553683842",
+        "Stamina": "80.0",
+        "Current Stamina": "4.200000000000022",
+        "Strength": "30.0",
+        "Dexterity": "76.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "42.58119553683842",
+        "Stamina": "80.0",
+        "Current Stamina": "5.800000000000022",
+        "Strength": "30.0",
+        "Dexterity": "76.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "28"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "50.2238818887187",
+        "Mana": "120.0",
+        "Current Mana": "110.79999999999993"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "50.2238818887187",
+        "Mana": "120.0",
+        "Current Mana": "114.39999999999992"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "28"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "42.68119553683842",
+        "Stamina": "80.0",
+        "Current Stamina": "5.800000000000022",
+        "Strength": "30.0",
+        "Dexterity": "76.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "42.68119553683842",
+        "Stamina": "80.0",
+        "Current Stamina": "7.400000000000022",
+        "Strength": "30.0",
+        "Dexterity": "76.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "29"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "50.9438818887187",
+        "Mana": "120.0",
+        "Current Mana": "114.39999999999992"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "50.9438818887187",
+        "Mana": "120.0",
+        "Current Mana": "117.99999999999991"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "29"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "42.781195536838425",
+        "Stamina": "80.0",
+        "Current Stamina": "7.400000000000022",
+        "Strength": "30.0",
+        "Dexterity": "76.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "42.781195536838425",
+        "Stamina": "80.0",
+        "Current Stamina": "9.000000000000021",
+        "Strength": "30.0",
+        "Dexterity": "76.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "30"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "51.6638818887187",
+        "Mana": "120.0",
+        "Current Mana": "117.99999999999991"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "51.6638818887187",
+        "Mana": "120.0",
+        "Current Mana": "120.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "51.6638818887187",
+        "Mana": "120.0",
+        "Current Mana": "120.0"
+      },
+      "Event": {
+        "Name": "Bleed",
+        "Switch": "Cooldown",
+        "State": "false"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "30"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "42.881195536838426",
+        "Stamina": "80.0",
+        "Current Stamina": "9.000000000000021",
+        "Strength": "30.0",
+        "Dexterity": "76.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "42.881195536838426",
+        "Stamina": "80.0",
+        "Current Stamina": "10.600000000000021",
+        "Strength": "30.0",
+        "Dexterity": "76.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "31"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "52.3838818887187",
+        "Mana": "120.0",
+        "Current Mana": "120.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "31"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "42.98119553683843",
+        "Stamina": "80.0",
+        "Current Stamina": "10.600000000000021",
+        "Strength": "30.0",
+        "Dexterity": "76.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "42.98119553683843",
+        "Stamina": "80.0",
+        "Current Stamina": "12.20000000000002",
+        "Strength": "30.0",
+        "Dexterity": "76.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "32"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "53.103881888718696",
+        "Mana": "120.0",
+        "Current Mana": "120.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "32"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "43.08119553683843",
+        "Stamina": "80.0",
+        "Current Stamina": "12.20000000000002",
+        "Strength": "30.0",
+        "Dexterity": "76.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "43.08119553683843",
+        "Stamina": "80.0",
+        "Current Stamina": "13.80000000000002",
+        "Strength": "30.0",
+        "Dexterity": "76.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "33"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "53.823881888718695",
+        "Mana": "120.0",
+        "Current Mana": "120.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "53.823881888718695",
+        "Mana": "120.0",
+        "Current Mana": "45.0"
+      },
+      "Event": {
+        "Name": "Bleed",
+        "Switch": "Cooldown",
+        "State": "true"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "53.823881888718695",
+        "Mana": "120.0",
+        "Current Mana": "45.0"
+      },
+      "Event": {
+        "Name": "Bleed",
+        "Buff Type": "Affect Variable Attribute Over Time",
+        "Attribute": "LIFE",
+        "Affect": "TEMPORARY",
+        "Duration": "30",
+        "Percentage Per Beat": "-1.5"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "43.08119553683843",
+        "Stamina": "80.0",
+        "Current Stamina": "13.80000000000002",
+        "Strength": "30.0",
+        "Dexterity": "76.0"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "33"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "43.18119553683843",
+        "Stamina": "80.0",
+        "Current Stamina": "13.80000000000002",
+        "Strength": "30.0",
+        "Dexterity": "76.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "43.18119553683843",
+        "Stamina": "80.0",
+        "Current Stamina": "15.40000000000002",
+        "Strength": "30.0",
+        "Dexterity": "76.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "41.83119553683843",
+        "Stamina": "80.0",
+        "Current Stamina": "15.40000000000002",
+        "Strength": "30.0",
+        "Dexterity": "76.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "34"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "54.543881888718694",
+        "Mana": "120.0",
+        "Current Mana": "45.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "54.543881888718694",
+        "Mana": "120.0",
+        "Current Mana": "48.6"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "34"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "41.93119553683843",
+        "Stamina": "80.0",
+        "Current Stamina": "15.40000000000002",
+        "Strength": "30.0",
+        "Dexterity": "76.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "41.93119553683843",
+        "Stamina": "80.0",
+        "Current Stamina": "17.00000000000002",
+        "Strength": "30.0",
+        "Dexterity": "76.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "40.58119553683843",
+        "Stamina": "80.0",
+        "Current Stamina": "17.00000000000002",
+        "Strength": "30.0",
+        "Dexterity": "76.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "35"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "55.26388188871869",
+        "Mana": "120.0",
+        "Current Mana": "48.6"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "55.26388188871869",
+        "Mana": "120.0",
+        "Current Mana": "52.2"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "35"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "40.68119553683843",
+        "Stamina": "80.0",
+        "Current Stamina": "17.00000000000002",
+        "Strength": "30.0",
+        "Dexterity": "76.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "40.68119553683843",
+        "Stamina": "80.0",
+        "Current Stamina": "18.600000000000023",
+        "Strength": "30.0",
+        "Dexterity": "76.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "39.33119553683843",
+        "Stamina": "80.0",
+        "Current Stamina": "18.600000000000023",
+        "Strength": "30.0",
+        "Dexterity": "76.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "36"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "55.98388188871869",
+        "Mana": "120.0",
+        "Current Mana": "52.2"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "55.98388188871869",
+        "Mana": "120.0",
+        "Current Mana": "55.800000000000004"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "36"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "39.43119553683843",
+        "Stamina": "80.0",
+        "Current Stamina": "18.600000000000023",
+        "Strength": "30.0",
+        "Dexterity": "76.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "39.43119553683843",
+        "Stamina": "80.0",
+        "Current Stamina": "20.200000000000024",
+        "Strength": "30.0",
+        "Dexterity": "76.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "38.08119553683843",
+        "Stamina": "80.0",
+        "Current Stamina": "20.200000000000024",
+        "Strength": "30.0",
+        "Dexterity": "76.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "37"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "56.70388188871869",
+        "Mana": "120.0",
+        "Current Mana": "55.800000000000004"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "56.70388188871869",
+        "Mana": "120.0",
+        "Current Mana": "59.400000000000006"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "37"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "38.18119553683843",
+        "Stamina": "80.0",
+        "Current Stamina": "20.200000000000024",
+        "Strength": "30.0",
+        "Dexterity": "76.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "38.18119553683843",
+        "Stamina": "80.0",
+        "Current Stamina": "21.800000000000026",
+        "Strength": "30.0",
+        "Dexterity": "76.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "36.83119553683843",
+        "Stamina": "80.0",
+        "Current Stamina": "21.800000000000026",
+        "Strength": "30.0",
+        "Dexterity": "76.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "38"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "57.42388188871869",
+        "Mana": "120.0",
+        "Current Mana": "59.400000000000006"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "57.42388188871869",
+        "Mana": "120.0",
+        "Current Mana": "63.00000000000001"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "38"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "36.93119553683843",
+        "Stamina": "80.0",
+        "Current Stamina": "21.800000000000026",
+        "Strength": "30.0",
+        "Dexterity": "76.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "36.93119553683843",
+        "Stamina": "80.0",
+        "Current Stamina": "23.400000000000027",
+        "Strength": "30.0",
+        "Dexterity": "76.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "35.58119553683843",
+        "Stamina": "80.0",
+        "Current Stamina": "23.400000000000027",
+        "Strength": "30.0",
+        "Dexterity": "76.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "39"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "58.14388188871869",
+        "Mana": "120.0",
+        "Current Mana": "63.00000000000001"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "58.14388188871869",
+        "Mana": "120.0",
+        "Current Mana": "66.60000000000001"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "39"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "35.68119553683843",
+        "Stamina": "80.0",
+        "Current Stamina": "23.400000000000027",
+        "Strength": "30.0",
+        "Dexterity": "76.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "35.68119553683843",
+        "Stamina": "80.0",
+        "Current Stamina": "25.00000000000003",
+        "Strength": "30.0",
+        "Dexterity": "76.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "35.68119553683843",
+        "Stamina": "80.0",
+        "Current Stamina": "25.00000000000003",
+        "Strength": "30.0",
+        "Dexterity": "76.0"
+      },
+      "Event": {
+        "Name": "Kick",
+        "Damage Type": "Physical",
+        "Damage Amount": "37.67048811076644"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "46.84273545548875",
+        "Mana": "120.0",
+        "Current Mana": "66.60000000000001"
+      },
+      "Event": {
+        "Name": "Thorns Curse",
+        "Damage Type": "Physical",
+        "Damage Amount": "11.301146433229935"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "46.84273545548875",
+        "Mana": "120.0",
+        "Current Mana": "66.60000000000001"
+      },
+      "Event": {
+        "Name": "Curse",
+        "Damage Type": "Dark",
+        "Damage Amount": "13.184670838768254",
+        "Deterioration Percentage": "4.0"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "22.496524698070175",
+        "Stamina": "80.0",
+        "Current Stamina": "25.00000000000003",
+        "Strength": "30.0",
+        "Dexterity": "74.0"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "21.146524698070174",
+        "Stamina": "80.0",
+        "Current Stamina": "25.00000000000003",
+        "Strength": "30.0",
+        "Dexterity": "74.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "40"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "47.56273545548875",
+        "Mana": "120.0",
+        "Current Mana": "66.60000000000001"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "47.56273545548875",
+        "Mana": "120.0",
+        "Current Mana": "70.2"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "47.56273545548875",
+        "Mana": "120.0",
+        "Current Mana": "70.2"
+      },
+      "Event": {
+        "Name": "Life Steal",
+        "Switch": "Cooldown",
+        "State": "false"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "40"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "21.246524698070175",
+        "Stamina": "80.0",
+        "Current Stamina": "25.00000000000003",
+        "Strength": "30.0",
+        "Dexterity": "74.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "21.246524698070175",
+        "Stamina": "80.0",
+        "Current Stamina": "26.60000000000003",
+        "Strength": "30.0",
+        "Dexterity": "74.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "19.896524698070174",
+        "Stamina": "80.0",
+        "Current Stamina": "26.60000000000003",
+        "Strength": "30.0",
+        "Dexterity": "74.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "41"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "48.28273545548875",
+        "Mana": "120.0",
+        "Current Mana": "70.2"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "48.28273545548875",
+        "Mana": "120.0",
+        "Current Mana": "73.8"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "41"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "19.996524698070175",
+        "Stamina": "80.0",
+        "Current Stamina": "26.60000000000003",
+        "Strength": "30.0",
+        "Dexterity": "74.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "19.996524698070175",
+        "Stamina": "80.0",
+        "Current Stamina": "28.20000000000003",
+        "Strength": "30.0",
+        "Dexterity": "74.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "18.646524698070174",
+        "Stamina": "80.0",
+        "Current Stamina": "28.20000000000003",
+        "Strength": "30.0",
+        "Dexterity": "74.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "42"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "49.00273545548875",
+        "Mana": "120.0",
+        "Current Mana": "73.8"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "49.00273545548875",
+        "Mana": "120.0",
+        "Current Mana": "77.39999999999999"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "49.00273545548875",
+        "Mana": "120.0",
+        "Current Mana": "77.39999999999999"
+      },
+      "Event": {
+        "Name": "Thorns Curse",
+        "Switch": "Cooldown",
+        "State": "false"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "42"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "18.746524698070175",
+        "Stamina": "80.0",
+        "Current Stamina": "28.20000000000003",
+        "Strength": "30.0",
+        "Dexterity": "74.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "18.746524698070175",
+        "Stamina": "80.0",
+        "Current Stamina": "29.800000000000033",
+        "Strength": "30.0",
+        "Dexterity": "74.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "17.396524698070174",
+        "Stamina": "80.0",
+        "Current Stamina": "29.800000000000033",
+        "Strength": "30.0",
+        "Dexterity": "74.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "43"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "49.722735455488746",
+        "Mana": "120.0",
+        "Current Mana": "77.39999999999999"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "49.722735455488746",
+        "Mana": "120.0",
+        "Current Mana": "80.99999999999999"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "43"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "17.496524698070175",
+        "Stamina": "80.0",
+        "Current Stamina": "29.800000000000033",
+        "Strength": "30.0",
+        "Dexterity": "74.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "17.496524698070175",
+        "Stamina": "80.0",
+        "Current Stamina": "31.400000000000034",
+        "Strength": "30.0",
+        "Dexterity": "74.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "16.146524698070174",
+        "Stamina": "80.0",
+        "Current Stamina": "31.400000000000034",
+        "Strength": "30.0",
+        "Dexterity": "74.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "44"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "50.442735455488744",
+        "Mana": "120.0",
+        "Current Mana": "80.99999999999999"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "50.442735455488744",
+        "Mana": "120.0",
+        "Current Mana": "84.59999999999998"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "44"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "16.246524698070175",
+        "Stamina": "80.0",
+        "Current Stamina": "31.400000000000034",
+        "Strength": "30.0",
+        "Dexterity": "74.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "16.246524698070175",
+        "Stamina": "80.0",
+        "Current Stamina": "33.000000000000036",
+        "Strength": "30.0",
+        "Dexterity": "74.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "14.896524698070175",
+        "Stamina": "80.0",
+        "Current Stamina": "33.000000000000036",
+        "Strength": "30.0",
+        "Dexterity": "74.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "45"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "51.16273545548874",
+        "Mana": "120.0",
+        "Current Mana": "84.59999999999998"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "51.16273545548874",
+        "Mana": "120.0",
+        "Current Mana": "88.19999999999997"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "45"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "14.996524698070175",
+        "Stamina": "80.0",
+        "Current Stamina": "33.000000000000036",
+        "Strength": "30.0",
+        "Dexterity": "74.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "14.996524698070175",
+        "Stamina": "80.0",
+        "Current Stamina": "34.60000000000004",
+        "Strength": "30.0",
+        "Dexterity": "74.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "13.646524698070175",
+        "Stamina": "80.0",
+        "Current Stamina": "34.60000000000004",
+        "Strength": "30.0",
+        "Dexterity": "74.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "46"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "51.88273545548874",
+        "Mana": "120.0",
+        "Current Mana": "88.19999999999997"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "51.88273545548874",
+        "Mana": "120.0",
+        "Current Mana": "91.79999999999997"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "46"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "13.746524698070175",
+        "Stamina": "80.0",
+        "Current Stamina": "34.60000000000004",
+        "Strength": "30.0",
+        "Dexterity": "74.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "13.746524698070175",
+        "Stamina": "80.0",
+        "Current Stamina": "36.20000000000004",
+        "Strength": "30.0",
+        "Dexterity": "74.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "12.396524698070175",
+        "Stamina": "80.0",
+        "Current Stamina": "36.20000000000004",
+        "Strength": "30.0",
+        "Dexterity": "74.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "47"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "52.60273545548874",
+        "Mana": "120.0",
+        "Current Mana": "91.79999999999997"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "52.60273545548874",
+        "Mana": "120.0",
+        "Current Mana": "95.39999999999996"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "47"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "12.496524698070175",
+        "Stamina": "80.0",
+        "Current Stamina": "36.20000000000004",
+        "Strength": "30.0",
+        "Dexterity": "74.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "12.496524698070175",
+        "Stamina": "80.0",
+        "Current Stamina": "37.80000000000004",
+        "Strength": "30.0",
+        "Dexterity": "74.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "11.146524698070175",
+        "Stamina": "80.0",
+        "Current Stamina": "37.80000000000004",
+        "Strength": "30.0",
+        "Dexterity": "74.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "48"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "53.32273545548874",
+        "Mana": "120.0",
+        "Current Mana": "95.39999999999996"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "53.32273545548874",
+        "Mana": "120.0",
+        "Current Mana": "98.99999999999996"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "48"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "11.246524698070175",
+        "Stamina": "80.0",
+        "Current Stamina": "37.80000000000004",
+        "Strength": "30.0",
+        "Dexterity": "74.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "11.246524698070175",
+        "Stamina": "80.0",
+        "Current Stamina": "39.40000000000004",
+        "Strength": "30.0",
+        "Dexterity": "74.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "9.896524698070175",
+        "Stamina": "80.0",
+        "Current Stamina": "39.40000000000004",
+        "Strength": "30.0",
+        "Dexterity": "74.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "49"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "54.04273545548874",
+        "Mana": "120.0",
+        "Current Mana": "98.99999999999996"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "54.04273545548874",
+        "Mana": "120.0",
+        "Current Mana": "102.59999999999995"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "49"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "9.996524698070175",
+        "Stamina": "80.0",
+        "Current Stamina": "39.40000000000004",
+        "Strength": "30.0",
+        "Dexterity": "74.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "9.996524698070175",
+        "Stamina": "80.0",
+        "Current Stamina": "41.00000000000004",
+        "Strength": "30.0",
+        "Dexterity": "74.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "8.646524698070175",
+        "Stamina": "80.0",
+        "Current Stamina": "41.00000000000004",
+        "Strength": "30.0",
+        "Dexterity": "74.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "50"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "54.76273545548874",
+        "Mana": "120.0",
+        "Current Mana": "102.59999999999995"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "54.76273545548874",
+        "Mana": "120.0",
+        "Current Mana": "106.19999999999995"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "54.76273545548874",
+        "Mana": "120.0",
+        "Current Mana": "106.19999999999995"
+      },
+      "Event": {
+        "Name": "Paralyze",
+        "Switch": "Cooldown",
+        "State": "false"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "50"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "8.746524698070175",
+        "Stamina": "80.0",
+        "Current Stamina": "41.00000000000004",
+        "Strength": "30.0",
+        "Dexterity": "74.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "8.746524698070175",
+        "Stamina": "80.0",
+        "Current Stamina": "42.600000000000044",
+        "Strength": "30.0",
+        "Dexterity": "74.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "7.396524698070175",
+        "Stamina": "80.0",
+        "Current Stamina": "42.600000000000044",
+        "Strength": "30.0",
+        "Dexterity": "74.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "51"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "55.482735455488736",
+        "Mana": "120.0",
+        "Current Mana": "106.19999999999995"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "55.482735455488736",
+        "Mana": "120.0",
+        "Current Mana": "109.79999999999994"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "51"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "7.496524698070175",
+        "Stamina": "80.0",
+        "Current Stamina": "42.600000000000044",
+        "Strength": "30.0",
+        "Dexterity": "74.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "7.496524698070175",
+        "Stamina": "80.0",
+        "Current Stamina": "44.200000000000045",
+        "Strength": "30.0",
+        "Dexterity": "74.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "6.146524698070175",
+        "Stamina": "80.0",
+        "Current Stamina": "44.200000000000045",
+        "Strength": "30.0",
+        "Dexterity": "74.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "52"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "56.202735455488735",
+        "Mana": "120.0",
+        "Current Mana": "109.79999999999994"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "56.202735455488735",
+        "Mana": "120.0",
+        "Current Mana": "113.39999999999993"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "56.202735455488735",
+        "Mana": "120.0",
+        "Current Mana": "18.399999999999935"
+      },
+      "Event": {
+        "Name": "Paralyze",
+        "Switch": "Cooldown",
+        "State": "true"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "56.202735455488735",
+        "Mana": "120.0",
+        "Current Mana": "18.399999999999935"
+      },
+      "Event": {
+        "Name": "Paralyze",
+        "Damage Type": "Shock",
+        "Damage Amount": "1.7152164960065188",
+        "Duration": "30"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "4.431308202063656",
+        "Stamina": "80.0",
+        "Current Stamina": "44.200000000000045",
+        "Strength": "30.0",
+        "Dexterity": "74.0"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "56.202735455488735",
+        "Mana": "120.0",
+        "Current Mana": "18.399999999999935"
+      },
+      "Event": {
+        "Name": "Thorns Curse",
+        "Switch": "Active",
+        "State": "false"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "52"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "4.531308202063656",
+        "Stamina": "80.0",
+        "Current Stamina": "44.200000000000045",
+        "Strength": "30.0",
+        "Dexterity": "74.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "4.531308202063656",
+        "Stamina": "80.0",
+        "Current Stamina": "45.80000000000005",
+        "Strength": "30.0",
+        "Dexterity": "74.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "3.1813082020636556",
+        "Stamina": "80.0",
+        "Current Stamina": "45.80000000000005",
+        "Strength": "30.0",
+        "Dexterity": "74.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "53"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "56.922735455488734",
+        "Mana": "120.0",
+        "Current Mana": "18.399999999999935"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "56.922735455488734",
+        "Mana": "120.0",
+        "Current Mana": "21.999999999999936"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "53"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "3.2813082020636557",
+        "Stamina": "80.0",
+        "Current Stamina": "45.80000000000005",
+        "Strength": "30.0",
+        "Dexterity": "74.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "3.2813082020636557",
+        "Stamina": "80.0",
+        "Current Stamina": "47.40000000000005",
+        "Strength": "30.0",
+        "Dexterity": "74.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "1.9313082020636556",
+        "Stamina": "80.0",
+        "Current Stamina": "47.40000000000005",
+        "Strength": "30.0",
+        "Dexterity": "74.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "54"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "57.64273545548873",
+        "Mana": "120.0",
+        "Current Mana": "21.999999999999936"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "57.64273545548873",
+        "Mana": "120.0",
+        "Current Mana": "25.599999999999937"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "54"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "2.0313082020636557",
+        "Stamina": "80.0",
+        "Current Stamina": "47.40000000000005",
+        "Strength": "30.0",
+        "Dexterity": "74.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "2.0313082020636557",
+        "Stamina": "80.0",
+        "Current Stamina": "49.00000000000005",
+        "Strength": "30.0",
+        "Dexterity": "74.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "0.6813082020636556",
+        "Stamina": "80.0",
+        "Current Stamina": "49.00000000000005",
+        "Strength": "30.0",
+        "Dexterity": "74.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "55"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "58.36273545548873",
+        "Mana": "120.0",
+        "Current Mana": "25.599999999999937"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "58.36273545548873",
+        "Mana": "120.0",
+        "Current Mana": "29.19999999999994"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "55"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "0.7813082020636556",
+        "Stamina": "80.0",
+        "Current Stamina": "49.00000000000005",
+        "Strength": "30.0",
+        "Dexterity": "74.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "0.7813082020636556",
+        "Stamina": "80.0",
+        "Current Stamina": "50.60000000000005",
+        "Strength": "30.0",
+        "Dexterity": "74.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "0.0",
+        "Stamina": "80.0",
+        "Current Stamina": "50.60000000000005",
+        "Strength": "30.0",
+        "Dexterity": "74.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "INFO",
+      "Source": {
+        "Name": "Backyard"
+      },
+      "Event": {
+        "Name": "Fight End",
+        "Result": "Win",
+        "Result By": "Knock Out"
+      }
+    },
+    {
+      "Type": "INFO",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Dark",
+        "Fighter Type": "Mage",
+        "Fighter Subtype": "Dark",
+        "Life": "80.0",
+        "Current Life": "58.36273545548873",
+        "Mana": "120.0",
+        "Current Mana": "29.19999999999994"
+      },
+      "Event": {
+        "Name": "Won",
+        "As": "Champion"
+      }
+    },
+    {
+      "Type": "INFO",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Ninja",
+        "Fighter Type": "Ninja",
+        "Fighter Subtype": "Shuriken Jutsu",
+        "Life": "90.0",
+        "Current Life": "0.0",
+        "Stamina": "80.0",
+        "Current Stamina": "50.60000000000005",
+        "Strength": "30.0",
+        "Dexterity": "74.0"
+      },
+      "Event": {
+        "Name": "Lost",
+        "As": "Challenger"
+      }
+    }
+  ]
+}

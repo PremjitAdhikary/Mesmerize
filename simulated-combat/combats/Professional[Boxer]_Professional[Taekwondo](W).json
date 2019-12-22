@@ -1,0 +1,8237 @@
+{
+  "Champion": "Professional[Boxer]",
+  "Challenger": "Professional[Taekwondo]",
+  "Arena": "Backyard",
+  "Winner": "Challenger",
+  "Beats": 119,
+  "SourceEvent": [
+    {
+      "Type": "INFO",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "160.0",
+        "Stamina": "80.0",
+        "Current Stamina": "25.0",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Fighter Added",
+        "As": "Champion"
+      }
+    },
+    {
+      "Type": "INFO",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "25.0",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Fighter Added",
+        "As": "Challenger"
+      }
+    },
+    {
+      "Type": "INFO",
+      "Source": {
+        "Name": "Backyard"
+      },
+      "Event": {
+        "Name": "Fight Start"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "0"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "160.0",
+        "Stamina": "80.0",
+        "Current Stamina": "26.6",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "0"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "26.6",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "1"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "160.0",
+        "Stamina": "80.0",
+        "Current Stamina": "28.200000000000003",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "1"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "28.200000000000003",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "2"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "160.0",
+        "Stamina": "80.0",
+        "Current Stamina": "29.800000000000004",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "2"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "29.800000000000004",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "3"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "160.0",
+        "Stamina": "80.0",
+        "Current Stamina": "31.400000000000006",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "3"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "31.400000000000006",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "4"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "160.0",
+        "Stamina": "80.0",
+        "Current Stamina": "33.00000000000001",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "4"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "33.00000000000001",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "5"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "160.0",
+        "Stamina": "80.0",
+        "Current Stamina": "34.60000000000001",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "5"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "34.60000000000001",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "6"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "160.0",
+        "Stamina": "80.0",
+        "Current Stamina": "36.20000000000001",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "6"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "36.20000000000001",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "7"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "160.0",
+        "Stamina": "80.0",
+        "Current Stamina": "37.80000000000001",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "7"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "37.80000000000001",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "8"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "160.0",
+        "Stamina": "80.0",
+        "Current Stamina": "39.40000000000001",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "8"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "39.40000000000001",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "9"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "160.0",
+        "Stamina": "80.0",
+        "Current Stamina": "41.000000000000014",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "9"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "41.000000000000014",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "10"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "160.0",
+        "Stamina": "80.0",
+        "Current Stamina": "42.600000000000016",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "10"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "42.600000000000016",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "11"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "160.0",
+        "Stamina": "80.0",
+        "Current Stamina": "44.20000000000002",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "11"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "44.20000000000002",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "12"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "160.0",
+        "Stamina": "80.0",
+        "Current Stamina": "45.80000000000002",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "12"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "45.80000000000002",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "13"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "160.0",
+        "Stamina": "80.0",
+        "Current Stamina": "47.40000000000002",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "13"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "47.40000000000002",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "14"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "160.0",
+        "Stamina": "80.0",
+        "Current Stamina": "49.00000000000002",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "14"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "49.00000000000002",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "15"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "160.0",
+        "Stamina": "80.0",
+        "Current Stamina": "50.60000000000002",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "15"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "50.60000000000002",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "16"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "160.0",
+        "Stamina": "80.0",
+        "Current Stamina": "52.200000000000024",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "16"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "52.200000000000024",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "17"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "160.0",
+        "Stamina": "80.0",
+        "Current Stamina": "53.800000000000026",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "17"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "53.800000000000026",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "18"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "160.0",
+        "Stamina": "80.0",
+        "Current Stamina": "55.40000000000003",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "18"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "55.40000000000003",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "19"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "160.0",
+        "Stamina": "80.0",
+        "Current Stamina": "57.00000000000003",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "19"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "57.00000000000003",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "9.000000000000028",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Flying Kick",
+        "Damage Type": "Physical",
+        "Damage Amount": "55.148244053436244"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "131.881404757251",
+        "Stamina": "80.0",
+        "Current Stamina": "57.00000000000003",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Block",
+        "Damage Type": "Physical",
+        "Damage Amount": "28.118595242748995"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "20"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "132.041404757251",
+        "Stamina": "80.0",
+        "Current Stamina": "57.00000000000003",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "132.041404757251",
+        "Stamina": "80.0",
+        "Current Stamina": "58.60000000000003",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "20"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "10.600000000000028",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "21"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "132.201404757251",
+        "Stamina": "80.0",
+        "Current Stamina": "58.60000000000003",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "132.201404757251",
+        "Stamina": "80.0",
+        "Current Stamina": "60.20000000000003",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "21"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "12.200000000000028",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "22"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "132.361404757251",
+        "Stamina": "80.0",
+        "Current Stamina": "60.20000000000003",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "132.361404757251",
+        "Stamina": "80.0",
+        "Current Stamina": "61.80000000000003",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "22"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "13.800000000000027",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "23"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "132.521404757251",
+        "Stamina": "80.0",
+        "Current Stamina": "61.80000000000003",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "132.521404757251",
+        "Stamina": "80.0",
+        "Current Stamina": "63.400000000000034",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "23"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "15.400000000000027",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "24"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "132.681404757251",
+        "Stamina": "80.0",
+        "Current Stamina": "63.400000000000034",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "132.681404757251",
+        "Stamina": "80.0",
+        "Current Stamina": "65.00000000000003",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "24"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "17.00000000000003",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "25"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "132.84140475725098",
+        "Stamina": "80.0",
+        "Current Stamina": "65.00000000000003",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "132.84140475725098",
+        "Stamina": "80.0",
+        "Current Stamina": "66.60000000000002",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "25"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "18.60000000000003",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "26"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "133.00140475725098",
+        "Stamina": "80.0",
+        "Current Stamina": "66.60000000000002",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "133.00140475725098",
+        "Stamina": "80.0",
+        "Current Stamina": "68.20000000000002",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "26"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "20.20000000000003",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "27"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "133.16140475725098",
+        "Stamina": "80.0",
+        "Current Stamina": "68.20000000000002",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "133.16140475725098",
+        "Stamina": "80.0",
+        "Current Stamina": "69.80000000000001",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "27"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "21.800000000000033",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "28"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "133.32140475725097",
+        "Stamina": "80.0",
+        "Current Stamina": "69.80000000000001",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "133.32140475725097",
+        "Stamina": "80.0",
+        "Current Stamina": "71.4",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "28"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "23.400000000000034",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "29"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "133.48140475725097",
+        "Stamina": "80.0",
+        "Current Stamina": "71.4",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "133.48140475725097",
+        "Stamina": "80.0",
+        "Current Stamina": "73.0",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "29"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "25.000000000000036",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "30"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "133.64140475725097",
+        "Stamina": "80.0",
+        "Current Stamina": "73.0",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "133.64140475725097",
+        "Stamina": "80.0",
+        "Current Stamina": "74.6",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "30"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "26.600000000000037",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "31"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "133.80140475725096",
+        "Stamina": "80.0",
+        "Current Stamina": "74.6",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "133.80140475725096",
+        "Stamina": "80.0",
+        "Current Stamina": "76.19999999999999",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "31"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "28.20000000000004",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "32"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "133.96140475725096",
+        "Stamina": "80.0",
+        "Current Stamina": "76.19999999999999",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "133.96140475725096",
+        "Stamina": "80.0",
+        "Current Stamina": "77.79999999999998",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "133.96140475725096",
+        "Stamina": "80.0",
+        "Current Stamina": "77.79999999999998",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Punch",
+        "Damage Type": "Physical",
+        "Damage Amount": "38.73108934020025"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "28.20000000000004",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Evade",
+        "Damage Type": "Physical",
+        "Damage Amount": "0.0"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "32"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "29.80000000000004",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "33"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "134.12140475725096",
+        "Stamina": "80.0",
+        "Current Stamina": "77.79999999999998",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "134.12140475725096",
+        "Stamina": "80.0",
+        "Current Stamina": "79.39999999999998",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "33"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "31.40000000000004",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "34"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "134.28140475725095",
+        "Stamina": "80.0",
+        "Current Stamina": "79.39999999999998",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "134.28140475725095",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "34"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "33.00000000000004",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "35"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "134.44140475725095",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "35"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "34.600000000000044",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "36"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "134.60140475725095",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "36"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "36.200000000000045",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "37"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "134.76140475725094",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "37"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "37.80000000000005",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "38"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "134.92140475725094",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "38"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "39.40000000000005",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "39"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "135.08140475725094",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "39"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "41.00000000000005",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "41.00000000000005",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Kick",
+        "Damage Type": "Physical",
+        "Damage Amount": "36.43929927923462"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "121.92996533386324",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Block",
+        "Damage Type": "Physical",
+        "Damage Amount": "13.151439423387693"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "40"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "122.08996533386323",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "40"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "42.60000000000005",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "41"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "122.24996533386323",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "41"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "44.20000000000005",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "42"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "122.40996533386323",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "42"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "45.800000000000054",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "43"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "122.56996533386322",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "43"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "47.400000000000055",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "44"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "122.72996533386322",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "44"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "49.00000000000006",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "45"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "122.88996533386322",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "45"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "50.60000000000006",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "46"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "123.04996533386321",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "46"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "52.20000000000006",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "47"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "123.20996533386321",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "47"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "53.80000000000006",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "48"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "123.3699653338632",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "48"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "55.40000000000006",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "49"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "123.5299653338632",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "49"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "57.000000000000064",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "50"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "123.6899653338632",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "50"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "58.600000000000065",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "51"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "123.8499653338632",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "51"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "60.20000000000007",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "52"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "124.00996533386319",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "52"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "61.80000000000007",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "53"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "124.16996533386319",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "53"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "63.40000000000007",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "54"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "124.32996533386319",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "54"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "65.00000000000007",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "55"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "124.48996533386318",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "55"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "66.60000000000007",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "56"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "124.64996533386318",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "56"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "68.20000000000006",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "57"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "124.80996533386318",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "57"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "69.80000000000005",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "58"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "124.96996533386317",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "58"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "71.40000000000005",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "59"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "125.12996533386317",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "59"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "73.00000000000004",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "9.000000000000043",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Flying Kick",
+        "Damage Type": "Physical",
+        "Damage Amount": "64.95241318783714"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "60.17755214602603",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "60"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "60.33755214602603",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "60"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "10.600000000000042",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "61"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "60.497552146026024",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "61"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "12.200000000000042",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "62"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "60.65755214602602",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "62"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "13.800000000000042",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "63"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "60.81755214602602",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "63"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "15.400000000000041",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "64"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "60.977552146026014",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "64"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "17.000000000000043",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "65"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "61.13755214602601",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "61.13755214602601",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Punch",
+        "Damage Type": "Physical",
+        "Damage Amount": "37.99140268347384"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "17.000000000000043",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Evade",
+        "Damage Type": "Physical",
+        "Damage Amount": "0.0"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "65"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "18.600000000000044",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "66"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "61.29755214602601",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "66"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "20.200000000000045",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "67"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "61.457552146026",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "67"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "21.800000000000047",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "68"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "61.617552146026",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "68"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "23.40000000000005",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "69"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "61.777552146026",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "69"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "25.00000000000005",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "70"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "61.93755214602599",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "70"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "26.60000000000005",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "71"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "62.09755214602599",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "71"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "28.200000000000053",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "72"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "62.257552146025986",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "72"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "29.800000000000054",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "73"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "62.41755214602598",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "73"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "31.400000000000055",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "74"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "62.57755214602598",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "74"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "33.00000000000006",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "75"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "62.737552146025976",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "75"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "34.60000000000006",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "76"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "62.89755214602597",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "76"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "36.20000000000006",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "77"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "63.05755214602597",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "77"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "37.80000000000006",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "78"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "63.217552146025966",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "78"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "39.40000000000006",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "79"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "63.37755214602596",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "79"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "41.000000000000064",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "9.000000000000064",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Flying Kick",
+        "Damage Type": "Physical",
+        "Damage Amount": "40.8022309855958"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "46.73576735754932",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Block",
+        "Damage Type": "Physical",
+        "Damage Amount": "16.641784788476638"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "80"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "46.89576735754932",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "80"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "10.600000000000064",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "81"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "47.055767357549314",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "81"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "12.200000000000063",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "82"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "47.21576735754931",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "82"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "13.800000000000063",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "83"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "47.37576735754931",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "83"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "15.400000000000063",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "84"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "47.535767357549304",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "84"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "17.000000000000064",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "85"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "47.6957673575493",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "85"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "18.600000000000065",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "86"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "47.8557673575493",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "86"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "20.200000000000067",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "87"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "48.015767357549294",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "87"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "21.800000000000068",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "88"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "48.17576735754929",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "88"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "23.40000000000007",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "89"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "48.33576735754929",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "89"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "25.00000000000007",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "90"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "48.49576735754928",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "90"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "26.600000000000072",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "91"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "48.65576735754928",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "91"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "28.200000000000074",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "92"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "48.81576735754928",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "92"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "29.800000000000075",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "93"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "48.97576735754927",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "93"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "31.400000000000077",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "94"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "49.13576735754927",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "94"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "33.00000000000008",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "95"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "49.295767357549266",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "95"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "34.60000000000008",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "96"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "49.45576735754926",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "96"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "36.20000000000008",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "97"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "49.61576735754926",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "97"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "90.0",
+        "Stamina": "80.0",
+        "Current Stamina": "37.80000000000008",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "98"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "49.775767357549256",
+        "Stamina": "80.0",
+        "Current Stamina": "80.0",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "49.775767357549256",
+        "Stamina": "80.0",
+        "Current Stamina": "16.0",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Cross",
+        "Damage Type": "Physical",
+        "Damage Amount": "66.02985506787867"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "23.97014493212133",
+        "Stamina": "80.0",
+        "Current Stamina": "37.80000000000008",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Evade",
+        "Damage Type": "Physical",
+        "Damage Amount": "66.02985506787867"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "98"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "24.07014493212133",
+        "Stamina": "80.0",
+        "Current Stamina": "37.80000000000008",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "24.07014493212133",
+        "Stamina": "80.0",
+        "Current Stamina": "39.400000000000084",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "99"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "49.93576735754925",
+        "Stamina": "80.0",
+        "Current Stamina": "16.0",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "49.93576735754925",
+        "Stamina": "80.0",
+        "Current Stamina": "17.6",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "99"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "24.17014493212133",
+        "Stamina": "80.0",
+        "Current Stamina": "39.400000000000084",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "24.17014493212133",
+        "Stamina": "80.0",
+        "Current Stamina": "41.000000000000085",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "24.17014493212133",
+        "Stamina": "80.0",
+        "Current Stamina": "41.000000000000085",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Kick",
+        "Damage Type": "Physical",
+        "Damage Amount": "15.855843558992875"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "49.93576735754925",
+        "Stamina": "80.0",
+        "Current Stamina": "17.6",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Block",
+        "Damage Type": "Physical",
+        "Damage Amount": "0.0"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "100"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "50.09576735754925",
+        "Stamina": "80.0",
+        "Current Stamina": "17.6",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "50.09576735754925",
+        "Stamina": "80.0",
+        "Current Stamina": "19.200000000000003",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "100"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "24.270144932121333",
+        "Stamina": "80.0",
+        "Current Stamina": "41.000000000000085",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "24.270144932121333",
+        "Stamina": "80.0",
+        "Current Stamina": "42.60000000000009",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "101"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "50.255767357549246",
+        "Stamina": "80.0",
+        "Current Stamina": "19.200000000000003",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "50.255767357549246",
+        "Stamina": "80.0",
+        "Current Stamina": "20.800000000000004",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "101"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "24.370144932121335",
+        "Stamina": "80.0",
+        "Current Stamina": "42.60000000000009",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "24.370144932121335",
+        "Stamina": "80.0",
+        "Current Stamina": "44.20000000000009",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "102"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "50.41576735754924",
+        "Stamina": "80.0",
+        "Current Stamina": "20.800000000000004",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "50.41576735754924",
+        "Stamina": "80.0",
+        "Current Stamina": "22.400000000000006",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "102"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "24.470144932121336",
+        "Stamina": "80.0",
+        "Current Stamina": "44.20000000000009",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "24.470144932121336",
+        "Stamina": "80.0",
+        "Current Stamina": "45.80000000000009",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "103"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "50.57576735754924",
+        "Stamina": "80.0",
+        "Current Stamina": "22.400000000000006",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "50.57576735754924",
+        "Stamina": "80.0",
+        "Current Stamina": "24.000000000000007",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "103"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "24.570144932121337",
+        "Stamina": "80.0",
+        "Current Stamina": "45.80000000000009",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "24.570144932121337",
+        "Stamina": "80.0",
+        "Current Stamina": "47.40000000000009",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "104"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "50.735767357549236",
+        "Stamina": "80.0",
+        "Current Stamina": "24.000000000000007",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "50.735767357549236",
+        "Stamina": "80.0",
+        "Current Stamina": "25.60000000000001",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "104"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "24.67014493212134",
+        "Stamina": "80.0",
+        "Current Stamina": "47.40000000000009",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "24.67014493212134",
+        "Stamina": "80.0",
+        "Current Stamina": "49.00000000000009",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "105"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "50.89576735754923",
+        "Stamina": "80.0",
+        "Current Stamina": "25.60000000000001",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "50.89576735754923",
+        "Stamina": "80.0",
+        "Current Stamina": "27.20000000000001",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "105"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "24.77014493212134",
+        "Stamina": "80.0",
+        "Current Stamina": "49.00000000000009",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "24.77014493212134",
+        "Stamina": "80.0",
+        "Current Stamina": "50.600000000000094",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "106"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "51.05576735754923",
+        "Stamina": "80.0",
+        "Current Stamina": "27.20000000000001",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "51.05576735754923",
+        "Stamina": "80.0",
+        "Current Stamina": "28.80000000000001",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "106"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "24.87014493212134",
+        "Stamina": "80.0",
+        "Current Stamina": "50.600000000000094",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "24.87014493212134",
+        "Stamina": "80.0",
+        "Current Stamina": "52.200000000000095",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "107"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "51.215767357549225",
+        "Stamina": "80.0",
+        "Current Stamina": "28.80000000000001",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "51.215767357549225",
+        "Stamina": "80.0",
+        "Current Stamina": "30.400000000000013",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "107"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "24.970144932121343",
+        "Stamina": "80.0",
+        "Current Stamina": "52.200000000000095",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "24.970144932121343",
+        "Stamina": "80.0",
+        "Current Stamina": "53.8000000000001",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "108"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "51.37576735754922",
+        "Stamina": "80.0",
+        "Current Stamina": "30.400000000000013",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "51.37576735754922",
+        "Stamina": "80.0",
+        "Current Stamina": "32.000000000000014",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "108"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "25.070144932121345",
+        "Stamina": "80.0",
+        "Current Stamina": "53.8000000000001",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "25.070144932121345",
+        "Stamina": "80.0",
+        "Current Stamina": "55.4000000000001",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "109"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "51.53576735754922",
+        "Stamina": "80.0",
+        "Current Stamina": "32.000000000000014",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "51.53576735754922",
+        "Stamina": "80.0",
+        "Current Stamina": "33.600000000000016",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "109"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "25.170144932121346",
+        "Stamina": "80.0",
+        "Current Stamina": "55.4000000000001",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "25.170144932121346",
+        "Stamina": "80.0",
+        "Current Stamina": "57.0000000000001",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "110"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "51.695767357549215",
+        "Stamina": "80.0",
+        "Current Stamina": "33.600000000000016",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "51.695767357549215",
+        "Stamina": "80.0",
+        "Current Stamina": "35.20000000000002",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "110"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "25.270144932121347",
+        "Stamina": "80.0",
+        "Current Stamina": "57.0000000000001",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "25.270144932121347",
+        "Stamina": "80.0",
+        "Current Stamina": "58.6000000000001",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "111"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "51.85576735754921",
+        "Stamina": "80.0",
+        "Current Stamina": "35.20000000000002",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "51.85576735754921",
+        "Stamina": "80.0",
+        "Current Stamina": "36.80000000000002",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "111"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "25.37014493212135",
+        "Stamina": "80.0",
+        "Current Stamina": "58.6000000000001",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "25.37014493212135",
+        "Stamina": "80.0",
+        "Current Stamina": "60.2000000000001",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "112"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "52.01576735754921",
+        "Stamina": "80.0",
+        "Current Stamina": "36.80000000000002",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "52.01576735754921",
+        "Stamina": "80.0",
+        "Current Stamina": "38.40000000000002",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "112"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "25.47014493212135",
+        "Stamina": "80.0",
+        "Current Stamina": "60.2000000000001",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "25.47014493212135",
+        "Stamina": "80.0",
+        "Current Stamina": "61.800000000000104",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "113"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "52.175767357549205",
+        "Stamina": "80.0",
+        "Current Stamina": "38.40000000000002",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "52.175767357549205",
+        "Stamina": "80.0",
+        "Current Stamina": "40.00000000000002",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "113"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "25.57014493212135",
+        "Stamina": "80.0",
+        "Current Stamina": "61.800000000000104",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "25.57014493212135",
+        "Stamina": "80.0",
+        "Current Stamina": "63.400000000000105",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "114"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "52.3357673575492",
+        "Stamina": "80.0",
+        "Current Stamina": "40.00000000000002",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "52.3357673575492",
+        "Stamina": "80.0",
+        "Current Stamina": "41.60000000000002",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "114"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "25.670144932121353",
+        "Stamina": "80.0",
+        "Current Stamina": "63.400000000000105",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "25.670144932121353",
+        "Stamina": "80.0",
+        "Current Stamina": "65.0000000000001",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "115"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "52.4957673575492",
+        "Stamina": "80.0",
+        "Current Stamina": "41.60000000000002",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "52.4957673575492",
+        "Stamina": "80.0",
+        "Current Stamina": "43.200000000000024",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "115"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "25.770144932121354",
+        "Stamina": "80.0",
+        "Current Stamina": "65.0000000000001",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "25.770144932121354",
+        "Stamina": "80.0",
+        "Current Stamina": "66.6000000000001",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "116"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "52.655767357549195",
+        "Stamina": "80.0",
+        "Current Stamina": "43.200000000000024",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "52.655767357549195",
+        "Stamina": "80.0",
+        "Current Stamina": "44.800000000000026",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "116"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "25.870144932121356",
+        "Stamina": "80.0",
+        "Current Stamina": "66.6000000000001",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "25.870144932121356",
+        "Stamina": "80.0",
+        "Current Stamina": "68.20000000000009",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "117"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "52.81576735754919",
+        "Stamina": "80.0",
+        "Current Stamina": "44.800000000000026",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "52.81576735754919",
+        "Stamina": "80.0",
+        "Current Stamina": "46.40000000000003",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "117"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "25.970144932121357",
+        "Stamina": "80.0",
+        "Current Stamina": "68.20000000000009",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "25.970144932121357",
+        "Stamina": "80.0",
+        "Current Stamina": "69.80000000000008",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "118"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "52.97576735754919",
+        "Stamina": "80.0",
+        "Current Stamina": "46.40000000000003",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "52.97576735754919",
+        "Stamina": "80.0",
+        "Current Stamina": "48.00000000000003",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "118"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "26.07014493212136",
+        "Stamina": "80.0",
+        "Current Stamina": "69.80000000000008",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "26.07014493212136",
+        "Stamina": "80.0",
+        "Current Stamina": "71.40000000000008",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tik",
+        "Count": "119"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "53.135767357549184",
+        "Stamina": "80.0",
+        "Current Stamina": "48.00000000000003",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "53.135767357549184",
+        "Stamina": "80.0",
+        "Current Stamina": "49.60000000000003",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "BEAT",
+      "Source": {
+        "Name": "Beat"
+      },
+      "Event": {
+        "Name": "Tok",
+        "Count": "119"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "26.17014493212136",
+        "Stamina": "80.0",
+        "Current Stamina": "71.40000000000008",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "UPDATE",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "26.17014493212136",
+        "Stamina": "80.0",
+        "Current Stamina": "73.00000000000007",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Attribute Updated"
+      }
+    },
+    {
+      "Type": "ACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "26.17014493212136",
+        "Stamina": "80.0",
+        "Current Stamina": "9.000000000000071",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Flying Kick",
+        "Damage Type": "Physical",
+        "Damage Amount": "71.86667409777488"
+      }
+    },
+    {
+      "Type": "REACTION",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "0.0",
+        "Stamina": "80.0",
+        "Current Stamina": "49.60000000000003",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      }
+    },
+    {
+      "Type": "INFO",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "0.0",
+        "Stamina": "80.0",
+        "Current Stamina": "49.60000000000003",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Knock Out"
+      }
+    },
+    {
+      "Type": "INFO",
+      "Source": {
+        "Name": "Backyard"
+      },
+      "Event": {
+        "Name": "Fight End",
+        "Result": "Win",
+        "Result By": "Knock Out"
+      }
+    },
+    {
+      "Type": "INFO",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Boxer",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Boxer",
+        "Life": "160.0",
+        "Current Life": "0.0",
+        "Stamina": "80.0",
+        "Current Stamina": "49.60000000000003",
+        "Strength": "100.0",
+        "Dexterity": "30.0"
+      },
+      "Event": {
+        "Name": "Lost",
+        "As": "Champion"
+      }
+    },
+    {
+      "Type": "INFO",
+      "Source": {
+        "Name": "Fighter",
+        "Fighter Name": "Taekwondo",
+        "Fighter Type": "Professional",
+        "Fighter Subtype": "Taekwondo",
+        "Life": "90.0",
+        "Current Life": "26.17014493212136",
+        "Stamina": "80.0",
+        "Current Stamina": "9.000000000000071",
+        "Strength": "30.0",
+        "Dexterity": "50.0"
+      },
+      "Event": {
+        "Name": "Won",
+        "As": "Challenger"
+      }
+    }
+  ]
+}

@@ -9,7 +9,13 @@ import { pages } from '../common/pages.js';
 
     connectedCallback() {
       const pageid = this.getAttribute('pageid');
-      const pageName = !pages.getPageById(pageid) ? 'Add Valid PageId' : pages.getPageById(pageid).name;
+      let pageName = '';
+      if (!pageid && this.hasAttribute('pagename')) {
+        pageName = this.getAttribute('pagename');
+      } else {
+        pageName = !pages.getPageById(pageid) ? 'Add Valid PageId' : pages.getPageById(pageid).name;
+      }
+      // const pageName = !pages.getPageById(pageid) ? 'Add Valid PageId' : pages.getPageById(pageid).name;
   
       var shadow = this.attachShadow({ mode: 'open' });
       shadow.innerHTML = `
