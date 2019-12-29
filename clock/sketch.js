@@ -23,6 +23,7 @@ function init() {
     case 3: clock = new ArcClock(); break;
     case 4: clock = new MaedasClock(); break;
     case 5: clock = new DigitalClock(); break;
+    case 6: clock = new MaedasClockPendulum(); break;
   }
 }
 

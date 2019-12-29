@@ -9,7 +9,9 @@ class Pages {
         img: '/clock/img/preview.jpg',
         detail: 'Animating a clock.',
         tag: [
-          'clock'
+          'clock',
+          'maeda',
+          'pendulum'
         ]
       },
       {
@@ -20,7 +22,8 @@ class Pages {
         detail: 'Animation showing Lissajous curve adaptation!',
         tag: [
           'lissajous',
-          'curve'
+          'curve',
+          'bowditch'
         ]
       },
       {
@@ -31,7 +34,8 @@ class Pages {
         detail: 'Table of curves animating around based on Lissajous equation!',
         tag: [
           'lissajous',
-          'curve'
+          'curve',
+          'bowditch'
         ]
       },
       {
@@ -135,12 +139,13 @@ class Pages {
         name: 'Fractal Trees',
         url: '/fractal-trees',
         img: '/fractal-trees/img/preview.jpg',
-        detail: 'Fractal Trees. L-Systems. Pythagoras Tree.',
+        detail: 'Fractal Trees. L-Systems. Pythagorean Tree.',
         tag: [
           'fractal tree',
           'fractal',
           'l system',
-          'pythagoras tree'
+          'pythagorean tree',
+          'pythagoras'
         ]
       },
       {
@@ -172,7 +177,8 @@ class Pages {
         img: '/logo/img/preview.jpg',
         detail: 'Animate the Logo.',
         tag: [
-          'logo'
+          'logo',
+          'original'
         ]
       },
       {
@@ -192,7 +198,8 @@ class Pages {
         img: '/starfield/img/preview.jpg',
         detail: 'Into the Space!',
         tag: [
-          'starfield'
+          'starfield',
+          'space'
         ]
       },
       {
@@ -237,7 +244,8 @@ class Pages {
         detail: 'Remember Doctor Strange?',
         tag: [
           'fractal',
-          'hand'
+          'hand',
+          'original'
         ]
       },
       {
@@ -250,6 +258,19 @@ class Pages {
           'mcu',
           'combat',
           'kombat',
+          'sim',
+          'original'
+        ]
+      },
+      {
+        id: 10021,
+        name: 'Terrains',
+        url: '/terrains',
+        img: '/terrains/img/preview.jpg',
+        detail: 'Terrain Generation.',
+        tag: [
+          'terrain',
+          '3d',
           'sim'
         ]
       }

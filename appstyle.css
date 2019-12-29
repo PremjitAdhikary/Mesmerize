@@ -45,7 +45,7 @@ a:hover, a:active {
   height: 100%;
   display: grid;
 	grid-template-columns: 1fr;
-  grid-template-rows: auto 1fr 2fr;
+  grid-template-rows: auto auto auto;
   grid-row-gap: 10px;
 	grid-template-areas:
 		"sketch"
@@ -65,14 +65,12 @@ a:hover, a:active {
 
 .description {
   grid-area: description;
-  height: 95vh;
-  overflow-y: auto;
+  height: auto;
 }
 
 .description-no-control {
   grid-area: description;
-  height: 95vh;
-  overflow-y: auto;
+  height: auto;
 }
 
 .cardholder {
@@ -140,7 +138,9 @@ a:hover, a:active {
 
 .sketch {
   grid-area: sketch;
-  display:flex;justify-content:center;align-items:center;
+  display:flex;
+  justify-content:center;
+  align-items:center;
 }
 
 .sketch-holder {

@@ -12,6 +12,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.js"></script>
   <script src="./sketch.js"></script>
   <script src="../components/radio-input-group.js" type="module"></script>
+  <script src="../components/tabbed-pane.js" type="module"></script>
   <script src="./control.js" type="module"></script>
   <script src="../common/pages.js" type="module"></script>
   <script src="./fighter.js"></script>
@@ -201,6 +202,7 @@
                   </radio-group>
                 </div>
             </div>
+
             <p>
               <span class="btn" id="loadBtn">Load Fight</span>
               <span class="btn" id="playBtn">Play/Pause</span>
@@ -250,109 +252,218 @@
                 </ul>
               </p>
 
+              <p><em>Little bit about the fighters fighting for your entertainment here.</em></p>
+
+              <tabbed-pane>
+                <tab-content name="Amateur" selected>
+                  <p>The weakest of the lot. Select a fighter for more info.</p>
+                  <tabbed-pane>
+                    <tab-content name="Nerd" selected>
+                      <p>Weak but fast. Capabilities:</p>
+                      <ul>
+                        <li>Kick</li>
+                        <li>Evade</li>
+                      </ul>
+                    </tab-content>
+                    <tab-content name="Bully">
+                      <p>Strong but slow. Capabilities:</p>
+                      <ul>
+                        <li>Punch</li>
+                        <li>Block</li>
+                      </ul>
+                    </tab-content>
+                    <tab-content name="Captain">
+                      <p>Balanced. Capabilities:</p>
+                      <ul>
+                        <li>Punch</li>
+                        <li>Kick</li>
+                        <li>Block</li>
+                      </ul>
+                    </tab-content>
+                  </tabbed-pane>
+                </tab-content>
+                <tab-content name="Pro">
+                  <p>
+                    Fighters in Pro Class (they have a secondary attribute <em>Stamina</em>). 
+                    Select a fighter for more info.
+                  </p>
+                  <tabbed-pane>
+                    <tab-content name="Boxer" selected>
+                      <p>Strongest but slowest among pros. Capabilities:</p>
+                      <ul>
+                        <li>Punch</li>
+                        <li>Cross: Special attack, uses Stamina</li>
+                        <li>Block</li>
+                      </ul>
+                    </tab-content>
+                    <tab-content name="Karateka">
+                      <p>Most balanced. Capabilities:</p>
+                      <ul>
+                        <li>Punch</li>
+                        <li>Kick</li>
+                        <li>Chop: Special attack, uses Stamina</li>
+                        <li>Block</li>
+                      </ul>
+                    </tab-content>
+                    <tab-content name="Taekwondo">
+                      <p>Fastest but weakest among pros. Capabilities:</p>
+                      <ul>
+                        <li>Kick</li>
+                        <li>Flying Kick: Special attack, uses Stamina</li>
+                        <li>Evade</li>
+                      </ul>
+                    </tab-content>
+                  </tabbed-pane>
+                </tab-content>
+                <tab-content name="Enhanced">
+                  <p>
+                    They are basically enhanced Pro Class Fighters. Select a fighter for more info.
+                  </p>
+                  <tabbed-pane>
+                    <tab-content name="E Boxer" selected>
+                      <p>Pro Boxer with enhanced strength. Capabilities:</p>
+                      <ul>
+                        <li>Punch</li>
+                        <li>Cross: Special attack, uses Stamina</li>
+                        <li>Block</li>
+                      </ul>
+                    </tab-content>
+                    <tab-content name="Ninja">
+                      <p>
+                        Taekwondo armed with Nun-Chuck (weapon) and Shurikens (projectile). 
+                        Capabilities:
+                      </p>
+                      <ul>
+                        <li>Kick</li>
+                        <li>Flying Kick: Special attack, uses Stamina</li>
+                        <li>Nun-Chuck Swing</li>
+                        <li>Throw Shurikens</li>
+                        <li>Evade</li>
+                      </ul>
+                    </tab-content>
+                    <tab-content name="Samurai">
+                      <p>
+                        Karateka enhanced with armor and sword (weapon). The sword restricts him 
+                        from using his original attack abilities, but gives him alternate attack 
+                        abilities. Capabilities:
+                      </p>
+                      <ul>
+                        <li>Sword Cut</li>
+                        <li>Sword Slash</li>
+                        <li>Block</li>
+                      </ul>
+                    </tab-content>
+                  </tabbed-pane>
+                </tab-content>
+                <tab-content name="Super (Heroes)">
+                  <p>
+                    Heroes use a secondary attribute Mojo to execute powers. Select a fighter for 
+                    more info.
+                  </p>
+                  <tabbed-pane>
+                    <tab-content name="Superman" selected>
+                      <p>Strongest among all Heroes and quite fast too. Capabilities:</p>
+                      <ul>
+                        <li>Punch</li>
+                        <li>
+                          Heat Vision: Power attack. Does considerable damage and burns the 
+                          opponent.
+                        </li>
+                        <li>Freeze Breath: Power attack. Slows down the opponent.</li>
+                        <li>Block</li>
+                      </ul>
+                    </tab-content>
+                    <tab-content name="Flash">
+                      <p>Fastest among all Heroes and quite strong too. Capabilities:</p>
+                      <ul>
+                        <li>Kick</li>
+                        <li>
+                          Arc Lightning: Power attack. Shocks the enemy and renders him useless for 
+                          some time.
+                        </li>
+                        <li>Haste: Power self boost. Increases the Flash's speed by three times</li>
+                        <li>Block</li>
+                      </ul>
+                    </tab-content>
+                    <tab-content name="Batman">
+                      <p>
+                        Only Hero without any powers. Weakest and slowest among all Heroes. But 
+                        makes up for it with his Batsuit and array of gadgets. His armor can absorb 
+                        a sizeable portion of the damage to him. Capabilities:
+                      </p>
+                      <ul>
+                        <li>Punch</li>
+                        <li>Batarang: Projectile.</li>
+                        <li>Thermite Pellets: Projectile which burns the enemy for some time.</li>
+                        <li>Freeze Grenades: Projectile which slows down the enemy for some time.</li>
+                        <li>Stun Pellets: Projectile which shocks the enemy for some time.</li>
+                        <li>Gas Pellets: Projectile which poisons the enemy.</li>
+                        <li>Mana Burners: Projectile which works wonders against the mages.</li>
+                        <li>Kryptonite: Projectile. You know who this is for.</li>
+                        <li>Heal Pill: Self administered to regenerate Batman's Life</li>
+                        <li>
+                          Block and Endure: Power defend. When the hit is fatal, uses up Mojo to 
+                          regenerate life.
+                        </li>
+                      </ul>
+                    </tab-content>
+                  </tabbed-pane>
+                </tab-content>
+                <tab-content name="Super (Mages)">
+                  <p>
+                    Mages have Mana to cast spells. Select a fighter for more info.
+                  </p>
+                  <tabbed-pane>
+                    <tab-content name="Elemental" selected>
+                      <p>A Mage well versed with Elemental spells. Capabilities:</p>
+                      <ul>
+                        <li>Flame Breath: Offensive Spell to burn the enemy.</li>
+                        <li>Ice Blast: Offensive Spell to slow down his enemy.</li>
+                        <li>
+                          Fire Shield: Defensive Spell to cast an aura which causes any attacker 
+                          who attacks to burn.
+                        </li>
+                        <li>
+                          Frozen Wall: Defensive Spell to cast an aura which causes any attacker 
+                          who attacks to chill.
+                        </li>
+                      </ul>
+                    </tab-content>
+                    <tab-content name="Dark">
+                      <p>A Mage adept at Dark Spells. Capabilities:</p>
+                      <ul>
+                        <li>
+                          Paralyze: Offensive Spell which renders his opponent paralyzed for a 
+                          certain duration.
+                        </li>
+                        <li>
+                          Bleed: Offensive Spell with which opponent keeps losing his life over a 
+                          period of time.
+                        </li>
+                        <li>
+                          Life Steal: Offensive Spell with which the Dark mage replenishes his own 
+                          life by stealing his opponents.
+                        </li>
+                        <li>
+                          Thorns Curse: Defensive Spell to cast an aura. Everytime opponent attacks, 
+                          this curse weakens the attacker. Point being, longer the fight, the weaker 
+                          the opponent gets.
+                        </li>
+                      </ul>
+                    </tab-content>
+                  </tabbed-pane>
+                </tab-content>
+              </tabbed-pane>
+
               <p>
                 <em>Let's look at the interface itself. Pretty self explanatory isn't it?</em>
               </p>
               <p><img src="./img/myCanvas.jpg" alt="Preview"></p>
 
-              <p>
-                <em>Little bit about the fighters fighting here.</em>
-                <ul>
-                  <li>
-                    Fighters in Amateur Class:
-                    <ul>
-                      <li>Nerd: Weak but fast. Can <em>Kick</em> and <em>Evade</em>.</li>
-                      <li>Bully: Strong but slow. Can <em>Punch</em> and <em>Block</em>.</li>
-                      <li>Captain: Balanced. Can <em>Punch</em>, <em>Kick</em> and <em>Block</em>.</li>
-                    </ul>
-                  </li>
-                  <li>
-                    Fighters in Pro Class (they have a secondary attribute <em>Stamina</em>):
-                    <ul>
-                      <li>
-                        Boxer: Strongest but slowest among pros. Can <em>Punch</em> and 
-                        <em>Block</em>. Has a special attack <em>Cross</em>.
-                      </li>
-                      <li>
-                        Karateka: Most balanced. Can <em>Punch</em>, <em>Kick</em> and <em>Block</em>. 
-                        Has a special attack <em>Chop</em>.
-                      </li>
-                      <li>
-                        Taekwondo: Fastest but weakest among pros. Can <em>Kick</em> and <em>Evade</em>. 
-                        Has a special attack <em>Flying Kick</em>.
-                      </li>
-                    </ul>
-                  </li>
-                  <li>
-                    Enhanced Fighters (these are basically enhanced Pro Class Fighters):
-                    <ul>
-                      <li>E Boxer: A much stronger Boxer.</li>
-                      <li>
-                        Ninja: An enhanced Taekwondo with additional agility, weapon and projectiles. 
-                        Ninja's weapon, Nun-Chuck, doesnt restrict him from using his original 
-                        attack abilities, but on the contrary adds to it. Along with the Taekwondo 
-                        attack and defend abilities, Ninja is able to attack with <em>Nunchuck Swing</em> 
-                        and throw <em>Shurikens</em>.
-                      </li>
-                      <li>
-                        Samurai: An enhanced Karateka with armor and weapon. The sword restricts him 
-                        from using his original attack abilities, but gives him new abilities. The 
-                        new attacks are <em>Sword Cut</em> and <em>Sword Slash</em>.
-                      </li>
-                    </ul>
-                  </li>
-                  <li>
-                    Super Class consists of Heroes and Mages. Heroes use a secondary attribute <em>Mojo</em> 
-                    to execute powers. Mages have <em>Mana</em> to cast spells.
-                    <ul>
-                      <li>
-                        Superman: Strongest among all Heroes and quite fast too. He can <em>Punch</em> and 
-                        <em>Block</em>. His powers are <em>Heat Vision</em> (does considerable damage and 
-                        burns the opponent) and <em>Freeze Breath</em> (slows down the opponent).
-                      </li>
-                      <li>
-                        Flash: Fastest among all Heroes and quite strong too. He can <em>Kick</em> 
-                        and <em>Evade</em>. His powers are <em>Arc Lightning</em> (shocks the enemy 
-                        and renders him useless) and <em>Haste</em> (a self cast which increases the 
-                        Flash's speed by three times).
-                      </li>
-                      <li>
-                        Batman: Only Hero without any powers. Weakest and slowest among all Heroes. 
-                        But makes up for it with his Batsuit and array of gadgets. He can <em>Punch</em> 
-                        and <em>Block</em>. His armor can absorb a sizeable portion of the damage to 
-                        him. His gadgets incude <em>Batarang</em>, <em>Thermite Pellets</em> (burns 
-                        the enemy), <em>Freeze Grenades</em> (slows down the enemy), <em>Stun 
-                        Pellets</em> (shocks the enemy), <em>Gas Pellets</em> (poisons the enemy), 
-                        <em>Mana Burners</em> (works wonders against the mages), <em>Kryptonite</em> 
-                        (you know who this is for), <em>Heal Pill</em> (to regenerate Batman's Life).
-                      </li>
-                      <li>
-                        Elemental: A Mage well versed with Elemental spells. He has 2 offensive and 
-                        2 defensive spells in his arsenal. <em>Flame Breath</em> to burn and <em>Ice 
-                        Blast</em> to slow his enemy. His defensive spells cast an aura which stays 
-                        active around the mage. This aura causes any attacker to either burn (in case 
-                        the aura is <em>Fire Shield</em>) or to chill (in case it's <em>Frozen Wall</em>) 
-                        every time the attacker attacks.
-                      </li>
-                      <li>
-                        Dark: A Mage adept at Dark Spells. Just like Elemental, Dark also has a 
-                        defensive spell to cast <em>Thorns Curse</em> aura. Everytime opponent 
-                        attacks, this curse weakens him. Point being, longer the fight, the weaker 
-                        the opponent gets. His offensive spells incude <em>Paralyze</em> which 
-                        renders his opponent paralyzed for a certain duration, <em>Bleed</em> with 
-                        which opponent keeps losing his life over a period of time and <em>Life 
-                        Steal</em> with which the Dark mage replenishes his own life by stealing his 
-                        opponents.
-                      </li>
-                    </ul>
-                  </li>
-                </ul>
-              </p>
-
             </div>
             <div slot="source">
               <p>
-                None.
+                Original idea.
               </p>
             </div>
           </sketch-text>

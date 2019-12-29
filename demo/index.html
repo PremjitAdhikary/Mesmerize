@@ -15,6 +15,7 @@
   <script src="../common/utilities.js"></script>
   <script src="../components/range-input.js" type="module"></script>
   <script src="../components/radio-input-group.js" type="module"></script>
+  <script src="../components/tabbed-pane.js" type="module"></script>
   <script src="./control.js" type="module"></script>
   <title>Change This</title>
 </head>
@@ -82,6 +83,30 @@
                 The control has demo of different controls available and how it interacts with 
                 sketch canvas.
               </p>
+              <p>Tabbed Info</p>
+              <tabbed-pane>
+                <tab-content name="Tab one">
+                  TAB1 Info <br>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, iure, consequatur alias est tempora nisi sunt eum similique debitis delectus voluptatum quasi praesentium quisquam facilis soluta perferendis natus quaerat fugit?
+                </tab-content>
+                <tab-content name="Tab two">
+                  TAB 2 Info <br>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, iure, consequatur alias est tempora nisi sunt eum similique debitis delectus voluptatum quasi praesentium quisquam facilis soluta perferendis natus quaerat fugit?
+                  <br><em>Nested Tabbed Info</em>
+                  <tabbed-pane>
+                    <tab-content name="Tab Two A" selected>
+                      Nested Info A
+                    </tab-content>
+                    <tab-content name="Tab Two B">
+                        Nested Info B
+                    </tab-content>
+                  </tabbed-pane>
+                </tab-content>
+                <tab-content name="Tab three" selected>
+                  TAB 3 Info <br>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, iure, consequatur alias est tempora nisi sunt eum similique debitis delectus voluptatum quasi praesentium quisquam facilis soluta perferendis natus quaerat fugit?
+                </tab-content>
+              </tabbed-pane>
             </div>
             <div slot="source">
               <p>
