@@ -80,20 +80,20 @@ function init() {
   let charCodes = codeSetAssamese ? Assamese : Katakana;
   let resetTo = codeSetAssamese ? -2000 : 0;
   streams = [];
-  for (let i=0; i < width/Symbol.SIZE; i++) {
-    streams.push(new Stream(i*Symbol.SIZE, charCodes, resetTo));
+  for (let i=0; i < width/AlphaSymbol.SIZE; i++) {
+    streams.push(new Stream(i*AlphaSymbol.SIZE, charCodes, resetTo));
   }
 
   if (codeSetAssamese) {
     symbolPremjit = [];
-    symbolPremjit.push(createAssameNameSymbol(18*Symbol.SIZE, charPre));
-    symbolPremjit.push(createAssameNameSymbol(19*Symbol.SIZE+4, charM));
-    symbolPremjit.push(createAssameNameSymbol(20*Symbol.SIZE, charJi));
-    symbolPremjit.push(createAssameNameSymbol(21*Symbol.SIZE+4, charT));
-    symbolPremjit.push(createAssameNameSymbol(23*Symbol.SIZE+1, charA));
-    symbolPremjit.push(createAssameNameSymbol(24*Symbol.SIZE+2, charDhi));
-    symbolPremjit.push(createAssameNameSymbol(25*Symbol.SIZE, charKa));
-    symbolPremjit.push(createAssameNameSymbol(26*Symbol.SIZE+2, charRy));
+    symbolPremjit.push(createAssameNameSymbol(18*AlphaSymbol.SIZE, charPre));
+    symbolPremjit.push(createAssameNameSymbol(19*AlphaSymbol.SIZE+4, charM));
+    symbolPremjit.push(createAssameNameSymbol(20*AlphaSymbol.SIZE, charJi));
+    symbolPremjit.push(createAssameNameSymbol(21*AlphaSymbol.SIZE+4, charT));
+    symbolPremjit.push(createAssameNameSymbol(23*AlphaSymbol.SIZE+1, charA));
+    symbolPremjit.push(createAssameNameSymbol(24*AlphaSymbol.SIZE+2, charDhi));
+    symbolPremjit.push(createAssameNameSymbol(25*AlphaSymbol.SIZE, charKa));
+    symbolPremjit.push(createAssameNameSymbol(26*AlphaSymbol.SIZE+2, charRy));
     symbolPremjit.forEach(s => s.setVisibility(false));
   } else {
     symbolPremjit = [];
@@ -103,7 +103,7 @@ function init() {
 function createAssameNameSymbol(x, value) {
   return new FlickeringSymbol(
     x, height/2, 
-    Symbol.COLOR_BRIGHT,
+    AlphaSymbol.COLOR_BRIGHT,
     value, true
   );
 }

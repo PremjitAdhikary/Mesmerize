@@ -111,6 +111,10 @@ class Pages {
           'cesaro snowflake',
           'minkowski curve',
           'minkowski snowflake',
+          'vicsek',
+          'koch',
+          'cesaro',
+          'minkowski',
           'fractal',
           'curve',
           'snowflake'
@@ -131,7 +135,10 @@ class Pages {
           'sierpinski',
           'fractal',
           'curve',
-          'ngon'
+          'triangle',
+          'polygon',
+          'ngon',
+          'snowflake1'
         ]
       },
       {
@@ -145,7 +152,8 @@ class Pages {
           'fractal',
           'l system',
           'pythagorean tree',
-          'pythagoras'
+          'pythagoras',
+          'tree'
         ]
       },
       {
@@ -222,7 +230,9 @@ class Pages {
         detail: 'Barnsley fern is another fractal.',
         tag: [
           'barnsley fern',
-          'fractal'
+          'fractal',
+          'barnsley',
+          'fern'
         ]
       },
       {
@@ -233,7 +243,8 @@ class Pages {
         detail: 'Mathematical Roses. Maurer Roses.',
         tag: [
           'rose',
-          'curve'
+          'curve',
+          'maurer'
         ]
       },
       {
@@ -270,8 +281,32 @@ class Pages {
         detail: 'Terrain Generation.',
         tag: [
           'terrain',
+          'perlin noise',
           '3d',
           'sim'
+        ]
+      },
+      {
+        id: 10022,
+        name: 'Kinematics',
+        url: '/kinematics',
+        img: '/kinematics/img/preview.jpg',
+        detail: 'How does your arm move?',
+        tag: [
+          'kinematics'
+        ]
+      },
+      {
+        id: 10023,
+        name: 'Rorschach',
+        url: '/rorschach',
+        img: '/rorschach/img/preview.jpg',
+        detail: 'Rorschach from Watchmen.',
+        tag: [
+          'rorschach',
+          'perlin noise',
+          'sim',
+          'original'
         ]
       }
     ];
@@ -283,6 +318,7 @@ class Pages {
           this._pagesMap[p.id] = p;
           this._allPagesId.push(p.id);
         });
+    // console.log(this.allTags());
   }
 
   getPageById(pageId) {
@@ -330,6 +366,26 @@ class Pages {
           .forEach(p => mySet.add(p.id))
       );
     return mySet;
+  }
+
+  allTags() {
+    let tags = {};
+    let totalTags = 0;
+    this._pages.forEach(
+      p => p.tag.forEach(
+        t => {
+          if (tags[t]) {
+            tags[t].count++;
+          } else {
+            tags[t] = {count: 1};
+          }
+          totalTags++;
+        }
+      )
+    );
+    // console.log('totalTags:'+totalTags);
+    Object.keys(tags).forEach(k => tags[k].weight = totalTags/tags[k].count);
+    return tags;
   }
 
 }

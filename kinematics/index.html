@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" href="../favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="../appstyle.css">
+  <link rel="stylesheet" href="./compstyle.css">
+  <script src="../components/app-header.js" type="module"></script>
+  <script src="../components/sketch-text.js" type="module"></script>
+  <script src="https://cdn.jsdelivr.net/npm/p5@0.10.2/lib/p5.js"></script>
+  <script src="./sketch.js"></script>
+  <script src="./segment.js"></script>
+  <script src="./simple-segment.js"></script>
+  <script src="./forward-tentacle.js"></script>
+  <script src="./inverse-tentacle.js"></script>
+  <script src="./touch-me-not-ball.js"></script>
+  <script src="../common/sketch-colors.js"></script>
+  <script src="../common/utilities.js"></script>
+  <script src="../components/range-input.js" type="module"></script>
+  <script src="../components/radio-input-group.js" type="module"></script>
+  <script src="../components/tabbed-pane.js" type="module"></script>
+  <script src="./control.js" type="module"></script>
+  <title>Kinematics</title>
+</head>
+<body>
+  <div class="toplevel">
+    <app-header class="heading"></app-header>
+    <div class="topbody">
+      <div class="container">
+          <div class="sketch">
+            <div id="sketch-holder" class="sketch-holder">
+            </div>
+          </div>
+
+          <div class="control">
+            <div class="control-container">
+                <radio-group id="choice">
+                  <radio-button value="1" aria-checked="true">Forward Kinematics</radio-button>
+                  <radio-button value="2">Inverse Kinematics</radio-button>
+                </radio-group>
+                <div id="forward_control" class="choice_control">
+                  <label for="forward_base_angle">Base Angle: </label> <br>
+                  <range-input min="-90" max="90" id="forward_base_angle"></range-input> <br>
+                  <label for="forward_child_angle">Segment Angles: </label> <br>
+                  <range-input min="-180" max="180" id="forward_child_angle"></range-input> <br>
+                  <label for="forward_segments">Total Segments: </label> <br>
+                  <range-input min="2" max="10" id="forward_segments"></range-input>
+                </div>
+                <div id="inverse_control" class="choice_control">
+                  <p>
+                    <span class="btn" id="toggleAnchorBtn">Toggle Anchor</span>
+                  </p>
+                  <label for="inverse_length">Tentacle Size: </label> <br>
+                  <range-input min="1" max="10" id="inverse_length"></range-input> <br>
+                  <label for="inverse_segments">Total Segments: </label> <br>
+                  <range-input min="2" max="40" id="inverse_segments"></range-input>
+                </div>
+            </div>
+          </div>
+
+          <sketch-text class="description" pageid="10022">
+            <div slot="content">
+              <p>
+                Check out this <a href="https://www.youtube.com/watch?v=bAdqazixuRY" target="_blank">
+                video</a>.
+              </p>
+              <p>Robot Arms - How does motion in connected systems work?</p>
+              <p>
+                I read up a bit on that. Understood a bit too. But frankly, I am in no position to 
+                explain the maths involved.
+              </p>
+              <p>
+                Sure enough Daniel Shiffman had put out a bunch of videos on this topic too.
+              </p>
+              <tabbed-pane>
+                <tab-content name="Forward Kinematics" selected>
+                  <p>
+                    Here it is when the base is moved, how does the connected segments react to it.
+                  </p>
+                  <p>
+                    The game here is to use the sliders to align the tentacle such that the tip 
+                    (red circle) touches the object (green disk). As soon as it does, the object 
+                    will move to a new location and you start again to adjust the sliders.
+                  </p>
+                  <p>
+                    PS: Increase the number of segments to <em>up</em> the challenge.
+                  </p>
+                </tab-content>
+                <tab-content name="Inverse Kinematics">
+                  <p>
+                    Here its about the motion of the connected segments of the tip to the base. 
+                    The tip tries to reach out to <em>something</em> and how the other segments 
+                    align themselves so that the front can grab or get as close as possible to 
+                    the <em>something</em>.
+                  </p>
+                  <p>
+                    Move the mouse to see the tentacle follow the mouse. Less segments will make 
+                    the tentacle look robotic. More will make it fluid, almost like a rope.
+                  </p>
+                  <p>
+                    The toggle anchor will either fix the tentacle to a base or let it free to 
+                    roam around the screen.
+                  </p>
+                </tab-content>
+              </tabbed-pane>
+            </div>
+            <div slot="source">
+              <p>
+                Following videos by Daniel.
+                <ul>
+                  <li>
+                    <a href="https://www.youtube.com/watch?v=xXjRlEr7AGk" target="_blank">
+                    Forward Kinematics</a>
+                  </li>
+                  <li>
+                    <a href="https://www.youtube.com/watch?v=hbgDqyy8bIw" target="_blank">
+                    Inverse Kinematics</a>
+                  </li>
+                  <li>
+                    <a href="https://www.youtube.com/watch?v=RTc6i-7N3ms" target="_blank">
+                    Inverse Kinematics - Fixed Point</a>
+                  </li>
+                </ul>
+              </p>
+            </div>
+          </sketch-text>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

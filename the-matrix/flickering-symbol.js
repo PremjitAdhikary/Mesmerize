@@ -15,7 +15,7 @@ class FlickeringSymbol {
     if (this.isSteadyZone() || !this._flicker) {
       stroke(this._color);
       fill(this._color);
-      textSize(Symbol.SIZE);
+      textSize(AlphaSymbol.SIZE);
       text(this._value, this._x, this._y);
     }
     if (!this.isSteadyZone() && this.isFlickerToggable()) {

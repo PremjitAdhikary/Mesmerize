@@ -1,4 +1,4 @@
-class Symbol {
+class AlphaSymbol {
   constructor(x,y,charCodes,color,speed,resetTo) {
     this._x = x;
     this._y = y;
@@ -12,7 +12,7 @@ class Symbol {
   show() {
     stroke(this._color);
     fill(this._color);
-    textSize(Symbol.SIZE);
+    textSize(AlphaSymbol.SIZE);
     text(this._value, this._x, this._y);
     this._y = this._y > height ? this._resetTo : this._y+this._speed;
     if (floor(random(1,25)) == 1) {
@@ -25,6 +25,6 @@ class Symbol {
   }
 }
 
-Symbol.SIZE = 14;
-Symbol.COLOR_BRIGHT = SketchColor.blend(SketchColor.greenyellow(),SketchColor.white()).stringify();
-Symbol.COLOR_DIM = SketchColor.blend(SketchColor.green(),SketchColor.grey()).stringify();
+AlphaSymbol.SIZE = 14;
+AlphaSymbol.COLOR_BRIGHT = SketchColor.blend(SketchColor.greenyellow(),SketchColor.white()).stringify();
+AlphaSymbol.COLOR_DIM = SketchColor.blend(SketchColor.green(),SketchColor.grey()).stringify();
