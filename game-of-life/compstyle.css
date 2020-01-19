@@ -1,0 +1,14 @@
+.control-container {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas:
+    "choices sub-choices";
+}
+.choices {
+  grid-area: choices;
+}
+.sub-choices {
+  grid-area: sub-choices;
+}

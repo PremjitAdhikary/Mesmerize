@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" href="../favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="../appstyle.css">
+  <link rel="stylesheet" href="./compstyle.css">
+  <script src="../components/app-header.js" type="module"></script>
+  <script src="../components/sketch-text.js" type="module"></script>
+  <script src="https://cdn.jsdelivr.net/npm/p5@0.10.2/lib/p5.js"></script>
+  <script src="./sketch.js"></script>
+  <script src="./the-cell.js"></script>
+  <script src="../common/sketch-colors.js"></script>
+  <script src="../common/utilities.js"></script>
+  <script src="../components/range-input.js" type="module"></script>
+  <script src="../components/radio-input-group.js" type="module"></script>
+  <script src="../components/tabbed-pane.js" type="module"></script>
+  <script src="./control.js" type="module"></script>
+  <title>Game Of Life</title>
+</head>
+<body>
+  <div class="toplevel">
+    <app-header class="heading"></app-header>
+    <div class="topbody">
+      <div class="container">
+          <div class="sketch">
+            <div id="sketch-holder" class="sketch-holder">
+            </div>
+          </div>
+
+          <div class="control">
+            <div class="control-container">
+              <div class="choices">
+                <p>
+                  <radio-group id="choice_game">
+                    <radio-button value="random" aria-checked="true">Random</radio-button>
+                    <radio-button value="still-life">Still Life</radio-button>
+                    <radio-button value="oscillators">Oscillators</radio-button>
+                    <radio-button value="spaceships">Spacehips</radio-button>
+                    <radio-button value="guns">Guns</radio-button>
+                  </radio-group>
+                </p>
+              </div>
+              <div class="sub-choices">
+                <radio-group id="choice_oscillators">
+                  <radio-button value="oscillators-period-2" aria-checked="true">Period 2</radio-button><br>
+                  <radio-button value="oscillators-period-3">Period 3</radio-button><br>
+                  <radio-button value="oscillators-period-4">Period 4</radio-button><br>
+                  <radio-button value="oscillators-period-5">Period 5</radio-button><br>
+                  <radio-button value="figure-8">Figure Eight</radio-button><br>
+                  <radio-button value="queen-bee-shuttle">Queen Bee Shuttle</radio-button>
+                </radio-group>
+              </div>
+              <div class="sub-choices">
+                <radio-group id="choice_guns">
+                  <radio-button value="gosper-glider-gun" aria-checked="true">Gosper Glider Gun</radio-button><br>
+                  <radio-button value="simkin-glider-gun">Simkin Glider Gun</radio-button><br>
+                </radio-group>
+              </div>
+            </div>
+          </div>
+
+          <sketch-text class="description" pageid="10024">
+            <div slot="content">
+              <p>Conway's Game Of Life - A classic. Had to be done!</p>
+              <p>
+                There are so many articles on the web on this. Here goes anyway. A 2D grid with 
+                bunch of square cells. Each cell is in one of two possible states: alive or dead.
+              </p>
+              <p>
+                Rules governing the cell states:
+                <ul>
+                  <li>Any live cell with fewer than two live neighbours dies.</li>
+                  <li>Any live cell with two or three live neighbours lives on to the next generation.</li>
+                  <li>Any live cell with more than three live neighbours dies.</li>
+                  <li>Any dead cell with exactly three live neighbours becomes a live cell.</li>
+                </ul>
+              </p>
+              <p>
+                <em>Random</em> starts with a 128x96 grid where cell states are set to alive or 
+                dead at random. Then we let the rules run. Usually after n generations the grid 
+                reaches a stable state.
+              </p>
+              <p>There are some well known patterns out there.</p>
+              <tabbed-pane>
+                <tab-content name="Still Life" selected>
+                  <p>These do not change from one generation to the next.</p>
+                  <p>
+                    <ul>
+                      <li>On top we have <em>Block</em> and <em>Tub</em>.</li>
+                      <li>On middle we have <em>Loaf</em>.</li>
+                      <li>Bottom we have <em>Boat</em> and <em>Bee-hive</em>.</li>
+                    </ul>
+                  </p>
+                </tab-content>
+                <tab-content name="Oscillators">
+                  <p>These returns to their initial state after a finite number of generations</p>
+                  <p>Below are the examples in this segment.</p>
+                  <tabbed-pane>
+                    <tab-content name="Period 2" selected>
+                      <p>
+                        <ul>
+                          <li>
+                            Top line: <em>Blinker</em>, <em>Toad</em>, <em>Spark Coil</em> and 
+                            <em>Beacon</em>.
+                          </li>
+                          <li>
+                            Next line: <em>Clock</em>, <em>Bipole</em>, <em>Tripole</em> and 
+                            <em>Quadpole</em>.
+                          </li>
+                          <li>
+                            Bottom line: <em>Great On-Off</em>, <em>Fore and Back</em> and 
+                            <em>Fox</em>.
+                          </li>
+                        </ul>
+                      </p>
+                    </tab-content>
+                    <tab-content name="Period 3">
+                      <p>
+                        <ul>
+                          <li>First column: <em>Star</em> and <em>Cross</em>.</li>
+                          <li>Second column: <em>French Kiss</em> and <em>Pulsar</em>.</li>
+                          <li>
+                            Third column: <em>Candlefrobra</em>, <em>Caterer</em> and 
+                            <em>Jam</em>.
+                          </li>
+                        </ul>
+                      </p>
+                    </tab-content>
+                    <tab-content name="Period 4">
+                      <p>
+                        <ul>
+                          <li>First row: <em>Achim's p4</em> and <em>Mold</em>.</li>
+                          <li>Second row: <em>Mazing</em> and <em>Pinwheel</em>.</li>
+                        </ul>
+                      </p>
+                    </tab-content>
+                    <tab-content name="Period 5">
+                      <p>
+                        <ul>
+                          <li>First column: <em>Octagon</em> and <em>Fumarole</em>.</li>
+                          <li>Second column: <em>Pentoad</em>.</li>
+                        </ul>
+                      </p>
+                    </tab-content>
+                    <tab-content name="Figure Eight">
+                      <p>
+                        Smallest known 8 Generations Oscillator.
+                      </p>
+                    </tab-content>
+                    <tab-content name="Queen Bee Shuttle">
+                      <p>
+                        A 30 Generations Oscillator where a queen bee travels back and forth 
+                        between two stabilizing ends.
+                      </p>
+                    </tab-content>
+                  </tabbed-pane>
+                </tab-content>
+                <tab-content name="Spaceships">
+                  <p>These translate selves across the grid.</p>
+                  <p>Each consecutive spaceships are on alternate paths for ease of recognition.</p>
+                  <p>
+                    <ul>
+                      <li>Path 1: <em>Lightweight Spaceship</em> (commonly abbreviated to LWSS).</li>
+                      <li>Path 2: <em>Middleweight Spaceship</em> (commonly abbreviated to MWSS).</li>
+                      <li>Path 3: <em>Heavyweight Spaceship</em> (commonly abbreviated to HWSS).</li>
+                      <li>
+                        Path 4: <em>Coe Ship</em> - It works as a puffer engine because it produces 
+                        a long spark behind it as it moves. It consists of a lightweight spaceship 
+                        pulling a heavyweight spaceship that is modified to give the big tail spark.
+                      </li>
+                      <li>
+                        Path 5: <em>Schick Ship</em> - A tagalong that is attached to the back of 
+                        two LWSS.
+                      </li>
+                    </ul>
+                  </p>
+                </tab-content>
+                <tab-content name="Guns">
+                  <p>They shoot (patterns).</p>
+                  <p>Here we have 2 famous guns. They are the smallest known guns.</p>
+                  <p>
+                    <ul>
+                      <li>
+                        <em>Gosper Glider Gun</em> - It consists of two queen bee shuttles stabilized 
+                        by two blocks.
+                      </li>
+                      <li>
+                        <em>Simkin Glider Gun</em> - It produces infinite copies of glider in 
+                        opposite directions.
+                      </li>
+                    </ul>
+                  </p>
+                </tab-content>
+              </tabbed-pane>
+            </div>
+            <div slot="source">
+              <p>
+                <ul>
+                  <li>
+                    <a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life" target="_blank">
+                      Wikipedia</a>.
+                  </li>
+                  <li>
+                    <a href="https://www.conwaylife.com/wiki/List_of_common_oscillators" 
+                    target="_blank">List of common Oscillators</a>.
+                  </li>
+                  <li>
+                    <a href="https://www.conwaylife.com/wiki/List_of_common_spaceships" 
+                    target="_blank">List of common Spaceships</a>.
+                  </li>
+                  <li>
+                    <a href="https://www.conwaylife.com/wiki/Gun" 
+                    target="_blank">Guns</a>.
+                  </li>
+                </ul>
+              </p>
+            </div>
+          </sketch-text>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

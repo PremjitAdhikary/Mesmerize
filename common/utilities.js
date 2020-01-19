@@ -8,6 +8,14 @@ function create2DArray(rows, cols) {
   return arr;
 }
 
+function forEach2DArray(arr, action) {
+  for (let r=0; r<arr.length; r++) {
+    for (let c=0; c<arr[r].length; c++) {
+      action(arr[r][c], r, c);
+    }
+  }
+}
+
 function mouseInCanvas() {
   return mouseX > 0 && mouseX < width && mouseY > 0 && mouseY < height;
 }

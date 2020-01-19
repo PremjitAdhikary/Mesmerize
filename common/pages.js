@@ -308,6 +308,17 @@ class Pages {
           'sim',
           'original'
         ]
+      },
+      {
+        id: 10024,
+        name: 'Game Of Life',
+        url: '/game-of-life',
+        img: '/game-of-life/img/preview.jpg',
+        detail: 'Conways Game of Life.',
+        tag: [
+          'cellular automata',
+          'sim'
+        ]
       }
     ];
 
