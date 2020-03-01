@@ -119,6 +119,10 @@ document.getElementById('pythagoran_level').onchange = e => {
   bus.dispatch("ControlLFTptl", { pythagoran_level: val });
 };
 
+document.getElementById('pythagoran_line_art').innerHTML = 'Colorful';
+
 document.getElementById('pythagoran_line_art').onclick = e => {
-  bus.dispatch("ControlLFTptta", {  });
+  bus.dispatch("ControlLFTptta", { pythagoran_line_art: !pythagoran_line_art });
+  document.getElementById('pythagoran_line_art').innerHTML = 
+      pythagoran_line_art ? 'Colorful':'Line Art';
 };

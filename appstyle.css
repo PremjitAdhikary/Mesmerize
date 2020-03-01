@@ -41,6 +41,11 @@ a:hover, a:active {
   overflow-y: auto;
 }
 
+.cardholder {
+  height: 80%;
+  overflow-y: auto;
+}
+
 .container {
   height: 100%;
   display: grid;

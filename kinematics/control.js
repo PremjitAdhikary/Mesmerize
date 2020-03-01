@@ -76,8 +76,12 @@ document.getElementById('inverse_segments').onchange = e => {
 
 document.getElementById('inverse_segments').value = initData.inverse_segments;
 
+document.getElementById('toggleAnchorBtn').innerHTML = 'Anchor';
+
 document.getElementById('toggleAnchorBtn').onclick = e => {
-  bus.dispatch("ControlKabis", {  });
+  bus.dispatch("ControlKabis", { inverse_anchored : !inverse_anchored });
+  document.getElementById('toggleAnchorBtn').innerHTML = 
+    inverse_anchored ? 'Free':'Anchor';
 };
 
 document.getElementById('inverse_control').style.display = 'none';

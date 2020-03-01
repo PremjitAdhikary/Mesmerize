@@ -88,7 +88,7 @@ function setBus(bus) {
     initSketch();
   });
   bus.register("ControlKabis", e => {
-    inverse_anchored = !inverse_anchored;
+    inverse_anchored = e.detail.inverse_anchored;
     tentacle.setAnchor(inverse_anchored);
   });
 }

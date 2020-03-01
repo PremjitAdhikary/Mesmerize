@@ -130,7 +130,7 @@ function setBus(bus) {
     }
   });
   bus.register("ControlLFTptta", e => {
-    pythagoran_line_art = !pythagoran_line_art;
+    pythagoran_line_art = e.detail.pythagoran_line_art;
     redraw();
   });
 }

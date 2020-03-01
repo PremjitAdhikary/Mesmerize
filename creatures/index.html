@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" href="../favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="../appstyle.css">
+  <link rel="stylesheet" href="./compstyle.css">
+  <script src="../components/app-header.js" type="module"></script>
+  <script src="../components/sketch-text.js" type="module"></script>
+  <script src="https://cdn.jsdelivr.net/npm/p5@0.10.2/lib/p5.js"></script>
+  <script src="./sketch.js"></script>
+  <script src="./loco/mover.js"></script>
+  <script src="./renderers/axis-renderer.js"></script>
+  <script src="./renderers/glide-renderer.js"></script>
+  <script src="./renderers/winged-renderer.js"></script>
+  <script src="./renderers/slither-renderer.js"></script>
+  <script src="../kinematics/segment.js"></script>
+  <script src="./basic-creature.js"></script>
+  <script src="../common/sketch-colors.js"></script>
+  <script src="../common/utilities.js"></script>
+  <script src="../components/range-input.js" type="module"></script>
+  <script src="../components/radio-input-group.js" type="module"></script>
+  <script src="../components/tabbed-pane.js" type="module"></script>
+  <script src="./control.js" type="module"></script>
+  <title>Creatures</title>
+</head>
+<body>
+  <div class="toplevel">
+    <app-header class="heading"></app-header>
+    <div class="topbody">
+      <div class="container">
+          <div class="sketch">
+            <div id="sketch-holder" class="sketch-holder clickable">
+            </div>
+          </div>
+
+          <div class="control">
+            <div class="control-container">
+              <div class="choices">
+                <radio-group id="choice_creature">
+                  <radio-button value="1" aria-checked="true">Just Axis</radio-button>
+                  <radio-button value="2">Glider</radio-button>
+                  <radio-button value="3">Winged One</radio-button>
+                  <radio-button value="4">Slitherin</radio-button>
+                  <radio-button value="5">Random</radio-button>
+                </radio-group>
+              </div>
+              <div class="sliders">
+                <p>
+                  <label for="creature_count">Count: </label>
+                  <range-input min="1" max="30" id="creature_count"></range-input>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <sketch-text class="description" pageid="10025">
+            <div slot="content">
+              <p>
+                In a <a href="https://natureofcode.com/book/chapter-1-vectors/" target="_blank">
+                Nature Of Code</a> chapter, I came across an exercise to build an Ecosystem project. 
+                I got interested in the creatures there and here I depict them with whatever I 
+                have learnt till now.
+              </p>
+              <p>
+                The way the creatures behave is that as soon as you bring the mouse in the screen 
+                area, they flock to it. If the pointer is out of the area, then the creatures run 
+                off to random directions.
+              </p>
+              <p>The Creatures simulated here: </p>
+              <tabbed-pane>
+                <tab-content name="Just Axis" selected>
+                  This is the backbone of all creatures. <br>
+                  A basic rectangle which tries to reach it's target. The red dot denotes it's 
+                  <em>head</em>. If the target is reached, the <em>red</em> turns off.
+                </tab-content>
+                <tab-content name="Glider">
+                  This creature moves like an earthworm(?). <br>
+                  To move forward, it elongates it's body and then contracts.
+                </tab-content>
+                <tab-content name="Winged One">
+                  Think dragonfly! <br>
+                  Has wings, which oscillate to and fro to give the illusion of flapping wings.
+                </tab-content>
+                <tab-content name="Slitherin">
+                  Worms with snake like movement. <br>
+                  Sine wave to the rescue!
+                </tab-content>
+              </tabbed-pane>
+            </div>
+            <div slot="source">
+              <p>
+                Inspired from <a href="https://natureofcode.com/book/chapter-1-vectors/" 
+                target="_blank">Nature Of Code</a>
+              </p>
+            </div>
+          </sketch-text>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

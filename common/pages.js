@@ -319,6 +319,17 @@ class Pages {
           'cellular automata',
           'sim'
         ]
+      },
+      {
+        id: 10025,
+        name: 'Creatures',
+        url: '/creatures',
+        img: '/creatures/img/preview.jpg',
+        detail: 'Conways Game of Life.',
+        tag: [
+          'creature',
+          'sim'
+        ]
       }
     ];
 
