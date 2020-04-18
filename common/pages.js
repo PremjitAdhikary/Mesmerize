@@ -153,7 +153,8 @@ class Pages {
           'l system',
           'pythagorean tree',
           'pythagoras',
-          'tree'
+          'tree',
+          'botany'
         ]
       },
       {
@@ -232,7 +233,8 @@ class Pages {
           'barnsley fern',
           'fractal',
           'barnsley',
-          'fern'
+          'fern',
+          'botany'
         ]
       },
       {
@@ -325,10 +327,24 @@ class Pages {
         name: 'Creatures',
         url: '/creatures',
         img: '/creatures/img/preview.jpg',
-        detail: 'Conways Game of Life.',
+        detail: 'Electronic Creatures.',
         tag: [
           'creature',
           'sim'
+        ]
+      },
+      {
+        id: 10026,
+        name: 'Tree Space Colonization',
+        url: '/space-colonization',
+        img: '/space-colonization/img/preview.jpg',
+        detail: 'Generate Tree using Space Colonization Algorithm.',
+        tag: [
+          'colonization',
+          'tree',
+          'space',
+          'botany',
+          'quadtree'
         ]
       }
     ];

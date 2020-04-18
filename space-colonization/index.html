@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" href="../favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="../appstyle.css">
+  <script src="../components/app-header.js" type="module"></script>
+  <script src="../components/sketch-text.js" type="module"></script>
+  <script src="https://cdn.jsdelivr.net/npm/p5@0.10.2/lib/p5.js"></script>
+  <script src="./sketch.js"></script>
+  <script src="../common/sketch-colors.js"></script>
+  <script src="../common/utilities.js"></script>
+  <script src="../common//quadtree.js"></script>
+  <script src="../components/radio-input-group.js" type="module"></script>
+  <script src="./control.js" type="module"></script>
+  <script src="./attractor.js"></script>
+  <script src="./branch.js"></script>
+  <script src="./tree.js"></script>
+  <script src="./blooming-tree.js"></script>
+  <title>Tree Space Colonization</title>
+</head>
+<body>
+  <div class="toplevel">
+    <app-header class="heading"></app-header>
+    <div class="topbody">
+      <div class="container">
+          <div class="sketch">
+            <div id="sketch-holder" class="sketch-holder">
+            </div>
+          </div>
+
+          <div class="control">
+            <div class="control-container">
+                <radio-group id="choice_tree">
+                  <radio-button value="1" aria-checked="true">Basic Space Colonization Algorithm</radio-button>
+                  <radio-button value="2">Circular Tree</radio-button>
+                  <radio-button value="3">Cherry Blossom</radio-button>
+                  <radio-button value="4">Haunted</radio-button>
+                  <radio-button value="5">Fall Colors</radio-button>
+                </radio-group>
+                <br>
+                <span class="btn" id="color_quadtree">Show Quadtree</span>
+            </div>
+          </div>
+
+          <sketch-text class="description" pageid="10026">
+            <div slot="content">
+              <p>Another tree simulation.</p>
+              <p>
+                The idea here is to use Space Colonization algorithm to generate a tree. The 
+                <b>Space colonization</b> algorithm focuses on the competition for space among 
+                moving agents.
+              </p>
+              <p><em>How does it work?</em></p>
+              <p>
+                Start with a bunch of <em>attractors</em> and an initial starting point (root). 
+                From there grow the stem till it reaches near enough to the cluster of attractors. 
+                Then let the attractors start pulling off branches towards it.
+              </p>
+              <p>
+                This is far better explained by Daniel in his video. The link is there in the 
+                sources section.
+              </p>
+              <p>
+                A problem that I faced was while growing the branches for trees with lot of 
+                attractors, the animation came down to a crawl. The reason is that I was looping 
+                through all the attractors for every branch in existence till that point to figure 
+                out which branches to grow, which branches to tweak etc.
+              </p>
+              <p>
+                This can be improved by initializing a Quadtree for all the branches. Instead of 
+                going through all the branches to check if it's near the attractor, we can query 
+                the Quadtree to just the list of branches in the range.
+              </p>
+              <p>Daniel has videos on Quadtree too.</p>
+              <p>
+                To watch the workings of the Quadtree, <em>Show Quadtree</em>. Hover over the 
+                viewport to <em>Query</em> the tree.
+              </p>
+            </div>
+            <div slot="source">
+              <p>
+                <a href="https://www.youtube.com/watch?v=kKT0v3qhIQY" 
+                target="_blank">Another Daniel video</a>.
+              </p>
+              <p>
+                <a href="https://programming.guide/random-point-within-circle.html" 
+                target="_blank">Generate random point in a circle</a>.
+              </p>
+              <p>
+                <a href="https://en.wikipedia.org/wiki/Quadtree" target="_blank">Quadtree in 
+                Wikipedia</a>.
+              </p>
+            </div>
+          </sketch-text>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

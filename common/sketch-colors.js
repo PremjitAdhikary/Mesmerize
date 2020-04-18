@@ -1,4 +1,5 @@
 class SketchColor {
+
   constructor(r,g,b) {
     this._r = r;
     this._g = g;
@@ -6,49 +7,18 @@ class SketchColor {
     this._a = 1.0;
   }
 
-  static white() {
-    return new SketchColor(255, 255, 255);
-  }
-
-  static violet() {
-    return new SketchColor(148, 0, 211);
-  }
-
-  static indigo() {
-    return new SketchColor(75, 0, 130);
-  }
-
-  static blue() {
-    return new SketchColor(0, 0, 255);
-  }
-
-  static green() {
-    return new SketchColor(0, 255, 0);
-  }
-
-  static yellow() {
-    return new SketchColor(255, 255, 0);
-  }
-
-  static orange() {
-    return new SketchColor(255, 127, 0);
-  }
-
-  static red() {
-    return new SketchColor(255, 0, 0);
-  }
-
-  static greenyellow() {
-    return new SketchColor(177, 251, 23);
-  }
-
-  static grey() {
-    return new SketchColor(80, 80, 80);
-  }
-
-  static gold() {
-    return new SketchColor(255, 215, 0);
-  }
+  static white = () => new SketchColor(255, 255, 255);
+  static violet = () => new SketchColor(148, 0, 211);
+  static indigo = () => new SketchColor(75, 0, 130);
+  static blue = () => new SketchColor(0, 0, 255);
+  static green = () => new SketchColor(0, 255, 0);
+  static yellow = () => new SketchColor(255, 255, 0);
+  static orange = () => new SketchColor(255, 127, 0);
+  static red = () => new SketchColor(255, 0, 0);
+  static greenyellow = () => new SketchColor(177, 251, 23);
+  static grey = () => new SketchColor(80, 80, 80);
+  static gold = () => new SketchColor(255, 215, 0);
+  static skyBlue = () => new SketchColor(174, 245, 255);
 
   static blend() {
     let r = 0;
@@ -65,22 +35,14 @@ class SketchColor {
           Math.floor(b/arguments.length));
   }
 
-  alpha50() {
-    this._a = .5;
+  alpha50 = () => this.alpha(0.5);
+  alpha75 = () => this.alpha(0.75);
+  alpha100 = () => this.alpha(1.0);
+
+  alpha(val) {
+    this._a = val;
     return this;
   }
 
-  alpha75() {
-    this._a = .75;
-    return this;
-  }
-
-  alpha100() {
-    this._a = 1.0;
-    return this;
-  }
-
-  stringify() {
-    return 'rgba('+this._r+','+this._g+','+this._b+','+this._a+')';
-  }
+  stringify = () => 'rgba('+this._r+','+this._g+','+this._b+','+this._a+')';
 }
