@@ -19,7 +19,7 @@ document.getElementById('color_quadtree').innerHTML = 'Show Quadtree';
 document.getElementById('color_quadtree').onclick = e => {
   bus.dispatch("ControlSCTqt", { color_quadtree: !color_quadtree });
   document.getElementById('color_quadtree').innerHTML = 
-    (color_quadtree ? 'Show Quadtree' : 'Hide Quadtree');
+    (color_quadtree ? 'Hide Quadtree' : 'Show Quadtree');
   updateSketchHolderClass(color_quadtree);
 };
 

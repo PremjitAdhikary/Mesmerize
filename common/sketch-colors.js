@@ -40,7 +40,8 @@ class SketchColor {
   alpha100 = () => this.alpha(1.0);
 
   alpha(val) {
-    this._a = val;
+    if (val >= 0 && val <= 1.0)
+      this._a = val;
     return this;
   }
 

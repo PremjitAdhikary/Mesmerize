@@ -12,7 +12,7 @@ function initPage() {
 function loadCards() {
   let holder = document.getElementById("cardholder");
   holder.innerHTML = "";
-  _pages.getAllPagesId().forEach(function(pid) {
+  _pages.getPublishedPagesId().forEach(function(pid) {
     let aCard = document.createElement('page-card');
     aCard.id = pid;
     holder.append(aCard);
@@ -23,10 +23,10 @@ function setupSearch() {
   document.getElementById('btn-search').onclick = function(e) {
     let searchTerm = document.getElementById('term-search').value;
     if (!searchTerm) {
-      setCardsVisibility(_pages.getAllPagesId(), true);
+      setCardsVisibility(_pages.getPublishedPagesId(), true);
       return;
     }
-    setCardsVisibility(_pages.getAllPagesId(), false);
+    setCardsVisibility(_pages.getPublishedPagesId(), false);
     setCardsVisibility(_pages.getPageIdsByName(searchTerm), true);
     setCardsVisibility(_pages.getPageIdsByTag(searchTerm), true);
   }

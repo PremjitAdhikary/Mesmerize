@@ -3,6 +3,15 @@ class Pages {
   constructor() {
     this._pages = [
       {
+        id: 1000,
+        name: 'Demo',
+        url: '/demo',
+        img: '/demo/img/preview.jpg',
+        detail: 'Just a Demo.',
+        tag: [],
+        internal: true
+      },
+      {
         id: 10000,
         name: 'Clock',
         url: '/clock',
@@ -208,7 +217,8 @@ class Pages {
         detail: 'Into the Space!',
         tag: [
           'starfield',
-          'space'
+          'space',
+          '3d'
         ]
       },
       {
@@ -351,10 +361,14 @@ class Pages {
 
     this._pagesMap = {};
     this._allPagesId = [];
+    this._publishedPagesId = [];
     this._pages
         .forEach(p => {
           this._pagesMap[p.id] = p;
           this._allPagesId.push(p.id);
+          if (!p.internal) {
+            this._publishedPagesId.push(p.id);
+          }
         });
     // console.log(this.allTags());
   }
@@ -390,6 +404,10 @@ class Pages {
 
   getAllPagesId() {
     return this._allPagesId;
+  }
+
+  getPublishedPagesId() {
+    return this._publishedPagesId;
   }
 
   getSimilarPageIds(pageId) {

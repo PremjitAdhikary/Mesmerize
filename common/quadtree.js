@@ -1,3 +1,6 @@
+/**
+ * 
+ */
 class QuadTree {
 
   constructor (centerX, centerY, treeWidth, treeHeight, capacity) {
