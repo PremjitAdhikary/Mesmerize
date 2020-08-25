@@ -41,7 +41,7 @@ import { pages } from '../common/pages.js';
 
       <div class="container">
         <div class="header">${pageName}</div>
-        <p class="mid"><img src=${pageImg} alt="Preview"></p>
+        <p class="mid"><a href=${pageUrl}><img src=${pageImg} alt="Preview"></a></p>
         <p>${pageDetail}</p>
         <p><a href=${pageUrl}>Show Me</a></p>
       </div>
