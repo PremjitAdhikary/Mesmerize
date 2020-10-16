@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" href="../favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Change This -->
+  <meta name="description" content="Effects of and on Environment.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://premjitadhikary.github.io/Mesmerize/special-effects">
+  <meta property="og:title" content="Special Effects">
+  <meta property="og:description" content="Effects of and on Environment.">
+  <meta property="og:image" content="https://premjitadhikary.github.io/Mesmerize/special-effects/img/myCanvas.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://premjitadhikary.github.io/Mesmerize/special-effects">
+  <meta name="twitter:title" content="Special Effects">
+  <meta name="twitter:description" content="Effects of and on Environment.">
+  <meta name="twitter:image" content="https://premjitadhikary.github.io/Mesmerize/special-effects/img/myCanvas.jpg">
+  <!-- Change This -->
+  <link rel="stylesheet" href="../appstyle.css">
+  <link rel="stylesheet" href="./compstyle.css">
+  <script src="../components/app-header.js" type="module"></script>
+  <script src="../components/sketch-text.js" type="module"></script>
+  <script src="https://cdn.jsdelivr.net/npm/p5@0.10.2/lib/p5.js"></script>
+  <script src="./sketch.js"></script>
+  <script src="../common/sketch-colors.js"></script>
+  <script src="../common/utilities.js"></script>
+  <script src="../components/range-input.js" type="module"></script>
+  <script src="../components/radio-input-group.js" type="module"></script>
+  <script src="../components/tabbed-pane.js" type="module"></script>
+  <script src="./effects-ripples.js"></script>
+  <script src="./effects-fire.js"></script>
+  <script src="./control.js" type="module"></script>
+  <title>Special Effects</title>
+</head>
+<body>
+  <div class="toplevel">
+    <app-header class="heading"></app-header>
+    <div class="topbody">
+      <div class="container">
+          <div class="sketch">
+            <div id="sketch-holder" class="sketch-holder">
+            </div>
+          </div>
+
+          <div class="control">
+            <div class="control-container">
+                <radio-group id="choice">
+                  <radio-button value="1" aria-checked="true">Ripples</radio-button>
+                  <radio-button value="2">Fire</radio-button>
+                </radio-group>
+                <div id="ripple_control" class="choice_control">
+                  <p>
+                    <label for="ripple_reach">Ripple Reach: </label>
+                    <range-input min="1" max="30" id="ripple_reach"></range-input>
+                  </p>
+                  <p>
+                    <span class="btn" id="ripple_color">Colorful</span>
+                    <span class="btn" id="ripple_drag">Drag</span>
+                  </p>
+                  <p>
+                    <div id="ripple_frequency_holder">
+                      <label for="ripple_frequency">Frequency: </label>
+                      <range-input min="1" max="15" id="ripple_frequency"></range-input>
+                    </div>
+                  </p>
+                </div>
+                <div id="fire_control" class="choice_control">
+                  <radio-group id="fire_choice">
+                    <radio-button value="1" aria-checked="true">Basic Flame</radio-button>
+                    <radio-button value="2">Raging Flame</radio-button>
+                    <radio-button value="3">Tall Flame</radio-button>
+                  </radio-group>
+                  <p>
+                    <span class="btn" id="fire_burner">Burner</span>
+                  </p>
+                  <p>
+                    <div id="burn_size_holder">
+                      <label for="burn_size">Burn Radius: </label>
+                      <range-input min="10" max="50" id="burn_size"></range-input>
+                    </div>
+                  </p>
+                </div>
+            </div>
+          </div>
+
+          <sketch-text class="description" pageid="10027">
+            <div slot="content">
+              <p>
+                Came across bunch of effects video from Daniel.  A bit of tweak here and 
+                there.  We are golden.
+              </p>
+              <p>
+                I will keep on adding effects simulations here as and when I come across.
+              </p>
+              <tabbed-pane>
+                <tab-content name="Ripples" selected>
+                  Idea is to simulate water ripples. <br><br>
+                  Daniels video has a basic black and white effect which itself is pleasant to 
+                  watch. <br><br>
+                  Slide Ripple Reach to adjust size of ripples. <br><br>
+                  Also added some color to it. Toggle Mono/Colorize button for that effect. <br><br>
+                  Toggle Drag/Random to drag ripples in the viewport or to see the rainfall 
+                  effect of ripples in action.  For random action you can adjust the interval at 
+                  which the drops fall. <br><br>
+                  <strong>Calculation</strong> <br><br>
+                  Using 2 buffers to hold the states of water - current and previous. Data from 
+                  previous 2 frames are used to calculate the state of the current buffer. <br>
+                  <em>How?</em> Data from the previous frame (Buffer2) and the frame before that 
+                  (Buffer1) are used together, and the results written into Buffer1. <br><br>
+                  Based on ripple point, the surrounding pixels are affected in the next buffer 
+                  as the ripple travels. <br><br>
+                  As the ripple spreads out, it becomes weaker.
+                </tab-content>
+                <tab-content name="Fire">
+                  After water it's fire. <br><br>
+                  Another Daniel video with a nice white fire effect. <br><br>
+                  I came across an optimized version <a target="_blank" 
+                  href="https://thecodingtrain.com/CodingChallenges/103-fire-effect.html">
+                  Coding Train</a> site which I shamelessly copied. <br><br>
+                  Tweaked with the noise functions a bit to come up with different variations. Also 
+                  added color. <br><br>
+                  Toggle Burner/Fire Wall to either click to burn an area or to let the fire burn 
+                  at the bottom.  For area burn you can adjust the size using the Burn Radius 
+                  slider. <br><br>
+                  <strong>Algorithm</strong> <br><br>
+                  The fire effects are calculated in an off screen buffer and then copied over to 
+                  the screen. The steps are: <br>
+                  <ul>
+                    <li>
+                      Heat Source: Few pixels of max brightness are placed on the screen.
+                    </li>
+                    <li>
+                      Heat Spread: Image is smoothed to make the fire spread.
+                    </li>
+                    <li>
+                      Cooling: Flames are cooled by subtracting a small amount from each pixel.
+                    </li>
+                    <li>
+                      Convection: Image is scrolled up to make the flames rise.
+                    </li>
+                  </ul>
+                </tab-content>
+              </tabbed-pane>
+            </div>
+            <div slot="source">
+              <p>
+                <a href="https://www.youtube.com/watch?v=BZUdGqeOD0w" 
+                target="_blank">Ripple Effects by Daniel</a>.
+              </p>
+              <p>
+                <a href="https://web.archive.org/web/20160418004149/http://freespace.virgin.net/hugo.elias/graphics/x_water.htm" 
+                target="_blank">Original Ripple Effects Algorithm by Hugo</a>.
+              </p>
+              <p>
+                <a href="https://www.youtube.com/watch?v=X0kjv0MozuY" 
+                target="_blank">Fire Effects by Daniel</a>.
+              </p>
+              <p>
+                <a href="https://web.archive.org/web/20160418004150/http://freespace.virgin.net/hugo.elias/models/m_fire.htm" 
+                target="_blank">Original Fire Effects Algorithm by Hugo</a>.
+              </p>
+            </div>
+          </sketch-text>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

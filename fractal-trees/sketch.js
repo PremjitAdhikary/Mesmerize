@@ -148,7 +148,3 @@ function setData(d) {
   pythagoran_level = d.pythagoran_level;
   pythagoran_line_art = d.pythagoran_line_art;
 }
-
-function keyTyped() {
-  saveCanvas(canvas, 'myCanvas', 'jpg');
-}

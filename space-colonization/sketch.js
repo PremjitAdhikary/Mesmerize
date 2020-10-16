@@ -39,7 +39,7 @@ let circleTree = () => {
 let cherryTree = () => {
   return {
     attractorsCount: 2700,
-    attractorColor: SketchColor.skyBlue().stringify(),
+    attractorColor: SketchColor.skyblue().stringify(),
     bloomingColor: SketchColor.red().stringify(),
     bloomingRadius: 10,
     bloomingFunction: (bloomArr, pos) => bloomArr.push(pos),
@@ -60,7 +60,7 @@ let hauntedTree = () => {
   return {
     attractorsCount: 3500,
     attractorColor: SketchColor.blend(
-      SketchColor.grey(), SketchColor.grey(), SketchColor.skyBlue()).stringify(),
+      SketchColor.grey(), SketchColor.grey(), SketchColor.skyblue()).stringify(),
     branchColor: 0,
     root: createVector(width/3, height),
     branchLen: 5,
@@ -168,13 +168,13 @@ function initTree() {
         break;
     case 3:
         tree = new BloomingTree(cherryTree());
-        bgColor = SketchColor.skyBlue().stringify();
+        bgColor = SketchColor.skyblue().stringify();
         color_quadtree_query = SketchColor.grey().stringify();
         break;
     case 4:
         tree = new Tree(hauntedTree());
         bgColor = SketchColor.blend(
-          SketchColor.grey(), SketchColor.grey(), SketchColor.skyBlue()).stringify();
+          SketchColor.grey(), SketchColor.grey(), SketchColor.skyblue()).stringify();
         color_quadtree_query = SketchColor.red().stringify();
         break;
     case 5:

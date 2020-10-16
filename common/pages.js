@@ -356,6 +356,16 @@ class Pages {
           'botany',
           'quadtree'
         ]
+      },
+      {
+        id: 10027,
+        name: 'Special Effects',
+        url: '/special-effects',
+        img: '/special-effects/img/preview.jpg',
+        detail: 'Effects of and on Environment.',
+        tag: [
+          'sim'
+        ]
       }
     ];
 

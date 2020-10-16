@@ -7,6 +7,7 @@ class SketchColor {
     this._a = 1.0;
   }
 
+  static black = () => new SketchColor(0, 0, 0);
   static white = () => new SketchColor(255, 255, 255);
   static violet = () => new SketchColor(148, 0, 211);
   static indigo = () => new SketchColor(75, 0, 130);
@@ -18,7 +19,7 @@ class SketchColor {
   static greenyellow = () => new SketchColor(177, 251, 23);
   static grey = () => new SketchColor(80, 80, 80);
   static gold = () => new SketchColor(255, 215, 0);
-  static skyBlue = () => new SketchColor(174, 245, 255);
+  static skyblue = () => new SketchColor(174, 245, 255);
 
   static blend() {
     let r = 0;

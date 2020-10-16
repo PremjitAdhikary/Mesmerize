@@ -30,19 +30,10 @@ class BloomingTree extends Tree {
 
   show() {
     super.show();
-    // this.branches.forEach(branch => {
-    //   if (branch.bloom && this.bloomingRadius > branch.wid) {
-    //     noStroke();
-    //     fill(this.bloomingColor);
-    //     circle(branch.pos.x,branch.pos.y,this.bloomingRadius);
-    //   }
-    // });
     this.bloomingPoints.forEach(bloomingPoint => {
-      // if (branch.bloom && this.bloomingRadius > branch.wid) {
         noStroke();
         fill(this.bloomingColor);
         circle(bloomingPoint.x,bloomingPoint.y,this.bloomingRadius);
-      // }
     });
   }
   
