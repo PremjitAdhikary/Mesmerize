@@ -1,3 +1,17 @@
+/**
+ * Glide Renderer renders a bunch of body segments which glide in accordance with the mover.
+ * 
+ * Constructor:
+ * - len: The base length of the glider. The max width is always 30% of length. The segments 
+ *     taper towards the tail.
+ * 
+ * Other Methods:
+ * - render(mover): renders the glider based on the mover passed. Direction alignment is same 
+ *     as the AxisRenderer. But the body movement is stretched and squashed for depicting a 
+ *     glide. The body stretches to GlideRenderer.MULTIPLIER times before it shrinks back to its 
+ *     base length. Then it stretches again, the cycle continues.
+ * 
+ */
 class GlideRenderer {
   
   constructor(len) {

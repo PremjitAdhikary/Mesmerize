@@ -1,3 +1,16 @@
+/**
+ * Winged Renderer renders a fly.
+ * 
+ * Constructor:
+ * - len: The base length of the glider. The max width is always 30% of length. The segments 
+ *     taper towards the tail.
+ * 
+ * Other Methods:
+ * - render(mover): renders the winger based on the mover passed. Direction alignment is same 
+ *     as the AxisRenderer. The flying is denoted by flapping wings. There are 4 wings, which 
+ *     flap at a particular frequency. There are 2 positions for each of the wings and the wings 
+ *     flap between those 2 positions at the determined frequency.
+ */
 class WingedRenderer {
   
   constructor(len) {

@@ -29,7 +29,8 @@
   <script src="./renderers/glide-renderer.js"></script>
   <script src="./renderers/winged-renderer.js"></script>
   <script src="./renderers/slither-renderer.js"></script>
-  <script src="../kinematics/segment.js"></script>
+  <script src="./renderers/limbed-renderer.js"></script>
+  <!-- <script src="../kinematics/segment.js"></script> -->
   <script src="./basic-creature.js"></script>
   <script src="../common/sketch-colors.js"></script>
   <script src="../common/utilities.js"></script>
@@ -57,7 +58,8 @@
                   <radio-button value="2">Glider</radio-button>
                   <radio-button value="3">Winged One</radio-button>
                   <radio-button value="4">Slitherin</radio-button>
-                  <radio-button value="5">Random</radio-button>
+                  <radio-button value="5">Walker</radio-button>
+                  <radio-button value="6">Random</radio-button>
                 </radio-group>
               </div>
               <div class="sliders">
@@ -100,6 +102,10 @@
                 <tab-content name="Slitherin">
                   Worms with snake like movement. <br>
                   Sine wave to the rescue!
+                </tab-content>
+                <tab-content name="Walker">
+                  4 legged bugs with turtle like movement. <br>
+                  Again Sine/Cosine wave to the rescue to move the legs.
                 </tab-content>
               </tabbed-pane>
             </div>

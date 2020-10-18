@@ -1,3 +1,13 @@
+/**
+ * The most Basic Renderer. A Rectangle with a circle as a head.
+ * 
+ * Constructor:
+ * - len: The length of the rectangle. The width is always 30% of length
+ * 
+ * Other Methods:
+ * - render(mover): renders the rectangle based on the mover passed. Uses the movers direction to 
+ *     align the rectangle.
+ */
 class AxisRenderer {
   
   constructor(len) {

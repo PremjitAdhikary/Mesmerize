@@ -1,3 +1,16 @@
+/**
+ * Slither Renderer renders a bunch of body segments which slither around in accordance with 
+ * the mover.
+ * 
+ * Constructor:
+ * - len: The base length of the glider. The max width is always 30% of length. The segments 
+ *     taper towards the tail.
+ * 
+ * Other Methods:
+ * - render(mover): renders the slitherine based on the mover passed. Direction alignment is same 
+ *     as the AxisRenderer. But the body movement is like a snake. The segments oscillate in a 
+ *     sine wave to simulate the slither.
+ */
 class SlitherRenderer {
   
   constructor(len) {
@@ -19,9 +32,6 @@ class SlitherRenderer {
     translate(mover._location.x, mover._location.y);
     rotate(mover._angle);
     this.renderBody();
-    // stroke(SketchColor.red().stringify());
-    // fill(SketchColor.red().stringify());
-    // circle(0,0,5);
     pop();
   }
 

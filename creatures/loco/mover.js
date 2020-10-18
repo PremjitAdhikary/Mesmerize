@@ -1,6 +1,30 @@
+/**
+ * Mover class is reposible for all the locomotion. Given a velocity, this will move in that 
+ * direction with the speed until changed or stopped.
+ * 
+ * Constructor:
+ * - location: the initial location vector
+ * 
+ * Other Methods:
+ * - setLocation(location): Sets up the current location of the mover
+ * - setVelocity(velocity): Sets up the velocity so that the mover can move in that directin 
+ *     at that speed
+ * - resetVelocity(): Stops the mover
+ * - applyAcceleration(acceleration): adds the acceleration to current acceleration. To decelerate 
+ *     the applied acceleration shold be in the opposite direction
+ * - isMoving(): whether the mover is moving or not
+ * - setTopSpeed(topSpeed): Assures you dont see a tortoise moving like a hare
+ * - setAngle(angle): For angular movement
+ * - setAngularVelocity(angularVelocity): For angular movement
+ * - applyAngularAcceleration(angularAcceleration): For angular movement
+ * - update(): This will update the mover location based on velocity, acceleration, angle, 
+ *     angularVelocity, angularAcceleration
+ * - getLocation(): Returns the current location
+ * 
+ */
 class Mover {
   constructor (location) {
-    this._location = location;
+    this._location = location.copy();
     this._velocity = null;
     this._topSpeed = 2;
     this._acceleration = null;
@@ -32,7 +56,7 @@ class Mover {
   }
 
   isMoving() {
-    return this._velocity.mag() > 0;
+    return this._velocity && this._velocity.mag() > 0;
   }
 
   setTopSpeed(topSpeed) {

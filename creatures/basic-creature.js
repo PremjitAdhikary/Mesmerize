@@ -1,3 +1,16 @@
+/**
+ * Composite class which takes in a mover and a renderer to rnder a creature moving around.
+ * 
+ * Constructor:
+ * - mover: The mover to delegate all the locomotion.
+ * - renderer: The renderer to render the creature.
+ * 
+ * Other Methods:
+ * - onLocation(location): returns whether the creature has reached location or not.
+ * - moveTo(location): If the creature is not already on the location, move to it.
+ * - render(): passes the mover to the renderer and renders the creature.
+ * 
+ */
 class BasicCreature {
 
   constructor(mover, renderer) {
@@ -6,7 +19,7 @@ class BasicCreature {
   }
 
   onLocation(location) {
-    return p5.Vector.dist(this._mover._location, location) < 5;
+    return p5.Vector.dist(this._mover._location, location) < this._renderer._len;
   }
 
   moveTo(location) {
