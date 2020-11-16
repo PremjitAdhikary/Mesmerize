@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" href="../favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Change This -->
+  <meta name="description" content="Electronic Creatures given some intelligence to survive in artificial world.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://premjitadhikary.github.io/Mesmerize/electronic-life">
+  <meta property="og:title" content="Electronic Life">
+  <meta property="og:description" content="Electronic Creatures given some intelligence to survive in artificial world.">
+  <meta property="og:image" content="https://premjitadhikary.github.io/Mesmerize/electronic-life/img/myCanvas.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://premjitadhikary.github.io/Mesmerize/electronic-life">
+  <meta name="twitter:title" content="Electronic Life">
+  <meta name="twitter:description" content="Electronic Creatures given some intelligence to survive in artificial world.">
+  <meta name="twitter:image" content="https://premjitadhikary.github.io/Mesmerize/electronic-life/img/myCanvas.jpg">
+  <!-- Change This -->
+  <link rel="stylesheet" href="../appstyle.css">
+  <link rel="stylesheet" href="./compstyle.css">
+  <script src="../components/app-header.js" type="module"></script>
+  <script src="../components/sketch-text.js" type="module"></script>
+  <script src="https://cdn.jsdelivr.net/npm/p5@0.10.2/lib/p5.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js"></script>
+  <script src="./sketch.js"></script>
+  <script src="./statistics.js"></script>
+  <script src="../common/sketch-colors.js"></script>
+  <script src="../common/utilities.js"></script>
+  <script src="../components/range-input.js" type="module"></script>
+  <script src="../components/radio-input-group.js" type="module"></script>
+  <script src="../components/tabbed-pane.js" type="module"></script>
+  <script src="../special-effects/effects-ripples.js"></script>
+  <script src="../sierpinski-fractals/n-gon-unit.js"></script>
+  <script src="./electronic-environment.js"></script>
+  <script src="./actors/builders.js"></script>
+  <script src="./world.js"></script>
+  <script src="./behaviours/criterias.js"></script>
+  <script src="./behaviours/behaviour.js"></script>
+  <script src="./behaviours/grow.js"></script>
+  <script src="./behaviours/reproduce.js"></script>
+  <script src="./behaviours/move.js"></script>
+  <script src="./behaviours/eat.js"></script>
+  <script src="./behaviours/die.js"></script>
+  <script src="./behaviours/upkeep.js"></script>
+  <script src="./behaviours/collect.js"></script>
+  <script src="./behaviours/go-home.js"></script>
+  <script src="./behaviours/pollinate-and-reproduce.js"></script>
+  <script src="./behaviours/hive-reproduce.js"></script>
+  <script src="./behaviours/queen-tour.js"></script>
+  <script src="./actors/world-actor.js"></script>
+  <script src="./actors/living-actor.js"></script>
+  <script src="./actors//locomoting-actor.js"></script>
+  <script src="./actors/land.js"></script>
+  <script src="./actors/hive.js"></script>
+  <script src="./actors/lily.js"></script>
+  <script src="../creatures/loco/mover.js"></script>
+  <script src="../creatures/renderers/winged-renderer.js"></script>
+  <script src="../creatures//renderers/glide-renderer.js"></script>
+  <script src="../creatures//renderers/limbed-renderer.js"></script>
+  <script src="../creatures//renderers/finned-renderer.js"></script>
+  <script src="../creatures/basic-creature.js"></script>
+  <script src="./actors/fly.js"></script>
+  <script src="./actors/turtle.js"></script>
+  <script src="./actors/worm.js"></script>
+  <script src="./actors/fish.js"></script>
+  <script src="./control.js" type="module"></script>
+  <title>Electronic Life</title>
+</head>
+<body>
+  <div class="toplevel">
+    <app-header class="heading"></app-header>
+    <div class="topbody">
+      <div class="container">
+          <div class="sketch">
+            <div id="sketch-holder" class="sketch-holder">
+            </div>
+          </div>
+
+          <div class="control">
+            <div class="control-container">
+                <div class="choice">
+                  <p>
+                    <radio-group id="choice_world">
+                      <radio-button value="1" aria-checked="true">Moving World</radio-button>
+                      <radio-button value="2">Living World</radio-button>
+                      <radio-button value="3">Symbiotic World</radio-button>
+                    </radio-group>
+                  </p>
+                  <p>
+                    <span class="btn" id="launch">Launch World</span>
+                    <span class="btn" id="show_info">Show Info</span>
+                  </p>
+                </div>
+                <div id="moving_world_control" class="choice_control"></div>
+                <div id="living_world_control" class="choice_control">
+                  <div class="living_world_control_holder">
+                    <div class="choice_left">
+                      Worms
+                      <p>
+                        <radio-group id="choice_worm">
+                          <radio-button value="1" aria-checked="true">Greedy</radio-button>
+                          <radio-button value="2">Smart</radio-button>
+                        </radio-group>
+                      </p>
+                    </div>
+                    <div class="choice_right">
+                      Fish
+                      <p>
+                        <radio-group id="choice_fish">
+                          <radio-button value="1" aria-checked="true">None</radio-button>
+                          <radio-button value="2">Greedy</radio-button>
+                          <radio-button value="3">Smart</radio-button>
+                        </radio-group>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div id="symbiotic_world_control" class="choice_control">
+                  <div>
+                    Pollinators
+                    <p>
+                      <radio-group id="choice_pollinators">
+                        <radio-button value="1" aria-checked="true">Few</radio-button>
+                        <radio-button value="2">Lots</radio-button>
+                      </radio-group>
+                    </p>
+                  </div>
+                </div>
+            </div>
+          </div>
+
+          <sketch-text class="description" pageid="10028">
+            <div slot="content">
+              <p>
+                Long back I came across a wonderful resource to learn <a 
+                href="https://eloquentjavascript.net/" target="_blank">javaScript</a>. I don't 
+                want to discuss that here as I won't be doing justice to it. Needless to say I 
+                learned a lot from it. Especially from the projects.
+              </p>
+              <p>
+                One such project in it was, well, Electronic Life. Idea is to build a virtual 
+                ecosystem populated with electronic creatures. I decided to recreate it.
+              </p>
+              <div id="chart-container">
+                <strong>Population Chart</strong>
+                <canvas id="statsChart" width="250" height="100"></canvas>
+              </div>
+              <p>
+                The <em>Population Chart</em> gives out the count of creatures alive on a given day 
+                for last 100 days.
+              </p>
+              <p>
+                The original project had alphabets for depicting living and non-living. Every 
+                <em>turn</em> the creatures get a chance to take some action. So plants grow and 
+                critters move around trying to eat up plants. Of course, I couldn't have 
+                the sketchpad have alphabets, I can do much better now. Thus we have the return 
+                of the <a target="_blank" href="../creatures/">Creatures</a>. Instead of  turns, I 
+                kept the unit as <em>day</em>. So every day, if the creature is not busy doing 
+                something, it gets to select among one of it's actions and act upon it.
+              </p>
+              <p><em>The Environments:</em></p>
+              <tabbed-pane>
+                <tab-content name="Moving World" selected>
+                  The first world is pretty simple. It is populated with creatures which just 
+                  indefinitely move around.<br><br>
+                  In the original project there was <em>Bouncing Critter (o)</em> which moved around 
+                  randomly bouncing off walls. Here that role is played by the <em>Fly</em>. <br><br>
+                  The second critter was a <em>Wall Follower (~)</em> which moves along the walls. 
+                  Here the <em>Turtle</em> is inducted to depict the same.<br><br>
+                  From the <em>flat</em> Population chart it should be clear that this is quite a 
+                  boring world.
+                </tab-content>
+                <tab-content name="Living World">
+                  Here things start to get interesting. Creatures can also reproduce (asexually), 
+                  eat and die.<br><br>
+                  The original project had <em>Plants (*)</em>, <em>Plant Eaters (O)</em> and 
+                  <em>Predators (@)</em>. <br><br>
+                  It had introduced the concept of energy which is required for movement (if not 
+                  plant), survival, and reproduction. Plants can accumulate energy on their own over 
+                  a period of time. Plant-Eaters on the other hand eat plants for energy, which then 
+                  they use up for moving and reproduction. And on the top of the food chain we have 
+                  the Predators feeding on the plant eaters.<br><br>
+                  The organisms can die too, if they get eaten or run out of energy. <br><br>
+                  For my version the plant is replaced by <em>Lily</em>, Plant Eater by 
+                  <em>Worm</em> and Predator by <em>Fish</em>. <br><br>
+                  Sustaining this world is tough! Very soon you might see the lines flat out on 
+                  the Chart, a desolate world. Sometimes the world might just be left with plants.
+                </tab-content>
+                <tab-content name="Symbiotic World">
+                  This is my own problem statement. Actually the <em>Living World</em> had lots of 
+                  hunting and killing which my 6 year old QA specialist was not very happy about.<br><br>
+                  So to counter that I came up with this beautiful world full of flowers where 
+                  nobody kills anybody for survival and everybody lives happy ever after. <br><br>
+                  For the creatures, I got a little lazy this time and instead of coming up with 
+                  something new (I had done that with <em>Fish</em> already), I reused existing 
+                  creatures <em>Lily</em> and <em>Fly</em> from the previous world giving them 
+                  additional/alternate behaviours to live in a symbiotic manner. <br><br>
+                  Pollinators and Pollinables (not sure if that's a word) help each other. The 
+                  former collects nectar from the later for survival and the later exchanges pollen 
+                  through the former for reproduction.<br><br>
+                  A new type of non-living actor was added here. <em>Hive</em>. That's where the 
+                  pollinators live and thrive. The collected nectar is stored here and it 
+                  transforms the same to energy that can be shared among the residents. The hive 
+                  cells will get filled up with nectar as and when it is collected (nice golden 
+                  fluid).
+                </tab-content>
+              </tabbed-pane>
+              <p><em>The Creatures:</em></p>
+              <tabbed-pane>
+                <tab-content name="Fly" selected>
+                  As the name suggests, it flies around. Can't land on water. So it flies from 
+                  land tile to land tile.<br><br>
+                  Needs rest between every flight.
+                </tab-content>
+                <tab-content name="Turtle">
+                  This creature keeps itself restricted to shallow water. So it moves around 
+                  land all the time.
+                </tab-content>
+                <tab-content name="Lily">
+                  This is the only life-form in this world that doesn't move around. Grows on the 
+                  water. <br><br>
+                  Can reproduce if it has accumulated enough energy and has empty space around 
+                  it to drop a seed. <br><br>
+                  Can get eaten up and die. <br><br>
+                  As the Lily doesn't move around, to make it interesting to look at, they have 
+                  different colors and different number of petals.
+                </tab-content>
+                <tab-content name="Worm">
+                  Moves around in search of Lily to eat. <br><br>
+                  The way this creature consumes is dependent on the intelligence provided to 
+                  it. <br>
+                  <ul>
+                    <li>
+                      <em>The Greedy One:</em> Eats up any lily on its way. This results in the 
+                      ecosystem to quickly perish and devoid of any electronic being.
+                    </li>
+                    <li>
+                      <em>The Smart One:</em> In the original project, multiple solutions were 
+                      given to make the environment stable. 
+                      <ul>
+                        <li>They could stop eating after they reach a certain energy level.</li>
+                        <li>
+                          Also to make sure lily never go entirely extinct, worms could refuse  
+                          to eat a plant unless they see at least one other plant nearby.
+                        </li>
+                        <li>I also added my own criteria. Worms cannot eat young lily.</li>
+                      </ul>
+                    </li>
+                  </ul>
+                  Can reproduce if it has accumulated enough energy and has empty space around 
+                  it to hatch a young one. <br><br>
+                  Can die due to scarcity of plants. Or if eaten by fish.
+                </tab-content>
+                <tab-content name="Fish">
+                  Moves around in search of Worms to eat. <br><br>
+                  Just like Worms, Fishes can also be provided with intelligence consume food. <br>
+                  <ul>
+                    <li>
+                      <em>The Greedy One:</em> Eats up any worm on its way. This might result in 
+                      the ecosystem to be full of lily.
+                    </li>
+                    <li>
+                      <em>The Smart One:</em> I took the solutions from the original project, 
+                      they were good enough. 
+                      <ul>
+                        <li>They could stop eating after they reach a certain energy level.</li>
+                        <li>
+                          Also to keep food stock alive, fishes hunts more aggressively when 
+                          there are a lot of worms around and limit hunting when preys are rare.
+                        </li>
+                        <li>And the dont eat young worms criteria is also in.</li>
+                      </ul>
+                    </li>
+                  </ul>
+                  Can reproduce if it has accumulated enough energy and has empty space around 
+                  it to hatch a young one. <br><br>
+                  Can die due to scarcity of worms.
+                </tab-content>
+                <tab-content name="Symbiotic Lily">
+                  Special reproduction by pollination. <br><br>
+                  To simulate that, a Lily can only reproduce if it has got a pollen from another 
+                  Lily. So when a pollinator lands on a Lily, if it is ready for reproduction (the 
+                  required energy and empty space condition remains), checks if the pollinator has 
+                  a pollen to offer. If yes, reproduces, if no then the lily attaches its own 
+                  pollen to the pollinator to enable reproduction for some other Lily. <br><br>
+                  Another change here is that for the offspring, the petal color is a blend of 
+                  itself and parents. Gives some variety to the world.
+                </tab-content>
+                <tab-content name="Symbiotic Fly">
+                  Instead of the bee, I am using the <em>Fly</em> as a pollinator here.<br><br>
+                  They have just one job to do. Go and collect nectar from surrounding Lily and 
+                  deposit them in the Hive. Every trip they visit multiple Lily's and also carry 
+                  pollen from them to spread around. <br><br>
+                  Once it deposits the collected nectar in the Hive, the Hive recharges them with 
+                  energy so that they can make the next trip.
+                </tab-content>
+                <tab-content name="Queen">
+                  The flies can't reproduce. Only the <em>Queen</em> can give birth to more flies. 
+                  Visually it's just an oversized Fly. But behaviour wise it's only job is to 
+                  give birth to more flies for the Hive. <br><br>
+                  The Queen doesn't go around to collect nectar/energy. That is shared to her by 
+                  the other flies from their collection. Once it has enough energy, it gives 
+                  birth to a young fly who goes straight to work collecting more nectar. <br><br>
+                  Once the Hive is fully populated, the Queen's primary job is done and 
+                  occasionally she flies around the archipelago.
+                </tab-content>
+              </tabbed-pane>
+              <p><em>The Controls:</em></p>
+              <p>
+                While the moving world is a basic (boring) one, the living world is quite dynamic 
+                in nature. Use the controls to simulate a living world of your liking.
+              </p>
+              <p>
+                For the symbiotic world, you can select how many flies you want it to have. 
+                Sparsely populated or overpopulated.
+              </p>
+              <p>Make sure to <em>Launch</em> the world after your selections are done.</p>
+              <p>
+                Show/Hide Info toggles information regarding the following:
+                <ul>
+                  <li>Frames Per Second (FPS) for the performance.</li>
+                  <li>World Grid</li>
+                  <li>
+                    Also enables you to click on a particular creature to put out its vital 
+                    information.
+                  </li>
+                </ul>
+              </p>
+              <p>
+                <em>It's not a Bug, it's a Feature</em>: If you are careful enough to click at a 
+                time and a location when/where there are multiple creatures, information for all 
+                of them will pop up.
+              </p>
+            </div>
+            <div slot="source">
+              <p>
+                <a href="https://eloquentjavascript.net/" target="_blank">Eloquent JavaScript</a> - 
+                by Marijn Haverbeke. Awesome content for anyone who wants to understand functional 
+                programming.
+              </p>
+              <p>
+                <a href="https://www.chartjs.org/" target="_blank">Chart.js</a> - To render the 
+                Population Chart.
+              </p>
+            </div>
+          </sketch-text>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

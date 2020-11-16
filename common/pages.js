@@ -364,7 +364,20 @@ class Pages {
         img: '/special-effects/img/preview.jpg',
         detail: 'Effects of and on Environment.',
         tag: [
-          'sim'
+          'sim',
+          'perlin noise'
+        ]
+      },
+      {
+        id: 10028,
+        name: 'Electronic Life',
+        url: '/electronic-life',
+        img: '/electronic-life/img/preview.jpg',
+        detail: 'Electronic Creatures given some intelligence to survive in artificial world.',
+        tag: [
+          'sim',
+          'creature',
+          'chartjs'
         ]
       }
     ];

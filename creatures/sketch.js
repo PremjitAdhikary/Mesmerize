@@ -22,13 +22,14 @@ function initCreatures() {
 }
 
 function getACreature(selected) {
-  let arr = [glider, winger, slither, walker];
+  let arr = [glider, winger, slither, walker, finner];
   switch (selected) {
     case 1: return basic();
     case 2: return glider();
     case 3: return winger();
     case 4: return slither();
     case 5: return walker();
+    case 6: return finner();
     default: return random(arr)();
   }
 }
@@ -50,7 +51,11 @@ let slither = function() {
 }
 
 let walker = function() {
-  return createCreature(1.5, 2, 20, 25, len => new LimbedRenderer(len));
+  return createCreature(0.3, 0.5, 20, 25, len => new LimbedRenderer(len));
+}
+
+let finner = function() {
+  return createCreature(1.5, 2.5, 35, 45, len => new FinnedRenderer(len));
 }
 
 function createCreature(minSpeed, maxSpeed, minLength, maxLength, renderer) {

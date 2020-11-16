@@ -19,7 +19,7 @@ class BasicCreature {
   }
 
   onLocation(location) {
-    return p5.Vector.dist(this._mover._location, location) < this._renderer._len;
+    return p5.Vector.dist(this._mover._location, location) < this._renderer._len/2;
   }
 
   moveTo(location) {

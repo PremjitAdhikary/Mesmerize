@@ -12,7 +12,6 @@ class AxisRenderer {
   
   constructor(len) {
     this._len = len;
-    this._wid = len * 0.3;
     this._strokeColor = 0;
     this._fillColor = 150;
   }
@@ -33,7 +32,7 @@ class AxisRenderer {
     stroke(this._strokeColor);
     strokeWeight(1);
     fill(this._fillColor);
-    rect(0,0,this._len,this._wid);
+    rect(0, 0, this._len, this._len*0.3);
   }
 
   renderHead() {

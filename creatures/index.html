@@ -30,7 +30,7 @@
   <script src="./renderers/winged-renderer.js"></script>
   <script src="./renderers/slither-renderer.js"></script>
   <script src="./renderers/limbed-renderer.js"></script>
-  <!-- <script src="../kinematics/segment.js"></script> -->
+  <script src="./renderers/finned-renderer.js"></script>
   <script src="./basic-creature.js"></script>
   <script src="../common/sketch-colors.js"></script>
   <script src="../common/utilities.js"></script>
@@ -59,7 +59,8 @@
                   <radio-button value="3">Winged One</radio-button>
                   <radio-button value="4">Slitherin</radio-button>
                   <radio-button value="5">Walker</radio-button>
-                  <radio-button value="6">Random</radio-button>
+                  <radio-button value="6">Finned One</radio-button>
+                  <radio-button value="7">Random</radio-button>
                 </radio-group>
               </div>
               <div class="sliders">
@@ -87,25 +88,30 @@
               <p>The Creatures simulated here: </p>
               <tabbed-pane>
                 <tab-content name="Just Axis" selected>
-                  This is the backbone of all creatures. <br>
+                  This is the backbone of all creatures. <br><br>
                   A basic rectangle which tries to reach it's target. The red dot denotes it's 
                   <em>head</em>. If the target is reached, the <em>red</em> turns off.
                 </tab-content>
                 <tab-content name="Glider">
-                  This creature moves like an earthworm(?). <br>
+                  This creature moves like an earthworm(?). <br><br>
                   To move forward, it elongates it's body and then contracts.
                 </tab-content>
                 <tab-content name="Winged One">
-                  Think dragonfly! <br>
+                  Think dragonfly! <br><br>
                   Has wings, which oscillate to and fro to give the illusion of flapping wings.
                 </tab-content>
                 <tab-content name="Slitherin">
-                  Worms with snake like movement. <br>
+                  Worms with snake like movement. <br><br>
                   Sine wave to the rescue!
                 </tab-content>
                 <tab-content name="Walker">
-                  4 legged bugs with turtle like movement. <br>
+                  4 legged bugs with turtle like movement. <br><br>
                   Again Sine/Cosine wave to the rescue to move the legs.
+                </tab-content>
+                <tab-content name="Finned One">
+                  A Fish. Again Sine/Cosine wave to the rescue to move the body. <br><br>
+                  This was added to have the fish in <a href="../electronic-life/" 
+                  target="_blank">Electronic Life</a>.
                 </tab-content>
               </tabbed-pane>
             </div>

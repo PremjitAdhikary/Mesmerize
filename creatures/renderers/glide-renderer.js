@@ -16,7 +16,6 @@ class GlideRenderer {
   
   constructor(len) {
     this._len = len;
-    this._wid = len * 0.3;
     this._strokeColor = 0;
     this._fillColor = 150;
     this._stretch = true;
@@ -59,6 +58,7 @@ class GlideRenderer {
     let headPos = (this._currLen - this._len) + this._len/2;
     let segments = this._len / GlideRenderer.SEGMENT_SIZE;
     let segDist = this._currLen / segments;
+    let wid = this._len * 0.3;
 
     stroke(this._strokeColor);
     strokeWeight(2);
@@ -66,12 +66,12 @@ class GlideRenderer {
 
     for (let i=0; i<segments; i++) {
       if (i === 0) {
-        this.renderHead(headPos - (i*segDist), this._wid*0.8);
+        this.renderHead(headPos - (i*segDist), wid*0.8);
       } else {
         this.renderSegment(
           (headPos - (i*segDist)),
           (this._len*0.8/segments),
-          map(i,0,segments-1,this._wid*0.9,this._wid*0.3));
+          map(i,0,segments-1, wid*0.9, wid*0.3));
       }
     }
   }

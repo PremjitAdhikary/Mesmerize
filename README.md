@@ -14,4 +14,4 @@ To add a new page-
 * Customize index.html, sketch.js and control.js.
 * In case no controls are required, use the no-control version of classes to style container and description.
 * In case to make canvas clickable, use clickable class to style the sketch-holder.
-* Update social meta tags.
+* Update social meta tags (Twitter developer card validator, facebook metatag validator).

@@ -13,9 +13,11 @@ class LimbedRenderer {
   
   constructor(len) {
     this._len = len;
-    this._wid = len * 0.7;
     this._strokeColor = 0;
-    this._fillColor = SketchColor.grey().stringify();
+    this._bodyColor = SketchColor.grey().stringify();
+    this._headColor = SketchColor.grey().stringify();
+    this._limbColor = 0;
+
     this._limbAngle = HALF_PI;
     this._limbAngleIncrement = 0.06;
   }
@@ -34,20 +36,20 @@ class LimbedRenderer {
 
   renderBody() {
     stroke(this._strokeColor);
-    fill(this._fillColor);
+    fill(this._bodyColor);
     strokeWeight(1);
-    ellipse(0, 0, this._len, this._wid);
+    ellipse(0, 0, this._len, this._len * 0.7);
   }
 
   renderHead() {
     stroke(this._strokeColor);
-    fill(this._fillColor);
+    fill(this._headColor);
     strokeWeight(1);
     circle(this._len/2, 0, this._len/3);
   }
 
   renderLimbs() {
-    stroke(this._strokeColor);
+    stroke(this._limbColor);
     strokeWeight(2);
     let px = this._len/2 * cos(this._limbAngle);
     let py = this._len/2 * sin(this._limbAngle);

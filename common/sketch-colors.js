@@ -1,10 +1,10 @@
 class SketchColor {
 
-  constructor(r,g,b) {
+  constructor(r,g,b,a) {
     this._r = r;
     this._g = g;
     this._b = b;
-    this._a = 1.0;
+    this._a = a ? a : 1.0;
   }
 
   static black = () => new SketchColor(0, 0, 0);
@@ -20,6 +20,8 @@ class SketchColor {
   static grey = () => new SketchColor(80, 80, 80);
   static gold = () => new SketchColor(255, 215, 0);
   static skyblue = () => new SketchColor(174, 245, 255);
+
+  copy = () => new SketchColor(this._r, this._g, this._b, this._a);
 
   static blend() {
     let r = 0;

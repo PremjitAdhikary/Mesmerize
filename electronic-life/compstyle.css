@@ -1,0 +1,28 @@
+.control-container {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  grid-template-rows: 1fr;
+  grid-template-areas:
+    "choice choice_control";
+}
+.choice {
+  grid-area: choice;
+}
+.choice_control {
+  grid-area: choice_control;
+}
+
+.living_world_control_holder {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "choice_left choice_right";
+}
+.choice_left {
+  grid-area: choice_left;
+}
+.choice_right {
+  grid-area: choice_right;
+}
