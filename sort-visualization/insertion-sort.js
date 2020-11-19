@@ -1,7 +1,7 @@
 class InsertionSort extends BaseSort {
 
   constructor(mode) {
-    super(SketchColor.green().stringify(), (mode == 0 ? 8 : 1));
+    super(SketchColor.green().stringify(), (mode == BaseSort.STEP_MODE ? 8 : 1));
     this._i = 1;
     this._j = 1;
     this._mode = mode;
@@ -10,7 +10,7 @@ class InsertionSort extends BaseSort {
   sort() {
     this._swap_a = -1;
     this._swap_b = -1;
-    if (this._mode == 0) 
+    if (this._mode == BaseSort.STEP_MODE) 
       this.sortStep();
     else
       this.sortLoop();
@@ -48,7 +48,8 @@ class InsertionSort extends BaseSort {
       return SketchColor.blue().stringify();
     if (index == this._swap_a || index == this._swap_b) 
       return SketchColor.greenyellow().stringify();
-    return this._mode == 0 ? SketchColor.grey().stringify() : SketchColor.white().stringify();
+    return this._mode == BaseSort.STEP_MODE ? 
+        SketchColor.grey().stringify() : SketchColor.white().stringify();
   }
 
 }

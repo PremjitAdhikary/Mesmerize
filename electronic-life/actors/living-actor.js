@@ -124,9 +124,12 @@ class LivingActor extends WorldActor {
     noStroke();
     textSize(tSize);
     let energyMessage = LivingActor.MESSAGE_ENERGY + this._energy.toFixed(1);
+    let energyTxtWidth = textWidth(energyMessage);
     let generationMessage = LivingActor.MESSAGE_GENERATION + this._generation;
+    let generationTxtWidth = textWidth(generationMessage);
     let daysMessage = LivingActor.MESSAGE_DAYS + this._daysOld;
-    let txtWidth = textWidth(generationMessage);
+    let daysTxtWidth = textWidth(daysMessage);
+    let txtWidth = Math.max(Math.max(energyTxtWidth, generationTxtWidth), daysTxtWidth);
     fill(SketchColor.white().alpha75().stringify());
     let l = this.getLocation();
     rect(l.x, l.y - 25, txtWidth, 35, 5);

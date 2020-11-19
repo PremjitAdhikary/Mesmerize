@@ -206,7 +206,8 @@ class Pages {
         img: '/sort-visualization/img/preview.jpg',
         detail: 'Visualize different sorting algorithms.',
         tag: [
-          'sort'
+          'sort',
+          'algorithm'
         ]
       },
       {

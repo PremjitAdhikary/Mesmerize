@@ -12,13 +12,14 @@ function setup() {
 
 function init() {
   switch(choice_sort) {
-    case 1: algo = new BubbleSort(0); break;
-    case 2: algo = new BubbleSort(1); break;
-    case 3: algo = new SelectionSort(0); break;
-    case 4: algo = new SelectionSort(1); break;
-    case 5: algo = new InsertionSort(0); break;
-    case 6: algo = new InsertionSort(1); break;
+    case 1: algo = new BubbleSort(BaseSort.STEP_MODE); break;
+    case 2: algo = new BubbleSort(BaseSort.LOOP_MODE); break;
+    case 3: algo = new SelectionSort(BaseSort.STEP_MODE); break;
+    case 4: algo = new SelectionSort(BaseSort.LOOP_MODE); break;
+    case 5: algo = new InsertionSort(BaseSort.STEP_MODE); break;
+    case 6: algo = new InsertionSort(BaseSort.LOOP_MODE); break;
     case 7: algo = new QuickSort(); break;
+    case 8: algo = new MergeSort(); break;
   }
 }
 

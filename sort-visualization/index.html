@@ -33,6 +33,7 @@
   <script src="./selection-sort.js"></script>
   <script src="./quick-sort.js"></script>
   <script src="./insertion-sort.js"></script>
+  <script src="./merge-sort.js"></script>
   <title>Sort Visualization</title>
 </head>
 <body>
@@ -57,6 +58,7 @@
                   <radio-button value="5">Insertion Sort (Step)</radio-button>
                   <radio-button value="6">Insertion Sort (Loop)</radio-button>
                   <radio-button value="7">Quick Sort</radio-button>
+                  <radio-button value="8">Merge Sort</radio-button>
                 </radio-group>
               </p>
             </div>
@@ -97,6 +99,14 @@
               <p>
                 <strong>Quick Sort</strong><br>
                 Recursive algorithm implemented in an iterative pattern here.
+              </p>
+              <p>
+                <strong>Merge Sort</strong><br>
+                Another recursive algorithm implemented in an iterative pattern here. <br>
+                Note that we are using a worker array here to do the calculation and then copying 
+                its contents into the original array. So the visialization will have the original 
+                array updated from worker array contents which will seem like values are 
+                disappearing from one end and appearing somewhere else.
               </p>
             </div>
             <div slot="source">

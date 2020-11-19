@@ -1,7 +1,7 @@
 class SelectionSort extends BaseSort {
 
   constructor(mode) {
-    super(SketchColor.green().stringify(), (mode == 0 ? 8 : 1));
+    super(SketchColor.green().stringify(), (mode == BaseSort.STEP_MODE ? 8 : 1));
     this._i = 0;
     this._j = 1;
     this._jMin = 0;
@@ -12,7 +12,7 @@ class SelectionSort extends BaseSort {
   sort() {
     this._swap_a = -1;
     this._swap_b = -1;
-    if (this._mode == 0) 
+    if (this._mode == BaseSort.STEP_MODE) 
       this.sortStep();
     else
       this.sortLoop();
@@ -66,7 +66,8 @@ class SelectionSort extends BaseSort {
       return SketchColor.greenyellow().stringify();
     if (index == this._jMin) 
       return SketchColor.red().stringify();
-    return this._mode == 0 ? SketchColor.grey().stringify() : SketchColor.white().stringify();
+    return this._mode == BaseSort.STEP_MODE ? 
+        SketchColor.grey().stringify() : SketchColor.white().stringify();
   }
 
 }

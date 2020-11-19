@@ -69,3 +69,6 @@ class BaseSort {
   }
 
 }
+
+BaseSort.STEP_MODE = "step";
+BaseSort.LOOP_MODE = "loop";
