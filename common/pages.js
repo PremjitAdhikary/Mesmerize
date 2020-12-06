@@ -207,7 +207,8 @@ class Pages {
         detail: 'Visualize different sorting algorithms.',
         tag: [
           'sort',
-          'algorithm'
+          'algorithm',
+          'visualization'
         ]
       },
       {
@@ -379,6 +380,19 @@ class Pages {
           'sim',
           'creature',
           'chartjs'
+        ]
+      },
+      {
+        id: 10029,
+        name: 'Travelling Salesman Problem',
+        url: '/travelling-salesman-problem',
+        img: '/travelling-salesman-problem/img/preview.jpg',
+        detail: 'Travelling Salesman Algorithm Visualizations.',
+        tag: [
+          'travelling salesman',
+          'genetic algorithm',
+          'algorithm',
+          'visualization'
         ]
       }
     ];

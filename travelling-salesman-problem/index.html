@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" href="../favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Change This -->
+  <meta name="description" content="Travelling Salesman Algorithm Visualizations.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://premjitadhikary.github.io/Mesmerize/travelling-salesman-problem">
+  <meta property="og:title" content="Travelling Salesman">
+  <meta property="og:description" content="Travelling Salesman Algorithm Visualizations.">
+  <meta property="og:image" content="https://premjitadhikary.github.io/Mesmerize/travelling-salesman-problem/img/myCanvas.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://premjitadhikary.github.io/Mesmerize/travelling-salesman-problem">
+  <meta name="twitter:title" content="Travelling Salesman">
+  <meta name="twitter:description" content="Travelling Salesman Algorithm Visualizations.">
+  <meta name="twitter:image" content="https://premjitadhikary.github.io/Mesmerize/travelling-salesman-problem/img/myCanvas.jpg">
+  <!-- Change This -->
+  <link rel="stylesheet" href="../appstyle.css">
+  <link rel="stylesheet" href="./compstyle.css">
+  <script src="../components/app-header.js" type="module"></script>
+  <script src="../components/sketch-text.js" type="module"></script>
+  <script src="https://cdn.jsdelivr.net/npm/p5@0.10.2/lib/p5.js"></script>
+  <script src="./sketch.js"></script>
+  <script src="../common/sketch-colors.js"></script>
+  <script src="../common/utilities.js"></script>
+  <script src="../components/range-input.js" type="module"></script>
+  <script src="../components/radio-input-group.js" type="module"></script>
+  <script src="../components/tabbed-pane.js" type="module"></script>
+  <script src="./control.js" type="module"></script>
+  <script src="./tsp-path.js"></script>
+  <script src="./base-algo.js"></script>
+  <script src="./brute-force.js"></script>
+  <script src="./nearest-neighbor.js"></script>
+  <script src="./repetitive-nearest-neighbor.js"></script>
+  <script src="./cheapest-link.js"></script>
+  <script src="./dna.js"></script>
+  <script src="./genetic-algorithm.js"></script>
+  <script src="./held-karp.js"></script>
+  <title>Travelling Salesman Problem</title>
+</head>
+<body>
+  <div class="toplevel">
+    <app-header class="heading"></app-header>
+    <div class="topbody">
+      <div class="container">
+          <div class="sketch">
+            <div id="sketch-holder" class="sketch-holder">
+            </div>
+          </div>
+
+          <div class="control">
+            <div class="control-container">
+              <div class="choices">
+                <radio-group id="choice_algo">
+                  <radio-button value="1" aria-checked="true">Brute Force</radio-button>
+                  <radio-button value="2">Held Karp</radio-button>
+                  <radio-button value="3">Nearest Neighbor (NN)</radio-button>
+                  <radio-button value="4">Repetitive NN</radio-button>
+                  <radio-button value="5">Cheapest Link</radio-button>
+                  <radio-button value="6">Genetic Algoritm</radio-button>
+                </radio-group>
+              </div>
+              <div class="setup">
+                <p>
+                  <label for="number_of_cities">Cities: </label>
+                  <range-input min="5" max="15" id="number_of_cities"></range-input>
+                </p>
+                <span class="btn" id="reset">Re-Roll Cities</span>
+              </div>
+            </div>
+          </div>
+
+          <sketch-text class="description" pageid="10029">
+            <div slot="content">
+              <p>
+                I had implemented few TSP algorithms in Java long back (2015). Never thought about 
+                visualizations on this. Then I came across <a target="_blank" 
+                href="https://www.youtube.com/watch?v=BAejnwN4Ccw&t=808s">this</a>. Yes, another 
+                Daniel Shiffman gem.
+              </p>
+              <p>
+                Few rules to how my implementations will work:
+                <ul>
+                  <li>There will be a starting city (indicated by the solid circle)</li>
+                  <li>The salesman always comes back to his starting city</li>
+                  <li>All the cities are connected to each other</li>
+                  <li>
+                    This is symmetric TSP. Which basically means that the distance between two 
+                    cities is the same in each opposite direction
+                  </li>
+                </ul>
+              </p>
+              <p><em>Algorithms Visualized</em></p>
+              <tabbed-pane>
+                <tab-content name="Brute Force" selected>
+                  The most basic one. <br><br>
+                  The algorithm Daniel used here is to churn all the possible permutations is 
+                  <em>Lexicographic Ordering</em>. I am always open to learn something new. And 
+                  this was new. <br><br>
+                  The one that I had implemented in Java was using recursion which wouldn't work 
+                  here. I mean I could calculate all the permutations at first and then loop 
+                  through them to <em>render</em> the paths, but that would require you to wait 
+                  for the initial calculations to complete. But with <em>Lexicographic 
+                  Ordering</em> we can render them in an online fashion. <br><br>
+                  Word of caution, this is an O(n!) algorithm. So if you choose to run for 15 
+                  cities and suppose you are getting 60 fps, you still need 600+ years for this 
+                  to complete. Not sure any device will run that long.
+                </tab-content>
+                <tab-content name="Held Karp">
+                  A Dynamic Programming approach. <br><br>
+                  The mantra is <em>Every sub path of a path of minimum distance is itself of 
+                  minimum distance.</em> <br><br>
+                  <em>Functions:</em>
+                  <ul>
+                    <li>
+                      Let g(x, S) : starting from 1, path min cost ends at vertex x, passing vertices 
+                      in set S exactly once
+                    </li>
+                    <li>
+                      c<sub>xy</sub> : edge cost ends at x from y
+                    </li>
+                  </ul>
+                  <em>Equations:</em>
+                  <ul>
+                    <li>g(x, {}) = c<sub>x1</sub></li>
+                    <li>g(x, {a}) = c<sub>xa</sub> + g(a, {})</li>
+                    <li>
+                      g(x, {a,b}) = min( c<sub>xa</sub> + g(a, {b}), c<sub>xb</sub> + g(b, {a}) )
+                    </li>
+                    <li>
+                        g(x, {a,b,c}) = min( c<sub>xa</sub> + g(a, {b,c}), c<sub>xb</sub> 
+                        + g(b, {a,c}), c<sub>xc</sub> + g(c, {b,c}) )
+                    </li>
+                    <li>...and so on</li>
+                  </ul>
+                  Compute the solutions of all sub problems starting with the smallest. Whenever 
+                  computing a solution requires solutions for smaller problems using the above 
+                  recursive equations, look up these solutions which are already computed. To 
+                  compute a minimum distance tour, use the final equation to generate the lst node, 
+                  and repeat for the other nodes. <br><br>
+                  Though this is much faster than the Brute Force approach, it is is exponential 
+                  in nature. O(2<sup>n</sup>n<sup>2</sup>). For 15 cities this <em>will</em> run for 
+                  an hour (again considering 60 fps).
+                </tab-content>
+                <tab-content name="Nearest Neighbor">
+                  An approximation algorithm. <br><br>
+                  It's a greedy algorithm where the salesman repeatedly visits the nearest city 
+                  until all have been visited. Usually not the optimal one. <br><br>
+                  This is an O(n<sup>2</sup>) algorithm. <br><br>
+                  For the visualization, at every vertex I show all the neighbors being checked for 
+                  the nearest one.
+                </tab-content>
+                <tab-content name="Repetitive Nearest Neighbor">
+                  Another approximation algorithm. <br><br>
+                  The idea is to repeat <em>Nearest Neighbor</em> one by one for all the vertices 
+                  as starting point. Then pick the path with the least total distance among 
+                  them. <br><br>
+                  This makes it an O(n<sup>3</sup>) algorithm. <br><br>
+                  Here the visualization skips the <em>showing of all neighbors for nearest one</em> 
+                  and just shows the best selected at that moment.
+                </tab-content>
+                <tab-content name="Cheapest Link">
+                  Another greedy algorithm. <br><br>
+                  The algorithm:
+                  <ul>
+                    <li>Pick an edge with the cheapest weight.</li>
+                    <li>
+                      Pick the next cheapest edge such that:
+                      <ul>
+                        <li>New edge doesn't close a smaller circuit.</li>
+                        <li>New edge results in three edges coming out of a single vertex.</li>
+                      </ul>
+                    </li>
+                  </ul>
+                  The edges are sorted according to weights. <br><br>
+                  Visualization here is straightforward, just color the edges that are picked up 
+                  one by one till the route is complete.
+                </tab-content>
+                <tab-content name="Genetic Algorithm">
+                  Genetic algorithms are heuristics emulating evolution of life. Central idea being 
+                  <em>survival of the fittest</em>. The phases are: 
+                  <ul>
+                    <li>Creating initial population</li>
+                    <li>Calculating fitness</li>
+                    <li>Selecting the best genes</li>
+                    <li>Crossover and Mutation</li>
+                  </ul>
+                  Daniel's video does a great job of explaining the same. <br><br>
+                  I read upon it a bit and implemented a more refined (maybe?) version here. 
+                  <ul>
+                    <li>Cities are the genes here and order of visit is the chromosome </li>
+                    <li>
+                      Fitness is inversely proportional (less the distance travelled, better the 
+                      chromosome) to the path length of the tour 
+                    </li>
+                    <li>Initial population is randomly generated </li>
+                    <li>
+                      Repeat till done:
+                      <ul>
+                        <li>
+                          Fitness of the population is calculated. Also the best and worst in the 
+                          population are noted
+                        </li>
+                        <li>Rank the population with respect to fitness</li>
+                        <li>
+                          Create a mating pool. To select parents:
+                          <ul>
+                            <li>
+                              Use elitism to select top few so that the best ones survive to the next 
+                              generation
+                            </li>
+                            <li>
+                              For the rest, use <em>Fitness Proportionate Selection</em> which is 
+                              nothing but a fitness-weighted probability of being selected
+                            </li>
+                          </ul>
+                        </li>
+                        <li>
+                          Crossover. Randomly select 2 parents from the mating pool, then apply 
+                          Ordered Crossover. <em>WHAT?</em> In ordered crossover, a subset of the 
+                          first parent string is randomly selected and then remainder of the route 
+                          is filled with the genes from the second parent in the order in which 
+                          they appear, without duplicating any genes in the selected subset from 
+                          the first parent.
+                        </li>
+                        <li>
+                          Mutation. This is to introduce variations. Based on some determined 
+                          probability, two vertices in an order are swapped.
+                        </li>
+                        <li>
+                          If the child is not better than the worst of the last generation by some 
+                          percentage, it is rejected.
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                  The population size is kept at n<sup>2</sup>. The number of generations to run is 
+                  twice of n. And for each population, the route total distance is calculated. Which 
+                  makes this implementation an O(n<sup>4</sup>) algorithm. For larger number of 
+                  cities (100+), the population size and generations to run should be made constant.
+                </tab-content>
+              </tabbed-pane>
+              <p>
+                You can change the number of cities for the path. Click Re-Roll cities to run the 
+                algorithms.
+              </p>
+            </div>
+            <div slot="source">
+              <p>
+                Daniels <a href="https://www.youtube.com/watch?v=BAejnwN4Ccw&t=808s" 
+                target="_blank">video</a> on Brute Force.
+              </p>
+              <p>
+                From Wikipedia: <a href="https://en.wikipedia.org/wiki/Held%E2%80%93Karp_algorithm" 
+                target="_blank">Held Karp algorithm</a>.
+              </p>
+              <p>
+                From Wikipedia: <a href="https://en.wikipedia.org/wiki/Nearest_neighbour_algorithm" 
+                target="_blank">Nearest neighbour algorithm</a>.
+              </p>
+              <p>
+                Daniels <a href="https://www.youtube.com/watch?v=hnxn6DtLYcY" 
+                target="_blank">video</a> on Genetic Algorithm.
+              </p>
+              <p>
+                <a target="_blank" 
+                href="https://www.geeksforgeeks.org/traveling-salesman-problem-using-genetic-algorithm/">
+                Geeksforgeeks</a> article on Genetic Algorithm.
+              </p>
+            </div>
+          </sketch-text>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
