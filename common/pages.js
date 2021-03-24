@@ -342,7 +342,8 @@ class Pages {
         detail: 'Electronic Creatures.',
         tag: [
           'creature',
-          'sim'
+          'sim',
+          'original'
         ]
       },
       {
@@ -393,6 +394,27 @@ class Pages {
           'genetic algorithm',
           'algorithm',
           'visualization'
+        ]
+      },
+      {
+        id: 1001,
+        name: 'Pigeon Parser',
+        url: '/pigeon-parser',
+        img: '/pigeon-parser/img/preview.jpg',
+        detail: 'Pigeons and Chess.',
+        tag: [],
+        internal: true
+      },
+      {
+        id: 10030,
+        name: 'Intelligence Question?',
+        url: '/sim-intel',
+        img: '/sim-intel/img/preview.jpg',
+        detail: 'IQ evolution across multiple generations.',
+        tag: [
+          'intelligence',
+          'sim',
+          'original'
         ]
       }
     ];

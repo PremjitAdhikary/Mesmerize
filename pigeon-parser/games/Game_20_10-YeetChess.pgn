@@ -1,0 +1,11 @@
+[Event "Online on Chess Universe"]
+[Site "?"]
+[Date "2020.10.23"]
+[Round "?"]
+[White "YeetChess from USA"]
+[Black "Me"]
+[Result "0-1"]
+[WhiteElo "1045"]
+[Termination "I Won by CheckMate"]
+
+{A lower rated player than me} 1. d4 Nf6 2. Bf4 d5 3. Nc3 Nc6 4. e3 Bf5 5. Bd3 Bxd3 6. Qxd3 e6 7. Nb5 Nb4 8. Qb3 Na6 9. c4 Bb4+ {Opponent loses his right to castle  because of this move} 10. Kf1 O-O 11. a3 Ne4 {Bishop sacrifice} 12. axb4 Nd2+ {Forking away} 13. Ke1 Nxb3 14. Ra3 dxc4 15. Nf3 Nxb4 {Bringing the other Knight into action} 16. Nxc7 Rc8 {My opponent helps me develop my Rook} 17. Nb5 Nc2+ {Another Fork} 18. Ke2 Nxa3 19. Nxa3 Qa5 20. Bd6 Rfd8 21. Nxc4 Rxc4 22. Bf4 Rc2+ 23. Kd3 Qf5+ ({Bringing in the other Rook now would have been stronger, but time pressure} 23... Rdc8 {-M5} 24. Bc7 {-M4} 24... R8xc7 {-M4} 25. Nh4 {-M3} 25... f5 {-M3} 26. Nxf5 {-M2} 26... Rd2+ {-M2} 27. Ke4 {-M1} 27... Qxf5# {-M1}) 24. e4 Nc5+ 25. Kxc2 Qxe4+ 26. Kc3 Na4+ ({Missed another Checkmate} 26... Qd3+ {-M3} 27. Kb4 {-M2} 27... Qb3+ {-M2} 28. Kxc5 {-M1} 28... Rd5# {-M1}) 27. Kb3 Qxf4 28. Ra1 b5 29. Kb4 a6 30. b3 Qd6+ 31. Ka5 Qc7+ 32. Kxa6 Qb6# 0-1

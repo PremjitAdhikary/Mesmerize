@@ -184,6 +184,13 @@ a:hover, a:active {
   opacity: 1.0;
 }
 
+.btn.disable {
+  border: 2px solid var(--secondary-color);
+  color: var(--secondary-color);
+  pointer-events: none;
+  opacity: 1.0;
+}
+
 .search {
   width: 96%;
   position: relative;

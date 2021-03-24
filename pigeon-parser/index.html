@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" href="../favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Change This -->
+  <meta name="description" content="Pigeons and Chess.">
+  <!-- Change This -->
+  <link rel="stylesheet" href="../appstyle.css">
+  <link rel="stylesheet" href="./compstyle.css">
+  <script src="../components/app-header.js" type="module"></script>
+  <script src="../components/sketch-text.js" type="module"></script>
+  <script src="https://cdn.jsdelivr.net/npm/p5@0.10.2/lib/p5.js"></script>
+  <script src="./sketch.js"></script>
+  <script src="../common/sketch-colors.js"></script>
+  <script src="../common/utilities.js"></script>
+  <script src="../components/range-input.js" type="module"></script>
+  <script src="../components/radio-input-group.js" type="module"></script>
+  <script src="../components/tabbed-pane.js" type="module"></script>
+  <script src="./control.js" type="module"></script>
+  <script src="./games/game-store.js"></script>
+  <script src="./pgn-parser.js"></script>
+  <script src="./tokenizer.js"></script>
+  <script src="./syntax-analyzer.js"></script>
+  <script src="./semantic-analyzer.js"></script>
+  <script src="./pieces/piece-commons.js"></script>
+  <script src="./pieces/pawn.js"></script>
+  <script src="./pieces/rook.js"></script>
+  <script src="./pieces/knight.js"></script>
+  <script src="./pieces/bishop.js"></script>
+  <script src="./pieces/queen.js"></script>
+  <script src="./pieces/king.js"></script>
+  <script src="./game.js"></script>
+  <script src="./game-state.js"></script>
+  <title>Pigeon Parser</title>
+</head>
+<body>
+  <div class="toplevel">
+    <app-header class="heading"></app-header>
+    <div class="topbody">
+      <div class="container">
+          <div class="sketch">
+            <div id="sketch-holder" class="sketch-holder">
+            </div>
+          </div>
+
+          <div class="control">
+            <div class="control-container">
+              <div class="player">
+                <div class="type">
+                  <radio-group id="choice_type">
+                    <radio-button value="1" aria-checked="true">Favorites</radio-button>
+                    <radio-button value="2">Minis</radio-button>
+                    <radio-button value="3">All</radio-button>
+                  </radio-group>
+                </div>
+                <br>
+                <div id="main">
+                  Main Game <br>
+                  <range-input min="0" max="10" step="1" id="move_slider"></range-input>
+                  <p>
+                    <span class="btn" id="first">First</span>
+                    <span class="btn" id="prev">Previous</span>
+                    <span class="btn" id="next">Next</span>
+                    <span class="btn" id="last">Last</span>
+                  </p>
+                  <p id="load-sub-holder">
+                    <span class="btn" id="load-sub">Load Variation</span>
+                  </p>
+                </div>
+                <div id="sub">
+                  Variation
+                  <p>
+                    <span class="btn" id="sub-first">First</span>
+                    <span class="btn" id="sub-prev">Previous</span>
+                    <span class="btn" id="sub-next">Next</span>
+                    <span class="btn" id="sub-last">Last</span>
+                  </p>
+                  <p>
+                    <span class="btn" id="load-main">Back To Main Line</span>
+                  </p>
+                </div>
+              </div>
+              <div class="games">
+                <div class="list">
+                  <p><radio-group id="choice_game"></radio-group></p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <sketch-text class="description" pageid="1001">
+            <div slot="content">
+              <p>The title talks about pigeons and parsers.</p>
+              <p><em>Why does the view port have a chess board on it?</em></p>
+              <p>
+                In my early days of career as a developer I came across an architect who said <em>
+                To really level up you coding skills, go ahead and write a parser</em>. Or something 
+                to that effect, I really don't remember. But now I agree, writing a parser does 
+                force you you think in a different light. Because we have a graphics component 
+                here, I didn't want to wirte any parser which spews out <em>2</em> when <em>1 + 1</em> 
+                is entered. Hence a PGN parser. <em>Get it?</em>
+              </p>
+              <p>
+                PGN (Portable Game Notation) is a standard plain text format for recording chess 
+                games (both the moves and related data), which can be read by humans and is also 
+                supported by most chess software. That's from wikipedia. <em>Now do you get the 
+                joke?</em>. 
+              </p>
+              <p>
+                It's not that I am a Chess nerd or anything, nor that I am good at it. I 
+                am more of a casual player. I don't know any openings. I make lot of mistakes. 
+                Lastly I am not patient at all. Needless to say that I cannot or rather I am not 
+                worthy of analyzing any high level interesting match here for you.
+              </p>
+              <p>
+                The few games listed here are those which I actually won. These are all online 
+                games where the moves were jotted down by the site. I have put my own analysis 
+                around them, which might be of interest to novices like me.
+              </p>
+            </div>
+            <div slot="source">
+              <p>
+                Wikipedia for <a href="https://en.wikipedia.org/wiki/Portable_Game_Notation" 
+                target="_blank">PGN</a>.
+              </p>
+            </div>
+          </sketch-text>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

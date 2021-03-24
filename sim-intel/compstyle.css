@@ -1,0 +1,10 @@
+.control-container {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.center {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}

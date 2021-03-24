@@ -1,0 +1,11 @@
+[Event "Online on Chess Universe"]
+[Site "?"]
+[Date "2020.10.26"]
+[Round "?"]
+[White "Me"]
+[Black "Yash Gupta from India"]
+[Result "1-0"]
+[BlackElo "1240"]
+[Termination "I Won by CheckMate"]
+
+{My opponent blundered a lot in this Game. I appropriately responded.} 1. e4 e6 2. Nc3 b6 3. d4 Bb7 4. Nf3 Bxe4 {Blunders the Bishop.} 5. Nxe4 g6 6. Bg5 Be7 7. Bxe7 {I am up a piece early in this Game, so simplify.} 7... Qxe7 8. Bd3 Nf6 9. O-O Rg8 {Opponent wanted to Castle is my guess. Most probably a mouse-slip} 10. b4 Qxb4 {Free Pawn} 11. Nxf6+ {Another free piece for me and a fork.} 11... Kf8 12. Nxg8 Kxg8 13. Rb1 Qa3 14. Ne5 Qxa2 15. Qf3 {A Double Attack} 15... d5 {My opponent defended the wrong threat.} 16. Qxf7+ Kh8 17. Nxg6+ ({I missed a Mate in One here} 17. Qf8#) 17... hxg6 18. Bxg6 Nc6 19. Qh7# 1-0

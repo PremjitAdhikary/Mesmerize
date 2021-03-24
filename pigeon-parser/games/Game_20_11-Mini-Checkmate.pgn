@@ -1,0 +1,11 @@
+[Event "Online on Chess Universe"]
+[Site "?"]
+[Date "2020.11.10"]
+[Round "?"]
+[White "A German"]
+[Black "Me"]
+[Result "0-1"]
+[WhiteElo "1066"]
+[Termination "I Won by CheckMate"]
+
+{Capitalizing on opponents blunders.} 1. e4 e5 2. Nf3 Nf6 3. Nxe5 Nxe4 4. Bc4 {Pawn at f7 under attack} 4... Qe7 5. Nxf7 ({If Bishop takes pawn, then some nice tactics and counter tactics come in play} 5. Bxf7+ Kd8 {Now his Knight is threatened} 6. d4 {Protecting his Knight and threatning Bg5 to skewer my Queen and King.} 6... Qf6 {Defending against Bg5 and threatning checkmate with Qf2}) 5... Ng3+ {Nc3+ would have won me the Queen} 6. Be2 Nxe2 7. Nxh8 ({Opponent got greedy here, should have taken my Knight, he would have been down a piece but still} 7. Qxe2 Qxe2+ 8. Kxe2 Kxf7) 7... Ng3+ 8. Qe2 {Only move} 8... Qxe2# 0-1

@@ -1,0 +1,11 @@
+[Event "Online on Chess Universe"]
+[Site "?"]
+[Date "2020.10.26"]
+[Round "?"]
+[White "Me"]
+[Black "Stranger"]
+[Result "1-0"]
+[BlackElo "1256"]
+[Termination "I Won by CheckMate"]
+
+{My opponent had a good attack plan here} 1. e4 e5 2. Nc3 Nc6 3. Nf3 Nf6 4. d4 exd4 5. Nxd4 Nxd4 6. Qxd4 c5 7. Qd1 Bd6 8. Bc4 {Instead I could have taken the Bishop} 8... Be7 9. O-O O-O 10. b3 a6 11. Bb2 b5 12. Bd3 b4 {My opponent started the attack on Queen side} 13. Ne2 d5 14. e5 Nd7 15. Nf4 {So I started moving my pieces to the King side.} 15... Nb6 16. c4 dxc4 17. bxc4 g5 18. Bxh7+ {Time to bust open his King side} 18... Kxh7 19. Qh5+ Kg7 20. e6+ f6 21. Qxg5+ {The pawn is pinned} ({There is a mate in 7 here, impossible for me to calculate that ahead} 21. Qg6+ Kh8 22. Nh5 {Threatening Qg7#} 22... Rf7 {Only move to defend it} 23. exf7 {Again Qg7#} 23... Qf8 {If Qg8 then Qxg8# is mate} 24. Nxf6 {Now threatening mate by Qh7#} 24... Bf5 {If Bxf6 then Bxf6+ is leading to mate in one.} 25. Qh5+ Qh6 26. Qxh6+ Bh7 27. Qxh7#) 21... Kh7 22. Qg6+ Kh8 23. Qh6+ Kg8 24. Ng6 Bxe6 25. Rfe1 Bxc4 26. Rxe7 {All sorts of checkmate threats now} 26... Rf7 {Defending against Qg7# and Qh7#. But...} 27. Qh8# 1-0

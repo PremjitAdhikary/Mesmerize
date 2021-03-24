@@ -19,3 +19,11 @@ function forEach2DArray(arr, action) {
 function mouseInCanvas() {
   return mouseX > 0 && mouseX < width && mouseY > 0 && mouseY < height;
 }
+
+function toggleClassForElement(el, toggleClass, isAddCondition) {
+  if (isAddCondition && !el.classList.contains(toggleClass)) {
+    el.classList.add(toggleClass);
+  } else if (!isAddCondition && el.classList.contains(toggleClass)) {
+    el.classList.remove(toggleClass);
+  }
+}

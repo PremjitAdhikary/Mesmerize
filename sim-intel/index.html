@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" href="../favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Change This -->
+  <meta name="description" content="IQ evolution across multiple generations.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://premjitadhikary.github.io/Mesmerize/sim-intel">
+  <meta property="og:title" content="Intelligence Question?">
+  <meta property="og:description" content="IQ evolution across multiple generations.">
+  <meta property="og:image" content="https://premjitadhikary.github.io/Mesmerize/sim-intel/img/myCanvas.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://premjitadhikary.github.io/Mesmerize/sim-intel">
+  <meta name="twitter:title" content="Intelligence Question?">
+  <meta name="twitter:description" content="IQ evolution across multiple generations.">
+  <meta name="twitter:image" content="https://premjitadhikary.github.io/Mesmerize/sim-intel/img/myCanvas.jpg">
+  <!-- Change This -->
+  <link rel="stylesheet" href="../appstyle.css">
+  <link rel="stylesheet" href="./compstyle.css">
+  <script src="../components/app-header.js" type="module"></script>
+  <script src="../components/sketch-text.js" type="module"></script>
+  <script src="https://cdn.jsdelivr.net/npm/p5@0.10.2/lib/p5.js"></script>
+  <script src="./sketch.js"></script>
+  <script src="../common/sketch-colors.js"></script>
+  <script src="../common/utilities.js"></script>
+  <script src="../components/radio-input-group.js" type="module"></script>
+  <script src="../components/tabbed-pane.js" type="module"></script>
+  <script src="./control.js" type="module"></script>
+  <script src="./person.js"></script>
+  <script src="./region.js"></script>
+  <script src="./visualize/split-bar.js"></script>
+  <script src="./visualize/multi-bar-graph.js"></script>
+  <script src="./visualize/pie-chart.js"></script>
+  <title>Intelligence Question?</title>
+</head>
+<body>
+  <div class="toplevel">
+    <app-header class="heading"></app-header>
+    <div class="topbody">
+      <div class="container">
+          <div class="sketch">
+            <div id="sketch-holder" class="sketch-holder">
+            </div>
+          </div>
+
+          <div class="control">
+            <div class="control-container">
+              <div>
+                <p><em>Select State Type</em></p>
+                <p>
+                  <radio-group id="choice_region">
+                    <radio-button value="1" aria-checked="true">State of All</radio-button>
+                    <radio-button value="2">Individual States</radio-button>
+                  </radio-group>
+                </p>
+              </div>
+              <div>
+                <p><em>Show Statistics</em></p>
+                <p>
+                  <radio-group id="choice_stat">
+                    <radio-button value="1" aria-checked="true">Age Statistics</radio-button>
+                    <radio-button value="2">IQ Statistics</radio-button>
+                    <radio-button value="3">Education Statistics</radio-button>
+                    <radio-button value="4">Job Statistics</radio-button>
+                  </radio-group>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <sketch-text class="description" pageid="10030">
+            <div slot="content">
+              <p>
+                Long ago I had watched a movie <em>Idiocracy</em>. The reason I remembered the 
+                movie is because of its premise.
+              </p>
+              <p>
+                Over the course of years, generations become dumber and dumber. The base idea being 
+                <em>the most intelligent humans to choose not to have children while the less 
+                intelligent reproduce indiscriminately</em>. Hmmm... wonder if I can simulate that.
+              </p>
+              <tabbed-pane>
+                <tab-content name="The Rules" selected>
+                  <p><em>The Rules (based on my assumptions)</em></p>
+                  <ul>
+                    <li>
+                      IQ of the child is based on the parents. I know this is far fetched as in 
+                      reality environment plays a strong role. But for this simulation, it's gonna 
+                      be the average of both parents, with a slight chance of IQ being a little bit 
+                      higher than the intelligent of the two parents and conversely same chance of 
+                      being little bit stupider than the stupidest of the two.
+                    </li>
+                    <li>
+                      Partner selection will be based on age and IQ. Again, in the real world we 
+                      have people with spouses old enough to their granddaughter. Also, people marry 
+                      just for money or looks. But not in this simulation.
+                    </li>
+                    <li>
+                      Giving birth to an offspring also depends on factors like current job of the 
+                      parents, etc. Basically more intelligent parents will give weightage to their 
+                      job more than family. <em>This is the golden rule that leads to the basic idea 
+                      of Idiocracy.</em>
+                    </li>
+                    <li>
+                      Education and Job do somewhat depend on the IQ. For example, to enroll for 
+                      graduation, you need a certain level of IQ. Similarly for specialization you 
+                      need an even higher IQ. The job you get depends on the education level that 
+                      you have, so indirectly depend on IQ. This has been detailed out further 
+                      in <em>The Flow</em> section.
+                    </li>
+                    <li>
+                      To control the population from growing indefinitely (don't want the computer to 
+                      crawl due to sheer calculation), a max cap is set for each state after which a 
+                      nice <em>1 child policy</em> kicks in. Also, people die. From a certain age 
+                      onwards there is a chance of you being fatally ill (this increases with age 
+                      and at 100 you die). There is also a recovery percentage based on how many 
+                      researchers and specialized personnel are there in the population.
+                    </li>
+                  </ul>
+                </tab-content>
+                <tab-content name="The States">
+                  <p><em>What's a State?</em></p>
+                  <p>
+                    A state is like a region where the population resides. For this simulation, 
+                    interstate travel is not possible. So a person born in 1 state lives in that same 
+                    state for the rest of his/her life along with his/her generations.
+                  </p>
+                  <p class="center"><img src="./img/state.jpg" alt="State"></p>
+                  <p>
+                    The pink and the blue dot pointed out by the red circle represents a single 
+                    female and a single male in this state. The dots pointed out by the green 
+                    circle shows a couple. The dots in blue circle shows a family with 2 kids, a 
+                    boy and a girl.
+                  </p>
+                  <p>
+                    On the selection of states, the first choice, <em>State of All</em>, has a 
+                    population cap of 5000 with their IQ range from 55 to 145. This aptly simulates 
+                    the movie. The average IQ keeps dipping over time.
+                  </p>
+                  <p>
+                    The second choice is where I separated them out in three groups, the State Names 
+                    say it all. For each state the population is capped at 2500. While the IQ range 
+                    of them are [45-75], [80-110] and [120-150] respectively.
+                  </p>
+                </tab-content>
+                <tab-content name="The Flow">
+                  <p><em>The IQ to Education to Job relationship.</em></p>
+                  <p class="center"><img src="./img/iqDecision.png" alt="The Flow"></p>
+                </tab-content>
+              </tabbed-pane>
+              <p>
+                In <a target="_blank" href="../electronic-life/">Electronic Life</a> I had used 
+                <a href="https://www.chartjs.org/" target="_blank">Chart.js</a> to render the 
+                data visualization. Here I wrote custom code to render them.
+              </p>
+              <p><em>How to read the statistics:</em></p>
+              <tabbed-pane>
+                <tab-content name="Age" selected>
+                  This gives us the total population and also the Age wise distribution of the 
+                  population. <br>
+                  <p class="center"><img src="./img/age_01.jpg" alt="The Total"><br></p>
+                  Here out of 387 people in the said region, 189 are males and rest are females. <br>
+                  <p class="center"><img src="./img/age_02.jpg" alt="Age Wise"><br></p>
+                  This is a Multi Bar Graph showing the distribution of population across different 
+                  age groups. For each age group, we have a male, a female and an all bar (which is 
+                  nothing but a sum of males and females in that age group). The numbers below 
+                  account for the number of persons (390 being total population) and each square 
+                  being a tenth of it. This gives us that the total number of kids is around 80.
+                </tab-content>
+                <tab-content name="IQ">
+                  Here we detail out the IQ distribution. <br>
+                  <p class="center"><img src="./img/iq_01.jpg" alt="All in IQ"><br></p>
+                  What this tells us is that the stupidest person in this population has an IQ of 
+                  76 while the most intelligent one has an IQ of 113. The average IQ is 92.
+                  <p class="center"><img src="./img/iq_02.jpg" alt="IQ Wise"><br></p>
+                  A Bar Graph showing the IQ distribution in the population. According 
+                  to this data, around 890 fall in the average intelligence range with IQ between 
+                  85 and 115. There are no above average or geniuses in this population.
+                </tab-content>
+                <tab-content name="Education">
+                  Now for the Education distribution. <br>
+                  <p class="center"><img src="./img/edu_01.jpg" alt="Education percentage"><br></p>
+                  This bar shows that out of a population of 378, 257 are educated. The rest are 
+                  yet to complete their education. <br>
+                  <p class="center"><img src="./img/edu_02.jpg" alt="Round and round"><br></p>
+                  The Pie Chart shows the distribution of population on different levels of 
+                  education. Due to the high requirements for Post Specialization, only few select 
+                  can opt for it. The outer circle shows the distribution of male and female for 
+                  the education level in the inner circle. Again, blue for male and pink for female.
+                </tab-content>
+                <tab-content name="Job">
+                  Lastly, for Job distribution. <br>
+                  <p class="center"><img src="./img/job_01.jpg" alt="Job percentage"><br></p>
+                  This bar shows that out of a population of 166, 66 are in jobs. The rest are 
+                  yet to complete their education or already retired. <br>
+                  <p class="center"><img src="./img/job_02.jpg" alt="Round and round"><br></p>
+                  The Pie Chart shows the distribution of population in different job types. Here 
+                  as we can see, Research field is the least employed, again due to the high 
+                  requirements to join the same. The outer circle shows the distribution of male 
+                  and female for the job in the inner circle. Again, blue for male and pink for 
+                  female.
+                </tab-content>
+              </tabbed-pane>
+              <br>
+            </div>
+            <div slot="source">
+              <p>Idea from Idiocracy movie.</p>
+            </div>
+          </sketch-text>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

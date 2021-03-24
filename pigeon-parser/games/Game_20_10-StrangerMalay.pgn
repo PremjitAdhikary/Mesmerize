@@ -1,0 +1,11 @@
+[Event "Online on Chess Universe"]
+[Site "?"]
+[Date "2020.10.30"]
+[Round "?"]
+[White "From Malaysia"]
+[Black "Me"]
+[Result "0-1"]
+[WhiteElo "1255"]
+[Termination "I Won by CheckMate"]
+
+{Again a lot of blunders from both the parties} 1. e4 e5 2. f4 Nc6 3. fxe5 Nxe5 ({I missed a tactic here} 3... Qh4+ {-6.16} 4. g3 {-6.46} 4... Qxe4+ {-6.51} 5. Qe2 {-6.62} 5... Qxh1 {-6.27}) 4. d4 Ng6 {My opponent occupies a strong center} 5. Nf3 Be7 6. Nc3 b5 {Yes, I am giving away free pawns} 7. Nxb5 c6 8. Nc3 Nf6 9. e5 Nd5 10. Nxd5 cxd5 11. Be3 O-O {No other option, my Queen side is wide open} 12. Qd3 Rb8 13. O-O-O {Castles on the opposite side, where I have all the space to attack} 13... Qb6 {I reply in kind by taking initiative} 14. b3 Ba3+ {Attack starts} 15. Kb1 Ba6 {Actually this was a blunder from my end. I would be down the trade.} 16. Qc3 {My opponent didn't want to lose the Queen} 16... Bb4 {So I continued to harass the Queen} 17. Qb2 Rfc8 18. c3 {Escape route for the Queen} 18... Bxc3 19. Qf2 Qa5 20. Bd2 {Pinning my Bishop. But...} 20... Rxb3+ {Mating Net ready} 21. axb3 Qa1+ 22. Kc2 Qb2# 0-1

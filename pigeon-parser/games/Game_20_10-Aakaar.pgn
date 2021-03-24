@@ -1,0 +1,11 @@
+[Event "Online on Chess Universe"]
+[Site "?"]
+[Date "2020.10.19"]
+[Round "?"]
+[White "Aakaar from India"]
+[Black "Me"]
+[Result "0-1"]
+[WhiteElo "1287"]
+[Termination "I Won by CheckMate"]
+
+{My opponent was higher rated than me. Maybe he was trying out new things} 1. e3 e5 2. h3 d5 {He allows me to capture the center} 3. Qh5 {The famous Qh5 trap} 3... g6 {Like a noob I walk right in} 4. Qxe5+ Ne7 5. Qxh8 {And pay the price} 5... Bf5 6. Na3 Nbc6 7. Qxh7 Qd6 8. g4 Be6 9. Nb5 Qd7 10. Bg2 O-O-O {I am down a Rook, but my development is better} 11. Qh4 {My opponent has his King in the center and Queen on an edge} 11... Nb4 {Now it's my turn to attack} 12. Na3 d4 13. c3 dxc3 14. bxc3 Nd3+ 15. Kd1 Qa4+ 16. Nc2 Nd5 17. Nf3 Nxc3+ 18. dxc3 Nb2+ 19. Ke1 Qxc2 ({Missed a Mate in 2 here} 19... Rd1+ 20. Ke2 Bc4#) 20. Bxb2 Qxb2 21. Nd4 Qxc3+ 22. Ke2 {The missed Mate does allow me to chase his King around the board} 22... Bc4+ 23. Kf3 Bd5+ 24. Kg3 Bd6+ 25. f4 Qxe3+ 26. Kh2 Bxf4+ 27. Qg3 Qxg3+ ({Missed another Mate in 1} 27... Bxg3#) 28. Kg1 Qxg2# 0-1

@@ -1,0 +1,11 @@
+[Event "Online on Chess Universe"]
+[Site "?"]
+[Date "2020.10.30"]
+[Round "?"]
+[White "Me"]
+[Black "An Indian"]
+[Result "1-0"]
+[BlackElo "1039"]
+[Termination "I Won by CheckMate"]
+
+{Not a strong opponent} 1. e4 d5 2. e5 Nc6 3. d4 Bf5 4. Nf3 e6 5. Nc3 Bb4 6. Bd2 f6 7. a3 Bxc3 8. Bxc3 fxe5 9. Nxe5 Nf6 10. Bb5 Bg4 11. Nxg4 Qd7 12. O-O O-O-O {My opponent was not interested in taking back my Knight} 13. Ne5 Qd6 14. Nf7 {My opponent regrets} 14... Qe7 15. Nxh8 Rxh8 16. Qe2 Rf8 {Now to attack the King} 17. Bxc6 bxc6 18. Qa6+ Kd7 19. Bb4 {And Queen} 19... c5 20. Qb5+ {Go for the Kill} 20... c6 21. Qb7+ Kd6 22. Bxc5# 1-0

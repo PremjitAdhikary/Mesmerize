@@ -1,0 +1,24 @@
+.control-container {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas:
+    "player games"
+}
+.player {
+  grid-area: player;
+}
+.games {
+  grid-area: games;
+}
+#choice_type {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+/* .list {
+  border: 1px red solid;
+  height: 30%;
+  overflow:auto;
+} */
