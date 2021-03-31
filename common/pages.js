@@ -416,6 +416,32 @@ class Pages {
           'sim',
           'original'
         ]
+      },
+      {
+        id: 10031,
+        name: 'Tron Cycle',
+        url: '/tron-cycle',
+        img: '/tron-cycle/img/preview.jpg',
+        detail: 'Light Cycle Battle Game.',
+        tag: [
+          'tron',
+          'cycle',
+          'light',
+          'game'
+        ]
+      },
+      {
+        id: 10032,
+        name: 'Holi Special',
+        url: '/holi-special',
+        img: '/holi-special/img/preview.jpg',
+        detail: 'Celebrate with digital colors.',
+        tag: [
+          'holi',
+          'festival',
+          'color',
+          'original'
+        ]
       }
     ];
 

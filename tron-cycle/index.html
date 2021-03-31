@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" href="../favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Change This -->
+  <meta name="description" content="Light Cycle Game.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://premjitadhikary.github.io/Mesmerize/tron-cycle">
+  <meta property="og:title" content="Tron Cycle">
+  <meta property="og:description" content="Light Cycle Game.">
+  <meta property="og:image" content="https://premjitadhikary.github.io/Mesmerize/tron-cycle/img/myCanvas.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://premjitadhikary.github.io/Mesmerize/demo">
+  <meta name="twitter:title" content="Tron Cycle">
+  <meta name="twitter:description" content="Light Cycle Game.">
+  <meta name="twitter:image" content="https://premjitadhikary.github.io/Mesmerize/tron-cycle/img/myCanvas.jpg">
+  <!-- Change This -->
+  <link rel="stylesheet" href="../appstyle.css">
+  <script src="../components/app-header.js" type="module"></script>
+  <script src="../components/sketch-text.js" type="module"></script>
+  <script src="https://cdn.jsdelivr.net/npm/p5@0.10.2/lib/p5.js"></script>
+  <script src="./sketch.js"></script>
+  <script src="../common/sketch-colors.js"></script>
+  <script src="../common/utilities.js"></script>
+  <script src="./grid-floor.js"></script>
+  <script src="./grid.js"></script>
+  <script src="./light-cycle.js"></script>
+  <script src="./ai/random-ai.js"></script>
+  <script src="./ai/defensive-ai.js"></script>
+  <!-- <script src="./ai/offensive-ai.js"></script> -->
+  <script src="./game.js"></script>
+  <script src="./menu.js"></script>
+  <script src="./help.js"></script>
+  <title>Tron Cycle</title>
+</head>
+<body>
+  <div class="toplevel">
+    <app-header class="heading"></app-header>
+    <div class="topbody">
+      <div class="container-no-control">
+          <div class="sketch">
+            <div id="sketch-holder" class="sketch-holder">
+            </div>
+          </div>
+
+          <sketch-text class="description-no-control" pageid="10031">
+            <div slot="content">
+              <p>
+                Time for some nostalgia. Remember all those 8 bit games? Well, I came across a video 
+                of Tron Light Cycle battle game. I never played it, but did see it in the movie 
+                <em>Tron Legacy</em>.
+              </p>
+              <p>
+                I was too lazy to search for the game now, so... I just coded it!
+              </p>
+              <p>
+                Tron Legacy is to me an audio visual feast. The background score, the architecture 
+                of the gird, the colors, everything is just mind blowing. This is my small tribute 
+                to it.
+              </p>
+            </div>
+            <div slot="source">
+              <p>
+                Got inspired from this <a target="_blank" 
+                href="https://www.youtube.com/watch?v=ONg0rUogiEg">video</a>.
+              </p>
+            </div>
+          </sketch-text>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
