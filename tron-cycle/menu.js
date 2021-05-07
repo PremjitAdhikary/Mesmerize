@@ -3,11 +3,15 @@ class Menu {
   constructor(color) {
     this._gameType = Game.GAMETYPE.ONE;
     this._gameDifficulty = Game.DIFFICULTY.EASY;
+    this._control = Game.CONTROL.TOP_DOWN;
+    this._audio = Game.AUDIO.ON;
     this._textColor = color.stringify();
 
     this.setupMainMenu();
     this.setupGameTypeSubMenu();
     this.setupGameDifficultySubMenu();
+    this.setupControlSubMenu();
+    this.setupAudioSubMenu();
 
     this._activeMenu = this._mainMenu;
 
@@ -21,7 +25,8 @@ class Menu {
       'Press Enter to Play the Game',  
       this._textColor,
       () => {
-        engine = new Game(this._gameType, this._gameDifficulty, () => engine = this);
+        engine = new Game(this._gameType, this._gameDifficulty, this._control, this._audio, 
+          () => engine = this);
       })
     );
     this._gameTypeMenuItem = new MenuItem('Mode: '+this._gameType, false,
@@ -38,6 +43,23 @@ class Menu {
         this._activeMenu = this._gameDifficultySubMenu;
       });
     this._mainMenu.push(this._gameDifficultyMenuItem);
+
+    this._controlMenuItem = new MenuItem('Control: '+this._control, false,
+      'Press Enter to select Control type for Cycle', 
+      this._textColor,
+      () => {
+        this._activeMenu = this._controlSubMenu;
+      });
+    this._mainMenu.push(this._controlMenuItem);
+
+    this._audioMenuItem = new MenuItem('Audio: '+this._audio, false,
+      'Press Enter to toggle Audio', 
+      this._textColor,
+      () => {
+        this._activeMenu = this._audioSubMenu;
+      });
+    this._mainMenu.push(this._audioMenuItem);
+
     this._mainMenu.push(
       new MenuItem('Help', false, 
       'Press Enter to know How to Play', 
@@ -64,6 +86,14 @@ class Menu {
       Game.GAMETYPE.MANY, this._gameType === Game.GAMETYPE.MANY, hintMsg, this._textColor, 
       onselect(Game.GAMETYPE.MANY)
     ));
+    this._gameTypeSubMenu.push(new MenuItem(
+      Game.GAMETYPE.PHASER, this._gameType === Game.GAMETYPE.PHASER, hintMsg, this._textColor, 
+      onselect(Game.GAMETYPE.PHASER)
+    ));
+    this._gameTypeSubMenu.push(new MenuItem(
+      Game.GAMETYPE.RINZLER, this._gameType === Game.GAMETYPE.RINZLER, hintMsg, this._textColor, 
+      onselect(Game.GAMETYPE.RINZLER)
+    ));
   }
 
   setupGameDifficultySubMenu() {
@@ -82,10 +112,46 @@ class Menu {
       'Normal', this._gameDifficulty === Game.DIFFICULTY.NORMAL, hintMsg, this._textColor, 
       onselect(Game.DIFFICULTY.NORMAL)
     ));
-    // this._gameDifficultySubMenu.push(new MenuItem(
-    //   'Hard', this._gameDifficulty === Game.DIFFICULTY.HARD, hintMsg, this._textColor, 
-    //   onselect(Game.DIFFICULTY.HARD)
-    // ));
+    this._gameDifficultySubMenu.push(new MenuItem(
+      'Hard', this._gameDifficulty === Game.DIFFICULTY.HARD, hintMsg, this._textColor, 
+      onselect(Game.DIFFICULTY.HARD)
+    ));
+  }
+
+  setupControlSubMenu() {
+    let onselect = (control) => () => {
+      this._control = control;
+      this._controlMenuItem._name = 'Control: '+this._control;
+      this._activeMenu = this._mainMenu;
+    }
+    let hintMsg = 'Press Enter to select this Control and return to Main Menu';
+    this._controlSubMenu = [];
+    this._controlSubMenu.push(new MenuItem(
+      Game.CONTROL.TOP_DOWN, this._control === Game.CONTROL.TOP_DOWN, hintMsg, this._textColor, 
+      onselect(Game.CONTROL.TOP_DOWN)
+    ));
+    this._controlSubMenu.push(new MenuItem(
+      Game.CONTROL.RIDER, this._control === Game.CONTROL.RIDER, hintMsg, this._textColor, 
+      onselect(Game.CONTROL.RIDER)
+    ));
+  }
+
+  setupAudioSubMenu() {
+    let onselect = (audio) => () => {
+      this._audio = audio;
+      this._audioMenuItem._name = 'Audio: '+this._audio;
+      this._activeMenu = this._mainMenu;
+    }
+    let hintMsg = 'Press Enter to select Audio Control and return to Main Menu';
+    this._audioSubMenu = [];
+    this._audioSubMenu.push(new MenuItem(
+      Game.AUDIO.ON, this._audio === Game.AUDIO.ON, hintMsg, this._textColor, 
+      onselect(Game.AUDIO.ON)
+    ));
+    this._audioSubMenu.push(new MenuItem(
+      Game.AUDIO.OFF, this._audio === Game.AUDIO.OFF, hintMsg, this._textColor, 
+      onselect(Game.AUDIO.OFF)
+    ));
   }
 
   show() {
@@ -93,26 +159,19 @@ class Menu {
     this.showHint();
   }
 
-  showMainMenu() {
-    for (let i=0; i<this._mainMenu.length; i++) {
-      push();
-      translate(width/2, 200 + i*30);
-      this._mainMenu[i].show();
-      pop();
-    }
-  }
-
   showActiveMenu() {
+    let startY = height / 2 - (30 * this._activeMenu.length) / 2;
     for (let i=0; i<this._activeMenu.length; i++) {
       push();
-      translate(width/2, 200 + i*30);
+      translate(width/2, startY + i*30);
       this._activeMenu[i].show();
       pop();
     }
   }
 
   showHint() {
-    noStroke();
+    stroke(this._textColor);
+    strokeWeight(1);
     fill(this._textColor);
     textSize(14);
     textFont('Courier New');
@@ -120,7 +179,6 @@ class Menu {
     let iWid = textWidth(instruction);
     text(instruction, width/2 - iWid/2, 440);
     let itemIndex = this.getSelectedActiveMenuItem();
-    noStroke();
     let hint = this._activeMenu[itemIndex]._hint;
     let hWid = textWidth(hint);
     text(hint, width/2 - hWid/2, 460);
@@ -138,6 +196,8 @@ class Menu {
       this._activeMenu[itemIndex]._onSelect();
     }
   }
+
+  inputOff() {}
 
   getSelectedMainMenuItem() {
     return this._mainMenu.findIndex(item => item._isHighlighted);
@@ -158,7 +218,8 @@ class MenuItem {
   }
 
   show() {
-    noStroke();
+    stroke(this._textColor);
+    strokeWeight(1);
     fill(this._textColor);
     textSize(25);
     textFont('Courier New');

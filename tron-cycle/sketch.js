@@ -5,6 +5,8 @@ let menu;
 
 let blue, orange;
 
+let debug = false;
+
 function setup() {
   canvas = createCanvas(640, 480);
   canvas.parent('sketch-holder');
@@ -22,4 +24,16 @@ function draw() {
 
 function keyPressed() {
   engine.input(keyCode);
+}
+
+function keyReleased() {
+  engine.inputOff(keyCode);
+}
+
+function debugOn() {
+  debug = true;
+}
+
+function debugOff() {
+  debug = false;
 }

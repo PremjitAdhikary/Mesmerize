@@ -22,15 +22,27 @@
   <script src="../components/app-header.js" type="module"></script>
   <script src="../components/sketch-text.js" type="module"></script>
   <script src="https://cdn.jsdelivr.net/npm/p5@0.10.2/lib/p5.js"></script>
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/tone/14.8.15/Tone.js"></script> -->
+  <script src="./audio/Tone.js"></script>
+  <script src="./audio/snare.js"></script>
+  <script src="./audio/game-has-changed.js"></script>
+  <script src="./audio/rinzler.js"></script>
+  <script src="./audio/theme-part-remix.js"></script>
+  <!-- <script src="https://github.com/Tonejs/Tone.js/releases/download/14.7.39/Tone.js"></script> -->
   <script src="./sketch.js"></script>
   <script src="../common/sketch-colors.js"></script>
   <script src="../common/utilities.js"></script>
   <script src="./grid-floor.js"></script>
   <script src="./grid.js"></script>
-  <script src="./light-cycle.js"></script>
+  <script src="./cycles/light-cycle.js"></script>
+  <script src="./cycles/phase-cycle.js"></script>
+  <script src="./cycles/rinzler-cycle.js"></script>
+  <script src="./cycles/second-gen-cycle.js"></script>
+  <script src="./ai/base-ai.js"></script>
   <script src="./ai/random-ai.js"></script>
   <script src="./ai/defensive-ai.js"></script>
-  <!-- <script src="./ai/offensive-ai.js"></script> -->
+  <script src="./ai/offensive-ai.js"></script>
+  <script src="./ai/rinzler-defensive-ai.js"></script>
   <script src="./game.js"></script>
   <script src="./menu.js"></script>
   <script src="./help.js"></script>
@@ -60,6 +72,10 @@
                 Tron Legacy is to me an audio visual feast. The background score, the architecture 
                 of the gird, the colors, everything is just mind blowing. This is my small tribute 
                 to it.
+              </p>
+              <p>
+                Used Web Audio (<a target="_blank" href="https://tonejs.github.io/">Tone JS</a>) to 
+                <em>code</em> the background music. All music inspired from Tron Legacy soundtrack.
               </p>
             </div>
             <div slot="source">

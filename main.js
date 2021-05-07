@@ -12,7 +12,7 @@ function initPage() {
 function loadCards() {
   let holder = document.getElementById("cardholder");
   holder.innerHTML = "";
-  _pages.getPublishedPagesId().forEach(function(pid) {
+  _pages.getPublishedPagesId().slice().reverse().forEach(function(pid) {
     let aCard = document.createElement('page-card');
     aCard.id = pid;
     holder.append(aCard);

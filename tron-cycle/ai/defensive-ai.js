@@ -1,9 +1,7 @@
-class DefensiveAI {
+class DefensiveAI extends BaseAI {
 
   constructor(lightCycle, commandCooldownThreshHold, safeTilesMax) {
-    this._lightCycle = lightCycle;
-    this._commandCooldownCounter = 0;
-    this._commandCooldownThreshHold = commandCooldownThreshHold;
+    super(lightCycle, commandCooldownThreshHold, 100);
 
     this._safeTilesMax = safeTilesMax;
 
@@ -19,13 +17,15 @@ class DefensiveAI {
   }
 
   command() {
-    if (!this._lightCycle.isActive()) 
-      return;
-    if (!this.readyToCommand())
+    if (!this.isCommandEnabled()) 
       return;
     if (!this.hasObstacleInFront()) 
       return;
 
+    this.makeSafeTurnIfPossible();
+  }
+
+  makeSafeTurnIfPossible() {
     let frontSafe = this.safeTilesInFront();
     if (random(100) >= this.chanceToTurn(frontSafe))
       return;
@@ -51,19 +51,6 @@ class DefensiveAI {
 
   noSafeTurn(leftSafe, rightSafe) {
     return leftSafe == 0 && rightSafe == 0;
-  }
-
-  readyToCommand() {
-    this._commandCooldownCounter++;
-    if (this.isCommandInCooldown()) {
-      return false;
-    }
-    this._commandCooldownCounter = 0;
-    return true;
-  }
-
-  isCommandInCooldown() {
-    return (this._commandCooldownCounter < this._commandCooldownThreshHold);
   }
 
   hasObstacleInFront() {

@@ -71,6 +71,9 @@ class LightCycle {
     this._direction = LightCycle.rightFromDirection(this._direction);
   }
 
+  actionIn(keyCode) {}
+  actionOut(keyCode) {}
+
   // movements and states
 
   move() {
@@ -147,14 +150,27 @@ class LightCycle {
   show() {
     if (this._showCrashAnimation && this._crashAlpha > 0) {
       this._crashAlpha -= 0.02;
-      this._color = this._baseColor.alpha(this._crashAlpha).stringify();
-      this._cycleBaseColorAStr = this._cycleBaseColorA.alpha(this._crashAlpha).stringify();
-      this._cycleBaseColorBStr = this._cycleBaseColorB.alpha(this._crashAlpha).stringify();
+      this.updateColorsAlpha(this._crashAlpha);
     }
     if (this._crashAlpha <= 0) return;
     this.drawPath();
     this.drawCycle();
+  }
+
+  updateColorsAlpha(alpha) {
+    this._color = this._baseColor.alpha(alpha).stringify();
+    this._cycleBaseColorAStr = this._cycleBaseColorA.alpha(alpha).stringify();
+    this._cycleBaseColorBStr = this._cycleBaseColorB.alpha(alpha).stringify();
+  }
+
+  animate() {
     if (!this.isActive()) return;
+    
+    this._pathGlowIndex -= 5;
+    if (this._pathGlowIndex <= 0) {
+      this._pathGlowIndex = this._path.length - 1;
+    }
+
     this.move();
     this._path.push(this._current.copy());
     if (this.checkIfCollision()) {
@@ -179,6 +195,7 @@ class LightCycle {
   drawLights() {
     this.drawWheelLights();
     this.drawBodyLights();
+    this.drawDiskAndTrailLights();
   }
 
   drawCycleBase() {
@@ -281,6 +298,11 @@ class LightCycle {
     this.drawAcurve(backRightCurve);
     this.drawAcurve(armLeftCurve);
     this.drawAcurve(armRightCurve);
+  }
+
+  drawDiskAndTrailLights() {
+    stroke(this._color);
+    strokeWeight(2);
     line(0, this._len / 2 - this._wheelLen / 2, 0, this._len / 2 + 3);
     fill(0);
     circle(0, -this._len * 1 / 12, this._bodyWid);
@@ -317,12 +339,7 @@ class LightCycle {
       }
       endShape();
       strokeWeight(8);
-      stroke(this._color);
       point(this._path[this._pathGlowIndex].x, this._path[this._pathGlowIndex].y);
-      this._pathGlowIndex -= 5;
-      if (this._pathGlowIndex <= 0) {
-        this._pathGlowIndex = this._path.length - 1;
-      }
     }
     strokeWeight(2);
     stroke(this._color);

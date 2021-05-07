@@ -1,10 +1,10 @@
 class Grid {
 
-  constructor(tileSize) {
+  constructor(tileSize, gameType) {
     this._debugOn = false;
     this._tileSize = tileSize;
     this._floorCellSize = 40;
-    this._gridFloor = new GridFloor();
+    this._gridFloor = new GridFloor(gameType);
     this._lineColor = SketchColor.white().alpha(.2).stringify();
     this._debugLineColor = SketchColor.white().alpha(.2).stringify();
     this.setupFloor();
@@ -27,7 +27,7 @@ class Grid {
 
   show() {
     noStroke();
-    this.showFloor();
+    this._gridFloor.show();
 
     if (this._debugOn) {
       this.showOccupiedCells();
@@ -35,8 +35,8 @@ class Grid {
     }
   }
 
-  showFloor() {
-    this._gridFloor.show();
+  animate() {
+    this._gridFloor.animate();
   }
 
   showDebugFloor() {
