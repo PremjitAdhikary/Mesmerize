@@ -29,7 +29,7 @@ class Menu {
           () => engine = this);
       })
     );
-    this._gameTypeMenuItem = new MenuItem('Mode: '+this._gameType, false,
+    this._gameTypeMenuItem = new MenuItem('Game Mode: '+this._gameType, false,
       'Press Enter to select Game Type', 
       this._textColor,
       () => {
@@ -73,10 +73,10 @@ class Menu {
   setupGameTypeSubMenu() {
     let onselect = (type) => () => {
       this._gameType = type;
-      this._gameTypeMenuItem._name = 'Game Type: '+this._gameType;
+      this._gameTypeMenuItem._name = 'Game Mode: '+this._gameType;
       this._activeMenu = this._mainMenu;
     }
-    let hintMsg = 'Press Enter to select this Game Type and return to Main Menu';
+    let hintMsg = 'Press Enter to select this Game Mode and return to Main Menu';
     this._gameTypeSubMenu = [];
     this._gameTypeSubMenu.push(new MenuItem(
       Game.GAMETYPE.ONE, this._gameType === Game.GAMETYPE.ONE, hintMsg, this._textColor, 
