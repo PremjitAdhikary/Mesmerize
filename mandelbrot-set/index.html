@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" href="../favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Change This -->
+  <meta name="description" content="Mandelbrot Set, Julia Set.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://premjitadhikary.github.io/Mesmerize/mandelbrot-set">
+  <meta property="og:title" content="Mandelbrot Set">
+  <meta property="og:description" content="Mandelbrot Set, Julia Set.">
+  <meta property="og:image" content="https://premjitadhikary.github.io/Mesmerize/mandelbrot-set/img/myCanvas.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://premjitadhikary.github.io/Mesmerize/mandelbrot-set">
+  <meta name="twitter:title" content="Mandelbrot Set">
+  <meta name="twitter:description" content="Mandelbrot Set, Julia Set.">
+  <meta name="twitter:image" content="https://premjitadhikary.github.io/Mesmerize/mandelbrot-set/img/myCanvas.jpg">
+  <!-- Change This -->
+  <link rel="stylesheet" href="../appstyle.css">
+  <link rel="stylesheet" href="./compstyle.css">
+  <script src="../components/app-header.js" type="module"></script>
+  <script src="../components/sketch-text.js" type="module"></script>
+  <script src="https://cdn.jsdelivr.net/npm/p5@0.10.2/lib/p5.js"></script>
+  <script src="./sketch.js"></script>
+  <script src="../common/sketch-colors.js"></script>
+  <script src="../common/utilities.js"></script>
+  <script src="../components/tabbed-pane.js" type="module"></script>
+  <script src="./mandelbrot.js"></script>
+  <script src="./julia.js"></script>
+  <title>Mandelbrot Set</title>
+</head>
+<body>
+  <div class="toplevel">
+    <app-header class="heading"></app-header>
+    <div class="topbody">
+      <div class="container-no-control">
+          <div class="sketch">
+            <div id="sketch-holder" class="sketch-holder clickable">
+            </div>
+          </div>
+
+          <sketch-text class="description-no-control" pageid="10033">
+            <div slot="content">
+              <p>
+                Another fractal piece based on Daniel's videos.
+              </p>
+              <p>
+                In the main viewport is the Mandelbrot Set visualization.  Click anywhere in the 
+                main viewport:
+                <ul>
+                  <li>
+                    On the top right viewport, a zoomed in version of the Mandelbrot Set 
+                    visualization will be rendered.
+                  </li>
+                  <li>
+                    On the bottom right viewport, the corresponding Julia Set visualization will 
+                    be rendered.
+                  </li>
+                </ul>
+              </p>
+              <p><em>What are these?</em></p>
+              <tabbed-pane>
+                <tab-content name="Mandelbrot Set" selected>
+                  <p>
+                    As per Wikipedia: The Mandelbrot set is the set of complex numbers <em>c</em> 
+                    for which the function <em>f<sub>c</sub>(z) = z<sup>2</sup> + c</em> does not 
+                    diverge when iterated from <em>z=0</em>, i.e., for which the sequence 
+                    <em>f<sub>c</sub>(0),  f<sub>c</sub>(f<sub>c</sub>(0))</em>, etc, remains 
+                    bounded in absolute value.
+                  </p>
+                  <p class="a-tab">
+                    <em>f<sub>n+1</sub>(z) = z<sub>n</sub><sup>2</sup> + c</em> <br>
+                    <em>f<sub>0</sub>(z) = c</em> , when z = 0 <br>
+                    <em>f<sub>1</sub>(z) = c<sup>2</sup> + c</em> <br>
+                    Let c = a + b<em>i</em> <br>
+                    c<sup>2</sup> = (a + b<em>i</em>)(a + b<em>i</em>) <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp; = a<sup>2</sup> - b<sup>2</sup> + 2ab<em>i</em>
+                  </p>
+                  <p>
+                    Based on the above formula, check for all of the possible values and see if 
+                    it goes towards infinity or stays bounded.
+                  </p>
+                  <p>
+                    Here the canvas is a 2D plane, which can represent a complex number 
+                    <em>a + bi</em> across the x and y axes.
+                  </p>
+                </tab-content>
+                <tab-content name="Julia Set">
+                  <p>
+                    While the formal definition of Julia Set is there, in this context, I want 
+                    to point out that Julia Set is deeply connected to the Mandelbrot Set.
+                  </p>
+                  <p>
+                    A quick way to describe the relation is that the <em>c</em> in the formula 
+                    of Mandelbrot Set which we keep updating from the previous iteration:
+                  </p>
+                  <p class="a-tab">
+                    <em>f<sub>n+1</sub>(z) = z<sub>n</sub><sup>2</sup> + c</em> 
+                  </p>
+                  <p>is just a constant (complex number) for Julia Set.</p>
+                </tab-content>
+              </tabbed-pane>
+              <br>
+            </div>
+            <div slot="source">
+              <p>
+                Daniel Shiffman videos: <a href="https://www.youtube.com/watch?v=6z7GQewK-Ks" 
+                target="_blank">Mandelbrot Set</a>, <a target="_blank" 
+                href="https://www.youtube.com/watch?v=fAsaSkmbF5s">Julia Set</a>.
+              </p>
+              <p>
+                Wikipedia links: <a href="https://en.wikipedia.org/wiki/Mandelbrot_set" 
+                target="_blank">Mandelbrot Set</a>, <a target="_blank" 
+                href="https://en.wikipedia.org/wiki/Julia_set">Julia Set</a>.
+              </p>
+              <p>
+                <a href="http://paulbourke.net/fractals/mandelbrot/Ruben_van_Nieuwpoort.html" 
+                target="_blank">Article by Ruben van Nieuwpoort</a>.
+              </p>
+            </div>
+          </sketch-text>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

@@ -28,6 +28,7 @@
   <script src="../common/utilities.js"></script>
   <script src="../components/range-input.js" type="module"></script>
   <script src="../components/radio-input-group.js" type="module"></script>
+  <script src="../components/tabbed-pane.js" type="module"></script>
   <script src="./control.js" type="module"></script>
   <title>Rose</title>
 </head>
@@ -78,32 +79,36 @@
 
           <sketch-text class="description" pageid="10018">
             <div slot="content">
-              <p><strong>Mathematical Rose</strong></p>
-              <p>It's a curve shaped like a rose.</p>
-              <p>The general equation is:</p>
-              <p>
-                <em>r = cos(kθ)</em><br>
-                <em>x = r cos(θ)</em><br>
-                <em>y = r sin(θ)</em><br>
-                where k = n/d and θ changes from 0 to 2π.
-              </p>
-              <p>The forms become more interesting when an offset c is added such that:</p>
-              <p><em>r = cos(kθ + c)</em></p>
-              <p>
-                Triofolium: n = 3, d = 1 <br>
-                Quadrifolium: n = 2, d = 1
-              </p>
-              <p><strong>Maurer Rose</strong></p>
-              <p>
-                A Maurer rose consists of the 361 points defined by the following:
-              </p>
-              <p>
-                (x,y) = (sin(nk), k), <em>where k = 0,d,2d,3d,...,360d and d is in degrees</em>
-              </p>
-              <p>
-                The above points are connected by 360 lines.
-              </p>
-              <p>Play with the sliders and try to form the rose in the preview.</p>
+              <tabbed-pane>
+                <tab-content name="Mathematical Rose" selected>
+                  <p>It's a curve shaped like a rose.</p>
+                  <p>The general equation is:</p>
+                  <p>
+                    <em>r = cos(kθ)</em><br>
+                    <em>x = r cos(θ)</em><br>
+                    <em>y = r sin(θ)</em><br>
+                    where k = n/d and θ changes from 0 to 2π.
+                  </p>
+                  <p>The forms become more interesting when an offset c is added such that:</p>
+                  <p><em>r = cos(kθ + c)</em></p>
+                  <p>
+                    Triofolium: n = 3, d = 1 <br>
+                    Quadrifolium: n = 2, d = 1
+                  </p>
+                </tab-content>
+                <tab-content name="Maurer Rose">
+                  <p>
+                    A Maurer rose consists of the 361 points defined by the following:
+                  </p>
+                  <p>
+                    (x,y) = (sin(nk), k), <em>where k = 0,d,2d,3d,...,360d and d is in degrees</em>
+                  </p>
+                  <p>
+                    The above points are connected by 360 lines.
+                  </p>
+                  <p>Play with the sliders and try to form the rose in the preview.</p>
+                </tab-content>
+              </tabbed-pane>
             </div>
             <div slot="source">
               <p>

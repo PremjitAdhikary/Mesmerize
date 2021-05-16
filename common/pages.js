@@ -162,6 +162,7 @@ class Pages {
           'l system',
           'pythagorean tree',
           'pythagoras',
+          'phyllotaxis',
           'tree',
           'botany'
         ]
@@ -208,7 +209,8 @@ class Pages {
         tag: [
           'sort',
           'algorithm',
-          'visualization'
+          'visualization',
+          'curve'
         ]
       },
       {
@@ -232,7 +234,8 @@ class Pages {
         tag: [
           'spiral',
           'circle',
-          'fractal'
+          'fractal',
+          'curve'
         ]
       },
       {
@@ -441,6 +444,40 @@ class Pages {
           'festival',
           'color',
           'original'
+        ]
+      },
+      {
+        id: 10033,
+        name: 'Mandelbrot Set',
+        url: '/mandelbrot-set',
+        img: '/mandelbrot-set/img/preview.jpg',
+        detail: 'Mandelbrot Set, Julia Set.',
+        tag: [
+          'mandelbrot',
+          'julia',
+          'complex plane',
+          'fractal'
+        ]
+      },
+      {
+        id: 10034,
+        name: 'Lorenz System',
+        url: '/lorenz-system',
+        img: '/lorenz-system/img/preview.jpg',
+        detail: 'Lorenz Attractor and other strange attractors.',
+        tag: [
+          'lorenz',
+          'chen',
+          'dadras',
+          'thomas',
+          'aizawa',
+          'rossler',
+          'halvorsen',
+          'rabinovich fabrikant',
+          'sprott',
+          'four wing',
+          '3d',
+          'curve'
         ]
       }
     ];

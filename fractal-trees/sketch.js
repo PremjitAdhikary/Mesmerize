@@ -26,6 +26,10 @@ let pythagoran_angle;
 let pythagoran_level;
 let pythagoran_line_art;
 
+let phyllotaxis_angle;
+let phyllotaxis_level;
+let phyllotaxis_gap;
+
 function setup() {
   canvas = createCanvas(640, 480);
   canvas.parent('sketch-holder');
@@ -64,6 +68,8 @@ function createTree() {
     case 4:
       return new PythagoranBase((width/2)-(width*0.058), height-50, (width/2)+(width*0.058), 
         height-50, radians(pythagoran_angle), pythagoran_level, pythagoran_line_art);
+    case 5:
+      return new Phyllotaxis(phyllotaxis_angle, phyllotaxis_level, phyllotaxis_gap, 2048);
   }
 }
 
@@ -133,6 +139,24 @@ function setBus(bus) {
     pythagoran_line_art = e.detail.pythagoran_line_art;
     redraw();
   });
+  bus.register("ControlLFTptc", e => {
+    if (choice === 5) {
+      phyllotaxis_angle = e.detail.phyllotaxis_angle;
+      redraw();
+    }
+  });
+  bus.register("ControlLFTptpl", e => {
+    if (choice === 5) {
+      phyllotaxis_level = e.detail.phyllotaxis_level;
+      redraw();
+    }
+  });
+  bus.register("ControlLFTptpg", e => {
+    if (choice === 5) {
+      phyllotaxis_gap = e.detail.phyllotaxis_gap;
+      redraw();
+    }
+  });
 }
 
 function setData(d) {
@@ -147,4 +171,7 @@ function setData(d) {
   pythagoran_angle = d.pythagoran_angle;
   pythagoran_level = d.pythagoran_level;
   pythagoran_line_art = d.pythagoran_line_art;
+  phyllotaxis_angle = d.phyllotaxis_angle;
+  phyllotaxis_level = d.phyllotaxis_level;
+  phyllotaxis_gap = d.phyllotaxis_gap;
 }

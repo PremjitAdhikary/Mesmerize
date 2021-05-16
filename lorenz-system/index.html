@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" href="../favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Change This -->
+  <meta name="description" content="Lorenz Attractor and other strange attractors.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://premjitadhikary.github.io/Mesmerize/lorenz-system">
+  <meta property="og:title" content="Lorenz System">
+  <meta property="og:description" content="Lorenz Attractor and other strange attractors.">
+  <meta property="og:image" content="https://premjitadhikary.github.io/Mesmerize/lorenz-system/img/myCanvas.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://premjitadhikary.github.io/Mesmerize/lorenz-system">
+  <meta name="twitter:title" content="Lorenz System">
+  <meta name="twitter:description" content="Lorenz Attractor and other strange attractors.">
+  <meta name="twitter:image" content="https://premjitadhikary.github.io/Mesmerize/lorenz-system/img/myCanvas.jpg">
+  <!-- Change This -->
+  <link rel="stylesheet" href="../appstyle.css">
+  <link rel="stylesheet" href="./compstyle.css">
+  <script src="../components/app-header.js" type="module"></script>
+  <script src="../components/sketch-text.js" type="module"></script>
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.3.1/lib/p5.js"></script>
+  <script src="https://freshfork.github.io/p5.EasyCam/p5.easycam.js"></script>
+  <script src="./sketch.js"></script>
+  <script src="../common/sketch-colors.js"></script>
+  <script src="../common/utilities.js"></script>
+  <script src="../components/range-input.js" type="module"></script>
+  <script src="../components/radio-input-group.js" type="module"></script>
+  <script src="../components/tabbed-pane.js" type="module"></script>
+  <script src="./control.js" type="module"></script>
+  <script src="./base-system.js"></script>
+  <script src="./attractors/lorenz-attractor.js"></script>
+  <script src="./attractors/lorenz-84.js"></script>
+  <script src="./attractors/chen.js"></script>
+  <script src="./attractors/dadras.js"></script>
+  <script src="./attractors/thomas.js"></script>
+  <script src="./attractors/aizawa.js"></script>
+  <script src="./attractors/rossler.js"></script>
+  <script src="./attractors/halvorsen.js"></script>
+  <script src="./attractors/rabinovich-fabrikant.js"></script>
+  <script src="./attractors/three-scroll-unified-chaotic-system.js"></script>
+  <script src="./attractors/sprott.js"></script>
+  <script src="./attractors/four-wing.js"></script>
+  <title>Lorenz System</title>
+</head>
+<body>
+  <div class="toplevel">
+    <app-header class="heading"></app-header>
+    <div class="topbody">
+      <div class="container">
+          <div class="sketch">
+            <div id="sketch-holder" class="sketch-holder clickable">
+            </div>
+          </div>
+
+          <div class="control">
+            <div class="control-container">
+              <div>
+                <radio-group id="choice_system" class="choices">
+                  <radio-button value="1" aria-checked="true">Lorenz Attractor</radio-button>
+                  <radio-button value="2">LA Variant 1</radio-button>
+                  <radio-button value="3">LA Variant 2</radio-button>
+                  <radio-button value="4">LA Variant 3</radio-button>
+                  <radio-button value="5">Lorenz 84</radio-button>
+                  <radio-button value="6">Chen Attractor</radio-button>
+                  <radio-button value="7">Dadras Attractor</radio-button>
+                  <radio-button value="8">Thomas Attractor</radio-button>
+                  <radio-button value="9">Aizawa Attractor</radio-button>
+                  <radio-button value="10">Rossler Attractor</radio-button>
+                  <radio-button value="11">Halvorsen Attractor</radio-button>
+                  <radio-button value="12">Rabinovich Fabrikant</radio-button>
+                  <radio-button value="13">TSUCS</radio-button>
+                  <radio-button value="14">Sprott Attractor</radio-button>
+                  <radio-button value="15">Four Wing Attractor</radio-button>
+                </radio-group>
+              </div>
+              <div>
+                <label for="calculation_speed">Animation Speed: </label>
+                <range-input min="1" max="20" id="calculation_speed"></range-input>
+              </div>
+            </div>
+          </div>
+
+          <sketch-text class="description" pageid="10034">
+            <div slot="content">
+              <p>
+                After a bunch of heavy projects like <a href="../tron-cycle/" target="_blank">Tron 
+                Cycle</a>, <a href="../sim-intel/" target="_blank">Intelligence Question</a>, 
+                <a href="../travelling-salesman-problem" target="_blank">TSP</a>, <a 
+                href="../electronic-life" target="_blank">Electronic Life</a>, I wanted to do a 
+                few quick and easy segments.  <a href="../holi-special/" target="_blank">Holi 
+                Special</a>, <a href="../mandelbrot-set/" target="_blank">Mandelbrot Set</a>, were 
+                the results.  Next I found a video by Daniel on Lorenz Attractor.  Just 
+                what I was looking for, another quick, easy code and awesome to look at animation.
+              </p>
+              <p>
+                Then I came across a page by Juan Carlos Ponce Campuzano which had additional 
+                interesting attractors.  Suddenly the easy segment became a small project of its 
+                own.  No regrets though.  From Juan's page it was evident that a lot of research 
+                has been put in to showcase so many attractors.  I was lucky to have that as a 
+                reference, because the systems are very sensitive to the constants and the initial 
+                starting point.  Small differences here and there and it would result in a very 
+                different curve with little to no resemblance to any attractors here.
+              </p>
+              <p><em>The Attractors</em></p>
+              <tabbed-pane>
+                <tab-content name="Lorenz Attractor" selected>
+                  <p>
+                    <ul>
+                      <li><sup>dx</sup>&frasl;<sub>dt</sub> = &sigma;(&minus;x + y)</li>
+                      <li><sup>dy</sup>&frasl;<sub>dt</sub> = &minus;xz + &rho;x &minus; y</li>
+                      <li><sup>dz</sup>&frasl;<sub>dt</sub> = xy &minus; &beta;z</li>
+                    </ul>
+                  </p>
+                  <p>
+                    where &sigma; = 10, &rho; = 28, &beta; = <sup>8</sup>&frasl;<sub>3</sub>
+                  </p>
+                  <p><img src="./img/myCanvas-la.jpg" alt="Preview"></p>
+                </tab-content>
+                <tab-content name="Lorenz Attractor Variants">
+                  <p>
+                    In the same equations, change in constants results in very different curves.
+                  </p>
+                  <tabbed-pane>
+                    <tab-content name="Variant One" selected>
+                      <p>&sigma; = 10, &rho; = 14, &beta; = <sup>8</sup>&frasl;<sub>3</sub></p>
+                      <p><img src="./img/myCanvas-la1.jpg" alt="Preview"></p>
+                    </tab-content>
+                    <tab-content name="Variant Two">
+                      <p>&sigma; = 10, &rho; = 13, &beta; = <sup>8</sup>&frasl;<sub>3</sub></p>
+                      <p><img src="./img/myCanvas-la2.jpg" alt="Preview"></p>
+                    </tab-content>
+                    <tab-content name="Variant Three">
+                      <p>&sigma; = 10, &rho; = 15, &beta; = <sup>8</sup>&frasl;<sub>3</sub></p>
+                      <p><img src="./img/myCanvas-la3.jpg" alt="Preview"></p>
+                    </tab-content>
+                  </tabbed-pane>
+                </tab-content>
+                <tab-content name="Lorenz 84">
+                  <p>
+                    <ul>
+                      <li>
+                        <sup>dx</sup>&frasl;<sub>dt</sub> = &minus;ax &minus; y<sup>2</sup> &minus; 
+                        z<sup>2</sup> + af
+                      </li>
+                      <li><sup>dy</sup>&frasl;<sub>dt</sub> = &minus;y + xy &minus; bxz + g</li>
+                      <li><sup>dz</sup>&frasl;<sub>dt</sub> = &minus;z + bxy + xz</li>
+                    </ul>
+                  </p>
+                  <p>
+                    where a = 0.95, b = 7.91, f = 4.83, g = 4.66
+                  </p>
+                  <p><img src="./img/myCanvas-l84.jpg" alt="Preview"></p>
+                </tab-content>
+                <tab-content name="Chen Attractor">
+                  <p>Note that two curves are drawn here with different initial points.</p>
+                  <p>
+                    <ul>
+                      <li><sup>dx</sup>&frasl;<sub>dt</sub> = &alpha;x &minus; yz</li>
+                      <li><sup>dy</sup>&frasl;<sub>dt</sub> = &beta;y + xz</li>
+                      <li>
+                        <sup>dz</sup>&frasl;<sub>dt</sub> = &delta;z + 
+                        <sup>xy</sup>&frasl;<sub>3</sub>
+                      </li>
+                    </ul>
+                  </p>
+                  <p>
+                    where &alpha; = 5, &beta; = &minus;10, &delta; = &minus;0.38
+                  </p>
+                  <p><img src="./img/myCanvas-ca.jpg" alt="Preview"></p>
+                </tab-content>
+                <tab-content name="Dadras Attractor">
+                  <p>
+                    <ul>
+                      <li><sup>dx</sup>&frasl;<sub>dt</sub> = y &minus; ax + byz</li>
+                      <li><sup>dy</sup>&frasl;<sub>dt</sub> = cy &minus; xz + z</li>
+                      <li><sup>dz</sup>&frasl;<sub>dt</sub> = dxy &minus; ez</li>
+                    </ul>
+                  </p>
+                  <p>
+                    where a = 3, b = 2.7, c = 1.7, d = 2, e = 9
+                  </p>
+                  <p><img src="./img/myCanvas-da.jpg" alt="Preview"></p>
+                </tab-content>
+                <tab-content name="Thomas Attractor">
+                  <p>
+                    <ul>
+                      <li><sup>dx</sup>&frasl;<sub>dt</sub> = sin y &minus; bx</li>
+                      <li><sup>dy</sup>&frasl;<sub>dt</sub> = sin z &minus; by</li>
+                      <li><sup>dz</sup>&frasl;<sub>dt</sub> = sin x &minus; bz</li>
+                    </ul>
+                  </p>
+                  <p>
+                    where b = 0.208186
+                  </p>
+                  <p><img src="./img/myCanvas-ta.jpg" alt="Preview"></p>
+                </tab-content>
+                <tab-content name="Aizawa Attractor">
+                  <p>
+                    <ul>
+                      <li><sup>dx</sup>&frasl;<sub>dt</sub> = (z &minus; b)x &minus; Dy</li>
+                      <li><sup>dy</sup>&frasl;<sub>dt</sub> = Dx + (z &minus; b)y</li>
+                      <li>
+                        <sup>dz</sup>&frasl;<sub>dt</sub> = c + az &minus; 
+                        <sup>z<sup>3</sup></sup>&frasl;<sub>3</sub> &minus; (x<sup>2</sup> + 
+                        y<sup>2</sup>)(1 + ez) + fzx<sup>3</sup>
+                      </li>
+                    </ul>
+                  </p>
+                  <p>
+                    where a = 0.95, b = 0.7, c = 0.6, D = 3.5, e = 0.25, f = 0.1
+                  </p>
+                  <p><img src="./img/myCanvas-aa.jpg" alt="Preview"></p>
+                </tab-content>
+                <tab-content name="Rossler Attractor">
+                  <p>
+                    <ul>
+                      <li><sup>dx</sup>&frasl;<sub>dt</sub> = &minus;(y + z)</li>
+                      <li><sup>dy</sup>&frasl;<sub>dt</sub> = x + ay</li>
+                      <li><sup>dz</sup>&frasl;<sub>dt</sub> = b + z(x &minus; c)</li>
+                    </ul>
+                  </p>
+                  <p>
+                    where a = 0.2, b = 0.2, c = 5.7
+                  </p>
+                  <p><img src="./img/myCanvas-ra.jpg" alt="Preview"></p>
+                </tab-content>
+                <tab-content name="Halvorsen Attractor">
+                  <p>
+                    <ul>
+                      <li>
+                        <sup>dx</sup>&frasl;<sub>dt</sub> = &minus;ax &minus; 4y &minus; 4z &minus; 
+                        y<sup>2</sup>
+                      </li>
+                      <li>
+                        <sup>dy</sup>&frasl;<sub>dt</sub> = &minus;ay &minus; 4z &minus; 4x &minus; 
+                        z<sup>2</sup>
+                      </li>
+                      <li>
+                        <sup>dz</sup>&frasl;<sub>dt</sub> = &minus;az &minus; 4x &minus; 4y &minus; 
+                        x<sup>2</sup>
+                      </li>
+                    </ul>
+                  </p>
+                  <p>
+                    where a = 1.89
+                  </p>
+                  <p><img src="./img/myCanvas-ha.jpg" alt="Preview"></p>
+                </tab-content>
+                <tab-content name="Rabinovich-Fabrikant Attractor">
+                  <p>
+                    <ul>
+                      <li>
+                        <sup>dx</sup>&frasl;<sub>dt</sub> = y(z &minus; 1 + x<sup>2</sup>) 
+                        + &gamma;x
+                      </li>
+                      <li>
+                        <sup>dy</sup>&frasl;<sub>dt</sub> = x(3z + 1 &minus; x<sup>2</sup>) 
+                        + &gamma;y
+                      </li>
+                      <li><sup>dz</sup>&frasl;<sub>dt</sub> = &minus;2z(&alpha; + xy)</li>
+                    </ul>
+                  </p>
+                  <p>
+                    where &alpha; = 0.14, &gamma; = 0.1
+                  </p>
+                  <p><img src="./img/myCanvas-rf.jpg" alt="Preview"></p>
+                </tab-content>
+                <tab-content name="TSUCS">
+                  <p><em>Three-Scroll Unified Chaotic System</em></p>
+                  <p>
+                    <ul>
+                      <li><sup>dx</sup>&frasl;<sub>dt</sub> = a(y &minus; x) + dxz</li>
+                      <li><sup>dy</sup>&frasl;<sub>dt</sub> = bx &minus; xz + fy</li>
+                      <li><sup>dz</sup>&frasl;<sub>dt</sub> = cz + xy &minus; ex<sup>2</sup></li>
+                    </ul>
+                  </p>
+                  <p>
+                    where a = 32.48, b = 45.84, c = 1.18, d = 0.13, e = 0.57, f = 14.7
+                  </p>
+                  <p><img src="./img/myCanvas-tsucs.jpg" alt="Preview"></p>
+                </tab-content>
+                <tab-content name="Sprott Attractor">
+                  <p>
+                    <ul>
+                      <li><sup>dx</sup>&frasl;<sub>dt</sub> = y + axy + xz</li>
+                      <li><sup>dy</sup>&frasl;<sub>dt</sub> = 1 &minus; bx<sup>2</sup> + yz</li>
+                      <li>
+                        <sup>dz</sup>&frasl;<sub>dt</sub> = x &minus; x<sup>2</sup> &minus; 
+                        y<sup>2</sup>
+                      </li>
+                    </ul>
+                  </p>
+                  <p>
+                    where a = 2.07, b = 1.79
+                  </p>
+                  <p><img src="./img/myCanvas-sa.jpg" alt="Preview"></p>
+                </tab-content>
+                <tab-content name="Four-Wing Attractor">
+                  <p>
+                    <ul>
+                      <li><sup>dx</sup>&frasl;<sub>dt</sub> = ax + yz</li>
+                      <li><sup>dy</sup>&frasl;<sub>dt</sub> = bx + cy &minus; xz</li>
+                      <li><sup>dz</sup>&frasl;<sub>dt</sub> = &minus;z &minus; xy</li>
+                    </ul>
+                  </p>
+                  <p>
+                    where a = 0.2, b = 0.01, c = &minus;0.4
+                  </p>
+                  <p><img src="./img/myCanvas-fwa.jpg" alt="Preview"></p>
+                </tab-content>
+              </tabbed-pane>
+              <p>
+                I have used <a href="https://freshfork.github.io/p5.EasyCam/" 
+                target="_blank">p5.EasyCam</a> for the 3D camera here.
+              </p>
+              <p><em>Camera controls</em> - straight from EasyCam site</p>
+              <ul>
+                <li>To <strong>rotate</strong> around the look-at point, left-click and drag.</li>
+                <li>To <strong>pan</strong> the scene, middle-click and drag</li>
+                <li>To <strong>zoom</strong> out/in, right-click drag</li>
+                <li>To <strong>reset</strong> to the starting state, double-click</li>
+              </ul>
+            </div>
+            <div slot="source">
+              <p>
+                <a href="https://www.youtube.com/watch?v=f0lkz2gSsIk" 
+                target="_blank">Lorenz attractor</a> by Daniel Shiffman.
+              </p>
+              <p>
+                <a href="https://www.dynamicmath.xyz/strange-attractors/" 
+                target="_blank">Strange attractors</a> by Juan Carlos Ponce Campuzano.
+              </p>
+              <p>
+                <a href="https://en.wikipedia.org/wiki/Lorenz_system" target="_blank">Wikipedia</a>.
+              </p>
+            </div>
+          </sketch-text>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

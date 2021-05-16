@@ -17,3 +17,8 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
+.phyllotaxis_control {
+  height: 20%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}

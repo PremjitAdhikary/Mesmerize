@@ -34,6 +34,7 @@
   <script src="./lsystem.js"></script>
   <script src="./pythagoran-base.js"></script>
   <script src="./all-systems.js"></script>
+  <script src="./phyllotaxis.js"></script>
   <script src="./control.js" type="module"></script>
   <title>Fractal Trees</title>
 </head>
@@ -54,6 +55,7 @@
                 <radio-button value="2">Random Tree</radio-button>
                 <radio-button value="3">L System</radio-button>
                 <radio-button value="4">Pythagorean Tree</radio-button>
+                <radio-button value="5">Phyllotaxis</radio-button>
               </radio-group>
               <div id="bin_control" class="choice_control">
                 <p>
@@ -108,6 +110,22 @@
                 <p>
                   <span class="btn" id="pythagoran_line_art">Colorful</span>
                 </p>
+              </div>
+              <div id="phyllotaxis_control">
+                Angle: <br>
+                <radio-group id="phyllotaxis_angle_choice" class="phyllotaxis_control">
+                  <radio-button value="1">137.3&deg;</radio-button>
+                  <radio-button value="2" aria-checked="true">137.5&deg;</radio-button>
+                  <radio-button value="3">137.6&deg;</radio-button>
+                </radio-group>
+                Gap: <br>
+                <radio-group id="phyllotaxis_gap_choice" class="phyllotaxis_control">
+                  <radio-button value="3">3</radio-button>
+                  <radio-button value="4" aria-checked="true">4</radio-button>
+                  <radio-button value="5">5</radio-button>
+                </radio-group><br>
+                <label for="phyllotaxis_level">Level: </label>
+                <range-input min="0" max="11" id="phyllotaxis_level"></range-input>
               </div>
             </div>
           </div>
@@ -260,6 +278,29 @@
                       </ul>
                     </p>
                   </tab-content>
+                  <tab-content name="Phyllotaxis">
+                    <p>
+                      I was not sure if Phyllotaxis can be categorized as a fractal tree.  It's more 
+                      of a fractal flower. Meh...
+                    </p>
+                    <p>
+                      The main idea is Phyllotactic spirals.  Start from the center and keep 
+                      rotating outwards.  There are particular formulae for this to be rendered.
+                    </p>
+                    <p>
+                      &nbsp;&nbsp;&nbsp;&empty; = n &times; 137.5&deg; <br>
+                      &nbsp;&nbsp;&nbsp;r = c &times; &radic;n
+                    </p>
+                    <p>
+                      The above r and &empty; gives us the polar coordinates for the pattern to be 
+                      rendered.  Here as you increase the level, value of n soars to 
+                      2<sup>level</sup>.
+                    </p>
+                    <p>
+                      While 137.5&deg; is the correct angle, two other angles are also out there 
+                      which gives out interesting patterns.
+                    </p>
+                  </tab-content>
               </tabbed-pane>
             </div>
             <div slot="source">
@@ -280,6 +321,10 @@
               <p>
                 Pythagorean Tree in <a href="https://en.wikipedia.org/wiki/Pythagoras_tree_(fractal)" 
                 target="_blank">Wikipedia</a>.
+              </p>
+              <p>
+                Phyllotaxis by <a href="https://www.youtube.com/watch?v=KWoJgHFYWxY" 
+                target="_blank">Daniel Shiffman</a>.
               </p>
             </div>
           </sketch-text>
