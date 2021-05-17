@@ -493,7 +493,6 @@ class Pages {
             this._publishedPagesId.push(p.id);
           }
         });
-    // console.log(this.allTags());
   }
 
   getPageById(pageId) {
@@ -562,7 +561,6 @@ class Pages {
         }
       )
     );
-    // console.log('totalTags:'+totalTags);
     Object.keys(tags).forEach(k => tags[k].weight = totalTags/tags[k].count);
     return tags;
   }
