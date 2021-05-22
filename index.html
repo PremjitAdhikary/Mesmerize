@@ -21,6 +21,7 @@
   <meta name="twitter:image" content="https://premjitadhikary.github.io/Mesmerize/logo/img/myCanvas.jpg">
   <script src="./components/app-header.js" type="module"></script>
   <script src="./components/card.js" type="module"></script>
+  <script src="./components/radio-input-group.js" type="module"></script>
   <script src="./main.js"></script>
   <script src="./loader.js" type="module"></script>
   <title>Mesmerize</title>
@@ -30,9 +31,19 @@
   <div class="toplevel">
     <app-header class="heading"></app-header>
     <div class="topbody">
-      <div class="search">
-        <input type="text" id="term-search" class="term-search" placeholder="Search.." autocomplete="off"/>
-        <button type="button" id="btn-search" class="btn-search"><i class="fa fa-search"></i></button>
+      <div class="query">
+        <div class="search">
+          <input type="text" id="term-search" class="term-search" placeholder="Search.." autocomplete="off"/>
+          <button type="button" id="btn-search" class="btn-search"><i class="fa fa-search"></i></button>
+        </div>
+        <div class="sort">
+          <span><strong><em>Sort By:</em></strong>&nbsp;&nbsp;&nbsp;</span>
+          <radio-group id="choice-sort">
+            <radio-button value="1" aria-checked="true">Newest</radio-button>
+            <radio-button value="2">Oldest</radio-button>
+            <radio-button value="3">Creator's Choice</radio-button>
+          </radio-group>
+        </div>
       </div>
       <div id="cardholder" class="cardholder">
         Loading...

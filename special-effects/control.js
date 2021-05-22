@@ -14,11 +14,12 @@ let initData = {
   ripple_frequency: 5,
   fire_choice: 1,
   fire_burner: fire_burner,
-  burn_size: 15
+  burn_size: 15,
+  cloud_choice: 1
 };
 setData(initData);
 
-const choiceIds = ['ripple_control', 'fire_control'];
+const choiceIds = ['ripple_control', 'fire_control', 'cloud_control'];
 
 document.getElementById('choice').onclick = e => {
   let val = Number(e.target.value);
@@ -114,4 +115,14 @@ document.getElementById('burn_size').value = initData.burn_size;
 document.getElementById('burn_size').onchange = e => {
   let val = Number(e.target.value);
   bus.dispatch("ControlSEbsr", { burn_size: val });
+};
+
+
+document.getElementById('cloud_control').style.display = initData.choice === 3 ? 'block' : 'none';
+
+document.getElementById('cloud_choice').onclick = e => {
+  let val = Number(e.target.value);
+  if (val) {
+    bus.dispatch("ControlSEccC", { cloud_choice: val });
+  }
 };

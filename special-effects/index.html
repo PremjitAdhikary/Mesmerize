@@ -31,6 +31,7 @@
   <script src="../components/tabbed-pane.js" type="module"></script>
   <script src="./effects-ripples.js"></script>
   <script src="./effects-fire.js"></script>
+  <script src="./effects-cloud.js"></script>
   <script src="./control.js" type="module"></script>
   <title>Special Effects</title>
 </head>
@@ -49,6 +50,7 @@
                 <radio-group id="choice">
                   <radio-button value="1" aria-checked="true">Ripples</radio-button>
                   <radio-button value="2">Fire</radio-button>
+                  <radio-button value="3">Clouds</radio-button>
                 </radio-group>
                 <div id="ripple_control" class="choice_control">
                   <p>
@@ -81,6 +83,14 @@
                       <range-input min="10" max="50" id="burn_size"></range-input>
                     </div>
                   </p>
+                </div>
+                <div id="cloud_control" class="choice_control">
+                  <radio-group id="cloud_choice">
+                    <radio-button value="1" aria-checked="true">Basic Grey</radio-button>
+                    <radio-button value="2">Noon</radio-button>
+                    <radio-button value="3">Sunset</radio-button>
+                    <radio-button value="4">Midnight</radio-button>
+                  </radio-group>
                 </div>
             </div>
           </div>
@@ -142,6 +152,16 @@
                     </li>
                   </ul>
                 </tab-content>
+                <tab-content name="Cloud">
+                  I came across a code pen on this. <br><br>
+                  Looked awesome and quite simple to code. Loved the idea. The Only problem is 
+                  that it's a bit heavy on the calculation with loads of translations and 
+                  rotations. <br><br>
+                  The basic idea is drawing a lot of small ellipses randomly on the screen based 
+                  on Perlin noise. <br><br>
+                  I did add some color to it. Some day I plan to tackle the performance issue 
+                  on this. <br><br>
+                </tab-content>
               </tabbed-pane>
             </div>
             <div slot="source">
@@ -160,6 +180,10 @@
               <p>
                 <a href="https://web.archive.org/web/20160418004150/http://freespace.virgin.net/hugo.elias/models/m_fire.htm" 
                 target="_blank">Original Fire Effects Algorithm by Hugo</a>.
+              </p>
+              <p>
+                <a href="https://codepen.io/bt-sugita/pen/RpZOLq" 
+                target="_blank">Code Pen</a> for Cloud Effects.
               </p>
             </div>
           </sketch-text>

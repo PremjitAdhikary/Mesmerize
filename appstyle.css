@@ -191,6 +191,12 @@ a:hover, a:active {
   opacity: 1.0;
 }
 
+.query {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+}
+
 .search {
   width: 96%;
   position: relative;
@@ -229,6 +235,12 @@ a:hover, a:active {
 
 .btn-search:hover, .btn-search:focus {
   opacity: 1.0;
+}
+
+.sort {
+  width: 96%;
+  display: flex;
+  align-items: center;
 }
 
 ::-webkit-scrollbar {
