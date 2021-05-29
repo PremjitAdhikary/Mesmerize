@@ -1,0 +1,5 @@
+#choice {
+  height: 90%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}

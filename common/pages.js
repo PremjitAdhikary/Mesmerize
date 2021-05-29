@@ -83,7 +83,8 @@ class Pages {
         tag: [
           'spiral',
           'circle',
-          'curve'
+          'curve',
+          'color'
         ]
       },
       {
@@ -110,7 +111,9 @@ class Pages {
         tag: [
           'fourier',
           'curve',
-          'wave'
+          'wave',
+          'square',
+          'triangle'
         ]
       },
       {
@@ -146,6 +149,8 @@ class Pages {
           'minkowski',
           'fractal',
           'curve',
+          'triangle',
+          'square',
           'snowflake'
         ]
       },
@@ -166,9 +171,10 @@ class Pages {
           'fractal',
           'curve',
           'triangle',
+          'square',
           'polygon',
           'ngon',
-          'snowflake1'
+          'snowflake'
         ]
       },
       {
@@ -184,9 +190,12 @@ class Pages {
           'l system',
           'pythagorean tree',
           'pythagoras',
+          'triangle',
+          'square',
           'phyllotaxis',
           'tree',
-          'botany'
+          'botany',
+          'spiral'
         ]
       },
       {
@@ -236,7 +245,8 @@ class Pages {
           'sort',
           'algorithm',
           'visualization',
-          'curve'
+          'curve',
+          'color'
         ]
       },
       {
@@ -358,7 +368,8 @@ class Pages {
           'rorschach',
           'perlin noise',
           'sim',
-          'original'
+          'original',
+          'rainfall'
         ]
       },
       {
@@ -370,7 +381,8 @@ class Pages {
         rank: 3,
         tag: [
           'cellular automata',
-          'sim'
+          'sim',
+          'automata'
         ]
       },
       {
@@ -398,7 +410,8 @@ class Pages {
           'tree',
           'space',
           'botany',
-          'quadtree'
+          'quadtree',
+          'algorithm'
         ]
       },
       {
@@ -423,7 +436,8 @@ class Pages {
         tag: [
           'sim',
           'creature',
-          'chartjs'
+          'chartjs',
+          'intelligence'
         ]
       },
       {
@@ -473,7 +487,8 @@ class Pages {
           'tron',
           'cycle',
           'light',
-          'game'
+          'game',
+          'intelligence'
         ]
       },
       {
@@ -525,6 +540,15 @@ class Pages {
           '3d',
           'curve'
         ]
+      },
+      {
+        id: 1002,
+        name: 'Quadtree Visualization',
+        url: '/quadtree-visualization',
+        img: '/quadtree-visualization/img/preview.jpg',
+        detail: 'Visualizing a Quadtree.',
+        tag: [],
+        internal: true
       }
     ];
 
@@ -541,6 +565,7 @@ class Pages {
         });
 
     this._latest = [10027];
+    this._allTags = this.allTags();
   }
 
   getPageById(pageId) {
@@ -562,12 +587,14 @@ class Pages {
 
   getPageIdsByName(name) {
     return this._pages
+      .filter(p => !p.internal)
       .filter(p => p.name.toLowerCase().includes(name.toLowerCase()))
       .map(p => p.id);
   }
 
   getPageIdsByTag(tag) {
     return this._pages
+      .filter(p => !p.internal)
       .filter(p => p.tag.find( t=> t.includes(tag.toLowerCase())))
       .map(p => p.id);
   }
@@ -591,17 +618,26 @@ class Pages {
   }
 
   getSimilarPageIds(pageId) {
-    let mySet = new Set();
+    let scoreMap = new Map();
     let myPages = this._pages;
     if (!this._pagesMap[pageId]) 
       return [];
+    
     this._pagesMap[pageId].tag
       .forEach(t => 
         myPages
           .filter(p => p.id != pageId && p.tag.includes(t))
-          .forEach(p => mySet.add(p.id))
+          .forEach(p => 
+            scoreMap.has(p.id) ? 
+              scoreMap.set(p.id, scoreMap.get(p.id) + this._allTags[t].weight) : 
+              scoreMap.set(p.id, this._allTags[t].weight)
+          )
       );
-    return mySet;
+    
+    let similarPids = Array.from(scoreMap.keys());
+    similarPids.sort((a, b) => scoreMap.get(b) - scoreMap.get(a));
+
+    return similarPids;
   }
 
   allTags() {
@@ -619,7 +655,9 @@ class Pages {
         }
       )
     );
-    Object.keys(tags).forEach(k => tags[k].weight = totalTags/tags[k].count);
+    totalTags -= (Object.keys(tags).filter(k => tags[k].count == 1)).length;
+    Object.keys(tags).forEach(
+      k => tags[k].weight = tags[k].count == 1 ? 0 : totalTags/tags[k].count);
     return tags;
   }
 

@@ -68,8 +68,7 @@ let random_angle_updated = e => {
   let val = Number(e.target.value);
   bus.dispatch("ControlLFTrra", { random_angle: val });
 };
-document.getElementById('random_angle').onclick = random_angle_updated;
-document.getElementById('random_angle').ontouchend = random_angle_updated;
+document.getElementById('random_angle').onchange = random_angle_updated;
 
 document.getElementById('random_branches').value = initData.random_branches;
 
@@ -77,8 +76,7 @@ let random_branches_updated = e => {
   let val = Number(e.target.value);
   bus.dispatch("ControlLFTrrb", { random_branches: val });
 };
-document.getElementById('random_branches').onclick = random_branches_updated;
-document.getElementById('random_branches').ontouchend = random_branches_updated;
+document.getElementById('random_branches').onchange = random_branches_updated;
 
 document.getElementById('drawBtn').onclick = e => {
   bus.dispatch("ControlLFTrrd", {  });

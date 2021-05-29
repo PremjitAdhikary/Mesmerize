@@ -22,11 +22,13 @@
   <link rel="stylesheet" href="./compstyle.css">
   <script src="../components/app-header.js" type="module"></script>
   <script src="../components/sketch-text.js" type="module"></script>
-  <script src="https://cdn.jsdelivr.net/npm/p5@0.10.2/lib/p5.js"></script>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/p5@0.10.2/lib/p5.js"></script> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/p5.min.js"></script>
   <script src="./sketch.js"></script>
   <script src="../common/sketch-colors.js"></script>
   <script src="../common/utilities.js"></script>
   <script src="../components/radio-input-group.js" type="module"></script>
+  <script src="../components/tabbed-pane.js" type="module"></script>
   <script src="./control.js" type="module"></script>
   <script src="./base-sort.js"></script>
   <script src="./bubble-sort.js"></script>
@@ -79,36 +81,53 @@
           <sketch-text class="description" pageid="10014">
             <div slot="content">
               <p><em>I just had to do this!</em></p>
-              <p>
-                <strong>Bubble Sort</strong><br>
-                This is a O(n<sup>2</sup>) algorithm. The 'step' version draws the array to show the 
-                changes for the inner loop. The 'loop' version draws the array every after the inner 
-                loop calculations are done.<br>
-                Essentially, 'step' version draws at O(n<sup>2</sup>) and 'loop' version draws at O(n).
-              </p>
-              <p>
-                <strong>Selection Sort</strong><br>
-                Another O(n<sup>2</sup>) algorithm. Just like Bubble Sort, we have the 'step' version 
-                and 'loop' version drawing at O(n<sup>2</sup>) and O(n) respectively.
-              </p>
-              <p>
-                <strong>Insertion Sort</strong><br>
-                One more O(n<sup>2</sup>) algorithm. You guessed it, easy to implement! Again, we 
-                have the 'step' version and 'loop' version drawing at O(n<sup>2</sup>) and O(n) 
-                respectively.
-              </p>
-              <p>
-                <strong>Quick Sort</strong><br>
-                Recursive algorithm implemented in an iterative pattern here.
-              </p>
-              <p>
-                <strong>Merge Sort</strong><br>
-                Another recursive algorithm implemented in an iterative pattern here. <br>
-                Note that we are using a worker array here to do the calculation and then copying 
-                its contents into the original array. So the visialization will have the original 
-                array updated from worker array contents which will seem like values are 
-                disappearing from one end and appearing somewhere else.
-              </p>
+              <tabbed-pane>
+                <tab-content name="Bubble Sort" selected>
+                  <p>
+                    This is a O(n<sup>2</sup>) algorithm. The <em>step</em> version draws the array 
+                    to show the changes for the inner loop. The <em>loop</em> version draws the 
+                    array every after the inner loop calculations are done.
+                  </p>
+                  <p>
+                    Essentially, <em>step</em> version draws at O(n<sup>2</sup>) and <em>loop</em> 
+                    version draws at O(n).
+                  </p>
+                </tab-content>
+                <tab-content name="Selection Sort">
+                  <p>
+                    Another O(n<sup>2</sup>) algorithm. Just like <em>Bubble Sort</em>, we have the 
+                    <em>step</em> version and <em>loop</em> version drawing at O(n<sup>2</sup>) 
+                    and O(n) respectively.
+                  </p>
+                </tab-content>
+                <tab-content name="Insertion Sort">
+                  <p>
+                    One more O(n<sup>2</sup>) algorithm. You guessed it, easy to implement! Again, 
+                    we have the <em>step</em> version and <em>loop</em> version drawing at 
+                    O(n<sup>2</sup>) and O(n) respectively.
+                  </p>
+                </tab-content>
+                <tab-content name="Quick Sort">
+                  <p>
+                    This is a O(n log n) algorithm. The original implementation is recursive in 
+                    nature. But here to animate it, the same has been implemented in an iterative 
+                    pattern.
+                  </p>
+                </tab-content>
+                <tab-content name="Merge Sort">
+                  <p>
+                    Another O(n log n) recursive algorithm implemented in an iterative pattern 
+                    here.
+                  </p>
+                  <p>
+                    Note that here we use a worker array here to do the calculation and then copy 
+                    its contents into the original array. So the visualization will have the 
+                    original array updated from worker array contents. This would give the 
+                    illusion that values disappear from one end and reappear somewhere else.
+                  </p>
+                </tab-content>
+              </tabbed-pane>
+              <br>
             </div>
             <div slot="source">
               <p>Wikipedia, for the basic algorithms.</p>

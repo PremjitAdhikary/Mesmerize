@@ -19,12 +19,15 @@
   <meta name="twitter:image" content="https://premjitadhikary.github.io/Mesmerize/more-fractals/img/myCanvas.jpg">
   <!-- Change This -->
   <link rel="stylesheet" href="../appstyle.css">
+  <link rel="stylesheet" href="./compstyle.css">
   <script src="../components/app-header.js" type="module"></script>
   <script src="../components/sketch-text.js" type="module"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.js"></script>
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.js"></script> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/p5.min.js"></script>
   <script src="./sketch.js"></script>
   <script src="./control.js" type="module"></script>
   <script src="../components/radio-input-group.js" type="module"></script>
+  <script src="../components/tabbed-pane.js" type="module"></script>
   <script src="../common/sketch-colors.js"></script>
   <script src="../common/utilities.js"></script>
   <script src="./base-cantor.js"></script>
@@ -55,12 +58,12 @@
           <div class="control">
               <radio-group id="choice">
                 <radio-button value="1" aria-checked="true">Cantor Set - Basic</radio-button>
-                <radio-button value="2">Cantor Set - Perpendicular Lines</radio-button>
-                <radio-button value="3">Vicsek Snowflake - Cantor Set with Crosses</radio-button>
+                <radio-button value="2">Cantor Set - Perpendiculars</radio-button>
+                <radio-button value="3">Vicsek Snowflake</radio-button>
                 <radio-button value="4">Koch Curve</radio-button>
-                <radio-button value="5">Koch Snowflake - closed Koch Curve</radio-button>
-                <radio-button value="6">Koch Anti Snowflake - inverted Koch Curve</radio-button>
-                <radio-button value="7">Cesaro Anti Snowflake - another inverted Koch Curve</radio-button>
+                <radio-button value="5">Koch Snowflake</radio-button>
+                <radio-button value="6">Koch Anti Snowflake</radio-button>
+                <radio-button value="7">Cesaro Anti Snowflake</radio-button>
                 <radio-button value="8">Minkowski Curve</radio-button>
                 <radio-button value="9">Minkowski Snowflake</radio-button>
               </radio-group>
@@ -68,50 +71,66 @@
           <sketch-text class="description" pageid="10008">
             <div slot="content">
               <p>A noteworthy bunch of fractals.</p>
-              <p>
-                <strong>Cantor Set:</strong><br>
-                From <a href="https://en.wikipedia.org/wiki/Cantor_set" target="_blank">
-                Wikipedia</a>, The Cantor set is a set of points lying on a single line segment that 
-                has a number of remarkable and deep properties. The most common modern construction 
-                is the Cantor ternary set, built by removing the middle third of a line segment and 
-                then repeating the process with the remaining shorter segments.
-              </p>
-              <p>
-                <strong>Cantor Set Variation with Perpendicular Lines:</strong><br>
-                The idea is to attach the smaller segments to the 2 ends at right angles.
-              </p>
-              <p>
-                <strong>Vicsek Snowflake:</strong><br>
-                Start with a big cross and have 5 smaller crosses on it at North, South, East, West 
-                and Center. Next have 5 on each of those smaller crosses and so on.
-              </p>
-              <p>
-                <strong>Koch Curve:</strong><br>
-                Start with a single line. Divide into 3 segments. Draw an equilateral triangle with 
-                the middle segment as base. Remove the base. Now repeat the step for each of the 
-                four segments. Keep repeating.
-              </p>
-              <p>
-                <strong>Koch Snowflake:</strong><br>
-                Start with an equilateral triangle. Draw Koch curve for each of the sides.
-              </p>
-              <p>
-                <strong>Koch Anti Snowflake:</strong><br>
-                Instead of sawtooth outwards, here it's inwards.
-              </p>
-              <p>
-                <strong>Cesaro Anti Snowflake:</strong><br>
-                Another variant of the Koch curve starting with 4 sides.
-              </p>
-              <p>
-                <strong>Minkowski Curve:</strong><br>
-                Minkowski Curve <em>aka</em> Minkowski Sausage, has the lines broken into 7 segments. 
-                The segments are perpendicular to each other.
-              </p>
-              <p>
-                <strong>Minkowski Snowflake:</strong><br>
-                Minkowski Snowflake <em>aka</em> Minkowski Island, starts with 4 sides.
-              </p>
+              <tabbed-pane>
+                <tab-content name="Cantor Set" selected>
+                  <p>
+                    From <a href="https://en.wikipedia.org/wiki/Cantor_set" target="_blank">
+                    Wikipedia</a>, The Cantor set is a set of points lying on a single line segment 
+                    that has a number of remarkable and deep properties.
+                  </p>
+                  <tabbed-pane>
+                    <tab-content name="Basic" selected>
+                      The most common modern construction is the Cantor ternary set, built by 
+                      removing the middle third of a line segment and then repeating the process 
+                      with the remaining shorter segments.
+                    </tab-content>
+                    <tab-content name="Variation with Perpendicular Lines">
+                      We have a variation with Perpendicular Lines. The idea is to attach the 
+                      smaller segments to the 2 ends at right angles.
+                    </tab-content>
+                    <tab-content name="Vicsek Snowflake">
+                      Variation with crosses. Start with a big cross and have 5 smaller crosses on 
+                      it at North, South, East, West and Center. Next have 5 on each of those 
+                      smaller crosses and so on.
+                    </tab-content>
+                  </tabbed-pane>
+                </tab-content>
+                <tab-content name="Koch Patterns">
+                  <p>Another fractral on a line. This too has nice variations.</p>
+                  <tabbed-pane>
+                    <tab-content name="Curve" selected>
+                      To draw a Koch Curve start with a single line. Divide into 3 segments. Draw 
+                      an equilateral triangle with the middle segment as base. Remove the base. Now 
+                      repeat the step for each of the four segments. Keep repeating.
+                    </tab-content>
+                    <tab-content name="Snowflake">
+                      Also called closed Koch Curve. To draw a Koch Snowflake start with an 
+                      equilateral triangle. Draw Koch Curve for each of the sides.
+                    </tab-content>
+                    <tab-content name="Anti Snowflake">
+                      Comes out of an inverted Koch Curve. Idea being instead of sawtooth outwards, 
+                      here it's inwards.
+                    </tab-content>
+                    <tab-content name="Cesaro Anti Snowflake">
+                      Another variant of inverted Koch Curve. Same idea as Anti Snowflake, but 
+                      starts with 4 sides.
+                    </tab-content>
+                  </tabbed-pane>
+                </tab-content>
+                <tab-content name="Minkowski Patterns">
+                  <p>Another fractral on a line. Below are two variations.</p>
+                  <tabbed-pane>
+                    <tab-content name="Curve" selected>
+                      Minkowski Curve <em>aka</em> Minkowski Sausage, has the lines broken into 7 
+                      segments. The segments are perpendicular to each other.
+                    </tab-content>
+                    <tab-content name="Snowflake">
+                      Minkowski Snowflake <em>aka</em> Minkowski Island, starts with 4 connected 
+                      sides. Each side then runs the Minkowski Curve.
+                    </tab-content>
+                  </tabbed-pane>
+                </tab-content>
+              </tabbed-pane>
             </div>
             <div slot="source">
               <p>

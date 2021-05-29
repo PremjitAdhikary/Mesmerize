@@ -5,6 +5,7 @@ import { pages } from '../common/pages.js';
   class SketchTextElement extends HTMLElement {
     constructor() {
       super();
+      this.maxLinks = 4;
     }
 
     connectedCallback() {
@@ -15,7 +16,6 @@ import { pages } from '../common/pages.js';
       } else {
         pageName = !pages.getPageById(pageid) ? 'Add Valid PageId' : pages.getPageById(pageid).name;
       }
-      // const pageName = !pages.getPageById(pageid) ? 'Add Valid PageId' : pages.getPageById(pageid).name;
   
       var shadow = this.attachShadow({ mode: 'open' });
       shadow.innerHTML = `
@@ -44,28 +44,67 @@ import { pages } from '../common/pages.js';
       </div>
   
       `;
+      this.addMoreLessToSimilarList(shadow);
     }
 
     similar(pageid) {
       if (!pageid)
         return ``;
       let p = pages.getSimilarPageIds(pageid);
-      if (p.size == 0)
+      if (p.length == 0)
         return ``;
-      let s = `<div class="header">Similar Pages</div>
-      <div> <br>`;
-      p.forEach(
-        id => {
-          let pUrl = pages.getPageById(id).url;
-          let pName = pages.getPageById(id).name;
-          s += (`
-          <div><a href=${pUrl}>${pName}</a></div>
-        `);
-        }
-      );
-      s += `
-      </div>`;
+      
+      let s = `<div class="header">Similar Pages</div><br> 
+      <div> 
+      `;
+      for (let c = 0; c < p.length && c < this.maxLinks; c++) 
+        s += this.generateLinkForPage(p[c]);
+      s += `</div>
+      `;
+      
+      if (p.length <= this.maxLinks) return s;
+
+      s += `<div id="links">
+      `;
+      for (let c = this.maxLinks; c < p.length; c++)
+        s += this.generateLinkForPage(p[c]);
+      
+      s += `</div>
+      <div id="showMore"><a href="javascript:void(0)">More...</a></div>
+      <div id="showLess"><a href="javascript:void(0)">Less...</a></div>
+      `;
+      
       return s;
+    }
+
+    generateLinkForPage(id) {
+      let pUrl = pages.getPageById(id).url;
+      let pName = pages.getPageById(id).name;
+      return `  <div><a href=${pUrl}>${pName}</a></div>
+      `;
+    }
+
+    addMoreLessToSimilarList(shadow) {
+      let links = shadow.querySelectorAll('[id="links"]');
+      if (links.length === 0) return;
+
+      let linksDiv = links[0];
+      let sLess = shadow.querySelectorAll('[id="showLess"]')[0];
+      let sMore = shadow.querySelectorAll('[id="showMore"]')[0];
+
+      let hideLinks = e => {
+        linksDiv.style.display = 'none';
+        sLess.style.display = 'none';
+        sMore.style.display = 'block';
+      };
+      let showLinks = e => {
+        linksDiv.style.display = 'block';
+        sLess.style.display = 'block';
+        sMore.style.display = 'none';
+      };
+      sLess.addEventListener('click', hideLinks);
+      sMore.addEventListener('click', showLinks);
+      hideLinks();
     }
   }
   

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" href="../favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Change This -->
+  <meta name="description" content="Visualizing a Quadtree.">
+  <!-- Change This -->
+  <link rel="stylesheet" href="../appstyle.css">
+  <link rel="stylesheet" href="./compstyle.css">
+  <script src="../components/app-header.js" type="module"></script>
+  <script src="../components/sketch-text.js" type="module"></script>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/p5@0.10.2/lib/p5.js"></script> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.3.1/p5.min.js"></script>
+  <script src="./sketch.js"></script>
+  <script src="../common/sketch-colors.js"></script>
+  <script src="../common/utilities.js"></script>
+  <script src="../components/range-input.js" type="module"></script>
+  <script src="../components/radio-input-group.js" type="module"></script>
+  <script src="./control.js" type="module"></script>
+  <script src="../common/quadtree.js"></script>
+  <title>Quadtree Visualization</title>
+</head>
+<body>
+  <div class="toplevel">
+    <app-header class="heading"></app-header>
+    <div class="topbody">
+      <div class="container">
+          <div class="sketch">
+            <div id="sketch-holder" class="sketch-holder clickable">
+            </div>
+          </div>
+
+          <div class="control">
+            <div class="control-container">
+              <div class="dual">
+                <div>Quadtree Type: </div>
+                <radio-group id="choice_tree" class="choice-container">
+                  <radio-button value="1" aria-checked="true">Points in all Quads</radio-button>
+                  <radio-button value="2">Points only in Leaves</radio-button>
+                </radio-group>
+              </div>
+              <div class="dual">
+                <div>Quadtree Operation: </div>
+                <radio-group id="choice_op" class="choice-container">
+                  <radio-button value="1" aria-checked="true">Insert Points</radio-button>
+                  <radio-button value="2">Query Tree</radio-button>
+                </radio-group>
+              </div>
+              <div id="query_controls">
+                <p>
+                  <label for="query_size">Query Size: </label>
+                  <range-input min="20" max="100" id="query_size"></range-input>
+                </p>
+              </div>
+              <div id="insert_controls">
+                <div>Insert random points: <br><br></div>
+                <div class="button-container">
+                  <div class="btn" id="p5">5 points</div>
+                  <div class="btn" id="p10">10 points</div>
+                  <div class="btn" id="p20">20 points</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <sketch-text class="description" pageid="1002">
+            <div slot="content">
+              <p>More of testing/demo segment for Quadtree.</p>
+              <p>
+                There are 2 Quadtree types that I have out for demo here. The difference is how 
+                the items/points are stored.
+                <ul>
+                  <li>In one, all the trees/nodes, parents and children store the items/points</li>
+                  <li>In the other, the items/points are only stored in the leaf nodes</li>
+                </ul>
+              </p>
+              <p>
+                For insert operation, click anywhere on the viewport to add a point at that 
+                location. Or use the buttons to randomly insert points. 
+              </p>
+              <p>
+                For query operation click anywhere to perform a range query based on the query 
+                size. Adjust the same with the slider provided.
+              </p>
+              <p>
+                As this is a demo, max points a Quadrant can hold is set to 5 (for pratical 
+                purposes this should be more so that the tree is not very deep in case the space 
+                is congested with points) and minimum quadrant edge is set to 20 (by default this 
+                is 5).
+              </p>
+            </div>
+            <div slot="source">
+              <p>
+                Wikipedia a exhaustive page about <a target="_blank" 
+                href="https://en.wikipedia.org/wiki/Quadtree" >Quadtree</a>.
+              </p>
+            </div>
+          </sketch-text>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

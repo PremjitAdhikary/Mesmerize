@@ -80,7 +80,7 @@ AllSystems.FIVE = {
   lens: [90, 35, 17, 8.5, 4],
   axiom: 'F',
   rules: [new LRule('F', 'FF+[+F-F-F]-[-F+F+F]')],
-  angle: 25,
+  angle: 22.5,
   color: SketchColor.blend(SketchColor.green(), SketchColor.yellow()).stringify(),
   min_generations: 1,
   max_generations: 5

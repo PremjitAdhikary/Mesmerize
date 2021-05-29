@@ -19,13 +19,16 @@
   <meta name="twitter:image" content="https://premjitadhikary.github.io/Mesmerize/sierpinski-fractals/img/myCanvas.jpg">
   <!-- Change This -->
   <link rel="stylesheet" href="../appstyle.css">
+  <link rel="stylesheet" href="./compstyle.css">
   <script src="../components/app-header.js" type="module"></script>
   <script src="../components/sketch-text.js" type="module"></script>
-  <script src="https://cdn.jsdelivr.net/npm/p5@0.10.2/lib/p5.js"></script>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/p5@0.10.2/lib/p5.js"></script> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/p5.min.js"></script>
   <script src="./sketch.js"></script>
   <script src="../common/sketch-colors.js"></script>
   <script src="../common/utilities.js"></script>
   <script src="../components/radio-input-group.js" type="module"></script>
+  <script src="../components/tabbed-pane.js" type="module"></script>
   <script src="./triangle-unit.js"></script>
   <script src="./square-unit.js"></script>
   <script src="./n-gon-unit.js"></script>
@@ -61,36 +64,49 @@
           <sketch-text class="description" pageid="10009">
             <div slot="content">
               <p>
-                <strong>Sierpinski Fractals</strong> are decorative patterns which can be achieved 
+                <em>Wacław Sierpinski</em> is a Polish Mathematician known for contributions to set 
+                theory, number theory, etc. He had published a number of books and papers. There 
+                are well-known fractals named after him. All from <a target="_target" 
+                href="https://en.wikipedia.org/wiki/Wac%C5%82aw_Sierpi%C5%84ski">here</a>.
+              </p>
+              <p>
+                <em>Sierpinski Fractals</em> are decorative patterns which can be achieved 
                 by repeating the base pattern at different size.
               </p>
-              <p>
-                <strong>Sierpinski Triangle:</strong><br>
-                Most Basic example where start with a triangle. Then have 3 shrunk triangles half 
-                it's side take it's place and so on.
-              </p>
-              <p>
-                <strong>Sierpinski Triangle - With Squares:</strong><br>
-                Instead of triangle, we start with a Square. Then replace it with 3 smaller squares 
-                of half it's sides, two beside each other and 1 on top of them bang in the middle.
-              </p>
-              <p>
-                <strong>Sierpinski Carpet:</strong><br>
-                Again, we start with a Square. But instead of 3, we replace it with 8 smaller squares, 
-                one third of its length. The middle is kept hollow.
-              </p>
-              <p>
-                <strong>Sierpinski Gasket:</strong><br>
-                Instead of shapes, here we use curve to create the shape. It is formed by a process 
-                of repeated modification of simpler curves, analogous to the construction of the 
-                Koch snowflake.
-              </p>
-              <p>
-                <strong>Sierpinski N-gons and N-flakes:</strong><br>
-                Recursive regular polygons here. Every n-gons replaced here by n n-gons at it's n 
-                vertices. The n-flake is where instead of the edges, we connect the vertices with 
-                the center of the n-gon by lines.
-              </p>
+              <tabbed-pane>
+                <tab-content name="Sierpinski Triangle" selected>
+                  <p>
+                    Most Basic example where start with a triangle. Then have 3 shrunk triangles 
+                    half it's side take it's place and so on.
+                  </p>
+                  <p>
+                    Instead of triangle, we can also start with a Square. Then replace it with 3 
+                    smaller squares of half it's sides, two beside each other and 1 on top of them 
+                    bang in the middle.
+                  </p>
+                </tab-content>
+                <tab-content name="Sierpinski Carpet">
+                  <p>
+                    Again, we start with a Square. But instead of 3, we replace it with 8 smaller 
+                    squares, one third of its length. The middle is kept hollow.
+                  </p>
+                </tab-content>
+                <tab-content name="Sierpinski Gasket">
+                  <p>Instead of shapes, here we use curve to create the shape.</p>
+                  <p>
+                    It is formed by a process of repeated modification of simpler curves, analogous 
+                    to the construction of the Koch snowflake.
+                  </p>
+                </tab-content>
+                <tab-content name="Sierpinski N-gons and N-flakes">
+                  <p>Recursive regular polygons here.</p>
+                  <p>Every n-gons replaced here by n n-gons at it's n vertices.</p>
+                  <p>
+                    The n-flake is where instead of the edges, we connect the vertices with the 
+                    center of the n-gon by lines.
+                  </p>
+                </tab-content>
+              </tabbed-pane>
             </div>
             <div slot="source">
               <p>

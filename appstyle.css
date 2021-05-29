@@ -38,12 +38,10 @@ a:hover, a:active {
 .topbody {
   grid-area: main;
   height: 100%;
-  overflow-y: auto;
-}
-
-.cardholder {
-  height: 80%;
-  overflow-y: auto;
+	grid-template-rows: max-content 1fr;
+  grid-template-areas: 
+  "query"
+  "cardholder";
 }
 
 .container {
@@ -79,6 +77,9 @@ a:hover, a:active {
 }
 
 .cardholder {
+  height: 82%;
+  overflow-y: auto;
+  grid-area: cardholder;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 2%;
@@ -192,9 +193,10 @@ a:hover, a:active {
 }
 
 .query {
+  grid-area: query;
   width: 100%;
   display: grid;
-  grid-template-columns: 4fr 1fr;
+  grid-template-columns: 5fr 1fr;
 }
 
 .search {

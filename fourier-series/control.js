@@ -21,5 +21,4 @@ let numberUpdated = e =>  {
   bus.dispatch("ControlFSN", { number: val });
 };
 
-document.getElementById('number').onclick = numberUpdated;
-document.getElementById('number').ontouchend = numberUpdated;
+document.getElementById('number').onchange = numberUpdated;

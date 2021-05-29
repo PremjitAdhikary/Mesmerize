@@ -12,7 +12,8 @@
   <link rel="stylesheet" href="./compstyle.css">
   <script src="../components/app-header.js" type="module"></script>
   <script src="../components/sketch-text.js" type="module"></script>
-  <script src="https://cdn.jsdelivr.net/npm/p5@0.10.2/lib/p5.js"></script>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/p5@0.10.2/lib/p5.js"></script> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/p5.min.js"></script>
   <script src="./sketch.js"></script>
   <script src="../common/sketch-colors.js"></script>
   <script src="../common/utilities.js"></script>
@@ -51,7 +52,7 @@
               <div class="player">
                 <div class="type">
                   <radio-group id="choice_type">
-                    <radio-button value="1" aria-checked="true">Favorites</radio-button>
+                    <radio-button value="1" aria-checked="true">Chosen</radio-button>
                     <radio-button value="2">Minis</radio-button>
                     <radio-button value="3">All</radio-button>
                   </radio-group>
@@ -59,7 +60,7 @@
                 <br>
                 <div id="main">
                   Main Game <br>
-                  <range-input min="0" max="10" step="1" id="move_slider"></range-input>
+                  <range-input min="0" max="10" step="1" valueHidden id="move_slider"></range-input>
                   <p>
                     <span class="btn" id="first">First</span>
                     <span class="btn" id="prev">Previous</span>

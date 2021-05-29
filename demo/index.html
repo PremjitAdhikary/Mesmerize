@@ -23,7 +23,9 @@
   <script src="../components/app-header.js" type="module"></script>
   <script src="../components/sketch-text.js" type="module"></script>
   <!-- <script src="https://cdn.jsdelivr.net/npm/p5@0.10.2/lib/p5.js"></script> -->
-  <script src="https://cdn.jsdelivr.net/npm/p5@1.3.1/lib/p5.js"></script>
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/p5.min.js"></script> -->
+  <!-- <script src="https://cdn.jsdelivr.net/npm/p5@1.3.1/lib/p5.js"></script> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.3.1/p5.min.js"></script>
   <script src="./sketch.js"></script>
   <script src="../common/sketch-colors.js"></script>
   <script src="../common/utilities.js"></script>
@@ -65,8 +67,8 @@
                   <range-input min="0" max="10" id="onclick_slider"></range-input>
                 </p>
                 <p>
-                  <label for="onchange_slider">onchange: </label>
-                  <range-input min="0" max="10" id="onchange_slider"></range-input>
+                  <label for="onchange_slider">onchange/hidden: </label>
+                  <range-input min="0" max="10" id="onchange_slider" valueHidden></range-input>
                 </p>
                 <p>
                   <label for="onchange_step_slider">onchangestep: </label>

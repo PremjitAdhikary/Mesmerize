@@ -55,6 +55,7 @@ document.getElementById('onclick_slider').onclick = e => {
 };
 
 document.getElementById('onchange_slider').value = initData.onchange_slider;
+// document.getElementById('onchange_slider').valuehidden = true;
 
 document.getElementById('onchange_slider').onchange = e => {
   let val = Number(e.target.value);

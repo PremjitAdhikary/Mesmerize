@@ -22,12 +22,14 @@
   <link rel="stylesheet" href="./compstyle.css">
   <script src="../components/app-header.js" type="module"></script>
   <script src="../components/sketch-text.js" type="module"></script>
-  <script src="https://cdn.jsdelivr.net/npm/p5@0.10.2/lib/p5.js"></script>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/p5@0.10.2/lib/p5.js"></script> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/p5.min.js"></script>
   <script src="./sketch.js"></script>
   <script src="../common/sketch-colors.js"></script>
   <script src="../common/utilities.js"></script>
   <script src="../components/range-input.js" type="module"></script>
   <script src="../components/radio-input-group.js" type="module"></script>
+  <script src="../components/tabbed-pane.js" type="module"></script>
   <script src="./control.js" type="module"></script>
   <title>Fourier Series</title>
 </head>
@@ -67,23 +69,21 @@
                 Essentially, it is a sum of multiple sin (or cosine) waves of various amplitudes 
                 and/or frequencies.
               </p>
-              <p>Few series depicted here.</p>
-              <p>
-                <strong>Square Wave Series:</strong><br>
-                &nbsp;C<em>sin</em>(x) + C<em>sin</em>(3x)/3 +C<em>sin</em>(5x)/5 + ...
-              </br>
-              <p>
-                <strong>Sawtooth Series:</strong><br>
-                &nbsp;C<em>sin</em>(x) + C<em>sin</em>(2x)/2 +C<em>sin</em>(3x)/3 + ...
-              </p>
-              <p>
-                <strong>Pulse Series:</strong><br>
-                &nbsp;C<em>sin</em>(x) + C<em>sin</em>(2x) +C<em>sin</em>(3x) + ...
-              </p>
-              <p>
-                <strong>Triangle Series:</strong><br>
-                &nbsp;C<em>sin</em>(x) - C<em>sin</em>(3x)/9 +C<em>sin</em>(5x)/25 + ...
-              </p>
+              <p><em>Few series depicted here.</em></p>
+              <tabbed-pane>
+                <tab-content name="Square Wave" selected>
+                  &nbsp;C<em>sin</em>(x) + C<em>sin</em>(3x)/3 + C<em>sin</em>(5x)/5 + ...  
+                </tab-content>
+                <tab-content name="Sawtooth">
+                  &nbsp;C<em>sin</em>(x) + C<em>sin</em>(2x)/2 + C<em>sin</em>(3x)/3 + ...
+                </tab-content>
+                <tab-content name="Pulse">
+                  &nbsp;C<em>sin</em>(x) + C<em>sin</em>(2x) + C<em>sin</em>(3x) + ...
+                </tab-content>
+                <tab-content name="Triangle">
+                  &nbsp;C<em>sin</em>(x) - C<em>sin</em>(3x)/9 + C<em>sin</em>(5x)/25 + ...
+                </tab-content>
+              </tabbed-pane>
             </div>
             <div slot="source">
               <p>

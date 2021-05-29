@@ -1,9 +1,11 @@
 /**
- * 
+ * 2 versions of Quadtree here:
+ * 1) All the quads keep points in them
+ * 2) Only the leaf quads keep points in them
  */
 class QuadTree {
 
-  constructor (centerX, centerY, treeWidth, treeHeight, capacity) {
+  constructor (centerX, centerY, treeWidth, treeHeight, capacity, onlyLeafItems = false) {
     this.x = centerX;
     this.y = centerY;
     this.treeHeight = treeHeight;
@@ -11,34 +13,77 @@ class QuadTree {
     this.capacity = capacity;
     this.points = [];
     this.subdivided = false;
+    this.onlyLeafItems = onlyLeafItems;
 
     this.color = 255;
+
+    this.minQuadEdge = 4;
   }
 
   insert(x, y, element) {
-    if (!this.pointInQuad(x,y)) return false;
-    
-    if (this.points.length < this.capacity) {
-      this.points.push(new Point(x,y,element));
+    return this.insertPoint(new Point(x,y,element));
+  }
+
+  insertPoint(qp) {
+    if (!this.pointInQuad(qp.x, qp.y)) return false;
+
+    if (this.canPointsBeInsertedInThisQuad()) {
+      this.points.push(qp);
       return true;
     }
 
     if (!this.subdivided) this.subdivide();
 
-    return this.neTree.insert(x, y, element) 
-            || this.nwTree.insert(x, y, element) 
-            || this.seTree.insert(x, y, element) 
-            || this.swTree.insert(x, y, element);
+    return this.insertPointInSubtrees(qp);
+  }
+
+  canPointsBeInsertedInThisQuad() {
+    // in case smallest quad, insert
+    if (!this.canBeSubDivided()) return true;
+    // in case capacity reached, dont insert
+    if (this.points.length >= this.capacity) return false;
+    // if points can be inserted anywhere, fine else only if leaf node
+    return !this.onlyLeafItems || (this.onlyLeafItems && !this.subdivided);
+  }
+
+  insertPointInSubtrees(qp) {
+    return this.neTree.insertPoint(qp) 
+            || this.nwTree.insertPoint(qp) 
+            || this.seTree.insertPoint(qp) 
+            || this.swTree.insertPoint(qp);
+  }
+
+  canBeSubDivided() {
+    return this.treeWidth/2 > this.minQuadEdge && this.treeHeight/2 > this.minQuadEdge;
   }
 
   subdivide() {
     let newWd = this.treeWidth/2;
     let newHt = this.treeHeight/2;
-    this.neTree = new QuadTree(this.x + newWd/2, this.y - newHt/2, newWd, newHt, this.capacity);
-    this.nwTree = new QuadTree(this.x - newWd/2, this.y - newHt/2, newWd, newHt, this.capacity);
-    this.seTree = new QuadTree(this.x + newWd/2, this.y + newHt/2, newWd, newHt, this.capacity);
-    this.swTree = new QuadTree(this.x - newWd/2, this.y + newHt/2, newWd, newHt, this.capacity);
+    if (newWd < this.minQuadEdge || newHt < this.minQuadEdge) 
+      return;
+    this.neTree = new QuadTree(this.x + newWd/2, this.y - newHt/2, newWd, newHt, 
+      this.capacity, this.onlyLeafItems);
+    this.neTree.minQuadEdge = this.minQuadEdge;
+    this.nwTree = new QuadTree(this.x - newWd/2, this.y - newHt/2, newWd, newHt, 
+      this.capacity, this.onlyLeafItems);
+    this.nwTree.minQuadEdge = this.minQuadEdge;
+    this.seTree = new QuadTree(this.x + newWd/2, this.y + newHt/2, newWd, newHt, 
+      this.capacity, this.onlyLeafItems);
+    this.seTree.minQuadEdge = this.minQuadEdge;
+    this.swTree = new QuadTree(this.x - newWd/2, this.y + newHt/2, newWd, newHt, 
+      this.capacity, this.onlyLeafItems);
+    this.swTree.minQuadEdge = this.minQuadEdge;
     this.subdivided = true;
+
+    if (this.onlyLeafItems) {
+      for (let qp of this.points) {
+        let inserted = this.insertPointInSubtrees(qp);
+        if (!inserted)
+          console.error('!! Insert Failed at: ('+qp.x+','+qp.y+')');
+      }
+      this.points = [];
+    }
   }
 
   query(centerX, centerY, rangeWidth, rangeHeight) {
