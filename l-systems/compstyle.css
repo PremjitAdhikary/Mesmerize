@@ -1,0 +1,29 @@
+.control-container {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+  grid-template-rows: 3fr 1fr;
+  grid-template-areas:
+    "choice_main choice_sub choice_actual"
+    "launch choice_sub choice_actual";
+}
+
+.choice_main {
+  grid-area: choice_main;
+}
+
+.choice_sub {
+  grid-area: choice_sub;
+}
+
+.choice_actual {
+  grid-area: choice_actual;
+}
+
+.launch {
+  grid-area: launch;
+}
+
+img {
+  width: 95%;
+}

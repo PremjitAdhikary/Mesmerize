@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" href="../favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Change This -->
+  <meta name="description" content="Simulating a Location Based Service.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://premjitadhikary.github.io/Mesmerize/location-based-services">
+  <meta property="og:title" content="Location Based Services">
+  <meta property="og:description" content="Simulating a Location Based Service.">
+  <meta property="og:image" content="https://premjitadhikary.github.io/Mesmerize/location-based-services/img/myCanvas.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://premjitadhikary.github.io/Mesmerize/location-based-services">
+  <meta name="twitter:title" content="Location Based Services">
+  <meta name="twitter:description" content="Simulating a Location Based Service.">
+  <meta name="twitter:image" content="https://premjitadhikary.github.io/Mesmerize/location-based-services/img/myCanvas.jpg">
+  <!-- Change This -->
+  <link rel="stylesheet" href="../appstyle.css">
+  <link rel="stylesheet" href="./compstyle.css">
+  <script src="../components/app-header.js" type="module"></script>
+  <script src="../components/sketch-text.js" type="module"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.3.1/p5.min.js"></script>
+  <script src="./sketch.js"></script>
+  <script src="../common/sketch-colors.js"></script>
+  <script src="../common/utilities.js"></script>
+  <script src="../common/quadtree.js"></script>
+  <script src="../components/tabbed-pane.js" type="module"></script>
+  <script src="../components/code-formatter.js" type="module"></script>
+  <script src="../components/phone.js" type="module"></script>
+  <script src="../common/phone-app.js"></script>
+  <script src="./control.js" type="module"></script>
+  <script src="./locations/regionized-map.js"></script>
+  <script src="./locations/joints.js"></script>
+  <script src="../creatures/loco/mover.js"></script>
+  <script src="../creatures/basic-creature.js"></script>
+  <script src="./locations//vehicles.js"></script>
+  <script src="./locations/location-assigner.js"></script>
+  <script src="./data-services/base-data-service.js"></script>
+  <script src="./data-services/pseudo-geohash.js"></script>
+  <script src="./data-services/quadtree-impl.js"></script>
+  <script src="./data-services/hilbert-curve-impl.js"></script>
+  <script src="./apps/near-app.js"></script>
+  <script src="./apps/near-bar.js"></script>
+  <script src="./apps/near-car.js"></script>
+  <title>Location Based Services</title>
+</head>
+<body>
+  <div class="toplevel">
+    <app-header class="heading"></app-header>
+    <div class="topbody">
+      <div class="container-no-control">
+          <div class="sketch">
+            <div id="sketch-holder" class="sketch-holder clickable">
+            </div>
+          </div>
+
+          <sketch-text class="description-no-control" pageid="10037">
+            <div slot="content">
+              <br>
+              <div id="phone-holder" class="phone-holder">
+                <m-phone id="loc-phone" class="phone"></m-phone>
+              </div>
+              <p>
+                <em>Location Based Service</em> are software services which use geographic data to provide 
+                information/services to users. In today's connected world where almost everyone has a smart 
+                phone, LBS is integrated in multiple applications. Few uses: <ul>
+                  <li>Find nearest business or service (ATM, restaurant, Service Station)</li>
+                  <li>Recommending Events around you</li>
+                  <li>Alert Notification (Traffic Jam, Extreme Weather)</li>
+                  <li>Avail Delivery Service (Food Delivery)</li>
+                  <li>Mobile Advertising based on location</li>
+                </ul>
+              </p>
+              <div class="sub-header"><p>The Simulation</p></div>
+              <p>We will take up two of the most common use cases in this simulation.</p>
+              <p>
+                Imagine that you are a tourist in one of the most happening city, by the beach, let's call it 
+                <em>Beach City</em>.
+              </p>
+              <p>
+                You are here to party. To help you with that you have two awesome apps installed in your 
+                <em>M-Phone</em> on the right. These apps are minimalist in nature ... ie. they accomplish 
+                the main functionality only.
+              </p>
+              <tabbed-pane>
+                <tab-content name="Map" selected>
+                  <p>
+                    On the left is the map of the whole of <em>Beach City</em>. You will start right at the 
+                    center of it. Click anywhere on the map to change your location.
+                  </p>
+                  <p>
+                    Depending on which App is active, the map will be populated with all the POIs on it. So 
+                    for <em>NearBar</em>, the Breweries and Pubs will shine in orange and violet respectively. 
+                    For <em>NearCar</em>, live location of all the cabs (hired or available) will be shown. 
+                    The violet ones will be the available cabs and hired cabs will be colored in orange.
+                  </p>
+                  <p>
+                    A visual representation of the selected DB will also be rendered here for you to check 
+                    how the query works out. The query area will be marked for clarity.
+                  </p>
+                </tab-content>
+                <tab-content name="NearBar">
+                  <p>
+                    What's a party unless you are few pints down? As a tourist in a new place you want some 
+                    way to locate where are the best breweries and pubs in the city.
+                  </p>
+                  <p>Think Yelp.</p>
+                  <p>
+                    It recognizes where you are and displays the popular places nearby and highlighted reviews
+                    of those places. You can share your own reviews, rate businesses, reserve a table (if 
+                    possible) in your selected place.
+                  </p>
+                  <p>
+                    Here we are just targeting the <em>find places nearby</em> part of the functionality. 
+                  </p>
+                </tab-content>
+                <tab-content name="NearCar">
+                  <p>
+                    You have done your share of pub-hopping for the day (or night). Time to recharge for the 
+                    next day. But you are also a responsible citizen and you know <em>Drink n Drive</em> is 
+                    a no-no.
+                  </p>
+                  <p>
+                    Uber or Ola is the go to app to book a cab. Based on your location they give you the 
+                    nearest cabs available, you can select car type, the charge for the ride will be displayed 
+                    and you also get real time update on your app on where your cab is.
+                  </p>
+                  <p>
+                    Again, we are just targeting the <em>find me a nearby cab</em> part of the functionality. 
+                    (You can't actually book a cab). The difference with the earlier app is that here there the 
+                    POIs were static and here they are dynamic.
+                  </p>
+                </tab-content>
+              </tabbed-pane>
+              <div class="sub-header"><p>Limitations of Traditional Database</p></div>
+              <p>To mark a location, we use Latitude and Longitude (here we use x and y coordinates).</p>
+              <p>
+                Let's say we have a traditional database where we have stored all our <em>Points of 
+                Interest</em> with their locations. Now if we have the following query <em>Find all Points of 
+                Interest from a specified location within a specified range</em> (all breweries within 5 
+                km). A typical query would look something like:
+              </p>
+              <code-formatter language="sql">
+                <span slot="code">
+                  select * 
+                  from POI_TABLE as poi 
+                  where distance_between(
+                    poi.LOC, specifiedLocation
+                  ) &lt; specifiedRange
+                </span>
+              </code-formatter>
+              <p>
+                Essentially, this is a full table scan and needless to say that with more POIs added by 
+                the day, it's not a scalable query.
+              </p>
+              <div class="sub-header"><p>Spatial Database</p></div>
+              <p>
+                <em>Location Based Service</em> operate on a specialized database optimized for storing and 
+                querying data representing objects in a geometric space. These databases are called 
+                <em>Spatial Database</em> and the queries <em>Spatial Queries</em>. In this segment we are 
+                focusing on the following properties: <ul>
+                  <li>Location assignment should be uniform</li>
+                  <li>The Database should be scalable and granular</li>
+                  <li>Should allow proximity query</li>
+                </ul>
+              </p>
+              <tabbed-pane>
+                <tab-content name="Quad Tree" selected>
+                  <p>
+                    Quadtree is a tree data structure used to partition a two-dimensional space by recursively 
+                    subdividing it into four quadrants or regions. We will be using <em>Region Quad Tree</em> 
+                    and create a <em>Spatial Index</em> for the data.
+                  </p>
+                  <p>
+                    With this the search will be restricted to a much smaller scope and hence improving the 
+                    performance manifold.
+                  </p>
+                  <tabbed-pane>
+                    <tab-content name="Region Query" selected>
+                      <p>Given a point/location, find the quad/region where it belongs.</p>
+                      <p>
+                        This is analogous to Binary Seach. The root node is the whole space. Recursively 
+                        find in the subquadrants till a leaf node is reached. 
+                      </p>
+                      <p class="img-c"><img src="./img/qt-regionQuery-t.gif" alt="Region Query"></p>
+                      <code-formatter language="js">
+                        <div slot="code">
+                          function findRegion(location, region) {
+                            if ( ! region.contains(location) ) 
+                              return
+              
+                            if ( region.isLeafNode )
+                              return region;
+              
+                            for ( subRegion of region ) {
+                              return findRegion(location, subRegion)
+                            }
+                          }
+              
+                          region = findRegion(location, root)
+                        </div>
+                      </code-formatter>
+                    </tab-content>
+                    <tab-content name="Add POI">
+                      <p>Given a Point Of Interest, add it to the Quadtree.</p>
+                      <p>
+                        When a POI is added, at first the quadrant/region where it is supposed to go is 
+                        identified. The POI is then added to it. A thresh hold is set for the number of 
+                        points a region can hold. If the new POI causes it to cross the thresh hold, the 
+                        quadrant is subdivided into 4 sub quadrants and the POI added accordingly.
+                      </p>
+                      <code-formatter language="js">
+                        <div slot="code">
+                          function addLocation(location) {
+                            region = findRegion(location, root)
+                            if ( region.locations.size &lt; THRESH_HOLD ) {
+                              region.locations.add(location)
+                              return
+                            }
+              
+                            subdivide(region)
+                            subRegion = findRegion(location, region)
+                            subRegion.locations.add(location)
+                          }
+                        </div>
+                      </code-formatter>
+                    </tab-content>
+                    <tab-content name="Range Query">
+                      <p>
+                        The star operation. Given a location and a range, find all POIs around the location 
+                        within the range.
+                      </p>
+                      <p>
+                        Start by making a square S of edge equal to range around the query location. Then 
+                        recursively check for all quads that intersect S. Return POIs from all such quads.
+                      </p>
+                      <code-formatter language="js">
+                        <div slot="code">
+                          function rangeQuery(location, range) {
+                            return findInRange(location, S, root)
+                          }
+            
+                          function findInRange(location, S, region) {
+                            if ( ! S.intersects(region) )
+                              return
+            
+                            allPois = new Array()
+                            for (location of region.locations) {
+                              if ( S.contains(location) )
+                                allPois.add(location)
+                            }
+                            for (subregion of region) {
+                              allPois.add(findInRange(
+                                location, S, subregion))
+                            }
+            
+                            return allPois
+                          }
+                        </div>
+                      </code-formatter>
+                    </tab-content>
+                    <tab-content name="Advantages">
+                      <p>
+                        Unlike traditional databases, the range query in Quadtree doesn't do a full table 
+                        scan and only considers the quads that intersect with the query space. 
+                      </p>
+                      <p>
+                        Moreover, because of the heirarchical nature of the structure, the leaf node can be 
+                        reached in logarithmic time complexity. In the below tree, the region which contains 
+                        the point can be reached in 5 jumps.
+                      </p>
+                      <p>&nbsp;&nbsp;&nbsp;root &rarr; bl &rarr; tl &rarr; br &rarr; tl &rarr; tr</p>
+                      <p>
+                        where tl = top left quad, tr = top right quad, bl = bottom left quad and br = bottom 
+                        right quad
+                      </p>
+                      <p class="img-c"><img src="./img/qt-regionPoint-t.jpg" alt="Quadtree"></p>
+                    </tab-content>
+                    <tab-content name="Limitations">
+                      <p><span  class="hilight">Best for Static POIs: </span></p>
+                      <p>
+                        The biggest hurdle is that the tree creation is totally dependent on data distribution. 
+                        As the quads are created based on data density, if there are updates/deletes, it 
+                        defeats the purpose of this data structure as it needs to be reshaped which will be an 
+                        expensive operation. So the use cases are restricted to data which are more or less 
+                        static and don't change much often.
+                      </p>
+                      <p><span class="hilight">Not balanced: </span></p>
+                      <p>
+                        Since data is not evenly distributed (cities will have far more POIs than villages), 
+                        some quads might go very deep while some quads might stay empty. This results in an 
+                        unbalanced tree. Optimizations are available in form of Compressed Quadtrees where 
+                        only subtrees with POIs are kept and empty nodes are pruned.
+                      </p>
+                    </tab-content>
+                  </tabbed-pane>
+                </tab-content>
+                <tab-content name="Hilbert Curve">
+                  <p>
+                    The basic idea of any space-filling curve is to contain an entire 2-dimensional square. 
+                    Hilbert Curve is of the same family.
+                  </p>
+                  <tabbed-pane>
+                    <tab-content name="Concept" selected>
+                      <p>
+                        While we don't have good algorithms to search over a 2-D space, we do have excellent 
+                        algorithms to perform the same over 1-D line. So if a 2-D space can be represented 
+                        over a 1-D line, we have the solution to the problem. This is the motivation for 
+                        space-filling curve.
+                      </p>
+                      <p>
+                        The way the Hilbert Curve goes through the square is again analogous to breaking the 
+                        original square into four quadrants, and then breaking each of those quadrants down 
+                        into further quadrants.
+                      </p>
+                      <p class="img-c"><img src="./img/hilbert-curve-t.gif" alt="Hilbert"></p>
+                      <p>
+                        Now we assign POIs to Hilbert Nodes based on their location in the square. 
+                        <em>What's a Hilbert Node?</em> All the points where the curve turns, is a Hilbert 
+                        Node. Theoretically Hilbert Curve can go to infinite levels so that every point on 
+                        the curve can be covered, practically it's makes sense to represent a small region by 
+                        a node.
+                      </p>
+                    </tab-content>
+                    <tab-content name="Problem Reduction">
+                      <p>
+                        Now that we know the way the Hilbert Curve can help with the problem, we need to look 
+                        into some reductions in the current statement.
+                      </p>
+                      <p><span class="hilight">Map a co-ordinate to a Node</span></p>
+                      <p>
+                        Every POI is marked by a co-ordinate (lat -long in the real world, in our case, x,y). I 
+                        came across an iterative algorithm to draw a Hilbert curve of any given level. The 
+                        main method <em>hilbertIndex2xy(n)</em>, gives back normalized (x,y) co-ordinate of
+                        n<sup>th</sup> node. The algorithm is much better explained <a target="_blank" href=
+                        "http://blog.marcinchwedczuk.pl/iterative-algorithm-for-drawing-hilbert-curve">here</a>.
+                        So while the nodes and co-ordinates are calculated to generate the curve, the same can 
+                        be put into arrays for quick reference later.
+                      </p>
+                      <p><span class="hilight">The SQUARE restriction</span></p>
+                      <p>
+                        Hilbert curve is drawn in a square. Even the algorithm mentioned above takes in 
+                        units of 1. So for a 4 &times; 4 grid, node 0 starts at (0,0) and node 15 ends at 
+                        (3,3). <em>hilbertIndex2xy(2)</em> = (1,1) and <em>hilbertIndex2xy(8)</em> = (2,2).
+                      </p>
+                      <p class="img-c"><img src="./img/hilbertNodes-t.jpg" alt="Hilbert Nodes"></p>
+                      <p>
+                        Our map is a rectangle of 640 &times; 480. While there are many algorithms out there 
+                        to solve this, I took the easy way out for our simulation - I just scaled it. A 32 
+                        &times; 32 grid of rectangles where rectangle on the ith row and jth column 
+                        corresponds to the co-ordinate (i,j) of a 32 &times; 32 unit grid.
+                      </p>
+                    </tab-content>
+                    <tab-content name="Range Query">
+                      <p>
+                        With scaling put in and a cache to look-up (x,y) the Hilbert node, this problem is a 
+                        trivial one now. 
+                      </p>
+                      <p>
+                        Given a co-ordinate, scale it down to map to the unit grid. Then use the cache to 
+                        identify which Hilbert node, the co-ordinate corresponds to. Let's make the node as h. 
+                        The range to search is also scaled down for the unit grid. Let's assume the range has 
+                        been scaled down to scRange. Then all the POIs from nodes (h - scRange) to (h + 
+                        scRange) are selected for range validation.
+                      </p>
+                    </tab-content>
+                    <tab-content name="Advantages">
+                      <p><span class="hilight">Over Traditional Database</span></p>
+                      <p>
+                        Similar to the advantage that Quadtree has. Even here we avoid full table scans and 
+                        access to data over the range can be made even more performant by having a segment 
+                        tree or an interval tree over the Hilbert Codes.
+                      </p>
+                      <p><span class="hilight">Over Quadtree</span></p>
+                      <p>
+                        Because the form of a Hilbert Curve depends on the number of nodes rather than the 
+                        number of POIs on it, it can take in dynamic POIs.
+                      </p>
+                    </tab-content>
+                    <tab-content name="Limitations">
+                      <p><span class="hilight">Range to Offset approximation</span></p>
+                      <p>
+                        The major (at least that's what I feel) limitation is the range calculation accuracy 
+                        for the nodes. Let's take the same curve from before.
+                      </p>
+                      <p class="img-c"><img src="./img/hilbertNodes-t.jpg" alt="Hilbert Nodes"></p>
+                      <p>
+                        Let's say that I have a query to search for POIs around (1,1) for a range of 1. Now 
+                        we know (1,1) corresponds to Hilbert node 2. So the range is from node 2 &plusmn;1. 
+                        This includes (1,0), (1,1) and (0,1).
+                      </p>
+                      <p><em>What about (0,0) and (0,2)?</em></p>
+                      <p>
+                        If the offset is doubled to the range to search, ei, from node 2 &plusmn;2, the above 
+                        co-ordinates would be covered. But we still haven't covered (1,2), (2,3), (2,1) and 
+                        (2,0). To cover all of them, a range of 1 has to have an offset of &plusmn;12 in this 
+                        case. But that would also include nodes 5, 6, 9, 10, 11 and 12 which are clearly out 
+                        of range. This gives us a lot to think about when fine tuning range to offset 
+                        calculation.
+                      </p>
+                      <p><span class="hilight">Edge Cases</span></p>
+                      <p>
+                        The above problem can be minimized by having a higher order of Hilbert Curve. The more 
+                        dense the curve is, the range to offset approximation gets better.
+                      </p>
+                      <p>
+                        But there are still edge cases where while the co-ordinates are nearby in reality, 
+                        but Hilbert node wise they are <em>really faaaaaaar away</em>. This is even more 
+                        evident in the nodes near the intersection where the quadrants meet. Take a look 
+                        into the below Hilbert Curve of Oder 3. Hilbert Nodes 10 and 53 are only 1 unit 
+                        distance apart.
+                      </p>
+                      <p class="img-c"><img src="./img/hilbertEdge-t.jpg" alt="Hilbert Edge Case"></p>
+                    </tab-content>
+                  </tabbed-pane>
+                </tab-content>
+                <tab-content name="Geo Hash">
+                  <p>
+                    Geohash encodes a geographic location into a short string of letters and digits. 
+                    Essentially, it reduces a proximity search problem into a string prefix matching one.
+                  </p>
+                  <tabbed-pane>
+                    <tab-content name="Concept" selected>
+                      <p>
+                        Actual implementation divides a region into 32 subregions and so on starting with the 
+                        whole world. The latitude and longitude of a location based on its precision can be 
+                        mapped to a subregion quite granular in nature. Every region is denoted by a letter 
+                        added to its parent. So we start with 32 regions from 0-9, a-z (minus a,i,l,o), and for 
+                        every region, we have 32 subregions (again with alphanumeric denotions), and for every 
+                        one of those subregions, we have 32 sub-subregions ... and so on.
+                      </p>
+                      <p>
+                        A geohash <em>kput</em> would denote a subregion 4 levels deep with ancestors k, kp, 
+                        kpu. A geohash of length 9 points to a region of approx 5m &times; 5m. The longer the 
+                        prefix of 2 geohashes match, the closer they are. Note that the converse is not true.
+                      </p>
+                      <p>
+                        In our simplified version here, we keep subdividing the world into 4 regions recursively 
+                        upto a depth of 5 giving us a 32 &times; 32 grid. This should be enough for our 
+                        application.
+                      </p>
+                    </tab-content>
+                    <tab-content name="Hashing">
+                      <p>
+                        The most important function. In our simplified world we have a simplified hash 
+                        technique.
+                      </p>
+                      <div class="hash-table">
+                        <div class="hash-sub">a</div><div class="hash-sub">b</div>
+                        <div class="hash-text">
+                          The hash code of the 4 subregions are shown on the left. Each of these regions are 
+                          further subdivided into 4 subregions.
+                        </div>
+                        <div class="hash-sub">c</div><div class="hash-sub">d</div>
+                      </div>
+                      <p>
+                        Given a location, we keep performing a binary search on x and y axes and assign 
+                        quadrant chars accordingly to have the hash for the specified depth.
+                      </p>
+                      <p class="img-c"><img src="./img/gh-regionHash-t.gif" alt="Region Query"></p>
+                    </tab-content>
+                    <tab-content name="Range Query">
+                      <p>
+                        To find all POIs around the location within the range, first we find the corresponding 
+                        region of the location. Depending on the range, the region size can be adjusted (
+                        basically dive to appropriate hash level). eg if range is 30, the region will be 
+                        fetched from a depth of 5 while if it is 70, the region will be fetched from level 4.
+                      </p>
+                      <p>
+                        To account for location near the edges and corners of the found region, the neighbors 
+                        are also selected to contribute to the POI list to be returned.
+                      </p>
+                      <code-formatter language="js">
+                        <div slot="code">
+                          function findInRange(location, range) {
+                            allPois = new Array()
+                            depth = calculateDepth(range)
+                            regionHash = hash(location, depth)
+                            region = regionMap.get(regionHash)
+                            allPois.add(region.locations)
+              
+                            neighbors = neighbors(region)
+                            for (neighbor of neighbors) {
+                              allPois.add(neighbor.locations)
+                            }
+                            return allPois
+                          }
+                        </div>
+                      </code-formatter>
+                    </tab-content>
+                    <tab-content name="Finding Neighbors">
+                      <p>
+                        To properly cover a query area, we need to look beyond the current region. We have to 
+                        quickly find the surrounding regions to look for POIs in it.
+                      </p>
+                      <div class="hash-neighbors">
+                        <div class="hash-sub">NW</div><div class="hash-sub">N</div><div class="hash-sub">NE</div>
+                        <div class="hash-neighbor-text">
+                          Every region can have 3-8 neighboring regions based on it's position in the grid. The 
+                          corner ones will have 3 while those in the middle 8.
+                        </div>
+                        <div class="hash-sub">W</div><div class="hash-sub">X</div><div class="hash-sub">E</div>
+                        <div class="hash-sub">SW</div><div class="hash-sub">S</div><div class="hash-sub">SE</div>
+                      </div>
+                      <p>
+                        We will use few interesting properties of the hash to find the neighbors. 
+                        <ul>
+                          <li>
+                            Removing the last character of the hash of a region gives the hash of it's parent 
+                            region. eg. parent hash of <em>cadab</em> is <em>cada</em>.
+                          </li>
+                          <li>
+                            The last letter of the hash of a region gives its positioning with respect to it's 
+                            parent region. eg. the region <em>cadab</em> is the top right quadrant of its 
+                            parent <em>cada</em>.
+                          </li>
+                        </ul>
+                      </p>
+                      <p>
+                        For any region, its neighbor will be either a sibling quadrant or a sub-quadrant of 
+                        it's parent's sibling. Below I have how to get the north and north west neighbor. 
+                        Same idea for the rest.
+                      </p>
+                      <code-formatter language="js">
+                        <div slot="code">
+                          // utility methods
+                          function parent(hash) { 
+                            return hash.slice(0, -1) 
+                          }
+                          function me(hash) {
+                            return hash.slice(-1)
+                          }
+
+                          function north(hash) {
+                            switch(me(hash)) {
+                              case 'a': return north(parent(hash)) + 'c'
+                              case 'b': return north(parent(hash)) + 'd'
+                              case 'c': return parent(hash) + 'a'
+                              case 'd': return parent(hash) + 'b'
+                            }
+                          }
+
+                          function nortWest(hash) {
+                            switch(me(hash)) {
+                              case 'a': return northWest(parent(hash)) + 'd'
+                              case 'b': return north(parent(hash)) + 'c'
+                              case 'c': return west(parent(hash)) + 'b'
+                              case 'd': return parent(hash) + 'a'
+                            }
+                          }
+
+                          // get hashes - all existing neighbors
+                          function neighbors(regionHash) {
+                            return [
+                              north(regionHash), south(regionHash), ...
+                            ];
+                          }
+                        </div>
+                      </code-formatter>
+                    </tab-content>
+                    <tab-content name="Advantages">
+                      <p><span class="hilight">Over Traditional Database</span></p>
+                      <p>
+                        Similar to the advantage that Quadtree and Hilbert Curve has. Even here we avoid full 
+                        table scans. The query is extremely performant as we are hashing out the regions. On a 
+                        large scale, the database can easily be distributed based on region hash.
+                      </p>
+                      <p><span class="hilight">Over Quadtree</span></p>
+                      <p>
+                        Since we are assigning hash to a region and then associating each POI to that hash 
+                        based on their location, this database can also take in dynamic POIs.
+                      </p>
+                      <p>
+                        Moreover hash index queries are inherently faster and updates to a POI (delete from 
+                        old region and adding to an new region) will be a breeze.
+                      </p>
+                      <p><span class="hilight">Over Hilbert Curve</span></p>
+                      <p>
+                        The range approximation and edge case limitations are non-existent here because of 
+                        the neighbor find intermediate step. Unlike <em>Hilbert Curve</em>, all the regions 
+                        around the query location are taken into account.
+                      </p>
+                    </tab-content>
+                  </tabbed-pane>
+                </tab-content>
+              </tabbed-pane>
+              <div>
+                <p><span class="btn" id="debug_btn">Debug On</span></p>
+              </div>
+              <div id="cool_holder">
+                <p><span class="btn" id="cool_btn">Cool On</span></p>
+                <p>Most of the sites I visited on Hilbert Curve had this animation on. Resistance is futile!</p>
+              </div>
+            </div>
+            <div slot="source">
+              <p>
+                Wikipedia for <a href="https://en.wikipedia.org/wiki/Location-based_service" 
+                target="_blank">Location Based Service</a>, <a target="_blank" 
+                href="https://en.wikipedia.org/wiki/Spatial_database" >Spatial Database</a>, 
+                <a href="https://en.wikipedia.org/wiki/Quadtree" target="_blank">Quadtree</a>, 
+                <a href="https://en.wikipedia.org/wiki/Geohash" target="_blank">Geohash</a>
+                <a href="https://en.wikipedia.org/wiki/Space-filling_curve" target="_blank">Space 
+                filling curve</a>.
+              </p>
+              <p>
+                Inspired from <a target="_blank" href="https://www.youtube.com/watch?v=OcUKFIjhKu0">here</a>.
+              </p>
+              <p>
+                This blog on <a target="_blank" 
+                href="http://blog.marcinchwedczuk.pl/iterative-algorithm-for-drawing-hilbert-curve">Hilbert 
+                Curve</a>
+              </p>
+              <p>
+                This blog on <a href="https://eugene-eeo.github.io/blog/geohashing.html" 
+                target="_blank">Geohash</a>.
+              </p>
+            </div>
+          </sketch-text>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

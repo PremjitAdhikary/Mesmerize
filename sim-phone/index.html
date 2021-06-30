@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" href="../favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Change This -->
+  <meta name="description" content="Simulation of a Phone.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://premjitadhikary.github.io/Mesmerize/sim-phone">
+  <meta property="og:title" content="The M-Phone">
+  <meta property="og:description" content="Simulation of a Phone.">
+  <meta property="og:image" content="https://premjitadhikary.github.io/Mesmerize/sim-phone/img/myCanvas.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://premjitadhikary.github.io/Mesmerize/sim-phone">
+  <meta name="twitter:title" content="The M-Phone">
+  <meta name="twitter:description" content="Simulation of a Phone.">
+  <meta name="twitter:image" content="https://premjitadhikary.github.io/Mesmerize/sim-phone/img/myCanvas.jpg">
+  <!-- Change This -->
+  <link rel="stylesheet" href="../appstyle.css">
+  <link rel="stylesheet" href="./compstyle.css">
+  <script src="../components/app-header.js" type="module"></script>
+  <script src="../components/sketch-text.js" type="module"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.3.1/p5.min.js"></script>
+  <script src="../components/tabbed-pane.js" type="module"></script>
+  <script src="../components/phone.js" type="module"></script>
+  <script src="../common/phone-app.js"></script>
+  <script src="./control.js" type="module"></script>
+  <script src="./apps/mes-tube.js"></script>
+  <script src="./apps/m-calendar.js"></script>
+  <script src="./apps/chan-quotes.js"></script>
+  <script src="./apps/mes-paint.js"></script>
+  <title>The M-Phone</title>
+</head>
+<body>
+  <div class="toplevel">
+    <app-header class="heading"></app-header>
+    <div class="topbody">
+      <div class="container-no-control">
+          <div class="sketch">
+            <div id="phone-holder" class="phone-holder">
+              <m-phone id="mes-phone" class="phone"></m-phone>
+            </div>
+          </div>
+
+          <sketch-text class="description-no-control" pageid="10035">
+            <div slot="content">
+              <p>
+                <em>M</em> for Mesmerize. This phone will mesmerize you!
+              </p>
+              <p>
+                I wish the above was true. In reality, <em>M</em> for Mock. This segment mocks up a smart 
+                phone architecture. I was reading up a bit on Android architecture and the way it's thought 
+                out is really an eye opener. <em>Long story Short - layer it up</em>.
+              </p>
+              <div class="layered-arch">
+                <div class="layer-1"><p>Applications</p></div>
+                <div class="layer-2"><p>Application Framework</p></div>
+                <div class="layer-3"><p>Android Runtime / Platform Libraries</p></div>
+                <div class="layer-4"><p>Linux Kernel</p></div>
+              </div>
+              <p>
+                <em>Inspiration Juices!!</em> Here I have apps (Calendar, MesTube, Anim Quotes, MesPaint) 
+                which is built on the Framework (extends PhoneApp). They utilize the Runtime / 
+                Libraries (Phone Services) to run. The app gets a handle to the view port to 
+                render on the <em>screen</em> - gets access to few basic services (memory, event 
+                bus, a loading screen and message flash modal).
+              </p>
+              <p>
+                To use the event bus, the apps register events and dispatch events. As a demo, 
+                <em>Calendar</em> and <em>MesTube</em> (and the phone) are registered to 
+                listen to the <em>Notify</em> event. On notification of this event, if on the Home page 
+                or running the listening apps, a message will be flashed. Click on below button to 
+                dispatch <em>Notify</em>.
+              </p>
+              <p><span id="ph-event" class="btn">Notify Apps</span></p>
+
+              <div class="sub-header"><p>The Apps Here</p></div>
+
+              <tabbed-pane>
+                <tab-content name="M-Calendar" selected>
+                  <p>
+                    First a simple app. A useless calendar which displays the current month and 
+                    highlights today. Doesn't even let you navigate to different months / years.
+                  </p>
+                </tab-content>
+                <tab-content name="MesTube">
+                  <p>
+                    Not <em>You</em>Tube, but <em>Mes</em>Tube. This will mess up your conception about 
+                    YouTube.
+                  </p>
+                  <p>
+                    Time to complicate things up. A lot of effort went into this. Has navigation to 
+                    the viewer page from list page and back (&larr;). Uses phone services to flash info 
+                    on the viewer page when <em>?</em> is clicked. The animations took a lot of time to 
+                    arrange.
+                  </p>
+                </tab-content>
+                <tab-content name="Anim Quotes">
+                  <p>A word play on <em>Anim</em> Quotes</p>
+                  <p>
+                    Simplest of the lot. Calls Animquotes to get a quote and flash it on the screen 
+                    using the phone service. The loading screen is put to use here while the rest 
+                    call is made. No UI elements here!
+                  </p>
+                </tab-content>
+              </tabbed-pane>
+              
+              <div class="sub-header"><p>MesPaint App</p></div>
+              <p>This app needed a section of its own.</p>
+              <p>
+                Yup, it's a <em>hat tip</em> towards the first ever digital paint program anybody has 
+                used. This was where I used the services - memory and event bus extensively. The tools 
+                for drawing, we all know them so I won't explain here - <em>test them out</em>.
+              </p>
+              <tabbed-pane>
+                <tab-content name="Results" selected>
+                  <p>Artwork created on MesPaint.</p>
+                  <tabbed-pane>
+                    <tab-content name="WFH Morning" selected>
+                      <p class="center"><img src="./img/mesArt_01.png" alt="Art 1"></p>
+                    </tab-content>
+                    <tab-content name="WFH Noon">
+                      <p class="center"><img src="./img/mesArt_02.png" alt="Art 2"></p>
+                    </tab-content>
+                    <tab-content name="WFH Night">
+                      <p class="center"><img src="./img/mesArt_03.png" alt="Art 3"></p>
+                    </tab-content>
+                  </tabbed-pane>
+                </tab-content>
+                <tab-content name="Architecture">
+                  <p>
+                    The core architecture is <em>Event Based</em> along with <em>State Management</em>.
+                  </p>
+                  <p class="center"><img src="./img/mesPaint-Components.png" alt="The Components"></p>
+                </tab-content>
+                <tab-content name="Tool Sequence Flow">
+                  <p>
+                    The below sequence shows the flow when a user starts drawing on the canvas. The flow is 
+                    the same for all drawing tools except <em>Color Picker</em>. That updates the color in 
+                    the state rather than the canvas.
+                  </p>
+                  <p class="center"><img src="./img/mesPaint-ToolFlow.png" alt="The Flow"></p>
+                  <p>
+                    When <em>Log Event</em> is dispatched, the listener updates <em>Canvas History</em> in 
+                    the store. This history is required for the <em>Undo Tool flow</em>.
+                  </p>
+                </tab-content>
+              </tabbed-pane>
+              <p>
+                <a href="https://eloquentjavascript.net/" target="_blank">Eloquent JavaScript</a> has 
+                a project which gave the algorithms for the tools. I improvised on them a bit.
+              </p>
+            </div>
+            <div slot="source">
+              <p>
+                <a href="https://github.com/RocktimSaikia/anime-chan" 
+                target="_blank">Animchan</a> for Quotes.
+              </p>
+            </div>
+          </sketch-text>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

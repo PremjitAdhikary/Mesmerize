@@ -21,6 +21,23 @@ a:hover, a:active {
   color: var(--secondary-color);
   opacity: 1;
 }
+
+.sub-header {
+  font-size: 1.2em;
+  font-weight: bold;
+  font-style: italic;
+  font-variant: small-caps;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: var(--primary-muted-color);
+}
+
+.hilight {
+  font-style: italic;
+  font-variant: small-caps;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: var(--primary-muted-color);
+}
+
 .toplevel {
   /* height: 97vh; */
   display: grid;

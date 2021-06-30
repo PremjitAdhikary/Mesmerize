@@ -20,7 +20,8 @@ class Pages {
         img: '/demo/img/preview.jpg',
         detail: 'Just a Demo.',
         tag: [],
-        internal: true
+        internal: true,
+        date: 'Oct 7 2019'
       },
       {
         id: 10000,
@@ -29,6 +30,7 @@ class Pages {
         img: '/clock/img/preview.jpg',
         detail: 'Animating a clock.',
         rank: 4,
+        date: 'Oct 7 2019',
         tag: [
           'clock',
           'maeda',
@@ -42,6 +44,7 @@ class Pages {
         img: '/lissajous-curve/img/preview.jpg',
         detail: 'Animation showing Lissajous curve adaptation!',
         rank: 4,
+        date: 'Oct 7 2019',
         tag: [
           'lissajous',
           'curve',
@@ -55,6 +58,7 @@ class Pages {
         img: '/lissajous-curve-table/img/preview.jpg',
         detail: 'Table of curves animating around based on Lissajous equation!',
         rank: 3,
+        date: 'Oct 7 2019',
         tag: [
           'lissajous',
           'curve',
@@ -68,6 +72,7 @@ class Pages {
         img: '/planetary-system/img/preview.jpg',
         detail: 'A simulation of a Planetary System in 2D.',
         rank: 4,
+        date: 'Oct 7 2019',
         tag: [
           'space',
           'circle'
@@ -80,6 +85,7 @@ class Pages {
         img: '/spirograph/img/preview.jpg',
         detail: 'A spiral with lot of circles!',
         rank: 4,
+        date: 'Oct 7 2019',
         tag: [
           'spiral',
           'circle',
@@ -94,6 +100,7 @@ class Pages {
         img: '/unit-circle/img/preview.jpg',
         detail: 'Trigonometry - Sine wave, Cosine wave and the Unit Circle.',
         rank: 4,
+        date: 'Oct 7 2019',
         tag: [
           'circle',
           'curve',
@@ -108,6 +115,7 @@ class Pages {
         img: '/fourier-series/img/preview.jpg',
         detail: 'Fourier Series - Square Waves, Sawtooth and others.',
         rank: 3,
+        date: 'Oct 7 2019',
         tag: [
           'fourier',
           'curve',
@@ -123,6 +131,7 @@ class Pages {
         img: '/fractal-circles/img/preview.jpg',
         detail: 'Fractal Circles - Recursion in Effect.',
         rank: 4,
+        date: 'Oct 7 2019',
         tag: [
           'fractal',
           'circle'
@@ -135,6 +144,7 @@ class Pages {
         img: '/more-fractals/img/preview.jpg',
         detail: 'More Fractal Shapes - Cantor Set, Vicsek Snowflake, Koch Curves and variations.',
         rank: 3,
+        date: 'Oct 7 2019',
         tag: [
           'cantor',
           'vicsek snowflake',
@@ -161,6 +171,7 @@ class Pages {
         img: '/sierpinski-fractals/img/preview.jpg',
         detail: 'Sierpinski Triangle, Gasket, Carpet, n-gons and n-flakes.',
         rank: 3,
+        date: 'Oct 7 2019',
         tag: [
           'sierpinski triangle',
           'sierpinski gasket',
@@ -184,6 +195,7 @@ class Pages {
         img: '/fractal-trees/img/preview.jpg',
         detail: 'Fractal Trees. L-Systems. Pythagorean Tree.',
         rank: 3,
+        date: 'Oct 7 2019',
         tag: [
           'fractal tree',
           'fractal',
@@ -195,7 +207,9 @@ class Pages {
           'phyllotaxis',
           'tree',
           'botany',
-          'spiral'
+          'spiral',
+          'turtle graphics',
+          'lindenmayer'
         ]
       },
       {
@@ -205,6 +219,7 @@ class Pages {
         img: '/the-matrix/img/preview.jpg',
         detail: 'The Matrix Rainfall!!',
         rank: 3,
+        date: 'Oct 7 2019',
         tag: [
           'matrix',
           'rainfall'
@@ -217,6 +232,7 @@ class Pages {
         img: '/prime-spirals/img/preview.jpg',
         detail: 'The Spirals that Prime numbers make.',
         rank: 3,
+        date: 'Oct 12 2019',
         tag: [
           'spiral',
           'prime'
@@ -229,6 +245,7 @@ class Pages {
         img: '/logo/img/preview.jpg',
         detail: 'Animate the Logo.',
         rank: 4,
+        date: 'Oct 12 2019',
         tag: [
           'logo',
           'original'
@@ -241,6 +258,7 @@ class Pages {
         img: '/sort-visualization/img/preview.jpg',
         detail: 'Visualize different sorting algorithms.',
         rank: 3,
+        date: 'Oct 20 2019',
         tag: [
           'sort',
           'algorithm',
@@ -256,6 +274,7 @@ class Pages {
         img: '/starfield/img/preview.jpg',
         detail: 'Into the Space!',
         rank: 4,
+        date: 'Oct 20 2019',
         tag: [
           'starfield',
           'space',
@@ -269,6 +288,7 @@ class Pages {
         img: '/fractal-spirograph/img/preview.jpg',
         detail: 'Fractals and Spirals!',
         rank: 4,
+        date: 'Oct 20 2019',
         tag: [
           'spiral',
           'circle',
@@ -283,6 +303,7 @@ class Pages {
         img: '/barnsley-fern/img/preview.jpg',
         detail: 'Barnsley fern is another fractal.',
         rank: 3,
+        date: 'Oct 20 2019',
         tag: [
           'barnsley fern',
           'fractal',
@@ -298,6 +319,7 @@ class Pages {
         img: '/rose/img/preview.jpg',
         detail: 'Mathematical Roses. Maurer Roses.',
         rank: 3,
+        date: 'Oct 27 2019',
         tag: [
           'rose',
           'curve',
@@ -311,6 +333,7 @@ class Pages {
         img: '/fractal-hands/img/preview.jpg',
         detail: 'Remember Doctor Strange?',
         rank: 3,
+        date: 'Oct 27 2019',
         tag: [
           'fractal',
           'hand',
@@ -324,6 +347,7 @@ class Pages {
         img: '/simulated-combat/img/preview.gif',
         detail: 'MCU with DC characters',
         rank: 1,
+        date: 'Dec 23 2019',
         tag: [
           'mcu',
           'combat',
@@ -339,6 +363,7 @@ class Pages {
         img: '/terrains/img/preview.jpg',
         detail: 'Terrain Generation.',
         rank: 3,
+        date: 'Dec 29 2019',
         tag: [
           'terrain',
           'perlin noise',
@@ -353,6 +378,7 @@ class Pages {
         img: '/kinematics/img/preview.jpg',
         detail: 'How does your arm move?',
         rank: 4,
+        date: 'Jan 15 2020',
         tag: [
           'kinematics'
         ]
@@ -364,6 +390,7 @@ class Pages {
         img: '/rorschach/img/preview.jpg',
         detail: 'Rorschach from Watchmen.',
         rank: 2,
+        date: 'Jan 15 2020',
         tag: [
           'rorschach',
           'perlin noise',
@@ -379,6 +406,7 @@ class Pages {
         img: '/game-of-life/img/preview.jpg',
         detail: 'Conways Game of Life.',
         rank: 3,
+        date: 'Jan 19 2020',
         tag: [
           'cellular automata',
           'sim',
@@ -392,6 +420,7 @@ class Pages {
         img: '/creatures/img/preview.jpg',
         detail: 'Electronic Creatures.',
         rank: 2,
+        date: 'Mar 1 2020',
         tag: [
           'creature',
           'sim',
@@ -405,6 +434,7 @@ class Pages {
         img: '/space-colonization/img/preview.jpg',
         detail: 'Generate Tree using Space Colonization Algorithm.',
         rank: 3,
+        date: 'Apr 18 2020',
         tag: [
           'colonization',
           'tree',
@@ -421,6 +451,7 @@ class Pages {
         img: '/special-effects/img/preview.jpg',
         detail: 'Effects of and on Environment.',
         rank: 3,
+        date: 'Oct 16 2020',
         tag: [
           'sim',
           'perlin noise'
@@ -433,6 +464,7 @@ class Pages {
         img: '/electronic-life/img/preview.jpg',
         detail: 'Electronic Creatures given some intelligence to survive in artificial world.',
         rank: 1,
+        date: 'Nov 16 2020',
         tag: [
           'sim',
           'creature',
@@ -447,11 +479,13 @@ class Pages {
         img: '/travelling-salesman-problem/img/preview.jpg',
         detail: 'Travelling Salesman Algorithm Visualizations.',
         rank: 3,
+        date: 'Dec 6 2020',
         tag: [
           'travelling salesman',
           'genetic algorithm',
           'algorithm',
-          'visualization'
+          'visualization',
+          'tsp'
         ]
       },
       {
@@ -461,7 +495,8 @@ class Pages {
         img: '/pigeon-parser/img/preview.jpg',
         detail: 'Pigeons and Chess.',
         tag: [],
-        internal: true
+        internal: true,
+        date: 'Mar 24 2021'
       },
       {
         id: 10030,
@@ -470,6 +505,7 @@ class Pages {
         img: '/sim-intel/img/preview.jpg',
         detail: 'IQ evolution across multiple generations.',
         rank: 2,
+        date: 'Mar 24 2021',
         tag: [
           'intelligence',
           'sim',
@@ -483,12 +519,14 @@ class Pages {
         img: '/tron-cycle/img/preview.jpg',
         detail: 'Light Cycle Battle Game.',
         rank: 1,
+        date: 'Mar 31 2021',
         tag: [
           'tron',
           'cycle',
           'light',
           'game',
-          'intelligence'
+          'intelligence',
+          'tonejs'
         ]
       },
       {
@@ -498,11 +536,13 @@ class Pages {
         img: '/holi-special/img/preview.jpg',
         detail: 'Celebrate with digital colors.',
         rank: 4,
+        date: 'Mar 31 2021',
         tag: [
           'holi',
           'festival',
           'color',
-          'original'
+          'original',
+          'art'
         ]
       },
       {
@@ -512,6 +552,7 @@ class Pages {
         img: '/mandelbrot-set/img/preview.jpg',
         detail: 'Mandelbrot Set, Julia Set.',
         rank: 3,
+        date: 'May 16 2021',
         tag: [
           'mandelbrot',
           'julia',
@@ -526,6 +567,7 @@ class Pages {
         img: '/lorenz-system/img/preview.jpg',
         detail: 'Lorenz Attractor and other strange attractors.',
         rank: 3,
+        date: 'May 16 2021',
         tag: [
           'lorenz',
           'chen',
@@ -538,7 +580,8 @@ class Pages {
           'sprott',
           'four wing',
           '3d',
-          'curve'
+          'curve',
+          'easycam'
         ]
       },
       {
@@ -548,7 +591,75 @@ class Pages {
         img: '/quadtree-visualization/img/preview.jpg',
         detail: 'Visualizing a Quadtree.',
         tag: [],
+        date: 'May 29 2021',
         internal: true
+      },
+      {
+        id: 10035,
+        name: 'The M-Phone',
+        url: '/sim-phone',
+        img: '/sim-phone/img/preview.jpg',
+        detail: 'Simulation of a Phone.',
+        rank: 2,
+        date: 'Jun 30 2021',
+        tag: [
+          'sim',
+          'phone',
+          'color',
+          'art'
+        ]
+      },
+      {
+        id: 10036,
+        name: 'L-Systems Revisited',
+        url: '/l-systems',
+        img: '/l-systems/img/preview.jpg',
+        detail: 'More L-Systems explored. Old ones revisited.',
+        rank: 3,
+        date: 'Jun 30 2021',
+        tag: [
+          'l system',
+          'turtle graphics',
+          'fractal',
+          'lindenmayer',
+          'pythagorean tree',
+          'phyllotaxis',
+          'pythagoras',
+          'cantor',
+          'koch',
+          'minkowski',
+          'tree',
+          'botany',
+          'sierpinski',
+          'curve',
+          'triangle',
+          'square',
+          'snowflake',
+          'circle',
+          'peano',
+          'hilbert',
+          'moore',
+          'dragon',
+          'levy'
+        ]
+      },
+      {
+        id: 10037,
+        name: 'Location Based Services',
+        url: '/location-based-services',
+        img: '/location-based-services/img/preview.jpg',
+        detail: 'Simulating a Location Based Service.',
+        rank: 2,
+        date: 'Jun 30 2021',
+        tag: [
+          'quadtree',
+          'sim',
+          'original',
+          'phone',
+          'hilbert',
+          'geohash',
+          'algorithm'
+        ]
       }
     ];
 
@@ -564,7 +675,7 @@ class Pages {
           }
         });
 
-    this._latest = [10027];
+    this._latest = [10035, 10036, 10037];
     this._allTags = this.allTags();
   }
 
@@ -576,6 +687,7 @@ class Pages {
       url: base+this._pagesMap[pageId].url,
       img: base+this._pagesMap[pageId].img,
       detail: this._pagesMap[pageId].detail,
+      date: this._pagesMap[pageId].date,
       tag: this._pagesMap[pageId].tag
     };
   }
@@ -654,7 +766,7 @@ class Pages {
           totalTags++;
         }
       )
-    );
+    );//console.log(Object.keys(tags));
     totalTags -= (Object.keys(tags).filter(k => tags[k].count == 1)).length;
     Object.keys(tags).forEach(
       k => tags[k].weight = tags[k].count == 1 ? 0 : totalTags/tags[k].count);

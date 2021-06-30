@@ -62,18 +62,10 @@ class QuadTree {
     let newHt = this.treeHeight/2;
     if (newWd < this.minQuadEdge || newHt < this.minQuadEdge) 
       return;
-    this.neTree = new QuadTree(this.x + newWd/2, this.y - newHt/2, newWd, newHt, 
-      this.capacity, this.onlyLeafItems);
-    this.neTree.minQuadEdge = this.minQuadEdge;
-    this.nwTree = new QuadTree(this.x - newWd/2, this.y - newHt/2, newWd, newHt, 
-      this.capacity, this.onlyLeafItems);
-    this.nwTree.minQuadEdge = this.minQuadEdge;
-    this.seTree = new QuadTree(this.x + newWd/2, this.y + newHt/2, newWd, newHt, 
-      this.capacity, this.onlyLeafItems);
-    this.seTree.minQuadEdge = this.minQuadEdge;
-    this.swTree = new QuadTree(this.x - newWd/2, this.y + newHt/2, newWd, newHt, 
-      this.capacity, this.onlyLeafItems);
-    this.swTree.minQuadEdge = this.minQuadEdge;
+    this.neTree = this.buildTree(this.x + newWd/2, this.y - newHt/2, newWd, newHt);
+    this.nwTree = this.buildTree(this.x - newWd/2, this.y - newHt/2, newWd, newHt);
+    this.seTree = this.buildTree(this.x + newWd/2, this.y + newHt/2, newWd, newHt);
+    this.swTree = this.buildTree(this.x - newWd/2, this.y + newHt/2, newWd, newHt);
     this.subdivided = true;
 
     if (this.onlyLeafItems) {
@@ -84,6 +76,15 @@ class QuadTree {
       }
       this.points = [];
     }
+  }
+
+  /**
+   * To enable proper subclassing. Otherwise this.subdivide() will keep creating sub quads of type QuadTree
+   */
+  buildTree(centerX, centerY, wd, ht) {
+    let qt = new QuadTree(centerX, centerY, wd, ht, this.capacity, this.onlyLeafItems);
+    qt.minQuadEdge = this.minQuadEdge;
+    return qt;
   }
 
   query(centerX, centerY, rangeWidth, rangeHeight) {

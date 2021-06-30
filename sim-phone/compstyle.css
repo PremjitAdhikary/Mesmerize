@@ -1,0 +1,55 @@
+.phone-holder {
+  width: 640px; 
+  height: 480px;
+}
+
+.phone {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.layered-arch {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  row-gap: 10px;
+}
+
+.layer-1, .layer-2, .layer-3, .layer-4 {
+  display: flex;
+  justify-self: center;
+  align-self: center;
+  border: 3px white solid;
+  width: 55%;
+  text-align: center;
+  border-radius: 10px;
+  justify-content: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgb(12, 46, 18);
+}
+
+.layer-1 {
+  background-color: rgb(253, 255, 145);
+}
+
+.layer-2 {
+  background-color: rgb(238, 213, 133);
+}
+
+.layer-3 {
+  background-color: rgb(160, 235, 245);
+}
+
+.layer-4 {
+  background-color: rgb(172, 211, 132);
+}
+
+.center {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+img {
+  max-width:99%;
+}

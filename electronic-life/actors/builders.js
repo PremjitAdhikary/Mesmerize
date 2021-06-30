@@ -163,7 +163,7 @@ const wormBuilder = (worm, huntEnergyCost, huntCriteria) => {
  * Eats worms - and very greedy about it. Any Worm it finds around, it consumes.
  */
 const greedyFishBuilder = (world, r, c) => {
-  let fish = new Fish(world, r, c, greedyWormBuilder);
+  let fish = new Fish(world, r, c, greedyFishBuilder);
 
   let huntEnergyCost = 3;
   let huntRange = 1;

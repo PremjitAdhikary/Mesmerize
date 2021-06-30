@@ -1,0 +1,47 @@
+.hash-table {
+  width: '100%';
+  display: grid;
+	grid-template-columns: 1fr 1fr 5fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.hash-neighbors {
+  width: '100%';
+  display: grid;
+	grid-template-columns: 1fr 1fr 1fr 5fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.hash-text {
+  grid-column-start: 3;
+  grid-row-end: span 2;
+  margin: 10px;
+}
+
+.hash-neighbor-text {
+  grid-column-start: 4;
+  grid-row-end: span 3;
+  margin: 10px;
+}
+
+.hash-sub {
+  border: white 1px solid;
+  text-align: center;
+  margin: 1px;
+}
+
+.img-c {
+  text-align: center;
+}
+
+/* phone styles */
+
+.phone-holder {
+  width: 100%; 
+}
+
+.phone {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}

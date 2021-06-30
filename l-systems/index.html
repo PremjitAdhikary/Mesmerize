@@ -1,0 +1,1212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" href="../favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Change This -->
+  <meta name="description" content="More L-Systems explored. Old ones revisited.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://premjitadhikary.github.io/Mesmerize/l-systems">
+  <meta property="og:title" content="L-Systems Revisited">
+  <meta property="og:description" content="More L-Systems explored. Old ones revisited.">
+  <meta property="og:image" content="https://premjitadhikary.github.io/Mesmerize/l-systems/img/myCanvas.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://premjitadhikary.github.io/Mesmerize/l-systems">
+  <meta name="twitter:title" content="L-Systems Revisited">
+  <meta name="twitter:description" content="More L-Systems explored. Old ones revisited.">
+  <meta name="twitter:image" content="https://premjitadhikary.github.io/Mesmerize/l-systems/img/myCanvas.jpg">
+  <!-- Change This -->
+  <link rel="stylesheet" href="../appstyle.css">
+  <link rel="stylesheet" href="./compstyle.css">
+  <script src="../components/app-header.js" type="module"></script>
+  <script src="../components/sketch-text.js" type="module"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.3.1/p5.min.js"></script>
+  <script src="./sketch.js"></script>
+  <script src="../common/sketch-colors.js"></script>
+  <script src="../common/utilities.js"></script>
+  <script src="../components/radio-input-group.js" type="module"></script>
+  <script src="../components/tabbed-pane.js" type="module"></script>
+  <script src="./control.js" type="module"></script>
+  <script src="./turtle-graphics.js"></script>
+  <script src="./repo.js"></script>
+  <script src="./lsystems.js"></script>
+  <title>L-Systems Revisited</title>
+</head>
+<body>
+  <div class="toplevel">
+    <app-header class="heading"></app-header>
+    <div class="topbody">
+      <div class="container">
+          <div class="sketch">
+            <div id="sketch-holder" class="sketch-holder clickable">
+            </div>
+          </div>
+
+          <div class="control">
+            <div class="control-container">
+              <div class="choice_main">
+                <radio-group id="choice_main">
+                  <radio-button value="coll" aria-checked="true">Collections</radio-button>
+                  <radio-button value="shp">Basic Shapes</radio-button>
+                  <radio-button value="crv">Curves</radio-button>
+                  <radio-button value="ntr">Nature</radio-button>
+                </radio-group>
+              </div>
+              
+              <div id="group_collection" class="choice_sub">
+                <radio-group id="choice_collection">
+                  <radio-button value="cnt" aria-checked="true">Cantor</radio-button>
+                  <radio-button value="kch">Koch</radio-button>
+                  <radio-button value="mnk">Minkowski</radio-button>
+                  <radio-button value="srp">Sierpinski</radio-button>
+                </radio-group>
+              </div>
+
+              <div id="group_cantor" class="choice_actual">
+                <radio-group id="choice_cantor">
+                  <radio-button value="1" aria-checked="true">Cantor Set</radio-button>
+                  <radio-button value="2">Asymmetric Cantor Set</radio-button>
+                  <radio-button value="3">H Tree</radio-button>
+                  <radio-button value="4">Vicsek Snowflake</radio-button>
+                </radio-group>
+              </div>
+
+              <div id="group_koch" class="choice_actual">
+                <radio-group id="choice_koch">
+                  <radio-button value="1" aria-checked="true">Curve</radio-button>
+                  <radio-button value="2">Curve Variant</radio-button>
+                  <radio-button value="3">Snowflake</radio-button>
+                  <radio-button value="4">Anti Snowflake</radio-button>
+                  <radio-button value="5">Cesaro Anti Snowflake</radio-button>
+                </radio-group>
+              </div>
+
+              <div id="group_mink" class="choice_actual">
+                <radio-group id="choice_mink">
+                  <radio-button value="1" aria-checked="true">Curve</radio-button>
+                  <radio-button value="2">Snowflake</radio-button>
+                  <radio-button value="3">Snowflake Variant A</radio-button>
+                  <radio-button value="4">Snowflake Variant B</radio-button>
+                </radio-group>
+              </div>
+
+              <div id="group_sier" class="choice_actual">
+                <radio-group id="choice_sier">
+                  <radio-button value="1" aria-checked="true">Triangle</radio-button>
+                  <radio-button value="2">Gasket</radio-button>
+                  <radio-button value="3">Carpet</radio-button>
+                  <radio-button value="4">Pentagon</radio-button>
+                  <radio-button value="5">Square</radio-button>
+                  <radio-button value="6">Curve</radio-button>
+                </radio-group>
+              </div>
+              
+              
+              <div id="group_shapes" class="choice_sub">
+                <radio-group id="choice_shapes">
+                  <radio-button value="tri" aria-checked="true">Triangles</radio-button>
+                  <radio-button value="qud">Quads</radio-button>
+                  <radio-button value="crc">Circles</radio-button>
+                  <radio-button value="nmd">Named</radio-button>
+                </radio-group>
+              </div>
+
+              <div id="group_tri" class="choice_actual">
+                <radio-group id="choice_tri">
+                  <radio-button value="1" aria-checked="true">Terdragon</radio-button>
+                  <radio-button value="2">Pattern 1</radio-button>
+                  <radio-button value="3">Pattern 1 Variant</radio-button>
+                </radio-group>
+              </div>
+
+              <div id="group_quad" class="choice_actual">
+                <radio-group id="choice_quad">
+                  <radio-button value="1" aria-checked="true">Pattern 1</radio-button>
+                  <radio-button value="2">Pattern 2</radio-button>
+                  <radio-button value="3">Pattern 3</radio-button>
+                </radio-group>
+              </div>
+
+              <div id="group_circ" class="choice_actual">
+                <radio-group id="choice_circ">
+                  <radio-button value="1" aria-checked="true">Pattern 1</radio-button>
+                  <radio-button value="2">Pattern 2</radio-button>
+                </radio-group>
+              </div>
+
+              <div id="group_shape_name" class="choice_actual">
+                <radio-group id="choice_shape_name">
+                  <radio-button value="1" aria-checked="true">Krishna Anklet</radio-button>
+                  <radio-button value="2">Crystal</radio-button>
+                  <radio-button value="3">Quad Snowflake</radio-button>
+                  <radio-button value="4">Kolam</radio-button>
+                </radio-group>
+              </div>
+
+              <div id="group_curve" class="choice_actual">
+                <radio-group id="choice_curve">
+                  <radio-button value="1" aria-checked="true">Peano</radio-button>
+                  <radio-button value="2">Hilbert</radio-button>
+                  <radio-button value="3">Moore</radio-button>
+                  <radio-button value="4">Dragon</radio-button>
+                  <radio-button value="5">Levy</radio-button>
+                  <radio-button value="6">Gosper</radio-button>
+                </radio-group>
+              </div>
+              
+              
+              <div id="group_nature" class="choice_sub">
+                <radio-group id="choice_nature">
+                  <radio-button value="stk" aria-checked="true">Sticks</radio-button>
+                  <radio-button value="bsh">Bushes</radio-button>
+                  <radio-button value="tr">Trees</radio-button>
+                  <radio-button value="phl">Phyllotaxis</radio-button>
+                </radio-group>
+              </div>
+
+              <div id="group_stick" class="choice_actual">
+                <radio-group id="choice_stick">
+                  <radio-button value="1" aria-checked="true">One</radio-button>
+                  <radio-button value="2">Two</radio-button>
+                  <radio-button value="3">Three</radio-button>
+                  <radio-button value="4">Four</radio-button>
+                  <radio-button value="5">Five</radio-button>
+                  <radio-button value="6">Six</radio-button>
+                </radio-group>
+              </div>
+
+              <div id="group_bush" class="choice_actual">
+                <radio-group id="choice_bush">
+                  <radio-button value="1" aria-checked="true">One</radio-button>
+                  <radio-button value="2">Two</radio-button>
+                  <radio-button value="3">Three</radio-button>
+                  <radio-button value="4">Four</radio-button>
+                  <radio-button value="5">Nest</radio-button>
+                </radio-group>
+              </div>
+
+              <div id="group_tree" class="choice_actual">
+                <radio-group id="choice_tree">
+                  <radio-button value="1" aria-checked="true">Binary Tree</radio-button>
+                  <radio-button value="2">Trinary Tree</radio-button>
+                  <radio-button value="3">Random Tree</radio-button>
+                  <radio-button value="4">Pythagorean Tree</radio-button>
+                </radio-group>
+              </div>
+
+              <div id="group_phyllotaxis" class="choice_actual">
+                <radio-group id="choice_phyllotaxis">
+                  <radio-button value="1" aria-checked="true">137.3&deg;</radio-button>
+                  <radio-button value="2">137.5&deg;</radio-button>
+                  <radio-button value="3">137.6&deg;</radio-button>
+                </radio-group>
+              </div>
+
+              <div class="launch">
+                <span class="btn" id="launchBtn">Launch System</span>
+              </div>
+
+            </div>
+          </div>
+
+          <sketch-text class="description" pageid="10036">
+            <div slot="content">
+              <p>Fractals <em>... again ...</em></p>
+              <p>
+                L-Systems was presented in a previous segment - <a href="../fractal-trees/" 
+                target="_blank">Fractal Trees</a>. But Paul Bourke's site had so many systems, I 
+                couldn't resist myself from animating them. My first plan was to add them to the 
+                previous segment. The Problem was the rules for some of the systems would not run 
+                on the <em>Turtle Graphics Engine</em> implemented there.
+              </p>
+              <p>
+                So in this segment, we have an enhanced <em>Turtle Graphics Engine</em> and 
+                running it to revisit a lot of fractals explored in this site before. Plus a few 
+                brand new ones. <em>50+ fractals presented here</em>. I will not go into <em>what 
+                is L-System</em> (previous segment has all that).
+              </p>
+              <p>
+                The enhanced <em>Turtle Graphics Engine</em> has the following features:
+                <ul>
+                  <li>
+                    The Alphabet Set from the previous engine: <strong>F X + - [ ]</strong>
+                    <ul>
+                      <li>
+                        F: Draw a unit and move forward. The engine implemented earlier would 
+                        draw a line. In this enhanced version, any shape can be passed into the 
+                        engine to be drawn as a unit. Here almost all of the units are lines. The 
+                        few which aren't will be highlighted in <em>The Systems</em> section.
+                      </li>
+                      <li>X: Dummy</li>
+                      <li>+: Rotate clockwise</li>
+                      <li>-: Rotate anticlockwise</li>
+                      <li>[: Save current state</li>
+                      <li>]: Restore previous state</li>
+                    </ul>
+                  </li>
+                  <li>
+                    New Alphabets added: <strong>f |</strong>
+                    <ul>
+                      <li>f: Move forward without drawing anything</li>
+                      <li>|: Reverse direction</li>
+                    </ul>
+                  </li>
+                  <li>
+                    Provision to add Custom Alphabets and corresponding commands. Rules to render 
+                    Sierpinski Triangle required a custom command.
+                  </li>
+                </ul>
+              </p>
+              <p>
+                The L-System is also enhanced to better rule the Turtle Graphics Engine. Along with 
+                the previous Rule, a chance Rule is also added where the replacement occurs only 
+                if the probability is satisfied (check out <em>Random Tree</em>).
+              </p>
+              <p><em>The Systems</em></p>
+
+
+              <tabbed-pane>
+
+                <tab-content name="Cantor Set" selected>
+                  <p>
+                    While the L-System for this was defined in the previous segment, the engine 
+                    back then was not capable to render it.
+                  </p>
+                  <tabbed-pane>
+                    <tab-content name="Original" selected>
+                      <ul>
+                        <li><em>Axiom:</em> F</li>
+                        <li>
+                          <em>Rules:</em>
+                          <ul>
+                            <li>F &rarr; F f F</li>
+                            <li>f &rarr; f f f</li>
+                          </ul>
+                        </li>
+                        <li><em>Angle: </em>0&deg;</li>
+                      </ul>
+                    </tab-content>
+                    <tab-content name="Asymmetric">
+                      <ul>
+                        <li><em>Axiom:</em> SF</li>
+                        <li>
+                          <em>Rules:</em>
+                          <ul>
+                            <li>F &rarr; F ( H f F )</li>
+                            <li>f &rarr; f f</li>
+                            <li>
+                              S is a custom command to initiate a stack to store lengths in the 
+                              engine
+                            </li>
+                            <li>
+                              H is a custom command to reduce the length set in engine by half
+                            </li>
+                            <li>
+                              ( is a custom command to store the current set length in the engine 
+                              into the stack
+                            </li>
+                            <li>
+                              ) is a custom command to restore the current length from the stack and set 
+                              it into the engine
+                            </li>
+                          </ul>
+                        </li>
+                        <li><em>Angle: </em>0&deg;</li>
+                      </ul>
+                    </tab-content>
+                    <tab-content name="H Tree">
+                      <ul>
+                        <li><em>Axiom:</em> [ F X ] [ | F X ]</li>
+                        <li>
+                          <em>Rules:</em>
+                          <ul>
+                            <li>F &rarr; F F</li>
+                            <li>X &rarr; [ + F F X ] [ - F F X ]</li>
+                          </ul>
+                        </li>
+                        <li><em>Angle: </em>90&deg;</li>
+                      </ul>
+                    </tab-content>
+                    <tab-content name="Vicsek Snowflake">
+                      <ul>
+                        <li><em>Axiom:</em> [ F X H ] [ - F X H ] X [ + F X H ] [ | F X H ]</li>
+                        <li>
+                          <em>Rules:</em>
+                          <ul>
+                            <li>F &rarr; F F F</li>
+                            <li>X &rarr; [ F X H ] [ - F X H ] X [ + F X H ] [ | F X H ]</li>
+                            <li>H &rarr; F H</li>
+                            <li>
+                              H is a custom command to draw a line half the length of F and move 
+                              forward
+                            </li>
+                          </ul>
+                        </li>
+                        <li><em>Angle: </em>90&deg;</li>
+                      </ul>
+                    </tab-content>
+                  </tabbed-pane>
+                </tab-content>
+
+                <tab-content name="Koch Fractals">
+                  <p>Notable fractals by Swedish Mathematician Helge von Koch.</p>
+                  <tabbed-pane>
+                    <tab-content name="Curve" selected>
+                      <ul>
+                        <li><em>Axiom:</em> F</li>
+                        <li>
+                          <em>Rules:</em>
+                          <ul>
+                            <li>F &rarr; F [ - F + + F ] f F</li>
+                            <li>f &rarr; f f f</li>
+                          </ul>
+                        </li>
+                        <li><em>Angle: </em>60&deg;</li>
+                      </ul>
+                    </tab-content>
+                    <tab-content name="Curve Variant">
+                      <ul>
+                        <li><em>Axiom:</em> F</li>
+                        <li>
+                          <em>Rules:</em>
+                          <ul>
+                            <li>F &rarr; F F + + F + + F + F + + F - F</li>
+                          </ul>
+                        </li>
+                        <li><em>Angle: </em>60&deg;</li>
+                      </ul>
+                    </tab-content>
+                    <tab-content name="Snowflake">
+                      <ul>
+                        <li><em>Axiom:</em> F - - F - - F</li>
+                        <li>
+                          <em>Rules:</em>
+                          <ul>
+                            <li>F &rarr; F + F - - F + F</li>
+                          </ul>
+                        </li>
+                        <li><em>Angle: </em>60&deg;</li>
+                      </ul>
+                    </tab-content>
+                    <tab-content name="Anti Snowflake">
+                      <ul>
+                        <li><em>Axiom:</em> F + + F + + F</li>
+                        <li>
+                          <em>Rules:</em>
+                          <ul>
+                            <li>F &rarr; F + F - - F + F</li>
+                          </ul>
+                        </li>
+                        <li><em>Angle: </em>60&deg;</li>
+                      </ul>
+                    </tab-content>
+                    <tab-content name="Cesaro Anti Snowflake">
+                      <ul>
+                        <li><em>Axiom:</em> F R F R F R F</li>
+                        <li>
+                          <em>Rules:</em>
+                          <ul>
+                            <li>F &rarr; F + F - - F + F</li>
+                            <li>R is a custom command to rotate by 90&deg;</li>
+                          </ul>
+                        </li>
+                        <li><em>Angle: </em>60&deg;</li>
+                      </ul>
+                    </tab-content>
+                  </tabbed-pane>
+                </tab-content>
+
+                <tab-content name="Minkowski Fractals">
+                  <p>Fractals by German Mathematician Hermann Minkowski.</p>
+                  <tabbed-pane>
+                    <tab-content name="Curve" selected>
+                      <ul>
+                        <li><em>Axiom:</em> F</li>
+                        <li>
+                          <em>Rules:</em>
+                          <ul>
+                            <li>F &rarr; F - F + F + F F - F - F + F</li>
+                          </ul>
+                        </li>
+                        <li><em>Angle: </em>90&deg;</li>
+                      </ul>
+                    </tab-content>
+                    <tab-content name="Snowflake">
+                      <ul>
+                        <li><em>Axiom:</em> F + F + F + F</li>
+                        <li>
+                          <em>Rules:</em>
+                          <ul>
+                            <li>F &rarr; F - F + F + F F - F - F + F</li>
+                          </ul>
+                        </li>
+                        <li><em>Angle: </em>90&deg;</li>
+                      </ul>
+                    </tab-content>
+                    <tab-content name="Snowflake Variant A">
+                      <p><em>Aka</em> Quadratic Koch Island</p>
+                      <ul>
+                        <li><em>Axiom:</em> F + F + F + F</li>
+                        <li>
+                          <em>Rules:</em>
+                          <ul>
+                            <li>
+                              F &rarr; F + F - F - F F F + F + F - F
+                            </li>
+                          </ul>
+                        </li>
+                        <li><em>Angle: </em>90&deg;</li>
+                      </ul>
+                      <p><img src="./img/mink sf v1.jpg" alt="Preview"></p>
+                      <p>Break out of what the rule does.</p>
+                    </tab-content>
+                    <tab-content name="Snowflake Variant B">
+                      <p><em>Aka</em> Quadratic Koch Island</p>
+                      <ul>
+                        <li><em>Axiom:</em> F + F + F + F</li>
+                        <li>
+                          <em>Rules:</em>
+                          <ul>
+                            <li>
+                              F &rarr; F - F F + F F + F + F - F - F F + F + F - F - F F - F F + F
+                            </li>
+                          </ul>
+                        </li>
+                        <li><em>Angle: </em>90&deg;</li>
+                      </ul>
+                      <p><img src="./img/mink sf v2.jpg" alt="Preview"></p>
+                      <p>Break out of what the rule does.</p>
+                    </tab-content>
+                  </tabbed-pane>
+                </tab-content>
+
+                <tab-content name="Sierpinski Fractals">
+                  <p>Named after Polish Mathematician Waclaw Sierpinski.</p>
+                  <tabbed-pane>
+                    <tab-content name="Triangle" selected>
+                      <ul>
+                        <li><em>Axiom:</em> F - G - G</li>
+                        <li>
+                          <em>Rules:</em>
+                          <ul>
+                            <li>G &rarr; G G</li>
+                            <li>F &rarr; F - G + F + G - F</li>
+                            <li>G is a custom command to draw a line and move forward</li>
+                          </ul>
+                        </li>
+                        <li><em>Angle: </em>120&deg;</li>
+                      </ul>
+                    </tab-content>
+                    <tab-content name="Gasket">
+                      <ul>
+                        <li><em>Axiom:</em> F</li>
+                        <li>
+                          <em>Rules:</em>
+                          <ul>
+                            <li>F &rarr; G - F - G</li>
+                            <li>G &rarr; F + G + F</li>
+                            <li>G is a custom command to draw a line and move forward</li>
+                          </ul>
+                        </li>
+                        <li><em>Angle: </em>60&deg;</li>
+                      </ul>
+                    </tab-content>
+                    <tab-content name="Carpet">
+                      <ul>
+                        <li><em>Axiom:</em> A + B + A + B</li>
+                        <li>
+                          <em>Rules:</em>
+                          <ul>
+                            <li>
+                              A &rarr; A [ + B + A + B ] A [ + B + A + B ] A [ + B + A + B ]
+                            </li>
+                            <li>B &rarr; F A [ + B + A + B ] F</li>
+                            <li>F &rarr; F F F</li>
+                            <li>A and B are custom commands to draw a line and move forward</li>
+                          </ul>
+                        </li>
+                        <li><em>Angle: </em>90&deg;</li>
+                      </ul>
+                    </tab-content>
+                    <tab-content name="Pentagon">
+                      <ul>
+                        <li><em>Axiom:</em> F + + F + + F + + F + + F</li>
+                        <li>
+                          <em>Rules:</em>
+                          <ul>
+                            <li>F &rarr; F + + F + + F | F - F + + F</li>
+                          </ul>
+                        </li>
+                        <li><em>Angle: </em>36&deg;</li>
+                      </ul>
+                    </tab-content>
+                    <tab-content name="Square">
+                      <ul>
+                        <li><em>Axiom:</em> F + X F + F + X F</li>
+                        <li>
+                          <em>Rules:</em>
+                          <ul>
+                            <li>F &rarr; X F - F + F - X F + F + X F - F + F - X</li>
+                          </ul>
+                        </li>
+                        <li><em>Angle: </em>90&deg;</li>
+                      </ul>
+                    </tab-content>
+                    <tab-content name="Curve">
+                      <p>A space filling Curve.</p>
+                      <ul>
+                        <li><em>Axiom:</em> F - - X F - - F - - X F</li>
+                        <li>
+                          <em>Rules:</em>
+                          <ul>
+                            <li>X &rarr; X F + G + X F - - F - - X F + G + X</li>
+                            <li>G is a custom command to draw a line and move forward</li>
+                          </ul>
+                        </li>
+                        <li><em>Angle: </em>45&deg;</li>
+                      </ul>
+                    </tab-content>
+                  </tabbed-pane>
+                </tab-content>
+
+                <tab-content name="Basic Shapes Patterns">
+                  <p>
+                    A Collection of patterns formed from basic shapes. 
+                  </p>
+                  <tabbed-pane>
+                    <tab-content name="Terdragon" selected>
+                      <p>From Dragon Curve family.</p>
+                      <ul>
+                        <li><em>Axiom:</em> F</li>
+                        <li>
+                          <em>Rules:</em>
+                          <ul>
+                            <li>F &rarr; F - F + F</li>
+                          </ul>
+                        </li>
+                        <li><em>Angle: </em>120&deg;</li>
+                      </ul>
+                    </tab-content>
+                    <tab-content name="Triangles">
+                      <ul>
+                        <li><em>Axiom:</em> O F + F + F</li>
+                        <li>
+                          <em>Rules:</em>
+                          <ul>
+                            <li>F &rarr; F - F + F</li>
+                            <li>O is a custom command to mark the first triangle.</li>
+                          </ul>
+                        </li>
+                        <li><em>Angle: </em>120&deg;</li>
+                      </ul>
+                      <p>
+                        The alternate version is the same, but shows the growth of the mass.
+                      </p>
+                    </tab-content>
+                    <tab-content name="Quad Pattern 1">
+                      <ul>
+                        <li><em>Axiom:</em> F + F + F + F</li>
+                        <li>
+                          <em>Rules:</em>
+                          <ul>
+                            <li>F &rarr; F F + F - F + F + F F</li>
+                          </ul>
+                        </li>
+                        <li><em>Angle: </em>90&deg;</li>
+                      </ul>
+                    </tab-content>
+                    <tab-content name="Quad Pattern 2">
+                      <ul>
+                        <li><em>Axiom:</em> F + F + F + F</li>
+                        <li>
+                          <em>Rules:</em>
+                          <ul>
+                            <li>F &rarr; F F + F + F + F + F + F - F</li>
+                          </ul>
+                        </li>
+                        <li><em>Angle: </em>90&deg;</li>
+                      </ul>
+                    </tab-content>
+                    <tab-content name="Quad Pattern 3">
+                      <ul>
+                        <li><em>Axiom:</em> F + F + F + F</li>
+                        <li>
+                          <em>Rules:</em>
+                          <ul>
+                            <li>F &rarr; F F - F - F - F - F F</li>
+                          </ul>
+                        </li>
+                        <li><em>Angle: </em>90&deg;</li>
+                      </ul>
+                    </tab-content>
+                    <tab-content name="Krishna Anklets">
+                      <ul>
+                        <li><em>Axiom:</em> A - A</li>
+                        <li>
+                          <em>Rules:</em>
+                          <ul>
+                            <li>A &rarr; A F A - A F A</li>
+                            <li>
+                              A is a custom complex command where a line is drawn and moved 
+                              forward, then rotate anticlockwise by 90&deg;, followed by 
+                              another line drawn and moved forward.
+                            </li>
+                          </ul>
+                        </li>
+                        <li><em>Angle: </em>90&deg;</li>
+                      </ul>
+                    </tab-content>
+                    <tab-content name="Crystal">
+                      <ul>
+                        <li><em>Axiom:</em> F + F + F + F</li>
+                        <li>
+                          <em>Rules:</em>
+                          <ul>
+                            <li>F &rarr; F F + F + + F + F</li>
+                          </ul>
+                        </li>
+                        <li><em>Angle: </em>90&deg;</li>
+                      </ul>
+                    </tab-content>
+                    <tab-content name="Quadratic Snowflake">
+                      <ul>
+                        <li><em>Axiom:</em> F F + F F + F F + F F</li>
+                        <li>
+                          <em>Rules:</em>
+                          <ul>
+                            <li>F &rarr; F + F - F - F + F</li>
+                          </ul>
+                        </li>
+                        <li><em>Angle: </em>90&deg;</li>
+                      </ul>
+                    </tab-content>
+                    <tab-content name="Kolam">
+                      <p>Found in India.</p>
+                      <ul>
+                        <li><em>Axiom:</em> - D - - D</li>
+                        <li>
+                          <em>Rules:</em>
+                          <ul>
+                            <li>
+                              A &rarr; F + + F F F F - - F - - F F F F + + F + + F F F F - - F
+                            </li>
+                            <li>
+                              B &rarr; F - - F F F F + + F + + F F F F - - F - - F F F F + + F
+                            </li>
+                            <li>C &rarr; B F A - - B F A</li>
+                            <li>D &rarr; C F C - - C F C</li>
+                            <li>A, B, C and D are custom commands as Dummies.</li>
+                          </ul>
+                        </li>
+                        <li><em>Angle: </em>45&deg;</li>
+                      </ul>
+                    </tab-content>
+                    <tab-content name="Circle Pattern 1">
+                      <ul>
+                        <li><em>Axiom:</em> S</li>
+                        <li>
+                          <em>Rules:</em>
+                          <ul>
+                            <li>F &rarr; [ F ] ( H [ f f F ] [ | f f F ] )</li>
+                            <li>
+                              S is a custom command to initiate a stack to store lengths in the 
+                              engine.
+                            </li>
+                            <li>
+                              H is a custom command to reduce the length set in engine by half.
+                            </li>
+                            <li>
+                              ( is a custom command to store the current set length in the engine 
+                              into the stack.
+                            </li>
+                            <li>
+                              ) is a custom command to restore the current length from the stack and set 
+                              it into the engine.
+                            </li>
+                            <li>
+                              Instead of a line unit, F draws a circle of radius of current length 
+                              set in the system.
+                            </li>
+                          </ul>
+                        </li>
+                        <li><em>Angle: </em>0&deg;</li>
+                      </ul>
+                    </tab-content>
+                    <tab-content name="Circle Pattern 2">
+                      <ul>
+                        <li><em>Axiom:</em> S</li>
+                        <li>
+                          <em>Rules:</em>
+                          <ul>
+                            <li>
+                              F &rarr; [ F ] ( H [ f f F ] [ + f f F ] [ - f f F ] [ | f f F ] )
+                            </li>
+                            <li>
+                              S is a custom command to initiate a stack to store lengths in the 
+                              engine.
+                            </li>
+                            <li>
+                              H is a custom command to reduce the length set in engine by half.
+                            </li>
+                            <li>
+                              ( is a custom command to store the current set length in the engine 
+                              into the stack.
+                            </li>
+                            <li>
+                              ) is a custom command to restore the current length from the stack and set 
+                              it into the engine.
+                            </li>
+                            <li>
+                              Instead of a line unit, F draws a circle of radius of current length 
+                              set in the system.
+                            </li>
+                          </ul>
+                        </li>
+                        <li><em>Angle: </em>90&deg;</li>
+                      </ul>
+                    </tab-content>
+                  </tabbed-pane>
+                </tab-content>
+
+                <tab-content name="Notable Curves">
+                  <p>Collection of known curves.</p>
+                  <tabbed-pane>
+                    <tab-content name="Peano" selected>
+                      <p>By Italian Mathematician Giuseppe Peano. A space filling Curve.</p>
+                      <ul>
+                        <li><em>Axiom:</em> X</li>
+                        <li>
+                          <em>Rules:</em>
+                          <ul>
+                            <li>X &rarr; X F Y F X + F + Y F X F Y - F - X F Y F X</li>
+                            <li>Y &rarr; Y F X F Y - F - X F Y F X + F + Y F X F Y</li>
+                            <li>Y is a custom command as a Dummy.</li>
+                          </ul>
+                        </li>
+                        <li><em>Angle: </em>90&deg;</li>
+                      </ul>
+                    </tab-content>
+                    <tab-content name="Hilbert">
+                      <p>By German Mathematician David Hilbert. A space filling Curve.</p>
+                      <ul>
+                        <li><em>Axiom:</em> X</li>
+                        <li>
+                          <em>Rules:</em>
+                          <ul>
+                            <li>X &rarr; - Y F + X F X + F Y -</li>
+                            <li>Y &rarr; + X F - Y F Y - F X +</li>
+                            <li>Y is a custom command as a Dummy.</li>
+                          </ul>
+                        </li>
+                        <li><em>Angle: </em>90&deg;</li>
+                      </ul>
+                    </tab-content>
+                    <tab-content name="Moore">
+                      <p>Named after American Mathematician E. H. Moore. A space filling Curve.</p>
+                      <ul>
+                        <li><em>Axiom:</em> L F L + F + L F L</li>
+                        <li>
+                          <em>Rules:</em>
+                          <ul>
+                            <li>L &rarr; - R F + L F L + F R -</li>
+                            <li>R &rarr; + L F - R F R - F L +</li>
+                            <li>L and R are custom commands as Dummies.</li>
+                          </ul>
+                        </li>
+                        <li><em>Angle: </em>90&deg;</li>
+                      </ul>
+                    </tab-content>
+                    <tab-content name="Dragon">
+                      <ul>
+                        <li><em>Axiom:</em> F X</li>
+                        <li>
+                          <em>Rules:</em>
+                          <ul>
+                            <li>X &rarr; X + Y F +</li>
+                            <li>Y &rarr; - F X - Y</li>
+                            <li>Y is a custom command as a Dummy.</li>
+                          </ul>
+                        </li>
+                        <li><em>Angle: </em>90&deg;</li>
+                      </ul>
+                    </tab-content>
+                    <tab-content name="Levy">
+                      <p>Named after French Mathematician Paul Levy.</p>
+                      <ul>
+                        <li><em>Axiom:</em> F</li>
+                        <li>
+                          <em>Rules:</em>
+                          <ul>
+                            <li>F &rarr; - F + + F -</li>
+                          </ul>
+                        </li>
+                        <li><em>Angle: </em>45&deg;</li>
+                      </ul>
+                    </tab-content>
+                    <tab-content name="Gosper">
+                      <p>Named after American Mathematician Bill Gosper.</p>
+                      <ul>
+                        <li><em>Axiom:</em> R F</li>
+                        <li>
+                          <em>Rules:</em>
+                          <ul>
+                            <li>F &rarr; F - G - - G + F + + F F + G -</li>
+                            <li>G &rarr; + F - G G - - G - F + + F + G</li>
+                            <li>G is a custom command to draw a line and move forward.</li>
+                            <li>R is a custom command to mark the first line.</li>
+                          </ul>
+                        </li>
+                        <li><em>Angle: </em>60&deg;</li>
+                      </ul>
+                    </tab-content>
+                  </tabbed-pane>
+                </tab-content>
+
+                <tab-content name="Sticks">
+                  <p>Stick like fractals.</p>
+                  <tabbed-pane>
+                    <tab-content name="One" selected>
+                      <ul>
+                        <li><em>Axiom:</em> X</li>
+                        <li>
+                          <em>Rules:</em>
+                          <ul>
+                            <li>F &rarr; F F</li>
+                            <li>X &rarr; - F [ + F ] [ - - - X ] + F - F [ + + + + X ] - X</li>
+                          </ul>
+                        </li>
+                        <li><em>Angle: </em>8&deg;</li>
+                      </ul>
+                    </tab-content>
+                    <tab-content name="Two">
+                      <ul>
+                        <li><em>Axiom:</em> X</li>
+                        <li>
+                          <em>Rules:</em>
+                          <ul>
+                            <li>F &rarr; F F</li>
+                            <li>X &rarr; F - [ [ X ] + X ] + F [ + F X ] - X</li>
+                          </ul>
+                        </li>
+                        <li><em>Angle: </em>22.5&deg;</li>
+                      </ul>
+                    </tab-content>
+                    <tab-content name="Three">
+                      <ul>
+                        <li><em>Axiom:</em> X</li>
+                        <li>
+                          <em>Rules:</em>
+                          <ul>
+                            <li>F &rarr; F F</li>
+                            <li>X &rarr; F [ + X ] F [ - X ] + X</li>
+                          </ul>
+                        </li>
+                        <li><em>Angle: </em>20&deg;</li>
+                      </ul>
+                    </tab-content>
+                    <tab-content name="Four">
+                      <ul>
+                        <li><em>Axiom:</em> X</li>
+                        <li>
+                          <em>Rules:</em>
+                          <ul>
+                            <li>F &rarr; F F</li>
+                            <li>X &rarr; F + [ [ X ] - X ] - F [ - F X ] + X</li>
+                          </ul>
+                        </li>
+                        <li><em>Angle: </em>25&deg;</li>
+                      </ul>
+                    </tab-content>
+                    <tab-content name="Five">
+                      <ul>
+                        <li><em>Axiom:</em> X</li>
+                        <li>
+                          <em>Rules:</em>
+                          <ul>
+                            <li>F &rarr; F F</li>
+                            <li>
+                              X &rarr; 
+                              F + [ - F - X F - X ] [ + F F ] [ - - X F [ + X ] ] [ + + F - X ]
+                            </li>
+                          </ul>
+                        </li>
+                        <li><em>Angle: </em>20&deg;</li>
+                      </ul>
+                    </tab-content>
+                    <tab-content name="Six">
+                      <ul>
+                        <li><em>Axiom:</em> X</li>
+                        <li>
+                          <em>Rules:</em>
+                          <ul>
+                            <li>F &rarr; F X [ F X [ + X F ] ]</li>
+                            <li>
+                              X &rarr; F F [ + X Z + + X - F [ + Z X ] ] [ - X + + F - X ]
+                            </li>
+                            <li>Z &rarr; [ + F - X - F ] [ + + Z X ]</li>
+                            <li>Z is a custom command as Dummy</li>
+                          </ul>
+                        </li>
+                        <li><em>Angle: </em>18&deg;</li>
+                      </ul>
+                    </tab-content>
+                  </tabbed-pane>
+                </tab-content>
+
+                <tab-content name="Bushes">
+                  <p>Bush like fractals.</p>
+                  <tabbed-pane>
+                    <tab-content name="One" selected>
+                      <ul>
+                        <li><em>Axiom:</em> F</li>
+                        <li>
+                          <em>Rules:</em>
+                          <ul>
+                            <li>F &rarr; F [ + F ] F [ - F ] F</li>
+                          </ul>
+                        </li>
+                        <li><em>Angle: </em>25.7&deg;</li>
+                      </ul>
+                    </tab-content>
+                    <tab-content name="Two">
+                      <ul>
+                        <li><em>Axiom:</em> F</li>
+                        <li>
+                          <em>Rules:</em>
+                          <ul>
+                            <li>F &rarr; F F - [ X Y ] + [ X Y ]</li>
+                            <li>X &rarr; + F Y</li>
+                            <li>Y &rarr; - F X</li>
+                            <li>Y is a custom command as Dummy</li>
+                          </ul>
+                        </li>
+                        <li><em>Angle: </em>18&deg;</li>
+                      </ul>
+                    </tab-content>
+                    <tab-content name="Three">
+                      <ul>
+                        <li><em>Axiom:</em> F</li>
+                        <li>
+                          <em>Rules:</em>
+                          <ul>
+                            <li>F &rarr; F [ + F ] F [ - F ] [ F ]</li>
+                          </ul>
+                        </li>
+                        <li><em>Angle: </em>20&deg;</li>
+                      </ul>
+                    </tab-content>
+                    <tab-content name="Four">
+                      <ul>
+                        <li><em>Axiom:</em> F</li>
+                        <li>
+                          <em>Rules:</em>
+                          <ul>
+                            <li>F &rarr; F F + [ + F - F - F ] - [ - F + F + F ]</li>
+                          </ul>
+                        </li>
+                        <li><em>Angle: </em>22.5&deg;</li>
+                      </ul>
+                    </tab-content>
+                    <tab-content name="Nest">
+                      <ul>
+                        <li><em>Axiom:</em> X</li>
+                        <li>
+                          <em>Rules:</em>
+                          <ul>
+                            <li>F &rarr; F X F [ - F [ - F X ] + F X ]</li>
+                            <li>X &rarr; F + + F</li>
+                          </ul>
+                        </li>
+                        <li><em>Angle: </em>18&deg;</li>
+                      </ul>
+                    </tab-content>
+                  </tabbed-pane>
+                </tab-content>
+
+                <tab-content name="Trees">
+                  <p>Collection of trees.</p>
+                  <tabbed-pane>
+                    <tab-content name="Binary" selected>
+                      <ul>
+                        <li><em>Axiom:</em> S F</li>
+                        <li>
+                          <em>Rules:</em>
+                          <ul>
+                            <li>F &rarr; F ( H [ - F ] [ + F ] )</li>
+                            <li>
+                              S is a custom command to initiate a stack to store lengths in the 
+                              engine
+                            </li>
+                            <li>
+                              H is a custom command to reduce the length set in engine to 60%
+                            </li>
+                            <li>
+                              ( is a custom command to store the current set length in the engine 
+                              into the stack
+                            </li>
+                            <li>
+                              ) is a custom command to restore the current length from the stack and set 
+                              it into the engine
+                            </li>
+                          </ul>
+                        </li>
+                        <li><em>Angle: </em>45&deg;</li>
+                      </ul>
+                    </tab-content>
+                    <tab-content name="Trinary">
+                      <ul>
+                        <li><em>Axiom:</em> SF</li>
+                        <li>
+                          <em>Rules:</em>
+                          <ul>
+                            <li>F &rarr; F ( H [ - F ] [ F ] [ + F ] )</li>
+                            <li>
+                              S is a custom command to initiate a stack to store lengths in the 
+                              engine
+                            </li>
+                            <li>
+                              H is a custom command to reduce the length set in engine to 40%
+                            </li>
+                            <li>
+                              ( is a custom command to store the current set length in the engine 
+                              into the stack
+                            </li>
+                            <li>
+                              ) is a custom command to restore the current length from the stack and set 
+                              it into the engine
+                            </li>
+                          </ul>
+                        </li>
+                        <li><em>Angle: </em>60&deg;</li>
+                      </ul>
+                    </tab-content>
+                    <tab-content name="Random">
+                      <p>
+                        Placement of branches is at random. Used the Chance Rule of the L-System.
+                      </p>
+                      <ul>
+                        <li><em>Axiom:</em> S F Y</li>
+                        <li>
+                          <em>Rules:</em>
+                          <ul>
+                            <li>Y &rarr; ( H [ - - X ] [ - X ] [ X ] [ + X ] [ + + X ] )</li>
+                            <li>X &rarr; F Y (75% chance to replace)</li>
+                            <li>
+                              S is a custom command to initiate a stack to store lengths in the 
+                              engine
+                            </li>
+                            <li>
+                              H is a custom command to reduce the length set in engine to 40%
+                            </li>
+                            <li>
+                              ( is a custom command to store the current set length in the engine 
+                              into the stack
+                            </li>
+                            <li>
+                              ) is a custom command to restore the current length from the stack and set 
+                              it in to the engine
+                            </li>
+                            <li>Y is a custom command as a Dummy</li>
+                          </ul>
+                        </li>
+                        <li><em>Angle: </em>25&deg;</li>
+                      </ul>
+                    </tab-content>
+                    <tab-content name="Pythagorean">
+                      <ul>
+                        <li><em>Axiom:</em> S F X</li>
+                        <li>
+                          <em>Rules:</em>
+                          <ul>
+                            <li>
+                              X &rarr; 
+                              f [ - - f ( H + + + f - - F X ) ] [ + + f ( H - - - f + + F X ) ]
+                            </li>
+                            <li>
+                              S is a custom command to initiate a stack to store lengths in the 
+                              engine
+                            </li>
+                            <li>
+                              H is a custom command to reduce the length set in engine to L &times; 
+                              sin(45&deg;). <em>Why?</em> Using Law of sines to find the side of 
+                              the next square.
+                            </li>
+                            <li>
+                              ( is a custom command to store the current set length in the engine 
+                              into the stack
+                            </li>
+                            <li>
+                              ) is a custom command to restore the current length from the stack 
+                              and set it into the engine
+                            </li>
+                            <li>
+                              Instead of a line unit, F draws a square of side double the current 
+                              length set in the system.
+                            </li>
+                          </ul>
+                        </li>
+                        <li><em>Angle: </em>45&deg;</li>
+                      </ul>
+                    </tab-content>
+                  </tabbed-pane>
+                </tab-content>
+
+                <tab-content name="Phyllotaxis">
+                  <p>The same rules applied to 3 variants with different angles.</p>
+                  <ul>
+                    <li><em>Axiom:</em> S [ D ] X</li>
+                    <li>
+                      <em>Rules:</em>
+                      <ul>
+                        <li>
+                          X &rarr; + [ D ] X + [ D ] X &nbsp;&nbsp;&nbsp;&nbsp; 
+                          <small><em>(the power of POWER)</em></small>
+                        </li>
+                        <li>
+                          S is a custom command to initiate a stack to store lengths in the 
+                          engine
+                        </li>
+                        <li>
+                          D is a custom complex command to draw a circle at a distance d such that 
+                          d = l * &Sqrt;(n + 1), where l is the current length stored in the system 
+                          and n is the number of petals already drawn before.
+                        </li>
+                      </ul>
+                    </li>
+                    <li><em>Angle: </em>&isin; {137.3&deg;, 137.5&deg;, 137.6&deg;}</li>
+                  </ul>
+                </tab-content>
+
+              </tabbed-pane>
+
+
+              <br>
+            </div>
+            <div slot="source">
+              <p>
+                Paul Bourke's <a href="http://paulbourke.net/fractals/lsys/" target="_blank">site
+              </a>.</p>
+              <p>
+                Fractals from <a target="_blank"
+                href="https://en.wikipedia.org/wiki/List_of_fractals_by_Hausdorff_dimension">
+                wikipedia</a>.
+              </p>
+              <p>
+                Blog in <a target="_blank"
+                href="https://www.vexlio.com/blog/drawing-simple-organics-with-l-systems/">vexlio
+                </a>.
+              </p>
+              <p>
+                Blog in <a target="_blank"
+                href="https://www.houdinikitchen.net/2019/12/21/how-to-create-l-systems/" 
+                >houdinikitchen</a>.
+              </p>
+            </div>
+          </sketch-text>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

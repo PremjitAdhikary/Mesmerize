@@ -42,13 +42,13 @@ function draw() {
 }
 
 function mouseDragged() {
-  if (choice == CHOICE_RIPPLE && ripple_drag) {
+  if (mouseInCanvas() && choice == CHOICE_RIPPLE && ripple_drag) {
     effects.ripple(mouseX, mouseY);
   }
 }
 
 function mouseClicked() {
-  if (choice == CHOICE_FIRE && fire_burner) {
+  if (mouseInCanvas() && choice == CHOICE_FIRE && fire_burner) {
     effects.burn(mouseX, mouseY, burn_size);
   }
 }

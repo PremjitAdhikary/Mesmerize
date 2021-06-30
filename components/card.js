@@ -11,6 +11,7 @@ import { pages } from '../common/pages.js';
       const pageUrl = pages.getPageById(this.id).url;
       const pageDetail = pages.getPageById(this.id).detail;
       const pageImg = pages.getPageById(this.id).img;
+      const pageDate = pages.getPageById(this.id).date;
   
       var shadow = this.attachShadow({ mode: 'open' });
       shadow.innerHTML = `
@@ -37,13 +38,22 @@ import { pages } from '../common/pages.js';
         .mid {
           text-align: center;
         }
+
+        .right {
+          float: right;
+          font-size: 0.8em;
+          font-style: italic;
+        }
       </style>
 
       <div class="container">
         <div class="header">${pageName}</div>
         <p class="mid"><a href=${pageUrl}><img src=${pageImg} alt="Preview"></a></p>
         <p>${pageDetail}</p>
-        <p><a href=${pageUrl}>Show Me</a></p>
+        <p>
+          <span><a href=${pageUrl}>Show Me</a></span>
+          <span class="right">${pageDate}</span>
+        </p>
       </div>
       `;
     }

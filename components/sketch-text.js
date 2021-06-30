@@ -16,6 +16,8 @@ import { pages } from '../common/pages.js';
       } else {
         pageName = !pages.getPageById(pageid) ? 'Add Valid PageId' : pages.getPageById(pageid).name;
       }
+
+      let pageDate = !pageid || !pages.getPageById(pageid) ? '' : pages.getPageById(pageid).date;
   
       var shadow = this.attachShadow({ mode: 'open' });
       shadow.innerHTML = `
@@ -30,10 +32,16 @@ import { pages } from '../common/pages.js';
           font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
           color: var(--primary-muted-color);
         }
+        .dater {
+          font-size: 0.8em;
+          font-style: italic;
+          float: right;
+        }
       </style>
   
       <div>
         <div class="header">${pageName}</div>
+        <div class="dater">- ${pageDate}&nbsp;&nbsp;</div>
         <slot id="contentSlot" name="content"></slot>
         <div class="header">Sources</div>
         <slot id="sourceSlot" name="source"></slot>`
