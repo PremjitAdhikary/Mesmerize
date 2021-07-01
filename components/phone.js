@@ -241,7 +241,7 @@ import { pages } from '../common/pages.js';
       iconHolderDiv.classList.add('home-page-icon');
       
       let iconImg = document.createElement("img");
-      iconImg.src = app._iconUrl;
+      iconImg.src = pages.getBase() + app._iconUrl;
       iconImg.classList.add('home-page-icon-items');
       iconHolderDiv.appendChild(iconImg);
       
