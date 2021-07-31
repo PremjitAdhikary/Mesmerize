@@ -32,9 +32,18 @@
     <app-header class="heading"></app-header>
     <div class="topbody">
       <div class="query">
-        <div class="search">
-          <input type="text" id="term-search" class="term-search" placeholder="Search.." autocomplete="off"/>
-          <button type="button" id="btn-search" class="btn-search"><i class="fa fa-search"></i></button>
+        <div class="search-holder">
+          <div class="search">
+            <input type="text" id="term-search" class="term-search" placeholder="Search.." autocomplete="off"/>
+            <button type="button" id="btn-search" class="btn-search"><i class="fa fa-search"></i></button>
+          </div>
+          <div class="presets">
+            <span><em>Search Presets:</em>&nbsp;&nbsp;</span>
+            <span class="presets-btn" id="btn-technical">Technical</span>&nbsp;&nbsp;
+            <span class="presets-btn" id="btn-fun">Fun</span>&nbsp;&nbsp;
+            <span class="presets-btn" id="btn-pop-culture">Pop Culture</span>
+            <span class="presets-right"><a href="https://github.com/PremjitAdhikary/Mesmerize/wiki/Search-and-Sort" target="_blank">Search Guide</a></span>
+          </div>
         </div>
         <div class="sort">
           <span><strong><em>Sort By:</em></strong>&nbsp;&nbsp;&nbsp;</span>

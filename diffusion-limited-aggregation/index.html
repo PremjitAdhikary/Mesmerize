@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" href="../favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Change This -->
+  <meta name="description" content="Describe.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://premjitadhikary.github.io/Mesmerize/diffusion-limited-aggregation">
+  <meta property="og:title" content="Diffusion Limited Aggregation">
+  <meta property="og:description" content="And a Brownian Tree Snowflake.">
+  <meta property="og:image" content="https://premjitadhikary.github.io/Mesmerize/diffusion-limited-aggregation/img/myCanvas.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://premjitadhikary.github.io/Mesmerize/diffusion-limited-aggregation">
+  <meta name="twitter:title" content="Diffusion Limited Aggregation">
+  <meta name="twitter:description" content="And a Brownian Tree Snowflake.">
+  <meta name="twitter:image" content="https://premjitadhikary.github.io/Mesmerize/diffusion-limited-aggregation/img/myCanvas.jpg">
+  <!-- Change This -->
+  <link rel="stylesheet" href="../appstyle.css">
+  <script src="../components/app-header.js" type="module"></script>
+  <script src="../components/sketch-text.js" type="module"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.3.1/p5.min.js"></script>
+  <script src="./sketch.js"></script>
+  <script src="../common/sketch-colors.js"></script>
+  <script src="../common/utilities.js"></script>
+  <script src="../common/quadtree.js"></script>
+  <script src="../components/radio-input-group.js" type="module"></script>
+  <script src="./control.js" type="module"></script>
+  <script src="./particle.js"></script>
+  <script src="./brownian-tree.js"></script>
+  <script src="./brownian-snowflake.js"></script>
+  <title>Diffusion Limited Aggregation</title>
+</head>
+<body>
+  <div class="toplevel">
+    <app-header class="heading"></app-header>
+    <div class="topbody">
+      <div class="container">
+          <div class="sketch">
+            <div id="sketch-holder" class="sketch-holder">
+            </div>
+          </div>
+
+          <div class="control">
+            <div class="control-container">
+              <div class="choices">
+                  <radio-group id="choice_dla">
+                    <radio-button value="1" aria-checked="true">Brownian Tree with Point Attractor</radio-button>
+                    <radio-button value="2">Brownian Tree with Line Attractor</radio-button>
+                    <radio-button value="3">Brownian Tree with Box Attractor</radio-button>
+                    <radio-button value="4">Brownian Tree with Circle Attractor</radio-button>
+                    <radio-button value="5">Brownian Snowflake Variant 1</radio-button>
+                    <radio-button value="6">Brownian Snowflake Variant 2</radio-button>
+                  </radio-group>
+              </div>
+            </div>
+          </div>
+
+          <sketch-text class="description" pageid="10038">
+            <div slot="content">
+              <p>
+                The basic idea is releasing a bunch of particles undergoing random walk. Let them 
+                aggregate over a period of time and watch the beauty unfold.
+              </p>
+              <p>The clusters formed in DLA processes are referred to as <em>Brownian Trees</em>.</p>
+              <p>
+                By constraining the walkers, and repeating/reflecting the cluster formed, we have a 
+                <em>Brownian Snowflake</em>.
+              </p>
+              <p>
+                Inspired from 2 videos by Daniel. Improvised a bit on the algorithm and made it more 
+                performant. <em>How?</em> Quadtree to the rescue again.
+              </p>
+            </div>
+            <div slot="source">
+              <p>Paul Bourke's <a href="http://paulbourke.net/fractals/dla/" target="_blank">site</a></p>
+              <p>
+                Daniel's videos on <a href="https://www.youtube.com/watch?v=Cl_Gjj80gPE" 
+                target="_blank">Diffusion Limited Aggregation</a> and <a target="_blank" 
+                href="https://www.youtube.com/watch?v=XUA8UREROYE">Brownian Tree Snowflake</a>
+              </p>
+            </div>
+          </sketch-text>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

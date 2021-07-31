@@ -10,6 +10,8 @@ class Tokenizer {
     {op: '"', name: 'QUOTE'}
   ];
 
+  static splittables = ['(', ')', '"', "[", "]", "{", "}"];
+
   static tokenize = str => {
     let firstPass = str.split(' ');
 
@@ -23,33 +25,33 @@ class Tokenizer {
   };
 
   static splitToken = (tokenStr, tokens) => {
-    let operator = Tokenizer.getOperatorTheStringStartsWith(tokenStr);
-    if (operator) {
+
+    const ifValueThenElse = ( x, thenFunc, elseFunc = e => e ) => x ? thenFunc(x) : elseFunc(x);
+    const splitAtStart = operator => {
       tokens.push(operator);
       Tokenizer.splitToken(tokenStr.substring(operator.op.length), tokens);
-    } else {
-      operator = Tokenizer.getOperatorTheStringEndsWith(tokenStr);
-      if (operator) {
-        Tokenizer.splitToken(tokenStr.substr(0, tokenStr.length - operator.op.length), tokens);
-        tokens.push(operator);
-      } else {
-        tokens.push(tokenStr);
-      }
-    }
-  }
+    };
+    const splitAtEnd = operator => {
+      Tokenizer.splitToken(tokenStr.substr(0, tokenStr.length - operator.op.length), tokens);
+      tokens.push(operator);
+    };
+    const spillableOperators = Tokenizer.allOperators.filter(
+      operator => Tokenizer.splittables.includes(operator.op));
 
-  static getOperatorTheStringStartsWith = tokenStr => {
-    for (let operator of Tokenizer.allOperators) 
-      if (tokenStr.startsWith(operator.op))
-        return operator;
-    return null;
-  }
-
-  static getOperatorTheStringEndsWith = tokenStr => {
-    for (let operator of Tokenizer.allOperators) 
-      if (tokenStr.endsWith(operator.op))
-        return operator;
-    return null;
-  }
+    ifValueThenElse( 
+      Tokenizer.allOperators.find(operator => tokenStr == operator.op),
+      operator => tokens.push(operator), 
+      () => ifValueThenElse(
+        spillableOperators.find(operator => tokenStr.startsWith(operator.op)), 
+        splitAtStart,
+        () => ifValueThenElse(
+          spillableOperators.find(operator => tokenStr.endsWith(operator.op)), 
+          splitAtEnd,
+          () => tokens.push(tokenStr)
+        )
+      )
+    );
+    
+  };
 
 }

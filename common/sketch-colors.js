@@ -49,4 +49,9 @@ class SketchColor {
   }
 
   stringify = () => 'rgba('+this._r+','+this._g+','+this._b+','+this._a+')';
+
+  babylonColor = () => {
+    if (!BABYLON) console.error('Not a Babylon js sketch!');
+    return new BABYLON.Color4(this._r/255, this._g/255, this._b/255, this._a);
+  };
 }

@@ -94,7 +94,7 @@ a:hover, a:active {
 }
 
 .cardholder {
-  height: 82%;
+  height: 75%;
   overflow-y: auto;
   grid-area: cardholder;
   display: grid;
@@ -214,13 +214,21 @@ a:hover, a:active {
   width: 100%;
   display: grid;
   grid-template-columns: 5fr 1fr;
+  grid-template-areas:
+    "search-holder sort";
+}
+
+.search-holder {
+  width: 96%;
+  position: relative;
+  padding: 2%;
+  grid-area: search-holder;
 }
 
 .search {
-  width: 96%;
+  width: 100%;
   position: relative;
   display: flex;
-  padding: 2%;
 }
 
 .term-search {
@@ -260,6 +268,35 @@ a:hover, a:active {
   width: 96%;
   display: flex;
   align-items: center;
+  grid-area: sort;
+}
+
+.presets {
+  font-size: 0.9em;
+  width: 96%;
+  display: block;
+  align-items: center;
+  padding: 5px;
+}
+
+.presets-right {
+  float: right;
+}
+
+.presets-btn {
+  border: 1.5px solid var(--primary-muted-color);
+  font-size: 0.8em;
+  color: var(--primary-muted-color);
+  padding: 0.25%;
+  border-radius: 5%;
+  opacity: 0.8;
+}
+
+.presets-btn:hover {
+  background: var(--primary-muted-color);
+  color: var(--bg-color);
+  cursor: pointer;
+  opacity: 1.0;
 }
 
 ::-webkit-scrollbar {

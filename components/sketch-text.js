@@ -1,5 +1,6 @@
 
 import { pages } from '../common/pages.js';
+import { searchEngine } from '../common/search-engine.js';
 
 (function() {
   class SketchTextElement extends HTMLElement {
@@ -58,7 +59,7 @@ import { pages } from '../common/pages.js';
     similar(pageid) {
       if (!pageid)
         return ``;
-      let p = pages.getSimilarPageIds(pageid);
+      let p = searchEngine.getSimilarPages(pageid);
       if (p.length == 0)
         return ``;
       

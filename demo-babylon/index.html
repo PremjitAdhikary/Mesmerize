@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" href="../favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Change This -->
+  <meta name="description" content="Describe.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://premjitadhikary.github.io/Mesmerize/demo">
+  <meta property="og:title" content="Title">
+  <meta property="og:description" content="Describe.">
+  <meta property="og:image" content="https://premjitadhikary.github.io/Mesmerize/logo/img/myCanvas.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://premjitadhikary.github.io/Mesmerize/demo">
+  <meta name="twitter:title" content="Title">
+  <meta name="twitter:description" content="Describe.">
+  <meta name="twitter:image" content="https://premjitadhikary.github.io/Mesmerize/logo/img/myCanvas.jpg">
+  <!-- Change This -->
+  <link rel="stylesheet" href="../appstyle.css">
+  <link rel="stylesheet" href="./compstyle.css">
+  <script src="../components/app-header.js" type="module"></script>
+  <script src="../components/sketch-text.js" type="module"></script>
+  <script src="https://cdn.babylonjs.com/babylon.js"></script>
+  <script src="./main.js" type="module"></script>
+  <script src="../common/sketch-colors.js"></script>
+  <script src="../common/utilities.js"></script>
+  <script src="../components/range-input.js" type="module"></script>
+  <script src="../components/radio-input-group.js" type="module"></script>
+  <script src="./control.js" type="module"></script>
+  <title>Change This</title>
+</head>
+<body>
+  <div class="toplevel">
+    <app-header class="heading"></app-header>
+    <div class="topbody">
+      <div class="container">
+          <div class="sketch">
+            <div id="sketch-holder" class="sketch-holder">
+                <canvas id="myCanvas" width="640" height="480" style="width: 640px; height: 480px;"></canvas>
+            </div>
+          </div>
+
+          <div class="control">
+            <div class="control-container">
+              <div class="choices">
+                <p>
+                  <radio-group id="choice_color">
+                    <radio-button value="1" aria-checked="true">None</radio-button>
+                    <radio-button value="2">Diffuse Red</radio-button>
+                    <radio-button value="3">Emit Red</radio-button>
+                  </radio-group>
+                </p>
+              </div>
+              <div class="sliders">
+                <p>
+                  <label for="box_size_slider">Size: </label>
+                  <range-input min="1" max="2" step="0.1" id="box_size_slider"></range-input>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <sketch-text class="description" pageid="1003">
+            <div slot="content">
+              <p>
+                Simple Demo with Babylon.
+              </p>
+            </div>
+            <div slot="source">
+              <p>
+                Add Sources here.
+              </p>
+            </div>
+          </sketch-text>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

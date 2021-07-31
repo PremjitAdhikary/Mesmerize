@@ -222,7 +222,8 @@ class Pages {
         date: 'Oct 7 2019',
         tag: [
           'matrix',
-          'rainfall'
+          'rainfall',
+          'film'
         ]
       },
       {
@@ -278,7 +279,8 @@ class Pages {
         tag: [
           'starfield',
           'space',
-          '3d'
+          '3d',
+          'film'
         ]
       },
       {
@@ -337,7 +339,8 @@ class Pages {
         tag: [
           'fractal',
           'hand',
-          'original'
+          'original',
+          'film'
         ]
       },
       {
@@ -353,7 +356,8 @@ class Pages {
           'combat',
           'kombat',
           'sim',
-          'original'
+          'original',
+          'film'
         ]
       },
       {
@@ -380,7 +384,8 @@ class Pages {
         rank: 4,
         date: 'Jan 15 2020',
         tag: [
-          'kinematics'
+          'kinematics',
+          'interactive'
         ]
       },
       {
@@ -396,7 +401,8 @@ class Pages {
           'perlin noise',
           'sim',
           'original',
-          'rainfall'
+          'rainfall',
+          'film'
         ]
       },
       {
@@ -424,7 +430,8 @@ class Pages {
         tag: [
           'creature',
           'sim',
-          'original'
+          'original',
+          'interactive'
         ]
       },
       {
@@ -441,7 +448,8 @@ class Pages {
           'space',
           'botany',
           'quadtree',
-          'algorithm'
+          'algorithm',
+          'visualization'
         ]
       },
       {
@@ -454,7 +462,8 @@ class Pages {
         date: 'Oct 16 2020',
         tag: [
           'sim',
-          'perlin noise'
+          'perlin noise',
+          'interactive'
         ]
       },
       {
@@ -526,7 +535,8 @@ class Pages {
           'light',
           'game',
           'intelligence',
-          'tonejs'
+          'tonejs',
+          'film'
         ]
       },
       {
@@ -640,7 +650,8 @@ class Pages {
           'hilbert',
           'moore',
           'dragon',
-          'levy'
+          'levy',
+          'intelligence'
         ]
       },
       {
@@ -658,7 +669,50 @@ class Pages {
           'phone',
           'hilbert',
           'geohash',
-          'algorithm'
+          'algorithm',
+          'visualization'
+        ]
+      },
+      {
+        id: 10038,
+        name: 'Diffusion Limited Aggregation',
+        url: '/diffusion-limited-aggregation',
+        img: '/diffusion-limited-aggregation/img/preview.jpg',
+        detail: 'And a Brownian Tree Snowflake.',
+        rank: 3,
+        date: 'Jul 31 2021',
+        tag: [
+          'snowflake',
+          'botany',
+          'tree',
+          'fractal',
+          'brownian',
+          'quadtree',
+          'visualization'
+        ]
+      },
+      {
+        id: 1003,
+        name: 'Babylon Demo',
+        url: '/demo-babylon',
+        img: '/demo-babylon/img/preview.jpg',
+        detail: 'Just a Demo on Babylon JS.',
+        tag: [],
+        internal: true,
+        date: 'Jul 31 2021'
+      },
+      {
+        id: 10039,
+        name: 'Planetary System - 3D',
+        url: '/planetary-system-3d',
+        img: '/planetary-system-3d/img/preview.jpg',
+        detail: 'A simulation of a Planetary System in 3D.',
+        rank: 4,
+        date: 'Jul 31 2021',
+        tag: [
+          'space',
+          'circle',
+          '3d'
         ]
       }
     ];
@@ -675,7 +729,7 @@ class Pages {
           }
         });
 
-    this._latest = [10035, 10036, 10037];
+    this._latest = [10038, 10039];
     this._allTags = this.allTags();
   }
 
@@ -688,6 +742,7 @@ class Pages {
       img: base+this._pagesMap[pageId].img,
       detail: this._pagesMap[pageId].detail,
       date: this._pagesMap[pageId].date,
+      rank: this._pagesMap[pageId].rank,
       tag: this._pagesMap[pageId].tag
     };
   }
@@ -697,59 +752,12 @@ class Pages {
     return hostname.includes('github') ? '/Mesmerize' : '';
   }
 
-  getPageIdsByName(name) {
-    return this._pages
-      .filter(p => !p.internal)
-      .filter(p => p.name.toLowerCase().includes(name.toLowerCase()))
-      .map(p => p.id);
-  }
-
-  getPageIdsByTag(tag) {
-    return this._pages
-      .filter(p => !p.internal)
-      .filter(p => p.tag.find( t=> t.includes(tag.toLowerCase())))
-      .map(p => p.id);
-  }
-
-  getPageIdsByRank(rank) {
-    return this._pages
-      .filter(p => p.rank == rank)
-      .map(p => p.id);
-  }
-
-  getLatestPages() {
-    return this._latest.slice();
-  }
-
   getAllPagesId() {
     return this._allPagesId;
   }
 
   getPublishedPagesId() {
     return this._publishedPagesId;
-  }
-
-  getSimilarPageIds(pageId) {
-    let scoreMap = new Map();
-    let myPages = this._pages;
-    if (!this._pagesMap[pageId]) 
-      return [];
-    
-    this._pagesMap[pageId].tag
-      .forEach(t => 
-        myPages
-          .filter(p => p.id != pageId && p.tag.includes(t))
-          .forEach(p => 
-            scoreMap.has(p.id) ? 
-              scoreMap.set(p.id, scoreMap.get(p.id) + this._allTags[t].weight) : 
-              scoreMap.set(p.id, this._allTags[t].weight)
-          )
-      );
-    
-    let similarPids = Array.from(scoreMap.keys());
-    similarPids.sort((a, b) => scoreMap.get(b) - scoreMap.get(a));
-
-    return similarPids;
   }
 
   allTags() {
@@ -766,7 +774,8 @@ class Pages {
           totalTags++;
         }
       )
-    );//console.log(Object.keys(tags));
+    );
+    //console.log(Object.keys(tags));
     totalTags -= (Object.keys(tags).filter(k => tags[k].count == 1)).length;
     Object.keys(tags).forEach(
       k => tags[k].weight = tags[k].count == 1 ? 0 : totalTags/tags[k].count);
