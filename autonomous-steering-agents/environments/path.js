@@ -3,7 +3,7 @@
  * points holds all the turns
  * wid, is the width of the path
  * If isClosed is true, the path is a loop
- * addPoints(x, y), adds a turn. A Path must have atleast 2 points
+ * addPoints(x, y), adds a turn. A Path must have atleast 2 points 
  */
 class Path {
 
