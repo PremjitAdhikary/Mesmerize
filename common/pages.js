@@ -712,7 +712,22 @@ class Pages {
         tag: [
           'space',
           'circle',
-          '3d'
+          '3d',
+          'interactive'
+        ]
+      },
+      {
+        id: 10040,
+        name: 'Autonomous Steering Agents',
+        url: '/autonomous-steering-agents',
+        img: '/autonomous-steering-agents/img/preview.jpg',
+        detail: 'Simulations based on the awesome Craig Reynolds paper.',
+        rank: 3,
+        date: 'Oct 23 2021',
+        tag: [
+          'sim',
+          'perlin',
+          'intelligence'
         ]
       }
     ];

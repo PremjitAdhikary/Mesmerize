@@ -50,10 +50,9 @@ class SearchEngine {
   }
 
   freeTextSearch(term) {
-    return [
-        ...this.searchByName(term),
-        ...this.searchByTag(term)
-      ];
+    return [...new Set([
+      ...this.searchByName(term), ...this.searchByTag(term)
+    ])];
   }
 
   searchByName(name, allPages = pages.getPublishedPagesId().slice()) {

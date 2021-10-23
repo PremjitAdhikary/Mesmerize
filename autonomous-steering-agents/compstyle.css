@@ -1,0 +1,20 @@
+.control-container {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "choices options";
+}
+.choices {
+  grid-area: choices;
+}
+.options {
+  grid-area: options;
+}
+.split_choices {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.main_choice {
+  background-color: rgb(97, 83, 4);
+}

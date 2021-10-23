@@ -11,6 +11,7 @@ function initPage() {
   loadCards();
   setupSearch();
   setupSort();
+  document.getElementById('btn-search').click();
 }
 
 function loadCards() {
@@ -27,12 +28,16 @@ function loadCards() {
 function setupSearch() {
   document.getElementById('btn-search').onclick = function(e) {
     let searchTerm = document.getElementById('term-search').value;
+    let searchResults;
     if (!searchTerm) {
-      setCardsVisibility(_pages.getPublishedPagesId(), true);
-      return;
+      searchResults = _pages.getPublishedPagesId();
+    } else {
+      setCardsVisibility(_pages.getPublishedPagesId(), false);
+      searchResults = _searchEngine.search(searchTerm, sortBy());
     }
-    setCardsVisibility(_pages.getPublishedPagesId(), false);
-    setCardsVisibility(_searchEngine.search(searchTerm, sortBy()), true);
+    console.log(searchResults);
+    setCardsVisibility(searchResults, true);
+    document.getElementById('segment-count').textContent = searchResults.length;
   }
 
   document.getElementById('term-search').addEventListener('keyup', function(event) {

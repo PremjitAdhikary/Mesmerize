@@ -85,22 +85,4 @@ class MinkowskiLine {
     return this._end.copy();
   }
 
-  /**
-   *      b     d
-   *  -----     -----
-   * a     \   /     e
-   *        \ /
-   *         c
-   */
-  getCdash() {
-    let v = p5.Vector.sub(this._end, this._start);
-    v.div(3);
-    let a = this._start.copy();
-    a.add(v);
-    // v.rotate(PI/3);
-    v.rotate(this._angle);
-    a.add(v);
-    return a;
-  }
-
 }

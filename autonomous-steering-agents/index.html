@@ -1,0 +1,818 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" href="../favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Change This -->
+  <meta name="description" content="Simulations based on the awesome Craig Reynolds paper.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://premjitadhikary.github.io/Mesmerize/autonomous-steering-agents">
+  <meta property="og:title" content="Autonomous Steering Agents">
+  <meta property="og:description" content="Simulations based on the awesome Craig Reynolds paper.">
+  <meta property="og:image" content="https://premjitadhikary.github.io/Mesmerize/autonomous-steering-agents/img/myCanvas.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://premjitadhikary.github.io/Mesmerize/autonomous-steering-agents">
+  <meta name="twitter:title" content="Autonomous Steering Agents">
+  <meta name="twitter:description" content="Simulations based on the awesome Craig Reynolds paper.">
+  <meta name="twitter:image" content="https://premjitadhikary.github.io/Mesmerize/autonomous-steering-agents/img/myCanvas.jpg">
+  <!-- Change This -->
+  <link rel="stylesheet" href="../appstyle.css">
+  <link rel="stylesheet" href="./compstyle.css">
+  <script src="../components/app-header.js" type="module"></script>
+  <script src="../components/sketch-text.js" type="module"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.3.1/p5.min.js"></script>
+  <script src="./sketch.js"></script>
+  <script src="../common/sketch-colors.js"></script>
+  <script src="../common/utilities.js"></script>
+  <script src="../components/range-input.js" type="module"></script>
+  <script src="../components/radio-input-group.js" type="module"></script>
+  <script src="../components/tabbed-pane.js" type="module"></script>
+  <script src="../components/code-formatter.js" type="module"></script>
+  <script src="./control.js" type="module"></script>
+  <script src="./environments/basic-env.js"></script>
+  <script src="./environments/path.js"></script>
+  <script src="./environments/flow-field.js"></script>
+  <script src="./vehicles/basic-vehicle.js"></script>
+  <script src="./targets/dummy-target.js"></script>
+  <script src="./targets/bouncing-target.js"></script>
+  <script src="./strategies/seek.js"></script>
+  <script src="./strategies/flee.js"></script>
+  <script src="./strategies/pursuit.js"></script>
+  <script src="./strategies/evasion.js"></script>
+  <script src="./strategies/wander.js"></script>
+  <script src="./strategies/arrival.js"></script>
+  <script src="./strategies/offset-pursuit.js"></script>
+  <script src="./strategies/obstacle-avoidance.js"></script>
+  <script src="./strategies/containment.js"></script>
+  <script src="./strategies/follow-wall.js"></script>
+  <script src="./strategies/follow-path.js"></script>
+  <script src="./strategies/follow-field.js"></script>
+  <script src="./strategies/separation.js"></script>
+  <script src="./strategies/follow-leader.js"></script>
+  <script src="./strategies/alignment.js"></script>
+  <script src="./strategies/cohesion.js"></script>
+  <script src="./strategies/combo-strategy.js"></script>
+  <script src="./strategies/strategy-combos-repo.js"></script>
+  <title>Autonomous Steering Agents</title>
+</head>
+<body>
+  <div class="toplevel">
+    <app-header class="heading"></app-header>
+    <div class="topbody">
+      <div class="container">
+          <div class="sketch">
+            <div id="sketch-holder" class="sketch-holder">
+            </div>
+          </div>
+
+          <div class="control">
+            <div class="control-container">
+
+              <div class="choices">
+
+                <radio-group id="choice_main" class="split_choices main_choice">
+                  <radio-button value="1" aria-checked="true">Simple</radio-button>
+                  <radio-button value="2">Group</radio-button>
+                </radio-group>
+
+                <radio-group id="choice_simple" class="split_choices">
+                  <radio-button value="1" aria-checked="true">Seek</radio-button>
+                  <radio-button value="2">Flee</radio-button>
+                  <radio-button value="3">Pursuit</radio-button>
+                  <radio-button value="4">Evasion</radio-button>
+                  <radio-button value="5">Wander</radio-button>
+                  <radio-button value="6">Arrival</radio-button>
+                  <radio-button value="7">Offset Pursuit</radio-button>
+                  <radio-button value="8">Avoidance</radio-button>
+                  <radio-button value="9">Containment</radio-button>
+                  <radio-button value="10">Follow Wall</radio-button>
+                  <radio-button value="11">Follow Path</radio-button>
+                  <radio-button value="12">Flow Field</radio-button>
+                </radio-group>
+
+                <radio-group id="choice_combined">
+                  <radio-button value="1" aria-checked="true">Crowd Path Following</radio-button>
+                  <radio-button value="2">Unaligned Collision Avoidance</radio-button>
+                  <radio-button value="3">Queuing at Doorway</radio-button>
+                  <radio-button value="4">Follow the Leader</radio-button>
+                  <radio-button value="5">Group Flocking</radio-button>
+                </radio-group>
+
+              </div>
+
+              <div id="seek_options" class="options">
+                <p>
+                  <label for="seek_max_speed">Max Speed: </label>
+                  <range-input min="5" max="15" id="seek_max_speed"></range-input>
+                </p>
+                <p>
+                  <label for="seek_max_force">Max Force: </label>
+                  <range-input min="10" max="100" id="seek_max_force"></range-input>
+                </p>
+              </div>
+              <div id="flee_options" class="options">
+                <p>
+                  <label for="flee_max_speed">Max Speed: </label>
+                  <range-input min="5" max="15" id="flee_max_speed"></range-input>
+                </p>
+                <p>
+                  <label for="flee_max_force">Max Force: </label>
+                  <range-input min="10" max="100" id="flee_max_force"></range-input>
+                </p>
+              </div>
+              <div id="pursue_options" class="options">
+                <p>
+                  <label for="pursue_max_speed">Max Speed: </label>
+                  <range-input min="5" max="15" id="pursue_max_speed"></range-input>
+                  <br>
+                  <label for="pursue_max_force">Max Force: </label>
+                  <range-input min="10" max="100" id="pursue_max_force"></range-input>
+                </p>
+                <p>
+                  <label for="pursue_target_speed">Target Speed: </label>
+                  <range-input min="5" max="10" id="pursue_target_speed"></range-input>
+                  <br>
+                  <label for="pursue_prediction">Prediction: </label>
+                  <range-input min="1" max="10" id="pursue_prediction"></range-input>
+                </p>
+              </div>
+              <div id="evasion_options" class="options">
+                <p>
+                  <label for="evasion_max_speed">Max Speed: </label>
+                  <range-input min="5" max="15" id="evasion_max_speed"></range-input>
+                  <br>
+                  <label for="evasion_max_force">Max Force: </label>
+                  <range-input min="10" max="100" id="evasion_max_force"></range-input>
+                </p>
+                <p>
+                  <label for="evasion_target_speed">Target Speed: </label>
+                  <range-input min="5" max="10" id="evasion_target_speed"></range-input>
+                  <br>
+                  <label for="evasion_prediction">Prediction: </label>
+                  <range-input min="1" max="10" id="evasion_prediction"></range-input>
+                </p>
+              </div>
+              <div id="wander_options" class="options">
+                <p>
+                  <label for="wander_max_speed">Max Speed: </label>
+                  <range-input min="2" max="10" id="wander_max_speed"></range-input>
+                  <br>
+                  <label for="wander_max_force">Max Force: </label>
+                  <range-input min="2" max="15" id="wander_max_force"></range-input>
+                  <br>
+                  <label for="wander_distance">Distance: </label>
+                  <range-input min="60" max="150" id="wander_distance"></range-input>
+                  <br>
+                  <label for="wander_angle_change">Change: </label>
+                  <range-input min="2" max="50" id="wander_angle_change"></range-input>
+                  <br>
+                  <label for="wander_radius">Radius: </label>
+                  <range-input min="15" max="25" id="wander_radius"></range-input>
+                </p>
+              </div>
+              <div id="arrival_options" class="options">
+                <p>
+                  <label for="arrival_max_speed">Max Speed: </label>
+                  <range-input min="5" max="15" id="arrival_max_speed"></range-input>
+                  <br>
+                  <label for="arrival_max_force">Max Force: </label>
+                  <range-input min="10" max="100" id="arrival_max_force"></range-input>
+                  <br>
+                  <label for="arrival_slow_radius">Slow: </label>
+                  <range-input min="75" max="200" id="arrival_slow_radius"></range-input>
+                </p>
+              </div>
+              <div id="offset_pursuit_options" class="options">
+                <p>
+                  <label for="offset_pursuit_max_speed">Max Speed: </label>
+                  <range-input min="5" max="15" id="offset_pursuit_max_speed"></range-input>
+                  <br>
+                  <label for="offset_pursuit_max_force">Max Force: </label>
+                  <range-input min="10" max="100" id="offset_pursuit_max_force"></range-input>
+                </p>
+                <p>
+                  <label for="offset_pursuit_target_speed">Target Speed: </label>
+                  <range-input min="5" max="10" id="offset_pursuit_target_speed"></range-input>
+                  <br>
+                  <label for="offset_pursuit_offset">Offset: </label>
+                  <range-input min="25" max="75" id="offset_pursuit_offset"></range-input>
+                </p>
+              </div>
+              <div id="obstacle_avoidance_options" class="options">
+                <p>
+                  <label for="obstacle_avoidance_max_speed">Max Speed: </label>
+                  <range-input min="5" max="15" id="obstacle_avoidance_max_speed"></range-input>
+                  <br>
+                  <label for="obstacle_avoidance_max_force">Max Force: </label>
+                  <range-input min="10" max="150" id="obstacle_avoidance_max_force"></range-input>
+                  <br>
+                  <label for="obstacle_avoidance_ahead">Ahead: </label>
+                  <range-input min="50" max="150" id="obstacle_avoidance_ahead"></range-input>
+                </p>
+              </div>
+              <div id="containment_options" class="options">
+                <p>
+                  <label for="containment_max_speed">Max Speed: </label>
+                  <range-input min="5" max="10" id="containment_max_speed"></range-input>
+                  <label for="containment_max_force">Max Force: </label>
+                  <range-input min="10" max="100" id="containment_max_force"></range-input>
+                  <label for="containment_ahead">Ahead: </label>
+                  <range-input min="50" max="150" id="containment_ahead"></range-input>
+                </p>
+              </div>
+              <div id="wall_following_options" class="options">
+                <p>
+                  <label for="wall_following_max_speed">Max Speed: </label>
+                  <range-input min="3" max="10" id="wall_following_max_speed"></range-input>
+                  <br>
+                  <label for="wall_following_max_force">Max Force: </label>
+                  <range-input min="10" max="80" id="wall_following_max_force"></range-input>
+                  <br>
+                  <label for="wall_following_ahead">Ahead: </label>
+                  <range-input min="25" max="80" id="wall_following_ahead"></range-input>
+                  <br>
+                  <label for="wall_following_offset">Offset: </label>
+                  <range-input min="15" max="80" id="wall_following_offset"></range-input>
+                </p>
+              </div>
+              <div id="path_following_options" class="options">
+                <p>
+                  <label for="path_following_max_speed">Max Speed: </label>
+                  <range-input min="5" max="15" id="path_following_max_speed"></range-input>
+                  <label for="path_following_max_force">Max Force: </label>
+                  <range-input min="10" max="150" id="path_following_max_force"></range-input>
+                  <label for="path_following_ahead">Ahead: </label>
+                  <range-input min="25" max="100" id="path_following_ahead"></range-input>
+                </p>
+                <radio-group id="path_following_radio" class="split_choices">
+                  <radio-button value="1" aria-checked="true">Linear</radio-button>
+                  <radio-button value="2">Circuit</radio-button>
+                </radio-group>
+              </div>
+              <div id="flow_field_options" class="options">
+                <p>
+                  <label for="flow_field_max_speed">Max Speed: </label>
+                  <range-input min="5" max="15" id="flow_field_max_speed"></range-input>
+                  <label for="flow_field_max_force">Max Force: </label>
+                  <range-input min="10" max="100" id="flow_field_max_force"></range-input>
+                  <label for="flow_field_ahead">Ahead: </label>
+                  <range-input min="10" max="40" id="flow_field_ahead"></range-input>
+                </p>
+                <radio-group id="flow_field_radio">
+                  <radio-button value="1" aria-checked="true">Random Field</radio-button>
+                  <radio-button value="2">Perlin Field</radio-button>
+                </radio-group>
+              </div>
+              
+              <div id="crowd_path_following_options" class="options">
+                <p>
+                  <label for="crowd_path_following_max_speed">Max Speed: </label>
+                  <range-input min="3" max="10" id="crowd_path_following_max_speed"></range-input>
+                  <label for="crowd_path_following_max_force">Max Force: </label>
+                  <range-input min="20" max="200" id="crowd_path_following_max_force"></range-input>
+                  <label for="crowd_path_following_ahead">Ahead: </label>
+                  <range-input min="15" max="100" id="crowd_path_following_ahead"></range-input>
+                </p>
+              </div>
+              <div id="collision_avoidance_options" class="options">
+                <p>
+                  <label for="collision_avoidance_max_speed">Max Speed: </label>
+                  <range-input min="3" max="10" id="collision_avoidance_max_speed"></range-input>
+                  <label for="collision_avoidance_max_force">Max Force: </label>
+                  <range-input min="10" max="50" id="collision_avoidance_max_force"></range-input>
+                  <label for="collision_avoidance_ahead">Ahead: </label>
+                  <range-input min="20" max="80" id="collision_avoidance_ahead"></range-input>
+                </p>
+              </div>
+              <div id="queuing_options" class="options">
+                <p>
+                  <label for="queuing_max_speed">Max Speed: </label>
+                  <range-input min="3" max="10" id="queuing_max_speed"></range-input>
+                  <label for="queuing_max_force">Max Force: </label>
+                  <range-input min="10" max="50" id="queuing_max_force"></range-input>
+                  <label for="queuing_ahead">Ahead: </label>
+                  <range-input min="20" max="80" id="queuing_ahead"></range-input>
+                </p>
+              </div>
+              <div id="leader_following_options" class="options">
+                <span>Leader</span><br>
+                <label for="leader_max_speed">Max Speed: </label>
+                <range-input min="2" max="10" id="leader_max_speed"></range-input>
+                <label for="leader_max_force">Max Force: </label>
+                <range-input min="2" max="25" id="leader_max_force"></range-input>
+                <label for="leader_distance">Distance: </label>
+                <range-input min="60" max="150" id="leader_distance"></range-input>
+                <span>Follower</span><br>
+                <label for="follower_max_speed">Max Speed: </label>
+                <range-input min="5" max="15" id="follower_max_speed"></range-input>
+                <label for="follower_max_force">Max Force: </label>
+                <range-input min="10" max="75" id="follower_max_force"></range-input>
+              </div>
+              <div id="flocking_options" class="options">
+                <p>
+                  <label for="flocking_max_speed">Max Speed: </label>
+                  <range-input min="5" max="15" id="flocking_max_speed"></range-input>
+                </p>
+                <p>
+                  <label for="flocking_max_force">Max Force: </label>
+                  <range-input min="10" max="75" id="flocking_max_force"></range-input>
+                </p>
+              </div>
+
+            </div>
+          </div>
+
+          <sketch-text class="description" pageid="10040">
+            <div slot="content">
+              <p>
+                The different behaviors that can be given to a vehicle to steer itself. The 
+                behaviors are separated into <em>Simple</em> and <em>Group</em>. Use the radio 
+                to select which behaviors from that specific group.
+              </p>
+              <p class="sub-header">Simple Vehicle</p>
+              <p>
+                This is onto which the steering behaviors are applied. The vehicles in this 
+                simulation are denoted by a triangle with its vertex pointed to the direction 
+                of motion.
+              </p>
+              <p>Vehicle has few important properties:</p> <ul>
+                <li><em>Position</em>: Self explanatory</li>
+                <li><em>Velocity</em>: This is modified by applying forces</li>
+                <li><em>Max Force</em>: A typical force which adjusts the velocity</li>
+                <li><em>Max Speed</em>: Self explanatory</li>
+              </ul>
+              <p>
+                For the physics of the simple vehicle model, at each simulation step, behaviorally 
+                determined steering forces are applied to the vehicle. That force is added to the 
+                old velocity to produce a new velocity, which is then truncated by max_speed. 
+                Finally, the velocity is added to the old position.
+              </p>
+              <code-formatter language="js">
+                <div slot="code">
+                  steering_force = truncate(steering_direction, max_force)
+                  velocity = truncate(velocity + steering_force, max_speed)
+                  position = position + velocity
+                </div>
+              </code-formatter>
+              <p class="sub-header">Simple Steering Behaviors</p>
+              <tabbed-pane>
+                <tab-content name="Seek" selected>
+                  <p>
+                    Seek steers the vehicle towards a specified target. The <em>desired velocity</em> 
+                    is a vector in the direction from the character to the target. The steering 
+                    vector is the difference between this desired velocity and the character's 
+                    current velocity.
+                  </p>
+                  <code-formatter language="js">
+                    <div slot="code">
+                      desired_velocity = 
+                          normalize(position - target) * max_speed
+                      steering_force = desired_velocity - velocity
+                    </div>
+                  </code-formatter>
+                  <p><em>Control Wise</em></p>
+                  <ul>
+                    <li>
+                      Max Speed and Max Force can be adjusted to alter the behavior of the 
+                      vehicle
+                    </li>
+                    <li>Target position can be changed by clicking anywhere on the viewport</li>
+                  </ul>
+                </tab-content>
+                <tab-content name="Flee">
+                  <p>
+                    Flee is simply the opposite of Seek and acts to steer the character so that its 
+                    velocity is radially aligned away from the target.
+                  </p>
+                  <p><em>Control Wise</em>, it's the same as Seek.</p>
+                </tab-content>
+                <tab-content name="Pursuit">
+                  <p>
+                    Pursuit is similar to seek but for a moving target. It requires a prediction of 
+                    the target's future position.
+                  </p>
+                  <p>
+                    The prediction should be made in a way that it should be further ahead when 
+                    the target is far and closer to the target when the pursuer is near.
+                  </p>
+                  <code-formatter language="js">
+                    <div slot="code">
+                      predicted_target = target + prediction
+                      steering_force = seek(predicted_target)
+                    </div>
+                  </code-formatter>
+                  <p><em>Control Wise</em></p>
+                  <ul>
+                    <li>
+                      Max Speed, Max Force and Target position change controls stay the same as 
+                      Seek
+                    </li>
+                    <li>Target Speed adjusts the speed of the moving target</li>
+                    <li>
+                      Prediction Slider can be adjusted to let the vehicle know how far ahead to 
+                      predict from the target
+                    </li>
+                  </ul>
+                </tab-content>
+                <tab-content name="Evasion">
+                  <p>
+                    <em>Guess What?</em> Evasion is the opposite of Pursuit. So the vehicle is 
+                    steered away from the <em>Prediction</em>.
+                  </p>
+                  <p><em>Control Wise</em>, it's the same as Pursuit.</p>
+                </tab-content>
+                <tab-content name="Wander">
+                  <p>
+                    It's a type of random steering. But to make it less twitchy, rather than 
+                    randomly changing the velocity of the vehicle, the <em>steering force</em> 
+                    takes a random walk.
+                  </p>
+                  <p>
+                    The implementation by Daneil was what I picked up here. At it's base we have 
+                    a target set some <em>distance</em> ahead, where a vector is randomly changed by 
+                    a particular angle &theta; (denoted by <em>change</em>), restricted by 
+                    a <em>radius</em>.
+                  </p>
+                  <code-formatter language="js">
+                    <div slot="code">
+                      wander_target = truncate
+                          (position + distance + &theta;, radius)
+                      steering_force = seek(wander_target)
+                    </div>
+                  </code-formatter>
+                  <p><em>Control Wise</em></p>
+                  <ul>
+                    <li>
+                      Max Speed, Max Force controls stay the same as Seek
+                    </li>
+                    <li>On mouse click, here the vehicle is displaced (as there is no target)</li>
+                    <li>
+                      Distance Slider can be adjusted to let the vehicle know how far ahead to 
+                      set the wander target
+                    </li>
+                    <li>
+                      Change Slider can be adjusted to let the vehicle know how much &plusmn;change 
+                      will the range for randomization of velocity
+                    </li>
+                    <li>
+                      Radius Slider can be adjusted to restrict the magnitude of velocity change
+                    </li>
+                  </ul>
+                </tab-content>
+                <tab-content name="Arrival">
+                  <p>
+                    Arrival is similar to seek but rather than moving through the target, the 
+                    behavior requires the vehicle to slow down and eventually stop at the target.
+                  </p>
+                  <p>Daniel's implementation was simple enough.</p>
+                  <p><em>Control Wise</em></p>
+                  <ul>
+                    <li>
+                      Max Speed, Max Force and Target position change controls stay the same as 
+                      Seek
+                    </li>
+                    <li>
+                      Slow Slider can be adjusted to let the vehicle know from where to start 
+                      deceleration.
+                    </li>
+                  </ul>
+                </tab-content>
+                <tab-content name="Offset Pursuit">
+                  <p>
+                    The idea is to steer a path which passes near the target but not into the 
+                    moving target.
+                  </p>
+                  <code-formatter language="js">
+                    <div slot="code">
+                      offset_target = target + offset
+                      steering_force = pursuit(offset_target)
+                    </div>
+                  </code-formatter>
+                  <p><em>Control Wise</em></p>
+                  <ul>
+                    <li>
+                      Max Speed, Max Force and Target position change controls stay the same as 
+                      Seek
+                    </li>
+                    <li>Target Speed adjusts the speed of the moving target</li>
+                    <li>
+                      Offset Slider can be adjusted to let the vehicle know how far from the 
+                      target vehicle it should move.
+                    </li>
+                  </ul>
+                </tab-content>
+                <tab-content name="Obstacle Avoidance">
+                  <p>
+                    The idea is to steer through a cluttered environment by dodging obstacles. 
+                    Note that <em>Flee</em> will always cause a character to steer away from a 
+                    given location, whereas obstacle avoidance takes action only when a nearby 
+                    obstacle lies directly in front of the character. This behavior will use the 
+                    nearest obstacle to calculate the avoidance force to be applied to the 
+                    vehicle.
+                  </p>
+                  <p>
+                    The first step is to look ahead to find the nearest obstacle. This is achieved 
+                    by calculating a vector in the same direction as the vehicle some units 
+                    in front. 
+                  </p>
+                  <p>
+                    Next we check for collisions with all the objects in the environment. Considering 
+                    the objects as circles, the <em>line intersects circle</em> algorithm is used 
+                    to check for collision. 
+                  </p>
+                  <p>
+                    <em>What is line intersects circle algorithm?</em> Simply check for the 
+                    distance between the ahead vector's end and object's center. If it is 
+                    less or equal to radius of the object ... Collision!
+                  </p>
+                  <p>Lastly we calculate the force to be applied.</p>
+                  <p><em>Control Wise</em></p>
+                  <ul>
+                    <li>Max Speed, Max Force controls stay the same as Seek</li>
+                    <li>
+                      On mouse click, here the vehicle is displaced (as the obstacles are static)
+                    </li>
+                    <li>
+                      Ahead Slider can be adjusted to let the vehicle know how far to look ahead 
+                      for obstacles.
+                    </li>
+                    <li>
+                      The obstacles turn red for every collision. The nearest detected obstacle 
+                      gets highlighted by a red border.
+                    </li>
+                  </ul>
+                </tab-content>
+                <tab-content name="Containment">
+                  <p>Restricted motion in a specific region.</p>
+                  <p>
+                    The idea is to look ahead for any wall. If present, then turn around to some 
+                    predetermined target (in this case the center). If not, just wander around.
+                  </p>
+                  <code-formatter language="js">
+                    <div slot="code">
+                      if (isCollision(position + ahead, wall))
+                        seek(center)
+                      else
+                        wander()
+                    </div>
+                  </code-formatter>
+                  <p><em>Control Wise</em></p>
+                  <ul>
+                    <li>Max Speed, Max Force controls stay the same as Seek.</li>
+                    <li>On mouse click, here the vehicle is displaced (as there is no target).</li>
+                    <li>
+                      The Ahead Slider can be adjusted to let the vehicle know how far to look ahead 
+                      for walls.
+                    </li>
+                    <li>The walls turn red for every collision.</li>
+                  </ul>
+                </tab-content>
+                <tab-content name="Vector Magic">
+                  <p><span  class="hilight">Dot Product: </span></p>
+                  <p>
+                    Given 2 vectors U(ab) and V(ac), the dot product of them is given by the 
+                    following formula:
+                  </p>
+                  <p>
+                    U &sdot; V = |U| &times; |V| &times; cos(&theta;), <em>where &theta; is the 
+                    angle between the vectors.</em>
+                  </p>
+                  <p>Another formula to represent Dot Product is:</p>
+                  <p>
+                    U &sdot; V = U<sub>x</sub> &times; V<sub>x</sub> 
+                    + U<sub>y</sub> &times; V<sub>y</sub>
+                  </p>
+                  <p><span  class="hilight">Scalar Projection: </span></p>
+                  <p>
+                    Given 2 vectors U(ab) and V(ac), if a light source casts a shadow of U on V (ad), 
+                    then that is vector projection (VP) and it's magnitude is scalar projection 
+                    (|VP| = SP). Here &ang;adb forms a right angle and db forms a normal to vector V.
+                  </p>
+                  <p>
+                    If &theta; is &ang;bad, then cos(&theta;) = SP / |U| <br>
+                    <em>i.e.</em> SP = |U| &times; cos(&theta;)
+                  </p>
+                  <p>Revisiting the Dot Product equation... </p>
+                  <p>
+                    U &sdot; V = |U| &times; |V| &times; cos(&theta;) <br>
+                    &rArr; U &sdot; V = |U| &times; cos(&theta;), <em>when |V| is 1</em> <br>
+                    &rArr; SP = U &sdot; normalize(V)
+                  </p>
+                </tab-content>
+                <tab-content name="Wall Following">
+                  <p>As the name suggests, the vehicle follows the nearest wall at a distance.</p>
+                  <p>
+                    As a first step, the future position of the vehicle is predicted. Next the 
+                    nearest wall is found from it. Then calculate a suitable point so that it is 
+                    a paticular distance (offset) from the found wall, and <em>seek</em> it.
+                  </p>
+                  <p>
+                    <em>But how do we find the <em>suitable point</em>?</em><br>
+                    Drop a normal from the predicted position to the wall, then on the normal find 
+                    a point that is a offset from the wall. This is where we use 
+                    <em>Scalar Projection</em>.
+                  </p>
+                  <p><em>Control Wise</em></p>
+                  <ul>
+                    <li>Max Speed, Max Force controls stay the same as Seek.</li>
+                    <li>On mouse click, here the vehicle is displaced (as there is no target)</li>
+                    <li>
+                      The Ahead Slider can be adjusted to let the vehicle know how far to look 
+                      ahead for wall.
+                    </li>
+                    <li>
+                      The Offset Slider can be adjusted to let the vehicle know how far to stay 
+                      away from the wall.
+                    </li>
+                  </ul>
+                </tab-content>
+                <tab-content name="Path Following">
+                  <p>As the name suggests, the vehicle follows a path and stays on it.</p>
+                  <p>
+                    As a first step, the future position of the vehicle is predicted. Next it is 
+                    checked if the predicted position is on the path. Because if it is on the path, 
+                    the vehicle is on the right course and nothing needs to be done.
+                  </p>
+                  <p>
+                    <em>But how do we do check if the predicted position is on the path?</em><br>
+                    Drop a normal from the predicted position to the path, then get the distance 
+                    between them. This is where <em>Scalar Projection</em> comes to play.
+                  </p>
+                  <p>
+                    If the predicted position is not on the path, then simply <em>seek</em> the 
+                    normal point.
+                  </p>
+                  <p>
+                    In case the path has multiple segments, find the nearest segment and the 
+                    algorithm continues.
+                  </p>
+                  <p><em>Control Wise</em></p>
+                  <ul>
+                    <li>Max Speed, Max Force controls stay the same as Seek.</li>
+                    <li>
+                      Ahead Slider can be adjusted to let the vehicle know how far to look ahead 
+                      for path.
+                    </li>
+                    <li>The radios select path type (linear or a circuit).</li>
+                  </ul>
+                </tab-content>
+                <tab-content name="Flow Field Following">
+                  <p>
+                    The environment has predetermined flow fields on the surface. Based on the 
+                    vehicles predicted position, the flow at that location is sampled to become 
+                    the desired velocity.
+                  </p>
+                  <p><em>Control Wise</em></p>
+                  <ul>
+                    <li>Max Speed and Max Force controls stay the same as Seek</li>
+                    <li>On mouse click, here the vehicle is displaced (as there is no target).</li>
+                    <li>The radios select flow type (random or perlin noise).</li>
+                  </ul>
+                </tab-content>
+              </tabbed-pane>
+              <p class="sub-header">Complex Steering Behaviors</p>
+              <tabbed-pane>
+                <tab-content name="Group Steering Behaviors" selected>
+                  <p>
+                    There are three basic group behaviors which act on a, well, group of vehicles. 
+                    the resultant force that acts upon the vehicle is dependent on state of 
+                    surrounding vehicles.
+                  </p>
+                  <p><span  class="hilight">Separation: </span></p>
+                  <p>
+                    Separation gives the vehicle ability to keep distance from other vehicles. This 
+                    is used to prevent crowding.
+                  </p>
+                  <p>
+                    At it's core this checks for nearby vehicles and steers away. For every 
+                    neighbor, calculate force pointing away from it, weight by distance (closer 
+                    the vehicle, larger the force), then average the force to be applied.
+                  </p>
+                  <p><span  class="hilight">Alignment: </span></p>
+                  <p>
+                    Alignment gives the vehicle ability to align itself according to other 
+                    vehicles. This is calculated by taking the average velocity of every 
+                    nearby vehicles.
+                  </p>
+                  <p><span  class="hilight">Cohesion: </span></p>
+                  <p>
+                    Cohesion gives the vehicle ability to approach somewhere as a group with 
+                    other vehicles. This is by figuring out the average location of nearby 
+                    vehicles and then steer towards it.
+                  </p>
+                </tab-content>
+                <tab-content name="Crowd Path Following">
+                  <p>
+                    This is where we start combining behaviors to make stuff more interesting. 
+                    Here, a bunch of vehicles are initiated to follow the Path. 
+                  </p>
+                  <p>
+                    To achieve this, along with the Path Following behavior, Separation is also 
+                    added so that the vehicles don't group together.
+                  </p>
+                  <p><em>Control Wise</em></p>
+                  <ul>
+                    <li>Max Speed, Max Force controls stay the same as Seek.</li>
+                    <li>
+                      Ahead Slider can be adjusted to let the vehicle know how far to look ahead 
+                      for path.
+                    </li>
+                  </ul>
+                </tab-content>
+                <tab-content name="Unaligned Collision Avoidance">
+                  <p>
+                    Here bunch of vehicles are set free in a restricted area where they try to 
+                    steer a collision free path, moving through the crowd while wtaying in the 
+                    region.
+                  </p>
+                  <p>
+                    Here Containment and Separation are put together to achieve this behavior.
+                  </p>
+                  <p><em>Control Wise</em></p>
+                  <ul>
+                    <li>Max Speed, Max Force controls stay the same as Seek.</li>
+                    <li>
+                      Ahead Slider can be adjusted to let the vehicle know how far to look ahead 
+                      for collision.
+                    </li>
+                  </ul>
+                </tab-content>
+                <tab-content name="Queuing at Doorway">
+                  <p>
+                    Multiple vehicles show queuing behavior while trying to leave the doorway. The 
+                    result is not super clean, can be adjusted with the sliders.
+                  </p>
+                  <p>
+                    This is achieved by mixing Seek, Containment and Separation in right 
+                    proportions. The Containment behavior is adjusted to <em>not</em> Wander in 
+                    case collision is not detected.
+                  </p>
+                  <p><em>Control Wise</em></p>
+                  <ul>
+                    <li>Max Speed, Max Force controls stay the same as Seek.</li>
+                    <li>
+                      Ahead Slider can be adjusted to let the vehicle know how far to look ahead 
+                      for collision.
+                    </li>
+                  </ul>
+                </tab-content>
+                <tab-content name="Follow the Leader">
+                  <p>
+                    Here one or more vehicles follow a designated Leader. They stay near the Leader 
+                    without crowding him.
+                  </p>
+                  <p>
+                    Follow Leader is a behavior developed by tweaking Pursuit to have a prediction 
+                    behind the leader. Then it is mixed with Separation to achieve the desired 
+                    behavior.
+                  </p>
+                  <p><em>Control Wise</em></p>
+                  <ul>
+                    <li>
+                      Max Speed, Max Force controls for Leader and Followers stay the same as Seek.
+                    </li>
+                    <li>
+                      Distance Slider can be adjusted to let the Leader know how far to look ahead 
+                      for Wandering.
+                    </li>
+                  </ul>
+                </tab-content>
+                <tab-content name="Flocking">
+                  <p>
+                    Simulate movement of flocks, herds and schools. This is achieved by combining 
+                    Separation, Alignment and Cohesion with some weight factored in.
+                  </p>
+                  <p><em>Control Wise</em></p>
+                  <ul>
+                    <li>
+                      Max Speed, Max Force controls stay the same as Seek.
+                    </li>
+                  </ul>
+                </tab-content>
+              </tabbed-pane>
+              <br>
+            </div>
+            <div slot="source">
+              <p>
+                <a href="https://natureofcode.com/book/chapter-6-autonomous-agents/" 
+                target="_blank">Autonomous Agents</a> on Nature of Code.
+              </p>
+              <p>
+                Blogs on <a href="https://gamedevelopment.tutsplus.com/tutorials/understanding-steering-behaviors-collision-avoidance--gamedev-7777" 
+                target="_blank">Obstacle Avoidance</a>, <a target="_blank" 
+                href="https://gamedevelopment.tutsplus.com/tutorials/understanding-steering-behaviors-leader-following--gamedev-10810">
+                Leader Following</a> by Fernando Bevilacqua.
+              </p>
+              <p>
+                Craig Reynolds <a href="https://www.red3d.com/cwr/steer/gdc99/" target="_blank">
+                paper</a>.
+              </p>
+            </div>
+          </sketch-text>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
