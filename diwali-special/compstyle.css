@@ -1,0 +1,13 @@
+.control-container {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 3fr 4fr;
+  grid-template-areas:
+    "choices fw";
+}
+.choices {
+  grid-area: choices;
+}
+.fw {
+  grid-area: fw;
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" href="../favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Change This -->
+  <meta name="description" content="Celebrate with digital fireworks.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://premjitadhikary.github.io/Mesmerize/diwali-special">
+  <meta property="og:title" content="Diwali Special">
+  <meta property="og:description" content="Celebrate with digital fireworks.">
+  <meta property="og:image" content="https://premjitadhikary.github.io/Mesmerize/diwali-special/img/myCanvas.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://premjitadhikary.github.io/Mesmerize/diwali-special">
+  <meta name="twitter:title" content="Diwali Special">
+  <meta name="twitter:description" content="Celebrate with digital fireworks.">
+  <meta name="twitter:image" content="https://premjitadhikary.github.io/Mesmerize/diwali-special/img/myCanvas.jpg">
+  <!-- Change This -->
+  <link rel="stylesheet" href="../appstyle.css">
+  <link rel="stylesheet" href="./compstyle.css">
+  <script src="../components/app-header.js" type="module"></script>
+  <script src="../components/sketch-text.js" type="module"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.3.1/p5.min.js"></script>
+  <script src="./sketch.js"></script>
+  <script src="../common/sketch-colors.js"></script>
+  <script src="../common/utilities.js"></script>
+  <script src="../components/radio-input-group.js" type="module"></script>
+  <script src="./control.js" type="module"></script>
+  <script src="./fireworks/fw-particle.js"></script>
+  <script src="./fireworks/phuljhari.js"></script>
+  <script src="./fireworks/rocket.js"></script>
+  <script src="./fireworks/bomb.js"></script>
+  <script src="./fireworks/ladi.js"></script>
+  <script src="./fireworks/flower-pot.js"></script>
+  <script src="./fireworks/rocket-barrage.js"></script>
+  <script src="./audio/sound.js"></script>
+  <script src="./audio/sound-pool.js"></script>
+  <title>Diwali Special</title>
+</head>
+<body>
+  <div class="toplevel">
+    <app-header class="heading"></app-header>
+    <div class="topbody">
+      <div class="container">
+          <div class="sketch">
+            <div id="sketch-holder" class="sketch-holder">
+            </div>
+          </div>
+
+          <div class="control">
+            <div class="control-container">
+              <div class="choices">
+                <p>
+                  <radio-group id="choice_hostel">
+                    <radio-button value="1">Hostel 4</radio-button>
+                    <radio-button value="2" aria-checked="true">Hostel 5</radio-button>
+                  </radio-group>
+                </p>
+                <p>
+                  <span class="btn" id="fireBtn">Fire Away</span>
+                </p>
+              </div>
+              <div class="fw">
+                <p id="four_choice">
+                  <radio-group id="four_fw">
+                    <radio-button value="1" aria-checked="true">Phuljhari</radio-button>
+                    <radio-button value="2">Red Phuljhari</radio-button>
+                    <radio-button value="3">Multi-Colored Phuljhari</radio-button>
+                  </radio-group>
+                </p>
+                
+                <p id="five_choice">
+                  <radio-group id="five_fw">
+                    <radio-button value="1" aria-checked="true">Rocket</radio-button>
+                    <radio-button value="2">1000 Ladi</radio-button>
+                    <radio-button value="3">Flower Pot</radio-button>
+                    <radio-button value="4">Battle of Blocks</radio-button>
+                    <radio-button value="5">Aaru Pachta</radio-button>
+                  </radio-group>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <sketch-text class="description" pageid="10041">
+            <div slot="content">
+              <p>
+                As any software developer worth his salt, I try my best to reuse code wherever I 
+                can. <em>But why stop there?</em> Here I reuse artwork!
+              </p>
+              <p>
+                This will be another cross-over in My Coding Universe (MCU) with <em>Paint in 
+                Bits</em> where I recently put up a <a target="_blank" 
+                href="https://premjitadhikary.github.io/paintinbits/articles/a-diwali-mission">
+                comic</a>. That's where the idea for this segment came.
+              </p>
+              <p>
+                Hostel Four just has one storey, while Five has a terrace. Obviously we played 
+                with the big bad fireworks and safety was the last thing on our minds.
+              </p>
+            </div>
+            <div slot="source">
+              <p>Original idea.</p>
+            </div>
+          </sketch-text>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

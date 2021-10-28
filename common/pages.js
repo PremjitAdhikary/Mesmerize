@@ -431,7 +431,8 @@ class Pages {
           'creature',
           'sim',
           'original',
-          'interactive'
+          'interactive',
+          'steer'
         ]
       },
       {
@@ -727,7 +728,23 @@ class Pages {
         tag: [
           'sim',
           'perlin',
-          'intelligence'
+          'intelligence',
+          'steer'
+        ]
+      },
+      {
+        id: 10041,
+        name: 'Diwali Special',
+        url: '/diwali-special',
+        img: '/diwali-special/img/preview.jpg',
+        detail: 'Celebrate with digital fireworks.',
+        rank: 2,
+        date: 'Oct 28 2021',
+        tag: [
+          'diwali',
+          'festival',
+          'firework',
+          'original'
         ]
       }
     ];
