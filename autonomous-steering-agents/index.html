@@ -372,7 +372,7 @@
                       steering_force = desired_velocity - velocity
                     </div>
                   </code-formatter>
-                  <p><em>Control Wise</em></p>
+                  <p class="hilight">Control Wise</p>
                   <ul>
                     <li>
                       Max Speed and Max Force can be adjusted to alter the behavior of the 
@@ -386,7 +386,8 @@
                     Flee is simply the opposite of Seek and acts to steer the character so that its 
                     velocity is radially aligned away from the target.
                   </p>
-                  <p><em>Control Wise</em>, it's the same as Seek.</p>
+                  <p class="hilight">Control Wise</p>
+                  <p>It's the same as Seek.</p>
                 </tab-content>
                 <tab-content name="Pursuit">
                   <p>
@@ -403,7 +404,7 @@
                       steering_force = seek(predicted_target)
                     </div>
                   </code-formatter>
-                  <p><em>Control Wise</em></p>
+                  <p class="hilight">Control Wise</p>
                   <ul>
                     <li>
                       Max Speed, Max Force and Target position change controls stay the same as 
@@ -421,7 +422,8 @@
                     <em>Guess What?</em> Evasion is the opposite of Pursuit. So the vehicle is 
                     steered away from the <em>Prediction</em>.
                   </p>
-                  <p><em>Control Wise</em>, it's the same as Pursuit.</p>
+                  <p class="hilight">Control Wise</p>
+                  <p>It's the same as Pursuit.</p>
                 </tab-content>
                 <tab-content name="Wander">
                   <p>
@@ -442,7 +444,7 @@
                       steering_force = seek(wander_target)
                     </div>
                   </code-formatter>
-                  <p><em>Control Wise</em></p>
+                  <p class="hilight">Control Wise</p>
                   <ul>
                     <li>
                       Max Speed, Max Force controls stay the same as Seek
@@ -467,7 +469,7 @@
                     behavior requires the vehicle to slow down and eventually stop at the target.
                   </p>
                   <p>Daniel's implementation was simple enough.</p>
-                  <p><em>Control Wise</em></p>
+                  <p class="hilight">Control Wise</p>
                   <ul>
                     <li>
                       Max Speed, Max Force and Target position change controls stay the same as 
@@ -490,7 +492,7 @@
                       steering_force = pursuit(offset_target)
                     </div>
                   </code-formatter>
-                  <p><em>Control Wise</em></p>
+                  <p class="hilight">Control Wise</p>
                   <ul>
                     <li>
                       Max Speed, Max Force and Target position change controls stay the same as 
@@ -528,7 +530,7 @@
                     less or equal to radius of the object ... Collision!
                   </p>
                   <p>Lastly we calculate the force to be applied.</p>
-                  <p><em>Control Wise</em></p>
+                  <p class="hilight">Control Wise</p>
                   <ul>
                     <li>Max Speed, Max Force controls stay the same as Seek</li>
                     <li>
@@ -558,7 +560,7 @@
                         wander()
                     </div>
                   </code-formatter>
-                  <p><em>Control Wise</em></p>
+                  <p class="hilight">Control Wise</p>
                   <ul>
                     <li>Max Speed, Max Force controls stay the same as Seek.</li>
                     <li>On mouse click, here the vehicle is displaced (as there is no target).</li>
@@ -614,7 +616,7 @@
                     a point that is a offset from the wall. This is where we use 
                     <em>Scalar Projection</em>.
                   </p>
-                  <p><em>Control Wise</em></p>
+                  <p class="hilight">Control Wise</p>
                   <ul>
                     <li>Max Speed, Max Force controls stay the same as Seek.</li>
                     <li>On mouse click, here the vehicle is displaced (as there is no target)</li>
@@ -648,7 +650,7 @@
                     In case the path has multiple segments, find the nearest segment and the 
                     algorithm continues.
                   </p>
-                  <p><em>Control Wise</em></p>
+                  <p class="hilight">Control Wise</p>
                   <ul>
                     <li>Max Speed, Max Force controls stay the same as Seek.</li>
                     <li>
@@ -664,7 +666,7 @@
                     vehicles predicted position, the flow at that location is sampled to become 
                     the desired velocity.
                   </p>
-                  <p><em>Control Wise</em></p>
+                  <p class="hilight">Control Wise</p>
                   <ul>
                     <li>Max Speed and Max Force controls stay the same as Seek</li>
                     <li>On mouse click, here the vehicle is displaced (as there is no target).</li>
@@ -712,7 +714,7 @@
                     To achieve this, along with the Path Following behavior, Separation is also 
                     added so that the vehicles don't group together.
                   </p>
-                  <p><em>Control Wise</em></p>
+                  <p class="hilight">Control Wise</p>
                   <ul>
                     <li>Max Speed, Max Force controls stay the same as Seek.</li>
                     <li>
@@ -730,7 +732,7 @@
                   <p>
                     Here Containment and Separation are put together to achieve this behavior.
                   </p>
-                  <p><em>Control Wise</em></p>
+                  <p class="hilight">Control Wise</p>
                   <ul>
                     <li>Max Speed, Max Force controls stay the same as Seek.</li>
                     <li>
@@ -749,7 +751,7 @@
                     proportions. The Containment behavior is adjusted to <em>not</em> Wander in 
                     case collision is not detected.
                   </p>
-                  <p><em>Control Wise</em></p>
+                  <p class="hilight">Control Wise</p>
                   <ul>
                     <li>Max Speed, Max Force controls stay the same as Seek.</li>
                     <li>
@@ -768,7 +770,7 @@
                     behind the leader. Then it is mixed with Separation to achieve the desired 
                     behavior.
                   </p>
-                  <p><em>Control Wise</em></p>
+                  <p class="hilight">Control Wise</p>
                   <ul>
                     <li>
                       Max Speed, Max Force controls for Leader and Followers stay the same as Seek.
@@ -784,7 +786,7 @@
                     Simulate movement of flocks, herds and schools. This is achieved by combining 
                     Separation, Alignment and Cohesion with some weight factored in.
                   </p>
-                  <p><em>Control Wise</em></p>
+                  <p class="hilight">Control Wise</p>
                   <ul>
                     <li>
                       Max Speed, Max Force controls stay the same as Seek.

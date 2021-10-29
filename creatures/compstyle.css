@@ -1,7 +1,7 @@
 .control-container {
   height: 100%;
   display: grid;
-  grid-template-columns: 3fr 4fr;
+  grid-template-columns: 4fr 3fr;
   grid-template-rows: 2fr;
   grid-template-areas:
     "choices sliders"
@@ -13,6 +13,7 @@
 .sliders {
   grid-area: sliders;
 }
-.variable_slider {
-  grid-area: variable_slider;
+#choice_creature {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }

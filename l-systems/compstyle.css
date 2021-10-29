@@ -2,7 +2,7 @@
   height: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr 2fr;
-  grid-template-rows: 3fr 1fr;
+  grid-template-rows: 4fr 1fr;
   grid-template-areas:
     "choice_main choice_sub choice_actual"
     "launch choice_sub choice_actual";
