@@ -790,7 +790,7 @@ class Pages {
           }
         });
 
-    this._latest = [10042, 10039];
+    this._latest = [10042];
     this._allTags = this.allTags();
   }
 
