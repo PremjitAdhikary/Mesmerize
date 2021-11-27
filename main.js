@@ -29,13 +29,8 @@ function setupSearch() {
   document.getElementById('btn-search').onclick = function(e) {
     let searchTerm = document.getElementById('term-search').value;
     let searchResults;
-    if (!searchTerm) {
-      searchResults = _pages.getPublishedPagesId();
-    } else {
-      setCardsVisibility(_pages.getPublishedPagesId(), false);
-      searchResults = _searchEngine.search(searchTerm, sortBy());
-    }
-    console.log(searchResults);
+    hideAllCards();
+    searchResults = _searchEngine.search(searchTerm, sortBy());
     setCardsVisibility(searchResults, true);
     document.getElementById('segment-count').textContent = searchResults.length;
   }
@@ -66,12 +61,21 @@ function searchFor(termToSearch) {
 function setupSort() {
   document.getElementById('choice-sort').onclick = function(e) {
     let val = Number(e.target.value);
-    if (val) {console.log(val);
+    if (val) {
       sortOrder = val;
       loadCards();
       document.getElementById('btn-search').click();
     }
   }
+}
+
+function hideAllCards() {
+  _pages.getAllPagesId().forEach(
+    pid => {
+      if (document.getElementById(pid)) 
+        document.getElementById(pid).style.display = 'none';
+    }
+  );
 }
 
 function setCardsVisibility(cards, visible) {

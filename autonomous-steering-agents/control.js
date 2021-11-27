@@ -98,7 +98,7 @@ document.getElementById('choice_main').onclick = e => {
   if (val) {
     bus.dispatch("ControlASAcm", { choice_main: val });
     document.getElementById('choice_simple').style.display = (val == 1 ? 'grid' : 'none');
-    document.getElementById('choice_combined').style.display = (val == 2 ? 'block' : 'none');
+    document.getElementById('choice_combined').style.display = (val == 2 ? 'grid' : 'none');
     hideOptions();
     let elemId = val == 1 ? 
       simple_options_list[choice_simple-1] : combined_options_list[choice_combined-1];
@@ -108,7 +108,7 @@ document.getElementById('choice_main').onclick = e => {
 };
 
 document.getElementById('choice_simple').style.display = (choice_main == 1 ? 'grid' : 'none');
-document.getElementById('choice_combined').style.display = (choice_main == 2 ? 'block' : 'none');
+document.getElementById('choice_combined').style.display = (choice_main == 2 ? 'grid' : 'none');
 toggleClassForElement(document.getElementById('sketch-holder'), 'clickable', (choice_main == 1 && choice_simple != 11));
 
 document.getElementById('choice_simple').onclick = e => {

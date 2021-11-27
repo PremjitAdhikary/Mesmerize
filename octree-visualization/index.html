@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" href="../favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Change This -->
+  <meta name="description" content="Visualizing an Octtree.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://premjitadhikary.github.io/Mesmerize/octree-visualization">
+  <meta property="og:title" content="Octree Visualization">
+  <meta property="og:description" content="Visualizing an Octtree.">
+  <meta property="og:image" content="https://premjitadhikary.github.io/Mesmerize/octree-visualization/img/myCanvas.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://premjitadhikary.github.io/Mesmerize/octree-visualization">
+  <meta name="twitter:title" content="Octree Visualization">
+  <meta name="twitter:description" content="Visualizing an Octtree.">
+  <meta name="twitter:image" content="https://premjitadhikary.github.io/Mesmerize/octree-visualization/img/myCanvas.jpg">
+  <!-- Change This -->
+  <link rel="stylesheet" href="../appstyle.css">
+  <link rel="stylesheet" href="./compstyle.css">
+  <script src="../components/app-header.js" type="module"></script>
+  <script src="../components/sketch-text.js" type="module"></script>
+  <script src="https://cdn.babylonjs.com/babylon.js"></script>
+  <script src="./main.js" type="module"></script>
+  <script src="../common/octree.js"></script>
+  <script src="./visual-octree.js"></script>
+  <script src="./oct-element.js"></script>
+  <script src="../common/sketch-colors.js"></script>
+  <script src="../common/utilities.js"></script>
+  <script src="../components/range-input.js" type="module"></script>
+  <script src="../components/radio-input-group.js" type="module"></script>
+  <script src="./control.js" type="module"></script>
+  <title>Octree Visualization</title>
+</head>
+<body>
+  <div class="toplevel">
+    <app-header class="heading"></app-header>
+    <div class="topbody">
+      <div class="container">
+          <div class="sketch">
+            <div id="sketch-holder" class="sketch-holder">
+                <canvas id="myCanvas" width="640" height="480" style="width: 640px; height: 480px;"></canvas>
+            </div>
+          </div>
+
+          <div class="control">
+            <div class="control-container">
+              <div class="add-control">
+                <p><span class="btn" id="add_10">Add 10 elements</span></p>
+                <p><span class="btn" id="add_20">Add 20 elements</span></p>
+                <p><span class="btn" id="add_30">Add 30 elements</span></p>
+              </div>
+              <div class="query-control">
+                <p>
+                  <label for="query_box_x">Query X: </label>
+                  <range-input min="-64" max="64" id="query_box_x"></range-input> <br>
+                  <label for="query_box_y">Query Y: </label>
+                  <range-input min="-64" max="64" id="query_box_y"></range-input> <br>
+                  <label for="query_box_z">Query Z: </label>
+                  <range-input min="-64" max="64" id="query_box_z"></range-input>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <sketch-text class="description" pageid="1004">
+            <div slot="content">
+              <p>More of testing/demo segment for Octree.</p>
+              <p>
+                The idea is same as a Quadtree with an additional dimension. Instead of 4 
+                children, each tree can have 8 children.
+              </p>
+              <p class="sub-header">Controls</p>
+              <ul>
+                <li>
+                  The buttons add elements randomly over the 3D space enclosed by the root 
+                  tree. Child trees get created as and when elements are added.
+                </li>
+                <li>The sliders manipulate the query box across x, y and z axes.</li>
+                <li>The elements in the query box are hilighted in green.</li>
+                <li>
+                  Using mouse on the Viewport allows to control the camera. Click and drag to 
+                  move Camera. Hold Control, Clik and drag to pan Camera. Scroll to Zoom 
+                  In/Out.
+                </li>
+              </ul>
+            </div>
+            <div slot="source">
+              <p>
+                Wikipedia has an exhaustive page about <a target="_blank" 
+                href="https://en.wikipedia.org/wiki/Octree" >Octree</a>.
+              </p>
+            </div>
+          </sketch-text>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

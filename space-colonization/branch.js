@@ -12,7 +12,6 @@ class Branch {
     this.extended = false;
 
     this.count = 0;
-    this.me = this;
   }
 
   show() {

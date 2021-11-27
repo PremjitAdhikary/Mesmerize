@@ -16,7 +16,7 @@ class SearchEngine {
     return [SearchEngine.SORT_NEW, SearchEngine.SORT_OLD, SearchEngine.SORT_RANK];
   }
 
-  orderPages(sortBy, allPages = pages.getPublishedPagesId().slice()) {
+  orderPages(sortBy, allPages = pages.getAllPagesId().slice()) {
     switch(sortBy) {
       case SearchEngine.SORT_NEW:
         return allPages.reverse();
@@ -80,6 +80,8 @@ class SearchEngine {
         return node._op.val();
       if (node._op._type == TokenTypes.LATEST)
         return this.latestPages();
+      if (node._op._type == TokenTypes.INTERNAL)
+        return this.internalPages();
       return [];
     }
     if (node instanceof UnaryOpNode) {
@@ -113,6 +115,10 @@ class SearchEngine {
 
   latestPages() {
     return pages._latest.slice();
+  }
+
+  internalPages() {
+    return pages.getAllPagesId().filter(pid => pages.getPageById(pid).internal);
   }
 
   searchByMonth(month, allPages = pages.getPublishedPagesId().slice()) {
@@ -162,6 +168,7 @@ const TokenTypes = {
   YEAR: "yr",
   RANK: "rank",
   LATEST: "latest",
+  INTERNAL: "internal",
   NOT: "not",
   AND: "and",
   OR: "or",
@@ -235,6 +242,7 @@ class Lexer {
       case TokenTypes.YEAR: return new Token(TokenTypes.YEAR, word);
       case TokenTypes.RANK: return new Token(TokenTypes.RANK, word);
       case TokenTypes.LATEST: return new Token(TokenTypes.LATEST, word);
+      case TokenTypes.INTERNAL: return new Token(TokenTypes.INTERNAL, word);
       case TokenTypes.AND: return new Token(TokenTypes.AND, word);
       case TokenTypes.OR: return new Token(TokenTypes.OR, word);
       case TokenTypes.NOT: return new Token(TokenTypes.NOT, word);
@@ -295,7 +303,6 @@ class Lexer {
       token = this.nextToken();
     }
     str += token.toString();
-    console.log(str);
     this._pos = backUpPos;
     this._ch = this._text.charAt(this._pos);
   }
@@ -309,6 +316,7 @@ const theMonths = [ 'jan', 'feb', 'mar', 'apr', 'may', 'jun', 'jul', 'aug', 'sep
  * term: ( not term ) | ( ids | latest | tag | rank | month | year ) | (LPAREN expr RPAREN)
  * ids: [ ID, ID, ID ]
  * latest: latest
+ * internal: internal
  * tag: tag word
  * rank: rank (1|2|3|4)
  * month: mth (jan | feb | ... | dec)
@@ -341,6 +349,9 @@ class Parser {
     switch(op._type) {
       case TokenTypes.IDS:
       case TokenTypes.LATEST:
+        this.eat(op._type);
+        return new MonoNode(op);
+      case TokenTypes.INTERNAL:
         this.eat(op._type);
         return new MonoNode(op);
       case TokenTypes.TAG:

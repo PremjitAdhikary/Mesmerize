@@ -1,0 +1,14 @@
+.control-container {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 3fr 5fr;
+  grid-template-rows: 1fr;
+  grid-template-areas:
+    "add-control query-control";
+}
+.add-control {
+  grid-area: add-control;
+}
+.sliders {
+  grid-area: query-control;
+}

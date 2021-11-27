@@ -1,0 +1,14 @@
+.control-container {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 3fr 4fr;
+  grid-template-rows: 1fr;
+  grid-template-areas:
+    "choices clicks";
+}
+.choices {
+  grid-area: choices;
+}
+.clicks {
+  grid-area: clicks;
+}

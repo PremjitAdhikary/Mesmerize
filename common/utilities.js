@@ -31,3 +31,11 @@ function toggleClassForElement(el, toggleClass, isAddCondition) {
 function distanceSquared(a, b) {
   return (a.x - b.x) * (a.x - b.x) + (a.y - b.y) * (a.y - b.y);
 }
+
+function idGenerator(seed = 1, pre = '', post = '') {
+  let _id = seed;
+  return () => {
+    _id++;
+    return pre + _id + post;
+  };
+}

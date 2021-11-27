@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" href="../favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Change This -->
+  <meta name="description" content="Generate Tree using Space Colonization Algorithm in 3D.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://premjitadhikary.github.io/Mesmerize/space-colonization-3d">
+  <meta property="og:title" content="Tree Space Colonization - 3D">
+  <meta property="og:description" content="Generate Tree using Space Colonization Algorithm in 3D.">
+  <meta property="og:image" content="https://premjitadhikary.github.io/Mesmerize/space-colonization-3d/img/myCanvas.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://premjitadhikary.github.io/Mesmerize/space-colonization-3d">
+  <meta name="twitter:title" content="Tree Space Colonization - 3D">
+  <meta name="twitter:description" content="Generate Tree using Space Colonization Algorithm in 3D.">
+  <meta name="twitter:image" content="https://premjitadhikary.github.io/Mesmerize/space-colonization-3d/img/myCanvas.jpg">
+  <!-- Change This -->
+  <link rel="stylesheet" href="../appstyle.css">
+  <link rel="stylesheet" href="./compstyle.css">
+  <script src="../components/app-header.js" type="module"></script>
+  <script src="../components/sketch-text.js" type="module"></script>
+  <script src="https://cdn.babylonjs.com/babylon.js"></script>
+  <script src="./main.js" type="module"></script>
+  <script src="../common/sketch-colors.js"></script>
+  <script src="../common/utilities.js"></script>
+  <script src="../components/range-input.js" type="module"></script>
+  <script src="../components/radio-input-group.js" type="module"></script>
+  <script src="../components/tabbed-pane.js" type="module"></script>
+  <script src="./control.js" type="module"></script>
+  <script src="../common/octree.js"></script>
+  <script src="./attractor.js"></script>
+  <script src="./branch-node.js"></script>
+  <script src="./tree-repo.js"></script>
+  <script src="./tree.js"></script>
+  <script src="./tree-renderer.js"></script>
+  <title>Tree Space Colonization - 3D</title>
+</head>
+<body>
+  <div class="toplevel">
+    <app-header class="heading"></app-header>
+    <div class="topbody">
+      <div class="container">
+          <div class="sketch">
+            <div id="sketch-holder" class="sketch-holder clickable">
+                <canvas id="myCanvas" width="640" height="480" style="width: 640px; height: 480px;"></canvas>
+            </div>
+          </div>
+
+          <div class="control">
+            <div class="control-container">
+              <div class="choices">
+                <p>
+                  <radio-group id="choice_tree">
+                    <radio-button value="1" aria-checked="true">Basic Space Colonization</radio-button>
+                    <radio-button value="2">Generic</radio-button>
+                    <radio-button value="3">Spread Out</radio-button>
+                    <radio-button value="4">Pine(ish)</radio-button>
+                    <radio-button value="5">Haunted</radio-button>
+                    <radio-button value="6">Natural(ish)</radio-button>
+                  </radio-group>
+                </p>
+              </div>
+              <div class="clicks">
+                <p>
+                  <span class="btn" id="generate_tree">Generate Tree</span>
+                </p>
+                <p>
+                  <span class="btn" id="show_tree">Show Tree</span>
+                </p>
+                <p>
+                  <span class="btn" id="show_texture">Show Texture</span>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <sketch-text class="description" pageid="10042">
+            <div slot="content">
+              <p>
+                The 2D version of Space Colonization was covered in a previous <a target="_blank" 
+                href="../space-colonization/">segment</a>. The same algorithm is implemented here 
+                albeit in 3D.
+              </p>
+              <p class="sub-header">Controls</p>
+              <ul>
+                <li>
+                  Select one of the trees on the left. On selection attractors are generated and 
+                  distributed in a determined 3D space.
+                </li>
+                <li>
+                  On click of <em>Generate Tree</em>, the Space Colonization algorithm starts 
+                  running and places nodes for the branches to connect to.
+                </li>
+                <li>
+                  On completion of the algorithm, <em>Show Tree/Nodes</em> toggle is enabled. This 
+                  allows you to toggle the view to display the rendered tree or the nodes.
+                </li>
+                <li>
+                  When tree view is on, you can toggle to check out a texture rendered version too.
+                </li>
+                <li>
+                  Using mouse on the Viewport allows to control the camera. Click and drag to move 
+                  Camera. Hold Control, Click and drag to pan Camera. Scroll to Zoom In/Out.
+                </li>
+                <li>
+                  If Viewport is in focus, the keyboard can also be used. Use Arrow keys to move 
+                  Camera. Control &plus; Arrow keys to pan Camera. Alt &plus; Up/Down Arrow keys to 
+                  Zoom In/Out.
+                </li>
+              </ul>
+              <p class="sub-header">The Attractors</p>
+              <p><em>How are they distributed?</em></p>
+              <tabbed-pane>
+                <tab-content name="Basic" selected>
+                  <p>
+                    Easiest of all. Spread the attractors over a rectangular parallelepiped. Just 
+                    random x, y, z over a range and offset y by some distance to <em>lift</em> the 
+                    attractors above ground.
+                  </p>
+                </tab-content>
+                <tab-content name="Generic">
+                  <p>
+                    Here attractors are spread out in a sphere. Gives much natural tree-ish look. 
+                    The sphere is squished a bit along y-axis (and lifted up).
+                  </p>
+                </tab-content>
+                <tab-content name="Spread Out">
+                  <p>
+                    Same idea as <em>Generic</em>, but the attractors are pushed towards the face 
+                    of the shape.
+                  </p>
+                </tab-content>
+                <tab-content name="Pine(ish)">
+                  <p>
+                    Instead of a sphere, here a cone is used as an envelope.
+                  </p>
+                </tab-content>
+                <tab-content name="Haunted">
+                  <p>
+                    Instead of a sphere, here a Hemisphere is used as an envelope. This is 
+                    re-imagining the 2D version in 3D.
+                  </p>
+                </tab-content>
+                <tab-content name="Natural(ish)">
+                  <p>
+                    Multiple envelopes placed at random locations to come up with a natural 
+                    looking tree.
+                  </p>
+                </tab-content>
+              </tabbed-pane>
+              <br>
+              <p class="sub-header">Octree Usage</p>
+              <p>
+                In the 2D version I used quadtree to make this algorithm more performant. In this 
+                version, I use Octree for the same purpose - efficiently search for the nodes to 
+                be affected by the attractors but in 3D space.
+              </p>
+            </div>
+            <div slot="source">
+              <p>
+                <a href="http://algorithmicbotany.org/papers/colonization.egwnp2007.large.pdf" 
+                target="_blank">Paper</a> from Algorithmic Botany.
+              </p>
+              <p>
+                Algorithms taken from this <a href="https://karthikkaranth.me/blog/generating-random-points-in-a-sphere/" 
+                target="_blank">blog</a> for distribution of points in a sphere and <a target="_blank" 
+                href="https://stackoverflow.com/questions/41749411/uniform-sampling-by-volume-within-a-cone">
+                stackoverflow</a> for same in a cone.
+              </p>
+            </div>
+          </sketch-text>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

@@ -746,6 +746,35 @@ class Pages {
           'firework',
           'original'
         ]
+      },
+      {
+        id: 1004,
+        name: 'Octree Visualization',
+        url: '/octree-visualization',
+        img: '/octree-visualization/img/preview.jpg',
+        detail: 'Visualizing an Octtree.',
+        tag: [],
+        date: 'Nov 27 2021',
+        internal: true
+      },
+      {
+        id: 10042,
+        name: 'Tree Space Colonization - 3D',
+        url: '/space-colonization-3d',
+        img: '/space-colonization-3d/img/preview.jpg',
+        detail: 'Generate Tree using Space Colonization Algorithm in 3D.',
+        rank: 3,
+        date: 'Nov 27 2021',
+        tag: [
+          'colonization',
+          'tree',
+          'space',
+          'botany',
+          'octree',
+          'algorithm',
+          'visualization',
+          '3d'
+        ]
       }
     ];
 
@@ -775,7 +804,8 @@ class Pages {
       detail: this._pagesMap[pageId].detail,
       date: this._pagesMap[pageId].date,
       rank: this._pagesMap[pageId].rank,
-      tag: this._pagesMap[pageId].tag
+      tag: this._pagesMap[pageId].tag,
+      internal: this._pagesMap[pageId].internal
     };
   }
 

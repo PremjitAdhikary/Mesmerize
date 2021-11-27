@@ -25,18 +25,18 @@ function createScene() {
   
   addObjects(scene);
 
-  scene.onKeyboardObservable.add( kbInfo => {
-    switch(kbInfo.type) {
-      case BABYLON.KeyboardEventTypes.KEYUP:
-        switch(kbInfo.event.key) {
-          case 's':
-          case 'S':
-            saveCanvas(scene);
-            break;
-        }
-        break;
-    }
-  } );
+  // scene.onKeyboardObservable.add( kbInfo => {
+  //   switch(kbInfo.type) {
+  //     case BABYLON.KeyboardEventTypes.KEYUP:
+  //       switch(kbInfo.event.key) {
+  //         case 's':
+  //         case 'S':
+  //           saveCanvas(scene);
+  //           break;
+  //       }
+  //       break;
+  //   }
+  // } );
 
   return scene;
 }
