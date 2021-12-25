@@ -592,7 +592,8 @@ class Pages {
           'four wing',
           '3d',
           'curve',
-          'easycam'
+          'easycam',
+          'interactive'
         ]
       },
       {
@@ -617,7 +618,8 @@ class Pages {
           'sim',
           'phone',
           'color',
-          'art'
+          'art',
+          'interactive'
         ]
       },
       {
@@ -729,7 +731,8 @@ class Pages {
           'sim',
           'perlin',
           'intelligence',
-          'steer'
+          'steer',
+          'interactive'
         ]
       },
       {
@@ -775,6 +778,33 @@ class Pages {
           'visualization',
           '3d'
         ]
+      },
+      {
+        id: 10043,
+        name: 'Air Base B',
+        url: '/air-base-b',
+        img: '/air-base-b/img/preview.jpg',
+        detail: 'Defend the Air Base at all costs!',
+        rank: 1,
+        date: 'Dec 25 2021',
+        tag: [
+          'game', 
+          'steer', 
+          'original'
+        ]
+      },
+      {
+        id: 10044,
+        name: 'Sudoku Solver',
+        url: '/sudoku-solver',
+        img: '/sudoku-solver/img/preview.jpg',
+        detail: 'As the name suggests...',
+        rank: 4,
+        date: 'Dec 25 2021',
+        tag: [
+          'algorithm',
+          'visualization'
+        ]
       }
     ];
 
@@ -790,7 +820,7 @@ class Pages {
           }
         });
 
-    this._latest = [10042];
+    this._latest = [10043, 10044];
     this._allTags = this.allTags();
   }
 

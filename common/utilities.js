@@ -16,6 +16,12 @@ function forEach2DArray(arr, action) {
   }
 }
 
+function clone2DArray(source) {
+  let arr = create2DArray(source.length, source[0].length);
+  forEach2DArray(arr, (e, r, c) => arr[r][c] = source[r][c]);
+  return arr;
+}
+
 function mouseInCanvas() {
   return mouseX > 0 && mouseX < width && mouseY > 0 && mouseY < height;
 }
@@ -37,5 +43,32 @@ function idGenerator(seed = 1, pre = '', post = '') {
   return () => {
     _id++;
     return pre + _id + post;
+  };
+}
+
+/**
+ * When we have a requirement where a particular piece of code has to be run at a certain 
+ * interval... (in p5 sketch, this would be after every n frames).
+ * 
+ * intervalCaller give you ability to do just that!
+ * 
+ * @param {*} interval - a function which returns the interval duration, because this is a 
+ *  function, the interval can be constant or a variable based on some logic (or totally 
+ *  random)
+ * @param {*} funcToCall - this holds the peice of logic to run at every interval. Must return 
+ *  true/false. When true (ie, the logic did accomplish its purpose), the interval will be reset 
+ *  by calling the interval function
+ * @returns - a function which has to be called at every frame (in draw method if a p5 sketch)
+ */
+function intervalCaller(interval, funcToCall) {
+  let count = interval();
+  return () => {
+    if (count > 0) {
+      count--;
+      return;
+    }
+    if (funcToCall()) {
+      count = interval();
+    }
   };
 }

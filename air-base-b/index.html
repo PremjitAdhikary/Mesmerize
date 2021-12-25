@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" href="../favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Change This -->
+  <meta name="description" content="Defend the Air Base at all costs!">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://premjitadhikary.github.io/Mesmerize/air-base-b">
+  <meta property="og:title" content="Air Base B">
+  <meta property="og:description" content="Defend the Air Base at all costs!">
+  <meta property="og:image" content="https://premjitadhikary.github.io/Mesmerize/air-base-b/img/myCanvas.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://premjitadhikary.github.io/Mesmerize/air-base-b">
+  <meta name="twitter:title" content="Air Base B">
+  <meta name="twitter:description" content="Defend the Air Base at all costs!">
+  <meta name="twitter:image" content="https://premjitadhikary.github.io/Mesmerize/air-base-b/img/myCanvas.jpg">
+  <!-- Change This -->
+  <link rel="stylesheet" href="../appstyle.css">
+  <script src="../components/app-header.js" type="module"></script>
+  <script src="../components/sketch-text.js" type="module"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.3.1/p5.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/p5.collide2d"></script>
+  <script src="./sketch.js"></script>
+  <script src="../lib/p5SceneManager/scenemanager.js"></script>
+  <script src="../lib/p5Scribble/p5.scribble.js"></script>
+  <script src="../common/sketch-colors.js"></script>
+  <script src="../common/utilities.js"></script>
+  <script src="./control.js" type="module"></script>
+  <script src="../lib/ToneJS/14_7_39/Tone.js"></script>
+  <script src="./pages/base-menu.js"></script>
+  <script src="./pages/menu.js"></script>
+  <script src="./games/play-commons.js"></script>
+  <script src="./games/play-gunner.js"></script>
+  <script src="./games/play-engineer.js"></script>
+  <script src="./games/play-commander.js"></script>
+  <script src="./games/play-trainee.js"></script>
+  <script src="./pages/help.js"></script>
+  <script src="./pages/pause-screen.js"></script>
+  <script src="./pages/info.js"></script>
+  <script src="./pages/game-over.js"></script>
+  <script src="./pages/settings.js"></script>
+  <script src="./audio/synth-smash.js"></script>
+  <script src="./audio/bass-smash.js"></script>
+  <script src="./audio/game-sounds.js"></script>
+  <script src="./game-objects/game-configs.js"></script>
+  <script src="./game-objects/draw-utilities.js"></script>
+  <script src="./game-objects/damagable.js"></script>
+  <script src="./game-objects/air-base-bg.js"></script>
+  <script src="./game-objects/air-strip.js"></script>
+  <script src="./game-objects/fighter-jet.js"></script>
+  <script src="./game-objects/fighter-bomber.js"></script>
+  <script src="./game-objects/fighter-kamikaze.js"></script>
+  <script src="./game-objects/fighter-lca.js"></script>
+  <script src="./game-objects/bomb.js"></script>
+  <script src="./game-objects/bullet.js"></script>
+  <script src="./game-objects/power-up.js"></script>
+  <script src="./game-objects/blast-circle.js"></script>
+  <script src="./game-objects/wheel.js"></script>
+  <script src="./game-objects/interactive-vehicle.js"></script>
+  <script src="./game-objects/road-roller.js"></script>
+  <script src="./game-objects/anti-aircraft-gun.js"></script>
+  <script src="./game-objects/trainer-flag.js"></script>
+  <script src="./game-objects/trainer-target.js"></script>
+  <script src="../autonomous-steering-agents/targets/dummy-target.js"></script>
+  <script src="../autonomous-steering-agents/strategies/seek.js"></script>
+  <script src="../autonomous-steering-agents/strategies/pursuit.js"></script>
+  <script src="../autonomous-steering-agents/vehicles/basic-vehicle.js"></script>
+  <script src="./game-objects/missile.js"></script>
+  <script src="./game-objects/sam.js"></script>
+  <script src="./game-objects/go-factory.js"></script>
+  <script src="./games/sam-ai-assist.js"></script>
+  <script src="./games/trainee-ai-assist.js"></script>
+  <title>Air Base B</title>
+</head>
+<body>
+  <div class="toplevel">
+    <app-header class="heading"></app-header>
+    <div class="topbody">
+      <div class="container-no-control">
+          <div class="sketch">
+            <div id="sketch-holder" class="sketch-holder">
+            </div>
+          </div>
+
+          <sketch-text class="description-no-control" pageid="10043">
+            <div slot="content">
+              <p>
+                I saw the movie <em>Bhuj: The Pride of India</em> recently. Hmmm... a 
+                toned down version as a game can be made.
+              </p>
+              <p>
+                List of libraries used here:
+                <ul>
+                  <li>
+                    <a href="https://github.com/mveteanu/p5.SceneManager" 
+                    target="_blank">p5.js SceneManager</a> - To switch among games and menus.
+                  </li>
+                  <li>
+                    <a href="https://github.com/generative-light/p5.scribble.js" 
+                    target="_blank">p5.scribble.js</a> - To have a <em>sketchy</em> look for 
+                    the game artwork.
+                  </li>
+                  <li>
+                    <a href="https://github.com/bmoren/p5.collide2D" target="_blank">p5.collide2D</a> 
+                    - To have collision detection.
+                  </li>
+                  <li>
+                    <a href="https://tonejs.github.io/" target="_blank">Tone JS</a> - For audio.
+                  </li>
+                </ul>
+              </p>
+              <p>
+                While I loved the graphics generated by Scribble, it really did a number on the 
+                performance. So I had to keep an alternative. By default the alternative version 
+                (<em>Blocks</em>) runs. Flip it to <em>Pencil</em> or <em>Sketch</em> and try them 
+                out. If the performance is not affected, enjoy some scribblish kinda game artwork.
+
+              </p>
+            </div>
+            <div slot="source">
+              <p>
+                If Bhuj was a video game...
+              </p>
+            </div>
+          </sketch-text>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

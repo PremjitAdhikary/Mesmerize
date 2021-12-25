@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" href="../favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Change This -->
+  <meta name="description" content="As the name suggests...">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://premjitadhikary.github.io/Mesmerize/sudoku-solver">
+  <meta property="og:title" content="Sudoku Solver">
+  <meta property="og:description" content="As the name suggests...">
+  <meta property="og:image" content="https://premjitadhikary.github.io/Mesmerize/sudoku-solver/img/myCanvas.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://premjitadhikary.github.io/Mesmerize/sudoku-solver">
+  <meta name="twitter:title" content="Sudoku Solver">
+  <meta name="twitter:description" content="As the name suggests...">
+  <meta name="twitter:image" content="https://premjitadhikary.github.io/Mesmerize/sudoku-solver/img/myCanvas.jpg">
+  <!-- Change This -->
+  <link rel="stylesheet" href="../appstyle.css">
+  <link rel="stylesheet" href="./compstyle.css">
+  <script src="../components/app-header.js" type="module"></script>
+  <script src="../components/sketch-text.js" type="module"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.3.1/p5.min.js"></script>
+  <script src="./sudoku-board.js"></script>
+  <script src="./games.js"></script>
+  <script src="./algorithm/algo-utils.js"></script>
+  <script src="./algorithm/backtracking.js"></script>
+  <script src="./algorithm/most-constrained-square-selection.js"></script>
+  <script src="./sketch.js"></script>
+  <script src="../common/sketch-colors.js"></script>
+  <script src="../common/utilities.js"></script>
+  <script src="../components/range-input.js" type="module"></script>
+  <script src="../components/radio-input-group.js" type="module"></script>
+  <script src="../components/tabbed-pane.js" type="module"></script>
+  <script src="./control.js" type="module"></script>
+  <title>Sudoku Solver</title>
+</head>
+<body>
+  <div class="toplevel">
+    <app-header class="heading"></app-header>
+    <div class="topbody">
+      <div class="container">
+          <div class="sketch">
+            <div id="sketch-holder" class="sketch-holder">
+            </div>
+          </div>
+
+          <div class="control">
+            <div class="control-container">
+              <div>
+                <div>
+                  <span>Set up puzzle:&nbsp;&nbsp;</span>
+                  <span class="btn" id="easy_random">Easy</span>
+                  <span class="btn" id="normal_random">Normal</span>
+                  <span class="btn" id="hard_random">Hard</span>
+                  <span class="btn" id="brute_force_killer">Brute Force Killer</span>
+                </div>
+              </div>
+              <div class="algo">
+                <div>
+                  <span class="btn" id="solve">Solve Puzzle</span>
+                  <br>
+                  <p>
+                    <label for="speed">Speed: </label>
+                    <range-input min="1" max="100" id="speed"></range-input>
+                  </p>
+                </div>
+                <div>
+                  Select Algorithm: <br>
+                  <radio-group id="choice_algo">
+                    <radio-button value="1" aria-checked="true">Backtracking</radio-button>
+                    <radio-button value="2">Most Constrained Square Selection</radio-button>
+                  </radio-group>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <sketch-text class="description" pageid="10044">
+            <div slot="content">
+              <p>
+                Not going to explain Sudoku. This is to show how algorithms work on a typical 
+                Sudoku puzzle.
+              </p>
+              <p class="sub-header">Controls</p>
+              <p>
+                <ul>
+                  <li>
+                    To set up a puzzle, click any of the buttons to randomly pick a puzzle (of that 
+                    difficulty) and ready the board.
+                    <ul>
+                      <li>Easy puzzles have 30&plus; cells prefilled.</li>
+                      <li>Normal puzzles have 25&plus; cells prefilled.</li>
+                      <li>Hard puzzles have 16 to 17 cells prefilled.</li>
+                      <li>
+                        Brute Force Killers are puzzles specifically designed to stump computer 
+                        algorithms which try to solve Sudoku puzzles using Brute Force algorithms.
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    Click on <em>Solve Puzzle</em> to run the selected Algorithm. While running, a 
+                    progress bar is displayed at the bottom to indicate how much is left to solve 
+                    the puzzle.
+                  </li>
+                  <li>Speed at which the <em>algorithm visualization</em> runs.</li>
+                </ul>
+              </p>
+              <p class="sub-header">Algorithms</p>
+              <tabbed-pane>
+                <tab-content name="Backtracking" selected>
+                  <p>Uses a DFS approach to solve the puzzle.</p>
+                  <p>
+                    Basically Brute Force where every empty cell is visited and digits filled 
+                    sequentially. If the number is found to be not valid, backtrack to the last 
+                    valid cell and start again.
+                  </p>
+                </tab-content>
+                <tab-content name="Most Constrained Square Selection">
+                  <p>An improvement over the Backtracking algorithm</p>
+                  <p>
+                    In the step to find an unassigned cell, here, we check each of the open 
+                    squares (i, j) to see how many number candidates remain for each - i.e. 
+                    have not already been used in either row i, column j, or the sector 
+                    containing (i, j). We pick the square with the fewest number of candidates.
+                  </p>
+                  <p>
+                    This helps trim the possibilities for other open squares. If the most 
+                    constrained square has two possibilities, we have a 1/2 probability of 
+                    guessing right the first time, as opposed to a (1/9)th probability for a 
+                    completely unconstrained square.
+                  </p>
+                </tab-content>
+              </tabbed-pane>
+            </div>
+            <div slot="source">
+              <p>
+                <a href="https://en.wikipedia.org/wiki/Sudoku_solving_algorithms" 
+                target="_blank">Wikipedia</a>.
+              </p>
+            </div>
+          </sketch-text>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

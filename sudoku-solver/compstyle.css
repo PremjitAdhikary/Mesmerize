@@ -1,0 +1,10 @@
+.control-container {
+  height: 100%;
+  display: grid;
+  grid-template-rows: 2fr;
+}
+
+.algo {
+  display: grid;
+  grid-template-columns: 3fr 4fr;
+}
