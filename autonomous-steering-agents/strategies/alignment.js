@@ -12,7 +12,7 @@ class Alignment {
     let desiredNeighborhood = (this._desiredNeighborhood ? 
       this._desiredNeighborhood : vehicle.size * 2.5);
       
-    let neighborVehicles = vehicles.filter(v => 
+    let neighborVehicles = this._vehicles.filter(v => 
       v != vehicle && 
       distanceSquared(v.position, vehicle.position) < (desiredNeighborhood * desiredNeighborhood)
     );

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" href="../favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Change This -->
+  <meta name="description" content="An old classic.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://premjitadhikary.github.io/Mesmerize/sliding-puzzle">
+  <meta property="og:title" content="Sliding Puzzle">
+  <meta property="og:description" content="An old classic.">
+  <meta property="og:image" content="https://premjitadhikary.github.io/Mesmerize/sliding-puzzle/img/myCanvas.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://premjitadhikary.github.io/Mesmerize/sliding-puzzle">
+  <meta name="twitter:title" content="Sliding Puzzle">
+  <meta name="twitter:description" content="An old classic.">
+  <meta name="twitter:image" content="https://premjitadhikary.github.io/Mesmerize/sliding-puzzle/img/myCanvas.jpg">
+  <!-- Change This -->
+  <link rel="stylesheet" href="../appstyle.css">
+  <script src="../components/app-header.js" type="module"></script>
+  <script src="../components/sketch-text.js" type="module"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.3.1/p5.min.js"></script>
+  <script src="./sketch.js"></script>
+  <script src="./puzzle-board.js"></script>
+  <script src="../common/sketch-colors.js"></script>
+  <script src="../common/utilities.js"></script>
+  <script src="./control.js" type="module"></script>
+  <title>Sliding Puzzle</title>
+</head>
+<body>
+  <div class="toplevel">
+    <app-header class="heading"></app-header>
+    <div class="topbody">
+      <div class="container">
+          <div class="sketch">
+            <div id="sketch-holder" class="sketch-holder clickable">
+            </div>
+          </div>
+
+          <div class="control">
+            <div class="control-container">
+              <div>
+                <p><span class="btn" id="jumble">Jumble</span></p>
+                <p><span class="btn" id="random">Random Puzzle</span></p>
+              </div>
+            </div>
+          </div>
+
+          <sketch-text class="description" pageid="10045">
+            <div slot="content">
+              <p>
+                As a kid I had this puzzle (the ship) which I played countless number of times.
+              </p>
+              <p>
+                The control is pretty simple.
+                <ul>
+                  <li>A grey boundary appears if mouse hovers over a movable tile</li>
+                  <li>Click on movable tile to move it to the empty area</li>
+                  <li>On completion, the empty tile will also get filled</li>
+                </ul>
+              </p>
+            </div>
+            <div slot="source">
+              <p>All the artwork done on MsPaint.</p>
+            </div>
+          </sketch-text>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

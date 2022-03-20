@@ -10,7 +10,7 @@ class Separation {
 
   run(vehicle) {
     let desiredSeparation = (this._desiredSeparation ? this._desiredSeparation : vehicle.size * 2);
-    let closeVehicles = vehicles.filter(v => 
+    let closeVehicles = this._vehicles.filter(v => 
       v != vehicle && 
       distanceSquared(v.position, vehicle.position) < (desiredSeparation * desiredSeparation)
     );

@@ -292,20 +292,6 @@ class Lexer {
       this._ch = this._text.charAt(this._pos);
     }
   }
-
-  printTokens() {
-    let backUpPos = this._pos;
-    this._pos = 0;
-    let str = '';
-    let token = this.nextToken();
-    while (token._type != TokenTypes.EOF) {
-      str += token.toString();
-      token = this.nextToken();
-    }
-    str += token.toString();
-    this._pos = backUpPos;
-    this._ch = this._text.charAt(this._pos);
-  }
 }
 
 const theMonths = [ 'jan', 'feb', 'mar', 'apr', 'may', 'jun', 'jul', 'aug', 'sep', 'oct', 'nov', 'dec' ];

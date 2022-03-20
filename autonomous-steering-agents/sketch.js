@@ -370,18 +370,6 @@ function addBasicVehicle(strategy, color, size,
   return vehicle;
 }
 
-function addComboVehicle(color, size, startX = 0, endX = width, startY = 0, endY = height) {
-  let vehicle = new ComboVehicle(random(startX, endX), random(startY, endY));
-  if (color) {
-    vehicle._color = color;
-  }
-  if (size) {
-    vehicle._size = size;
-  }
-  vehicles.push(vehicle);
-  return vehicle;
-}
-
 function updateVehicles(maxSpeed, maxForce) {
   vehicles.forEach(v => {
     v.maxSpeed = maxSpeed;

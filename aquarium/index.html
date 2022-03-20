@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" href="../favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Change This -->
+  <meta name="description" content="Something soothing about this.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://premjitadhikary.github.io/Mesmerize/aquarium">
+  <meta property="og:title" content="Aquarium">
+  <meta property="og:description" content="Something soothing about this.">
+  <meta property="og:image" content="https://premjitadhikary.github.io/Mesmerize/aquarium/img/myCanvas.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://premjitadhikary.github.io/Mesmerize/aquarium">
+  <meta name="twitter:title" content="Aquarium">
+  <meta name="twitter:description" content="Something soothing about this.">
+  <meta name="twitter:image" content="https://premjitadhikary.github.io/Mesmerize/aquarium/img/myCanvas.jpg">
+  <!-- Change This -->
+  <link rel="stylesheet" href="../appstyle.css">
+  <script src="../components/app-header.js" type="module"></script>
+  <script src="../components/sketch-text.js" type="module"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.3.1/p5.min.js"></script>
+  <script src="./sketch.js"></script>
+  <script src="../common/sketch-colors.js"></script>
+  <script src="../common/utilities.js"></script>
+  <script src="../autonomous-steering-agents/environments/basic-env.js"></script>
+  <script src="../autonomous-steering-agents/targets/dummy-target.js"></script>
+  <script src="../autonomous-steering-agents/strategies/seek.js"></script>
+  <script src="../autonomous-steering-agents/strategies/containment.js"></script>
+  <script src="../autonomous-steering-agents/strategies/wander.js"></script>
+  <script src="../autonomous-steering-agents/strategies/obstacle-avoidance.js"></script>
+  <script src="../autonomous-steering-agents/strategies/alignment.js"></script>
+  <script src="../autonomous-steering-agents/strategies/cohesion.js"></script>
+  <script src="../autonomous-steering-agents/strategies/separation.js"></script>
+  <script src="../autonomous-steering-agents/strategies/combo-strategy.js"></script>
+  <script src="../autonomous-steering-agents/vehicles/basic-vehicle.js"></script>
+  <script src="../creatures/renderers/limbed-renderer.js"></script>
+  <script src="../creatures/renderers/finned-renderer.js"></script>
+  <script src="./creatures/mover-adaptor.js"></script>
+  <script src="./creatures/aquarium-fish.js"></script>
+  <script src="./creatures/aquarium-turtle.js"></script>
+  <title>Aquarium</title>
+</head>
+<body>
+  <div class="toplevel">
+    <app-header class="heading"></app-header>
+    <div class="topbody">
+      <div class="container-no-control">
+          <div class="sketch">
+            <div id="sketch-holder" class="sketch-holder">
+            </div>
+          </div>
+
+          <sketch-text class="description-no-control" pageid="10046">
+            <div slot="content">
+              <p>Meh... Got a bit lazy here.</p>
+              <p>
+                Built up on steering logic developed in <a target="_blank" 
+                href="../autonomous-steering-agents/">Autonomous Steering Agents</a> and rendering 
+                logic in <a href="../creatures/" target="_blank">Creatures</a>. Wandering turtles 
+                and shoals of fishes swimming around trying to avoid them in an aquarium.
+              </p>
+            </div>
+            <div slot="source">
+              <p>
+                Inspired from previous segments.
+              </p>
+            </div>
+          </sketch-text>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

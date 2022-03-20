@@ -805,6 +805,61 @@ class Pages {
           'algorithm',
           'visualization'
         ]
+      },
+      {
+        id: 10045,
+        name: 'Sliding Puzzle',
+        url: '/sliding-puzzle',
+        img: '/sliding-puzzle/img/preview.jpg',
+        detail: 'An old classic',
+        rank: 4,
+        date: 'Mar 20 2022',
+        tag: [
+          'game'
+        ]
+      },
+      {
+        id: 10046,
+        name: 'Aquarium',
+        url: '/aquarium',
+        img: '/aquarium/img/preview.jpg',
+        detail: 'Something soothing about this.',
+        rank: 4,
+        date: 'Mar 20 2022',
+        tag: [
+          'creature',
+          'steer',
+          'sim'
+        ]
+      },
+      {
+        id: 10047,
+        name: 'Logo Interpreter',
+        url: '/logo-interpreter',
+        img: '/logo-interpreter/img/preview.jpg',
+        detail: 'Logo the Language.',
+        rank: 3,
+        date: 'Mar 20 2022',
+        tag: [
+          'interactive',
+          'turtle graphics',
+          'intelligence'
+        ]
+      },
+      {
+        id: 10048,
+        name: 'Another Holi Special',
+        url: '/another-holi-special',
+        img: '/another-holi-special/img/preview.jpg',
+        detail: 'Celebrate with digital balloons.',
+        rank: 4,
+        date: 'Mar 20 2022',
+        tag: [
+          'holi',
+          'festival',
+          'color',
+          'original'
+        ]
       }
     ];
 
@@ -820,7 +875,7 @@ class Pages {
           }
         });
 
-    this._latest = [10043, 10044];
+    this._latest = [10045, 10046];
     this._allTags = this.allTags();
   }
 

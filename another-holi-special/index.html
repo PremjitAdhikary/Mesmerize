@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" href="../favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Change This -->
+  <meta name="description" content="Celebrate with digital balloons.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://premjitadhikary.github.io/Mesmerize/another-holi-special">
+  <meta property="og:title" content="Another Holi Special">
+  <meta property="og:description" content="Celebrate with digital balloons.">
+  <meta property="og:image" content="https://premjitadhikary.github.io/Mesmerize/another-holi-special/img/myCanvas.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://premjitadhikary.github.io/Mesmerize/another-holi-special">
+  <meta name="twitter:title" content="Another Holi Special">
+  <meta name="twitter:description" content="Celebrate with digital balloons.">
+  <meta name="twitter:image" content="https://premjitadhikary.github.io/Mesmerize/another-holi-special/img/myCanvas.jpg">
+  <!-- Change This -->
+  <link rel="stylesheet" href="../appstyle.css">
+  <script src="../components/app-header.js" type="module"></script>
+  <script src="../components/sketch-text.js" type="module"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.3.1/p5.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/p5.collide2d"></script>
+  <script src="./sketch.js"></script>
+  <script src="./graphics/graphic-obj.js"></script>
+  <script src="./graphics/kp-bobble.js"></script>
+  <script src="./graphics/vehicle.js"></script>
+  <script src="./graphics/balloon.js"></script>
+  <script src="./graphics/pedestrian.js"></script>
+  <script src="../common/sketch-colors.js"></script>
+  <script src="../common/utilities.js"></script>
+  <script src="../components/range-input.js" type="module"></script>
+  <script src="../components/radio-input-group.js" type="module"></script>
+  <script src="../components/tabbed-pane.js" type="module"></script>
+  <title>Another Holi Special</title>
+</head>
+<body>
+  <div class="toplevel">
+    <app-header class="heading"></app-header>
+    <div class="topbody">
+      <div class="container-no-control">
+          <div class="sketch">
+            <div id="sketch-holder" class="sketch-holder clickable">
+            </div>
+          </div>
+
+          <sketch-text class="description-no-control" pageid="10048">
+            <div slot="content">
+              <p>Another goofy project. Throw water balloon at passerbyers.</p>
+              <p>For every passerby you get <em>one shot, one opportunity</em>.</p>
+              <p class="sub-header">Controls</p>
+              <p>
+                For every passerby you get <em>one shot, one opportunity</em>. 
+                <ul>
+                  <li>Whenever a passer by is about to pass, a balloon will appear.</li>
+                  <li>Move the mouse on the viewport to position the balloon.</li>
+                  <li>At the appropriate moment, click to throw the balloon.</li>
+                </ul>
+              </p>
+            </div>
+            <div slot="source">
+              <p>
+                Original idea.
+              </p>
+            </div>
+          </sketch-text>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

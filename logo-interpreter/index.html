@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" href="../favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Change This -->
+  <meta name="description" content="Logo the Language.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://premjitadhikary.github.io/Mesmerize/logo-interpreter">
+  <meta property="og:title" content="Logo Interpreter">
+  <meta property="og:description" content="Logo the Language.">
+  <meta property="og:image" content="https://premjitadhikary.github.io/Mesmerize/logo-interpreter/img/myCanvas.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://premjitadhikary.github.io/Mesmerize/logo-interpreter">
+  <meta name="twitter:title" content="Logo Interpreter">
+  <meta name="twitter:description" content="Logo the Language.">
+  <meta name="twitter:image" content="https://premjitadhikary.github.io/Mesmerize/logo-interpreter/img/myCanvas.jpg">
+  <!-- Change This -->
+  <link rel="stylesheet" href="../appstyle.css">
+  <link rel="stylesheet" href="./compstyle.css">
+  <script src="../components/app-header.js" type="module"></script>
+  <script src="../components/sketch-text.js" type="module"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.3.1/p5.min.js"></script>
+  <script src="./sketch.js"></script>
+  <script src="./interpreter/logo-lexer.js"></script>
+  <script src="./interpreter/logo-parser.js"></script>
+  <script src="./interpreter/turtle-engine.js"></script>
+  <script src="../common/sketch-colors.js"></script>
+  <script src="../common/utilities.js"></script>
+  <script src="../components/tabbed-pane.js" type="module"></script>
+  <script src="../components/code-formatter.js" type="module"></script>
+  <script src="./control.js" type="module"></script>
+  <title>Logo Interpreter</title>
+</head>
+<body>
+  <div class="toplevel">
+    <app-header class="heading"></app-header>
+    <div class="topbody">
+      <div class="container-no-control">
+          <div class="sketch">
+            <div id="sketch-holder" class="sketch-holder">
+            </div>
+          </div>
+
+          <sketch-text class="description-no-control" pageid="10047">
+            <div slot="content">
+              <p class="sub-header">Code Editor</p>
+              <p>
+                <textarea id="editor" class="editor"></textarea>
+              </p>
+              <p>
+                I never did any Logo programming. But all my friends who have, swear by it as the 
+                easiest and funnest way to get into programming. That was my motivation to try out 
+                this segment.
+              </p>
+              <p>
+                I had already written an interpreter for the Search functionality on the homepage. 
+                Turtle Graphics Engine was implemented in <a href="../fractal-trees/" 
+                target="_blank">Fractal Trees</a> and <a href="../l-systems/" target="_blank">L 
+                Systems</a>. So this was not totally unknown territory.
+              </p>
+              <p class="sub-header">Documentation</p>
+              <tabbed-pane>
+                <tab-content name="Getting Started" selected>
+                  <p>
+                    This is a simplified version of Logo. It has the most basic commands with which 
+                    one can do some art.
+                  </p>
+                  <p class="hilight">Code Editor</p>
+                  <p>
+                    All your code goes into the <em>Code Editor</em>. Separate out commands by space 
+                    and/or line-break. The output of your code is rendered into the <em>Viewport</em> 
+                    on the Left. This is in <em>real-time</em> which means as and when you write 
+                    code, the Viewport will reflect the output.
+                  </p>
+                  <p class="hilight">Turtle Graphics</p>
+                  <p>
+                    The commands you write in the <em>Code Editor</em>, is interpreted and rendered 
+                    by Turtle Graphics Engine. The <em>Viewport</em> is 640 &times; 480. The turtle 
+                    is right at the center pointing up. Based on the commands, the turtle moves and 
+                    renders lines.
+                  </p>
+                </tab-content>
+                <tab-content name="Language Reference">
+                  <p>All the information that you need to come up with your awesome art.</p>
+                  <tabbed-pane>
+                    <tab-content name="Basic Drawing Commands" selected>
+                      <ul>
+                        <li>
+                          <p>To move the turtle forward by 60 pixels and draw a line on its path:</p>
+                          <code-formatter language="sql">
+                            <span slot="code">fd 60</span>
+                          </code-formatter>
+                          <p><span class="btn" id="fd-run">Run</span></p>
+                        </li>
+                        <li>
+                          <p>To move the turtle backward by 50 pixels and draw a line on its path:</p>
+                          <code-formatter language="sql">
+                            <span slot="code">bk 50</span>
+                          </code-formatter>
+                          <p><span class="btn" id="bk-run">Run</span></p>
+                        </li>
+                        <li>
+                          <p>To turn clockwise by 90&deg;</p>
+                          <code-formatter language="sql">
+                            <span slot="code">rt 90</span>
+                          </code-formatter>
+                          <p><span class="btn" id="rt-run">Run</span></p>
+                        </li>
+                        <li>
+                          <p>To turn anti-clockwise by 30&deg;</p>
+                          <code-formatter language="sql">
+                            <span slot="code">lt 30</span>
+                          </code-formatter>
+                          <p><span class="btn" id="lt-run">Run</span></p>
+                        </li>
+                        <li>
+                          <p>To clear the screen</p>
+                          <code-formatter language="sql">
+                            <span slot="code">cs</span>
+                          </code-formatter>
+                        </li>
+                      </ul>
+                      <p></p>
+                    </tab-content>
+                    <tab-content name="Additional Drawing Commands">
+                      <ul>
+                        <li>
+                          <p>
+                            Pen Up and Pen Down Command lets the turlte know whether to leave ink when 
+                            it moves around. By default, Pen Down is enabled.
+                          </p>
+                          <code-formatter language="js">
+                            <span slot="code">
+                              pu // pen up
+                              pd // pen down
+                            </span>
+                          </code-formatter>
+                          <p>Run the example to see a dashed line rendered using the commands.</p>
+                          <p><span class="btn" id="pupd-run">Run</span></p>
+                        </li>
+                        <li>
+                          <p>
+                            Show Turtle and Hide Turtle does exactly what it advertises. By default, 
+                            Show Turtle is enabled.
+                          </p>
+                          <code-formatter language="js">
+                            <span slot="code">
+                              st // show turtle
+                              ht // hide turtle
+                            </span>
+                          </code-formatter>
+                          <p>Run the example to see the turtle being hidden.</p>
+                          <p><span class="btn" id="ht-run">Run</span></p>
+                        </li>
+                      </ul>
+                    </tab-content>
+                    <tab-content name="Control Command">
+                      <ul>
+                        <li>
+                          <p>
+                            The repeat command allows you to, well, repeat commands n number of 
+                            times.
+                          </p>
+                          <code-formatter language="js">
+                            <span slot="code">
+                              repeat 4 [fd 90 rt 90] // draws a square
+                              repeat 360 [fd 1 rt 1] // draws a circle
+                            </span>
+                          </code-formatter>
+                          <p>Run the example to draw a square and a circle.</p>
+                          <p><span class="btn" id="repeat-run">Run</span></p>
+                        </li>
+                      </ul>
+                    </tab-content>
+                    <tab-content name="Advanced Move Commands">
+                      <ul>
+                        <li>
+                          <p>
+                            The home command is like a reset for the turtle to its origin position 
+                            facing up without drawing a line from its previous position.
+                          </p>
+                          <code-formatter language="js">
+                            <span slot="code">home</span>
+                          </code-formatter>
+                          <p>Run the example to see the turtle return to home after drawing something.</p>
+                          <p><span class="btn" id="home-run">Run</span></p>
+                        </li>
+                        <li>
+                          <p>
+                            The setxy command is similar to home. Only instead of origin, you can 
+                            specify (x,y) where you want the turtle to end up.
+                          </p>
+                          <code-formatter language="js">
+                            <span slot="code">setxy 200 -150</span>
+                          </code-formatter>
+                          <p>
+                            Run the example to see the turtle go to (200, -150) after drawing 
+                            something.
+                          </p>
+                          <p><span class="btn" id="setxy-run">Run</span></p>
+                        </li>
+                      </ul>
+                    </tab-content>
+                  </tabbed-pane>
+                </tab-content>
+                <tab-content name="Kool Examples">
+                  <p>
+                    Click on any of the buttons below to check out the graphics generated and it's 
+                    corresponding code. These were taken from a contest that happened way back in 
+                    97 (link in Sources).
+                  </p>
+                  <div class="split-sections">
+                    <div><span class="btn" id="four-leaf-run">4 Leaf</span></div>
+                    <div><span class="btn" id="hypercube-run">Hyper Cube</span></div>
+                    <div><span class="btn" id="penta-star-run">Penta Star</span></div>
+                    <div><span class="btn" id="dahlia-run">Dahlia</span></div>
+                    <div><span class="btn" id="fflower-run">Fan Flower</span></div>
+                    <div><span class="btn" id="mrose-run">Mathematical Rose</span></div>
+                    <div><span class="btn" id="chakra-run">Chakra</span></div>
+                    <div><span class="btn" id="ninja-star-run">Ninja Star</span></div>
+                    <div><span class="btn" id="polygons-run">Polygons</span></div>
+                  </div>
+                </tab-content>
+              </tabbed-pane>
+              <br>
+            </div>
+            <div slot="source">
+              <p>
+                Daniel covered this topic in <a href="https://www.youtube.com/watch?v=i-k04yzfMpw" 
+                target="_blank">this</a> and <a href="https://www.youtube.com/watch?v=aOqEm101fms" 
+                target="_blank">this</a> videos. Got the Mathematical Rose code from there.
+              </p>
+              <p>
+                <a href="http://cs.brown.edu/courses/bridge/1997/Resources/LogoTutorial.html" 
+                target="_blank">Logo Tutorial</a> - All the command references are from here.
+              </p>
+              <p>
+                <a href="http://www.mathcats.com/gallery/15wordcontest.html" target="_blank">Awesome 
+                Logo Examples</a>.
+              </p>
+            </div>
+          </sketch-text>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
