@@ -1,7 +1,7 @@
 class Pedestrian extends GraphicObj {
 
-  constructor(sprite, config) {
-    super(sprite, config.x, config.y, config.z);
+  constructor(config) {
+    super(config.sprite(), config.x, config.y, config.z);
     this.config = config;
     this.angle = 0.0;
     this.state = 'walk';
@@ -99,7 +99,7 @@ class Pedestrian extends GraphicObj {
 
 Pedestrian.CONFIGURATIONS = [
   {
-    x: 660, y: 110, z: -3, 
+    x: 660, y: 110, z: -3, sprite: () => sprite, 
     collide: {
       x1: 50, y1: 95, x2: 90, y2: 175
     },
@@ -129,7 +129,7 @@ Pedestrian.CONFIGURATIONS = [
     isActive: pedestrian => pedestrian.x > -20
   }, 
   {
-    x: 660, y: 110, z: -3, 
+    x: 660, y: 110, z: -3, sprite: () => sprite, 
     collide: {
       x1: 50, y1: 155, x2: 130, y2: 200
     },
@@ -159,7 +159,7 @@ Pedestrian.CONFIGURATIONS = [
     isActive: pedestrian => pedestrian.x > -50
   }, 
   {
-    x: 0, y: 110, z: -3, 
+    x: 0, y: 110, z: -3, sprite: () => sprite, 
     collide: {
       x1: 50, y1: 95, x2: 90, y2: 175
     },
@@ -187,10 +187,40 @@ Pedestrian.CONFIGURATIONS = [
       paintXOffset: 0, paintYOffset: 0
     }, 
     isActive: pedestrian => pedestrian.x < 660
+  }, 
+  {
+    x: 660, y: 110, z: -3, sprite: () => sprite_02, 
+    collide: {
+      x1: 65, y1: 135, x2: 130, y2: 200
+    },
+    walk: {
+      spriteX: 0, spriteY: 0, spriteW: 152, spriteH: 325, 
+      speed: -2, bounce: 0.3, angleIncr: 0.1, 
+      xOffset: 0, yOffset: 0
+    }, 
+    shout_1: {
+      spriteX: 318, spriteY: 0, spriteW: 410, spriteH: 325, 
+      speed: 0, bounce: 0.1, angleIncr: 0.15, 
+      xOffset: 0, yOffset: 0, 
+      paintXOffset: 144, paintYOffset: 25
+    },  
+    shout_2: {
+      spriteX: 732, spriteY: 0, spriteW: 466, spriteH: 325, 
+      speed: 0, bounce: 0.1, angleIncr: 0.15, 
+      xOffset: -32, yOffset: 0, 
+      paintXOffset: 148, paintYOffset: 25
+    }, 
+    angry: {
+      spriteX: 158, spriteY: 0, spriteW: 152, spriteH: 325, 
+      speed: -3.5, bounce: 0.25, angleIncr: 0.12, 
+      xOffset: 0, yOffset: 0, 
+      paintXOffset: -20, paintYOffset: 25 
+    }, 
+    isActive: pedestrian => pedestrian.x > -50
   }
 ];
 
 Pedestrian.GET_ONE = () => {
   let config = random(Pedestrian.CONFIGURATIONS);
-  return new Pedestrian(sprite, config);
+  return new Pedestrian(config);
 };

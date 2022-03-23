@@ -44,6 +44,7 @@ class Balloon extends GraphicObj {
 
   checkAndHitTarget() {
     if (this.target.checkCollision(this)) {
+      hits++;
       this.target.hit(this.center(), this.config.color());
     }
   }

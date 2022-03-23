@@ -47,7 +47,7 @@ function setupSearch() {
   });
 
   document.getElementById('btn-technical').onclick = searchFor('tag visualization or tag intelligence');
-  document.getElementById('btn-fun').onclick = searchFor('tag art or tag game or tag interactive');
+  document.getElementById('btn-fun').onclick = searchFor('tag art or tag game or tag interactive or tag festival');
   document.getElementById('btn-pop-culture').onclick = searchFor('tag film');
 }
 
