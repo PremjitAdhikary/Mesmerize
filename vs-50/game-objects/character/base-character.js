@@ -19,7 +19,7 @@
  */
 class BaseCharacter {
 
-  constructor(config) {console.log(config)
+  constructor(config) {
     this.config = config;
     this.direction = config.direction;
     this.gapDistanceColor = SketchColor.yellow().alpha(0.25).stringify();

@@ -43,18 +43,18 @@ function preload() {
   armyImg = loadImage('./img/art/VanaraNJambuvan.jpg');
   lordRamImg = loadImage('./img/art/LordRam.jpg');
   gamePlayImg = loadImage('./img/art/GamePlay.jpg');
-  ramSprite = loadImage('../../vs-50-demo-character-animation/img/sprites/RamSpriteSheet.png');
+  ramSprite = loadImage('../vs-50-demo-character-animation/img/sprites/RamSpriteSheet.png');
   ramSpriteColored = loadImage('./img/sprites/RamSpriteSheetColored.png');
-  ramJSON = loadJSON('../../vs-50-demo-character-animation/animation-data/ram.json');
-  vanaraSprite = loadImage('../../vs-50-demo-character-animation/img/sprites/VanaraSpriteSheet.png');
+  ramJSON = loadJSON('../vs-50-demo-character-animation/animation-data/ram.json');
+  vanaraSprite = loadImage('../vs-50-demo-character-animation/img/sprites/VanaraSpriteSheet.png');
   vanaraSpriteColored = loadImage('./img/sprites/VanaraSpriteSheetColored.png');
-  vanaraJSON = loadJSON('../../vs-50-demo-character-animation/animation-data/vanara.json');
-  jambuvanSprite = loadImage('../../vs-50-demo-character-animation/img/sprites/JambuvanSpriteSheet.png');
+  vanaraJSON = loadJSON('../vs-50-demo-character-animation/animation-data/vanara.json');
+  jambuvanSprite = loadImage('../vs-50-demo-character-animation/img/sprites/JambuvanSpriteSheet.png');
   jambuvanSpriteColored = loadImage('./img/sprites/JambuvanSpriteSheetColored.png');
-  jambuvanJSON = loadJSON('../../vs-50-demo-character-animation/animation-data/jambuvan.json');
-  valiSprite = loadImage('../../vs-50-demo-character-animation/img/sprites/ValiSpriteSheet.png');
+  jambuvanJSON = loadJSON('../vs-50-demo-character-animation/animation-data/jambuvan.json');
+  valiSprite = loadImage('../vs-50-demo-character-animation/img/sprites/ValiSpriteSheet.png');
   valiSpriteColored = loadImage('./img/sprites/ValiSpriteSheetColored.png');
-  valiJSON = loadJSON('../../vs-50-demo-character-animation/animation-data/vali.json');
+  valiJSON = loadJSON('../vs-50-demo-character-animation/animation-data/vali.json');
 }
 
 function setup() {
