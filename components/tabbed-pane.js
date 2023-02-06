@@ -123,7 +123,7 @@ import { pages } from '../common/pages.js';
           curr.updateElements();
         };
         span.addEventListener('click', clickEvent);
-        this.shadowRoot.querySelectorAll(':scope > [id="tabs"]')[0].appendChild(span);
+        this.shadowRoot.getElementById('tabs').appendChild(span);
       }
     }
 

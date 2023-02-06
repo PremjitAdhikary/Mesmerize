@@ -10,6 +10,7 @@ class BasicVehicle {
     this._acceleration = acceleration;
     this._maxSpeed = maxSpeed;
     this._maxForce = maxForce;
+    this._unrestricted = false;
   }
 
   get position() { return this._position; }
@@ -42,7 +43,7 @@ class BasicVehicle {
     this._velocity.add(this._acceleration);
     this._velocity.limit(this._maxSpeed);
     this._position.add(this._velocity);
-    this.restrict();
+    if (!this._unrestricted) this.restrict();
     this._acceleration.set(0, 0);
   }
 

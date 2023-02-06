@@ -1,0 +1,55 @@
+.control-container {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.sketch-holder {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "hero_attributes enemy_attributes"
+    "primary_attack_label primary_attack_label"
+    "primary_attack_min primary_attack_max"
+    "secondary_attack_label secondary_attack_label"
+    "secondary_attack_min secondary_attack_max";
+}
+.hero_attributes {
+  grid-area: hero_attributes;
+  padding: 10px;
+  background-color: darkmagenta;
+}
+.enemy_attributes {
+  grid-area: enemy_attributes;
+  padding: 10px;
+  background-color: dimgray;
+}
+.primary_attack_label {
+  grid-area: primary_attack_label;
+  padding: 10px 10px 0px 10px;
+  background-color: blueviolet;
+}
+.primary_attack_min {
+  grid-area: primary_attack_min;
+  padding: 0px 10px 10px 10px;
+  background-color: darkslateblue;
+}
+.primary_attack_max {
+  grid-area: primary_attack_max;
+  padding: 0px 10px 10px 10px;
+  background-color: darkslateblue;
+}
+.secondary_attack_label {
+  grid-area: secondary_attack_label;
+  padding: 10px 10px 0px 10px;
+  background-color: darkolivegreen;
+}
+.secondary_attack_min {
+  grid-area: secondary_attack_min;
+  padding: 0px 10px 10px 10px;
+  background-color: darkslategray;
+}
+.secondary_attack_max {
+  grid-area: secondary_attack_max;
+  padding: 0px 10px 10px 10px;
+  background-color: darkslategray;
+}

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" href="../favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Change This -->
+  <meta name="description" content="Speed Lines Demo.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://premjitadhikary.github.io/Mesmerize/vs-50-demo-speed-lines">
+  <meta property="og:title" content="VS 50 Demo - Speed Lines">
+  <meta property="og:description" content="Speed Lines Demo.">
+  <meta property="og:image" content="https://premjitadhikary.github.io/Mesmerize/vs-50-demo-speed-lines/img/myCanvas.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://premjitadhikary.github.io/Mesmerize/vs-50-demo-speed-lines">
+  <meta name="twitter:title" content="VS 50 Demo - Speed Lines">
+  <meta name="twitter:description" content="Speed Lines Demo.">
+  <meta name="twitter:image" content="https://premjitadhikary.github.io/Mesmerize/vs-50-demo-speed-lines/img/myCanvas.jpg">
+  <!-- Change This -->
+  <link rel="stylesheet" href="../appstyle.css">
+  <link rel="stylesheet" href="./compstyle.css">
+  <script src="../components/app-header.js" type="module"></script>
+  <script src="../components/sketch-text.js" type="module"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.3.1/p5.min.js"></script>
+  <script src="./sketch.js"></script>
+  <script src="../common/sketch-colors.js"></script>
+  <script src="../common/utilities.js"></script>
+  <script src="../components/range-input.js" type="module"></script>
+  <script src="../components/radio-input-group.js" type="module"></script>
+  <script src="../components/tabbed-pane.js" type="module"></script>
+  <script src="./control.js" type="module"></script>
+  <script src="./effects/teleport-line.js"></script>
+  <script src="./effects/trail-line.js"></script>
+  <script src="./effects/trail-arc.js"></script>
+  <script src="./effects/sweep-arc.js"></script>
+  <title>VS 50 Demo - Speed Lines</title>
+</head>
+<body>
+  <div class="toplevel">
+    <app-header class="heading"></app-header>
+    <div class="topbody">
+      <div class="container">
+          <div class="sketch">
+            <div id="sketch-holder" class="sketch-holder clickable">
+            </div>
+          </div>
+
+          <div class="control">
+            <div class="control-container">
+              <div class="choices">
+                <p>
+                  <radio-group id="choice_effect">
+                    <radio-button value="1" aria-checked="true">Teleport Line</radio-button>
+                    <radio-button value="2">Trail Line</radio-button>
+                    <radio-button value="3">Trail Arc</radio-button>
+                    <radio-button value="4">Sweep Arc</radio-button>
+                  </radio-group>
+                </p>
+                <p>
+                  <label for="env_speed">Speed: </label>
+                  <range-input min="-5" max="5" id="env_speed"></range-input>
+                </p>
+              </div>
+              <div class="sub-choices">
+                <div id="teleport_choice">
+                  <p>
+                    <label for="tc_start_width">Start Width: </label>
+                    <range-input min="1" max="6" id="tc_start_width"></range-input>
+                  </p>
+                  <p>
+                    <label for="tc_end_width">End Width: </label>
+                    <range-input min="2" max="10" id="tc_end_width"></range-input>
+                  </p>
+                  <p>
+                    <label for="tc_total_frames">Total Frames: </label>
+                    <range-input min="5" max="20" id="tc_total_frames"></range-input>
+                  </p>
+                </div>
+                <div id="trail_choice">
+                  <p>
+                    <label for="tl_speed">Fly Speed: </label>
+                    <range-input min="10" max="20" id="tl_speed"></range-input>
+                  </p>
+                  <p>
+                    <label for="tl_dist">Fly Frames: </label>
+                    <range-input min="5" max="15" id="tl_dist"></range-input>
+                  </p>
+                  <p>
+                    <label for="tl_total_frames">Fade Frames: </label>
+                    <range-input min="5" max="15" id="tl_total_frames"></range-input>
+                  </p>
+                </div>
+                <div id="trail_arc_choice">
+                  <p>
+                    <label for="tla_total_frames">Fade Frames: </label>
+                    <range-input min="5" max="15" id="tla_total_frames"></range-input>
+                  </p>
+                </div>
+                <div id="sweep_arc_choice">
+                  <p>
+                    <label for="sa_speed">Arc Speed: </label>
+                    <range-input min="10" max="20" id="sa_speed"></range-input>
+                  </p>
+                  <p>
+                    <label for="sa_total_frames">Total Frames: </label>
+                    <range-input min="15" max="25" id="sa_total_frames"></range-input>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <sketch-text class="description" pageid="1006">
+            <div slot="content">
+              <p>Speed lines demo for platform scrollable.</p>
+              <p>
+                These are basically effects to emphasize the motion executed by different characters 
+                and their actions.
+              </p>
+              <p>
+                Manipulate the <em>Speed</em> slider to simulate character (in the center) standing 
+                still or moving (left or right).
+              </p>
+              <p class="sub-header">Effects</p>
+              <tabbed-pane>
+                <tab-content name="Teleport Line" selected>
+                  <p>
+                    Gives the illusion of fast movement. Click anywhere on viewport to render it. 
+                    This would go best when a game object <em>teleports</em> to a new position and 
+                    leaves a teleport line behind as a trail.
+                  </p>
+                </tab-content>
+                <tab-content name="Trail Line">
+                  <p>
+                    This effect leaves a path behind to follow the motion of a fast object. Think a 
+                    projectile being thrown.
+                  </p>
+                </tab-content>
+                <tab-content name="Trail Arc">
+                  <p>Similar to <em>Trail Line</em>, but an Arc. Think weapon slash!</p>
+                </tab-content>
+                <tab-content name="Sweep Arc">
+                  <p>
+                    Based on all those Kung-fu movies ... Air Pressure Hit!
+                  </p>
+                </tab-content>
+              </tabbed-pane>
+              <br>
+            </div>
+            <div slot="source">
+              <p>None.</p>
+            </div>
+          </sketch-text>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

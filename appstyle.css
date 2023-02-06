@@ -77,7 +77,7 @@ a:hover, a:active {
   height: 100%;
   display: grid;
 	grid-template-columns: 1fr;
-	grid-template-rows: auto 2fr;
+	grid-template-rows: auto auto;
 	grid-template-areas:
     "sketch"
     "description";

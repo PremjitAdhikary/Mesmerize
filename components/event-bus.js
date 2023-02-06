@@ -7,7 +7,7 @@ class EventBus {
     this._bus.addEventListener(event, callback);
   }
 
-  remove(event, callback) {
+  deregister(event, callback) {
     this._bus.removeEventListener(event, callback);
   }
 

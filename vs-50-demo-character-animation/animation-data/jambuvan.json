@@ -1,0 +1,57 @@
+{
+  "frames" : [
+    { "name": "idle_01", "x": 0, "y": 0, "cx": 175, "cy": 115, "cw": 50, "ch": 80 }, 
+    { "name": "action2_01", "x": 200, "y": 0, "cx": 165, "cy": 95, "cw": 80, "ch": 100 }, 
+    { "name": "action2_02", "x": 400, "y": 0, "cx": 165, "cy": 95, "cw": 80, "ch": 100 }, 
+    { "name": "action2_03", "x": 600, "y": 0, "cx": 165, "cy": 95, "cw": 80, "ch": 100 }, 
+    { "name": "action2_04", "x": 800, "y": 0, "cx": 115, "cy": 95, "cw": 100, "ch": 100 }, 
+    { "name": "hit_01", "x": 0, "y": 150, "cx": 170, "cy": 120, "cw": 60, "ch": 80 }, 
+    { "name": "hit_02", "x": 200, "y": 150, "cx": 170, "cy": 120, "cw": 60, "ch": 80 }, 
+    { "name": "action1_01", "x": 400, "y": 150, "cx": 175, "cy": 115, "cw": 50, "ch": 80 }, 
+    { "name": "action1_02", "x": 600, "y": 150, "cx": 175, "cy": 115, "cw": 50, "ch": 80 }, 
+    { "name": "action1_03", "x": 800, "y": 150, "cx": 175, "cy": 115, "cw": 50, "ch": 80 }, 
+    { "name": "forward_01", "x": 0, "y": 300, "cx": 175, "cy": 115, "cw": 50, "ch": 80 }, 
+    { "name": "forward_02", "x": 200, "y": 300, "cx": 175, "cy": 115, "cw": 50, "ch": 80 }, 
+    { "name": "forward_03", "x": 400, "y": 300, "cx": 175, "cy": 115, "cw": 50, "ch": 80 }, 
+    { "name": "forward_04", "x": 600, "y": 300, "cx": 175, "cy": 115, "cw": 50, "ch": 80 }, 
+    { "name": "forward_05", "x": 800, "y": 300, "cx": 175, "cy": 115, "cw": 50, "ch": 80 }
+  ], 
+  "animations" : [
+    {
+      "name": "idle", 
+      "frames": ["idle_01", "idle_01"]
+    }, 
+    {
+      "name": "forward", 
+      "frames": [
+        "forward_03", "forward_01", "forward_03", "forward_04", "forward_05", 
+        "forward_02", "forward_04"
+      ]
+    }, 
+    {
+      "name": "hit", 
+      "frames": ["hit_01", "hit_02", "hit_02", "hit_01"]
+    }, 
+    {
+      "name": "action1", 
+      "frames": [
+        "idle_01", "action1_01", "action1_01", "action1_01", 
+        "action1_02", "action1_03", "action1_03", "action1_03"
+      ]
+    }, 
+    {
+      "name": "action2", 
+      "frames": [
+        "idle_01", "action2_01", "action2_02", 
+        "action2_03", "action2_03", "action2_03", "action2_03", 
+        "action2_04", "action2_04", "action2_04", "action2_04", "action2_04", 
+        "action2_01"
+      ]
+    }, 
+    {
+      "name": "die", 
+      "frames": ["hit_01", "hit_02", "hit_02", "hit_02"]
+    }
+  ],
+  "fade_out_frame" : "hit_02"
+}

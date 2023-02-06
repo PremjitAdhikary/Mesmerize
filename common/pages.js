@@ -838,7 +838,7 @@ class Pages {
         url: '/logo-interpreter',
         img: '/logo-interpreter/img/preview.jpg',
         detail: 'Logo the Language.',
-        rank: 3,
+        rank: 2,
         date: 'Mar 20 2022',
         tag: [
           'interactive',
@@ -860,6 +860,61 @@ class Pages {
           'color',
           'original'
         ]
+      },
+      {
+        id: 1005,
+        name: 'VS 50 Demo - Environment',
+        url: '/vs-50-demo-env',
+        img: '/vs-50-demo-env/img/preview.jpg',
+        detail: 'Environment Demo.',
+        tag: [],
+        date: 'Feb 6 2023',
+        internal: true
+      },
+      {
+        id: 1006,
+        name: 'VS 50 Demo - Speed Lines',
+        url: '/vs-50-demo-speed-lines',
+        img: '/vs-50-demo-speed-lines/img/preview.jpg',
+        detail: 'Speed Lines Demo.',
+        tag: [],
+        date: 'Feb 6 2023',
+        internal: true
+      },
+      {
+        id: 1007,
+        name: 'VS 50 Demo - Character Animation',
+        url: '/vs-50-demo-character-animation',
+        img: '/vs-50-demo-character-animation/img/preview.jpg',
+        detail: 'Character Animation Demo.',
+        tag: [],
+        date: 'Feb 6 2023',
+        internal: true
+      },
+      {
+        id: 1008,
+        name: 'VS 50 - Calculator',
+        url: '/vs-50-calculator',
+        img: '/vs-50-calculator/img/preview.jpg',
+        detail: 'Calculator for attributes.',
+        tag: [],
+        date: 'Feb 6 2023',
+        internal: true
+      }, 
+      {
+        id: 10049,
+        name: 'VS 50',
+        url: '/vs-50',
+        img: '/vs-50/img/animatedPreview.gif',
+        detail: 'Celebrating the 50th Segment',
+        rank: 1,
+        date: 'Feb 6 2023',
+        tag: [
+          'game', 
+          'steer', 
+          'combat', 
+          'original'
+        ]
       }
     ];
 
@@ -875,7 +930,7 @@ class Pages {
           }
         });
 
-    this._latest = [10045, 10046];
+    this._latest = [10049];
     this._allTags = this.allTags();
   }
 

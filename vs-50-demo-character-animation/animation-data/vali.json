@@ -1,0 +1,69 @@
+{
+  "frames" : [
+    { "name": "idle_01", "x": 0, "y": 0, "cx": 170, "cy": 110, "cw": 60, "ch": 90 }, 
+    { "name": "action2_01", "x": 200, "y": 0, "cx": 170, "cy": 120, "cw": 90, "ch": 100 }, 
+    { "name": "action2_02", "x": 400, "y": 0, "cx": 130, "cy": 120, "cw": 90, "ch": 100 }, 
+    { "name": "action2_03", "x": 600, "y": 0, "cx": 170, "cy": 120, "cw": 90, "ch": 100 }, 
+    { "name": "action2_04", "x": 800, "y": 0, "cx": 170, "cy": 120, "cw": 90, "ch": 100 }, 
+    { "name": "hit_01", "x": 0, "y": 150, "cx": 150, "cy": 100, "cw": 100, "ch": 100 }, 
+    { "name": "hit_02", "x": 200, "y": 150, "cx": 150, "cy": 100, "cw": 100, "ch": 100 }, 
+    { "name": "forward_01", "x": 400, "y": 150, "cx": 170, "cy": 110, "cw": 80, "ch": 90 }, 
+    { "name": "forward_02", "x": 600, "y": 150, "cx": 170, "cy": 110, "cw": 80, "ch": 90 }, 
+    { "name": "forward_03", "x": 800, "y": 150, "cx": 170, "cy": 110, "cw": 80, "ch": 90 }, 
+    { "name": "forward_04", "x": 0, "y": 300, "cx": 170, "cy": 110, "cw": 80, "ch": 90 }, 
+    { "name": "forward_05", "x": 200, "y": 300, "cx": 170, "cy": 110, "cw": 80, "ch": 90 }, 
+    { "name": "forward_06", "x": 400, "y": 300, "cx": 170, "cy": 110, "cw": 80, "ch": 90 }, 
+    { "name": "forward_07", "x": 600, "y": 300, "cx": 170, "cy": 110, "cw": 80, "ch": 90 }, 
+    { "name": "forward_08", "x": 800, "y": 300, "cx": 170, "cy": 110, "cw": 80, "ch": 90 }, 
+    { "name": "action1_01", "x": 0, "y": 450, "cx": 180, "cy": 100, "cw": 80, "ch": 100 }, 
+    { "name": "action1_02", "x": 200, "y": 450, "cx": 180, "cy": 100, "cw": 80, "ch": 100 }, 
+    { "name": "action1_03", "x": 400, "y": 450, "cx": 180, "cy": 100, "cw": 80, "ch": 100 }, 
+    { "name": "action1_04", "x": 600, "y": 450, "cx": 180, "cy": 100, "cw": 80, "ch": 100 }, 
+    { "name": "action1_05", "x": 800, "y": 450, "cx": 180, "cy": 100, "cw": 80, "ch": 100 }, 
+    { "name": "action1_06", "x": 0, "y": 600, "cx": 180, "cy": 100, "cw": 80, "ch": 100 }, 
+    { "name": "action1_07", "x": 200, "y": 600, "cx": 180, "cy": 100, "cw": 80, "ch": 100 }, 
+    { "name": "action1_08", "x": 400, "y": 600, "cx": 180, "cy": 100, "cw": 80, "ch": 100 }, 
+    { "name": "action1_09", "x": 600, "y": 600, "cx": 180, "cy": 100, "cw": 80, "ch": 100 }, 
+    { "name": "action1_10", "x": 800, "y": 600, "cx": 180, "cy": 100, "cw": 80, "ch": 100 }
+  ], 
+  "animations" : [
+    {
+      "name": "idle", 
+      "frames": ["idle_01", "idle_01"]
+    }, 
+    {
+      "name": "forward", 
+      "frames": [
+        "forward_08", "forward_04", "forward_05", "forward_06", "forward_06", "forward_06", 
+        "forward_05", "forward_04", "forward_08", 
+        "forward_07", "forward_01", "forward_02", "forward_03", "forward_03", "forward_03", 
+        "forward_02", "forward_01", "forward_07"
+      ]
+    }, 
+    {
+      "name": "hit", 
+      "frames": ["hit_01", "hit_02", "hit_02", "hit_01"]
+    }, 
+    {
+      "name": "action1", 
+      "frames": [
+        "action1_01", "action1_02", "action1_03", "action1_03", "action1_04", 
+        "action1_05", "action1_05", 
+        "action1_06", "action1_07", "action1_07", "action1_08", "action1_09", "action1_09", 
+        "action1_10"
+      ]
+    }, 
+    {
+      "name": "action2", 
+      "frames": [
+        "idle_01", "action2_01", "action2_02", "action2_02", "action2_02", "action2_02", 
+        "action2_03", "action2_04", "action2_03", "action2_03"
+      ]
+    }, 
+    {
+      "name": "die", 
+      "frames": ["hit_01", "hit_02", "hit_02", "hit_02"]
+    }
+  ],
+  "fade_out_frame" : "hit_02"
+}

@@ -1,0 +1,44 @@
+.container-no-control {
+  height: 100%;
+  display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: auto auto;
+	grid-template-areas:
+    "sketch"
+    "description";
+}
+
+.sketch-holder {
+  width: 1128px; 
+  height: 480px;
+  background-color: var(--bg-color);
+  border: 5px solid var(--primary-muted-color);
+  border-radius: 5px;
+}
+
+.description-no-control {
+  overflow-y: inherit
+}
+
+.img-container {
+  text-align: center;
+  display: block;
+  width: 100%;
+}
+
+.bounded-box {
+  border: 2px white solid;
+  padding: 3px;
+  border-radius: 2px;
+  color: white;
+}
+
+.bounded-box.accept {
+  border: 2px greenyellow solid;
+  color: greenyellow;
+}
+
+.bounded-box.reject {
+  border: 2px red solid;
+  color: red;
+}

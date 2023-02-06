@@ -1,0 +1,20 @@
+.control-container {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+  grid-template-areas:
+    "characters moves action";
+}
+.characters {
+  grid-area: characters;
+}
+#characters_radio, #hero_moves_radio {
+  display: grid;
+  /* grid-template-columns: 1fr 1fr; */
+}
+.moves {
+  grid-area: moves;
+}
+.action {
+  grid-area: action;
+}

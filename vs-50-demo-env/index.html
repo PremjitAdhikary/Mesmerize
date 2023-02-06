@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" href="../favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Change This -->
+  <meta name="description" content="Environment Demo.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://premjitadhikary.github.io/Mesmerize/vs-50-demo-env">
+  <meta property="og:title" content="VS 50 Demo - Environment">
+  <meta property="og:description" content="Environment Demo.">
+  <meta property="og:image" content="https://premjitadhikary.github.io/Mesmerize/vs-50-demo-env/img/myCanvas.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://premjitadhikary.github.io/Mesmerize/vs-50-demo-env">
+  <meta name="twitter:title" content="VS 50 Demo - Environment">
+  <meta name="twitter:description" content="Environment Demo.">
+  <meta name="twitter:image" content="https://premjitadhikary.github.io/Mesmerize/vs-50-demo-env/img/myCanvas.jpg">
+  <!-- Change This -->
+  <link rel="stylesheet" href="../appstyle.css">
+  <script src="../components/app-header.js" type="module"></script>
+  <script src="../components/sketch-text.js" type="module"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.3.1/p5.min.js"></script>
+  <script src="../lib/p5Scribble/p5.scribble.js"></script>
+  <script src="./sketch.js"></script>
+  <script src="../components/radio-input-group.js" type="module"></script>
+  <script src="../components/tabbed-pane.js" type="module"></script>
+  <script src="./control.js" type="module"></script>
+  <script src="../common/sketch-colors.js"></script>
+  <script src="../common/utilities.js"></script>
+  <script src="./env/env-config.js"></script>
+  <script src="./env/bg-env.js"></script>
+  <script src="./env/forest/ground.js"></script>
+  <script src="./env/forest//branch.js"></script>
+  <script src="./env/forest/tree.js"></script>
+  <script src="./env/forest/forest.js"></script>
+  <script src="./env/forest/grass.js"></script>
+  <script src="./env/forest/sky.js"></script>
+  <script src="./env/forest/stylized-branch.js"></script>
+  <script src="./env/forest/stylized-tree.js"></script>
+  <script src="./env/forest/stylized-forest.js"></script>
+  <script src="./env/forest/stylized-ground.js"></script>
+  <script src="./env/forest/stylized-sky.js"></script>
+  <title>VS 50 Demo - Environment</title>
+</head>
+<body>
+  <div class="toplevel">
+    <app-header class="heading"></app-header>
+    <div class="topbody">
+      <div class="container">
+          <div class="sketch">
+            <div id="sketch-holder" class="sketch-holder clickable">
+            </div>
+          </div>
+
+          <div class="control">
+            <div class="control-container">
+              <div class="choices">
+                <p>
+                  <radio-group id="choice_env">
+                    <radio-button value="1" aria-checked="true">Slim Forest</radio-button>
+                    <radio-button value="2">Noir Forest</radio-button>
+                    <radio-button value="3">Stylized Forest</radio-button>
+                  </radio-group>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <sketch-text class="description" pageid="1005">
+            <div slot="content">
+              <p>Environment demo for platform scrollable.</p>
+              <p>
+                The background forest is generated based on the Random Tree in <a  target="_blank" 
+                href="../fractal-trees/">Fractal Trees</a> from earlier. But the cost of rendering 
+                a forest every frame was high.
+              </p>
+              <p>
+                So rather than <em>drawing</em> all the trees every frame, they are drawn in an 
+                off screen buffer and on every frame render, the buffer is rendered.
+              </p>
+              <p>
+                For <em>Stylized Forest</em>, the library <a target="_blank" 
+                href="https://github.com/generative-light/p5.scribble.js">p5.scribble.js</a> has 
+                been used to give a hand-drawn feel to the trees.
+              </p>
+              <p class="sub-header">Controls</p>
+              <p>
+                <ul>
+                  <li>Click and hold on the canvas to move.</li>
+                  <li>Hold mouse down on left side to move left and on right side to move right.</li>
+                  <li>
+                    Based on whether the mouse is towards the center of the canvas or the edge, the 
+                    speed changes.
+                  </li>
+                </ul>
+              </p>
+            </div>
+            <div slot="source">
+              <p>The background artwork is based on something I saw sometime back.</p>
+            </div>
+          </sketch-text>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

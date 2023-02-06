@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" href="../favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Change This -->
+  <meta name="description" content="Celebrating the 50th Segment.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://premjitadhikary.github.io/Mesmerize/vs-50">
+  <meta property="og:title" content="VS 50">
+  <meta property="og:description" content="Celebrating the 50th Segment.">
+  <meta property="og:image" content="https://premjitadhikary.github.io/Mesmerize/vs-50/img/art/LordRam.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://premjitadhikary.github.io/Mesmerize/vs-50">
+  <meta name="twitter:title" content="VS 50">
+  <meta name="twitter:description" content="Celebrating the 50th Segment.">
+  <meta name="twitter:image" content="https://premjitadhikary.github.io/Mesmerize/vs-50/img/art/LordRam.jpg">
+  <!-- Change This -->
+  <link rel="stylesheet" href="../appstyle.css">
+  <link rel="stylesheet" href="./compstyle.css">
+  <script src="../components/app-header.js" type="module"></script>
+  <script src="../components/sketch-text.js" type="module"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.3.1/p5.min.js"></script>
+  <script src="../lib/p5Scribble/p5.scribble.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/p5.collide2d"></script>
+  <script src="../lib/p5SceneManager/scenemanager.js"></script>
+  <script src="../lib/ToneJS/14_7_39/Tone.js"></script>
+  <script src="../common/sketch-colors.js"></script>
+  <script src="../common/utilities.js"></script>
+  <script src="../components/tabbed-pane.js" type="module"></script>
+  <!-- environment imports -->
+  <script src="../vs-50-demo-env/env/env-config.js"></script>
+  <script src="../vs-50-demo-env/env/forest/branch.js"></script>
+  <script src="../vs-50-demo-env/env/forest/tree.js"></script>
+  <script src="../vs-50-demo-env/env/forest/forest.js"></script>
+  <script src="../vs-50-demo-env/env/forest/grass.js"></script>
+  <script src="../vs-50-demo-env/env/forest/sky.js"></script>
+  <script src="../vs-50-demo-env/env/forest/ground.js"></script>
+  <script src="../vs-50-demo-env/env/forest/stylized-branch.js"></script>
+  <script src="../vs-50-demo-env/env/forest/stylized-forest.js"></script>
+  <script src="../vs-50-demo-env/env/forest/stylized-ground.js"></script>
+  <script src="../vs-50-demo-env/env/forest/stylized-sky.js"></script>
+  <script src="../vs-50-demo-env/env/forest/stylized-tree.js"></script>
+  <script src="../vs-50-demo-env/env/bg-env.js"></script>
+  <!-- animation imports -->
+  <script src="../vs-50-demo-character-animation/characters/character-animator.js"></script>
+  <script src="../vs-50-demo-speed-lines/effects/trail-line.js"></script>
+  <script src="../vs-50-demo-speed-lines/effects/trail-arc.js"></script>
+  <script src="../vs-50-demo-speed-lines/effects/teleport-line.js"></script>
+  <script src="../vs-50-demo-speed-lines/effects/sweep-arc.js"></script>
+  <!-- imports for guided arrows -->
+  <script src="../autonomous-steering-agents/targets/dummy-target.js"></script>
+  <script src="../autonomous-steering-agents/strategies/seek.js"></script>
+  <script src="../autonomous-steering-agents/strategies/pursuit.js"></script>
+  <script src="../autonomous-steering-agents/vehicles/basic-vehicle.js"></script>
+  <!-- the game -->
+  <script src="./data/game-constants.js"></script>
+  <script src="./sketch.js"></script>
+  <script src="./utilities/game-event-bus.js"></script>
+  <script src="./utilities/game-button.js"></script>
+  <script src="./utilities/mouse-event-handler.js"></script>
+  <script src="./utilities/info-banner.js"></script>
+  <script src="./utilities/game-camera.js"></script>
+  <script src="./utilities/game-engine.js"></script>
+  <script src="./utilities/game-event-manager.js"></script>
+  <script src="./game-objects/temp-objects/damaging-dummy.js"></script>
+  <script src="./game-objects/temp-objects/damaging-arc.js"></script>
+  <script src="./game-objects/temp-objects/damaging-teleport.js"></script>
+  <script src="./game-objects/temp-objects/damaging-sweep.js"></script>
+  <script src="./game-objects/temp-objects/arrow.js"></script>
+  <script src="./game-objects/temp-objects/stylized-arrow.js"></script>
+  <script src="./game-objects/character/base-character.js"></script>
+  <script src="./game-objects/character/base-vs-50-character.js"></script>
+  <script src="./game-objects/character/hero-ram.js"></script>
+  <script src="./game-objects/character/npc-character.js"></script>
+  <script src="./game-objects/character/npc-vanara.js"></script>
+  <script src="./game-objects/character/npc-jambuvan.js"></script>
+  <script src="./game-objects/character/npc-vali.js"></script>
+  <script src="./data/all-characters.js"></script>
+  <script src="./ai/npc-ai.js"></script>
+  <script src="./ai/hero-assist-ai.js"></script>
+  <script src="./audio/training-theme.js"></script>
+  <script src="./audio/hero-theme.js"></script>
+  <script src="./pages/game-menu.js"></script>
+  <script src="./pages/game-story.js"></script>
+  <script src="./pages/controls-help.js"></script>
+  <script src="./pages/basic-game-manager.js"></script>
+  <script src="./pages/the-game.js"></script>
+  <script src="./pages/training.js"></script>
+  <script src="./control.js" type="module"></script>
+  <title>VS 50</title>
+</head>
+<body>
+  <div class="toplevel">
+    <app-header class="heading"></app-header>
+    <div class="topbody">
+      <div class="container-no-control">
+          <div class="sketch">
+            <div id="sketch-holder" class="sketch-holder clickable">
+            </div>
+          </div>
+
+          <sketch-text class="description-no-control" pageid="10049">
+            <div slot="content">
+              <p>Segment number 50.</p>
+              <p>Had to be special. So another game. This time a platformer.</p>
+              <p>
+                For those not aware of what a platformer is, think Mario. To be precise, think 
+                <em>Super Mario</em> on <em>NES</em>.
+              </p>
+              <p>
+                My original idea was to make something like <em>The Legend of Kage</em>. Ninjas and 
+                Samurais slashing away. But then I thought let's have something based on Indian 
+                mythology.
+              </p>
+              <p>
+                This is inspired from Ramayan - specifically from the part where <em>Lord Ram</em> 
+                helps Sugreev get back his kingdom from Vali in the forests of Kishkindha. I never 
+                liked the idea of how <em>Lord Ram</em> killed Vali while the brothers duel. Didn't 
+                give out the <em>Maryada Purushottam</em> vibes.
+              </p>
+              <p>
+                So here is my take on what if <em>Lord Ram</em> went into the forests of Kishkindha 
+                on his own and defeated the invincible Vali.
+              </p>
+              <div class="sub-header">The Making</div>
+              <p>
+                A little bit on what went into creating this segment. Skip if you aren't interested 
+                in the nerdy stuff.
+              </p>
+              <tabbed-pane>
+                <tab-content name="In Short..." selected>
+                  <p>
+                    Like a true software engineer, I broke the game into smaller problems.
+                    <ul>
+                      <li><em>How will the Environment be rendered?</em></li>
+                      <li><em>How will the Characters be animated?</em></li>
+                      <li><em>What about monster behavior?</em></li>
+                      <li><em>How about user interaction?</em></li>
+                    </ul>
+                  </p>
+                  <p>
+                    With the sub-problems addressed, now to bring all of them together. The 
+                    rendering of environment, character and effects. Executing monster behavior. 
+                    Animate characters. Executing player commands. That's where some design 
+                    knowledge comes handy to implement effective orchestration.
+                  </p>
+                </tab-content>
+                <tab-content name="Environment Rendering">
+                  <p>
+                    In Platformers (any game for that matter), the camera follows the hero 
+                    everywhere. Same here, only simpler (forward or backward).
+                  </p>
+                  <p class="img-container"><img src="./img/making/making-env.jpg" alt="The env"></p>
+                  <p>
+                    To simulate the <em>follow the hero effect</em>, when our hero 
+                    <em>Lord Ram</em> moves, he animates in place while the whole environment is 
+                    displaced in the opposite direction. This illusion is made further effective 
+                    by displacing the environment proportional to the hero speed.
+                  </p>
+                  <p>
+                    As for the environment itself, layers of (2D) trees are rendered to depict 
+                    Kishkindha forest. The trees are rendered in a pseudo-random manner.
+                  </p>
+                  <p class="hilight">
+                    Check out the <a href="../vs-50-demo-env" target="_blank">demo here</a>.
+                  </p>
+                  <p>
+                    My original idea was to keep rendering the environment as the hero moves, an 
+                    infinite environment so to speak. But there were significant challenges there. 
+                    The primary one being rendering so many trees caused the frame rate to drop to 
+                    embarrassing levels. Instead, the environment is now pre rendred in a way that 
+                    it can be buffered and looped over once the end (in either direction) is 
+                    reached.
+                  </p>
+                </tab-content>
+                <tab-content name="Character Animation">
+                  <p>Long story short - <em>Sprites</em></p>
+                  <p class="img-container"><img src="./img/animatedPreview-orig.gif" alt="Animation"></p>
+                  <p>I had already done some segments earlier which used sprites 
+                    (<a href="../simulated-combat/" target="_blank">Simulated Combat</a>, 
+                    <a href="../another-holi-special/" target="_blank">Another Holi Special</a>). 
+                    In this segment, more control has been added:
+                    <ul>
+                      <li>
+                        Loops to make an animation run continuously. As an example animation of 
+                        forward movement.
+                      </li>
+                      <li>
+                        Resets to enable animation to be interrupted. Example would be a character 
+                        in motion is hit and as a result the character is thrown back.
+                      </li>
+                      <li>
+                        Callbacks to notify the game engine when an animation is over (or is 
+                        interrupted)
+                      </li>
+                    </ul>
+                  </p>
+                  <p class="hilight">
+                    Check out the sprite animation <a href="../vs-50-demo-character-animation" 
+                    target="_blank">demo here</a>.
+                  </p>
+                  <p>
+                    While sprite animation works, adding speed lines to the key action frames gives 
+                    it much more impact. Be it to show very fast movement, or to show the mighty 
+                    swing of a weapon.
+                  </p>
+                  <p class="hilight">
+                    Check out the speed lines  <a href="../vs-50-demo-speed-lines/" 
+                    target="_blank">demo here</a>.
+                  </p>
+                </tab-content>
+                <tab-content name="Monster Intelligence">
+                  <p>With animation sorted out, it's time for some behavior to be defined!</p>
+                  <p>
+                    Monsters are the enemies that are out to take you down. The player has to 
+                    survive and take them down instead to win the game.
+                  </p>
+                  <p>
+                    In this game these would be <em>Vanaras</em>, <em>Jambuvans</em> and the 
+                    boss <em>Vali</em>. How would they behave? Basically what would trigger their 
+                    actions (and corresponding animations)?
+                  </p>
+                  <p>This came down to answering the following questions:</p>
+                  <p class="hilight">How and when will the monster engage the hero?</p>
+                  <p>
+                    In Super Mario, the monsters patrol back and forth between two points. Mario 
+                    had to evade them (by jumping over). That would have been too simple for this 
+                    game.
+                  </p>
+                  <p>
+                    Here, the monsters stand guard at different points in Kishkindha forest. As 
+                    the hero progresses through the forest, he encounters the monsters. It is at 
+                    this point the monster engages the hero.
+                  </p>
+                  <p>
+                    The way the monster engages is determined by his aggressiveness (quantified by 
+                    the <em>initiative</em> attribute). <em>Vanaras</em> are the least aggressive.
+                  </p>
+                  <p class="hilight">How will the enemy attack the hero?</p>
+                  <p>
+                    Once engaged, the monster attacks the hero. Monsters have more than one attack 
+                    move at their disposal. <em>Ok fine</em>, I was too lazy to code in and art out 
+                    more than two attacks per character!
+                  </p>
+                  <p>
+                    Nevertheless, which attack to perform needs to be determined. One of the 
+                    decision factors is whether the hero is in the range of the attack. In case the 
+                    hero is out of range, the monster will move towards the hero to get in range. 
+                  </p>
+                </tab-content>
+                <tab-content name="User Inputs">
+                  <p>Keep it simple. Just mouse inputs.</p>
+                  <p>
+                    One memory that I have from playing all those Mario games were those difficult 
+                    jumps. If one does not press the button at the right moment, Mario would fall 
+                    into the gap and the game starts again.
+                  </p>
+                  <p>
+                    This is a mouse controlled game and I wanted to have something similar here. So 
+                    a <em>Custom Mouse Event Handler</em> to dampen and ignore rapid clicks. Rather than 
+                    clicking furiously, the player has to be patient and click with deliberate 
+                    intervals to control the hero properly!
+                  </p>
+                  <p class="hilight"> Custom Mouse Event Handler</p>
+                  <p>
+                    In this game, there are four input commands:
+                    <ul>
+                      <li>Hold down the left mouse button to move forward (or backward).</li>
+                      <li>Release the left mouse button to stop moving.</li>
+                      <li>Left click to execute Primary Attack.</li>
+                      <li>Right click to execute Secondary Attack.</li>
+                    </ul>
+                  </p>
+                  <p>
+                    Actual mouse events generated are:
+                    <ul>
+                      <li>Mouse Down</li>
+                      <li>Mouse Up</li>
+                      <li>Mouse Clicked</li>
+                      <li>Mouse Double Clicked</li>
+                    </ul>
+                  </p>
+                  <p>
+                    The event has information of which button was pressed. So to check if the hero 
+                    was commanded to move forward, 
+                    <ol>
+                      <li>Check for mouse down event</li>
+                      <li>Check if mouse button was the <em>left</em> one</li>
+                    </ol>
+                  </p>
+                  <p>
+                    Moreover, a mouse click generates 3 events, Mouse Down, Mouse Up and Mouse 
+                    Clicked. If all three are processed, then the Hero starts moving, then stops 
+                    moving and then executes attack.
+                  </p>
+                  <p>
+                    To solve this, the custom event handler has an internal queue. All the 
+                    generated mouse events are captured and enqueued here. So for a mouse click, 
+                    the queue would look like:
+                  </p>
+                  <div class="img-container">
+                    <span class="bounded-box">Mouse Down</span>
+                    <span class="bounded-box">Mouse Up</span>
+                    <span class="bounded-box">Mouse Click</span>
+                  </div>
+                  <p>
+                    After an interval, a <em>Process Phase</em> would run on the internal queue. 
+                    This would eliminate the additional Mouse Down/Up events. Process the Click 
+                    event and clear the queue for the next set of captures.
+                  </p>
+                  <div class="img-container">
+                    <span class="bounded-box reject">Mouse Down</span>
+                    <span class="bounded-box reject">Mouse Up</span>
+                    <span class="bounded-box accept">Mouse Click</span>
+                  </div>
+                  <p>
+                    By adjusting the time interval, the abilities of the capture/process function 
+                    is extended to enable the feature of <em>ignoring rapid clicks</em>. For 
+                    example, lets say three consecutive clicks are captured and enqueued. During the 
+                    process phase, just the first click will be entertained and executed.
+                  </p>
+                  <div class="img-container">
+                    <span class="bounded-box reject">Mouse Down</span>
+                    <span class="bounded-box reject">Mouse Up</span>
+                    <span class="bounded-box accept">Mouse Click</span>
+                    <span class="bounded-box reject">Mouse Down</span>
+                    <span class="bounded-box reject">Mouse Up</span>
+                    <span class="bounded-box reject">Mouse Click</span>
+                    <span class="bounded-box reject">Mouse Down</span>
+                    <span class="bounded-box reject">Mouse Up</span>
+                    <span class="bounded-box reject">Mouse Click</span>
+                  </div>
+                </tab-content>
+                <tab-content name="Architecture and Design">
+                  <p>
+                    The fun stuff
+                  </p>
+                  <tabbed-pane>
+                    <tab-content name="Game Engine" selected>
+                      <p>The Game Engine is the heart of the system.</p>
+                      <p>
+                        Everything, the environment, all the characters, each and every effect, are 
+                        added to the engine as Game Objects. The engine has the responsibility to 
+                        run the game loop. At every loop it does the following major tasks:
+                        <ul>
+                          <li>
+                            Triggers update on all game objects. This updates properties like 
+                            position for moving objects, images for sprite animation etc.
+                          </li>
+                          <li>
+                            Invokes AI on all monsters to determine if any behavior change is 
+                            to be triggered.
+                          </li>
+                          <li>All game objects are rendered.</li>
+                          <li>
+                            Triggers the custom mouse handler to capture any mouse events and on 
+                            interval, process them.
+                          </li>
+                          <li>
+                            Triggers update on Game Camera so that it can synchronize with the 
+                            hero position.
+                          </li>
+                          <li>And of course, check for Game Over scenarios!</li>
+                        </ul>
+                      </p>
+                    </tab-content>
+                    <tab-content name="States">
+                      <p>
+                        For the characters, the animation component is responsible for the 
+                        animation loops and the selection of the correct image to render.
+                      </p>
+                      <p>
+                        The behavior on the other hand is handled by the ai component for the 
+                        monsters and the user inputs for the hero.
+                      </p>
+                      <p>
+                        The need now is to tie them together with stress on loose coupling. 
+                        <em>Why?</em> Because there are some interesting cases that need to be 
+                        handled. For example, in between executing an attack, the character 
+                        should not be able to suddenly start to run. This validation should 
+                        neither lie with the component that triggers behavior commands nor 
+                        should it lie with the animation component which runs the animation.
+                      </p>
+                      <p class="hilight">State Manager</p>
+                      <p>
+                        The solution comes by maintaining <em>States</em> for the characters. 
+                        The behavior component requests a State change in the character (from 
+                        <em>IDLE</em> to <em>MOVE FORWARD</em>). The <em>State Manager</em> 
+                        validates the request and changes the State. The animation component 
+                        is then updated with accordingly if it needs to load a new animation 
+                        sequence.
+                      </p>
+                      <p>This is a simplified view of the State Manager.</p>
+                      <p class="img-container">
+                        <img src="./img/making/making-state.png" alt="State Management">
+                      </p>
+                    </tab-content>
+                    <tab-content name="Event Driven">
+                      <p>
+                        While the engine handles the orchestration of sequential tasks, there are 
+                        a few operations which cannot be handled in a sequential manner.
+                      </p>
+                      <p>
+                        The two such major use cases that come to mind:
+                        <ul>
+                          <li>How the user inputs would translate to hero?</li>
+                          <li>How monster ai commands would translate to monsters?</li>
+                        </ul>
+                      </p>
+                      <p>
+                        Other use cases:
+                        <ul>
+                          <li>Add temp game objects to Game Engine</li>
+                          <li>
+                            Update Character attributes (life in case damage is inflicted, Power 
+                            Ups for Hero)
+                          </li>
+                          <li>Game Events. For example Training milestones</li>
+                        </ul>
+                      </p>
+                      <p class="hilight">Event Bus</p>
+                      <p>
+                        This is where event driven architecture shines. Events are generated with 
+                        respect to some triggers, in our case, user inputs and ai commands. These 
+                        events are published to the event-bus. Subscribers, in our case, hero and 
+                        monsters, would listen on the event-bus and pick up events of their 
+                        interest, and act upon them.
+                      </p>
+                      <p>
+                        The advantage here is again loose coupling. The event publisher is only 
+                        responsible to generate the event, on the other hand the subscriber 
+                        is only responsible to consume and process the event.
+                      </p>
+                      <p>This is a simplified flow and does not include the State Manager.</p>
+                      <p class="img-container">
+                        <img src="./img/making/making-event.png" alt="Event Driven">
+                      </p>
+                    </tab-content>
+                  </tabbed-pane>
+                </tab-content>
+                <tab-content name="Libraries Used">
+                  <p>
+                    List of libraries used here:
+                    <ul>
+                      <li>
+                        <a href="https://github.com/mveteanu/p5.SceneManager" 
+                        target="_blank">p5.js SceneManager</a> - To switch among Game, Training, 
+                        Story and Control components.
+                      </li>
+                      <li>
+                        <a href="https://github.com/generative-light/p5.scribble.js" 
+                        target="_blank">p5.scribble.js</a> - To have a <em>stylized</em> look for 
+                        the forest artwork.
+                      </li>
+                      <li>
+                        <a href="https://github.com/bmoren/p5.collide2D" target="_blank">p5.collide2D</a> 
+                        - To have collision detection.
+                      </li>
+                      <li>
+                        <a href="https://tonejs.github.io/" target="_blank">Tone JS</a> - For audio.
+                      </li>
+                    </ul>
+                  </p>
+                </tab-content>
+              </tabbed-pane>
+            </div>
+            <div slot="source">
+              <p>
+                One of the greatest Epic ever ... <em>Ramayan</em>.
+              </p>
+            </div>
+          </sketch-text>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

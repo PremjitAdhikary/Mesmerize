@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" href="../favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Change This -->
+  <meta name="description" content="Character Animation Demo.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://premjitadhikary.github.io/Mesmerize/vs-50-demo-character-animation">
+  <meta property="og:title" content="VS 50 Demo - Character Animation">
+  <meta property="og:description" content="Character Animation Demo.">
+  <meta property="og:image" content="https://premjitadhikary.github.io/Mesmerize/vs-50-demo-character-animation/img/myCanvas.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://premjitadhikary.github.io/Mesmerize/vs-50-demo-character-animation">
+  <meta name="twitter:title" content="VS 50 Demo - Character Animation">
+  <meta name="twitter:description" content="Character Animation Demo.">
+  <meta name="twitter:image" content="https://premjitadhikary.github.io/Mesmerize/vs-50-demo-character-animation/img/myCanvas.jpg">
+  <!-- Change This -->
+  <link rel="stylesheet" href="../appstyle.css">
+  <link rel="stylesheet" href="./compstyle.css">
+  <script src="../components/app-header.js" type="module"></script>
+  <script src="../components/sketch-text.js" type="module"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.3.1/p5.min.js"></script>
+  <script src="./sketch.js"></script>
+  <script src="../common/sketch-colors.js"></script>
+  <script src="../common/utilities.js"></script>
+  <script src="../components/range-input.js" type="module"></script>
+  <script src="../components/radio-input-group.js" type="module"></script>
+  <script src="../components/tabbed-pane.js" type="module"></script>
+  <script src="./control.js" type="module"></script>
+  <script src="./characters/character-animator.js"></script>
+  <title>VS 50 Demo - Character Animation</title>
+</head>
+<body>
+  <div class="toplevel">
+    <app-header class="heading"></app-header>
+    <div class="topbody">
+      <div class="container">
+          <div class="sketch">
+            <div id="sketch-holder" class="sketch-holder">
+            </div>
+          </div>
+
+          <div class="control">
+            <div class="control-container">
+              <div class="characters">
+                <p>
+                  <radio-group id="characters_radio">
+                    <radio-button value="1" aria-checked="true">Ram</radio-button>
+                    <radio-button value="2">Vanara</radio-button>
+                    <radio-button value="3">Jambuvan</radio-button>
+                    <radio-button value="4">Vali</radio-button>
+                  </radio-group>
+                </p>
+              </div>
+              <div class="moves">
+                <p>
+                  <radio-group id="hero_moves_radio">
+                    <radio-button value="1" aria-checked="true">Forward</radio-button>
+                    <radio-button value="2">Defend</radio-button>
+                    <radio-button value="3">Attack 1</radio-button>
+                    <radio-button value="4">Attack 2</radio-button>
+                    <radio-button value="5">Gets Hit</radio-button><br>
+                    <radio-button value="6">Death</radio-button>
+                  </radio-group>
+                </p>
+              </div>
+              <div class="moves">
+                <p>
+                  <radio-group id="normal_moves_radio">
+                    <radio-button value="1" aria-checked="true">Forward</radio-button>
+                    <radio-button value="2">Attack 1</radio-button>
+                    <radio-button value="3">Attack 2</radio-button>
+                    <radio-button value="4">Gets Hit</radio-button><br>
+                    <radio-button value="5">Death</radio-button>
+                  </radio-group>
+                </p>
+              </div>
+              <div id="loop_action_btns" class="action">
+                <p><span class="btn" id="loop_btn">Start</span></p>
+              </div>
+              <div id="single_action_btns" class="action">
+                <p><span class="btn" id="action_btn">Action</span></p>
+              </div>
+            </div>
+          </div>
+
+          <sketch-text class="description" pageid="1007">
+            <div slot="content">
+              <p>
+                Character Animation Demo for platform scrollable.
+              </p>
+              <p>
+                One Hero and three types of enemy. Each with their own movement style and attack 
+                style. 
+              </p>
+              <p>
+                Simple sprite animation for the characters. The death animation is generated via 
+                code. Idea is straightforward, take the <em>hit</em> frame and keep fading for the 
+                next few frames till its not visible anymore.
+              </p>
+            </div>
+            <div slot="source">
+              <p>
+                None.
+              </p>
+            </div>
+          </sketch-text>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

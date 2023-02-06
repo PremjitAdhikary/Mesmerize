@@ -204,6 +204,44 @@
                         </li>
                       </ul>
                     </tab-content>
+                    <tab-content name="Snippets">
+                      <p>
+                        One day I was goofing around on this and came up with a cool font to write 
+                        my name. What followed next was me, figuring out logo code to render all the 
+                        letters of the English alphabet!
+                      </p>
+                      <p>
+                        Now that was done, I wanted to somehow incorporate those into this program 
+                        so that I don't have to keep re-writing the same (DRY). The first thought was 
+                        to incorporate the logic into the interpreter itself. Basically some sort of 
+                        command to work with.
+                      </p>
+                      <code-formatter language="js">
+                        <span slot="code">out premjit</span>
+                      </code-formatter>
+                      <p>
+                        But the more I worked with this approach, the lesser it made sense! So a 
+                        different approach. I took the idea of code snippets... 
+                      </p>
+                      <p>
+                        Instead of building the logic into the interpreter, I made it a feature of 
+                        the editor to generate the required code to feed into the interpreter.
+                      </p>
+                      <code-formatter language="js">
+                        <span slot="code">#premjit#</span>
+                      </code-formatter>
+                      <p><span class="btn" id="snippet-run">Try</span></p>
+                      <p>
+                        Any string in between the hashes is picked up, replaced with the appropriate 
+                        set of logo commands for the letters and then rendered out on the 
+                        viewport! Note that this is not a text editor and it only recognizes English 
+                        letters (and a space) all on one line.
+                      </p>
+                      <p>
+                        Again, this is not a logo language construct, but a (very) limited feature 
+                        added for fun.
+                      </p>
+                    </tab-content>
                   </tabbed-pane>
                 </tab-content>
                 <tab-content name="Kool Examples">

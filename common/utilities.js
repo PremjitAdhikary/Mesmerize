@@ -72,3 +72,18 @@ function intervalCaller(interval, funcToCall) {
     }
   };
 }
+
+/**
+ * Takes in an image and fades it by passed value
+ * The passed in image is updated and returned
+ * @param {*} img - The image to fade
+ * @param {*} alpha - the amount (between 0 and 255) to fade it to
+ */
+function fadeImage(img, alpha) {
+  img.loadPixels();
+  for(let i = 0 ; i < img.pixels.length; i+= 4) {
+    if (img.pixels[i + 3] > alpha) img.pixels[i + 3] = alpha;
+  }
+  img.updatePixels();
+  return img;
+}

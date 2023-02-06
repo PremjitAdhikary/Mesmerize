@@ -1,6 +1,6 @@
 let _pages;
 let _searchEngine;
-let sortOrder = 1;
+let sortOrder;
 
 function pagesRefer(pages, searchEngine) {
   _pages = pages;
@@ -8,10 +8,23 @@ function pagesRefer(pages, searchEngine) {
 }
 
 function initPage() {
+  loadVariables();
   loadCards();
   setupSearch();
   setupSort();
+  document.getElementById('term-search').value = window.sessionStorage.getItem('mes-searchTerm');
   document.getElementById('btn-search').click();
+}
+
+function loadVariables() {
+  let storedSort = window.sessionStorage.getItem('mes-sortOrder');
+  sortOrder = storedSort ? storedSort : 1;
+  let sortChoices = document.getElementById('choice-sort').children;
+  for (let i = 0; i < sortChoices.length; i++) {
+    if (sortChoices[i].value == sortOrder) {
+      sortChoices[i].setAttribute('aria-checked', 'true');
+    }
+  }
 }
 
 function loadCards() {
@@ -25,9 +38,16 @@ function loadCards() {
   });
 }
 
+function setSearchAndClick(searchTerm) {
+  document.getElementById('term-search').value = searchTerm;
+  window.sessionStorage.setItem('mes-searchTerm', searchTerm);
+  document.getElementById('btn-search').click();
+}
+
 function setupSearch() {
   document.getElementById('btn-search').onclick = function(e) {
     let searchTerm = document.getElementById('term-search').value;
+    window.sessionStorage.setItem('mes-searchTerm', searchTerm);
     let searchResults;
     hideAllCards();
     searchResults = _searchEngine.search(searchTerm, sortBy());
@@ -41,8 +61,7 @@ function setupSearch() {
       document.getElementById('btn-search').click();
     } else if (event.keyCode === 27) {
       event.preventDefault();
-      document.getElementById('term-search').value = '';
-      document.getElementById('btn-search').click();
+      setSearchAndClick('');
     }
   });
 
@@ -53,8 +72,7 @@ function setupSearch() {
 
 function searchFor(termToSearch) {
   return function(e) {
-    document.getElementById('term-search').value = 'mql: ' + termToSearch;
-    document.getElementById('btn-search').click();
+    setSearchAndClick('mql: ' + termToSearch);
   };
 }
 
@@ -63,6 +81,7 @@ function setupSort() {
     let val = Number(e.target.value);
     if (val) {
       sortOrder = val;
+      window.sessionStorage.setItem('mes-sortOrder', val);
       loadCards();
       document.getElementById('btn-search').click();
     }

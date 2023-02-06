@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" href="../favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Change This -->
+  <meta name="description" content="Calculator for attributes.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://premjitadhikary.github.io/Mesmerize/vs-50-calculator">
+  <meta property="og:title" content="VS 50 - Calculator">
+  <meta property="og:description" content="Calculator for attributes.">
+  <meta property="og:image" content="https://premjitadhikary.github.io/Mesmerize/vs-50-calculator/img/myCanvas.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://premjitadhikary.github.io/Mesmerize/vs-50-calculator">
+  <meta name="twitter:title" content="VS 50 - Calculator">
+  <meta name="twitter:description" content="Calculator for attributes.">
+  <meta name="twitter:image" content="https://premjitadhikary.github.io/Mesmerize/vs-50-calculator/img/myCanvas.jpg">
+  <!-- Change This -->
+  <link rel="stylesheet" href="../appstyle.css">
+  <link rel="stylesheet" href="./compstyle.css">
+  <script src="../components/app-header.js" type="module"></script>
+  <script src="../components/sketch-text.js" type="module"></script>
+  <script src="../vs-50-demo-character-animation/characters/character-animator.js"></script>
+  <script src="../vs-50/data/game-constants.js"></script>
+  <script src="../vs-50/data/all-characters.js"></script>
+  <script src="../vs-50/game-objects/character/base-character.js"></script>
+  <script src="../vs-50/pages/basic-game-manager.js"></script>
+  <script src="../vs-50/pages/the-game.js"></script>
+  <script src="../components/radio-input-group.js" type="module"></script>
+  <script src="./control.js" type="module"></script>
+  <title>Calculator for attributes</title>
+</head>
+<body>
+  <div class="toplevel">
+    <app-header class="heading"></app-header>
+    <div class="topbody">
+      <div class="container">
+          <div class="sketch">
+            <div id="sketch-holder" class="sketch-holder">
+              <div class="hero_attributes">
+                <p>
+                  <div><span class="hilight">Hero: </span><span id="hero_name">??</span></div>
+                  <div><span>&nbsp;Life: </span><span id="hero_life">??</span></div>
+                  <div><span>&nbsp;Strength: </span><span id="hero_strength">??</span></div>
+                  <div><span>&nbsp;Armor: </span><span id="hero_armor">??</span></div>
+                </p>
+              </div>
+              <div class="enemy_attributes">
+                <p>
+                  <div><span class="hilight">Enemy: </span><span id="enemy_name">??</span></div>
+                  <div><span>&nbsp;Life: </span><span id="enemy_life">??</span></div>
+                  <div><span>&nbsp;Strength: </span><span id="enemy_strength">??</span></div>
+                  <div><span>&nbsp;Armor: </span><span id="enemy_armor">??</span></div>
+                </p>
+              </div>
+              <div class="primary_attack_label">
+                <span class="hilight">Primary Attack: </span><span id="primary_attack_name">??</span>
+              </div>
+              <div class="primary_attack_min">
+                <p>
+                  <div><span class="hilight">Minimum Damage: </span><span id="primary_min_damage">??</span></div>
+                  <div><span>&nbsp;Damage Dished: </span><span id="primary_min_dished">??</span></div>
+                  <div><span>&nbsp;Damage Incurred: </span><span id="primary_min_incurred">??</span></div>
+                  <div><span>&nbsp;Hits to Kill : </span><span id="primary_min_kill_hits">??</span></div>
+                </p>
+              </div>
+              <div class="primary_attack_max">
+                <p>
+                  <div><span class="hilight">Maximum Damage: </span><span id="primary_max_damage">??</span></div>
+                  <div><span>&nbsp;Damage Dished: </span><span id="primary_max_dished">??</span></div>
+                  <div><span>&nbsp;Damage Incurred: </span><span id="primary_max_incurred">??</span></div>
+                  <div><span>&nbsp;Hits to Kill : </span><span id="primary_max_kill_hits">??</span></div>
+                </p>
+              </div>
+              <div class="secondary_attack_label">
+                <span class="hilight">Secondary Attack: </span><span id="secondary_attack_name">??</span>
+              </div>
+              <div class="secondary_attack_min">
+                <p>
+                  <div><span class="hilight">Minimum Damage: </span><span id="secondary_min_damage">??</span></div>
+                  <div><span>&nbsp;Damage Dished: </span><span id="secondary_min_dished">??</span></div>
+                  <div><span>&nbsp;Damage Incurred: </span><span id="secondary_min_incurred">??</span></div>
+                  <div><span>&nbsp;Hits to Kill : </span><span id="secondary_min_kill_hits">??</span></div>
+                </p>
+              </div>
+              <div class="secondary_attack_max">
+                <p>
+                  <div><span class="hilight">Maximum Damage: </span><span id="secondary_max_damage">??</span></div>
+                  <div><span>&nbsp;Damage Dished: </span><span id="secondary_max_dished">??</span></div>
+                  <div><span>&nbsp;Damage Incurred: </span><span id="secondary_max_incurred">??</span></div>
+                  <div><span>&nbsp;Hits to Kill : </span><span id="secondary_max_kill_hits">??</span></div>
+                </p>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="control">
+            <div class="control-container">
+              <div>
+                <p>Difficulty:</p>
+                <p>
+                  <radio-group id="choice_difficulty">
+                    <radio-button value="1" aria-checked="true">Easy</radio-button>
+                    <radio-button value="2">Normal</radio-button>
+                    <radio-button value="3">Hard</radio-button>
+                  </radio-group>
+                </p>
+              </div>
+              <div>
+                <p>Blessings:</p>
+                <p>
+                  <radio-group id="choice_blessings">
+                    <radio-button value="1" aria-checked="true">None</radio-button>
+                    <radio-button value="2">Strength+</radio-button>
+                    <radio-button value="3">Armor+</radio-button>
+                    <radio-button value="4">Both+</radio-button>
+                  </radio-group>
+                </p>
+              </div>
+              <div>
+                <p>Action:</p>
+                <p>
+                  <radio-group id="choice_action">
+                    <radio-button value="1" aria-checked="true">Attack</radio-button>
+                    <radio-button value="2">Defend</radio-button>
+                    <radio-button value="3">Gets Hit</radio-button>
+                  </radio-group>
+                </p>
+              </div>
+              <div>
+                <p>Enemy:</p>
+                <p>
+                  <radio-group id="choice_enemy">
+                    <radio-button value="1" aria-checked="true">Vanara</radio-button>
+                    <radio-button value="2">Jambuvan</radio-button>
+                    <radio-button value="3">Vali</radio-button>
+                  </radio-group>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <sketch-text class="description" pageid="1008">
+            <div slot="content">
+              <p>
+                This is for me to balance the game. For anyone else a bit mathematically inclined, 
+                you may use this to strategize.
+              </p>
+              <p>
+                Points to note:
+                <ul>
+                  <li>Every character has 2 attacks - Primary and Secondary</li>
+                  <li>
+                    Whenever a character attacks, the damage to the opponent is a function of the 
+                    attacks innate damage and strength of the character
+                  </li>
+                  <li>
+                    Strength is affected by a multiplier which is dependent on difficulty for NPCs 
+                    and on power-ups for Hero
+                  </li>
+                  <li>
+                    For every attack, the damage is randomly set in the range of its minimum and 
+                    maximum
+                  </li>
+                  <li>
+                    Whenever a character gets attacked, the damage it takes is reduced based on the 
+                    armor the character has
+                  </li>
+                  <li>
+                    Similar to Strength, Armor is affected by a multiplier which is dependent on 
+                    difficulty for NPCs and on power-ups for Hero
+                  </li>
+                  <li>If hero defends while attacked, the damage dished is halved.</li>
+                </ul>
+              </p>
+            </div>
+            <div slot="source">
+              <p>
+                Original idea.
+              </p>
+            </div>
+          </sketch-text>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
