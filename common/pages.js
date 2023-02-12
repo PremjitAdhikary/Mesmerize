@@ -357,7 +357,8 @@ class Pages {
           'kombat',
           'sim',
           'original',
-          'film'
+          'film',
+          'sprite'
         ]
       },
       {
@@ -402,7 +403,8 @@ class Pages {
           'sim',
           'original',
           'rainfall',
-          'film'
+          'film',
+          'art'
         ]
       },
       {
@@ -747,7 +749,9 @@ class Pages {
           'diwali',
           'festival',
           'firework',
-          'original'
+          'original',
+          'art',
+          'mcu'
         ]
       },
       {
@@ -815,7 +819,8 @@ class Pages {
         rank: 4,
         date: 'Mar 20 2022',
         tag: [
-          'game'
+          'game',
+          'art'
         ]
       },
       {
@@ -858,7 +863,9 @@ class Pages {
           'holi',
           'festival',
           'color',
-          'original'
+          'original',
+          'art',
+          'sprite'
         ]
       },
       {
@@ -913,7 +920,12 @@ class Pages {
           'game', 
           'steer', 
           'combat', 
-          'original'
+          'original',
+          'art',
+          'sprite',
+          'mcu',
+          'combat',
+          'intelligence'
         ]
       }
     ];
