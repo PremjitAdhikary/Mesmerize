@@ -2,6 +2,37 @@ import { pages } from '../common/pages.js';
 
 (function() {
 
+  /**
+   * Usage:  
+   * 
+   * ```
+   * // CSS to be defined to hold the Phone
+   * .phone-holder {  
+   *    width: 640px;  
+   *    height: 480px;  
+   * }  
+   * .phone-holder {  
+   *    display:flex;  
+   *    justify-content:center;  
+   *    align-items:center;    
+   * }  
+   * 
+   * //Html to declare the phone element  
+   * <div class="phone-holder">  
+   *   <m-phone id="m-phone-id" class="phone"></m-phone>  
+   * </div>  
+   * 
+   * // Initializing and registering an App (MApp)  
+   * mApp = new MApp();
+   * document.getElementById('m-phone-id').registerApp(mApp);
+   * 
+   * // Interacting with phone services
+   * document.getElementById('m-phone-id').services.registerEvent(
+   *    eventName, onEventFunction );
+   * document.getElementById('m-phone-id').services.dispatchEvent(
+   *    eventName, eventObject );
+   * ```
+   */
   class PhoneElement extends HTMLElement {
 
     constructor() {

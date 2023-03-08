@@ -1,3 +1,11 @@
+/**
+ * Properties:  
+ * minOctEdge: minimum size of the edge of a quad
+ * 
+ * Callable Methods:  
+ * insert(): inserts element at x,y,z co-ordinate  
+ * query(): queries for elements around x,y,z for in a range
+ */
 class Octree {
 
   constructor(centerX, centerY, centerZ, treeSize, capacity, onlyLeafItems = false) {
@@ -13,6 +21,14 @@ class Octree {
     this.minOctEdge = 4;
   }
 
+  /**
+   * To insert any element
+   * @param {*} x coordinate
+   * @param {*} y coordinate
+   * @param {*} z coordinate
+   * @param {*} element to be inserted
+   * @returns 
+   */
   insert(x, y, z, element) {
     return this.insertPoint(new OctPoint(x,y,z,element));
   }
@@ -84,6 +100,14 @@ class Octree {
     return ot;
   }
 
+  /**
+   * Queries for elements in the tree
+   * @param {*} centerX coordinate reference for center of query cube
+   * @param {*} centerY coordinate reference for center of query cube
+   * @param {*} centerZ coordinate reference for center of query cube
+   * @param {*} rangeSize edge size of query cube
+   * @returns 
+   */
   query(centerX, centerY, centerZ, rangeSize) {
     let pointsFound = [];
     this.queryRecursive(centerX, centerY, centerZ, rangeSize, pointsFound);

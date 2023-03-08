@@ -77,5 +77,6 @@ function displayScore() {
 }
 
 function mousePressed() {
-  balloon.throw();
+  if (mouseInCanvas()) 
+    balloon.throw();
 }

@@ -1,7 +1,16 @@
 /**
- * 2 versions of Quadtree here:
- * 1) All the quads keep points in them
- * 2) Only the leaf quads keep points in them
+ * 2 versions of Quadtree here:  
+ * 1) All the quads keep points in them (setby default)  
+ * 2) Only the leaf quads keep points in them (set onlyLeafItems to true)  
+ * 
+ * Properties:  
+ * color: can be set to color the tree  
+ * minQuadEdge: minimum size of the edge of a quad  
+ * 
+ * Callable Methods:  
+ * insert(): inserts element at x,y co-ordinate  
+ * query(): queries for elements around x,y for in a range  
+ * show(): renders the tree  
  */
 class QuadTree {
 
@@ -20,6 +29,13 @@ class QuadTree {
     this.minQuadEdge = 4;
   }
 
+  /**
+   * To insert any element
+   * @param {*} x coordinate
+   * @param {*} y coordinate
+   * @param {*} element to be inserted
+   * @returns 
+   */
   insert(x, y, element) {
     return this.insertPoint(new Point(x,y,element));
   }
@@ -87,6 +103,14 @@ class QuadTree {
     return qt;
   }
 
+  /**
+   * Queries for elements in the tree
+   * @param {*} centerX coordinate reference for center of query box
+   * @param {*} centerY coordinate reference for center of query box
+   * @param {*} rangeWidth width of query box
+   * @param {*} rangeHeight height of query box
+   * @returns 
+   */
   query(centerX, centerY, rangeWidth, rangeHeight) {
     let pointsFound = [];
     this.queryRecursive(centerX, centerY, rangeWidth, rangeHeight, pointsFound);
@@ -132,6 +156,10 @@ class QuadTree {
           && (y <= (rangeCenterY+rangeHeight/2));
   }
 
+  /**
+   * Renders the tree
+   * @param {*} color to be used to render instead of base color 
+   */
   show(color) {
     if (!color) color = this.color;
     stroke(color);

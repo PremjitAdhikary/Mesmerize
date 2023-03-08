@@ -8,6 +8,12 @@
  * 3: creator created: small, ok to look at
  *    inspired creation: big / medium project, good to look at
  * 4: everything else
+ * 
+ * Weight for tags:
+ * 1: Meh
+ * 2: Somewhat significant
+ * 3: Very significant
+ * 5: All about this
  */
 class Pages {
 
@@ -19,7 +25,7 @@ class Pages {
         url: '/demo',
         img: '/demo/img/preview.jpg',
         detail: 'Just a Demo.',
-        tag: [],
+        tags: [],
         internal: true,
         date: 'Oct 7 2019'
       },
@@ -30,11 +36,11 @@ class Pages {
         img: '/clock/img/preview.jpg',
         detail: 'Animating a clock.',
         rank: 4,
-        date: 'Oct 7 2019',
-        tag: [
-          'clock',
-          'maeda',
-          'pendulum'
+        date: 'Oct 7 2019', 
+        tags: [
+          { tag: 'clock', wt: 5 }, 
+          { tag: 'maeda', wt: 1 }, 
+          { tag: 'pendulum', wt: 1 }
         ]
       },
       {
@@ -44,11 +50,11 @@ class Pages {
         img: '/lissajous-curve/img/preview.jpg',
         detail: 'Animation showing Lissajous curve adaptation!',
         rank: 4,
-        date: 'Oct 7 2019',
-        tag: [
-          'lissajous',
-          'curve',
-          'bowditch'
+        date: 'Oct 7 2019', 
+        tags: [
+          { tag: 'lissajous', wt: 3 }, 
+          { tag: 'curve', wt: 5 }, 
+          { tag: 'bowditch', wt: 1 }
         ]
       },
       {
@@ -58,11 +64,11 @@ class Pages {
         img: '/lissajous-curve-table/img/preview.jpg',
         detail: 'Table of curves animating around based on Lissajous equation!',
         rank: 3,
-        date: 'Oct 7 2019',
-        tag: [
-          'lissajous',
-          'curve',
-          'bowditch'
+        date: 'Oct 7 2019', 
+        tags: [
+          { tag: 'lissajous', wt: 3 }, 
+          { tag: 'curve', wt: 5 }, 
+          { tag: 'bowditch', wt: 1 }
         ]
       },
       {
@@ -72,10 +78,12 @@ class Pages {
         img: '/planetary-system/img/preview.jpg',
         detail: 'A simulation of a Planetary System in 2D.',
         rank: 4,
-        date: 'Oct 7 2019',
-        tag: [
-          'space',
-          'circle'
+        date: 'Oct 7 2019', 
+        tags: [
+          { tag: 'planet', wt: 5 }, 
+          { tag: 'space', wt: 3 }, 
+          { tag: 'circle', wt: 1 }, 
+          { tag: 'sim', wt: 2 }
         ]
       },
       {
@@ -85,12 +93,12 @@ class Pages {
         img: '/spirograph/img/preview.jpg',
         detail: 'A spiral with lot of circles!',
         rank: 4,
-        date: 'Oct 7 2019',
-        tag: [
-          'spiral',
-          'circle',
-          'curve',
-          'color'
+        date: 'Oct 7 2019', 
+        tags: [
+          { tag: 'spiral', wt: 3 }, 
+          { tag: 'circle', wt: 1 }, 
+          { tag: 'curve', wt: 1 }, 
+          { tag: 'color', wt: 1 }
         ]
       },
       {
@@ -100,12 +108,11 @@ class Pages {
         img: '/unit-circle/img/preview.jpg',
         detail: 'Trigonometry - Sine wave, Cosine wave and the Unit Circle.',
         rank: 4,
-        date: 'Oct 7 2019',
-        tag: [
-          'circle',
-          'curve',
-          'sin',
-          'cos'
+        date: 'Oct 7 2019', 
+        tags: [
+          { tag: 'circle', wt: 3 }, 
+          { tag: 'curve', wt: 1 }, 
+          { tag: 'wave', wt: 3 }
         ]
       },
       {
@@ -115,13 +122,13 @@ class Pages {
         img: '/fourier-series/img/preview.jpg',
         detail: 'Fourier Series - Square Waves, Sawtooth and others.',
         rank: 3,
-        date: 'Oct 7 2019',
-        tag: [
-          'fourier',
-          'curve',
-          'wave',
-          'square',
-          'triangle'
+        date: 'Oct 7 2019', 
+        tags: [
+          { tag: 'fourier', wt: 5 }, 
+          { tag: 'curve', wt: 1 }, 
+          { tag: 'wave', wt: 3 }, 
+          { tag: 'square', wt: 3 }, 
+          { tag: 'triangle', wt: 3 }
         ]
       },
       {
@@ -131,10 +138,10 @@ class Pages {
         img: '/fractal-circles/img/preview.jpg',
         detail: 'Fractal Circles - Recursion in Effect.',
         rank: 4,
-        date: 'Oct 7 2019',
-        tag: [
-          'fractal',
-          'circle'
+        date: 'Oct 7 2019', 
+        tags: [
+          { tag: 'fractal', wt: 3 }, 
+          { tag: 'circle', wt: 3 }
         ]
       },
       {
@@ -144,24 +151,18 @@ class Pages {
         img: '/more-fractals/img/preview.jpg',
         detail: 'More Fractal Shapes - Cantor Set, Vicsek Snowflake, Koch Curves and variations.',
         rank: 3,
-        date: 'Oct 7 2019',
-        tag: [
-          'cantor',
-          'vicsek snowflake',
-          'koch curve',
-          'koch snowflake',
-          'cesaro snowflake',
-          'minkowski curve',
-          'minkowski snowflake',
-          'vicsek',
-          'koch',
-          'cesaro',
-          'minkowski',
-          'fractal',
-          'curve',
-          'triangle',
-          'square',
-          'snowflake'
+        date: 'Oct 7 2019', 
+        tags: [
+          { tag: 'fractal', wt: 3 }, 
+          { tag: 'curve', wt: 1 }, 
+          { tag: 'triangle', wt: 1 }, 
+          { tag: 'square', wt: 1 }, 
+          { tag: 'snowflake', wt: 1 }, 
+          { tag: 'cantor', wt: 1 }, 
+          { tag: 'vicsek', wt: 1 }, 
+          { tag: 'koch', wt: 1 }, 
+          { tag: 'cesaro', wt: 1 }, 
+          { tag: 'minkowski', wt: 1 }
         ]
       },
       {
@@ -171,21 +172,15 @@ class Pages {
         img: '/sierpinski-fractals/img/preview.jpg',
         detail: 'Sierpinski Triangle, Gasket, Carpet, n-gons and n-flakes.',
         rank: 3,
-        date: 'Oct 7 2019',
-        tag: [
-          'sierpinski triangle',
-          'sierpinski gasket',
-          'sierpinski carpet',
-          'sierpinski ngon',
-          'sierpinski nflake',
-          'sierpinski',
-          'fractal',
-          'curve',
-          'triangle',
-          'square',
-          'polygon',
-          'ngon',
-          'snowflake'
+        date: 'Oct 7 2019', 
+        tags: [
+          { tag: 'fractal', wt: 3 }, 
+          { tag: 'sierpinski', wt: 5 }, 
+          { tag: 'curve', wt: 1 }, 
+          { tag: 'triangle', wt: 1 }, 
+          { tag: 'square', wt: 1 }, 
+          { tag: 'polygon', wt: 1 }, 
+          { tag: 'snowflake', wt: 1 }
         ]
       },
       {
@@ -195,21 +190,18 @@ class Pages {
         img: '/fractal-trees/img/preview.jpg',
         detail: 'Fractal Trees. L-Systems. Pythagorean Tree.',
         rank: 3,
-        date: 'Oct 7 2019',
-        tag: [
-          'fractal tree',
-          'fractal',
-          'l system',
-          'pythagorean tree',
-          'pythagoras',
-          'triangle',
-          'square',
-          'phyllotaxis',
-          'tree',
-          'botany',
-          'spiral',
-          'turtle graphics',
-          'lindenmayer'
+        date: 'Oct 7 2019', 
+        tags: [
+          { tag: 'fractal', wt: 3 }, 
+          { tag: 'l system', wt: 2 }, 
+          { tag: 'pythagoras', wt: 1 }, 
+          { tag: 'triangle', wt: 1 }, 
+          { tag: 'square', wt: 1 }, 
+          { tag: 'phyllotaxis', wt: 1 }, 
+          { tag: 'tree', wt: 2 }, 
+          { tag: 'turtle graphics', wt: 2 }, 
+          { tag: 'lindenmayer', wt: 1 }, 
+          { tag: 'spiral', wt: 1 }
         ]
       },
       {
@@ -219,11 +211,11 @@ class Pages {
         img: '/the-matrix/img/preview.jpg',
         detail: 'The Matrix Rainfall!!',
         rank: 3,
-        date: 'Oct 7 2019',
-        tag: [
-          'matrix',
-          'rainfall',
-          'film'
+        date: 'Oct 7 2019', 
+        tags: [
+          { tag: 'matrix', wt: 5 }, 
+          { tag: 'rainfall', wt: 1 },
+          { tag: 'film', wt: 2 }
         ]
       },
       {
@@ -233,10 +225,10 @@ class Pages {
         img: '/prime-spirals/img/preview.jpg',
         detail: 'The Spirals that Prime numbers make.',
         rank: 3,
-        date: 'Oct 12 2019',
-        tag: [
-          'spiral',
-          'prime'
+        date: 'Oct 12 2019', 
+        tags: [
+          { tag: 'prime', wt: 5 }, 
+          { tag: 'spiral', wt: 3 }
         ]
       },
       {
@@ -246,10 +238,10 @@ class Pages {
         img: '/logo/img/preview.jpg',
         detail: 'Animate the Logo.',
         rank: 4,
-        date: 'Oct 12 2019',
-        tag: [
-          'logo',
-          'original'
+        date: 'Oct 12 2019', 
+        tags: [
+          { tag: 'logo', wt: 5 }, 
+          { tag: 'original', wt: 2 }
         ]
       },
       {
@@ -259,13 +251,12 @@ class Pages {
         img: '/sort-visualization/img/preview.jpg',
         detail: 'Visualize different sorting algorithms.',
         rank: 3,
-        date: 'Oct 20 2019',
-        tag: [
-          'sort',
-          'algorithm',
-          'visualization',
-          'curve',
-          'color'
+        date: 'Oct 20 2019', 
+        tags: [
+          { tag: 'sort', wt: 5 }, 
+          { tag: 'visualization', wt: 2 }, 
+          { tag: 'curve', wt: 1 }, 
+          { tag: 'color', wt: 1 }
         ]
       },
       {
@@ -275,12 +266,12 @@ class Pages {
         img: '/starfield/img/preview.jpg',
         detail: 'Into the Space!',
         rank: 4,
-        date: 'Oct 20 2019',
-        tag: [
-          'starfield',
-          'space',
-          '3d',
-          'film'
+        date: 'Oct 20 2019', 
+        tags: [
+          { tag: 'starfield', wt: 5 }, 
+          { tag: 'space', wt: 3 }, 
+          { tag: 'film', wt: 2 }, 
+          { tag: '3d', wt: 2 }
         ]
       },
       {
@@ -290,12 +281,12 @@ class Pages {
         img: '/fractal-spirograph/img/preview.jpg',
         detail: 'Fractals and Spirals!',
         rank: 4,
-        date: 'Oct 20 2019',
-        tag: [
-          'spiral',
-          'circle',
-          'fractal',
-          'curve'
+        date: 'Oct 20 2019', 
+        tags: [
+          { tag: 'spiral', wt: 3 }, 
+          { tag: 'fractal', wt: 3 }, 
+          { tag: 'circle', wt: 1 }, 
+          { tag: 'curve', wt: 1 }
         ]
       },
       {
@@ -305,13 +296,11 @@ class Pages {
         img: '/barnsley-fern/img/preview.jpg',
         detail: 'Barnsley fern is another fractal.',
         rank: 3,
-        date: 'Oct 20 2019',
-        tag: [
-          'barnsley fern',
-          'fractal',
-          'barnsley',
-          'fern',
-          'botany'
+        date: 'Oct 20 2019', 
+        tags: [
+          { tag: 'barnsley', wt: 3 }, 
+          { tag: 'fractal', wt: 3 }, 
+          { tag: 'fern', wt: 2 }
         ]
       },
       {
@@ -321,11 +310,11 @@ class Pages {
         img: '/rose/img/preview.jpg',
         detail: 'Mathematical Roses. Maurer Roses.',
         rank: 3,
-        date: 'Oct 27 2019',
-        tag: [
-          'rose',
-          'curve',
-          'maurer'
+        date: 'Oct 27 2019', 
+        tags: [
+          { tag: 'rose', wt: 3 }, 
+          { tag: 'maurer', wt: 2 }, 
+          { tag: 'curve', wt: 1 }
         ]
       },
       {
@@ -335,12 +324,12 @@ class Pages {
         img: '/fractal-hands/img/preview.jpg',
         detail: 'Remember Doctor Strange?',
         rank: 3,
-        date: 'Oct 27 2019',
-        tag: [
-          'fractal',
-          'hand',
-          'original',
-          'film'
+        date: 'Oct 27 2019', 
+        tags: [
+          { tag: 'fractal', wt: 3 }, 
+          { tag: 'hand', wt: 2 }, 
+          { tag: 'original', wt: 2 }, 
+          { tag: 'film', wt: 2 }
         ]
       },
       {
@@ -350,15 +339,14 @@ class Pages {
         img: '/simulated-combat/img/preview.gif',
         detail: 'MCU with DC characters',
         rank: 1,
-        date: 'Dec 23 2019',
-        tag: [
-          'mcu',
-          'combat',
-          'kombat',
-          'sim',
-          'original',
-          'film',
-          'sprite'
+        date: 'Dec 23 2019', 
+        tags: [
+          { tag: 'combat', wt: 3 }, 
+          { tag: 'mcu', wt: 2 }, 
+          { tag: 'original', wt: 2 }, 
+          { tag: 'film', wt: 2 }, 
+          { tag: 'sprite', wt: 1 }, 
+          { tag: 'sim', wt: 1 }
         ]
       },
       {
@@ -368,12 +356,12 @@ class Pages {
         img: '/terrains/img/preview.jpg',
         detail: 'Terrain Generation.',
         rank: 3,
-        date: 'Dec 29 2019',
-        tag: [
-          'terrain',
-          'perlin noise',
-          '3d',
-          'sim'
+        date: 'Dec 29 2019', 
+        tags: [
+          { tag: 'terrain', wt: 5 }, 
+          { tag: 'perlin noise', wt: 2 }, 
+          { tag: '3d', wt: 1 }, 
+          { tag: 'sim', wt: 1 }
         ]
       },
       {
@@ -383,10 +371,10 @@ class Pages {
         img: '/kinematics/img/preview.jpg',
         detail: 'How does your arm move?',
         rank: 4,
-        date: 'Jan 15 2020',
-        tag: [
-          'kinematics',
-          'interactive'
+        date: 'Jan 15 2020', 
+        tags: [
+          { tag: 'kinematics', wt: 5 }, 
+          { tag: 'interactive', wt: 1 }
         ]
       },
       {
@@ -396,15 +384,14 @@ class Pages {
         img: '/rorschach/img/preview.jpg',
         detail: 'Rorschach from Watchmen.',
         rank: 2,
-        date: 'Jan 15 2020',
-        tag: [
-          'rorschach',
-          'perlin noise',
-          'sim',
-          'original',
-          'rainfall',
-          'film',
-          'art'
+        date: 'Jan 15 2020', 
+        tags: [
+          { tag: 'rorschach', wt: 5 }, 
+          { tag: 'perlin noise', wt: 2 }, 
+          { tag: 'original', wt: 2 }, 
+          { tag: 'rainfall', wt: 1 },
+          { tag: 'film', wt: 2 }, 
+          { tag: 'artwork', wt: 1 }
         ]
       },
       {
@@ -414,11 +401,9 @@ class Pages {
         img: '/game-of-life/img/preview.jpg',
         detail: 'Conways Game of Life.',
         rank: 3,
-        date: 'Jan 19 2020',
-        tag: [
-          'cellular automata',
-          'sim',
-          'automata'
+        date: 'Jan 19 2020', 
+        tags: [
+          { tag: 'automata', wt: 3 }
         ]
       },
       {
@@ -428,13 +413,12 @@ class Pages {
         img: '/creatures/img/preview.jpg',
         detail: 'Electronic Creatures.',
         rank: 2,
-        date: 'Mar 1 2020',
-        tag: [
-          'creature',
-          'sim',
-          'original',
-          'interactive',
-          'steer'
+        date: 'Mar 1 2020', 
+        tags: [
+          { tag: 'creature', wt: 5 }, 
+          { tag: 'sim', wt: 1 }, 
+          { tag: 'original', wt: 2 }, 
+          { tag: 'interactive', wt: 2 }
         ]
       },
       {
@@ -444,15 +428,13 @@ class Pages {
         img: '/space-colonization/img/preview.jpg',
         detail: 'Generate Tree using Space Colonization Algorithm.',
         rank: 3,
-        date: 'Apr 18 2020',
-        tag: [
-          'colonization',
-          'tree',
-          'space',
-          'botany',
-          'quadtree',
-          'algorithm',
-          'visualization'
+        date: 'Apr 18 2020', 
+        tags: [
+          { tag: 'colonization', wt: 3 }, 
+          { tag: 'tree', wt: 3 }, 
+          { tag: 'space', wt: 2 }, 
+          { tag: 'quadtree', wt: 1 }, 
+          { tag: 'visualization', wt: 2 }
         ]
       },
       {
@@ -462,11 +444,12 @@ class Pages {
         img: '/special-effects/img/preview.jpg',
         detail: 'Effects of and on Environment.',
         rank: 3,
-        date: 'Oct 16 2020',
-        tag: [
-          'sim',
-          'perlin noise',
-          'interactive'
+        date: 'Oct 16 2020', 
+        tags: [
+          { tag: 'sim', wt: 1 }, 
+          { tag: 'perlin noise', wt: 2 }, 
+          { tag: 'interactive', wt: 2 }, 
+          { tag: 'nature', wt: 1 }
         ]
       },
       {
@@ -476,12 +459,12 @@ class Pages {
         img: '/electronic-life/img/preview.jpg',
         detail: 'Electronic Creatures given some intelligence to survive in artificial world.',
         rank: 1,
-        date: 'Nov 16 2020',
-        tag: [
-          'sim',
-          'creature',
-          'chartjs',
-          'intelligence'
+        date: 'Nov 16 2020', 
+        tags: [
+          { tag: 'sim', wt: 1 }, 
+          { tag: 'creature', wt: 3 }, 
+          { tag: 'intelligence', wt: 2 }, 
+          { tag: 'statistics', wt: 1 }
         ]
       },
       {
@@ -491,13 +474,12 @@ class Pages {
         img: '/travelling-salesman-problem/img/preview.jpg',
         detail: 'Travelling Salesman Algorithm Visualizations.',
         rank: 3,
-        date: 'Dec 6 2020',
-        tag: [
-          'travelling salesman',
-          'genetic algorithm',
-          'algorithm',
-          'visualization',
-          'tsp'
+        date: 'Dec 6 2020', 
+        tags: [
+          { tag: 'visualization', wt: 1 }, 
+          { tag: 'tsp', wt: 3 }, 
+          { tag: 'genetic algorithm', wt: 2 }, 
+          { tag: 'dynamic programming', wt: 2 }
         ]
       },
       {
@@ -506,7 +488,7 @@ class Pages {
         url: '/pigeon-parser',
         img: '/pigeon-parser/img/preview.jpg',
         detail: 'Pigeons and Chess.',
-        tag: [],
+        tags: [],
         internal: true,
         date: 'Mar 24 2021'
       },
@@ -517,11 +499,11 @@ class Pages {
         img: '/sim-intel/img/preview.jpg',
         detail: 'IQ evolution across multiple generations.',
         rank: 2,
-        date: 'Mar 24 2021',
-        tag: [
-          'intelligence',
-          'sim',
-          'original'
+        date: 'Mar 24 2021', 
+        tags: [
+          { tag: 'statistics', wt: 3 }, 
+          { tag: 'sim', wt: 1 }, 
+          { tag: 'original', wt: 2 }
         ]
       },
       {
@@ -531,15 +513,12 @@ class Pages {
         img: '/tron-cycle/img/preview.jpg',
         detail: 'Light Cycle Battle Game.',
         rank: 1,
-        date: 'Mar 31 2021',
-        tag: [
-          'tron',
-          'cycle',
-          'light',
-          'game',
-          'intelligence',
-          'tonejs',
-          'film'
+        date: 'Mar 31 2021', 
+        tags: [
+          { tag: 'tron', wt: 5 }, 
+          { tag: 'game', wt: 2 }, 
+          { tag: 'film', wt: 2 }, 
+          { tag: 'intelligence', wt: 1 }
         ]
       },
       {
@@ -549,13 +528,13 @@ class Pages {
         img: '/holi-special/img/preview.jpg',
         detail: 'Celebrate with digital colors.',
         rank: 4,
-        date: 'Mar 31 2021',
-        tag: [
-          'holi',
-          'festival',
-          'color',
-          'original',
-          'art'
+        date: 'Mar 31 2021', 
+        tags: [
+          { tag: 'holi', wt: 5 }, 
+          { tag: 'color', wt: 3 }, 
+          { tag: 'original', wt: 2 }, 
+          { tag: 'interactive', wt: 2 }, 
+          { tag: 'artwork', wt: 1 }
         ]
       },
       {
@@ -565,12 +544,13 @@ class Pages {
         img: '/mandelbrot-set/img/preview.jpg',
         detail: 'Mandelbrot Set, Julia Set.',
         rank: 3,
-        date: 'May 16 2021',
-        tag: [
-          'mandelbrot',
-          'julia',
-          'complex plane',
-          'fractal'
+        date: 'May 16 2021', 
+        tags: [
+          { tag: 'mandelbrot', wt: 5 }, 
+          { tag: 'complex plane', wt: 2 }, 
+          { tag: 'julia', wt: 2 }, 
+          { tag: 'fractal', wt: 1 }, 
+          { tag: 'visualization', wt: 2 }
         ]
       },
       {
@@ -580,22 +560,20 @@ class Pages {
         img: '/lorenz-system/img/preview.jpg',
         detail: 'Lorenz Attractor and other strange attractors.',
         rank: 3,
-        date: 'May 16 2021',
-        tag: [
-          'lorenz',
-          'chen',
-          'dadras',
-          'thomas',
-          'aizawa',
-          'rossler',
-          'halvorsen',
-          'rabinovich fabrikant',
-          'sprott',
-          'four wing',
-          '3d',
-          'curve',
-          'easycam',
-          'interactive'
+        date: 'May 16 2021', 
+        tags: [
+          { tag: 'lorenz', wt: 5 }, 
+          { tag: 'curve', wt: 3 }, 
+          { tag: '3d', wt: 1 }, 
+          { tag: 'interactive', wt: 1 }, 
+          { tag: 'chen', wt: 1 }, 
+          { tag: 'dadras', wt: 1 }, 
+          { tag: 'thomas', wt: 1 }, 
+          { tag: 'aizawa', wt: 1 }, 
+          { tag: 'rossler', wt: 1 }, 
+          { tag: 'halvorsen', wt: 1 }, 
+          { tag: 'rabinovich fabrikant', wt: 1 }, 
+          { tag: 'sprott', wt: 1 }
         ]
       },
       {
@@ -604,7 +582,7 @@ class Pages {
         url: '/quadtree-visualization',
         img: '/quadtree-visualization/img/preview.jpg',
         detail: 'Visualizing a Quadtree.',
-        tag: [],
+        tags: [],
         date: 'May 29 2021',
         internal: true
       },
@@ -615,13 +593,13 @@ class Pages {
         img: '/sim-phone/img/preview.jpg',
         detail: 'Simulation of a Phone.',
         rank: 2,
-        date: 'Jun 30 2021',
-        tag: [
-          'sim',
-          'phone',
-          'color',
-          'art',
-          'interactive'
+        date: 'Jun 30 2021', 
+        tags: [
+          { tag: 'phone', wt: 5 }, 
+          { tag: 'color', wt: 2 }, 
+          { tag: 'sim', wt: 1 }, 
+          { tag: 'interactive', wt: 2 }, 
+          { tag: 'artwork', wt: 1 }
         ]
       },
       {
@@ -631,32 +609,28 @@ class Pages {
         img: '/l-systems/img/preview.jpg',
         detail: 'More L-Systems explored. Old ones revisited.',
         rank: 3,
-        date: 'Jun 30 2021',
-        tag: [
-          'l system',
-          'turtle graphics',
-          'fractal',
-          'lindenmayer',
-          'pythagorean tree',
-          'phyllotaxis',
-          'pythagoras',
-          'cantor',
-          'koch',
-          'minkowski',
-          'tree',
-          'botany',
-          'sierpinski',
-          'curve',
-          'triangle',
-          'square',
-          'snowflake',
-          'circle',
-          'peano',
-          'hilbert',
-          'moore',
-          'dragon',
-          'levy',
-          'intelligence'
+        date: 'Jun 30 2021', 
+        tags: [
+          { tag: 'l system', wt: 5 }, 
+          { tag: 'turtle graphics', wt: 3 }, 
+          { tag: 'lindenmayer', wt: 1 }, 
+          { tag: 'pythagoras', wt: 1 }, 
+          { tag: 'phyllotaxis', wt: 1 }, 
+          { tag: 'tree', wt: 1 }, 
+          { tag: 'intelligence', wt: 1 }, 
+          { tag: 'curve', wt: 1 }, 
+          { tag: 'circle', wt: 1 }, 
+          { tag: 'square', wt: 1 }, 
+          { tag: 'triangle', wt: 1 }, 
+          { tag: 'fractal', wt: 2 }, 
+          { tag: 'cantor', wt: 1 }, 
+          { tag: 'koch', wt: 1 }, 
+          { tag: 'minkowski', wt: 1 }, 
+          { tag: 'snowflake', wt: 1 }, 
+          { tag: 'peano', wt: 1 }, 
+          { tag: 'hilbert', wt: 1 }, 
+          { tag: 'moore', wt: 1 }, 
+          { tag: 'levy', wt: 1 }
         ]
       },
       {
@@ -666,16 +640,16 @@ class Pages {
         img: '/location-based-services/img/preview.jpg',
         detail: 'Simulating a Location Based Service.',
         rank: 2,
-        date: 'Jun 30 2021',
-        tag: [
-          'quadtree',
-          'sim',
-          'original',
-          'phone',
-          'hilbert',
-          'geohash',
-          'algorithm',
-          'visualization'
+        date: 'Jun 30 2021', 
+        tags: [
+          { tag: 'quadtree', wt: 2 }, 
+          { tag: 'original', wt: 2 }, 
+          { tag: 'sim', wt: 1 }, 
+          { tag: 'phone', wt: 2 }, 
+          { tag: 'hilbert', wt: 1 }, 
+          { tag: 'curve', wt: 1 }, 
+          { tag: 'geohash', wt: 2 }, 
+          { tag: 'visualization', wt: 1 }
         ]
       },
       {
@@ -685,15 +659,14 @@ class Pages {
         img: '/diffusion-limited-aggregation/img/preview.jpg',
         detail: 'And a Brownian Tree Snowflake.',
         rank: 3,
-        date: 'Jul 31 2021',
-        tag: [
-          'snowflake',
-          'botany',
-          'tree',
-          'fractal',
-          'brownian',
-          'quadtree',
-          'visualization'
+        date: 'Jul 31 2021', 
+        tags: [
+          { tag: 'snowflake', wt: 1 }, 
+          { tag: 'fractal', wt: 2 }, 
+          { tag: 'tree', wt: 1 }, 
+          { tag: 'brownian', wt: 1 }, 
+          { tag: 'quadtree', wt: 2 }, 
+          { tag: 'visualization', wt: 1 }
         ]
       },
       {
@@ -702,7 +675,7 @@ class Pages {
         url: '/demo-babylon',
         img: '/demo-babylon/img/preview.jpg',
         detail: 'Just a Demo on Babylon JS.',
-        tag: [],
+        tags: [],
         internal: true,
         date: 'Jul 31 2021'
       },
@@ -713,12 +686,13 @@ class Pages {
         img: '/planetary-system-3d/img/preview.jpg',
         detail: 'A simulation of a Planetary System in 3D.',
         rank: 4,
-        date: 'Jul 31 2021',
-        tag: [
-          'space',
-          'circle',
-          '3d',
-          'interactive'
+        date: 'Jul 31 2021', 
+        tags: [
+          { tag: 'planet', wt: 5 }, 
+          { tag: 'space', wt: 3 }, 
+          { tag: 'interactive', wt: 1 }, 
+          { tag: '3d', wt: 2 }, 
+          { tag: 'sim', wt: 2 }
         ]
       },
       {
@@ -728,13 +702,13 @@ class Pages {
         img: '/autonomous-steering-agents/img/preview.jpg',
         detail: 'Simulations based on the awesome Craig Reynolds paper.',
         rank: 3,
-        date: 'Oct 23 2021',
-        tag: [
-          'sim',
-          'perlin',
-          'intelligence',
-          'steer',
-          'interactive'
+        date: 'Oct 23 2021', 
+        tags: [
+          { tag: 'steer', wt: 3 }, 
+          { tag: 'interactive', wt: 2 }, 
+          { tag: 'sim', wt: 1 }, 
+          { tag: 'perlin noise', wt: 1 }, 
+          { tag: 'intelligence', wt: 1 }
         ]
       },
       {
@@ -744,14 +718,13 @@ class Pages {
         img: '/diwali-special/img/preview.jpg',
         detail: 'Celebrate with digital fireworks.',
         rank: 2,
-        date: 'Oct 28 2021',
-        tag: [
-          'diwali',
-          'festival',
-          'firework',
-          'original',
-          'art',
-          'mcu'
+        date: 'Oct 28 2021', 
+        tags: [
+          { tag: 'diwali', wt: 5 }, 
+          { tag: 'firework', wt: 3 }, 
+          { tag: 'original', wt: 2 }, 
+          { tag: 'artwork', wt: 2 }, 
+          { tag: 'mcu', wt: 2 }
         ]
       },
       {
@@ -760,7 +733,7 @@ class Pages {
         url: '/octree-visualization',
         img: '/octree-visualization/img/preview.jpg',
         detail: 'Visualizing an Octtree.',
-        tag: [],
+        tags: [],
         date: 'Nov 27 2021',
         internal: true
       },
@@ -771,16 +744,15 @@ class Pages {
         img: '/space-colonization-3d/img/preview.jpg',
         detail: 'Generate Tree using Space Colonization Algorithm in 3D.',
         rank: 3,
-        date: 'Nov 27 2021',
-        tag: [
-          'colonization',
-          'tree',
-          'space',
-          'botany',
-          'octree',
-          'algorithm',
-          'visualization',
-          '3d'
+        date: 'Nov 27 2021', 
+        tags: [
+          { tag: 'colonization', wt: 3 }, 
+          { tag: 'tree', wt: 3 }, 
+          { tag: 'space', wt: 2 }, 
+          { tag: 'octree', wt: 1 }, 
+          { tag: 'visualization', wt: 2 }, 
+          { tag: '3d', wt: 2 }, 
+          { tag: 'interactive', wt: 1 }
         ]
       },
       {
@@ -790,11 +762,11 @@ class Pages {
         img: '/air-base-b/img/preview.jpg',
         detail: 'Defend the Air Base at all costs!',
         rank: 1,
-        date: 'Dec 25 2021',
-        tag: [
-          'game', 
-          'steer', 
-          'original'
+        date: 'Dec 25 2021', 
+        tags: [
+          { tag: 'steer', wt: 3 }, 
+          { tag: 'game', wt: 2 }, 
+          { tag: 'original', wt: 2 }
         ]
       },
       {
@@ -804,10 +776,10 @@ class Pages {
         img: '/sudoku-solver/img/preview.jpg',
         detail: 'As the name suggests...',
         rank: 4,
-        date: 'Dec 25 2021',
-        tag: [
-          'algorithm',
-          'visualization'
+        date: 'Dec 25 2021', 
+        tags: [
+          { tag: 'backtracking', wt: 2 }, 
+          { tag: 'visualization', wt: 1 }
         ]
       },
       {
@@ -817,10 +789,10 @@ class Pages {
         img: '/sliding-puzzle/img/preview.jpg',
         detail: 'An old classic',
         rank: 4,
-        date: 'Mar 20 2022',
-        tag: [
-          'game',
-          'art'
+        date: 'Mar 20 2022', 
+        tags: [
+          { tag: 'artwork', wt: 3 }, 
+          { tag: 'game', wt: 1 }
         ]
       },
       {
@@ -830,11 +802,11 @@ class Pages {
         img: '/aquarium/img/preview.jpg',
         detail: 'Something soothing about this.',
         rank: 4,
-        date: 'Mar 20 2022',
-        tag: [
-          'creature',
-          'steer',
-          'sim'
+        date: 'Mar 20 2022', 
+        tags: [
+          { tag: 'steer', wt: 3 }, 
+          { tag: 'creature', wt: 2 }, 
+          { tag: 'sim', wt: 1 }
         ]
       },
       {
@@ -844,11 +816,11 @@ class Pages {
         img: '/logo-interpreter/img/preview.jpg',
         detail: 'Logo the Language.',
         rank: 2,
-        date: 'Mar 20 2022',
-        tag: [
-          'interactive',
-          'turtle graphics',
-          'intelligence'
+        date: 'Mar 20 2022', 
+        tags: [
+          { tag: 'turtle graphics', wt: 3 }, 
+          { tag: 'intelligence', wt: 2 }, 
+          { tag: 'interactive', wt: 1 }
         ]
       },
       {
@@ -858,14 +830,14 @@ class Pages {
         img: '/another-holi-special/img/preview.jpg',
         detail: 'Celebrate with digital balloons.',
         rank: 4,
-        date: 'Mar 20 2022',
-        tag: [
-          'holi',
-          'festival',
-          'color',
-          'original',
-          'art',
-          'sprite'
+        date: 'Mar 20 2022', 
+        tags: [
+          { tag: 'holi', wt: 5 }, 
+          { tag: 'color', wt: 3 }, 
+          { tag: 'original', wt: 2 }, 
+          { tag: 'game', wt: 2 }, 
+          { tag: 'artwork', wt: 1 }, 
+          { tag: 'sprite', wt: 1 }
         ]
       },
       {
@@ -874,7 +846,7 @@ class Pages {
         url: '/vs-50-demo-env',
         img: '/vs-50-demo-env/img/preview.jpg',
         detail: 'Environment Demo.',
-        tag: [],
+        tags: [],
         date: 'Feb 6 2023',
         internal: true
       },
@@ -884,7 +856,7 @@ class Pages {
         url: '/vs-50-demo-speed-lines',
         img: '/vs-50-demo-speed-lines/img/preview.jpg',
         detail: 'Speed Lines Demo.',
-        tag: [],
+        tags: [],
         date: 'Feb 6 2023',
         internal: true
       },
@@ -894,7 +866,7 @@ class Pages {
         url: '/vs-50-demo-character-animation',
         img: '/vs-50-demo-character-animation/img/preview.jpg',
         detail: 'Character Animation Demo.',
-        tag: [],
+        tags: [],
         date: 'Feb 6 2023',
         internal: true
       },
@@ -904,7 +876,7 @@ class Pages {
         url: '/vs-50-calculator',
         img: '/vs-50-calculator/img/preview.jpg',
         detail: 'Calculator for attributes.',
-        tag: [],
+        tags: [],
         date: 'Feb 6 2023',
         internal: true
       }, 
@@ -913,19 +885,18 @@ class Pages {
         name: 'VS 50',
         url: '/vs-50',
         img: '/vs-50/img/animatedPreview.gif',
-        detail: 'Celebrating the 50th Segment',
+        detail: 'Celebrating the 50th Page',
         rank: 1,
-        date: 'Feb 6 2023',
-        tag: [
-          'game', 
-          'steer', 
-          'combat', 
-          'original',
-          'art',
-          'sprite',
-          'mcu',
-          'combat',
-          'intelligence'
+        date: 'Feb 6 2023', 
+        tags: [
+          { tag: 'steer', wt: 1 }, 
+          { tag: 'mcu', wt: 1 }, 
+          { tag: 'original', wt: 2 }, 
+          { tag: 'game', wt: 2 }, 
+          { tag: 'artwork', wt: 3 }, 
+          { tag: 'sprite', wt: 2 }, 
+          { tag: 'combat', wt: 3 }, 
+          { tag: 'intelligence', wt: 1 }
         ]
       }
     ];
@@ -943,7 +914,6 @@ class Pages {
         });
 
     this._latest = [10049];
-    this._allTags = this.allTags();
   }
 
   getPageById(pageId) {
@@ -957,6 +927,9 @@ class Pages {
       date: this._pagesMap[pageId].date,
       rank: this._pagesMap[pageId].rank,
       tag: this._pagesMap[pageId].tag,
+      tags: this._pagesMap[pageId].tags,
+      tags: this._pagesMap[pageId].tags,
+      processedTags: this._pagesMap[pageId].processedTags,
       internal: this._pagesMap[pageId].internal
     };
   }
@@ -972,28 +945,6 @@ class Pages {
 
   getPublishedPagesId() {
     return this._publishedPagesId;
-  }
-
-  allTags() {
-    let tags = {};
-    let totalTags = 0;
-    this._pages.forEach(
-      p => p.tag.forEach(
-        t => {
-          if (tags[t]) {
-            tags[t].count++;
-          } else {
-            tags[t] = {count: 1};
-          }
-          totalTags++;
-        }
-      )
-    );
-    //console.log(Object.keys(tags));
-    totalTags -= (Object.keys(tags).filter(k => tags[k].count == 1)).length;
-    Object.keys(tags).forEach(
-      k => tags[k].weight = tags[k].count == 1 ? 0 : totalTags/tags[k].count);
-    return tags;
   }
 
 }

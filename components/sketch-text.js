@@ -1,12 +1,15 @@
 
 import { pages } from '../common/pages.js';
-import { searchEngine } from '../common/search-engine.js';
+import { recommendationEngine } from '../common/recommendation-engine.js';
 
 (function() {
   class SketchTextElement extends HTMLElement {
     constructor() {
       super();
-      this.maxLinks = 4;
+      this.minLinks = 3;
+      this.maxLinks = 10;
+      this.orderedSimilarPageIds = [];
+      this.hilightedPageId = '';
     }
 
     connectedCallback() {
@@ -54,29 +57,29 @@ import { searchEngine } from '../common/search-engine.js';
   
       `;
       this.addMoreLessToSimilarList(shadow);
+      this.addSimilarityShowHide(shadow);
     }
 
     similar(pageid) {
       if (!pageid)
         return ``;
-      let p = searchEngine.getSimilarPages(pageid);
-      if (p.length == 0)
+      let orderedSimilarPages = recommendationEngine.searchAndOrderPagesByTagsFor(pageid);
+      if (orderedSimilarPages.length == 0)
         return ``;
-      
       let s = `<div class="header">Similar Pages</div><br> 
       <div> 
       `;
-      for (let c = 0; c < p.length && c < this.maxLinks; c++) 
-        s += this.generateLinkForPage(p[c]);
+      for (let c = 0; c < orderedSimilarPages.length && c < this.minLinks; c++) 
+        s += this.generateLinkForPage(orderedSimilarPages[c]);
       s += `</div>
       `;
       
-      if (p.length <= this.maxLinks) return s;
+      if (orderedSimilarPages.length <= this.minLinks) return s;
 
       s += `<div id="links">
       `;
-      for (let c = this.maxLinks; c < p.length; c++)
-        s += this.generateLinkForPage(p[c]);
+      for (let c = this.minLinks; c < orderedSimilarPages.length && c < this.maxLinks; c++)
+        s += this.generateLinkForPage(orderedSimilarPages[c]);
       
       s += `</div>
       <div id="showMore"><a href="javascript:void(0)">More...</a></div>
@@ -86,11 +89,27 @@ import { searchEngine } from '../common/search-engine.js';
       return s;
     }
 
-    generateLinkForPage(id) {
-      let pUrl = pages.getPageById(id).url;
-      let pName = pages.getPageById(id).name;
-      return `  <div><a href=${pUrl}>${pName}</a></div>
+    generateLinkForPage(orderedSimilarPage) {
+      this.orderedSimilarPageIds.push(orderedSimilarPage.id);
+      let pUrl = pages.getPageById(orderedSimilarPage.id).url;
+      let pName = pages.getPageById(orderedSimilarPage.id).name;
+      let linkForPagesHtml = `  <div>
+          <div>
+            <span><a href=${pUrl}>${pName}</a></span>
+            <span id=${'show_reason_for_'+orderedSimilarPage.id}>
+              (<a href="javascript:void(0)">why?</a>)</span>
+            <span id=${'hide_reason_for_'+orderedSimilarPage.id}>
+              (<a href="javascript:void(0)">hide</a>)</span>
+          </div>
+          <div id=${'reason_for_'+orderedSimilarPage.id}>
+          `;
+      orderedSimilarPage.matchedTags.forEach(mt => 
+        linkForPagesHtml += (`<em>&nbsp;&nbsp;- `+mt.description)+'</em><br>');
+      linkForPagesHtml += `
+          </div>
+      </div>
       `;
+      return linkForPagesHtml;
     }
 
     addMoreLessToSimilarList(shadow) {
@@ -114,6 +133,33 @@ import { searchEngine } from '../common/search-engine.js';
       sLess.addEventListener('click', hideLinks);
       sMore.addEventListener('click', showLinks);
       hideLinks();
+    }
+
+    addSimilarityShowHide(shadow) {
+      let hideThisSimilarityInfo = id => {
+        shadow.querySelectorAll('[id="reason_for_'+id+'"]')[0].style.display = 'none';
+        shadow.querySelectorAll('[id="hide_reason_for_'+id+'"]')[0].style.display = 'none';
+        shadow.querySelectorAll('[id="show_reason_for_'+id+'"]')[0].style.display = 'inline';
+      };
+      let hideAllSimilarityInfo = () => {
+        this.orderedSimilarPageIds.forEach(id => hideThisSimilarityInfo(id));
+      };
+      //
+      hideAllSimilarityInfo();
+
+      let showThisSimilarityInfo = id => {
+        hideAllSimilarityInfo();
+        shadow.querySelectorAll('[id="reason_for_'+id+'"]')[0].style.display = 'inline';
+        shadow.querySelectorAll('[id="show_reason_for_'+id+'"]')[0].style.display = 'none';
+        shadow.querySelectorAll('[id="hide_reason_for_'+id+'"]')[0].style.display = 'inline';
+      };
+
+      this.orderedSimilarPageIds.forEach(id => {
+        shadow.querySelectorAll('[id="show_reason_for_'+id+'"]')[0]
+          .addEventListener('click', () => showThisSimilarityInfo(id));
+        shadow.querySelectorAll('[id="hide_reason_for_'+id+'"]')[0]
+          .addEventListener('click', () => hideThisSimilarityInfo(id));
+      });
     }
   }
   

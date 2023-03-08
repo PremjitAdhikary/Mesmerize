@@ -60,7 +60,10 @@ class SearchEngine {
   }
 
   searchByTag(tag, allPages = pages.getPublishedPagesId().slice()) {
-    return allPages.filter(pid => pages.getPageById(pid).tag.find( t=> t.includes(tag.toLowerCase())));
+    return allPages
+      .filter(pid => pages.getPageById(pid).tags
+        .map(t => t.tag)
+        .find(t=> t.includes(tag.toLowerCase())));
   }
 
   mqlSearch(term) {
@@ -106,7 +109,11 @@ class SearchEngine {
   union = (a,b) => [...new Set([...a, ...b])];
 
   searchByTagExactMatch(tag, allPages = pages.getPublishedPagesId().slice()) {
-    return allPages.filter(pid => pages.getPageById(pid).tag.includes(tag.toLowerCase()));
+    return allPages
+      .filter(pid => pages.getPageById(pid).tags
+        .map(t => t.tag)
+        .indexOf(tag.toLowerCase()) >= 0
+        );
   }
 
   searchByRank(rank, allPages = pages.getPublishedPagesId().slice()) {
@@ -148,6 +155,8 @@ class SearchEngine {
     
     let similarPids = Array.from(scoreMap.keys());
     similarPids.sort((a, b) => scoreMap.get(b) - scoreMap.get(a));
+
+    console.log(pages.getPageById(pageId).processedTags);
 
     return similarPids;
   }

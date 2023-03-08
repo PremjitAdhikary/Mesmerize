@@ -52,7 +52,7 @@ function setupSearch() {
     hideAllCards();
     searchResults = _searchEngine.search(searchTerm, sortBy());
     setCardsVisibility(searchResults, true);
-    document.getElementById('segment-count').textContent = searchResults.length;
+    document.getElementById('page-count').textContent = searchResults.length;
   }
 
   document.getElementById('term-search').addEventListener('keyup', function(event) {
