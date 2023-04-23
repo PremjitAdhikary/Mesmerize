@@ -906,7 +906,7 @@ class Pages {
         img: '/matrix-city/img/preview.jpg',
         detail: 'A City in the Matrix - Pure CSS Animation!!',
         rank: 3,
-        date: 'Apr 2023', 
+        date: 'Apr 23 2023', 
         tags: [
           { tag: 'matrix', wt: 5 }, 
           { tag: 'rainfall', wt: 1 },
@@ -922,7 +922,7 @@ class Pages {
         img: '/ascii-galaxian/img/preview.jpg',
         detail: 'Galaxian game with ascii characters - Canvas less Animation!!',
         rank: 3,
-        date: 'Apr 2023', 
+        date: 'Apr 23 2023', 
         tags: [
           { tag: 'game', wt: 2 }, 
           { tag: 'combat', wt: 3 }, 
