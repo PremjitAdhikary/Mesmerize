@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" href="../favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Change This -->
+  <meta name="description" content="A City in the Matrix - Pure CSS Animation!!">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://premjitadhikary.github.io/Mesmerize/matrix-city">
+  <meta property="og:title" content="Matrix City">
+  <meta property="og:description" content="A City in the Matrix - Pure CSS Animation!!">
+  <meta property="og:image" content="https://premjitadhikary.github.io/Mesmerize/matrix-city/img/myCanvas.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://premjitadhikary.github.io/Mesmerize/matrix-city">
+  <meta name="twitter:title" content="Matrix City">
+  <meta name="twitter:description" content="A City in the Matrix - Pure CSS Animation!!">
+  <meta name="twitter:image" content="https://premjitadhikary.github.io/Mesmerize/matrix-city/img/myCanvas.jpg">
+  <!-- Change This -->
+  <link rel="stylesheet" href="../appstyle.css">
+  <link rel="stylesheet" href="./compstyle.css">
+  <script src="../components/app-header.js" type="module"></script>
+  <script src="../components/sketch-text.js" type="module"></script>
+  <script src="../common/sketch-colors.js"></script>
+  <script src="../common/utilities.js"></script>
+  <script src="../components/tabbed-pane.js" type="module"></script>
+  <title>Matrix City</title>
+</head>
+<body>
+  <div class="toplevel">
+    <app-header class="heading"></app-header>
+    <div class="topbody">
+      <div class="container-no-control">
+          <div class="sketch">
+            <div id="sketch-holder" class="sketch-holder">
+              <div class="city-holder">
+                <div id="city-bg-img-holder"></div>
+                <div id="sky-code">
+                  <div class="matrix-text" style="--bwct:3">
+                    ヴ ォ タ ハ ミ ワ ヱ メ ト ル ム ヺ ア ク テ ゴ ヨ ゠ ダ ナ キ カ ポ エ ヺ イ
+                  </div>
+                  <div class="matrix-text" style="--bwct:9">
+                    ア モ ヲ ゼ ヌ バ ラ ヴ ォ タ ハ ミ ワ テ ゴ カ ポ モ ヰ ヱ メ ト ル ム ヺ ヾ
+                  </div>
+                  <div class="matrix-text" style="--bwct:4">
+                    ペ ホ エ ヺ イ ヨ ゠ ダ ナ キ ユ ヰ ヿ ュ ツ ゴ ト ビ シ ア ク ヹ タ ガ ン ピ
+                  </div>
+                  <div class="matrix-text" style="--bwct:6">
+                    ダ ナ キ ユ ヰ ヿ ュ ツ ア モ ヲ ゼ ヌ バ ラ ヴ モ ヰ ヱ メ ト ル ム ペ ホ エ
+                  </div>
+                  <div class="matrix-text" style="--bwct:12">
+                    ヴ ォ タ ハ ミ ワ テ ゴ カ ポ エ ヺ イ ヨ ゠ ダ ナ キ ヱ メ ト ル ム ヺ ア ク
+                  </div>
+                  <div class="matrix-text" style="--bwct:8">
+                    ペ ホ エ ビ シ ヺ イ ヨ ュ ツ ゴ ト ア ク ヹ タ ガ ゠ ダ ナ キ ユ ヰ ヿ ン ピ
+                  </div>
+                  <div class="matrix-text" style="--bwct:1">
+                    ヺ イ ヨ ュ ツ ゴ ト ア ク ヹ タ ペ ホ エ ビ シ ガ ゠ ダ ナ キ ユ ヰ ヿ ン ピ
+                  </div>
+                  <div class="matrix-text" style="--bwct:7">
+                    ゼ ヌ バ ラ ヴ モ ヰ ダ ナ キ ユ ヰ ヲ ヱ メ ト ル ム ペ ホ エ ヿ ュ ツ ア モ
+                  </div>
+                  <div class="matrix-text" style="--bwct:10">
+                    エ ヺ イ ヨ キ ゠ ダ ナ ヴ ォ タ ハ ポ ミ ワ テ ゴ カ ヱ メ ア ク ト ル ム ヺ
+                  </div>
+                  <div class="matrix-text" style="--bwct:2">
+                    ヺ ア ク テ ゴ ヨ ゠ ダ ナ キ カ ポ ヴ ォ タ メ ト ル ム  エ ヺ イ ハ ミ ワ ヱ
+                  </div>
+                  <div class="matrix-text" style="--bwct:5">
+                    エ ビ シ ツ ゴ ト ヺ イ ヨ ュ ア ク ヹ タ ダ ナ キ ユ ガ ゠ ヰ ヿペ ホ  ン ピ
+                  </div>
+                  <div class="matrix-text" style="--bwct:11">
+                    ゠ ダ ナ ヴ ォ タ ハ ポ エ ヺ イ ヨ キ ミ ワ テ ゴ カ ヱ メ ト ル ム ヺ ア ク
+                  </div>
+                  <div class="matrix-text" style="--bwct:3">
+                    ヴ ォ タ ハ ミ ワ ヱ メ ト ル ム ヺ ア ク テ ゴ ヨ ゠ ダ ナ キ カ ポ エ ヺ イ
+                  </div>
+                  <div class="matrix-text" style="--bwct:9">
+                    ア モ ヲ ゼ ヌ バ ラ ヴ ォ タ ハ ミ ワ テ ゴ カ ポ モ ヰ ヱ メ ト ル ム ヺ ヾ
+                  </div>
+                  <div class="matrix-text" style="--bwct:4">
+                    ペ ホ エ ヺ イ ヨ ゠ ダ ナ キ ユ ヰ ヿ ュ ツ ゴ ト ビ シ ア ク ヹ タ ガ ン ピ
+                  </div>
+                  <div class="matrix-text" style="--bwct:6">
+                    ダ ナ キ ユ ヰ ヿ ュ ツ ア モ ヲ ゼ ヌ バ ラ ヴ モ ヰ ヱ メ ト ル ム ペ ホ エ
+                  </div>
+                  <div class="matrix-text" style="--bwct:12">
+                    ヴ ォ タ ハ ミ ワ テ ゴ カ ポ エ ヺ イ ヨ ゠ ダ ナ キ ヱ メ ト ル ム ヺ ア ク
+                  </div>
+                  <div class="matrix-text" style="--bwct:8">
+                    ペ ホ エ ビ シ ヺ イ ヨ ュ ツ ゴ ト ア ク ヹ タ ガ ゠ ダ ナ キ ユ ヰ ヿ ン ピ
+                  </div>
+                  <div class="matrix-text" style="--bwct:1">
+                    ヺ イ ヨ ュ ツ ゴ ト ア ク ヹ タ ペ ホ エ ビ シ ガ ゠ ダ ナ キ ユ ヰ ヿ ン ピ
+                  </div>
+                  <div class="matrix-text" style="--bwct:7">
+                    ゼ ヌ バ ラ ヴ モ ヰ ダ ナ キ ユ ヰ ヲ ヱ メ ト ル ム ペ ホ エ ヿ ュ ツ ア モ
+                  </div>
+                  <div class="matrix-text" style="--bwct:10">
+                    エ ヺ イ ヨ キ ゠ ダ ナ ヴ ォ タ ハ ポ ミ ワ テ ゴ カ ヱ メ ア ク ト ル ム ヺ
+                  </div>
+                  <div class="matrix-text" style="--bwct:2">
+                    ヺ ア ク テ ゴ ヨ ゠ ダ ナ キ カ ポ ヴ ォ タ メ ト ル ム  エ ヺ イ ハ ミ ワ ヱ
+                  </div>
+                  <div class="matrix-text" style="--bwct:5">
+                    エ ビ シ ツ ゴ ト ヺ イ ヨ ュ ア ク ヹ タ ダ ナ キ ユ ガ ゠ ヰ ヿペ ホ  ン ピ
+                  </div>
+                  <div class="matrix-text" style="--bwct:11">
+                    ゠ ダ ナ ヴ ォ タ ハ ポ エ ヺ イ ヨ キ ミ ワ テ ゴ カ ヱ メ ト ル ム ヺ ア ク
+                  </div>
+                  <div class="matrix-text" style="--bwct:3">
+                    ヴ ォ タ ハ ミ ワ ヱ メ ト ル ム ヺ ア ク テ ゴ ヨ ゠ ダ ナ キ カ ポ エ ヺ イ
+                  </div>
+                  <div class="matrix-text" style="--bwct:9">
+                    ア モ ヲ ゼ ヌ バ ラ ヴ ォ タ ハ ミ ワ テ ゴ カ ポ モ ヰ ヱ メ ト ル ム ヺ ヾ
+                  </div>
+                  <div class="matrix-text" style="--bwct:4">
+                    ペ ホ エ ヺ イ ヨ ゠ ダ ナ キ ユ ヰ ヿ ュ ツ ゴ ト ビ シ ア ク ヹ タ ガ ン ピ
+                  </div>
+                  <div class="matrix-text" style="--bwct:6">
+                    ダ ナ キ ユ ヰ ヿ ュ ツ ア モ ヲ ゼ ヌ バ ラ ヴ モ ヰ ヱ メ ト ル ム ペ ホ エ
+                  </div>
+                  <div class="matrix-text" style="--bwct:12">
+                    ヴ ォ タ ハ ミ ワ テ ゴ カ ポ エ ヺ イ ヨ ゠ ダ ナ キ ヱ メ ト ル ム ヺ ア ク
+                  </div>
+                  <div class="matrix-text" style="--bwct:8">
+                    ペ ホ エ ビ シ ヺ イ ヨ ュ ツ ゴ ト ア ク ヹ タ ガ ゠ ダ ナ キ ユ ヰ ヿ ン ピ
+                  </div>
+                  <div class="matrix-text" style="--bwct:1">
+                    ヺ イ ヨ ュ ツ ゴ ト ア ク ヹ タ ペ ホ エ ビ シ ガ ゠ ダ ナ キ ユ ヰ ヿ ン ピ
+                  </div>
+                  <div class="matrix-text" style="--bwct:7">
+                    ゼ ヌ バ ラ ヴ モ ヰ ダ ナ キ ユ ヰ ヲ ヱ メ ト ル ム ペ ホ エ ヿ ュ ツ ア モ
+                  </div>
+                  <div class="matrix-text" style="--bwct:10">
+                    エ ヺ イ ヨ キ ゠ ダ ナ ヴ ォ タ ハ ポ ミ ワ テ ゴ カ ヱ メ ア ク ト ル ム ヺ
+                  </div>
+                  <div class="matrix-text" style="--bwct:2">
+                    ヺ ア ク テ ゴ ヨ ゠ ダ ナ キ カ ポ ヴ ォ タ メ ト ル ム  エ ヺ イ ハ ミ ワ ヱ
+                  </div>
+                  <div class="matrix-text" style="--bwct:5">
+                    エ ビ シ ツ ゴ ト ヺ イ ヨ ュ ア ク ヹ タ ダ ナ キ ユ ガ ゠ ヰ ヿペ ホ  ン ピ
+                  </div>
+                  <div class="matrix-text" style="--bwct:11">
+                    ゠ ダ ナ ヴ ォ タ ハ ポ エ ヺ イ ヨ キ ミ ワ テ ゴ カ ヱ メ ト ル ム ヺ ア ク
+                  </div>
+                </div>
+                <div id="city-path-img-holder"></div>
+                <div id="footpath-code">
+                  <div class="matrix-reverse-text" style="--bwct:11">
+                    ゠ ダ ナ ヴ ォ タ ハ ポ エ ヺ イ ヨ キ ミ ワ テ ゴ カ ヱ メ ト ル ム ヺ ア ク
+                  </div>
+                  <div class="matrix-reverse-text" style="--bwct:18">
+                    イ ヨ キ ミ ワ テ ゴ カ ヱ メ ト ル ム ヺ ア ク ゠ ダ ナ ヴ ォ タ ハ ポ エ ヺ
+                  </div>
+                  <div class="matrix-reverse-text" style="--bwct:2">
+                    ヺ ア ク テ ゴ ヨ ゠ ダ ナ キ カ ポ ヴ ォ タ メ ト ル ム  エ ヺ イ ハ ミ ワ ヱ
+                  </div>
+                  <div class="matrix-reverse-text" style="--bwct:8">
+                    ペ ホ エ ビ シ ヺ イ ヨ ュ ツ ゴ ト ア ク ヹ タ ガ ゠ ダ ナ キ ユ ヰ ヿ ン ピ
+                  </div>
+                  <div class="matrix-reverse-text" style="--bwct:16">
+                    ゠ ダ ナ ヴ ォ タ ハ ポ エ ヺ イ ヨ キ ミ ワ テ ゴ カ ヱ メ ト ル ム ヺ ア ク
+                  </div>
+                  <div class="matrix-reverse-text" style="--bwct:5">
+                    エ ビ シ ツ ゴ ト ヺ イ ヨ ュ ア ク ヹ タ ダ ナ キ ユ ガ ゠ ヰ ヿペ ホ  ン ピ
+                  </div>
+                  <div class="matrix-reverse-text" style="--bwct:7">
+                    ゼ ヌ バ ラ ヴ モ ヰ ダ ナ キ ユ ヰ ヲ ヱ メ ト ル ム ペ ホ エ ヿ ュ ツ ア モ
+                  </div>
+                  <div class="matrix-reverse-text" style="--bwct:12">
+                    ヺ ア ク テ ゴ ヨ ゠ ダ ナ キ カ ポ ヴ ォ タ メ ト ル ム  エ ヺ イ ハ ミ ワ ヱ
+                  </div>
+                  <div class="matrix-reverse-text" style="--bwct:6">
+                    ヺ イ ヨ ュ ツ ゴ ト ア ク ヹ タ ペ ホ エ ビ シ ガ ゠ ダ ナ キ ユ ヰ ヿ ン ピ
+                  </div>
+                  <div class="matrix-reverse-text" style="--bwct:1">
+                    ヺ イ ヨ ュ ツ ゴ ト ア ク ヹ タ ペ ホ エ ビ シ ガ ゠ ダ ナ キ ユ ヰ ヿ ン ピ
+                  </div>
+                  <div class="matrix-reverse-text" style="--bwct:10">
+                    ゼ ヌ バ ラ ヴ モ ヰ ダ ナ キ ユ ヰ ヲ ヱ メ ト ル ム ペ ホ エ ヿ ュ ツ ア モ
+                  </div>
+                  <div class="matrix-reverse-text" style="--bwct:15">
+                    ヺ イ ヨ ュ ツ ゴ ト ア ク ヹ タ ペ ホ エ ビ シ ガ ゠ ダ ナ キ ユ ヰ ヿ ン ピ
+                  </div>
+                  <div class="matrix-reverse-text" style="--bwct:3">
+                    ヴ ォ タ ハ ミ ワ ヱ メ ト ル ム ヺ ア ク テ ゴ ヨ ゠ ダ ナ キ カ ポ エ ヺ イ
+                  </div>
+                  <div class="matrix-reverse-text" style="--bwct:9">
+                    ア モ ヲ ゼ ヌ バ ラ ヴ ォ タ ハ ミ ワ テ ゴ カ ポ モ ヰ ヱ メ ト ル ム ヺ ヾ
+                  </div>
+                  <div class="matrix-reverse-text" style="--bwct:14">
+                    イ ヨ キ ミ ワ テ ゴ カ ヱ メ ト ル ム ヺ ア ク ゠ ダ ナ ヴ ォ タ ハ ポ エ ヺ
+                  </div>
+                  <div class="matrix-reverse-text" style="--bwct:4">
+                    ペ ホ エ ヺ イ ヨ ゠ ダ ナ キ ユ ヰ ヿ ュ ツ ゴ ト ビ シ ア ク ヹ タ ガ ン ピ
+                  </div>
+                  <div class="matrix-reverse-text" style="--bwct:13">
+                    ダ ナ キ ユ ヰ ヿ ュ ツ ア モ ヲ ゼ ヌ バ ラ ヴ モ ヰ ヱ メ ト ル ム ペ ホ エ
+                  </div>
+                  <div class="matrix-reverse-text" style="--bwct:17">
+                    ヴ ォ タ ハ ミ ワ テ ゴ カ ポ エ ヺ イ ヨ ゠ ダ ナ キ ヱ メ ト ル ム ヺ ア ク
+                  </div>
+                  <div class="matrix-reverse-text" style="--bwct:11">
+                    ゠ ダ ナ ヴ ォ タ ハ ポ エ ヺ イ ヨ キ ミ ワ テ ゴ カ ヱ メ ト ル ム ヺ ア ク
+                  </div>
+                  <div class="matrix-reverse-text" style="--bwct:18">
+                    イ ヨ キ ミ ワ テ ゴ カ ヱ メ ト ル ム ヺ ア ク ゠ ダ ナ ヴ ォ タ ハ ポ エ ヺ
+                  </div>
+                  <div class="matrix-reverse-text" style="--bwct:2">
+                    ヺ ア ク テ ゴ ヨ ゠ ダ ナ キ カ ポ ヴ ォ タ メ ト ル ム  エ ヺ イ ハ ミ ワ ヱ
+                  </div>
+                  <div class="matrix-reverse-text" style="--bwct:8">
+                    ペ ホ エ ビ シ ヺ イ ヨ ュ ツ ゴ ト ア ク ヹ タ ガ ゠ ダ ナ キ ユ ヰ ヿ ン ピ
+                  </div>
+                  <div class="matrix-reverse-text" style="--bwct:16">
+                    ゠ ダ ナ ヴ ォ タ ハ ポ エ ヺ イ ヨ キ ミ ワ テ ゴ カ ヱ メ ト ル ム ヺ ア ク
+                  </div>
+                  <div class="matrix-reverse-text" style="--bwct:5">
+                    エ ビ シ ツ ゴ ト ヺ イ ヨ ュ ア ク ヹ タ ダ ナ キ ユ ガ ゠ ヰ ヿペ ホ  ン ピ
+                  </div>
+                  <div class="matrix-reverse-text" style="--bwct:7">
+                    ゼ ヌ バ ラ ヴ モ ヰ ダ ナ キ ユ ヰ ヲ ヱ メ ト ル ム ペ ホ エ ヿ ュ ツ ア モ
+                  </div>
+                  <div class="matrix-reverse-text" style="--bwct:12">
+                    ヺ ア ク テ ゴ ヨ ゠ ダ ナ キ カ ポ ヴ ォ タ メ ト ル ム  エ ヺ イ ハ ミ ワ ヱ
+                  </div>
+                  <div class="matrix-reverse-text" style="--bwct:6">
+                    ヺ イ ヨ ュ ツ ゴ ト ア ク ヹ タ ペ ホ エ ビ シ ガ ゠ ダ ナ キ ユ ヰ ヿ ン ピ
+                  </div>
+                  <div class="matrix-reverse-text" style="--bwct:1">
+                    ヺ イ ヨ ュ ツ ゴ ト ア ク ヹ タ ペ ホ エ ビ シ ガ ゠ ダ ナ キ ユ ヰ ヿ ン ピ
+                  </div>
+                  <div class="matrix-reverse-text" style="--bwct:10">
+                    ゼ ヌ バ ラ ヴ モ ヰ ダ ナ キ ユ ヰ ヲ ヱ メ ト ル ム ペ ホ エ ヿ ュ ツ ア モ
+                  </div>
+                  <div class="matrix-reverse-text" style="--bwct:15">
+                    ヺ イ ヨ ュ ツ ゴ ト ア ク ヹ タ ペ ホ エ ビ シ ガ ゠ ダ ナ キ ユ ヰ ヿ ン ピ
+                  </div>
+                  <div class="matrix-reverse-text" style="--bwct:3">
+                    ヴ ォ タ ハ ミ ワ ヱ メ ト ル ム ヺ ア ク テ ゴ ヨ ゠ ダ ナ キ カ ポ エ ヺ イ
+                  </div>
+                  <div class="matrix-reverse-text" style="--bwct:9">
+                    ア モ ヲ ゼ ヌ バ ラ ヴ ォ タ ハ ミ ワ テ ゴ カ ポ モ ヰ ヱ メ ト ル ム ヺ ヾ
+                  </div>
+                  <div class="matrix-reverse-text" style="--bwct:14">
+                    イ ヨ キ ミ ワ テ ゴ カ ヱ メ ト ル ム ヺ ア ク ゠ ダ ナ ヴ ォ タ ハ ポ エ ヺ
+                  </div>
+                  <div class="matrix-reverse-text" style="--bwct:4">
+                    ペ ホ エ ヺ イ ヨ ゠ ダ ナ キ ユ ヰ ヿ ュ ツ ゴ ト ビ シ ア ク ヹ タ ガ ン ピ
+                  </div>
+                  <div class="matrix-reverse-text" style="--bwct:13">
+                    ダ ナ キ ユ ヰ ヿ ュ ツ ア モ ヲ ゼ ヌ バ ラ ヴ モ ヰ ヱ メ ト ル ム ペ ホ エ
+                  </div>
+                  <div class="matrix-reverse-text" style="--bwct:17">
+                    ヴ ォ タ ハ ミ ワ テ ゴ カ ポ エ ヺ イ ヨ ゠ ダ ナ キ ヱ メ ト ル ム ヺ ア ク
+                  </div>
+                  <div class="matrix-reverse-text" style="--bwct:11">
+                    ゠ ダ ナ ヴ ォ タ ハ ポ エ ヺ イ ヨ キ ミ ワ テ ゴ カ ヱ メ ト ル ム ヺ ア ク
+                  </div>
+                  <div class="matrix-reverse-text" style="--bwct:18">
+                    イ ヨ キ ミ ワ テ ゴ カ ヱ メ ト ル ム ヺ ア ク ゠ ダ ナ ヴ ォ タ ハ ポ エ ヺ
+                  </div>
+                  <div class="matrix-reverse-text" style="--bwct:2">
+                    ヺ ア ク テ ゴ ヨ ゠ ダ ナ キ カ ポ ヴ ォ タ メ ト ル ム  エ ヺ イ ハ ミ ワ ヱ
+                  </div>
+                  <div class="matrix-reverse-text" style="--bwct:8">
+                    ペ ホ エ ビ シ ヺ イ ヨ ュ ツ ゴ ト ア ク ヹ タ ガ ゠ ダ ナ キ ユ ヰ ヿ ン ピ
+                  </div>
+                  <div class="matrix-reverse-text" style="--bwct:16">
+                    ゠ ダ ナ ヴ ォ タ ハ ポ エ ヺ イ ヨ キ ミ ワ テ ゴ カ ヱ メ ト ル ム ヺ ア ク
+                  </div>
+                  <div class="matrix-reverse-text" style="--bwct:5">
+                    エ ビ シ ツ ゴ ト ヺ イ ヨ ュ ア ク ヹ タ ダ ナ キ ユ ガ ゠ ヰ ヿペ ホ  ン ピ
+                  </div>
+                  <div class="matrix-reverse-text" style="--bwct:7">
+                    ゼ ヌ バ ラ ヴ モ ヰ ダ ナ キ ユ ヰ ヲ ヱ メ ト ル ム ペ ホ エ ヿ ュ ツ ア モ
+                  </div>
+                  <div class="matrix-reverse-text" style="--bwct:12">
+                    ヺ ア ク テ ゴ ヨ ゠ ダ ナ キ カ ポ ヴ ォ タ メ ト ル ム  エ ヺ イ ハ ミ ワ ヱ
+                  </div>
+                  <div class="matrix-reverse-text" style="--bwct:6">
+                    ヺ イ ヨ ュ ツ ゴ ト ア ク ヹ タ ペ ホ エ ビ シ ガ ゠ ダ ナ キ ユ ヰ ヿ ン ピ
+                  </div>
+                  <div class="matrix-reverse-text" style="--bwct:1">
+                    ヺ イ ヨ ュ ツ ゴ ト ア ク ヹ タ ペ ホ エ ビ シ ガ ゠ ダ ナ キ ユ ヰ ヿ ン ピ
+                  </div>
+                  <div class="matrix-reverse-text" style="--bwct:10">
+                    ゼ ヌ バ ラ ヴ モ ヰ ダ ナ キ ユ ヰ ヲ ヱ メ ト ル ム ペ ホ エ ヿ ュ ツ ア モ
+                  </div>
+                  <div class="matrix-reverse-text" style="--bwct:15">
+                    ヺ イ ヨ ュ ツ ゴ ト ア ク ヹ タ ペ ホ エ ビ シ ガ ゠ ダ ナ キ ユ ヰ ヿ ン ピ
+                  </div>
+                  <div class="matrix-reverse-text" style="--bwct:3">
+                    ヴ ォ タ ハ ミ ワ ヱ メ ト ル ム ヺ ア ク テ ゴ ヨ ゠ ダ ナ キ カ ポ エ ヺ イ
+                  </div>
+                  <div class="matrix-reverse-text" style="--bwct:9">
+                    ア モ ヲ ゼ ヌ バ ラ ヴ ォ タ ハ ミ ワ テ ゴ カ ポ モ ヰ ヱ メ ト ル ム ヺ ヾ
+                  </div>
+                  <div class="matrix-reverse-text" style="--bwct:14">
+                    イ ヨ キ ミ ワ テ ゴ カ ヱ メ ト ル ム ヺ ア ク ゠ ダ ナ ヴ ォ タ ハ ポ エ ヺ
+                  </div>
+                  <div class="matrix-reverse-text" style="--bwct:4">
+                    ペ ホ エ ヺ イ ヨ ゠ ダ ナ キ ユ ヰ ヿ ュ ツ ゴ ト ビ シ ア ク ヹ タ ガ ン ピ
+                  </div>
+                  <div class="matrix-reverse-text" style="--bwct:13">
+                    ダ ナ キ ユ ヰ ヿ ュ ツ ア モ ヲ ゼ ヌ バ ラ ヴ モ ヰ ヱ メ ト ル ム ペ ホ エ
+                  </div>
+                  <div class="matrix-reverse-text" style="--bwct:17">
+                    ヴ ォ タ ハ ミ ワ テ ゴ カ ポ エ ヺ イ ヨ ゠ ダ ナ キ ヱ メ ト ル ム ヺ ア ク
+                  </div>
+                  <div class="matrix-reverse-text" style="--bwct:12">
+                    ヺ ア ク テ ゴ ヨ ゠ ダ ナ キ カ ポ ヴ ォ タ メ ト ル ム  エ ヺ イ ハ ミ ワ ヱ
+                  </div>
+                  <div class="matrix-reverse-text" style="--bwct:6">
+                    ヺ イ ヨ ュ ツ ゴ ト ア ク ヹ タ ペ ホ エ ビ シ ガ ゠ ダ ナ キ ユ ヰ ヿ ン ピ
+                  </div>
+                  <div class="matrix-reverse-text" style="--bwct:1">
+                    ヺ イ ヨ ュ ツ ゴ ト ア ク ヹ タ ペ ホ エ ビ シ ガ ゠ ダ ナ キ ユ ヰ ヿ ン ピ
+                  </div>
+                  <div class="matrix-reverse-text" style="--bwct:10">
+                    ゼ ヌ バ ラ ヴ モ ヰ ダ ナ キ ユ ヰ ヲ ヱ メ ト ル ム ペ ホ エ ヿ ュ ツ ア モ
+                  </div>
+                  <div class="matrix-reverse-text" style="--bwct:15">
+                    ヺ イ ヨ ュ ツ ゴ ト ア ク ヹ タ ペ ホ エ ビ シ ガ ゠ ダ ナ キ ユ ヰ ヿ ン ピ
+                  </div>
+                  <div class="matrix-reverse-text" style="--bwct:3">
+                    ヴ ォ タ ハ ミ ワ ヱ メ ト ル ム ヺ ア ク テ ゴ ヨ ゠ ダ ナ キ カ ポ エ ヺ イ
+                  </div>
+                  <div class="matrix-reverse-text" style="--bwct:9">
+                    ア モ ヲ ゼ ヌ バ ラ ヴ ォ タ ハ ミ ワ テ ゴ カ ポ モ ヰ ヱ メ ト ル ム ヺ ヾ
+                  </div>
+                  <div class="matrix-reverse-text" style="--bwct:14">
+                    イ ヨ キ ミ ワ テ ゴ カ ヱ メ ト ル ム ヺ ア ク ゠ ダ ナ ヴ ォ タ ハ ポ エ ヺ
+                  </div>
+                  <div class="matrix-reverse-text" style="--bwct:4">
+                    ペ ホ エ ヺ イ ヨ ゠ ダ ナ キ ユ ヰ ヿ ュ ツ ゴ ト ビ シ ア ク ヹ タ ガ ン ピ
+                  </div>
+                  <div class="matrix-reverse-text" style="--bwct:13">
+                    ダ ナ キ ユ ヰ ヿ ュ ツ ア モ ヲ ゼ ヌ バ ラ ヴ モ ヰ ヱ メ ト ル ム ペ ホ エ
+                  </div>
+                  <div class="matrix-reverse-text" style="--bwct:17">
+                    ヴ ォ タ ハ ミ ワ テ ゴ カ ポ エ ヺ イ ヨ ゠ ダ ナ キ ヱ メ ト ル ム ヺ ア ク
+                  </div>
+                  <div class="matrix-reverse-text" style="--bwct:17">
+                    ヴ ォ タ ハ ミ ワ テ ゴ カ ポ エ ヺ イ ヨ ゠ ダ ナ キ ヱ メ ト ル ム ヺ ア ク
+                  </div>
+                  <div class="matrix-reverse-text" style="--bwct:11">
+                    ゠ ダ ナ ヴ ォ タ ハ ポ エ ヺ イ ヨ キ ミ ワ テ ゴ カ ヱ メ ト ル ム ヺ ア ク
+                  </div>
+                  <div class="matrix-reverse-text" style="--bwct:18">
+                    イ ヨ キ ミ ワ テ ゴ カ ヱ メ ト ル ム ヺ ア ク ゠ ダ ナ ヴ ォ タ ハ ポ エ ヺ
+                  </div>
+                  <div class="matrix-reverse-text" style="--bwct:2">
+                    ヺ ア ク テ ゴ ヨ ゠ ダ ナ キ カ ポ ヴ ォ タ メ ト ル ム  エ ヺ イ ハ ミ ワ ヱ
+                  </div>
+                  <div class="matrix-reverse-text" style="--bwct:8">
+                    ペ ホ エ ビ シ ヺ イ ヨ ュ ツ ゴ ト ア ク ヹ タ ガ ゠ ダ ナ キ ユ ヰ ヿ ン ピ
+                  </div>
+                  <div class="matrix-reverse-text" style="--bwct:13">
+                    ダ ナ キ ユ ヰ ヿ ュ ツ ア モ ヲ ゼ ヌ バ ラ ヴ モ ヰ ヱ メ ト ル ム ペ ホ エ
+                  </div>
+                  <div class="matrix-reverse-text" style="--bwct:17">
+                    ヴ ォ タ ハ ミ ワ テ ゴ カ ポ エ ヺ イ ヨ ゠ ダ ナ キ ヱ メ ト ル ム ヺ ア ク
+                  </div>
+                  <div class="matrix-reverse-text" style="--bwct:11">
+                    ゠ ダ ナ ヴ ォ タ ハ ポ エ ヺ イ ヨ キ ミ ワ テ ゴ カ ヱ メ ト ル ム ヺ ア ク
+                  </div>
+                  <div class="matrix-reverse-text" style="--bwct:18">
+                    イ ヨ キ ミ ワ テ ゴ カ ヱ メ ト ル ム ヺ ア ク ゠ ダ ナ ヴ ォ タ ハ ポ エ ヺ
+                  </div>
+                  <div class="matrix-reverse-text" style="--bwct:2">
+                    ヺ ア ク テ ゴ ヨ ゠ ダ ナ キ カ ポ ヴ ォ タ メ ト ル ム  エ ヺ イ ハ ミ ワ ヱ
+                  </div>
+                </div>
+                <div id="city-left-img-holder"></div>
+                <div id="sign-pills">Red and Blue Pills</div>
+                <div id="city-mid-img-holder"></div>
+                <div id="sign-sushi" class="neon-matrix-border">寿司酒</div>
+                <div id="building-wall-code">
+                  <div class="matrix-text" style="--bwct:9">
+                    ア モ ヲ ゼ ヌ バ ラ ヴ ォ タ ハ ミ ワ テ ゴ カ ポ モ ヰ ヱ メ ト ル ム ヺ ヾ
+                  </div>
+                  <div class="matrix-text" style="--bwct:4">
+                    ペ ホ エ ヺ イ ヨ ゠ ダ ナ キ ユ ヰ ヿ ュ ツ ゴ ト ビ シ ア ク ヹ タ ガ ン ピ
+                  </div>
+                  <div class="matrix-text" style="--bwct:6">
+                    ダ ナ キ ユ ヰ ヿ ュ ツ ア モ ヲ ゼ ヌ バ ラ ヴ モ ヰ ヱ メ ト ル ム ペ ホ エ
+                  </div>
+                  <div class="matrix-text" style="--bwct:12">
+                    ヴ ォ タ ハ ミ ワ テ ゴ カ ポ エ ヺ イ ヨ ゠ ダ ナ キ ヱ メ ト ル ム ヺ ア ク
+                  </div>
+                </div>
+                <div id="city-right-img-holder"></div>
+                <div id="sign-motel">MOTEL</div>
+                <div id="sign-exit" class="neon-matrix-border-example">EXIT</div>
+                <div id="city-posts-left" class="neon-bulb"></div>
+                <div id="city-posts-mid" class="neon-bulb"></div>
+                <div id="city-posts-right" class="neon-bulb"></div>
+                <div id="city-posts-img-holder"></div>
+                <div class="fog">
+                  <span style="--i:9"></span>
+                  <span style="--i:13"></span>
+                  <span style="--i:10"></span>
+                  <span style="--i:3"></span>
+                  <span style="--i:4"></span>
+                  <span style="--i:1"></span>
+                  <span style="--i:5"></span>
+                  <span style="--i:18"></span>
+                  <span style="--i:7"></span>
+                  <span style="--i:15"></span>
+                  <span style="--i:8"></span>
+                  <span style="--i:16"></span>
+                  <span style="--i:20"></span>
+                  <span style="--i:11"></span>
+                  <span style="--i:17"></span>
+                  <span style="--i:6"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <sketch-text class="description-no-control" pageid="10050">
+            <div slot="content">
+              <p>
+                On this page, I tired out CSS animation. Along with the art, there are some 
+                obvious and some subtle effects to liven it up.
+              </p>
+              <p>All the research:</p>
+              <tabbed-pane>
+                <tab-content name="Neon Text" selected>
+                  <p>To start with, a glowing text</p>
+                  <div class="neon-green-text-example neon-sign-font-example">MESMERIZE</div>
+                  <br>
+                </tab-content>
+                <tab-content name="Flickering Neon">
+                  <p>Now flickering effect</p>
+                  <div class="neon-white-flickering-example neon-sign-font-example">MESMERIZE</div>
+                  <br>
+                </tab-content>
+                <tab-content name="Neon Bulbs">
+                  <p>Line of bulbs with a border</p>
+                  <div class="neon-purple-border-example line-of-dots-example">
+                    <div class="neon-purple-solid-dot-example"></div>
+                    <div class="neon-purple-solid-dot-example"></div>
+                    <div class="neon-purple-solid-dot-example"></div>
+                    <div class="neon-purple-solid-dot-example"></div>
+                    <div class="neon-purple-solid-dot-example"></div>
+                    <div class="neon-purple-solid-dot-example"></div>
+                    <div class="neon-purple-solid-dot-example"></div>
+                  </div>
+                  <br>
+                </tab-content>
+                <tab-content name="Smoke">
+                  <p>Rendering Smoke</p>
+                  <div class="smoke-example">
+                    <span style="--i:9"></span>
+                    <span style="--i:13"></span>
+                    <span style="--i:10"></span>
+                    <span style="--i:3"></span>
+                    <span style="--i:4"></span>
+                    <span style="--i:1"></span>
+                    <span style="--i:5"></span>
+                    <span style="--i:18"></span>
+                    <span style="--i:7"></span>
+                    <span style="--i:15"></span>
+                    <span style="--i:8"></span>
+                    <span style="--i:16"></span>
+                    <span style="--i:20"></span>
+                    <span style="--i:11"></span>
+                    <span style="--i:17"></span>
+                    <span style="--i:6"></span>
+                    <span style="--i:12"></span>
+                    <span style="--i:2"></span>
+                    <span style="--i:14"></span>
+                    <span style="--i:19"></span>
+                  </div>
+                </tab-content>
+                <tab-content name="Scrolling Text">
+                  <p>Star Wars inspired</p>
+                  <section class="star-wars-example-holder">
+                    <div class="star-wars-example">
+                      <p>The Agent strolls the lonely streets</p>
+                      <p>The silence is uncanny</p>
+                      <p>He knows what's at stake</p>
+                      <p>The agent immediately pulls out his trusty sidearm</p>
+                      <p>He has the License To Sanitize</p>
+                    </div>
+                  </section>
+                </tab-content>
+              </tabbed-pane>
+            </div>
+            <div slot="source">
+              <p>
+                Visual inspired from a Matrix movie frame.
+              </p>
+              <p>
+                Tutorial on <a target="_blank" 
+                href="https://css-tricks.com/how-to-create-neon-text-with-css/">Neon Text</a>. <br>
+                Video tutorial on <a target="_blank" 
+                href="https://www.youtube.com/watch?v=_jOqYe0eFqY">Smoke</a>. <br>
+                Inspired from <a target="_blank" 
+                href="https://codepen.io/scottbram/pen/AZYXzm">Star Wars Text</a> on Code Pen.
+              </p>
+            </div>
+          </sketch-text>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

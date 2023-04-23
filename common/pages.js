@@ -898,6 +898,36 @@ class Pages {
           { tag: 'combat', wt: 3 }, 
           { tag: 'intelligence', wt: 1 }
         ]
+      },
+      {
+        id: 10050,
+        name: 'Matrix City',
+        url: '/matrix-city',
+        img: '/matrix-city/img/preview.jpg',
+        detail: 'A City in the Matrix - Pure CSS Animation!!',
+        rank: 3,
+        date: 'Apr 2023', 
+        tags: [
+          { tag: 'matrix', wt: 5 }, 
+          { tag: 'rainfall', wt: 1 },
+          { tag: 'film', wt: 2 }, 
+          { tag: 'artwork', wt: 2 }, 
+          { tag: 'no lib', wt: 3 }
+        ]
+      },
+      {
+        id: 10051,
+        name: 'Ascii Galaxian',
+        url: '/ascii-galaxian',
+        img: '/ascii-galaxian/img/preview.jpg',
+        detail: 'Galaxian game with ascii characters - Canvas less Animation!!',
+        rank: 3,
+        date: 'Apr 2023', 
+        tags: [
+          { tag: 'game', wt: 2 }, 
+          { tag: 'combat', wt: 3 }, 
+          { tag: 'no lib', wt: 3 }
+        ]
       }
     ];
 
@@ -913,7 +943,7 @@ class Pages {
           }
         });
 
-    this._latest = [10049];
+    this._latest = [10050, 10051];
   }
 
   getPageById(pageId) {

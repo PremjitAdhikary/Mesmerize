@@ -1,9 +1,12 @@
 let PI_CHAR = 'π';
 
-function create2DArray(rows, cols) {
+function create2DArray(rows, cols, initializer) {
   let arr = new Array(rows);
   for (let i=0; i<arr.length; i++) {
-    arr[i] = new Array(cols);
+    if (initializer == undefined) 
+      arr[i] = new Array(cols);
+    else
+      arr[i] = Array.from(Array(cols), initializer);
   }
   return arr;
 }

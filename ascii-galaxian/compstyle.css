@@ -1,0 +1,53 @@
+.galaxian-char {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.68em;
+  font-weight: bolder;
+  color: greenyellow;
+  position: relative;
+}
+
+
+#player-points, #player-waves, #player-lives {
+  position: absolute;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.2em;
+}
+
+#player-points {
+  top: 5px;
+  left: 5px;
+}
+
+#player-waves {
+  top: 25px;
+  left: 5px;
+}
+
+#player-lives {
+  top: 5px;
+  left: 570px;
+}
+
+.menu {
+  position: absolute;
+  color: white;
+  top: 120px;
+  left: 100px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.5em;
+  text-align: center;
+  width: 440px;
+}
+
+#kill-streak-info {
+  position: absolute;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.2em;
+  top: 465px;
+  left: 20px;
+  width: 600px;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+}

@@ -243,6 +243,7 @@ class RecommendationEngine {
     this.tagsMap.set('firework', new ATag('firework', 'fireworks featured'));
     this.tagsMap.set('tron', new ATag('tron', 'tron inspired graphics are present'));
     this.tagsMap.set('planet', new ATag('planet', 'elements inspired by planets'));
+    this.tagsMap.set('no lib', new ATag('no lib', 'there are no external libraries, pure html-js-css are used'));
 
   }
 

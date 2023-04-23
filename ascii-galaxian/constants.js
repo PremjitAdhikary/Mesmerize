@@ -1,0 +1,12 @@
+export let SCREEN_WIDTH = 94;
+export let SCREEN_HEIGHT = 36;
+export let LEFT = 'left';
+export let RIGHT = 'right';
+export let PLAYER = 'player'; 
+export let ALIEN = 'alien';
+export let SHIP = 'ship';
+export let PROJECTILE = 'projectile';
+export let FIGHTER = 'fighter';
+export let SENTRY = 'sentry';
+export let COMMAND = 'command';
+export let DESTROYER = 'destroyer';

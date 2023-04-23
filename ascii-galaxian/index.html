@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" href="../favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Change This -->
+  <meta name="description" content="Galaxian game with ascii characters - Canvas less Animation!!">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://premjitadhikary.github.io/Mesmerize/ascii-galaxian">
+  <meta property="og:title" content="Ascii Galaxian">
+  <meta property="og:description" content="Galaxian game with ascii characters - Canvas less Animation!!">
+  <meta property="og:image" content="https://premjitadhikary.github.io/Mesmerize/ascii-galaxian/img/myCanvas.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://premjitadhikary.github.io/Mesmerize/ascii-galaxian">
+  <meta name="twitter:title" content="Ascii Galaxian">
+  <meta name="twitter:description" content="Galaxian game with ascii characters - Canvas less Animation!!">
+  <meta name="twitter:image" content="https://premjitadhikary.github.io/Mesmerize/ascii-galaxian/img/myCanvas.jpg">
+  <!-- Change This -->
+  <link rel="stylesheet" href="../appstyle.css">
+  <link rel="stylesheet" href="./compstyle.css">
+  <script src="../components/app-header.js" type="module"></script>
+  <script src="../components/sketch-text.js" type="module"></script>
+  <script src="../common/utilities.js"></script>
+  <script src="../diwali-special/audio/sound.js"></script>
+  <script src="../diwali-special/audio/sound-pool.js"></script>
+  <script src="./game-runner.js" type="module"></script>
+  <title>Ascii Galaxian</title>
+</head>
+<body>
+  <div class="toplevel">
+    <app-header class="heading"></app-header>
+    <div class="topbody">
+      <div class="container-no-control">
+          <div class="sketch">
+            <div id="sketch-holder" class="sketch-holder galaxian-char">
+              <div id="game-area"></div>
+              <div id="player-points"></div>
+              <div id="player-waves"></div>
+              <div id="player-lives"></div>
+              <div id="game-menu" class="menu">
+                <h2>Ascii Galaxian</h2> <br>
+                Mission: Destroy Aliens<br><br>
+                Controls<br>
+                Press Left/Right Arrow keys to move your Ship<br>
+                Hold down x to fire<br><br>
+                Press Enter to Start Game
+              </div>
+              <div id="game-restart" class="menu">
+                <h3>Game Over</h3> <br>
+                Try Again?<br><br>
+                Press Enter to Restart Game
+              </div>
+              <div id="game-over" class="menu">
+                <h3>Game Over</h3> <br>
+                Congratulations!<br>
+                You have completed 100 waves!<br><br>
+                Now go get a life...
+              </div>
+              <div id="kill-streak-info">
+                <div>Kill Streak Bonus &gt;</div>
+                <div id="dual-guns-bonus">Dual Guns</div>
+                <div id="rapid-fire-bonus">Rapid Fire</div>
+                <div id="life-bonus">Life+1</div>
+              </div>
+            </div>
+          </div>
+
+          <sketch-text class="description-no-control" pageid="10051">
+            <div slot="content">
+              <p>Galaxian - the first console game I played. This page is a tribute to it.</p>
+              <p>
+                I came across some awesome ASCII art sometime back and that was the inspiration to 
+                make this as an ASCII version. So instead of drawing on a canvas with p5js, I went 
+                all vanilla. The viewport is a grid of divs where the characters are rendered.
+              </p>
+              <p>
+                Few pointers:
+                <ul>
+                  <li>
+                    There are different classes of Alien ships. Each with their own attack and 
+                    armor rating.
+                  </li>
+                  <li>
+                    The Alien ships progressively get better armor every wave. Which means you 
+                    will have to hit multiple times to destroy ships at higher levels.
+                  </li>
+                  <li>
+                    There is a kill streak and levels at which bonuses will be unlocked to 
+                    make your Galaxip more powerful. You get hit and the streak is reset.
+                  </li>
+                </ul>
+              </p>
+            </div>
+            <div slot="source">
+              <p>
+                Inspired by Galaxian.
+              </p>
+            </div>
+          </sketch-text>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
