@@ -29,6 +29,7 @@ class RecommendationEngine {
 
   searchAndOrderPagesByTagsFor(pageId) {
     let scoreMap = new Map();
+    if (!this.pageTagsMap.has(Number(pageId))) return [];
     this.pageTagsMap.get(Number(pageId)).forEach(tag => {
       pages._pages
         .filter(p => !p.internal && p.id != Number(pageId) 
