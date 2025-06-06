@@ -764,7 +764,7 @@ class Pages {
         rank: 1,
         date: 'Dec 25 2021', 
         tags: [
-          { tag: 'steer', wt: 3 }, 
+          { tag: 'steer', wt: 1 }, 
           { tag: 'game', wt: 2 }, 
           { tag: 'original', wt: 2 }
         ]
@@ -927,6 +927,20 @@ class Pages {
           { tag: 'game', wt: 2 }, 
           { tag: 'combat', wt: 3 }, 
           { tag: 'no lib', wt: 3 }
+        ]
+      },
+      {
+        id: 10052,
+        name: 'Battle Ships',
+        url: '/battle-ships',
+        img: '/battle-ships/img/preview.jpg',
+        detail: 'A take on the popular game BattleShip.',
+        rank: 1,
+        date: 'Jun 07 2025', 
+        tags: [
+          { tag: 'game', wt: 2 }, 
+          { tag: 'combat', wt: 3 }, 
+          { tag: 'intelligence', wt: 1 }
         ]
       }
     ];
