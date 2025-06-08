@@ -2,12 +2,11 @@ class MainMenu {
   constructor() {
     this.classic = new BasicButton(width/2, height/2 - 60, 200, 40, 'Start Classic Game', 20);
     this.mini = new BasicButton(width/2, height/2, 200, 40, 'Start Mini Game', 20);
-    this.salvo = new BasicButton(width/2, height/2 + 60, 200, 40, 'Salvo Game (soon)', 20);
+    this.salvo = new BasicButton(width/2, height/2 + 60, 200, 40, 'Start Salvo Game', 20);
     this.easy = new BasicButton(width/2 - 50, height - 30, 80, 30, 'Easy', 12);
     this.normal = new BasicButton(width/2 + 50, height - 30, 80, 30, 'Normal', 12);
     this.difficulty = 1;
     this.easy.enabled = false;
-    this.salvo.enabled = false;
   }
   show() {
     this.classic.show();
@@ -34,6 +33,8 @@ class MainMenu {
       bus.dispatch("ControlEInCl", { difficulty: (this.difficulty == 1 ? 'Easy' : 'Normal') });
     } else if (this.mini.isClicked(x, y)) {
       bus.dispatch("ControlEInMi", { difficulty: (this.difficulty == 1 ? 'Easy' : 'Normal') });
+    } else if (this.salvo.isClicked(x, y)) {
+      bus.dispatch("ControlEInSl", { difficulty: (this.difficulty == 1 ? 'Easy' : 'Normal') });
     } else if (this.easy.isClicked(x, y)) {
       this.easy.enabled = false;
       this.normal.enabled = true;

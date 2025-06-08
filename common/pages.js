@@ -935,7 +935,7 @@ class Pages {
         url: '/battle-ships',
         img: '/battle-ships/img/preview.jpg',
         detail: 'A take on the popular game BattleShip.',
-        rank: 1,
+        rank: 2,
         date: 'Jun 07 2025', 
         tags: [
           { tag: 'game', wt: 2 }, 
@@ -957,7 +957,7 @@ class Pages {
           }
         });
 
-    this._latest = [10050, 10051];
+    this._latest = [10052];
   }
 
   getPageById(pageId) {

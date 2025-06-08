@@ -62,6 +62,9 @@ function setBus(b) {
   bus.register("ControlEInMi", e => {
     game = new Mini(e.detail);
   });
+  bus.register("ControlEInSl", e => {
+    game = new Salvo(e.detail);
+  });
 }
 
 function mouseReleased() {

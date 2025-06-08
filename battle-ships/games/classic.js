@@ -100,22 +100,8 @@ class Classic extends BaseGame {
   runAi() {
     if (this.isGameOver() || !this.gameActive) return;
     let move = this.ai.run();
+    this.human.resetBoardHilight();
     this.ai.runOutcome(move.x, move.y, this.human.attacked(move.x, move.y));
-  }
-
-  eventAt(x, y) {
-    if (!this.gameActive && !this.isGameOver()) return;
-    if (!this.human.isBoardSet) {
-      this.humanBoardSetup(x, y);
-      return;
-    }
-    if (!this.isGameOver() && this.human.isEventOnBoard(x, y) && this.human.isMyTurn) {
-      this.humanGameplay(x, y);
-      return;
-    }
-    if (this.isGameOver() && this.exitButton.isClicked(x, y)) {
-      bus.dispatch("ControlEInMn", { });
-    }
   }
 
   humanGameplay(x, y) {

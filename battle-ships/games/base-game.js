@@ -47,6 +47,21 @@ class BaseGame {
     this.human.isMyTurn = !this.human.isMyTurn;
   }
 
+  eventAt(x, y) {
+    if (!this.gameActive && !this.isGameOver()) return;
+    if (!this.human.isBoardSet) {
+      this.humanBoardSetup(x, y);
+      return;
+    }
+    if (!this.isGameOver() && this.human.isEventOnBoard(x, y) && this.human.isMyTurn) {
+      this.humanGameplay(x, y);
+      return;
+    }
+    if (this.isGameOver() && this.exitButton.isClicked(x, y)) {
+      bus.dispatch("ControlEInMn", { });
+    }
+  }
+
   humanBoardSetup(x, y) {
     if (this.human.isEventOnBoard(x, y)) {
       if (this.human.addShipAt(x, y, this.humanShips[0])) {

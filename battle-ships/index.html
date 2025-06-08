@@ -48,6 +48,7 @@
   <script src="./games/base-game.js"></script>
   <script src="./games/classic.js"></script>
   <script src="./games/mini.js"></script>
+  <script src="./games/salvo.js"></script>
   <script src="./games/main-menu.js"></script>
   <script src="./control.js" type="module"></script>
   <title>Battle Ships</title>
@@ -170,9 +171,39 @@
                   </p>
                 </tab-content>
                 <tab-content name="Salvo Game">
-                  <p>Coming soon!</p>
+                  <p>
+                    Each player starts with the following ships:<ul>
+                      <li>Aircraft Carrier - 5 x 1 - 2 shots per turn</li>
+                      <li>Battleship - 4 x 1 - 1 shot per turn</li>
+                      <li>Destroyer - 3 x 1 - 1 shot per turn</li>
+                      <li>Submarine - 3 x 1 - 1 shot per turn</li>
+                      <li>Frigate - 2 x 1 - 1 shot per turn</li>
+                    </ul>
+                  </p>
+                  <p>
+                    At each turn, the player gets to shoot from every active ship in the fleet.  
+                    The number of shots available for the player will be displayed as <em>Player 
+                    Turn (Shots: #)</em>.
+                  </p>
+                  <p>
+                    The faster you sink your enemy ship, and especially the <em>Aircraft Carrier</em>, 
+                    you gain more advantage.
+                  </p>
+                  <p>
+                    As an example, if the enemy has sunk your <em>Battleship</em> and 
+                    <em>Destroyer</em>, and you sunk the enemy <em>Aircraft Carrier</em> and 
+                    <em>Frigate</em>, even though the number of active ships is equal, you 
+                    get 5 shots on your turn while the enemy only gets 3.
+                  </p>
                 </tab-content>
               </tabbed-pane>
+              <br>
+              <div class="sub-header">Libraries Used</div>
+              <p>
+                <a href="https://github.com/generative-light/p5.scribble.js" 
+                target="_blank">p5.scribble.js</a> - To have <em>sketchy lines</em> for 
+                a pencil and paper game look.
+              </p>
             </div>
             <div slot="source">
               <p>

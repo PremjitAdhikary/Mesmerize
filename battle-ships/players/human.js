@@ -55,8 +55,11 @@ class Human {
     return Math.ceil((y - this.boardConfig.startY) / side);
   }
 
-  attacked(row, col) {
+  resetBoardHilight() {
     this.myBoard.resetHilight();
+  }
+
+  attacked(row, col) {
     this.myBoard.hilight(row, col);
     return this.myBoard.hit(row, col);
   }

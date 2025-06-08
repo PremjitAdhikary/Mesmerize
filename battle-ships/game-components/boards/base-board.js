@@ -10,12 +10,13 @@ class BaseBoard {
     this.resetHilight();
   }
 
-  resetHilight() {
+  resetHilight() {console.log('???')
     this.toHilight = [];
   }
 
   hilight(row, col) {
     this.toHilight.push({ x: row, y: col });
+    console.log(this.toHilight.length);
   }
 
   show() {
@@ -27,6 +28,7 @@ class BaseBoard {
     for (let i=0; i<=this.cellsOnSide; i++) {
       scribble.scribbleLine( this.x+this.side*i, this.y, this.x+this.side*i, this.y+this.len );
     }
+    console.log(this.toHilight.length);
     for (let hl of this.toHilight) {
       fill(hilightColor);
       stroke(hilightColor);
