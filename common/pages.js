@@ -957,7 +957,7 @@ class Pages {
           }
         });
 
-    this._latest = [10052];
+    this._latest = [10052, 10035];
   }
 
   getPageById(pageId) {
