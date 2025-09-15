@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" href="../favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Change This -->
+  <meta name="description" content="Camels eat Bananas.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://premjitadhikary.github.io/Mesmerize/demo">
+  <meta property="og:title" content="Camels and Bananas">
+  <meta property="og:description" content="Camels eat Bananas.">
+  <meta property="og:image" content="https://premjitadhikary.github.io/Mesmerize/logo/img/myCanvas.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://premjitadhikary.github.io/Mesmerize/demo">
+  <meta name="twitter:title" content="Camels and Bananas">
+  <meta name="twitter:description" content="Camels eat Bananas.">
+  <meta name="twitter:image" content="https://premjitadhikary.github.io/Mesmerize/logo/img/myCanvas.jpg">
+  <!-- Change This -->
+  <link rel="stylesheet" href="../appstyle.css">
+  <link rel="stylesheet" href="./compstyle.css">
+  <script src="../components/app-header.js" type="module"></script>
+  <script src="../components/sketch-text.js" type="module"></script>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/p5@0.10.2/lib/p5.js"></script> -->
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/p5.min.js"></script> -->
+  <!-- <script src="https://cdn.jsdelivr.net/npm/p5@1.3.1/lib/p5.js"></script> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.3.1/p5.min.js"></script>
+  <script src="./sketch.js"></script>
+  <script src="../common/sketch-colors.js"></script>
+  <script src="../common/utilities.js"></script>
+  <script src="../components/radio-input-group.js" type="module"></script>
+  <script src="../components/tabbed-pane.js" type="module"></script>
+  <script src="./control.js" type="module"></script>
+  <script src="./camel.js"></script>
+  <script src="./milestone.js"></script>
+  <script src="./back-and-forth-algotirhm.js"></script>
+  <script src="./intermediate-drop-points.js"></script>
+  <title>Camels and Bananas</title>
+</head>
+<body>
+  <div class="toplevel">
+    <app-header class="heading"></app-header>
+    <div class="topbody">
+      <div class="container">
+          <div class="sketch">
+            <div id="sketch-holder" class="sketch-holder">
+            </div>
+          </div>
+
+          <div class="control">
+            <div class="control-container">
+              <div>
+                Select Algorithm <br>
+                <radio-group id="choice_algo">
+                  <radio-button value="1" aria-checked="true">Back and Forth</radio-button>
+                  <radio-button value="2">Intermediate Drops</radio-button>
+                </radio-group>
+              </div>
+              <div>
+                Distance to Market <br>
+                <radio-group id="choice_route_len">
+                  <radio-button value="1" aria-checked="true">10 km</radio-button>
+                  <radio-button value="2" >100 km</radio-button>
+                </radio-group>
+              </div>
+            </div>
+          </div>
+
+          <sketch-text class="description" pageid="10053">
+            <div slot="content">
+              <p>
+                It all started with a puzzle.
+              </p>
+              <p>
+                <i>The owner of a banana plantation has a camel. He wants to transport his 300 bananas to the market. The distance between 
+                his banana plantation and the market is about 100 kilometers. So he decided to take his camel to carry the bananas. The 
+                camel can carry a maximum of 100 bananas at a time, and it eats one banana for every kilometer it travels.</i>
+              </p>
+              <p>
+                At first, it seems impossible, but of course, there is a trick to it.
+              </p>
+              <p>
+                This is an optimisation problem and to better explain it to my daughter, I worked on this page. I had explained to her on 
+                paper by reducing the distance to 10 km. For 100 km, it made sense to code it.
+              </p>
+              <p>
+                In the viewport is a representation of a <span style="color: rgb(196,154,26)">path in yellow</span> winding right 
+                and left alternatively from top to bottom. At every km there is a milestone, starting from owner's banana plantation at 
+                0 km till the market at 10 (or 100 based on <i>Distance to Market</i> selected) km. Any of the milestones with bananas, 
+                can be the plantation, the market, or drop points, will have a <span style="color: rgb(102,57,0)">wooden box</span> 
+                with a number on it denoting how many bananas are present at that milestone. The journey taken by to transport the 
+                bananas by the <span style="color: rgb(193,154,107)">camel depicted as a creamish circle</span>, will also display a 
+                number to denote the bananas it carries. <i>Note: This keeps depleting as the camel travels</i>.
+              </p>
+              <p class="sub-header">Algorithms</p>
+              <p>
+                The algorithms to solve the optimisation problem. The basic idea is that there have to be multiple trips to take all the 
+                bananas, and keep in mind that trip back also would require the camel to be fed.
+              </p>
+              <tabbed-pane>
+                <tab-content name="Back and Forth" selected>
+                  This is the first solution (a bit of brute force-y) that came to mind. <br><br>
+                  Keep the camel moving back and forth between two milestones to move the bananas forward 1 km at a time. At one point 
+                  in time, there will not be any bananas left in the previous milestone to go back to. <br><br>
+                  That's when we pick up everything and don't look back! <i>There is a possibility that banana(s) are left behind before 
+                  the last rush.</i>
+                </tab-content>
+                <tab-content name="Intermediate Drops">
+                  This one, found on Google. This is more algebraic and makes sense once the underlying logic is understood. Also can be 
+                  extrapolated to solve for different distances (say 1000 km). <br><br>
+                  The idea? For a 100 km route, with 300 bananas at the start, and a maximum carry capacity of 100 bananas, to maximise 
+                  efficiency, the intermediate drop points should have multiples (or nearest multiple) of max capacity. With this in 
+                  mind, the first intermediate drop point will have 200 bananas (100 bananas consumed for the back and forth journey). The
+                  second drop point will have 100 bananas (100 again consumed). <br><br>
+                  To move 300 bananas from the start to first intermediate drop point, the camel needs 5 trips (3 forward and 2 return). 
+                  Let's say the first intermediate point is <i>x km</i> away. We have the following equation: <br><br>
+                  <div>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;300 &minus; 5x = 200 <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=&gt; x = 20
+                  </div> <br>
+                  To move 200 bananas from the first intermediate drop point to the second, the camel needs 3 trips. Let the second 
+                  intermediate point be <i>y km</i> from the first intermediate point. The equation is: <br><br>
+                  <div>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;200 &minus; 3y = 100 <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=&gt; y = 33.33 (for the puzzle, rounded down, which causes a banana to be left 
+                    behind)
+                  </div> <br>
+                  With the intermediate points determined, the rest becomes easy. Again, <i>there is a possibility that banana(s) are 
+                  left behind before the last rush.</i>
+                </tab-content>
+              </tabbed-pane>
+              <br>
+            </div>
+            <div slot="source">
+              <p>
+                Originally found online as a puzzle.
+              </p>
+            </div>
+          </sketch-text>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

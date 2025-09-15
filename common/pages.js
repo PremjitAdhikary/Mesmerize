@@ -942,6 +942,18 @@ class Pages {
           { tag: 'combat', wt: 3 }, 
           { tag: 'intelligence', wt: 1 }
         ]
+      },
+      {
+        id: 10053,
+        name: 'Camels and Bananas',
+        url: '/camels-and-bananas',
+        img: '/camels-and-bananas/img/preview.jpg',
+        detail: 'Camels eat Bananas.',
+        rank: 4,
+        date: 'Sep 15 2025', 
+        tags: [
+          { tag: 'visualization', wt: 1 }
+        ]
       }
     ];
 
@@ -957,7 +969,7 @@ class Pages {
           }
         });
 
-    this._latest = [10052, 10035];
+    this._latest = [10053];
   }
 
   getPageById(pageId) {
