@@ -240,7 +240,6 @@ class RecommendationEngine {
     this.tagsMap.set('interactive', new ATag('interactive', 'lots of User Interactivity'));
     this.tagsMap.set('game', new ATag('game', 'a playable game'));
     this.tagsMap.set('phone', new ATag('phone', 'usage of Phone interface'));
-    this.tagsMap.set('game', new ATag('game', 'a playable game'));
     this.tagsMap.set('firework', new ATag('firework', 'fireworks featured'));
     this.tagsMap.set('tron', new ATag('tron', 'tron inspired graphics are present'));
     this.tagsMap.set('planet', new ATag('planet', 'elements inspired by planets'));
