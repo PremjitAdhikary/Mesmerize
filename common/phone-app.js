@@ -6,6 +6,7 @@
  * postBuild()  
  * launch()  
  * sleep()  
+ * requiredVersion()
  */
 class PhoneApp {
 
@@ -61,6 +62,13 @@ class PhoneApp {
   css(element, style) {
     for (const property in style)
         element.style[property] = style[property];
+  }
+
+  /**
+   * Needs to be overriden for any app which requires phone version greater than 1
+   */
+  requiredVersion() {
+    return 1;
   }
 
 }

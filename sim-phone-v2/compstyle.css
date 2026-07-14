@@ -1,0 +1,10 @@
+.phone-holder {
+  width: 640px; 
+  height: 480px;
+}
+
+.phone {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}

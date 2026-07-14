@@ -954,6 +954,20 @@ class Pages {
         tags: [
           { tag: 'visualization', wt: 1 }
         ]
+      },
+      {
+        id: 10054,
+        name: 'Upgraded M-Phone',
+        url: '/sim-phone-v2',
+        img: '/sim-phone-v2/img/preview.jpg',
+        detail: 'Simulation of an upgraded Phone.',
+        rank: 2,
+        date: 'Jul 14 2026', 
+        tags: [
+          { tag: 'phone', wt: 5 }, 
+          { tag: 'sim', wt: 1 }, 
+          { tag: 'interactive', wt: 2 }
+        ]
       }
     ];
 
@@ -969,7 +983,7 @@ class Pages {
           }
         });
 
-    this._latest = [10053];
+    this._latest = [10054];
   }
 
   getPageById(pageId) {

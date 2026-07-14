@@ -1,0 +1,81 @@
+.keyboard-layer {
+  height: 50%;
+  width: 97%;
+  position: absolute;
+  left: 0px;
+  top: 48%;
+  z-index: 9;
+  display: grid;
+  grid-template-columns: 6fr 1fr;
+  grid-template-rows: 1fr 2fr;
+  grid-template-areas: 
+    "keyboard-txt  keyboard-btn"
+    "keyboard-key-holder  keyboard-key-holder"
+  ;
+  background-color: black;
+  color: yellowgreen;
+  border: 2px solid yellowgreen;
+  border-radius: 2px;
+  margin: 2px;
+}
+
+.keyboard-txt {
+  grid-area: keyboard-txt;
+  border: 1px solid yellowgreen;
+  margin: 2px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  word-wrap: break-word;
+  font-size: small;
+}
+
+.keyboard-btn {
+  grid-area: keyboard-btn;
+  height: 35px;
+  width: 20px;
+  float: left;
+  border: 1px solid yellowgreen;
+  border-radius: 2px;
+  text-align: center;
+  margin: 2px;
+  font-size: x-large;
+}
+
+.keyboard-btn:hover {
+  cursor: pointer;
+}
+
+.keyboard-key-holder {
+  grid-area: keyboard-key-holder;
+  display: grid;
+  place-items: center;
+  grid-template-rows: repeat(5, 1fr);
+}
+
+.keyboard-key-line {
+  align-items: center;
+  text-align: center;
+}
+
+.last-line {
+  display: grid;
+  text-align: center;
+  grid-template-columns: repeat(3, 1fr) 4fr repeat(3, 1fr);
+}
+
+.keyboard-key, .keyboard-spc-key {
+  height: 20px;
+  float: left;
+  border: 1px solid yellowgreen;
+  border-radius: 2px;
+  text-align: center;
+  margin: 2px;
+}
+
+.keyboard-key:hover, .keyboard-spc-key:hover {
+  cursor: pointer;
+}
+
+.keyboard-key {
+  width: 15px;
+}

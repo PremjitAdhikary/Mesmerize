@@ -5,7 +5,7 @@ class MesTube extends PhoneApp {
 
     this._list = [ 
       new TubeItem('Spiralling Primes', './img/mes-tube/ps.gif', './img/mes-tube/PrimeSpirals.jpg', 
-        'From Prime Spirals segment. Pprime numbers are plotted to make spirals.'), 
+        'From Prime Spirals segment. Prime numbers are plotted to make spirals.'), 
       new TubeItem('Fractal Shapes', './img/mes-tube/fractal.gif', './img/mes-tube/FractalShapes.jpg', 
         'Few Interesting Fractals from L-Systems Revisted segment.'), 
       new TubeItem('Kombat Fighters', './img/mes-tube/fighters.gif', 

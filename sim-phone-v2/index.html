@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" href="../favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Change This -->
+  <meta name="description" content="Simulation of an upgraded Phone.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://premjitadhikary.github.io/Mesmerize/sim-phone-v2">
+  <meta property="og:title" content="Upgraded M-Phone">
+  <meta property="og:description" content="Simulation of an upgraded Phone.">
+  <meta property="og:image" content="https://premjitadhikary.github.io/Mesmerize/sim-phone-v2/img/myCanvas.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://premjitadhikary.github.io/Mesmerize/sim-phone-v2">
+  <meta name="twitter:title" content="Upgraded M-Phone">
+  <meta name="twitter:description" content="Simulation of an upgraded Phone.">
+  <meta name="twitter:image" content="https://premjitadhikary.github.io/Mesmerize/sim-phone-v2/img/myCanvas.jpg">
+  <!-- Change This -->
+  <link rel="stylesheet" href="../appstyle.css">
+  <link rel="stylesheet" href="./compstyle.css">
+  <script src="../components/app-header.js" type="module"></script>
+  <script src="../components/sketch-text.js" type="module"></script>
+  <script src="../components/tabbed-pane.js" type="module"></script>
+  <script src="../components/phone.js" type="module"></script>
+  <script src="../common/phone-app.js"></script>
+  <script src="./control.js" type="module"></script>
+  <script src="./apps/mes-notes.js"></script>
+  <script src="./apps/m-agination.js"></script>
+  <title>Upgraded M-Phone</title>
+</head>
+<body>
+  <div class="toplevel">
+    <app-header class="heading"></app-header>
+    <div class="topbody">
+      <div class="container-no-control">
+          <div class="sketch">
+            <div id="phone-holder" class="phone-holder">
+              <m-phone-v2 id="mes-phone" class="phone"></m-phone-v2>
+            </div>
+          </div>
+
+          <sketch-text class="description-no-control" pageid="10054">
+            <div slot="content">
+              <p>
+                Added keyboard service to mobile which will be used for some future phone-apps that I have in 
+                pipeline.  This is a very basic keyboard, doesn't support all the keys (usually found on standard 
+                keyboards), but enough to carry on a conversation.
+              </p>
+              <p>
+                Input is accepted through mouse clicks and actual keyboard too. The keyboard inputs are filtered 
+                to only accept the repective keys on the virtual keyboard displayed on M-Phone.
+              </p>
+              <div class="sub-header"><p>Apps built using NEW keyboard feature</p></div>
+              <tabbed-pane>
+                <tab-content name="MesNotes" selected>
+                  Allows user to write <em>transient</em> notes. <br><br>
+                  Usage: <ul>
+                    <li>Click anywhere on the notes area to start typing on the new keyboard. </li>
+                    <li>Once done, click the button next to the text box to update the notes area with your input. </li>
+                    <li>Click on existing sentence to open the sentence on the keyboard and edit. </li>
+                    <li>Use backspace to delete characters from the end. <em>Unfortunately you cannot position the cursor.</em> </li>
+                    <li>Use enter button to introduce a new line. </li>
+                    <li>The New button in the bottom right corner deletes current note and allows user to start again. </li>
+                  </ul><br>
+                </tab-content>
+                <tab-content name="M-agination">
+                  This is a fun mini story composer.  Users answer 3 to 4 questions which is then used to generate a 
+                  mini story.  Think form fill-up. <br><br>
+                  Usage: <ul>
+                    <li>Once answered, click the button next to the text box to update the answer in the data collection area. </li>
+                    <li>Use backspace to delete characters from the end. <em>Unfortunately you cannot position the cursor.</em> </li>
+                    <li>Using enter button just introduces a space. </li>
+                    <li>Once all answers are entered, the story is generated and displayed. </li>
+                    <li>The New button in the bottom right corner starts a new form for another story. </li>
+                  </ul><br>
+                </tab-content>
+              </tabbed-pane>
+            </div>
+            <div slot="source">
+              <p>
+                Original idea.
+              </p>
+            </div>
+          </sketch-text>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
