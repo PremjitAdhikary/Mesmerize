@@ -109,13 +109,27 @@
                 <tab-content name="Ripples" selected>
                   Idea is to simulate water ripples. <br><br>
                   Daniels video has a basic black and white effect which itself is pleasant to 
-                  watch. <br><br>
-                  Slide Ripple Reach to adjust size of ripples. <br><br>
-                  Also added some color to it. Toggle Mono/Colorize button for that effect. <br><br>
-                  Toggle Drag/Random to drag ripples in the viewport or to see the rainfall 
-                  effect of ripples in action.  For random action you can adjust the interval at 
-                  which the drops fall. <br><br>
-                  <strong>Calculation</strong> <br><br>
+                  watch.  But I also added some color to it.
+                  <p><span class="hilight">Controls</span></p>
+                  <ul>
+                    <li>Slide <em>Ripple Reach</em> to adjust size of ripples.</li>
+                    <li>Toggle <em>Mono/Colorize</em> button for color effect.</li>
+                    <li>
+                      Toggle <em>Drag/Random</em> button to:
+                      <ul>
+                        <li>
+                          <strong>Drag</strong> ripples in the viewport by clicking and holding down 
+                          the mouse button. Mouse up stops the dragging.
+                        </li>
+                        <li>
+                          <strong>Random</strong> to see the rainfall effect of ripples in action. In 
+                          this mode you can adjust the interval at which the drops fall using the 
+                          <em>Frequency</em> slider.
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                  <p><span class="hilight">Calculation</span></p>
                   Using 2 buffers to hold the states of water - current and previous. Data from 
                   previous 2 frames are used to calculate the state of the current buffer. <br>
                   <em>How?</em> Data from the previous frame (Buffer2) and the frame before that 
@@ -132,10 +146,21 @@
                   Coding Train</a> site which I shamelessly copied. <br><br>
                   Tweaked with the noise functions a bit to come up with different variations. Also 
                   added color. <br><br>
-                  Toggle Burner/Fire Wall to either click to burn an area or to let the fire burn 
-                  at the bottom.  For area burn you can adjust the size using the Burn Radius 
-                  slider. <br><br>
-                  <strong>Algorithm</strong> <br><br>
+                  <p><span class="hilight">Controls</span></p>
+                  <ul>
+                    <li>The radio allows you to select a particular fire type (colours and size)</li>
+                    <li>
+                      Toggle Burner/Fire Wall button allows different interaction:
+                      <ul>
+                        <li><strong>Fire Wall</strong> lets the fire burn at the bottom.</li>
+                        <li>
+                          <strong>Burner</strong> lets you click on the viewport to burn an area. You 
+                          can adjust the size using the <em>Burn Radius</em> slider.
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                  <p><span class="hilight">Algorithm</span></p>
                   The fire effects are calculated in an off screen buffer and then copied over to 
                   the screen. The steps are: <br>
                   <ul>

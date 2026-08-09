@@ -13,9 +13,6 @@ class DNA {
     this._mutationRate = mutationRate ? mutationRate : 0.5;
   }
 
-  // static create = cities => 
-  //   new DNA(shuffle([...Array(cities.length).keys()]), cities);
-
   static create = (cities, mutationRate) => 
     new DNA(shuffle([...Array(cities.length).keys()]), cities, mutationRate);
   

@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" href="../favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Change This -->
+  <meta name="description" content="Evolving Bees hunting flowers.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://premjitadhikary.github.io/Mesmerize/bee-smart">
+  <meta property="og:title" content="Bee Smart">
+  <meta property="og:description" content="Evolving Bees hunting flowers.">
+  <meta property="og:image" content="https://premjitadhikary.github.io/Mesmerize/bee-smart/img/myCanvas.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://premjitadhikary.github.io/Mesmerize/bee-smart">
+  <meta name="twitter:title" content="Bee Smart">
+  <meta name="twitter:description" content="Evolving Bees hunting flowers.">
+  <meta name="twitter:image" content="https://premjitadhikary.github.io/Mesmerize/bee-smart/img/myCanvas.jpg">
+  <!-- Change This -->
+  <link rel="stylesheet" href="../appstyle.css">
+  <link rel="stylesheet" href="./compstyle.css">
+  <script src="../components/app-header.js" type="module"></script>
+  <script src="../components/sketch-text.js" type="module"></script>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/p5@0.10.2/lib/p5.js"></script> -->
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/p5.min.js"></script> -->
+  <!-- <script src="https://cdn.jsdelivr.net/npm/p5@1.3.1/lib/p5.js"></script> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.3.1/p5.min.js"></script>
+  <script src="./sketch.js"></script>
+  <script src="../common/sketch-colors.js"></script>
+  <script src="../common/utilities.js"></script>
+  <script src="../components/range-input.js" type="module"></script>
+  <script src="../components/radio-input-group.js" type="module"></script>
+  <script src="../components/tabbed-pane.js" type="module"></script>
+  <script src="./creature/mover-adaptor.js"></script>
+  <script src="../creatures/renderers/winged-renderer.js"></script>
+  <script src="../sierpinski-fractals/n-gon-unit.js"></script>
+  <script src="./algorithm/dna.js"></script>
+  <script src="./creature/bee.js"></script>
+  <script src="./objects/target.js"></script>
+  <script src="./objects/obstacle.js"></script>
+  <script src="./objects/start.js"></script>
+  <script src="./algorithm/genetic-algorithm.js"></script>
+  <script src="./algorithm/parallel-genetic-algorithm.js"></script>
+  <script src="./control.js" type="module"></script>
+  <title>Bee Smart</title>
+</head>
+<body>
+  <div class="toplevel">
+    <app-header class="heading"></app-header>
+    <div class="topbody">
+      <div class="container">
+          <div class="sketch">
+            <div id="sketch-holder" class="sketch-holder">
+            </div>
+          </div>
+
+          <div class="control">
+            <div class="control-container">
+              <div class="env_choice">
+                <p><strong>Environment Options</strong></p>
+                <radio-group id="choice_env">
+                  <radio-button value="0" id="radio_zero" aria-checked="true">No Obstacles</radio-button>
+                  <radio-button value="1" id="radio_one">One Obstacle</radio-button>
+                  <radio-button value="2" id="radio_two">Two Obstacles</radio-button>
+                  <radio-button value="3" id="radio_three">Three Obstacles</radio-button>
+                  <radio-button value="4" id="radio_four">Three Obstacles (vertical)</radio-button>
+                  <radio-button value="5" id="radio_five">Many Obstacles (vertical)</radio-button>
+                </radio-group>
+                <p>
+                  <span class="btn" id="algo_start">Run Algorithm</span>
+                </p>
+              </div>
+              <div class="algo_choice">
+                <p><strong>Algorithm Options</strong></p>
+                <radio-group id="choice_algo">
+                  <radio-button value="1" id="radio_ga" aria-checked="true">Genetic Algorithm</radio-button>
+                  <radio-button value="2" id="radio_pga">Parallel Genetic Algorithm</radio-button>
+                  <radio-button value="3" id="radio_aco" disabled>Ant Colony Optimisation</radio-button>
+                </radio-group>
+              </div>
+              <div class="algo_options">
+                <p>
+                  <label for="mutation_chance">Mutation Chance: </label>
+                  <range-input min="1" max="20" id="mutation_chance" disabled></range-input>
+                  <span>%</span>
+                  <br>
+                  <label for="elitism_limit">Elitism: </label>
+                  <range-input min="0" max="3" id="elitism_limit" disabled valueHidden></range-input>
+                  <span id="elitism_value"></span><span>%</span>
+                  <br>
+                  <label for="bee_speed">Speed: </label>
+                  <range-input min="1" max="5" id="bee_speed" disabled></range-input>
+                </p>
+                <p>
+                  <span class="btn disable" id="gen_10">+10 Generations</span>
+                  <span class="btn disable" id="gen_50">+50 Generations</span>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <sketch-text class="description" pageid="10055">
+            <div slot="content">
+              <p>
+                Bee population has been in decline in certain parts of the world, especially wild bee species. Commercially 
+                managed bees are kept for honey production and not for pollination. This produces a problem as it can create 
+                significant impacts on agriculture and ecosystems.
+              </p>
+              <p>
+                One solution is artificial pollinators. Drones which mimic bee behaviour continue pollination. Of course we 
+                cannot have individual bee drones driven by humans, we need some sort of automated steering behavior. Once the 
+                swarm is released, we need localised search algorithms to guide the drones. This is a simulation for the same!
+              </p>
+              <p class="sub-header">Controls</p>
+              <ul>
+                <li>Select an environment for the simulation from the radio options</li>
+                <li>Click on <em>Run Algorithm</em> to, well, run the algorithm</li>
+                <li>
+                  When the algorithm runs, the environment options are disabled. On the other hand algorithm specific controls 
+                  are enabled
+                </li>
+                <li>
+                  You can end the algorithm run at any point. Doing so will disable algorithm specific options and enable 
+                  environment selection
+                </li>
+                <li>Algorithm specific controls are explained in their individual tabs</li>
+              </ul>
+              <p class="sub-header">The Algorithms</p>
+              <p>Below we have a couple of approaches.</p>
+              <tabbed-pane>
+                <tab-content name="Genetic Algorithm" selected>
+                  <p>
+                    The original simulation was <em>Smart Rockets by Jer Thorp</em> to demonstrate <em>Genetic Algorithm</em>. I 
+                    came across this on, guess what, a <em>Daniel Shiffman</em> video.
+                  </p>
+                  <p>
+                    The original simulation has multiple Rockets where all Rockets are controlled by 5 thrusters which get placed 
+                    at a random location and have a random power. Additionally, each Thruster has a random fire pattern. All of 
+                    these combined allow the spacecraft to make flight maneuvers.
+                  </p>
+                  <p>
+                    Instead of rockets, I have bees here. Instead of 5 thrusters and random power for each, I simplified them to 
+                    just be a random force that will be applied to propel the bee forward, hopefully towards the target. 
+                  </p>
+                  <p>The way the algorithm works here is:</p>
+                  <ul>
+                    <li>The genes in the DNA of the bee are all the forces that would be applied to the bee for the journey</li>
+                    <li>Initial population has randomly generated DNA</li>
+                    <li>
+                      <em>Fitness</em> of a bee determines how successful it was to reach the target: <ul>
+                        <li>The fitness score is inversely proportional to the distance of the bee from the target</li>
+                        <li>
+                          Fitness score penalised if the bee has crashed into an obstacle or headed out of bounds (of the view 
+                          port)
+                        </li>
+                        <li>Fitness score is rewarded if the bee has reached the target</li>
+                        <li>
+                          Fitness score is rewarded further depending on the length of the path to reach the target (the shorter 
+                          the better
+                        </li>
+                      </ul>
+                    </li>
+                    <li>After calculating fitness, rank the population according to fitness</li>
+                    <li>
+                      Use <em>Elitism</em> to select top few ensuring the best ones survive to the next generation (can be 
+                      adjusted in the controls)
+                    </li>
+                    <li>Use <em>Fitness Proportionate Selection</em> to generate a mating pool</li>
+                    <li>
+                      For <em>Crossover</em>, select two parents at random, then select a mid point at random, fill the left 
+                      and right side with genes from each of the parent
+                    </li>
+                    <li>
+                      <em>Mutation</em> introduces variation where every gene has a chance of being mutated (can be adjusted 
+                      in the controls)
+                    </li>
+                  </ul>
+                  <p><span class="hilight">Algorithm specific Controls</span></p>
+                  <ul>
+                    <li>Adjust Mutation Chance to control mutation for next generation</li>
+                    <li>Adjust Elitism to govern how many elites are selected for next generation</li>
+                    <li>Adjust Speed to speed up the bees</li>
+                    <li>The buttons enable to fast-forward through generations</li>
+                  </ul>
+                </tab-content>
+                <tab-content name="Parallel Genetic Algorithm">
+                  <p>
+                    A limitation I noticed while running the Genetic Algorithm is that once a path is found, visually 
+                    even though I could see a better path available, the algorithm did not explore further. Even after 
+                    <em>Mutation Chance</em> and <em>Elitism</em> were tweaked. But when I run the algorithm again, it 
+                    would find the better path. Well, might not be the immediate next run, but it would, at some point.
+                  </p>
+                  <p>
+                    In case of the environment with <em>One Obstacle</em>, either path (right or left) is a viable 
+                    option, but once the algorithm reaches the target with one of them, the other path is never considered.
+                  </p>
+                  <p>
+                    That's when it occurred to me. <em>What if run I multiple instances of the algorithm at the same time?</em>
+                    That would increase the search space and the output of one will not influence the others. <em>Did I just 
+                    come up with a new algorithm? Will I be writting a paper on this?</em> My excitement was very short-lived 
+                    as one google search later I was staring at <em>Parallel Genetic Algorithm!!</em>
+                  </p>
+                  <p>
+                    Parallel Genetic Algorithm (PGA) is defined as an extension of the genetic algorithm that allows distinct 
+                    subpopulations to evolve in different directions simultaneously.
+                  </p>
+                  <p>
+                    In short, break the population into subpopulations, run GA on each of these population in a contained 
+                    manner, then take the results from each of these sub populations to report back.
+                  </p>
+                  <p>This is also known as <em>island model</em>.</p>
+                  <p>
+                    In some variations, migration of a small subset of the population across the islands is also considered to 
+                    add more variety for <em>Crossover</em>. This is not implemented in the solution here. Like I mentioned, I 
+                    did not want the output of one to influence the others.
+                  </p>
+                  <p><span class="hilight">Algorithm specific Controls</span></p>
+                  Same as those for <em>Genetic Algorithm</em>. <br><br>
+                  <em>Mutation Chance</em>, <em>Elitism</em>, <em>Speed</em> and ability to <em>fast-forward through 
+                  generations</em>.
+                </tab-content>
+                <tab-content name="Ant Colony Optimisation">
+                  To Be Added soon <br>
+                </tab-content>
+              </tabbed-pane>
+              <br>
+            </div>
+            <div slot="source">
+              <p>
+                <a href="https://www.youtube.com/watch?v=bGz7mv2vD6g" target="_blank">Smart Rockets</a> by Daniel Shiffman.
+              </p>
+            </div>
+          </sketch-text>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

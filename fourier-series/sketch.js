@@ -31,15 +31,15 @@ function draw() {
 
   let x = 0;
   let y = 0;
+  let a = calculateA();
+  let r = calculateR();
 
   for (let i=0; i<number; i++) {
     let prevX = x;
     let prevY = y;
 
-    let a = calculateA();
     let b = calculateB(i);
     let c = calculateC(b);
-    let r = calculateR();
 
     let radius = r * (a / (c * PI));
 
@@ -135,9 +135,9 @@ function curveColor() {
   switch(waveType) {
     case SQUARE: return SketchColor.blend(SketchColor.violet(),SketchColor.white()).stringify();
     case SAW_TOOTH: return SketchColor.blend(
-        SketchColor.blue(),SketchColor.green(),SketchColor.white()).stringify();;
-    case PULSE: return SketchColor.red().stringify();;
-    case TRIANGLE: return SketchColor.blend(SketchColor.orange(),SketchColor.white()).stringify();;
+        SketchColor.blue(),SketchColor.green(),SketchColor.white()).stringify();
+    case PULSE: return SketchColor.red().stringify();
+    case TRIANGLE: return SketchColor.blend(SketchColor.orange(),SketchColor.white()).stringify();
   }
   return 0;
 }

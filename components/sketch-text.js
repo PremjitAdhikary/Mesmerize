@@ -21,7 +21,7 @@ import { recommendationEngine } from '../common/recommendation-engine.js';
         pageName = !pages.getPageById(pageid) ? 'Add Valid PageId' : pages.getPageById(pageid).name;
       }
 
-      let pageDate = !pageid || !pages.getPageById(pageid) ? '' : pages.getPageById(pageid).date;
+      let pageDate = !pageid || !pages.getPageById(pageid) ? '' : pages.getFormattedDate(pageid);
   
       var shadow = this.attachShadow({ mode: 'open' });
       shadow.innerHTML = `

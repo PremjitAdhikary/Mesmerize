@@ -1,0 +1,18 @@
+.control-container {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 3fr 4fr;
+  grid-template-rows: 1fr 3fr;
+  grid-template-areas:
+    "env_choice algo_choice"
+    "env_choice algo_options";
+}
+.env_choice {
+  grid-area: env_choice;
+}
+.algo_choice {
+  grid-area: algo_choice;
+}
+.algo_options {
+  grid-area: algo_options;
+}
