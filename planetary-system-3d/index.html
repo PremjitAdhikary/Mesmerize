@@ -21,8 +21,8 @@
   <link rel="stylesheet" href="../appstyle.css">
   <script src="../components/app-header.js" type="module"></script>
   <script src="../components/sketch-text.js" type="module"></script>
-  <script src="https://cdn.babylonjs.com/babylon.js"></script>
-  <!-- <script src="../lib/babylonJS/4_2_0/babylon.js"></script> -->
+  <!-- <script src="https://cdn.babylonjs.com/babylon.js"></script> -->
+  <script src="../lib/babylonJS/4_2_0/babylon.js"></script>
   <script src="./main.js" type="module"></script>
   <script src="../common/sketch-colors.js"></script>
   <script src="../common/utilities.js"></script>
@@ -66,15 +66,22 @@
                   <li>The number of moons is not exact.</li>
                 </ul>
               </p>
-              <p>
-                Using mouse on the Viewport allows to control the camera. Click and drag to move 
-                Camera. Hold Control, Click and drag to pan Camera. Scroll to Zoom In/Out.
-              </p>
-              <p>
-                If Viewport is in focus, the keyboard can also be used. Use Arrow keys to move 
-                Camera. Control &plus; Arrow keys to pan Camera. Alt &plus; Up/Down Arrow keys 
-                to Zoom In/Out.
-              </p>
+              <p class="sub-header">Controls</p>
+              <ul>
+                <li>
+                  Using mouse on the Viewport allows to control the camera. Click and drag to move 
+                  Camera. Hold Control, Click and drag to pan Camera. Scroll to Zoom In/Out.
+                </li>
+                <li>
+                  If Viewport is in focus, the keyboard can also be used. Use Arrow keys to move 
+                  Camera. Control &plus; Arrow keys to pan Camera. Alt &plus; Up/Down Arrow keys 
+                  to Zoom In/Out.
+                </li>
+                <li>
+                  The sole button on the control panel allows you to pause/run the animation. The 
+                  camera can be operated without requiring animation to run.
+                </li>
+              </ul>
             </div>
             <div slot="source">
               <p>

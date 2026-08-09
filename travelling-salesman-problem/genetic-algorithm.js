@@ -103,24 +103,16 @@ class GeneticAlgorithm extends BaseAlgo {
    * of the parents
    */
   generateMatingPool() {
-    let matingPool = [];
-    for (let i=0; i < this._populationSize * this._elitism; i++) 
-      matingPool.push(this._population[i]);
-
-    let cumulativeFitness = [];
-    cumulativeFitness.push(this._population[0]._fitness);
-    for (let i=1; i<this._population.length; i++) 
-      cumulativeFitness.push(this._population[i]._fitness + cumulativeFitness[i-1]);
-    cumulativeFitness.reverse();
-
-    for (let i=0; i < this._populationSize - (this._populationSize * this._elitism) - 1; i++) {
-      let probability = random(1);
-      for (let f=cumulativeFitness.length-1; f>=0; f--) 
-        if (probability <= cumulativeFitness[f]) {
-          matingPool.push(this._population[f]);
-          break;
-        }
-    }
+    let sumFitness = this._population.reduce((a,b) => a + b._fitness, 0);
+    let prob = this._population.map(s => s._fitness/sumFitness);
+    let pickOne = () => { // Fitness Proportionate Selection
+      let index = 0;
+      let r = random(1);
+      while (r > 0) 
+        r = r - prob[index++];
+      return this._population[--index];
+    };
+    let matingPool = Array.from({ length: this._populationSize }, (_) => pickOne());
     return matingPool;
   }
 
@@ -134,7 +126,7 @@ class GeneticAlgorithm extends BaseAlgo {
   breed(matingPool) {
     let children = [];
     for (let i=0; i < this._populationSize * this._elitism; i++) 
-      children.push(matingPool[i]);
+      children.push(this._population[i]);
 
     for (let i=0; i < this._populationSize - (this._populationSize * this._elitism); ) {
       let dnaA = floor(random(matingPool.length));

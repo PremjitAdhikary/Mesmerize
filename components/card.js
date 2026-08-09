@@ -11,7 +11,7 @@ import { pages } from '../common/pages.js';
       const pageUrl = pages.getPageById(this.id).url;
       const pageDetail = pages.getPageById(this.id).detail;
       const pageImg = pages.getPageById(this.id).img;
-      const pageDate = pages.getPageById(this.id).date;
+      const pageDate = pages.getFormattedDate(this.id);
   
       var shadow = this.attachShadow({ mode: 'open' });
       shadow.innerHTML = `

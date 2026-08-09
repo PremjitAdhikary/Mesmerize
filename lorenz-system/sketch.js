@@ -217,7 +217,7 @@ function drawAxes() {
   line(0, 0, 0, lineLen, 0, 0);
   stroke(120, 80, 70); // y - green
   line(0, 0, 0, 0, lineLen, 0);
-  stroke(0, 00, 100); // z - white
+  stroke(0, 0, 100); // z - white
   line(0, 0, 0, 0, 0, lineLen);
 }
 

@@ -961,12 +961,28 @@ class Pages {
         url: '/sim-phone-v2',
         img: '/sim-phone-v2/img/preview.jpg',
         detail: 'Simulation of an upgraded Phone.',
-        rank: 2,
+        rank: 3,
         date: 'Jul 14 2026', 
         tags: [
           { tag: 'phone', wt: 5 }, 
           { tag: 'sim', wt: 1 }, 
           { tag: 'interactive', wt: 2 }
+        ]
+      },
+      {
+        id: 10055,
+        name: 'Bee Smart',
+        url: '/bee-smart',
+        img: '/bee-smart/img/preview.jpg',
+        detail: 'Evolving Bees hunting flowers.',
+        rank: 3,
+        date: 'Aug 09 2026', 
+        tags: [
+          { tag: 'creature', wt: 2 }, 
+          { tag: 'sim', wt: 1 }, 
+          { tag: 'visualization', wt: 1 }, 
+          { tag: 'genetic algorithm', wt: 5 }, 
+          { tag: 'intelligence', wt: 2 }
         ]
       }
     ];
@@ -983,7 +999,7 @@ class Pages {
           }
         });
 
-    this._latest = [10054];
+    this._latest = [10055];
   }
 
   getPageById(pageId) {
@@ -1015,6 +1031,13 @@ class Pages {
 
   getPublishedPagesId() {
     return this._publishedPagesId;
+  }
+
+  getFormattedDate(pageId) {
+    let pgDate = this.getPageById(pageId).date;
+    if(pgDate == '' || pgDate == null || pgDate.split(' ').length < 3) return '';
+    let pgDateElements = pgDate.split(' ');
+    return Number(pgDateElements[1]) + ' ' + pgDateElements[0] + ' ' + pgDateElements[2];
   }
 
 }
